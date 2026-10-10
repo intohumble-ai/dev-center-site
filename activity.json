@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:18",
+     "ts": "2026-10-10T19:41",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -449,12 +449,27 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 30,
+   "commits": 33,
    "timeline": [
     {
-     "ts": "2026-10-10T19:31",
+     "ts": "2026-10-10T19:41",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T19:40",
+     "tool": "git",
+     "title": "QOL: master(FONT 프리텐다드) 병합 뒤 증거 다시 찍음(23/23 OK)"
+    },
+    {
+     "ts": "2026-10-10T19:34",
+     "tool": "git",
+     "title": "QOL: 7차 감사 PASS 기록"
+    },
+    {
+     "ts": "2026-10-10T19:33",
+     "tool": "git",
+     "title": "QOL 6차 감사 수리: 퀘스트 줄([진행 중] 등)이 하나라도 있으면 대화 커서 기억 안 함"
     },
     {
      "ts": "2026-10-10T19:29",
@@ -495,21 +510,6 @@
      "ts": "2026-10-10T19:01",
      "tool": "git",
      "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)"
-    },
-    {
-     "ts": "2026-10-10T17:06",
-     "tool": "git",
-     "title": "W5-PLAY 감사 4차 수리: 접경 충돌·원군이 세력 격문을 밀어내던 것(P1), 자동 이동 아무 키 해제·귀환 해제·중독 오판(P2), 접경"
-    },
-    {
-     "ts": "2026-10-10T16:58",
-     "tool": "git",
-     "title": "docs(font): BRIEF §3 번들 폰트 허용·ARTDIR 폰트=프리텐다드·PROGRESS"
-    },
-    {
-     "ts": "2026-10-10T16:58",
-     "tool": "git",
-     "title": "evidence(font): 프리텐다드 캡처 스크립트·증거(1280×800·1920×1080, 폴백·창 크기 변경)"
     }
    ]
   },
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,9 +1914,33 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T19:31",
+   "ts": "2026-10-10T19:41",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T19:41",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:40",
+   "tool": "git",
+   "title": "QOL: master(FONT 프리텐다드) 병합 뒤 증거 다시 찍음(23/23 OK)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:34",
+   "tool": "git",
+   "title": "QOL: 7차 감사 PASS 기록",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:33",
+   "tool": "git",
+   "title": "QOL 6차 감사 수리: 퀘스트 줄([진행 중] 등)이 하나라도 있으면 대화 커서 기억 안 함",
    "project": "samguk-rpg"
   },
   {
@@ -1948,12 +1972,6 @@
    "tool": "git",
    "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:18",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T19:17",
@@ -2031,12 +2049,6 @@
    "ts": "2026-10-10T16:27",
    "tool": "git",
    "title": "문서: PROGRESS W5-PLAY 13절(HISTORY 병합 뒤 재측정)",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:19",
-   "tool": "git",
-   "title": "QOL: 일괄 판매·되사기·장착 전 비교(▲▼)·잠금★·N·정렬/필터·물약 자동·수량 입력·보관함·프리셋·제작 최대 + 세계 공지 띠·전쟁 게시",
    "project": "samguk-rpg"
   },
   {
@@ -2140,25 +2152,11 @@
    "tool": "git",
    "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T14:15",
-   "tool": "git",
-   "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T14:11",
-   "tool": "git",
-   "title": "병합: master(W5-POLISH — 조작키 개편·퀘스트 길 안내·라벨 배치기) → history",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T19:31",
+ "data_at": "2026-10-10T19:41",
  "active_projects": [
   "ai-securities",
-  "dev-center",
-  "samguk-rpg",
-  "toss-marketing-center"
+  "samguk-rpg"
  ]
 }
