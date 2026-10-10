@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:04",
+     "ts": "2026-10-10T14:16",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 31,
+   "commits": 32,
    "timeline": [
     {
-     "ts": "2026-10-10T14:05",
+     "ts": "2026-10-10T14:14",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T14:11",
+     "tool": "git",
+     "title": "병합: master(W5-POLISH — 조작키 개편·퀘스트 길 안내·라벨 배치기) → history"
     },
     {
      "ts": "2026-10-10T14:03",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T12:57",
      "tool": "git",
      "title": "HISTORY H2: 기존 NPC 시대어·조건부 대사(NPC_ERA_COND), 채팅 [사건] 중복 제거·조사, 증거 스크립트 evidence-"
-    },
-    {
-     "ts": "2026-10-10T12:48",
-     "tool": "git",
-     "title": "HISTORY H2: 사건 퀘스트 12 · 메인 신규 7 · 마을 연작 10 · 장수 방문자·사건 인물 NPC 18 · 조건부 대사 · 시대 퀘"
     }
    ]
   },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:01",
+     "ts": "2026-10-10T14:07",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,16 +1914,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T14:05",
+   "ts": "2026-10-10T14:16",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T14:14",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T14:04",
+   "ts": "2026-10-10T14:11",
+   "tool": "git",
+   "title": "병합: master(W5-POLISH — 조작키 개편·퀘스트 길 안내·라벨 배치기) → history",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T14:07",
    "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T14:03",
@@ -1936,12 +1948,6 @@
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T14:01",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T14:01",
@@ -2146,15 +2152,9 @@
    "tool": "git",
    "title": "문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T06:49",
-   "tool": "git",
-   "title": "W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T14:05",
+ "data_at": "2026-10-10T14:16",
  "active_projects": [
   "ai-securities",
   "dev-center",
