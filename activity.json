@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:29",
+     "ts": "2026-10-10T15:30",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,9 +269,29 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:22",
+     "ts": "2026-10-10T15:32",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T15:22",
+     "tool": "git",
+     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
+    },
+    {
+     "ts": "2026-10-10T15:08",
+     "tool": "git",
+     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
+    },
+    {
+     "ts": "2026-10-10T14:30",
+     "tool": "git",
+     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
+    },
+    {
+     "ts": "2026-10-10T14:15",
+     "tool": "git",
+     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
     },
     {
      "ts": "2026-10-10T12:23",
@@ -307,26 +327,6 @@
      "ts": "2026-09-15T01:37",
      "tool": "claude",
      "title": "세션 이름 지정"
-    },
-    {
-     "ts": "2026-09-14T17:41",
-     "tool": "git",
-     "title": "inbound_autopilot: use heartbeat-aware release_guard.tick_gate (skip on FRESH/HE"
-    },
-    {
-     "ts": "2026-09-14T17:28",
-     "tool": "git",
-     "title": "docs: first-human sprint report 2026-09-14 18:00"
-    },
-    {
-     "ts": "2026-09-14T17:26",
-     "tool": "git",
-     "title": "First Real Human Sprint: E1-E7 milestones (write-once, E5 never inferred), daily"
-    },
-    {
-     "ts": "2026-09-14T13:20",
-     "tool": "git",
-     "title": "docs: inbound engine report 2026-09-14 13:30"
     }
    ]
   },
@@ -449,12 +449,27 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 24,
+   "commits": 25,
    "timeline": [
     {
-     "ts": "2026-10-10T15:26",
+     "ts": "2026-10-10T15:39",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T15:38",
+     "tool": "git",
+     "title": "docs(mockups-v3): 게임 글씨 2차 시안 D·E·F 추가"
+    },
+    {
+     "ts": "2026-10-10T15:33",
+     "tool": "git",
+     "title": "테스트: tickInput 이 둘째 틱부터 cycleTarget 도 끔(W5 계약)"
+    },
+    {
+     "ts": "2026-10-10T15:32",
+     "tool": "git",
+     "title": "W5-PLAY: 3차 감사 P1(필드 목표 고정 키가 틱 없는 프레임에 사라지던 것)·P3 수리 + 퀘스트 자동 이동(A 키, 맵 넘기, 해제·"
     },
     {
      "ts": "2026-10-10T15:25",
@@ -495,21 +510,6 @@
      "ts": "2026-10-10T14:01",
      "tool": "git",
      "title": "병합: W5-POLISH(라벨 겹침·전장 정돈·소리·설정·도움말·퀘스트 추적·QWER 조작키·활 방향) → master"
-    },
-    {
-     "ts": "2026-10-10T13:59",
-     "tool": "git",
-     "title": "W5-PLAY 감사 1차 수리: 전면전 손실 비율 분모(P1), 장판·저주·호신부·실체화 유저·원혼 사상자(P3), 테스트 공백 3, 증거 W5"
-    },
-    {
-     "ts": "2026-10-10T13:58",
-     "tool": "git",
-     "title": "W5-POLISH: 감사 4차 PASS 기록 · 증거 스크립트 안 쓰는 줄 정리"
-    },
-    {
-     "ts": "2026-10-10T13:55",
-     "tool": "git",
-     "title": "HISTORY 콜드 감사 1차 FAIL 수리: P1 형주 헌납 뒤 남의 장수가 유표군 군주·수락만으로 사건 보상 + P2 마초 문구·동작대 완화"
     }
    ]
   },
@@ -666,9 +666,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:28",
+     "ts": "2026-10-10T15:39",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T15:33",
+     "tool": "git",
+     "title": "B안 재감사 수리(Important 4·Suggestion 5): I-1 비밀 스캔을 rev-list --objects 전 객체로 · I-2 R"
     },
     {
      "ts": "2026-10-10T15:01",
@@ -719,11 +724,6 @@
      "ts": "2026-10-10T01:21",
      "tool": "git",
      "title": "테스트: 본인 식별정보 없을 때 fail-closed 단언"
-    },
-    {
-     "ts": "2026-10-10T01:20",
-     "tool": "git",
-     "title": "재감사 반영: origin/<branch> 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa"
     }
    ]
   },
@@ -1914,22 +1914,52 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T15:29",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T15:28",
+   "ts": "2026-10-10T15:39",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T15:26",
+   "ts": "2026-10-10T15:39",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T15:38",
+   "tool": "git",
+   "title": "docs(mockups-v3): 게임 글씨 2차 시안 D·E·F 추가",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T15:33",
+   "tool": "git",
+   "title": "B안 재감사 수리(Important 4·Suggestion 5): I-1 비밀 스캔을 rev-list --objects 전 객체로 · I-2 R",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T15:33",
+   "tool": "git",
+   "title": "테스트: tickInput 이 둘째 틱부터 cycleTarget 도 끔(W5 계약)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T15:32",
+   "tool": "git",
+   "title": "W5-PLAY: 3차 감사 P1(필드 목표 고정 키가 틱 없는 프레임에 사라지던 것)·P3 수리 + 퀘스트 자동 이동(A 키, 맵 넘기, 해제·",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T15:32",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T15:30",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T15:25",
@@ -1945,8 +1975,14 @@
   },
   {
    "ts": "2026-10-10T15:22",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "tool": "git",
+   "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T15:08",
+   "tool": "git",
+   "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w",
    "project": "toss-marketing-center"
   },
   {
@@ -1968,6 +2004,12 @@
    "project": "samguk-rpg"
   },
   {
+   "ts": "2026-10-10T14:30",
+   "tool": "git",
+   "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg",
+   "project": "toss-marketing-center"
+  },
+  {
    "ts": "2026-10-10T14:21",
    "tool": "git",
    "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히",
@@ -1984,6 +2026,12 @@
    "tool": "git",
    "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI",
    "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T14:15",
+   "tool": "git",
+   "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T14:11",
@@ -2104,57 +2152,9 @@
    "tool": "git",
    "title": "W5-POLISH 3차: 활 손 높이·뒷모습 · 증거 전체(POLISH) · PROGRESS/ARCHITECTURE",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T12:23",
-   "tool": "git",
-   "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T12:16",
-   "tool": "git",
-   "title": "P1: devcenter/sandbox.py — bwrap 상자 A/B 인자 빌더·허용목록 프록시(일 상한)·토큰 환경상속·사본 clone/fe",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T12:09",
-   "tool": "git",
-   "title": "home picks: apply the verified-comparison allowlist (fail-closed)",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T12:00",
-   "tool": "git",
-   "title": "W5-POLISH 2차: 퀘스트 추적 패널·길 안내(questNav)·받을 수 있음 탭·찾아가기 / 조작키 개편(방향키+QWER·1234) / ",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:53",
-   "tool": "git",
-   "title": "P0: 샌드박스 실현 가능성 실측 — 상자 A에서 claude -p 2회 성공(▮▮), 허용 호스트 api.anthropic.com 단일 확정,",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T11:49",
-   "tool": "git",
-   "title": "문서: 역사 사건·시대감 퀘스트 계획(Fable 5.1) + 사용자 답변",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:41",
-   "tool": "git",
-   "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL ",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T11:20",
-   "tool": "git",
-   "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)",
-   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-10T15:29",
+ "data_at": "2026-10-10T15:39",
  "active_projects": [
   "ai-securities",
   "dev-center",
