@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T16:09",
+     "ts": "2026-10-10T16:21",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,27 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 26,
+   "commits": 24,
    "timeline": [
     {
-     "ts": "2026-10-10T16:10",
+     "ts": "2026-10-10T16:22",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T16:19",
+     "tool": "git",
+     "title": "QOL: 일괄 판매·되사기·장착 전 비교(▲▼)·잠금★·N·정렬/필터·물약 자동·수량 입력·보관함·프리셋·제작 최대 + 세계 공지 띠·전쟁 게시"
+    },
+    {
+     "ts": "2026-10-10T16:18",
+     "tool": "git",
+     "title": "master 병합(HISTORY H1·H2 + 문서): 의용군 격문과 원군 격문 함께, main7 시대어 문구에 황건 진채 위치, PROGRES"
+    },
+    {
+     "ts": "2026-10-10T16:16",
+     "tool": "git",
+     "title": "W5-PLAY: 격문 빈도(원군 격문·접경 충돌·임관 뒤 첫 격문 보장·징 소리) + 측정 테스트, 증거 스크립트 타이밍 손질, PROGRESS"
     },
     {
      "ts": "2026-10-10T16:07",
@@ -495,21 +510,6 @@
      "ts": "2026-10-10T14:37",
      "tool": "git",
      "title": "master(W5-POLISH) 병합: 조작키 표에 목표 고정 키, 전장 규모 = 설정 창 값, 개전 배너 hudRects, 증거 새 키"
-    },
-    {
-     "ts": "2026-10-10T14:21",
-     "tool": "git",
-     "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히"
-    },
-    {
-     "ts": "2026-10-10T14:11",
-     "tool": "git",
-     "title": "병합: master(W5-POLISH — 조작키 개편·퀘스트 길 안내·라벨 배치기) → history"
-    },
-    {
-     "ts": "2026-10-10T14:03",
-     "tool": "git",
-     "title": "2차 전직 안내 문구를 새 조작키(E·R)로"
     }
    ]
   },
@@ -1738,10 +1738,15 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-09",
+   "last_day": "2026-10-10",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-10-10T16:16",
+     "tool": "git",
+     "title": "devcenter: engine/rankFactions 순수 함수 추가 — 도시 수·병력 합계 기준 세력 순위 + vitest 테스트"
+    },
     {
      "ts": "2026-10-09T19:23",
      "tool": "git",
@@ -1796,11 +1801,6 @@
      "ts": "2026-03-25T00:23",
      "tool": "git",
      "title": "feat: DiplomacyEngine 외교 시스템 구현"
-    },
-    {
-     "ts": "2026-03-25T00:23",
-     "tool": "git",
-     "title": "feat: TurnEngine 턴 진행 + AI 행동 구현"
     }
    ]
   },
@@ -1914,22 +1914,46 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T16:12",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T16:10",
+   "ts": "2026-10-10T16:22",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T16:09",
+   "ts": "2026-10-10T16:21",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T16:19",
+   "tool": "git",
+   "title": "QOL: 일괄 판매·되사기·장착 전 비교(▲▼)·잠금★·N·정렬/필터·물약 자동·수량 입력·보관함·프리셋·제작 최대 + 세계 공지 띠·전쟁 게시",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T16:18",
+   "tool": "git",
+   "title": "master 병합(HISTORY H1·H2 + 문서): 의용군 격문과 원군 격문 함께, main7 시대어 문구에 황건 진채 위치, PROGRES",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T16:16",
+   "tool": "git",
+   "title": "W5-PLAY: 격문 빈도(원군 격문·접경 충돌·임관 뒤 첫 격문 보장·징 소리) + 측정 테스트, 증거 스크립트 타이밍 손질, PROGRESS",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T16:16",
+   "tool": "git",
+   "title": "devcenter: engine/rankFactions 순수 함수 추가 — 도시 수·병력 합계 기준 세력 순위 + vitest 테스트",
+   "project": "samgukji-game"
+  },
+  {
+   "ts": "2026-10-10T16:12",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T16:07",
@@ -2128,33 +2152,9 @@
    "tool": "git",
    "title": "P1 콜드감사 FAIL 10건 수리: C1 fetch 전 사본 비밀 스캔+purge_branch · C2 /etc 화이트리스트+remount-r",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T12:57",
-   "tool": "git",
-   "title": "HISTORY H2: 기존 NPC 시대어·조건부 대사(NPC_ERA_COND), 채팅 [사건] 중복 제거·조사, 증거 스크립트 evidence-",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T12:48",
-   "tool": "git",
-   "title": "HISTORY H2: 사건 퀘스트 12 · 메인 신규 7 · 마을 연작 10 · 장수 방문자·사건 인물 NPC 18 · 조건부 대사 · 시대 퀘",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T12:36",
-   "tool": "git",
-   "title": "master 병합(HISTORY_PLAN 문서)",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T12:36",
-   "tool": "git",
-   "title": "W5-PLAY 1차: 토벌 4~5분·병졸 토벌, 전장 밸런스(무방비 본진·장수 돌진·호신부·물약 비례), 전면전(강변 대평원·규모 설정·개전 연",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T16:12",
+ "data_at": "2026-10-10T16:22",
  "active_projects": [
   "ai-securities",
   "samguk-rpg",

@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-10T16:12",
+ "data_at": "2026-10-10T16:22",
  "ideas": [
   {
    "id": "c2c56a98",
@@ -11,6 +11,19 @@
    "failures": 1,
    "audit": "PASS",
    "note": "배포 성공 bcf6dc2→e744306",
+   "color": "blue",
+   "state_ko": "완료"
+  },
+  {
+   "id": "2f6f675d",
+   "project": "samgukji-game",
+   "text": "engine 폴더에 순수 함수 rankFactions(state) 를 engine/rankFactions.js 로 추가한다: summarizeState(state) 결과를 이용해 세력을 보유 도시 수 내림차순, 같으면 병력 합계 내림차순으로 정렬한 [{factionId, cities, troops}] 배열을 반환. 기존 코드 스타일(ESM, 짧은 한국어 주석)을 따르고 tests/rankFactions.test.js 에 vitest 테스트를 추가한다.",
+   "state": "done",
+   "created_at": "2026-10-10T16:13:07+09:00",
+   "updated_at": "2026-10-10T16:17:09+09:00",
+   "failures": 1,
+   "audit": "PASS",
+   "note": "배포 성공 e744306→ea84d45",
    "color": "blue",
    "state_ko": "완료"
   }
