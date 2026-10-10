@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T21:43",
+     "ts": "2026-10-10T22:15",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1914,7 +1914,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T21:43",
+   "ts": "2026-10-10T22:15",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
@@ -2154,9 +2154,10 @@
    "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-10T21:43",
+ "data_at": "2026-10-10T22:15",
  "active_projects": [
   "ai-securities",
-  "samguk-rpg"
+  "samguk-rpg",
+  "toss-marketing-center"
  ]
 }
