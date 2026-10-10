@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T17:02",
+     "ts": "2026-10-10T17:12",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T16:57",
+     "ts": "2026-10-10T17:06",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 29,
+   "commits": 30,
    "timeline": [
     {
-     "ts": "2026-10-10T17:03",
+     "ts": "2026-10-10T17:09",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T17:06",
+     "tool": "git",
+     "title": "W5-PLAY 감사 4차 수리: 접경 충돌·원군이 세력 격문을 밀어내던 것(P1), 자동 이동 아무 키 해제·귀환 해제·중독 오판(P2), 접경"
     },
     {
      "ts": "2026-10-10T16:58",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T16:07",
      "tool": "git",
      "title": "docs(mockups-v3): 게임 글씨 3차 시안(깔끔한 실사용 글꼴 G·H·I·J)"
-    },
-    {
-     "ts": "2026-10-10T15:38",
-     "tool": "git",
-     "title": "docs(mockups-v3): 게임 글씨 2차 시안 D·E·F 추가"
     }
    ]
   },
@@ -662,11 +662,11 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T16:48",
+     "ts": "2026-10-10T17:13",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,16 +1914,34 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T17:03",
+   "ts": "2026-10-10T17:13",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T17:12",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T17:09",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T17:02",
+   "ts": "2026-10-10T17:06",
+   "tool": "git",
+   "title": "W5-PLAY 감사 4차 수리: 접경 충돌·원군이 세력 격문을 밀어내던 것(P1), 자동 이동 아무 키 해제·귀환 해제·중독 오판(P2), 접경",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T17:06",
    "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T16:58",
@@ -1942,18 +1960,6 @@
    "tool": "git",
    "title": "feat(font): 게임 글꼴 프리텐다드(500/700) + 장치 해상도 글씨·판넬",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:57",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T16:48",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T16:47",
@@ -2146,17 +2152,12 @@
    "tool": "git",
    "title": "W5-POLISH 재감사 3차 수리: 키 증거 검사 조건 대기·창 닫기 실패 기록",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T13:25",
-   "tool": "git",
-   "title": "W5-POLISH 재감사 2차 수리: 첫 사냥 대사 키·키 검사 조건 대기·추적 패널 띠·설정 키 라벨",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T17:03",
+ "data_at": "2026-10-10T17:13",
  "active_projects": [
   "ai-securities",
+  "dev-center",
   "samguk-rpg",
   "toss-marketing-center"
  ]
