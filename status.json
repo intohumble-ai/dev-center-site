@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-10T23:14",
+ "data_at": "2026-10-11T04:45",
  "projects": {
   "ai-securities": {
    "id": "ai-securities",
@@ -153,9 +153,9 @@
   "fleet-vault": {
    "id": "fleet-vault",
    "log_error": null,
-   "last_commit": "2026-10-04",
+   "last_commit": "2026-10-11",
    "light": "unknown",
-   "log_age": "6일 전"
+   "log_age": "1시간 이내"
   },
   "fusion-v9-coinbot": {
    "id": "fusion-v9-coinbot",
