@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 23,
+   "commits": 24,
    "timeline": [
     {
-     "ts": "2026-10-10T12:40",
+     "ts": "2026-10-10T12:51",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T12:48",
+     "tool": "git",
+     "title": "HISTORY H2: 사건 퀘스트 12 · 메인 신규 7 · 마을 연작 10 · 장수 방문자·사건 인물 NPC 18 · 조건부 대사 · 시대 퀘"
     },
     {
      "ts": "2026-10-10T12:36",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T06:49",
      "tool": "git",
      "title": "W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백"
-    },
-    {
-     "ts": "2026-10-10T06:38",
-     "tool": "git",
-     "title": "W4 콜드 감사 1차 FAIL 수리: 발탁 현령 박탈이 승급되던 P1 + P2 9"
     }
    ]
   },
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,16 +1914,22 @@
  },
  "feed": [
   {
+   "ts": "2026-10-10T12:51",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:48",
+   "tool": "git",
+   "title": "HISTORY H2: 사건 퀘스트 12 · 메인 신규 7 · 마을 연작 10 · 장수 방문자·사건 인물 NPC 18 · 조건부 대사 · 시대 퀘",
+   "project": "samguk-rpg"
+  },
+  {
    "ts": "2026-10-10T12:41",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T12:40",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T12:36",
@@ -2146,19 +2152,11 @@
    "tool": "git",
    "title": "W1 통합: 화면 D-n 떼기 후 구분점 공백 정리(서버·화면 동일)",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T01:21",
-   "tool": "git",
-   "title": "테스트: 본인 식별정보 없을 때 fail-closed 단언",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T12:41",
+ "data_at": "2026-10-10T12:51",
  "active_projects": [
   "ai-securities",
-  "dev-center",
-  "samguk-rpg",
-  "toss-marketing-center"
+  "samguk-rpg"
  ]
 }
