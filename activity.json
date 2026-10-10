@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 17,
+   "commits": 18,
    "timeline": [
     {
-     "ts": "2026-10-10T11:50",
+     "ts": "2026-10-10T12:02",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T12:00",
+     "tool": "git",
+     "title": "W5-POLISH 2차: 퀘스트 추적 패널·길 안내(questNav)·받을 수 있음 탭·찾아가기 / 조작키 개편(방향키+QWER·1234) / "
     },
     {
      "ts": "2026-10-10T11:49",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T04:50",
      "tool": "git",
      "title": "W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프"
-    },
-    {
-     "ts": "2026-10-10T04:46",
-     "tool": "git",
-     "title": "W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev"
     }
    ]
   },
@@ -666,9 +666,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:45",
+     "ts": "2026-10-10T11:55",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T11:53",
+     "tool": "git",
+     "title": "P0: 샌드박스 실현 가능성 실측 — 상자 A에서 claude -p 2회 성공(▮▮), 허용 호스트 api.anthropic.com 단일 확정,"
     },
     {
      "ts": "2026-10-10T11:11",
@@ -719,11 +724,6 @@
      "ts": "2026-10-10T00:33",
      "tool": "git",
      "title": "활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용"
-    },
-    {
-     "ts": "2026-10-10T00:12",
-     "tool": "git",
-     "title": "발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치"
     }
    ]
   },
@@ -1914,10 +1914,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T11:50",
+   "ts": "2026-10-10T12:02",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:00",
+   "tool": "git",
+   "title": "W5-POLISH 2차: 퀘스트 추적 패널·길 안내(questNav)·받을 수 있음 탭·찾아가기 / 조작키 개편(방향키+QWER·1234) / ",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T11:55",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T11:53",
+   "tool": "git",
+   "title": "P0: 샌드박스 실현 가능성 실측 — 상자 A에서 claude -p 2회 성공(▮▮), 허용 호스트 api.anthropic.com 단일 확정,",
+   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T11:50",
@@ -1930,12 +1948,6 @@
    "tool": "git",
    "title": "문서: 역사 사건·시대감 퀘스트 계획(Fable 5.1) + 사용자 답변",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:45",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T11:42",
@@ -2140,21 +2152,9 @@
    "tool": "git",
    "title": "활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T00:12",
-   "tool": "git",
-   "title": "발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T19:43",
-   "tool": "git",
-   "title": "재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T11:50",
+ "data_at": "2026-10-10T12:02",
  "active_projects": [
   "ai-securities",
   "dev-center",
