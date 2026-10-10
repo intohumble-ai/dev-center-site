@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>함대 데이터 계약 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-done">완성(상시가동 아님)</span>
+    <span class="cat">운영 인프라</span>
+<span class="tool t-claude">Claude Code</span>  </div>
+  <h1>함대 데이터 계약 <small>Fleet Data Contract</small></h1>
+  <p class="lead">봇들이 자기 상태를 선언하고 팔란티어가 읽기만 하게 하는 공유 데이터 계약과 도구</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (5)</button>
+    <button data-t="work">최근 작업 (6)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (3)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">2026-09-12 조사에서 감시자가 각 봇의 전략 내부를 재추론해 오탐을 냈다는 근본 결함이 드러나, 그 구조를 뒤집으려고 만든 공유 계약 저장소다.
+봇이 상태 스냅샷·보유·인테이크·락을 정해진 JSON 규약으로 원자적으로 쓰고, 팔란티어는 이를 읽기만 한다.
+자본 중재(arbiter), 보유 현황, 상태 기록, 락 처리용 파이썬 모듈 약 1,700줄과 계약 문서 CONTRACT_v1이 들어 있다.
+&#39;주문이 없는 것은 장애가 아니고 평가가 돌지 않은 것이 장애&#39;라는 원칙을 담았다. 상시 서비스는 없는 라이브러리·데이터 폴더다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-09 ~ 2026-09-23</dd>
+      <dt>기술</dt><dd><code>python</code> <code>json</code> <code>filesystem-contract</code> </dd>
+<dt>코드</dt><dd>1,674 줄</dd><dt>커밋</dt><dd>5</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 1 (Claude Code 1 · Codex 0)</span><span>마지막 활동 2026-09-23</span></div>
+    <ul class="feed">
+<li><span class="when">2026-09-23 22:35</span><span class="tool t-git">커밋</span><span class="ttl">fleet_intake: optional available_at/deployed_at receipt fields (CONTRACT §7.1)</span></li><li><span class="when">2026-09-16 01:22</span><span class="tool t-git">커밋</span><span class="ttl">wave G: readiness V3 dimensions (8 axes, 5-step ladder), no promotions</span></li><li><span class="when">2026-09-16 01:02</span><span class="tool t-git">커밋</span><span class="ttl">wave G: CONTRACT §7 execution integrity, fleet_intake receipts, arbiter observe_</span></li><li><span class="when">2026-09-15 21:19</span><span class="tool t-git">커밋</span><span class="ttl">wave E: FREEZE.json evidence-window freeze + readiness ladder V2 (pilot flag, da</span></li><li><span class="when">2026-09-15 18:32</span><span class="tool t-git">커밋</span><span class="ttl">chore: fleet-data 컨트롤 플레인 최초 버전관리 — CONTRACT v1.2(§1.4 ext·§1.5 attestation·§1.6</span></li><li><span class="when">2026-09-13 13:04</span><span class="tool t-claude">Claude Code</span><span class="ttl">Toss 마케팅 센터</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>봇별 상태 스냅샷 JSON 계약(원자적 쓰기, bot_id 일치 규약)</li><li>보유 현황(holdings) 기록 모듈</li><li>인테이크와 락(lock) 처리 모듈</li><li>자본 중재 arbiter와 readiness 판정</li><li>실행 지표(execution_metrics)와 계약 동결(FREEZE) 파일</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="fleet-data">
+      <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
+<div class="row"><span>상태 파일</span><b>1시간 이내 갱신</b></div><div class="row"><span>마지막 커밋</span><b>2026-09-23</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>감시자가 전략을 재구현하는 코드는 신규 작성 금지, 봇이 선언하고 감시자는 읽는다는 원칙으로 역전했다</li><li>오탐의 원인은 수위계·슬롯 만석·현금 부족·밴드 같은 봇 내부 개념을 감시자가 몰랐던 데 있다</li><li>계약을 버전(v1)과 동결 파일로 관리해 임의 확장을 막았다</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

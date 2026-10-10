@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>수학학원 루틴 비서 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-done">완성(상시가동 아님)</span>
+    <span class="cat">비서·자동화</span>
+<span class="tool t-codex">Codex</span>  </div>
+  <h1>수학학원 루틴 비서 <small>Math Tutor Assistant</small></h1>
+  <p class="lead">채점 결과로 학부모 카톡 피드백을 만들고 매쓰플랫 출제·인쇄를 자동화하는 학원 업무 비서</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (3)</button>
+    <button data-t="work">최근 작업 (7)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (2)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">수학학원 선생님인 사용자의 반복 업무를 줄이려는 Windows용 도구 모음이다. 1단계는 학생 관리, 채점 결과 입력, 학부모 카톡 피드백 초안 3톤(따뜻·간결·꼼꼼) 생성으로, 표준 라이브러리만 쓰는 로컬 웹앱이다.
+채점은 외부 무료 AI로 하게 하고 프로그램은 결과를 받아 정리하는 오케스트레이터라서 API 비용이 0원이다. 이후 Playwright로 매쓰플랫을 완전 자동화하는 루틴 시스템(학교급·교재·단원·난이도·학생·프린터를 저장해 무인 실행)을 만들었고, 2026-07에는 한 문장으로 요청하면 규칙 파서가 해석해 실행하는 &#34;문장으로 만들기&#34;까지 추가했다.
+코드는 WSL이 아닌 윈도우 바탕화면 폴더에 있어 이번 조사에서는 줄수와 테스트를 세지 못했다(기억 노트 기반 요약).
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-06 ~ 2026-07-10</dd>
+      <dt>기술</dt><dd><code>python</code> <code>playwright</code> <code>windows</code> </dd>
+    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 123 (Claude Code 0 · Codex 123)</span><span>마지막 활동 2026-09-24</span></div>
+    <ul class="feed">
+<li><span class="when">2026-09-24 22:06</span><span class="tool t-codex">Codex</span><span class="ttl">학원 업무 관리 봇 구축</span></li><li><span class="when">2026-09-22 00:15</span><span class="tool t-codex">Codex</span><span class="ttl">(제목 없음) <small class="cnt">×106</small></span></li><li><span class="when">2026-09-07 22:36</span><span class="tool t-codex">Codex</span><span class="ttl">학원 업무 관리 봇 구축</span></li><li><span class="when">2026-09-07 22:09</span><span class="tool t-codex">Codex</span><span class="ttl">(제목 없음) <small class="cnt">×3</small></span></li><li><span class="when">2026-09-07 22:03</span><span class="tool t-codex">Codex</span><span class="ttl">학원 업무 관리 봇 구축</span></li><li><span class="when">2026-09-07 21:04</span><span class="tool t-codex">Codex</span><span class="ttl">(제목 없음) <small class="cnt">×10</small></span></li><li><span class="when">2026-09-07 15:49</span><span class="tool t-codex">Codex</span><span class="ttl">학원 업무 관리 봇 구축</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>학부모 카톡 피드백 초안 3톤 생성과 복사·히스토리</li><li>매쓰플랫 루틴 실행(생성 전 멈춤/인쇄 전/인쇄까지 3모드)</li><li>한 문장으로 만들기(규칙 파서, 무과금)</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="math-tutor-assistant">
+      <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>추측한 셀렉터 대신 실제 화면을 점검해 확보한 셀렉터로 자동화해야 안 깨진다</li><li>카톡 개인 1:1 자동 전송은 정책상 불가라서 초안 복사 방식을 택했다</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

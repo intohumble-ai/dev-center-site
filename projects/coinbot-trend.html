@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>추세 코인봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-paused">중지</span>
+    <span class="cat">코인 자동매매</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>추세 코인봇 <small>Coinbot Trend</small></h1>
+  <p class="lead">업비트 KRW 시장에서 추세 코어와 멀티시그널 게이트로 &#39;덜 잃는&#39; 균형형 매매를 하던 코인봇</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (10)</button>
+    <button data-t="work">최근 작업 (12)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (7)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">swing 봇이 모듈이 너무 많고 감사에서 치명 결함이 쏟아져 2026-06-29에 백지에서 새로 만든 업비트 봇이다.
+횡단면 모멘텀 상위 종목 + 레짐(시장 국면) 게이트 + 눌림목/돌파 진입, 부분익절·넓은 트레일링·손절 청산으로 구성된 8개 핵심 모듈이다.
+순수함수(전략·리스크·데이터)를 라이브와 백테스트가 공유해 코드 드리프트를 없앴고, LIVE 하드닝(실잔고 킬스위치, 기동 정산, 부분체결 정합, 더스트 가드)을 1일차부터 넣었다.
+805일 백테스트에서 BTC 매수후보유(▮%, 최대낙폭 ▮%)보다 낙폭이 약 1/4로 작아 &#39;덜 잃는 기계&#39;라는 목표를 달성했다.
+2026-07-09 기준 실전(LIVE) 가동 기록이 있으나, 현재 서비스 유닛은 2026-08-27에 마스킹되어 중지 상태다(후속작 coinbot-adaptive/v2 계획과 연관, 정확한 중지 사유는 미확인).
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-06 ~ 2026-08-02</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>telegram</code> <code>systemd</code> <code>upbit-api</code> <code>backtest</code> </dd>
+<dt>코드</dt><dd>8,190 줄</dd><dt>테스트</dt><dd>126 개</dd><dt>커밋</dt><dd>24</dd><dt>systemd 유닛</dt><dd>4 개</dd><dt>저장소</dt><dd><a href="https://github.com/intohumble-ai/coinbot-trend">intohumble-ai/coinbot-trend</a> (비공개)</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 0 (Claude Code 0 · Codex 0)</span><span>마지막 활동 2026-08-02</span></div>
+    <ul class="feed">
+<li><span class="when">2026-08-02 10:50</span><span class="tool t-git">커밋</span><span class="ttl">design: 텔레그램 매수/매도 메시지 한국말 개선 (코인명·R배수 제거)</span></li><li><span class="when">2026-08-01 13:54</span><span class="tool t-git">커밋</span><span class="ttl">feat(wave2): RISK_ON 임박 N일 예측 + 재입금 가이드 + 기동알림 다이어트(크래시루프만 즉시)</span></li><li><span class="when">2026-08-01 06:31</span><span class="tool t-git">커밋</span><span class="ttl">feat(sidecar): RISK_ON 임박 입금예고 알람 — 탈출선 격차 ▮% 이내+게이트 기충족 시 1회</span></li><li><span class="when">2026-07-28 19:49</span><span class="tool t-git">커밋</span><span class="ttl">chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)</span></li><li><span class="when">2026-07-28 10:20</span><span class="tool t-git">커밋</span><span class="ttl">test(guard): blank telegram tokens in conftest — suites must never see real toke</span></li><li><span class="when">2026-07-21 20:31</span><span class="tool t-git">커밋</span><span class="ttl">feat(sidecar): capital-flow ack flow — detect→&#39;직접 하신 게 맞나요?&#39; telegram question, </span></li><li><span class="when">2026-07-21 19:22</span><span class="tool t-git">커밋</span><span class="ttl">feat(sidecar): parking-gap annotation in league/benchmark reports — capital_even</span></li><li><span class="when">2026-07-17 02:09</span><span class="tool t-git">커밋</span><span class="ttl">fix: 출금 후 봉투회계 현금 음수 방어 — LIVE 봉투현금 하한 0 (76→78 green)</span></li><li><span class="when">2026-07-17 01:49</span><span class="tool t-git">커밋</span><span class="ttl">feat: 입금 잔소리 — 재개 상태+잔고 없음이면 입금 확인까지 4시간마다 재알림 (71→76 green)</span></li><li><span class="when">2026-07-17 01:14</span><span class="tool t-git">커밋</span><span class="ttl">feat: 파킹 알람 풀패키지 — 입출금 원장(capital_events)+기준자본/성적표 flow 보정+알람 4종(준비·재개·파킹·잔고부족) </span></li><li><span class="when">2026-07-13 23:04</span><span class="tool t-git">커밋</span><span class="ttl">feat: 섀도우 리그표 매일화(sec_league 추출) + 공포가중 DCA 섀도우 선수(fear_dca, FG&lt;25·역김프 트리거·월 ▮▮ </span></li><li><span class="when">2026-07-13 21:01</span><span class="tool t-git">커밋</span><span class="ttl">feat: 사이드카 종합패치 6건 — 벤치마크 성적표+김프·펀딩 레코더+상장빔 워처+그리드 섀도우+슬리피지 감사+리그표 (unittest 12→</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>횡단면 모멘텀 상위 종목 선별 + 레짐(RISK_ON/NEUTRAL/RISK_OFF) 게이트</li><li>눌림목(A)/돌파(B) 진입, TP1 부분익절 + 본전스탑 + ATR 트레일링 + 손절</li><li>펀딩비·김프·거래량 멀티시그널 확정 게이트(검증 후 기본 OFF)</li><li>백테스트 엔진(point-in-time, 비관적 체결)과 라이브의 전략 코드 공유</li><li>LIVE 하드닝: 실잔고 킬스위치, 기동 정산, 부분체결 정합, 더스트 가드, DRY 기록 DB로 LIVE 기동 거부</li><li>친절한 아침 브리핑(신호등, 초록불 거리, 봇 vs BTC 몰빵 vs DCA 비교)</li><li>섀도북 변형 3종 병렬 모의 운용(regime_filter, disaster_stop, vol_gate)</li><li>서킷브레이커(연속 실패 시 경보+백오프)와 업비트 유의종목 감시</li><li>텔레그램 명령(/status /positions /brief /stop /resume)</li><li>RISK_ON 임박 예고와 재입금 가이드 알림</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="coinbot-trend">
+      <div class="row"><span>서비스</span><b class="svc">inactive</b></div>
+<div class="row"><span>마지막 로그</span><b>일주일 이상</b></div><div class="row"><span>마지막 커밋</span><b>2026-08-02</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>126</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>거래량 게이트는 600일에선 ▮%로 좋아 보였지만 805일에선 ▮%로 뒤집혀 과최적화로 탈락시켰다</li><li>레짐 필터와 종목별 상승추세 필터가 중복돼 방어는 종목 필터가 실제로 수행했다</li><li>텔레그램 토큰을 swing과 공유해 명령 폴링이 충돌할 수 있어 한동안 폴링을 꺼야 했다</li><li>테스트가 실제 토큰을 보고 매수 알림을 방송한 사고(2026-07-28) 후 conftest에서 토큰을 비우는 가드를 넣었다</li><li>레짐 커서 이중 인코딩 버그로 재시작마다 가짜 국면 전환 알림이 나갔다</li><li>손절을 &#39;수익 전량 청산&#39;으로 보고하던 알림 버그를 수리했다</li><li>정직한 전망은 연 ▮% 근처의 방어형이며, 상승장에선 보유 전략에 뒤진다</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CGV 예매봇 데모 — 취소표 감시</title>
+<link rel="stylesheet" href="../static/style.css">
+<style>
+.demo-wrap{padding:14px;max-width:900px;margin:0 auto}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+.btn{background:var(--accent);color:#000;border:0;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer;margin:4px 4px 4px 0}
+.btn.alt{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.up{color:var(--green)}.down{color:var(--red)}
+.log{font-family:ui-monospace,monospace;font-size:12px;white-space:pre-wrap;max-height:200px;overflow:auto;color:var(--muted)}
+.seat{display:inline-block;width:22px;height:22px;margin:2px;border-radius:4px;background:var(--card2);border:1px solid var(--line);font-size:10px;text-align:center;line-height:22px;cursor:pointer}
+.seat.taken{background:var(--gray);opacity:.5}.seat.best{background:rgba(245,158,11,.4);border-color:var(--orange)}.seat.got{background:var(--green);color:#000}
+.badge-demo{font-size:11px;color:var(--orange);border:1px solid var(--orange);border-radius:6px;padding:1px 6px}
+</style></head>
+<body><div class="demo-wrap">
+<p><span class="badge-demo">샘플 데이터 데모</span> <small class="note">가짜 숫자입니다. 실 계좌·실 API 와 연결돼 있지 않습니다.</small></p>
+<h2>취소표 감시 → 명당 자동 확보</h2>
+<p class="note">봇이 하는 일을 축소한 것: 좌석표를 주기적으로 읽고, 명당(가운데 뒤쪽)이 취소로 풀리는 순간 한도 안에서 확보합니다. "취소 발생" 버튼이 누군가의 취소를 흉내냅니다.</p>
+<div class="panel">
+  <button class="btn" id="cancel">누군가 취소 발생</button>
+  <button class="btn alt" id="watch">감시 시작/중지</button>
+  <button class="btn alt" id="reset">초기화</button>
+  <span id="st"></span>
+</div>
+<div class="panel" id="map"></div>
+<div class="panel"><b>한도</b> 동시보유 <span id="held">0</span>/2 · 오늘 <span id="today">0</span>/3 <div class="log" id="log"></div></div>
+<script>
+const R=8,C=14;let seats,held,today,watching,log=[];
+const best=(r,c)=>r>=3&&r<=5&&c>=4&&c<=9;
+function reset(){seats=[];for(let r=0;r<R;r++){const row=[];for(let c=0;c<C;c++)row.push(Math.random()<0.85?'taken':'free');seats.push(row)}held=0;today=0;watching=false;log=['초기화: 인기 회차, 대부분 매진'];draw()}
+function draw(){const m=document.getElementById('map');m.innerHTML=seats.map((row,r)=>`<div>${row.map((s,c)=>`<span class="seat ${s} ${best(r,c)&&s!=='got'?'best':''}" title="${String.fromCharCode(65+r)}${c+1}">${String.fromCharCode(65+r)}${c+1}</span>`).join('')}</div>`).join('');
+ document.getElementById('held').textContent=held;document.getElementById('today').textContent=today;document.getElementById('st').textContent=watching?' 🟢 감시 중(2초 주기)':' ⚪ 감시 꺼짐';document.getElementById('log').textContent=log.slice(0,10).join('\n')}
+function cancelOne(){const taken=[];seats.forEach((row,r)=>row.forEach((s,c)=>{if(s==='taken')taken.push([r,c])}));if(!taken.length)return;const [r,c]=taken[Math.floor(Math.random()*taken.length)];seats[r][c]='free';log.unshift(`취소표 발생: ${String.fromCharCode(65+r)}${c+1}${best(r,c)?' (명당!)':''}`);draw()}
+function scan(){let found=null;seats.forEach((row,r)=>row.forEach((s,c)=>{if(s==='free'&&best(r,c)&&!found)found=[r,c]}));
+ if(found){if(held>=2||today>=3){log.unshift(`명당 ${String.fromCharCode(65+found[0])}${found[1]+1} 발견했지만 한도 초과 → 알림만`)}else{seats[found[0]][found[1]]='got';held++;today++;log.unshift(`✅ 명당 ${String.fromCharCode(65+found[0])}${found[1]+1} 확보 → 결제 단계(데모에선 생략)`)}}
+ else log.unshift('스캔: 명당 없음');draw()}
+let timer=null;document.getElementById('cancel').onclick=cancelOne;document.getElementById('reset').onclick=()=>{clearInterval(timer);reset()};
+document.getElementById('watch').onclick=()=>{watching=!watching;if(watching){timer=setInterval(scan,2000)}else clearInterval(timer);draw()};
+document.getElementById('map').onclick=e=>{const t=e.target.closest('.seat');if(t&&t.classList.contains('got')){const id=t.title;const r=id.charCodeAt(0)-65,c=parseInt(id.slice(1))-1;seats[r][c]='free';held--;log.unshift(`환불: ${id}`);draw()}};reset();
+</script>
+</div></body></html>

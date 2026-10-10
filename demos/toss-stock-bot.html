@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>토스증권 자동매매봇 데모 — 듀얼 모멘텀 로테이션</title>
+<link rel="stylesheet" href="../static/style.css">
+<style>
+.demo-wrap{padding:14px;max-width:900px;margin:0 auto}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+.btn{background:var(--accent);color:#000;border:0;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer;margin:4px 4px 4px 0}
+.btn.alt{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.up{color:var(--green)}.down{color:var(--red)}
+.log{font-family:ui-monospace,monospace;font-size:12px;white-space:pre-wrap;max-height:200px;overflow:auto;color:var(--muted)}
+.seat{display:inline-block;width:22px;height:22px;margin:2px;border-radius:4px;background:var(--card2);border:1px solid var(--line);font-size:10px;text-align:center;line-height:22px;cursor:pointer}
+.seat.taken{background:var(--gray);opacity:.5}.seat.best{background:rgba(245,158,11,.4);border-color:var(--orange)}.seat.got{background:var(--green);color:#000}
+.badge-demo{font-size:11px;color:var(--orange);border:1px solid var(--orange);border-radius:6px;padding:1px 6px}
+</style></head>
+<body><div class="demo-wrap">
+<p><span class="badge-demo">샘플 데이터 데모</span> <small class="note">가짜 숫자입니다. 실 계좌·실 API 와 연결돼 있지 않습니다.</small></p>
+<h2>듀얼 모멘텀 로테이션 — 한 달씩 돌려보기</h2>
+<p class="note">실제 봇의 핵심 규칙을 그대로 축소한 것: 후보 ETF 중 최근 수익률 상위를 고르고, 전부 마이너스면 안전자산(단기채)으로 피신. 가짜 가격을 무작위로 만듭니다.</p>
+<div class="panel">
+  <button class="btn" id="step">다음 달 ▶</button>
+  <button class="btn alt" id="auto">12개월 자동</button>
+  <button class="btn alt" id="reset">처음부터</button>
+  <span id="month"></span>
+</div>
+<div class="panel"><table id="tbl"><thead><tr><th>ETF</th><th>3개월 수익률</th><th>판정</th></tr></thead><tbody></tbody></table></div>
+<div class="panel"><b>포트폴리오</b> <span id="pf"></span><div class="log" id="log"></div></div>
+<script>
+const names=['대형주','성장주','신흥국','금','장기채','반도체'];let px,month,pf,hist;
+function reset(){px=names.map(()=>Array.from({length:4},()=>100));month=0;pf=1;hist=[];render('시작: 안전자산(단기채) 100%');}
+function step(){month++;px.forEach(a=>{const r=(Math.random()-0.47)*0.12;a.push(a[a.length-1]*(1+r))});
+ const rets=px.map(a=>a[a.length-1]/a[a.length-4]-1);const ranked=rets.map((r,i)=>[r,i]).sort((a,b)=>b[0]-a[0]);
+ const pick=ranked.filter(x=>x[0]>0).slice(0,2);let msg;
+ if(pick.length===0){pf*=1.002;msg=`${month}월: 전부 마이너스 → 안전자산 피신(단기채)`}
+ else{const r=pick.reduce((s,x)=>s+(px[x[1]].at(-1)/px[x[1]].at(-2)-1),0)/pick.length;pf*=1+r;msg=`${month}월: ${pick.map(x=>names[x[1]]).join(' + ')} 보유 (${(r*100).toFixed(1)}%)`}
+ render(msg,rets,pick.map(x=>x[1]));}
+function render(msg,rets,picked){document.getElementById('month').textContent=` ${month}개월 경과`;
+ const tb=document.querySelector('#tbl tbody');tb.innerHTML=names.map((n,i)=>{const r=rets?rets[i]:0;const p=picked&&picked.includes(i);return `<tr><td>${n}</td><td class="${r>=0?'up':'down'}">${(r*100).toFixed(1)}%</td><td>${p?'✅ 보유':(r<0?'⛔ 음수':'—')}</td></tr>`}).join('');
+ document.getElementById('pf').textContent=`가상 누적 ${((pf-1)*100).toFixed(1)}%`;if(msg){hist.unshift(msg);document.getElementById('log').textContent=hist.slice(0,12).join('\n')}}
+document.getElementById('step').onclick=step;document.getElementById('reset').onclick=reset;
+document.getElementById('auto').onclick=()=>{let n=0;const t=setInterval(()=>{step();if(++n>=12)clearInterval(t)},250)};reset();
+</script>
+</div></body></html>

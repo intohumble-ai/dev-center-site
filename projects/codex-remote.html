@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex 원격 세션 프록시 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light green"></span>
+    <span class="badge st-live">실전 가동</span>
+    <span class="cat">운영 인프라</span>
+<span class="tool t-codex">Codex</span>  </div>
+  <h1>Codex 원격 세션 프록시 <small>Codex Remote Session Proxy</small></h1>
+  <p class="lead">OpenAI Codex CLI를 웹 터미널로 독립 세션 여러 개 띄우는 프록시</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (2)</button>
+    <button data-t="work">최근 작업 (2)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (1)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">Claude 원격 터미널과 같은 방식으로 Codex CLI 세션을 브라우저에서 쓰게 한 구성이다. 윈도우 문서 폴더 아래에 Node 프록시(session-proxy)와 실행 스크립트가 있고, 사용자 서비스로 프록시와 작업 세션별 ttyd 유닛이 돈다.
+접속은 내부망(tailnet) 한정이며 각 세션은 데스크톱 앱 대화를 잇는 게 아니라 별도 Codex CLI 세션이다. 코드는 WSL 홈이 아닌 윈도우 쪽에 있어 이번 조사에서 줄수는 세지 않았다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-09 ~ 2026-10-04</dd>
+      <dt>기술</dt><dd><code>node</code> <code>ttyd</code> <code>tmux</code> <code>systemd</code> </dd>
+<dt>systemd 유닛</dt><dd>3 개</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 2 (Claude Code 0 · Codex 2)</span><span>마지막 활동 2026-09-25</span></div>
+    <ul class="feed">
+<li><span class="when">2026-09-25 19:20</span><span class="tool t-codex">Codex</span><span class="ttl">(제목 없음)</span></li><li><span class="when">2026-09-25 19:19</span><span class="tool t-codex">Codex</span><span class="ttl">GPT 원격 실행 링크 만들기</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>독립 Codex 세션 여러 개를 웹에서 열기</li><li>내부망 전용 접속과 tmux 세션 유지</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="codex-remote">
+      <div class="row"><span>서비스</span><b class="svc">active</b></div>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>로그인 파일을 공유하므로 한쪽에서 로그아웃하면 다른 쪽에도 영향</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

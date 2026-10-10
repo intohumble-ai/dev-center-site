@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>사도돼 공개 사이트 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-done">완성(상시가동 아님)</span>
+    <span class="cat">판매 자동화</span>
+<span class="tool t-claude">Claude Code</span>  </div>
+  <h1>사도돼 공개 사이트 <small>Sadodwae Public Site (Cloudflare Worker)</small></h1>
+  <p class="lead">사도돼?의 고객 면: Cloudflare Worker와 D1으로 판정 요청을 받고 결과를 보여주는 공개 사이트</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (4)</button>
+    <button data-t="work">최근 작업 (0)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (2)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">사도돼?는 상품 링크를 넣으면 근거 기반으로 사도돼(초록)·기다려(노랑)·굳이(빨강)를 판정해 주는 서비스이고, 이 저장소는 그 공개 웹 면이다. 고객 경로가 로컬 PC를 절대 거치지 않도록 Cloudflare Worker와 D1 데이터베이스에 요청을 저장한다.
+비공개 봇(toss-marketing-center)이 바깥으로 나가는 HTTPS로 대기 요청을 가져가 판정을 계산해 돌려주며, 워커에는 판정 로직이 없고 받은 값을 검증해 그대로 그리기만 한다. 홈 화면은 D1에서 서버 렌더링하고 카테고리별 공개 개수 상한을 둔다.
+요청 폼, 결과 페이지, 공유·피드백, SEO 별칭, 법적 페이지를 포함한다. git 저장소는 아니고 파일 백업본이 여러 개 남아 있으며 배포 상태는 이번 조사에서 확인하지 못했다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-09 ~ 2026-09-14</dd>
+      <dt>기술</dt><dd><code>javascript</code> <code>cloudflare-workers</code> <code>d1</code> <code>wrangler</code> </dd>
+<dt>코드</dt><dd>1,733 줄</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+<p class="note">수집된 세션·커밋이 없습니다(폴더가 PC 밖에 있거나 아직 매칭되지 않음).</p>    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>요청 폼에서 판정까지 비동기 흐름(PENDING에서 COMPLETE)</li><li>서버 렌더링 홈(공개 개수 상한과 신선도 규칙)</li><li>내부 API는 비밀 토큰 인증으로 봇과 동기화</li><li>👍/👎 익명 피드백과 공유 지표</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="sadodwae-pages">
+      <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>고객 경로에서 로컬 PC를 빼면 재시작에도 서비스가 살아남는다</li><li>git 없이 .bak 파일로 버전을 관리해 이력 추적이 어렵다(미관리 상태)</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

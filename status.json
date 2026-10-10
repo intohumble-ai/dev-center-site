@@ -1,0 +1,307 @@
+{
+ "data_at": "2026-10-10T10:36",
+ "projects": {
+  "ai-securities": {
+   "id": "ai-securities",
+   "service": "active",
+   "last_commit": "2026-10-10",
+   "light": "green",
+   "db_tables": 129
+  },
+  "allweather-bot": {
+   "id": "allweather-bot",
+   "service": "active",
+   "log_error": false,
+   "last_commit": "2026-07-28",
+   "light": "green",
+   "db_tables": 14,
+   "log_age": "오늘"
+  },
+  "billionaire-portfolio-bot": {
+   "id": "billionaire-portfolio-bot",
+   "light": "gray"
+  },
+  "binance-bot": {
+   "id": "binance-bot",
+   "last_commit": "2026-09-29",
+   "light": "unknown"
+  },
+  "bot-pc-deadman": {
+   "id": "bot-pc-deadman",
+   "last_commit": null,
+   "light": "unknown"
+  },
+  "butler-bot": {
+   "id": "butler-bot",
+   "service": "active",
+   "last_commit": "2026-09-15",
+   "light": "green",
+   "db_tables": 8
+  },
+  "cgv-bot": {
+   "id": "cgv-bot",
+   "service": "active",
+   "log_error": null,
+   "last_commit": "2026-10-05",
+   "light": "green",
+   "db_tables": 0,
+   "log_age": null
+  },
+  "claude-auto-resume": {
+   "id": "claude-auto-resume",
+   "service": "active",
+   "light": "green"
+  },
+  "claude-env-tuning": {
+   "id": "claude-env-tuning",
+   "last_commit": null,
+   "light": "gray"
+  },
+  "claude-term": {
+   "id": "claude-term",
+   "service": "inactive",
+   "last_commit": null,
+   "light": "gray"
+  },
+  "codex-coinbot-design": {
+   "id": "codex-coinbot-design",
+   "light": "gray"
+  },
+  "codex-remote": {
+   "id": "codex-remote",
+   "service": "active",
+   "light": "green"
+  },
+  "coinbot-adaptive": {
+   "id": "coinbot-adaptive",
+   "service": "inactive",
+   "log_error": false,
+   "last_commit": "2026-08-25",
+   "light": "gray",
+   "log_age": "일주일 이상"
+  },
+  "coinbot-swing": {
+   "id": "coinbot-swing",
+   "service": "inactive",
+   "last_commit": "2026-08-02",
+   "light": "gray"
+  },
+  "coinbot-trend": {
+   "id": "coinbot-trend",
+   "service": "inactive",
+   "log_error": false,
+   "last_commit": "2026-08-02",
+   "light": "gray",
+   "db_tables": null,
+   "log_age": "일주일 이상"
+  },
+  "coinbot-v2": {
+   "id": "coinbot-v2",
+   "last_commit": null,
+   "light": "gray"
+  },
+  "couple-dca-bot": {
+   "id": "couple-dca-bot",
+   "service": "active",
+   "log_error": false,
+   "last_commit": "2026-09-26",
+   "light": "green",
+   "db_tables": 19,
+   "log_age": "1시간 이내"
+  },
+  "couple-ledger": {
+   "id": "couple-ledger",
+   "last_commit": "2026-10-04",
+   "light": "gray"
+  },
+  "couple-travel": {
+   "id": "couple-travel",
+   "last_commit": "2026-10-05",
+   "light": "gray"
+  },
+  "date-menu-subscription": {
+   "id": "date-menu-subscription",
+   "last_commit": null,
+   "light": "unknown"
+  },
+  "date-neighborhood": {
+   "id": "date-neighborhood",
+   "last_commit": "2026-10-04",
+   "light": "gray"
+  },
+  "dev-center": {
+   "id": "dev-center",
+   "service": "inactive",
+   "last_commit": "2026-10-10",
+   "light": "gray"
+  },
+  "family-bot": {
+   "id": "family-bot",
+   "service": "active",
+   "log_error": false,
+   "last_commit": "2026-09-25",
+   "light": "green",
+   "db_tables": 23,
+   "log_age": "오늘"
+  },
+  "fleet-data": {
+   "id": "fleet-data",
+   "last_commit": "2026-09-23",
+   "light": "gray",
+   "state_age": "1시간 이내"
+  },
+  "fleet-vault": {
+   "id": "fleet-vault",
+   "log_error": null,
+   "last_commit": "2026-10-04",
+   "light": "unknown",
+   "log_age": "6일 전"
+  },
+  "fusion-v9-coinbot": {
+   "id": "fusion-v9-coinbot",
+   "service": "inactive",
+   "last_commit": "2026-06-29",
+   "light": "gray"
+  },
+  "future-me": {
+   "id": "future-me",
+   "last_commit": "2026-10-09",
+   "light": "gray"
+  },
+  "housebook": {
+   "id": "housebook",
+   "service": "inactive",
+   "light": "gray"
+  },
+  "ink-three-kingdoms": {
+   "id": "ink-three-kingdoms",
+   "last_commit": null,
+   "light": "unknown"
+  },
+  "joongna-seller": {
+   "id": "joongna-seller",
+   "service": "active",
+   "last_commit": null,
+   "light": "green"
+  },
+  "kr_asset_manager": {
+   "id": "kr_asset_manager",
+   "last_commit": "2026-07-28",
+   "light": "gray"
+  },
+  "life-os": {
+   "id": "life-os",
+   "last_commit": "2026-09-21",
+   "light": "gray"
+  },
+  "math-tutor-assistant": {
+   "id": "math-tutor-assistant",
+   "light": "gray"
+  },
+  "nation-sim": {
+   "id": "nation-sim",
+   "last_commit": null,
+   "light": "unknown"
+  },
+  "openclaw": {
+   "id": "openclaw",
+   "service": "inactive",
+   "last_commit": "2026-06-29",
+   "light": "gray"
+  },
+  "ops-scripts": {
+   "id": "ops-scripts",
+   "service": "inactive",
+   "last_commit": null,
+   "light": "gray"
+  },
+  "palantir-center": {
+   "id": "palantir-center",
+   "service": "active",
+   "last_commit": "2026-10-02",
+   "light": "green",
+   "state_age": "1시간 이내"
+  },
+  "pentagon-bot": {
+   "id": "pentagon-bot",
+   "service": "active",
+   "log_error": false,
+   "last_commit": "2026-09-24",
+   "light": "green",
+   "db_tables": 16,
+   "log_age": "1시간 이내"
+  },
+  "picks-dca-bot": {
+   "id": "picks-dca-bot",
+   "service": "active",
+   "last_commit": "2026-09-25",
+   "light": "green",
+   "db_tables": 26
+  },
+  "projecttianxia": {
+   "id": "projecttianxia",
+   "last_commit": "2026-09-29",
+   "light": "gray"
+  },
+  "sadodwae-legal": {
+   "id": "sadodwae-legal",
+   "last_commit": "2026-09-10",
+   "light": "gray"
+  },
+  "sadodwae-pages": {
+   "id": "sadodwae-pages",
+   "last_commit": null,
+   "light": "gray"
+  },
+  "samguk-rpg": {
+   "id": "samguk-rpg",
+   "last_commit": "2026-10-10",
+   "light": "gray"
+  },
+  "samgukji-game": {
+   "id": "samgukji-game",
+   "last_commit": "2026-10-09",
+   "light": "gray"
+  },
+  "sanguo-management": {
+   "id": "sanguo-management",
+   "last_commit": null,
+   "light": "unknown"
+  },
+  "sector-dca-bot": {
+   "id": "sector-dca-bot",
+   "service": "active",
+   "log_error": false,
+   "last_commit": "2026-09-25",
+   "light": "green",
+   "db_tables": 23,
+   "log_age": "1시간 이내"
+  },
+  "toss-marketing-center": {
+   "id": "toss-marketing-center",
+   "last_commit": "2026-10-10",
+   "light": "unknown"
+  },
+  "toss-stock-bot": {
+   "id": "toss-stock-bot",
+   "service": "active",
+   "log_error": false,
+   "last_commit": "2026-09-24",
+   "light": "green",
+   "db_tables": 0,
+   "log_age": "오늘"
+  },
+  "upbit-auto-bot": {
+   "id": "upbit-auto-bot",
+   "service": "inactive",
+   "last_commit": "2026-07-28",
+   "light": "gray"
+  },
+  "us_stock_bot_v2": {
+   "id": "us_stock_bot_v2",
+   "service": "inactive",
+   "last_commit": "2026-07-28",
+   "light": "gray"
+  }
+ }
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개발 센터 데모 — 자동구현 파이프라인</title>
+<link rel="stylesheet" href="../static/style.css">
+<style>
+.demo-wrap{padding:14px;max-width:900px;margin:0 auto}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+.btn{background:var(--accent);color:#000;border:0;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer;margin:4px 4px 4px 0}
+.btn.alt{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.up{color:var(--green)}.down{color:var(--red)}
+.log{font-family:ui-monospace,monospace;font-size:12px;white-space:pre-wrap;max-height:200px;overflow:auto;color:var(--muted)}
+.seat{display:inline-block;width:22px;height:22px;margin:2px;border-radius:4px;background:var(--card2);border:1px solid var(--line);font-size:10px;text-align:center;line-height:22px;cursor:pointer}
+.seat.taken{background:var(--gray);opacity:.5}.seat.best{background:rgba(245,158,11,.4);border-color:var(--orange)}.seat.got{background:var(--green);color:#000}
+.badge-demo{font-size:11px;color:var(--orange);border:1px solid var(--orange);border-radius:6px;padding:1px 6px}
+</style></head>
+<body><div class="demo-wrap">
+<p><span class="badge-demo">샘플 데이터 데모</span> <small class="note">가짜 숫자입니다. 실 계좌·실 API 와 연결돼 있지 않습니다.</small></p>
+<h2>아이디어 → 자동 구현·감사·배포 파이프라인</h2>
+<p class="note">개발 센터 엔진이 아이디어 하나를 처리하는 과정을 흉내냅니다. 감사 FAIL·헬스체크 실패·배포 금지시간이 무작위로 섞입니다.</p>
+<div class="panel"><button class="btn" id="go">아이디어 1건 처리 ▶</button><button class="btn alt" id="reset">초기화</button></div>
+<div class="panel" id="stages"></div>
+<div class="panel"><div class="log" id="log"></div></div>
+<script>
+const S=['queued','running','testing','auditing','deploying','done'];const KO={queued:'대기',running:'구현 중',testing:'테스트',auditing:'콜드 감사',deploying:'배포',done:'완료',rolled_back:'롤백',needs_human:'사람 확인'};
+let log=[],cur='queued',fails=0;
+function draw(){document.getElementById('stages').innerHTML=S.map(s=>`<span class="idea mini ${s===cur?(s==='done'?'blue':'green blink'):'gray'}"><span class="dot"></span>${KO[s]}</span>`).join(' → ')+(cur==='rolled_back'||cur==='needs_human'?` <span class="idea mini ${cur==='needs_human'?'purple':'red'}"><span class="dot"></span>${KO[cur]}</span>`:'');document.getElementById('log').textContent=log.slice(0,14).join('\n')}
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+async function go(){if(cur!=='queued'){log.unshift('이미 처리 중/완료. 초기화하세요');draw();return}
+ cur='running';log.unshift('워크트리 생성 → claude -p (모델·턴 상한 명시) 구현');draw();await wait(900);
+ cur='testing';log.unshift('pytest 실행');draw();await wait(700);
+ if(Math.random()<0.15){fails++;log.unshift('❌ 테스트 실패 → '+(fails>=2?'2회 실패, 사람 확인 필요':'재시도 대기'));cur=fails>=2?'needs_human':'queued';draw();return}
+ cur='auditing';log.unshift('콜드 감사: 별도 모델에 diff 만 전달, "반증하라"');draw();await wait(900);
+ if(Math.random()<0.25){fails++;log.unshift('❌ VERDICT: FAIL — '+(fails>=2?'사람 확인 필요':'재시도 대기'));cur=fails>=2?'needs_human':'queued';draw();return}
+ log.unshift('✅ VERDICT: PASS');cur='deploying';draw();
+ if(Math.random()<0.3){log.unshift('⏸ 배포 금지시간(매매창) — 10분 뒤 재시도(데모는 1초)');draw();await wait(1000)}
+ log.unshift('ff 머지 → 서비스 재시작 → 45초 헬스체크');await wait(900);
+ if(Math.random()<0.2){log.unshift('❌ 헬스체크 실패(로그 Traceback) → 자동 롤백 + 텔레그램');cur='rolled_back';draw();return}
+ cur='done';log.unshift('🔵 배포 완료 — 텔레그램 요약 발송');draw()}
+document.getElementById('go').onclick=go;document.getElementById('reset').onclick=()=>{cur='queued';fails=0;log=[];draw()};draw();
+</script>
+</div></body></html>

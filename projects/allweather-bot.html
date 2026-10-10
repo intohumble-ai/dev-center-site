@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>올웨더 봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light green"></span>
+    <span class="badge st-dry">모의 가동</span>
+    <span class="cat">주식 자동매매</span>
+<span class="money paper">📝 모의</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>올웨더 봇 <small>All-Weather Bot</small></h1>
+  <p class="lead">미국·한국 5개 자산을 규칙 기반 밴드로 리밸런싱하는 올웨더 포트폴리오 모의 봇</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (5)</button>
+    <button data-t="work">최근 작업 (9)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (2)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">전략이나 LLM 판단 없이 규칙만으로 5개 자산(미국+한국)의 목표비중을 유지하는 밴드 리밸런싱 봇이다. 토스 API 시세로 하루 한 번 평가한다.
+실주문 모드는 코드에서 DRY로 하드핀되어 있어 환경변수로도 켤 수 없고, 모의 장부만 갱신한다. 이후 만든 적립식 봇들(couple, family 등)의 하루 1회 평가 패턴의 원형이 되었다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-07 ~ 2026-07-28</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>systemd</code> <code>toss-open-api</code> </dd>
+<dt>코드</dt><dd>2,906 줄</dd><dt>테스트</dt><dd>53 개</dd><dt>커밋</dt><dd>9</dd><dt>systemd 유닛</dt><dd>1 개</dd><dt>저장소</dt><dd><a href="https://github.com/intohumble-ai/allweather-bot">intohumble-ai/allweather-bot</a> (비공개)</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 0 (Claude Code 0 · Codex 0)</span><span>마지막 활동 2026-07-28</span></div>
+    <ul class="feed">
+<li><span class="when">2026-07-28 19:49</span><span class="tool t-git">커밋</span><span class="ttl">chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)</span></li><li><span class="when">2026-07-28 10:20</span><span class="tool t-git">커밋</span><span class="ttl">test(guard): blank telegram tokens in conftest — suites must never see real toke</span></li><li><span class="when">2026-07-20 11:37</span><span class="tool t-git">커밋</span><span class="ttl">feat: cross-process shared Toss token cache (kills 6-bot mutual invalidation 401</span></li><li><span class="when">2026-07-13 13:29</span><span class="tool t-git">커밋</span><span class="ttl">feat+fix: diff 기반 주문 유지(C1)+자금부족 재시도 관측성(C2)+.env 접두어 경고(C3)+high_since_entry 지뢰</span></li><li><span class="when">2026-07-07 02:14</span><span class="tool t-git">커밋</span><span class="ttl">feat(prices): record latest per-symbol price at valuation for dashboard</span></li><li><span class="when">2026-07-05 21:40</span><span class="tool t-git">커밋</span><span class="ttl">fix(client): 401 invalid-token → drop cached token, re-auth, retry once (self-he</span></li><li><span class="when">2026-07-05 21:21</span><span class="tool t-git">커밋</span><span class="ttl">feat: RUN_NOW flag — one-shot manual cycle from dashboard (5s detect, 10min cool</span></li><li><span class="when">2026-07-05 15:41</span><span class="tool t-git">커밋</span><span class="ttl">fix: record real USD/KRW rate in equity/weights snapshot (was fx=None)</span></li><li><span class="when">2026-07-05 15:31</span><span class="tool t-git">커밋</span><span class="ttl">allweather-bot baseline: rule-based band-rebalancing portfolio (DRY)</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>5자산 목표비중 밴드 리밸런싱</li><li>DRY 하드핀 (실주문 불가)</li><li>하루 1회 평가 루프</li><li>토스 시세 기반 평가</li><li>PAUSED 게이트·params_live·RUN_NOW 사이드카</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="allweather-bot">
+      <div class="row"><span>서비스</span><b class="svc">active</b></div>
+<div class="row"><span>마지막 로그</span><b>오늘</b></div><div class="row"><span>마지막 커밋</span><b>2026-07-28</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>53</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>실주문 모드를 코드에 하드핀해 설정 실수로 실돈이 나가는 경로를 차단</li><li>단순 규칙 봇의 구조가 이후 DCA 형제 봇들의 템플릿이 됨</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

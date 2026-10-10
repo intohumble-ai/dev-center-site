@@ -1,0 +1,18 @@
+{
+ "data_at": "2026-10-10T10:36",
+ "ideas": [
+  {
+   "id": "c2c56a98",
+   "project": "samgukji-game",
+   "text": "engine 폴더에 게임 상태 요약 순수 함수 summarizeState(state)를 추가한다: 세력별 보유 지역 수와 병력 합계를 객체로 반환. 기존 코드 스타일을 따르고 vitest 테스트를 추가한다.",
+   "state": "done",
+   "created_at": "2026-10-09T19:21:22+09:00",
+   "updated_at": "2026-10-09T19:24:44+09:00",
+   "failures": 1,
+   "audit": "PASS",
+   "note": "배포 성공 bcf6dc2→e744306",
+   "color": "blue",
+   "state_ko": "완료"
+  }
+ ]
+}

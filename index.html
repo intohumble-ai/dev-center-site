@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="index.html#projects">프로젝트</a>
+    <a href="queue.html">아이디어 큐</a>
+    <a href="index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<section class="hero" id="about">
+  <h1>intohumble 개발 센터</h1>
+  <p class="tagline">바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부</p>
+  <div class="stats">
+    <div class="stat"><b>50</b><span>프로젝트</span></div>
+    <div class="stat"><b>17</b><span>지금 가동 중</span></div>
+<div class="stat"><b>1,085,921</b><span>코드 줄</span></div><div class="stat"><b>20,889</b><span>테스트</span></div>    <div class="stat"><b>2,541</b><span>커밋</span></div>
+    <div class="stat"><b>186</b><span>AI 코딩 세션</span></div>
+  </div>
+  <p class="how">
+    전부 혼자, AI 코딩 에이전트와 함께 설계·구현·운영했습니다. 실제 돈이 걸린 봇은 실사고를 겪으며
+    안전장치(콜드 감사·매매창 보호·자동 롤백)를 쌓았고, 실패한 실험도 지우지 않고 <b>시행착오 이력</b>으로 남깁니다.
+    아래 <a href="queue.html">아이디어 큐</a>는 새 기능이 어떻게 자동으로 구현·감사·배포되는지 실시간으로 보여줍니다.
+  </p>
+</section>
+
+<section id="now" class="now">
+  <h2>지금 진행 중</h2>
+    <div class="idea idle"><span class="dot"></span>지금 구현 중인 아이디어가 없습니다.</div>
+  <a class="more" href="queue.html">큐 전체 보기 →</a>
+</section>
+
+<section id="activity" class="activity">
+  <h2>최근 활동 <small>Claude Code · Codex 세션과 커밋 — 제목만, 대화 내용은 공개하지 않습니다</small></h2>
+  <div class="working">
+<a class="pulse" href="projects/ai-securities.html"><span class="ring"></span>지금 작업 중 · ai-securities</a><a class="pulse" href="projects/dev-center.html"><span class="ring"></span>지금 작업 중 · dev-center</a><a class="pulse" href="projects/samguk-rpg.html"><span class="ring"></span>지금 작업 중 · samguk-rpg</a><a class="pulse" href="projects/toss-marketing-center.html"><span class="ring"></span>지금 작업 중 · toss-marketing-center</a>  </div>
+  <ul class="feed">
+    <li><span class="when">2026-10-10 10:36</span><span class="tool t-claude">Claude Code</span><a href="projects/toss-marketing-center.html">toss-marketing-center</a><span class="ttl">사도돼 프로젝트 전체 분석 및 기능 제안</span></li>
+    <li><span class="when">2026-10-10 10:34</span><span class="tool t-claude">Claude Code</span><a href="projects/dev-center.html">dev-center</a><span class="ttl">개발 센터 포트폴리오 사이트</span></li>
+    <li><span class="when">2026-10-10 10:32</span><span class="tool t-git">커밋</span><a href="projects/dev-center.html">dev-center</a><span class="ttl">테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)</span></li>
+    <li><span class="when">2026-10-10 10:31</span><span class="tool t-git">커밋</span><a href="projects/dev-center.html">dev-center</a><span class="ttl">3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex </span></li>
+    <li><span class="when">2026-10-10 10:28</span><span class="tool t-claude">Claude Code</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">삼국지 RPG 게임 기획</span></li>
+    <li><span class="when">2026-10-10 10:27</span><span class="tool t-claude">Claude Code</span><a href="projects/ai-securities.html">ai-securities</a><span class="ttl">결정 후 병목 해결</span></li>
+    <li><span class="when">2026-10-10 06:53</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고</span></li>
+    <li><span class="when">2026-10-10 06:49</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백</span></li>
+    <li><span class="when">2026-10-10 06:38</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 콜드 감사 1차 FAIL 수리: 발탁 현령 박탈이 승급되던 P1 + P2 9</span></li>
+    <li><span class="when">2026-10-10 06:13</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 8단계: 한 바퀴 봇(loopSim)·관문 측정(실패 기록)·증거 W4·문서</span></li>
+    <li><span class="when">2026-10-10 05:31</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 7단계: 응용 퀘스트 → 영지 효과 연결 · 2차 전직 8직업·기술 16(필드·전장)</span></li>
+    <li><span class="when">2026-10-10 05:22</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 6단계: UI — 영지 창·세율 팝업·임명장·승급/강등/박탈·사건 팝업·민심 띠·내 영지 격문 띠·호위 이름판·결산 &#39;승급 예정&#39;</span></li>
+    <li><span class="when">2026-10-10 04:55</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 5단계: 저장 v5 — 2차 전직 자리·단축키 6칸·세계 v1→v2 migrate·깨진 영지 정리</span></li>
+    <li><span class="when">2026-10-10 04:50</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프</span></li>
+    <li><span class="when">2026-10-10 04:46</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev</span></li>
+    <li><span class="when">2026-10-10 04:29</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열</span></li>
+    <li><span class="when">2026-10-10 04:22</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts</span></li>
+    <li><span class="when">2026-10-10 04:22</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">W3 3차 감사 P2 수리: Worker 폴백 세대 확인·소속 맞추기 오류·WorldLink 테스트·refreshSiege 수비 세력 변경</span></li>
+    <li><span class="when">2026-10-10 04:21</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">병합: W3 살아 있는 세계(w3-world 09f4865) → master(GFX 03f0613)</span></li>
+    <li><span class="when">2026-10-10 03:51</span><span class="tool t-git">커밋</span><a href="projects/samguk-rpg.html">samguk-rpg</a><span class="ttl">병합: GFX 웨이브(시안 수준 그래픽·마을4·사냥터8·몬스터15·외형57) → master</span></li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>프로젝트 <small>14 실전 · 3 모의 · 9 개발중 · 8 중지 · 6 완성 · 10 레거시</small></h2>
+  <div class="filters" data-filter>
+    <button data-f="all" class="on">전체</button>
+    <button data-f="live">실전 가동</button>
+    <button data-f="dry">모의 가동</button>
+    <button data-f="wip">개발 중</button>
+    <button data-f="paused">중지</button>
+    <button data-f="done">완성</button>
+    <button data-f="dead">레거시·실패</button>
+  </div>
+  <div class="grid">
+    <a class="card st-live" href="projects/toss-stock-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>토스증권 자동매매봇</h3>
+      <p>토스증권 Open API로 ETF 듀얼모멘텀 로테이션을 돌리는 자동매매봇 (모의 코어 + 실계좌 관리봇)</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-24</span>
+<span>테스트 524</span><span>커밋 59</span><span>최근 2026-09-24</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/pentagon-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>펜타곤 봇</h3>
+      <p>미국주식 5개 엔진(PEAD·딥바잉·레버리지 신호등·VCP·의회 카피)을 레짐으로 지휘하는 멀티전략 봇</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-24</span>
+<span>테스트 561</span><span>커밋 62</span><span>세션 4</span><span>최근 2026-10-05</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/family-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>가족봇</h3>
+      <p>가족이 정한 미국 워치리스트 종목을 월 배정액으로 3트랜치 분할 매수하는 봇</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-25</span>
+<span>테스트 548</span><span>커밋 68</span><span>최근 2026-09-25</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/sector-dca-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>섹터 적립봇</h3>
+      <p>미국 11개 섹터 ETF를 모멘텀 틸트로 적립하는 약세장 방어형 포트폴리오 봇</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-25</span>
+<span>테스트 815</span><span>커밋 131</span><span>최근 2026-09-25</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/picks-dca-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>지정종목 적립봇</h3>
+      <p>사용자가 지정한 미국 5종목을 봇이 비중과 타이밍만 운용하는 적립 봇</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-25</span>
+<span>테스트 1,067</span><span>커밋 69</span><span>최근 2026-09-25</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/couple-dca-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>커플 적립봇</h3>
+      <p>같은 토스 계좌에서 장부만 분리해 월 적립식으로 운용하는 인스턴스형 DCA 봇 (○○이 인스턴스 가동)</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-26</span>
+<span>테스트 563</span><span>커밋 65</span><span>최근 2026-09-26</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/ops-scripts.html" data-status="live">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>운영 자동화 스크립트</h3>
+      <p>원격 링크 감시, 디스크 경보, 메모리 반납, 안전 재시작, 백업 푸시 등 PC 운영 스크립트 묶음</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-28</span>
+      </div>
+    </a>
+    <a class="card st-live" href="projects/joongna-seller.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">판매 자동화</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>중고나라 자동 판매</h3>
+      <p>중고나라 판매글을 자동 등록·끌어올리고 CGV 보유표를 판매글로 동기화하는 도구</p>
+      <div class="meta">
+        <span>2026-08 ~ 2026-10-02</span>
+<span>테스트 93</span><span>세션 1</span><span>최근 2026-10-02</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/palantir-center.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">대시보드</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>팔란티어 센터</h3>
+      <p>모든 자동매매·예매 봇을 한 화면에서 감시하고 조작하는 통합 대시보드와 총괄 시스템</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-10-02</span>
+<span>테스트 2,659</span><span>커밋 325</span><span>세션 6</span><span>최근 2026-10-02</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/bot-pc-deadman.html" data-status="live">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>봇 PC 데드맨 스위치</h3>
+      <p>봇 PC가 꺼지거나 멈추면 PC 바깥에서 텔레그램으로 알려 주는 클라우드 감시 스위치</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-03</span>
+      </div>
+    </a>
+    <a class="card st-live" href="projects/codex-remote.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+<span class="tool t-codex">Codex</span>        <span class="badge st-live">실전 가동</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>Codex 원격 세션 프록시</h3>
+      <p>OpenAI Codex CLI를 웹 터미널로 독립 세션 여러 개 띄우는 프록시</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-10-04</span>
+<span>세션 2</span><span>최근 2026-09-25</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/fleet-vault.html" data-status="live">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>함대 암호화 금고</h3>
+      <p>봇 설정·장부 스냅샷·메모리를 AES256으로 암호화해 주 1회 쌓는 비상 백업</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-10-04</span>
+<span>커밋 12</span><span>최근 2026-10-04</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/cgv-bot.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">예매 자동화</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>CGV 예매봇</h3>
+      <p>CGV 인기 회차의 취소표와 명당 좌석을 24시간 감시하고 자동 예매·결제까지 진행하는 봇</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-10-05</span>
+<span>테스트 3,974</span><span>커밋 460</span><span>세션 9</span><span>최근 2026-10-09</span>      </div>
+    </a>
+    <a class="card st-live" href="projects/claude-auto-resume.html" data-status="live">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-live">실전 가동</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>Claude 한도 자동 재개 데몬</h3>
+      <p>Claude Code 사용 한도에 걸려 멈춘 세션을 한도 해제 후 자동으로 이어가는 데몬</p>
+      <div class="meta">
+        <span>2026-06 ~ 2026-10-09</span>
+      </div>
+    </a>
+    <a class="card st-dry" href="projects/allweather-bot.html" data-status="dry">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-dry">모의 가동</span>
+        <span class="cat">주식 자동매매</span>
+      </div>
+      <h3>올웨더 봇</h3>
+      <p>미국·한국 5개 자산을 규칙 기반 밴드로 리밸런싱하는 올웨더 포트폴리오 모의 봇</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-07-28</span>
+<span>테스트 53</span><span>커밋 9</span><span>최근 2026-07-28</span>      </div>
+    </a>
+    <a class="card st-dry" href="projects/butler-bot.html" data-status="dry">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+        <span class="badge st-dry">모의 가동</span>
+        <span class="cat">주식 자동매매</span>
+      </div>
+      <h3>집사봇</h3>
+      <p>종목은 사용자가 고르고 타이밍·리스크·근거는 봇이 맡는 미국주식 가상 매매 집사</p>
+      <div class="meta">
+        <span>2026-07 ~ 2026-09-15</span>
+<span>테스트 91</span><span>커밋 6</span><span>세션 1</span><span>최근 2026-09-27</span>      </div>
+    </a>
+    <a class="card st-dry working" href="projects/ai-securities.html" data-status="dry">
+      <div class="card-top">
+        <span class="light green" title="서비스 active"></span>
+<span class="pulse mini"><span class="ring"></span>작업 중</span>        <span class="badge st-dry">모의 가동</span>
+        <span class="cat">실험</span>
+      </div>
+      <h3>TENX Capital (AI 증권)</h3>
+      <p>AI 직원들이 위원회·부서로 일하는 모의 증권사 (1층 미국주식, 2층 바이낸스 선물)</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-10-08</span>
+<span>테스트 2,632</span><span>커밋 258</span><span>세션 6</span><span>최근 2026-10-10</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/coinbot-v2.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-wip">개발 중</span>
+        <span class="cat">실험</span>
+      </div>
+      <h3>코인봇 V2 (안전 골격·연구)</h3>
+      <p>주문 기능 없이 공개 시세 연구와 검증만 하는 업비트 코인봇 안전 골격</p>
+      <div class="meta">
+        <span>2026-08 ~ 2026-08-27</span>
+<span>테스트 74</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/life-os.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-wip">개발 중</span>
+        <span class="cat">생활</span>
+      </div>
+      <h3>라이프 OS</h3>
+      <p>일정·할일·습관·돈을 챙겨주고 RPG처럼 현실의 나를 키워주는 AI 개인 생활 앱</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-21</span>
+<span>테스트 1,687</span><span>커밋 226</span><span>세션 4</span><span>최근 2026-09-28</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/projecttianxia.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">게임</span>
+      </div>
+      <h3>Project Tianxia (Unity 삼국지 샌드박스)</h3>
+      <p>Unity 6 기반 &#39;살아 있는 삼국지&#39; 전쟁 샌드박스 — 권위 시뮬레이션 위에 캠페인 루프와 커맨드 센터를 단계(M0~M2)별로 구축</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-29</span>
+<span>커밋 9</span><span>최근 2026-09-29</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/couple-ledger.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">생활</span>
+      </div>
+      <h3>공유 성장일기·가계 앱</h3>
+      <p>두 사람이 지출 내역을 공유하고 캐릭터를 돌보며 주간 회의를 하는 PC 중심 웹앱(Next.js, Cloudflare)</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-04</span>
+<span>커밋 8</span><span>최근 2026-10-04</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/date-neighborhood.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">생활</span>
+      </div>
+      <h3>동네 데이트 서비스 (A안)</h3>
+      <p>(개인 생활 관련 내용은 생략)</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-04</span>
+<span>커밋 3</span><span>최근 2026-10-04</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/couple-travel.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">생활</span>
+      </div>
+      <h3>우리의 여행</h3>
+      <p>(개인 생활 관련 내용은 생략)</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-05</span>
+<span>커밋 10</span><span>최근 2026-10-05</span>      </div>
+    </a>
+    <a class="card st-wip working" href="projects/dev-center.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+<span class="pulse mini"><span class="ring"></span>작업 중</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">대시보드</span>
+      </div>
+      <h3>개발 센터</h3>
+      <p>모든 프로젝트를 한 곳에 누적하는 공개 포트폴리오 + 아이디어 큐를 자동으로 구현·감사·배포하는 엔진</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-09</span>
+<span>세션 1</span><span>최근 2026-10-10</span>      </div>
+    </a>
+    <a class="card st-wip" href="projects/future-me.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">생활</span>
+      </div>
+      <h3>내일의 나 (성장 다이어리)</h3>
+      <p>개인 성장 다이어리 웹앱 — PC·모바일 동일 계정, 리마인더·루틴·카카오 연동 시도(Next.js, Cloudflare)</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-09</span>
+<span>커밋 26</span><span>최근 2026-10-09</span>      </div>
+    </a>
+    <a class="card st-wip working" href="projects/samguk-rpg.html" data-status="wip">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="pulse mini"><span class="ring"></span>작업 중</span><span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span>        <span class="badge st-wip">개발 중</span>
+        <span class="cat">게임</span>
+      </div>
+      <h3>삼국지 RPG (웹)</h3>
+      <p>Vite+TypeScript+PixiJS 로 만드는 브라우저 삼국지 RPG — RPG 루프(W1)와 전장 시뮬레이션(W2)을 병렬 워크트리로 개발 후 통합</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-10</span>
+<span>커밋 10</span><span>세션 1</span><span>최근 2026-10-10</span>      </div>
+    </a>
+    <a class="card st-paused" href="projects/coinbot-trend.html" data-status="paused">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-paused">중지</span>
+        <span class="cat">코인 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>추세 코인봇</h3>
+      <p>업비트 KRW 시장에서 추세 코어와 멀티시그널 게이트로 &#39;덜 잃는&#39; 균형형 매매를 하던 코인봇</p>
+      <div class="meta">
+        <span>2026-06 ~ 2026-08-02</span>
+<span>테스트 126</span><span>커밋 24</span><span>최근 2026-08-02</span>      </div>
+    </a>
+    <a class="card st-paused" href="projects/claude-term.html" data-status="paused">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-paused">중지</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>원격 터미널 (Claude 웹 터미널)</h3>
+      <p>ttyd와 tmux로 폰·다른 기기에서 Claude Code 세션에 붙는 원격 접속 묶음</p>
+      <div class="meta">
+        <span>2026-06 ~ 2026-09-10</span>
+      </div>
+    </a>
+    <a class="card st-paused working" href="projects/toss-marketing-center.html" data-status="paused">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+<span class="pulse mini"><span class="ring"></span>작업 중</span>        <span class="badge st-paused">중지</span>
+        <span class="cat">판매 자동화</span>
+      </div>
+      <h3>토스 마케팅 센터 (사도돼?)</h3>
+      <p>핫딜 발견에서 검증, 콘텐츠, 배포, 수익 학습까지 하는 자율 커머스 시스템</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-14</span>
+<span>테스트 1,108</span><span>커밋 85</span><span>세션 7</span><span>최근 2026-10-10</span>      </div>
+    </a>
+    <a class="card st-paused" href="projects/binance-bot.html" data-status="paused">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+        <span class="badge st-paused">중지</span>
+        <span class="cat">코인 자동매매</span>
+      </div>
+      <h3>바이낸스 픽셀 선물 플로어</h3>
+      <p>바이낸스 코인·기업 선물을 개인 모의매매로 굴리는 픽셀 아트 트레이딩 플로어</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-29</span>
+<span>테스트 3,616</span><span>커밋 452</span><span>최근 2026-09-29</span>      </div>
+    </a>
+    <a class="card st-paused" href="projects/sanguo-management.html" data-status="paused">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-paused">중지</span>
+        <span class="cat">게임</span>
+      </div>
+      <h3>삼국 경영록 (국가 경영 시뮬)</h3>
+      <p>229년 위·촉·오 배경의 PC 국가 경영 시뮬레이션 — 역사 인재 운용과 국정 경영(HTML/JS)</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-29</span>
+      </div>
+    </a>
+    <a class="card st-paused" href="projects/date-menu-subscription.html" data-status="paused">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-paused">중지</span>
+        <span class="cat">실험</span>
+      </div>
+      <h3>ChatGPT 구독 메뉴 테스트 도구</h3>
+      <p>배포 사이트의 ChatGPT 로그인 흐름을 PC 에서 별도로 점검하는 소형 테스트 도구(Node)</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-04</span>
+      </div>
+    </a>
+    <a class="card st-paused" href="projects/ink-three-kingdoms.html" data-status="paused">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-paused">중지</span>
+        <span class="cat">게임</span>
+      </div>
+      <h3>수묵 삼국지 (PC 게임)</h3>
+      <p>수묵화 풍 삼국지 PC 게임 — 데스크톱 빌드 v0.1~v0.6 과 설계 문서 묶음</p>
+      <div class="meta">
+        <span>2026-10 ~ 2026-10-08</span>
+      </div>
+    </a>
+    <a class="card st-paused" href="projects/nation-sim.html" data-status="paused">
+      <div class="card-top">
+        <span class="light unknown" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-paused">중지</span>
+        <span class="cat">게임</span>
+      </div>
+      <h3>국가 시뮬레이션 (릴리스 묶음)</h3>
+      <p>v0.2~v0.15 릴리스와 ATLAS 리뷰 문서를 남긴 국가 시뮬레이션 게임 실험(Codex)</p>
+      <div class="meta">
+        <span>미확인 ~ 미확인</span>
+      </div>
+    </a>
+    <a class="card st-done" href="projects/math-tutor-assistant.html" data-status="done">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="tool t-codex">Codex</span>        <span class="badge st-done">완성(상시가동 아님)</span>
+        <span class="cat">비서·자동화</span>
+      </div>
+      <h3>수학학원 루틴 비서</h3>
+      <p>채점 결과로 학부모 카톡 피드백을 만들고 매쓰플랫 출제·인쇄를 자동화하는 학원 업무 비서</p>
+      <div class="meta">
+        <span>2026-06 ~ 2026-07-10</span>
+<span>세션 123</span><span>최근 2026-09-24</span>      </div>
+    </a>
+    <a class="card st-done" href="projects/samgukji-game.html" data-status="done">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-done">완성(상시가동 아님)</span>
+        <span class="cat">게임</span>
+      </div>
+      <h3>삼국지 정립기</h3>
+      <p>고구려·백제·신라·가야 4국을 고르는 브라우저 턴제 전략 게임</p>
+      <div class="meta">
+        <span>2026-03 ~ 2026-07-28</span>
+<span>테스트 22</span><span>커밋 17</span><span class="q">아이디어 1</span><span>최근 2026-10-09</span>      </div>
+    </a>
+    <a class="card st-done" href="projects/sadodwae-legal.html" data-status="done">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-done">완성(상시가동 아님)</span>
+        <span class="cat">판매 자동화</span>
+      </div>
+      <h3>사도돼 약관 페이지</h3>
+      <p>사도돼? 서비스의 개인정보처리방침·이용약관·데이터 삭제 안내 정적 페이지</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-10</span>
+<span>커밋 1</span><span>최근 2026-09-10</span>      </div>
+    </a>
+    <a class="card st-done" href="projects/sadodwae-pages.html" data-status="done">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-done">완성(상시가동 아님)</span>
+        <span class="cat">판매 자동화</span>
+      </div>
+      <h3>사도돼 공개 사이트</h3>
+      <p>사도돼?의 고객 면: Cloudflare Worker와 D1으로 판정 요청을 받고 결과를 보여주는 공개 사이트</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-14</span>
+      </div>
+    </a>
+    <a class="card st-done" href="projects/claude-env-tuning.html" data-status="done">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-done">완성(상시가동 아님)</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>Claude 작업환경 최적화</h3>
+      <p>Claude Code를 더 효율적으로 쓰기 위한 설정·훅·스킬·메모리 체계 구축</p>
+      <div class="meta">
+        <span>2026-06 ~ 2026-09-23</span>
+      </div>
+    </a>
+    <a class="card st-done" href="projects/fleet-data.html" data-status="done">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-done">완성(상시가동 아님)</span>
+        <span class="cat">운영 인프라</span>
+      </div>
+      <h3>함대 데이터 계약</h3>
+      <p>봇들이 자기 상태를 선언하고 팔란티어가 읽기만 하게 하는 공유 데이터 계약과 도구</p>
+      <div class="meta">
+        <span>2026-09 ~ 2026-09-23</span>
+<span>커밋 5</span><span>세션 1</span><span>최근 2026-09-23</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/openclaw.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">실험</span>
+      </div>
+      <h3>오픈클로 게이트웨이</h3>
+      <p>초기(2026-02~03) 봇들이 얹혀 있던 OpenClaw 에이전트 워크스페이스와 게이트웨이</p>
+      <div class="meta">
+        <span>2026-02 ~ 2026-06-09</span>
+<span>커밋 43</span><span>최근 2026-06-29</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/fusion-v9-coinbot.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">코인 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>퓨전 코인봇 (v7~v9)</h3>
+      <p>업비트 KRW 단일 파일(1만 줄대) 자율 매매 코인봇, 이후 모듈형 재설계로 대체</p>
+      <div class="meta">
+        <span>2026-03 ~ 2026-06-09</span>
+<span>테스트 31</span><span>커밋 43</span><span>최근 2026-06-29</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/housebook.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">생활</span>
+      </div>
+      <h3>하우스북 텔레그램 봇</h3>
+      <p>가계/집 관련 기록용으로 만든 텔레그램 봇(폴더 삭제됨, 유닛 파일만 남음)</p>
+      <div class="meta">
+        <span>2026-04 ~ 2026-07</span>
+      </div>
+    </a>
+    <a class="card st-dead" href="projects/billionaire-portfolio-bot.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">주식 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>억만장자 포트폴리오 봇</h3>
+      <p>대가 투자자 포트폴리오를 참고해 해외 주식을 자동 매매하던 소액 봇(2026-07-03 삭제)</p>
+      <div class="meta">
+        <span>미확인 ~ 2026-07-03</span>
+      </div>
+    </a>
+    <a class="card st-dead" href="projects/us_stock_bot_v2.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">실험</span>
+      </div>
+      <h3>미국주식 데이트레이딩 봇 v2</h3>
+      <p>KIS 모의투자로 거래량 상위 종목을 모멘텀 단타하던 완전자율 미국주식 봇 (레거시)</p>
+      <div class="meta">
+        <span>2026-03 ~ 2026-07-28</span>
+<span>커밋 5</span><span>최근 2026-07-28</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/upbit-auto-bot.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">코인 자동매매</span>
+<span class="money" title="실제 돈이 걸린 봇">💵 실돈</span>      </div>
+      <h3>업비트 자율 코인봇</h3>
+      <p>모멘텀·평균회귀·전환매수를 쓰던 업비트 KRW 자율 매매봇(소액 실전, 현재 폐기)</p>
+      <div class="meta">
+        <span>2026-04 ~ 2026-07-28</span>
+<span>커밋 7</span><span>세션 2</span><span>최근 2026-09-29</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/kr_asset_manager.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">실험</span>
+      </div>
+      <h3>한국 자산운용 AI 봇</h3>
+      <p>애널리스트 4명 토론과 Claude 9역할 펀드 매니저로 국내주식을 운용해 보는 AI 헤지펀드 시뮬레이션</p>
+      <div class="meta">
+        <span>2026-03 ~ 2026-07-28</span>
+<span>커밋 3</span><span>최근 2026-07-28</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/coinbot-swing.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">코인 자동매매</span>
+      </div>
+      <h3>스윙 코인봇</h3>
+      <p>모멘텀 상위 강자만 RISK_ON일 때 매매하는 업비트 스윙봇(모의 가동 후 폐기)</p>
+      <div class="meta">
+        <span>2026-06 ~ 2026-08-02</span>
+<span>커밋 16</span><span>최근 2026-08-02</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/coinbot-adaptive.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 inactive"></span>
+        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">코인 자동매매</span>
+      </div>
+      <h3>적응형 코인봇</h3>
+      <p>coinbot-trend를 확장해 복수 전략과 주문 파이프라인, 자동 조정을 갖춘 멀티 전략 코인봇</p>
+      <div class="meta">
+        <span>2026-08 ~ 2026-08-25</span>
+<span>테스트 645</span><span>커밋 24</span><span>최근 2026-08-25</span>      </div>
+    </a>
+    <a class="card st-dead" href="projects/codex-coinbot-design.html" data-status="dead">
+      <div class="card-top">
+        <span class="light gray" title="서비스 미확인"></span>
+<span class="badge auto" title="엔진이 작업 폴더를 발견해 자동 등록한 초안">자동 등록</span><span class="tool t-codex">Codex</span>        <span class="badge st-dead">레거시·폐기</span>
+        <span class="cat">코인 자동매매</span>
+      </div>
+      <h3>수익형 자동 코인봇 설계 (Codex)</h3>
+      <p>Codex Desktop 에서 18개 세션으로 진행한 &#39;수익형 자동 코인봇&#39; 설계 작업(2026-08) — 이후 WSL 쪽 coinbot 계열로 이어짐</p>
+      <div class="meta">
+        <span>2026-08 ~ 2026-08-27</span>
+<span>세션 18</span><span>최근 2026-08-27</span>      </div>
+    </a>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="static/app.js"></script>
+</body>
+</html>

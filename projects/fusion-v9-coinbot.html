@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>퓨전 코인봇 (v7~v9) — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-dead">레거시·폐기</span>
+    <span class="cat">코인 자동매매</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>퓨전 코인봇 (v7~v9) <small>Fusion Coin Bot (v7-v9)</small></h1>
+  <p class="lead">업비트 KRW 단일 파일(1만 줄대) 자율 매매 코인봇, 이후 모듈형 재설계로 대체</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (4)</button>
+    <button data-t="work">최근 작업 (12)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (3)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">2026-03에 만든 초기 코인봇이다. 한 파일에 로직이 모여 있는 거대 구조(현재 약 1.2만 줄)로, 레짐 감지, 자정 차단, 자가진단(&#34;병원&#34;), 팩터 진화·기여도 분석, 섀도 봇, 텔레그램 알림까지 갖췄고 한때 실거래(LIVE)로 가동했다.
+3월에 종합 감사와 패치를 여러 번 했고 점수 로드맵(완전 자율 운용 10점)까지 세웠다. 그러나 6월에 &#34;매수 0건&#34; 디버깅에서 이름 참조 누락, 매매정지 자동 해제 부재, 하락 추세 수면 모드 3중 원인이 나오는 등 유지보수 한계가 드러났고, 이후 coinbot-v2와 coinbot-swing, coinbot-trend로 새로 지었다.
+지금은 서비스가 꺼져 있고 코드와 DB가 openclaw 작업 공간에 남아 있다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-03 ~ 2026-06-09</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>systemd</code> <code>upbit</code> </dd>
+<dt>코드</dt><dd>12,167 줄</dd><dt>테스트</dt><dd>31 개</dd><dt>커밋</dt><dd>43</dd><dt>systemd 유닛</dt><dd>1 개</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 0 (Claude Code 0 · Codex 0)</span><span>마지막 활동 2026-06-29</span></div>
+    <ul class="feed">
+<li><span class="when">2026-06-29 19:02</span><span class="tool t-git">커밋</span><span class="ttl">fix(etf-dca): KIS 레이트리밋 가짜0 잔고 방어 (기존 버그)</span></li><li><span class="when">2026-06-29 18:59</span><span class="tool t-git">커밋</span><span class="ttl">feat(etf-dca): 스마트 적립 엔진 구현 — 지갑 이월/속도조절/예수금넛지/일일상한</span></li><li><span class="when">2026-06-02 19:07</span><span class="tool t-git">커밋</span><span class="ttl">feat(v9): 리포트 개선 + /v9status 명령어 추가</span></li><li><span class="when">2026-06-02 18:56</span><span class="tool t-git">커밋</span><span class="ttl">feat(v9): V9 전용 모드 전환 — V8 진입/알림 OFF + V9 리포트 신설</span></li><li><span class="when">2026-06-02 18:39</span><span class="tool t-git">커밋</span><span class="ttl">feat(v9): fusion V8→V9 전략 업그레이드 — 6가지 리스크 보완 (+399줄)</span></li><li><span class="when">2026-05-30 12:38</span><span class="tool t-git">커밋</span><span class="ttl">fix(billionaire): 6개 버그 패치 — v30</span></li><li><span class="when">2026-04-24 17:14</span><span class="tool t-git">커밋</span><span class="ttl">fix: billionaire_portfolio — v29 종합패치: 버그 2건(discovered_stocks 테이블 누락, sqlite3.R</span></li><li><span class="when">2026-04-08 00:54</span><span class="tool t-git">커밋</span><span class="ttl">feat: ETF 포트폴리오 매니저 v2.1 종합패치</span></li><li><span class="when">2026-04-08 00:29</span><span class="tool t-git">커밋</span><span class="ttl">feat: ETF 지능형 포트폴리오 매니저 v2</span></li><li><span class="when">2026-04-07 17:48</span><span class="tool t-git">커밋</span><span class="ttl">fix(coinbot): 오류 분석 기반 버그 패치 8건</span></li><li><span class="when">2026-04-06 12:27</span><span class="tool t-git">커밋</span><span class="ttl">feat: 현실적 운용 가능화 패치 5건 (현금동적/SIDEWAYS동적/성과필터완화/ScoreMin투명화/self.regime버그픽스)</span></li><li><span class="when">2026-04-06 12:14</span><span class="tool t-git">커밋</span><span class="ttl">fix(coinbot): PENDING 체결 버그 수정 + 잔고 동기화 경고 개선</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>레짐 기반 진입과 BTC 추세 수면 모드</li><li>자가진단과 일일 손실 한도 매매정지</li><li>팩터 진화·실거래 기여도 피드백 루프</li><li>섀도 봇 비교와 일일 리포트</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="fusion-v9-coinbot">
+      <div class="row"><span>서비스</span><b class="svc">inactive</b></div>
+<div class="row"><span>마지막 커밋</span><b>2026-06-29</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>31</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>단일 거대 파일은 이름 하나 빠진 버그가 전체 신호를 0으로 만든다</li><li>매매정지 자동 해제 로직이 없으면 날짜가 바뀌어도 계속 멈춰 있다</li><li>줄수는 단일 봇 파일 기준, 테스트 수와 커밋 수는 openclaw 작업 공간 전체 기준</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

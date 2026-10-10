@@ -1,0 +1,2164 @@
+{
+ "projects": {
+  "ai-securities": {
+   "sessions": 6,
+   "sessions_claude": 6,
+   "sessions_codex": 0,
+   "automated": 1,
+   "last_day": "2026-10-10",
+   "active_now": true,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-10T10:27",
+     "tool": "claude",
+     "title": "결정 후 병목 해결"
+    },
+    {
+     "ts": "2026-10-10T01:21",
+     "tool": "git",
+     "title": "W1 통합: 화면 D-n 떼기 후 구분점 공백 정리(서버·화면 동일)"
+    },
+    {
+     "ts": "2026-10-10T01:20",
+     "tool": "git",
+     "title": "W1 화면: 사장 한 장 첫 화면 + 건물 단면도 + 결정 팝업 자동 열림 끔 + 폴링 다이어트(10-09 대표 Q5) — 콜드 재감사 수리 완"
+    },
+    {
+     "ts": "2026-10-10T01:20",
+     "tool": "git",
+     "title": "W1 백엔드: 결재·텔레그램 형식(FMT3) + 토스 환율 자동 + 하이쿠 상한·측정 + 주문 킬스위치 3중·실돈 상한·손익분기(10-09 대표"
+    },
+    {
+     "ts": "2026-10-09T18:24",
+     "tool": "git",
+     "title": "cycle W2: 개선 후보 → 섀도 실험 → 판정(10-08 대표 D3·D6·D8) — 콜드 감사 조건부 PASS + P2-1·P3-4 수리"
+    },
+    {
+     "ts": "2026-10-09T17:11",
+     "tool": "claude",
+     "title": ""
+    },
+    {
+     "ts": "2026-10-08T19:02",
+     "tool": "git",
+     "title": "cycle W0+W1: 데이터·개선·피드백 순환 1단계(10-08 대표 D1~D10 추천대로) — 콜드 재감사 PASS"
+    },
+    {
+     "ts": "2026-10-07T15:53",
+     "tool": "git",
+     "title": "decide-now: 대표 결정 즉시 반영·중복 결재 차단·부실 결재 보강·팝업 병목 수리(10-07 대표 요청) — 콜드 감사 4차 조건부 P"
+    },
+    {
+     "ts": "2026-10-07T15:36",
+     "tool": "git",
+     "title": "g7 후속: 백업 운영 P3 6건 + 후속 감사 P3 2건(후속 감사 PASS)"
+    },
+    {
+     "ts": "2026-10-07T14:58",
+     "tool": "git",
+     "title": "g7: 경험치 누적·활용 개선 5건(10-07 대표 '모두 진행') — 콜드 재감사 PASS"
+    },
+    {
+     "ts": "2026-10-06T12:36",
+     "tool": "claude",
+     "title": "AI증권사 봇 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-06T10:53",
+     "tool": "git",
+     "title": "s1fix5 감사 P3: 팀 위임 감사 기록 1행·롤백 시 0행 단언(이중 기록 뮤테이션 잡힘)"
+    }
+   ]
+  },
+  "life-os": {
+   "sessions": 4,
+   "sessions_claude": 4,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-28",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-28T14:26",
+     "tool": "claude",
+     "title": "원격 pc 저장소 문제"
+    },
+    {
+     "ts": "2026-09-21T11:13",
+     "tool": "claude",
+     "title": "AI Life RPG 제품 설계 지침 Wave I"
+    },
+    {
+     "ts": "2026-09-21T11:13",
+     "tool": "git",
+     "title": "docs(wave-k): founder directive — from organizer to companion"
+    },
+    {
+     "ts": "2026-09-21T10:56",
+     "tool": "git",
+     "title": "docs: external audit briefing (2026-09-21)"
+    },
+    {
+     "ts": "2026-09-21T10:49",
+     "tool": "git",
+     "title": "fix(founder-device): the routine step circle starts empty; notes can be 지우기; 5분 "
+    },
+    {
+     "ts": "2026-09-21T02:11",
+     "tool": "git",
+     "title": "docs(report): Wave J report + dev notes"
+    },
+    {
+     "ts": "2026-09-21T02:10",
+     "tool": "git",
+     "title": "fix(trace): resolve repositories lazily — two live suites had silently stopped l"
+    },
+    {
+     "ts": "2026-09-21T02:05",
+     "tool": "git",
+     "title": "docs(shots): wave J integration checks"
+    },
+    {
+     "ts": "2026-09-21T02:03",
+     "tool": "git",
+     "title": "feat(settings): wire 계정 및 전체 데이터 삭제 to delete_my_account (WAVE J §20)"
+    },
+    {
+     "ts": "2026-09-21T01:58",
+     "tool": "git",
+     "title": "docs(wave-j): fold the A1-A5 handoff into the Team A report"
+    },
+    {
+     "ts": "2026-09-21T01:57",
+     "tool": "git",
+     "title": "feat(handoff): fold in Team B's five items that live in Team A files (A1–A5)"
+    },
+    {
+     "ts": "2026-09-21T01:50",
+     "tool": "git",
+     "title": "fix(today): a chosen rest day is not answered with the recovery invitation (WAVE"
+    }
+   ]
+  },
+  "butler-bot": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-27",
+   "active_now": false,
+   "commits": 6,
+   "timeline": [
+    {
+     "ts": "2026-09-27T10:03",
+     "tool": "claude",
+     "title": "바이낸스봇, 센터+봇"
+    },
+    {
+     "ts": "2026-09-15T11:11",
+     "tool": "git",
+     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
+    },
+    {
+     "ts": "2026-08-01T23:42",
+     "tool": "git",
+     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-07-28T10:20",
+     "tool": "git",
+     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
+    },
+    {
+     "ts": "2026-07-21T20:34",
+     "tool": "git",
+     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
+    },
+    {
+     "ts": "2026-07-14T02:46",
+     "tool": "git",
+     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
+    }
+   ]
+  },
+  "pentagon-bot": {
+   "sessions": 4,
+   "sessions_claude": 4,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-05",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-05T12:48",
+     "tool": "claude",
+     "title": "A4f pc 봇 오류 원인 분석"
+    },
+    {
+     "ts": "2026-09-24T22:06",
+     "tool": "claude",
+     "title": "Wave 11 brief MASTER_PROMPT 및 ACCEPTANCE_TESTS 재검증"
+    },
+    {
+     "ts": "2026-09-24T16:11",
+     "tool": "git",
+     "title": "fix(order): 7차 콜드감사 P3 정리 — 문맥 누락 경보를 복구 경로 전부로, 설계상 손절 없는 엔진 오경보 제거, 고아 매수는 원 문"
+    },
+    {
+     "ts": "2026-09-24T16:03",
+     "tool": "git",
+     "title": "fix(order): 6차 콜드감사 — 뒤늦게 확정된 매수도 손절가 유지, 차지된 주문번호 중복 매칭 제외, 경보 재시도 백오프"
+    },
+    {
+     "ts": "2026-09-24T15:54",
+     "tool": "git",
+     "title": "fix(order): 5차 콜드감사 — 경보 전송 성공 후에만 표식·사이클 체결확인 스윕·장외 나이 스윕·해제 스크립트 강화"
+    },
+    {
+     "ts": "2026-09-24T15:43",
+     "tool": "git",
+     "title": "fix(order): 4차 콜드감사 — 미결 주문 나이 스윕·매수 진행중 부분체결 미확정·사람 확인 후 종결 경로"
+    },
+    {
+     "ts": "2026-09-24T15:31",
+     "tool": "git",
+     "title": "fix(order): 3차 콜드감사 — 미결 주문 경보 누락 경로 봉쇄·진행중 부분체결 미확정·격리 보정"
+    },
+    {
+     "ts": "2026-09-24T15:17",
+     "tool": "git",
+     "title": "fix(order): 재감사 N1 — 불명확 주문 자동 종결·재발주 제거 → 사람 확인 경보(새 주문 차단 유지)"
+    },
+    {
+     "ts": "2026-09-24T15:08",
+     "tool": "git",
+     "title": "fix(order): 콜드감사 반증 수리 — 불명확 주문 종결·복구 사유 보존·거절키 분리·POST 재전송 금지"
+    },
+    {
+     "ts": "2026-09-24T14:48",
+     "tool": "git",
+     "title": "feat(maint): SPRINT0 A1 — tp1 선기록 오염 포지션용 봇 소유 유지보수 경로(기본 dry-run)"
+    },
+    {
+     "ts": "2026-09-24T14:45",
+     "tool": "git",
+     "title": "fix(drift): SPRINT0 B1 — 대사 판정 상태 5종 + ▮▮변화 감지 증명"
+    },
+    {
+     "ts": "2026-09-24T14:43",
+     "tool": "git",
+     "title": "fix(order,isolation): SPRINT0 A2 접수 오류 5분류 + §2 운영파일 '접근 0'(읽기 포함)"
+    }
+   ]
+  },
+  "toss-marketing-center": {
+   "sessions": 7,
+   "sessions_claude": 7,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-10",
+   "active_now": true,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-10T10:36",
+     "tool": "claude",
+     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T03:44",
+     "tool": "git",
+     "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
+    },
+    {
+     "ts": "2026-09-15T01:37",
+     "tool": "claude",
+     "title": "세션 이름 지정"
+    },
+    {
+     "ts": "2026-09-14T17:41",
+     "tool": "git",
+     "title": "inbound_autopilot: use heartbeat-aware release_guard.tick_gate (skip on FRESH/HE"
+    },
+    {
+     "ts": "2026-09-14T17:28",
+     "tool": "git",
+     "title": "docs: first-human sprint report 2026-09-14 18:00"
+    },
+    {
+     "ts": "2026-09-14T17:26",
+     "tool": "git",
+     "title": "First Real Human Sprint: E1-E7 milestones (write-once, E5 never inferred), daily"
+    },
+    {
+     "ts": "2026-09-14T13:20",
+     "tool": "git",
+     "title": "docs: inbound engine report 2026-09-14 13:30"
+    },
+    {
+     "ts": "2026-09-14T13:18",
+     "tool": "git",
+     "title": "Inbound Conversation Engine: inbound reply autopilot (detect→classify→safety→int"
+    },
+    {
+     "ts": "2026-09-14T11:17",
+     "tool": "git",
+     "title": "docs: conversation sprint report 2026-09-14 11:40"
+    },
+    {
+     "ts": "2026-09-14T11:15",
+     "tool": "git",
+     "title": "brand_cards: footer uses the real Home host (an invented 'sadodwae.pages' domain"
+    },
+    {
+     "ts": "2026-09-14T11:14",
+     "tool": "git",
+     "title": "Conversation-led growth sprint: daily conversation mission, 8-criteria seed rank"
+    },
+    {
+     "ts": "2026-09-14T10:02",
+     "tool": "git",
+     "title": "docs: status report 2026-09-14 01:10 (ad channel decision A/B)"
+    }
+   ]
+  },
+  "palantir-center": {
+   "sessions": 6,
+   "sessions_claude": 6,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-02",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-02T13:53",
+     "tool": "git",
+     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
+    },
+    {
+     "ts": "2026-10-02T13:46",
+     "tool": "git",
+     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
+    },
+    {
+     "ts": "2026-10-02T13:37",
+     "tool": "git",
+     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
+    },
+    {
+     "ts": "2026-10-02T13:27",
+     "tool": "git",
+     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
+    },
+    {
+     "ts": "2026-10-02T10:56",
+     "tool": "claude",
+     "title": "팔란티어 센터와 live 봇 할당분 확인"
+    },
+    {
+     "ts": "2026-09-30T22:04",
+     "tool": "git",
+     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
+    },
+    {
+     "ts": "2026-09-28T21:11",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
+    },
+    {
+     "ts": "2026-09-28T20:09",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
+    },
+    {
+     "ts": "2026-09-28T10:08",
+     "tool": "claude",
+     "title": "○○이봇 ▮▮ 할당"
+    },
+    {
+     "ts": "2026-09-27T22:54",
+     "tool": "git",
+     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
+    },
+    {
+     "ts": "2026-09-26T11:30",
+     "tool": "git",
+     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-26T10:58",
+     "tool": "git",
+     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
+    }
+   ]
+  },
+  "fleet-data": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-23",
+   "active_now": false,
+   "commits": 5,
+   "timeline": [
+    {
+     "ts": "2026-09-23T22:35",
+     "tool": "git",
+     "title": "fleet_intake: optional available_at/deployed_at receipt fields (CONTRACT §7.1)"
+    },
+    {
+     "ts": "2026-09-16T01:22",
+     "tool": "git",
+     "title": "wave G: readiness V3 dimensions (8 axes, 5-step ladder), no promotions"
+    },
+    {
+     "ts": "2026-09-16T01:02",
+     "tool": "git",
+     "title": "wave G: CONTRACT §7 execution integrity, fleet_intake receipts, arbiter observe_"
+    },
+    {
+     "ts": "2026-09-15T21:19",
+     "tool": "git",
+     "title": "wave E: FREEZE.json evidence-window freeze + readiness ladder V2 (pilot flag, da"
+    },
+    {
+     "ts": "2026-09-15T18:32",
+     "tool": "git",
+     "title": "chore: fleet-data 컨트롤 플레인 최초 버전관리 — CONTRACT v1.2(§1.4 ext·§1.5 attestation·§1.6"
+    },
+    {
+     "ts": "2026-09-13T13:04",
+     "tool": "claude",
+     "title": "Toss 마케팅 센터"
+    }
+   ]
+  },
+  "samguk-rpg": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-10",
+   "active_now": true,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-10T10:28",
+     "tool": "claude",
+     "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T06:53",
+     "tool": "git",
+     "title": "문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고"
+    },
+    {
+     "ts": "2026-10-10T06:49",
+     "tool": "git",
+     "title": "W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백"
+    },
+    {
+     "ts": "2026-10-10T06:38",
+     "tool": "git",
+     "title": "W4 콜드 감사 1차 FAIL 수리: 발탁 현령 박탈이 승급되던 P1 + P2 9"
+    },
+    {
+     "ts": "2026-10-10T06:13",
+     "tool": "git",
+     "title": "W4 8단계: 한 바퀴 봇(loopSim)·관문 측정(실패 기록)·증거 W4·문서"
+    },
+    {
+     "ts": "2026-10-10T05:31",
+     "tool": "git",
+     "title": "W4 7단계: 응용 퀘스트 → 영지 효과 연결 · 2차 전직 8직업·기술 16(필드·전장)"
+    },
+    {
+     "ts": "2026-10-10T05:22",
+     "tool": "git",
+     "title": "W4 6단계: UI — 영지 창·세율 팝업·임명장·승급/강등/박탈·사건 팝업·민심 띠·내 영지 격문 띠·호위 이름판·결산 '승급 예정'"
+    },
+    {
+     "ts": "2026-10-10T04:55",
+     "tool": "git",
+     "title": "W4 5단계: 저장 v5 — 2차 전직 자리·단축키 6칸·세계 v1→v2 migrate·깨진 영지 정리"
+    },
+    {
+     "ts": "2026-10-10T04:50",
+     "tool": "git",
+     "title": "W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프"
+    },
+    {
+     "ts": "2026-10-10T04:46",
+     "tool": "git",
+     "title": "W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev"
+    },
+    {
+     "ts": "2026-10-10T04:29",
+     "tool": "git",
+     "title": "W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열"
+    },
+    {
+     "ts": "2026-10-10T04:22",
+     "tool": "git",
+     "title": "W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts"
+    }
+   ]
+  },
+  "cgv-bot": {
+   "sessions": 9,
+   "sessions_claude": 9,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-09",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-09T18:07",
+     "tool": "claude",
+     "title": "A4f pc 메모리와 용량 소비 봇"
+    },
+    {
+     "ts": "2026-10-05T19:58",
+     "tool": "claude",
+     "title": "cgv봇 무대인사 감시 제외"
+    },
+    {
+     "ts": "2026-10-05T19:42",
+     "tool": "git",
+     "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
+    },
+    {
+     "ts": "2026-10-05T19:25",
+     "tool": "git",
+     "title": "feat(cgv): 매입 정책(같은 날 2회차·처음 관 2장, shadow) + 스스로 배우는 감시(밴딧, 기본 OFF) + 장부/좌석기록 극장"
+    },
+    {
+     "ts": "2026-10-05T19:11",
+     "tool": "git",
+     "title": "fix(cgv): 2차 회의 즉시 버그 — 알림 실패 시 환불 보장·발권 타임아웃 재시작 순서·토큰/점검 경보·결제 연속실패 정지"
+    },
+    {
+     "ts": "2026-10-05T16:50",
+     "tool": "git",
+     "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
+    },
+    {
+     "ts": "2026-10-05T00:51",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
+    },
+    {
+     "ts": "2026-10-05T00:31",
+     "tool": "git",
+     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
+    },
+    {
+     "ts": "2026-10-04T16:02",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표"
+    },
+    {
+     "ts": "2026-10-04T14:57",
+     "tool": "git",
+     "title": "feat(cgv): 명당표 없던 일반관 5곳 자동 등급표 추가(용산 11·12관, 천호 1·3·5관)"
+    },
+    {
+     "ts": "2026-10-04T13:43",
+     "tool": "git",
+     "title": "fix(cgv): accessToken 만료 시 자동 갱신(프론트 방식) — 자동환불 전면 실패(10/3 오후~) 근본 수리"
+    },
+    {
+     "ts": "2026-10-04T01:41",
+     "tool": "git",
+     "title": "feat: 교체 24시간 컷·봇 하루상한 제외 + 배부완료 제외 전 표 완전관리(독립 자동환불·데드맨)"
+    }
+   ]
+  },
+  "upbit-auto-bot": {
+   "sessions": 2,
+   "sessions_claude": 2,
+   "sessions_codex": 0,
+   "automated": 1,
+   "last_day": "2026-09-29",
+   "active_now": false,
+   "commits": 7,
+   "timeline": [
+    {
+     "ts": "2026-09-29T18:49",
+     "tool": "claude",
+     "title": "바이낸스 봇 계속 진행"
+    },
+    {
+     "ts": "2026-09-27T11:16",
+     "tool": "claude",
+     "title": "▮▮ 벌이 프로젝트"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-04-13T21:40",
+     "tool": "git",
+     "title": "v3_0413: 전략 전면 재설계 — 수익 구조로 전환"
+    },
+    {
+     "ts": "2026-04-10T14:51",
+     "tool": "git",
+     "title": "watchlist 스프레드 실시간 재조회: 변동성 대응"
+    },
+    {
+     "ts": "2026-04-10T13:55",
+     "tool": "git",
+     "title": "watchlist 복원 시 비우기: 재시작마다 CFG 복원되는 문제 수정"
+    },
+    {
+     "ts": "2026-04-10T13:31",
+     "tool": "git",
+     "title": "전수 점검 수정 10건: 텔레그램 격리 완성 + 관심종목 필터 + 메시지 주기"
+    },
+    {
+     "ts": "2026-04-10T13:22",
+     "tool": "git",
+     "title": "shadow 게이트 수정: 최근 48h + 최소 30건 기준"
+    },
+    {
+     "ts": "2026-04-10T13:11",
+     "tool": "git",
+     "title": "종합 패치: 역발상 전환 매수 전략 + 인프라 안정화 7건"
+    }
+   ]
+  },
+  "joongna-seller": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 1,
+   "last_day": "2026-10-02",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-10-02T13:56",
+     "tool": "claude",
+     "title": "cgv봇 인기영화 자동예매"
+    }
+   ]
+  },
+  "dev-center": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 5,
+   "last_day": "2026-10-10",
+   "active_now": true,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-10T10:34",
+     "tool": "claude",
+     "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T10:32",
+     "tool": "git",
+     "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)"
+    },
+    {
+     "ts": "2026-10-10T10:31",
+     "tool": "git",
+     "title": "3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex "
+    },
+    {
+     "ts": "2026-10-10T01:21",
+     "tool": "git",
+     "title": "테스트: 본인 식별정보 없을 때 fail-closed 단언"
+    },
+    {
+     "ts": "2026-10-10T01:20",
+     "tool": "git",
+     "title": "재감사 반영: origin/<branch> 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa"
+    },
+    {
+     "ts": "2026-10-10T01:02",
+     "tool": "git",
+     "title": "콜드감사 반영: 설명 XSS 이스케이프, 윈도우/WSL 경로 정규식, 초안 공개 id·일반화, push 재시도(앞선 커밋), publish 잠금"
+    },
+    {
+     "ts": "2026-10-10T00:39",
+     "tool": "git",
+     "title": "활동: 워크트리 공유 저장소의 커밋 중복 제거"
+    },
+    {
+     "ts": "2026-10-10T00:39",
+     "tool": "git",
+     "title": "검수 반영: 커밋 제목 첫 줄만($·리터럴"
+    },
+    {
+     "ts": "2026-10-10T00:33",
+     "tool": "git",
+     "title": "활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용"
+    },
+    {
+     "ts": "2026-10-10T00:12",
+     "tool": "git",
+     "title": "발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치"
+    },
+    {
+     "ts": "2026-10-09T19:43",
+     "tool": "git",
+     "title": "재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z"
+    },
+    {
+     "ts": "2026-10-09T19:31",
+     "tool": "git",
+     "title": "엔진 감사 FAIL 8건 수리: info/exclude git-path·커밋 위생 관문(미커밋/의존성/심볼릭)·링크 대상 지문 탐지·npm 도구"
+    }
+   ]
+  },
+  "sector-dca-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 177,
+   "last_day": "2026-09-25",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-25T13:39",
+     "tool": "git",
+     "title": "fix(RV-02B 콜드감사 P3-B·C·D): 읽기전용 회귀 테스트 + 롤백 순서(정지 후 관문) + 백업명 셸 안내"
+    },
+    {
+     "ts": "2026-09-25T13:30",
+     "tool": "git",
+     "title": "fix(RV-02B 최종감사 D2·D3·P3): 검사 도구 롤백 관문 + 절차서 통일 + 주문 사이클 무체결 해제 알림"
+    },
+    {
+     "ts": "2026-09-25T13:03",
+     "tool": "git",
+     "title": "feat(RV-02B 사용자 결정 D-1×수수료): 예약액이 장부 현금보다 수수료 한도 이내로만 크면 주문"
+    },
+    {
+     "ts": "2026-09-25T11:35",
+     "tool": "git",
+     "title": "fix(RV-02B 4차 감사 P3-1~3): 수동 해소는 열린 사건·비자동 대상만, 전송 중 닫힌 intent 재개방 금지, 요약에 대조용 원"
+    },
+    {
+     "ts": "2026-09-25T11:31",
+     "tool": "git",
+     "title": "fix(RV-02B 3차 감사 P2-A~D): 수동 해소 대상 한정·오귀속 차단·확인 단계 원자화"
+    },
+    {
+     "ts": "2026-09-25T11:25",
+     "tool": "git",
+     "title": "feat(RV-02B 사용자 결정): 미확정 주문 수동 해소 /해소→/해소확인 2단계(기본 OFF) + 설계 이탈 7건·배포 절차 갱신"
+    },
+    {
+     "ts": "2026-09-25T11:25",
+     "tool": "git",
+     "title": "fix(RV-02B 총괄감사 후속): equity 에 열린 예약 가산·tx 커밋 실패 rollback·대사 정산분 부족비교·동결 판정 실패 시 "
+    },
+    {
+     "ts": "2026-09-25T10:54",
+     "tool": "git",
+     "title": "test(RV-02B 재감사 P3-a): 동결 제외는 같은 세션 재개 대상만 — 지난 세션 전송 전 cid 는 동결 유지"
+    },
+    {
+     "ts": "2026-09-25T10:51",
+     "tool": "git",
+     "title": "fix(RV-02B 콜드감사 P2×3·P3): 계약 없는 클라이언트 재개·해제 금지, 대사 실패에도 placed 종목 동결, 재개 분기 직접 검"
+    },
+    {
+     "ts": "2026-09-25T10:33",
+     "tool": "git",
+     "title": "fix(RV-02B): _live_orders — cursor 무시(같은 페이지 반복) 감지·주문번호 중복 제거"
+    },
+    {
+     "ts": "2026-09-25T10:32",
+     "tool": "git",
+     "title": "feat(RV-02B 8/8): 이행 대사 스크립트(mode=ro)·배포 절차·외부검토 반례 4종 실제 경로 테스트"
+    },
+    {
+     "ts": "2026-09-25T10:28",
+     "tool": "git",
+     "title": "feat(RV-02B 6/8): 텔레그램 읽기 명령 /근거 /재조회 /확인했음 (D-5: 금전 상태변경 0)"
+    }
+   ]
+  },
+  "codex-coinbot-design": {
+   "sessions": 18,
+   "sessions_claude": 0,
+   "sessions_codex": 18,
+   "automated": 0,
+   "last_day": "2026-08-27",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-08-27T22:27",
+     "tool": "codex",
+     "title": "설계하기 수익형 자동 코인봇"
+    },
+    {
+     "ts": "2026-08-27T21:52",
+     "tool": "codex",
+     "title": "",
+     "count": 17
+    }
+   ]
+  },
+  "math-tutor-assistant": {
+   "sessions": 123,
+   "sessions_claude": 0,
+   "sessions_codex": 123,
+   "automated": 0,
+   "last_day": "2026-09-24",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-09-24T22:06",
+     "tool": "codex",
+     "title": "학원 업무 관리 봇 구축"
+    },
+    {
+     "ts": "2026-09-22T00:15",
+     "tool": "codex",
+     "title": "",
+     "count": 106
+    },
+    {
+     "ts": "2026-09-07T22:36",
+     "tool": "codex",
+     "title": "학원 업무 관리 봇 구축"
+    },
+    {
+     "ts": "2026-09-07T22:09",
+     "tool": "codex",
+     "title": "",
+     "count": 3
+    },
+    {
+     "ts": "2026-09-07T22:03",
+     "tool": "codex",
+     "title": "학원 업무 관리 봇 구축"
+    },
+    {
+     "ts": "2026-09-07T21:04",
+     "tool": "codex",
+     "title": "",
+     "count": 10
+    },
+    {
+     "ts": "2026-09-07T15:49",
+     "tool": "codex",
+     "title": "학원 업무 관리 봇 구축"
+    }
+   ]
+  },
+  "codex-remote": {
+   "sessions": 2,
+   "sessions_claude": 0,
+   "sessions_codex": 2,
+   "automated": 0,
+   "last_day": "2026-09-25",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-09-25T19:20",
+     "tool": "codex",
+     "title": ""
+    },
+    {
+     "ts": "2026-09-25T19:19",
+     "tool": "codex",
+     "title": "GPT 원격 실행 링크 만들기"
+    }
+   ]
+  },
+  "allweather-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-07-28",
+   "active_now": false,
+   "commits": 9,
+   "timeline": [
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-07-28T10:20",
+     "tool": "git",
+     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
+    },
+    {
+     "ts": "2026-07-20T11:37",
+     "tool": "git",
+     "title": "feat: cross-process shared Toss token cache (kills 6-bot mutual invalidation 401"
+    },
+    {
+     "ts": "2026-07-13T13:29",
+     "tool": "git",
+     "title": "feat+fix: diff 기반 주문 유지(C1)+자금부족 재시도 관측성(C2)+.env 접두어 경고(C3)+high_since_entry 지뢰"
+    },
+    {
+     "ts": "2026-07-07T02:14",
+     "tool": "git",
+     "title": "feat(prices): record latest per-symbol price at valuation for dashboard"
+    },
+    {
+     "ts": "2026-07-05T21:40",
+     "tool": "git",
+     "title": "fix(client): 401 invalid-token → drop cached token, re-auth, retry once (self-he"
+    },
+    {
+     "ts": "2026-07-05T21:21",
+     "tool": "git",
+     "title": "feat: RUN_NOW flag — one-shot manual cycle from dashboard (5s detect, 10min cool"
+    },
+    {
+     "ts": "2026-07-05T15:41",
+     "tool": "git",
+     "title": "fix: record real USD/KRW rate in equity/weights snapshot (was fx=None)"
+    },
+    {
+     "ts": "2026-07-05T15:31",
+     "tool": "git",
+     "title": "allweather-bot baseline: rule-based band-rebalancing portfolio (DRY)"
+    }
+   ]
+  },
+  "binance-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-29",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-29T18:33",
+     "tool": "git",
+     "title": "w18/a: staff_metrics never reads the W11 namespace from the shared ai_model_resp"
+    },
+    {
+     "ts": "2026-09-29T17:37",
+     "tool": "git",
+     "title": "w18/a: GET /api/account/daily_pnl (KST days, reconciled to ledger totals) + GET "
+    },
+    {
+     "ts": "2026-09-29T14:34",
+     "tool": "git",
+     "title": "w17/b: re-audit P3-A — a worker-reported PAUSED_* wins over the last logged tick"
+    },
+    {
+     "ts": "2026-09-29T14:28",
+     "tool": "git",
+     "title": "w17/b: integration-audit repair — paused/waiting pair book shows as stopped, are"
+    },
+    {
+     "ts": "2026-09-29T14:11",
+     "tool": "git",
+     "title": "w17/b: pixel rooms for the other tabs — debate room (conclusion-first RPG dialog"
+    },
+    {
+     "ts": "2026-09-29T13:57",
+     "tool": "git",
+     "title": "w17/a: re-audit P3 — seat typing only while the committee is in session; HALT-du"
+    },
+    {
+     "ts": "2026-09-29T13:50",
+     "tool": "git",
+     "title": "w17/a: cold-audit repair — frozen/disconnected office has zero looping motion (f"
+    },
+    {
+     "ts": "2026-09-29T13:31",
+     "tool": "git",
+     "title": "w17/a: pixel management-sim theme — tokens, self-hosted Jua/Silkscreen (OFL), Pi"
+    },
+    {
+     "ts": "2026-09-29T10:49",
+     "tool": "git",
+     "title": "w16/int: integration fixes — hourly v2 definition addendum moved out of amendmen"
+    },
+    {
+     "ts": "2026-09-29T09:30",
+     "tool": "git",
+     "title": "w16/pairbook: re-audit P2 — only a GAP (a later complete day already seen) is sk"
+    },
+    {
+     "ts": "2026-09-29T09:23",
+     "tool": "git",
+     "title": "w16/lessons: re-audit P3-1 — test that a LOSE verdict stops N through the collec"
+    },
+    {
+     "ts": "2026-09-29T09:17",
+     "tool": "git",
+     "title": "w16/pairbook: re-audit P1 — calendar days with zero bars also wait then get jour"
+    }
+   ]
+  },
+  "coinbot-adaptive": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-08-25",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-08-25T21:29",
+     "tool": "git",
+     "title": "fix(signal): held_markets 배선 — 보유 종목 신호 단계에서 제외"
+    },
+    {
+     "ts": "2026-08-25T20:50",
+     "tool": "git",
+     "title": "fix: 브리핑 시장 섹션이 통째로 빈칸 — 있는 데이터를 아무도 안 읽고 있었다"
+    },
+    {
+     "ts": "2026-08-25T19:32",
+     "tool": "git",
+     "title": "fix: 레짐 커서 이중 인코딩 — 재시작마다 가짜 REGIME_CHANGE + 히스테리시스 입력 오염"
+    },
+    {
+     "ts": "2026-08-25T18:57",
+     "tool": "git",
+     "title": "fix: 손실률(DD) 기준 통일 — hwm/baseline 을 basis 로, 사과÷오렌지 근본 수리"
+    },
+    {
+     "ts": "2026-08-25T18:50",
+     "tool": "git",
+     "title": "feat: 매수·매도 알림에 진입 근거와 위험 수치 채우기 — \"왜 샀는지\"가 보이게"
+    },
+    {
+     "ts": "2026-08-25T18:42",
+     "tool": "git",
+     "title": "fix: 관찰(스냅샷·대시보드)이 LIVE 봇을 정지시킬 수 있던 부작용 제거 — 순수 계산 분리"
+    },
+    {
+     "ts": "2026-08-25T16:51",
+     "tool": "git",
+     "title": "fix: 위험 알림(DD·PANIC·킬스위치) 재배선 — 내가 죽였던 것을 부작용 없이 되살린다"
+    },
+    {
+     "ts": "2026-08-25T16:10",
+     "tool": "git",
+     "title": "fix: 손절을 \"수익 전량청산\"으로 보고하던 버그 + /reconcile 이 항상 \"정상\"이라 답하던 문제"
+    },
+    {
+     "ts": "2026-08-25T15:52",
+     "tool": "git",
+     "title": "fix: 텔레그램 알림 내용이 비어서 나가던 문제 — 발송 시점에 스냅샷으로 재렌더"
+    },
+    {
+     "ts": "2026-08-25T14:56",
+     "tool": "git",
+     "title": "fix: 먼지 잔고가 1시간마다 CRITICAL 경보를 내던 문제 + 포지션 합산 오탐"
+    },
+    {
+     "ts": "2026-08-25T14:55",
+     "tool": "git",
+     "title": "fix: \"오늘 손익\"이 항상 0원이던 버그 — 없는 함수 kst_midnight_ts 를 부르고 있었다"
+    },
+    {
+     "ts": "2026-08-25T14:51",
+     "tool": "git",
+     "title": "fix: 전략 성과 집계에서 운영자 수동 정리 제외 — 판정 오염 방지"
+    }
+   ]
+  },
+  "coinbot-swing": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-08-02",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-08-02T10:50",
+     "tool": "git",
+     "title": "design: sell 메시지 R배수 제거, % 표기로 통일"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-06-11T23:23",
+     "tool": "git",
+     "title": "feat: 상승장 포착 개선 — TRAIL_ATR_MULT 2.5→4.5 (실험 검증 후 채택)"
+    },
+    {
+     "ts": "2026-06-11T23:11",
+     "tool": "git",
+     "title": "feat: DRY/PAPER 검증 정기점검 자동화 (verify_check + 월/목 09:23 타이머)"
+    },
+    {
+     "ts": "2026-06-11T23:08",
+     "tool": "git",
+     "title": "fix: 백테스트-라이브 정렬 3축 (EMA 수렴·FG fail-safe·유니버스 화이트리스트)"
+    },
+    {
+     "ts": "2026-06-11T22:10",
+     "tool": "git",
+     "title": "fix: 종합감사 CRITICAL/HIGH 7건 패치 (LIVE 전환 안전화)"
+    },
+    {
+     "ts": "2026-06-11T21:05",
+     "tool": "git",
+     "title": "chore: .env.bak.* gitignore(시크릿 유출 방지)"
+    },
+    {
+     "ts": "2026-06-11T21:05",
+     "tool": "git",
+     "title": "feat: 자동 DB 백업(정기 피드백 데이터 유실 방지)"
+    },
+    {
+     "ts": "2026-06-11T18:28",
+     "tool": "git",
+     "title": "feat: (B) 공격성 레버 비교 실험 + backtest entry_regimes 옵션 + lab history 버그수정"
+    },
+    {
+     "ts": "2026-06-11T17:44",
+     "tool": "git",
+     "title": "feat: 전략 연구소(lab.py) — 11전략 동일잣대 백테스트 + 누적DB + 리더보드"
+    },
+    {
+     "ts": "2026-06-10T21:48",
+     "tool": "git",
+     "title": "feat: 전략 피드백 시스템(백테스트+관찰성+정기리포트) + equity 버그수정"
+    },
+    {
+     "ts": "2026-06-09T23:19",
+     "tool": "git",
+     "title": "feat: engine+safeguards+main 루프 + 스모크검증 + systemd + README"
+    }
+   ]
+  },
+  "coinbot-trend": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-08-02",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-08-02T10:50",
+     "tool": "git",
+     "title": "design: 텔레그램 매수/매도 메시지 한국말 개선 (코인명·R배수 제거)"
+    },
+    {
+     "ts": "2026-08-01T13:54",
+     "tool": "git",
+     "title": "feat(wave2): RISK_ON 임박 N일 예측 + 재입금 가이드 + 기동알림 다이어트(크래시루프만 즉시)"
+    },
+    {
+     "ts": "2026-08-01T06:31",
+     "tool": "git",
+     "title": "feat(sidecar): RISK_ON 임박 입금예고 알람 — 탈출선 격차 ▮% 이내+게이트 기충족 시 1회"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-07-28T10:20",
+     "tool": "git",
+     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
+    },
+    {
+     "ts": "2026-07-21T20:31",
+     "tool": "git",
+     "title": "feat(sidecar): capital-flow ack flow — detect→'직접 하신 게 맞나요?' telegram question, "
+    },
+    {
+     "ts": "2026-07-21T19:22",
+     "tool": "git",
+     "title": "feat(sidecar): parking-gap annotation in league/benchmark reports — capital_even"
+    },
+    {
+     "ts": "2026-07-17T02:09",
+     "tool": "git",
+     "title": "fix: 출금 후 봉투회계 현금 음수 방어 — LIVE 봉투현금 하한 0 (76→78 green)"
+    },
+    {
+     "ts": "2026-07-17T01:49",
+     "tool": "git",
+     "title": "feat: 입금 잔소리 — 재개 상태+잔고 없음이면 입금 확인까지 4시간마다 재알림 (71→76 green)"
+    },
+    {
+     "ts": "2026-07-17T01:14",
+     "tool": "git",
+     "title": "feat: 파킹 알람 풀패키지 — 입출금 원장(capital_events)+기준자본/성적표 flow 보정+알람 4종(준비·재개·파킹·잔고부족) "
+    },
+    {
+     "ts": "2026-07-13T23:04",
+     "tool": "git",
+     "title": "feat: 섀도우 리그표 매일화(sec_league 추출) + 공포가중 DCA 섀도우 선수(fear_dca, FG<25·역김프 트리거·월 ▮▮ "
+    },
+    {
+     "ts": "2026-07-13T21:01",
+     "tool": "git",
+     "title": "feat: 사이드카 종합패치 6건 — 벤치마크 성적표+김프·펀딩 레코더+상장빔 워처+그리드 섀도우+슬리피지 감사+리그표 (unittest 12→"
+    }
+   ]
+  },
+  "couple-dca-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-26",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-26T11:23",
+     "tool": "git",
+     "title": "fix(○○): 콜드감사 반영 + 9월창 되돌림 1회성 스크립트 (2026-09-26 사용자 결정 A안)"
+    },
+    {
+     "ts": "2026-09-26T10:51",
+     "tool": "git",
+     "title": "feat(○○): 자동 월예산 폐지 — 사람이 배정한 달러 안에서만 산다 (2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-24T16:41",
+     "tool": "git",
+     "title": "fix(J-5 재감사 2): 새 사건 알림 스로틀은 'other' 분류 + 열린 사건 대체 시에만, 억제 시 WARNING 로그"
+    },
+    {
+     "ts": "2026-09-24T16:34",
+     "tool": "git",
+     "title": "fix(J-5 재감사): 'other' 서명의 16진 주소·UUID·긴 식별자 정규화 + 같은 (분류,예외이름) 새 사건 알림 30분에 1회"
+    },
+    {
+     "ts": "2026-09-24T16:10",
+     "tool": "git",
+     "title": "fix(J-5 콜드감사 사소-5): UPDATE 알림에 최신 오류 본문, 'other' 오류는 예외이름+메시지 요약으로 서명(다른 버그가 한 사"
+    },
+    {
+     "ts": "2026-09-24T16:10",
+     "tool": "git",
+     "title": "test(콜드감사 사소-4): 자기거부 검증이 실 ~/fleet-data/arbiter 를 읽지 않도록 '실 경로' 상수를 tmp 로 — all"
+    },
+    {
+     "ts": "2026-09-24T16:00",
+     "tool": "git",
+     "title": "test(§2 격리): dir_fd 기준 상대이름 오탐 제외(형제 동일)"
+    },
+    {
+     "ts": "2026-09-24T15:33",
+     "tool": "git",
+     "title": "fix(J-8 콜드감사 P3): DNS 대기 중 SIGTERM(_STOP) 이면 즉시 종료 — 정지 시 최대 90초 지연 제거"
+    },
+    {
+     "ts": "2026-09-24T15:32",
+     "tool": "git",
+     "title": "fix(J-5 콜드감사 P2): 복구는 연속 2회 정상에만 선언(깜빡임 알림 증식 방지) + 루프 한 바퀴를 _loop_step 으로 분리해 배"
+    },
+    {
+     "ts": "2026-09-24T15:30",
+     "tool": "git",
+     "title": "test(§2 격리, 콜드감사 P2): 상대경로·삭제/이름변경/mkdir/chmod/목록·gethostbyname 감시 + 토큰캐시·DATA_D"
+    },
+    {
+     "ts": "2026-09-24T15:01",
+     "tool": "git",
+     "title": "fix(D-10): 수수료 키 다중 조회 + 없으면 WARNING (sector R6(a) _FEE_KEYS 이식)"
+    },
+    {
+     "ts": "2026-09-24T14:55",
+     "tool": "git",
+     "title": "test(§2 격리): 자기검증 탐침을 sys.audit 합성 사건으로 — 실 I/O 0"
+    }
+   ]
+  },
+  "couple-ledger": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-04",
+   "active_now": false,
+   "commits": 8,
+   "timeline": []
+  },
+  "couple-travel": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-05",
+   "active_now": false,
+   "commits": 10,
+   "timeline": []
+  },
+  "date-neighborhood": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-04",
+   "active_now": false,
+   "commits": 3,
+   "timeline": []
+  },
+  "family-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-25",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-25T13:39",
+     "tool": "git",
+     "title": "fix(RV-02B 콜드감사 P3-A·B·C·D): 오래된 스냅샷 거짓 배당 알림 차단 + 읽기전용 회귀 테스트 + 롤백 순서"
+    },
+    {
+     "ts": "2026-09-25T13:30",
+     "tool": "git",
+     "title": "fix(RV-02B 최종감사 D1·D2·D3·P3): 소프트월 대사 거짓 부족 수리 + 검사 도구 롤백 관문 + 절차서 통일"
+    },
+    {
+     "ts": "2026-09-25T13:03",
+     "tool": "git",
+     "title": "feat(RV-02B 사용자 결정 D-1×수수료): 예약액이 장부 현금보다 수수료 한도 이내로만 크면 주문"
+    },
+    {
+     "ts": "2026-09-25T12:33",
+     "tool": "git",
+     "title": "fix(RV-02B family 재감사 P2-N1·P3-N2): 수동 '미체결' 해소가 3회째 REJECTED_NEEDS_DECISION 을 닫"
+    },
+    {
+     "ts": "2026-09-25T12:29",
+     "tool": "git",
+     "title": "fix(RV-02B family 콜드감사 P2-1·P3-1·P3-2): 3회째 확정 무체결은 '멈췄어요·결정 필요' 알림 1회(사건 alerte"
+    },
+    {
+     "ts": "2026-09-25T12:16",
+     "tool": "git",
+     "title": "docs(RV-02B family): 설계 이탈 F1~F8·알려진 동작 변화(D-1×수수료 마지막 트랜치 보류)·배포 절차(백업·이행 대사·롤백"
+    },
+    {
+     "ts": "2026-09-25T12:15",
+     "tool": "git",
+     "title": "fix(RV-02B family): 같은 세션 재개도 D-6 동결 존중 — 같은 종목에 다른 미확정 주문이 있으면 전송 전 중단분을 재개하지 않"
+    },
+    {
+     "ts": "2026-09-25T12:14",
+     "tool": "git",
+     "title": "test(RV-02B family): 트랜치 복귀 함수 단위 보증 — 해제·복귀 단독 호출도 한 tx, 영수증 있으면 복귀 금지, 정산된 예약은"
+    },
+    {
+     "ts": "2026-09-25T12:10",
+     "tool": "git",
+     "title": "fix(RV-02B family): 표시용 equity(render.felt_pnl)에 열린 예약금 가산 — 미확정 주문 중 가짜 손실 표시 방"
+    },
+    {
+     "ts": "2026-09-25T12:07",
+     "tool": "git",
+     "title": "feat(RV-02B family 8/8): 이행 대사 스크립트(mode=ro) — 4표+family 별표 존재·trades/positions/"
+    },
+    {
+     "ts": "2026-09-25T12:07",
+     "tool": "git",
+     "title": "test(RV-02B family 7/8): family 어댑터 하네스 + 중단점 표 전부 + 트랜치 복귀(D-4)·3회 상한·만기 강제·동결 "
+    },
+    {
+     "ts": "2026-09-25T12:00",
+     "tool": "git",
+     "title": "feat(RV-02B family 3~6/8): 주문 1건 T1/T2/T3 원자성·재전송 금지·_persist_cash LIVE 잠금 제거·확정"
+    }
+   ]
+  },
+  "fleet-vault": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-04",
+   "active_now": false,
+   "commits": 12,
+   "timeline": []
+  },
+  "fusion-v9-coinbot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-06-29",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-06-29T19:02",
+     "tool": "git",
+     "title": "fix(etf-dca): KIS 레이트리밋 가짜0 잔고 방어 (기존 버그)"
+    },
+    {
+     "ts": "2026-06-29T18:59",
+     "tool": "git",
+     "title": "feat(etf-dca): 스마트 적립 엔진 구현 — 지갑 이월/속도조절/예수금넛지/일일상한"
+    },
+    {
+     "ts": "2026-06-02T19:07",
+     "tool": "git",
+     "title": "feat(v9): 리포트 개선 + /v9status 명령어 추가"
+    },
+    {
+     "ts": "2026-06-02T18:56",
+     "tool": "git",
+     "title": "feat(v9): V9 전용 모드 전환 — V8 진입/알림 OFF + V9 리포트 신설"
+    },
+    {
+     "ts": "2026-06-02T18:39",
+     "tool": "git",
+     "title": "feat(v9): fusion V8→V9 전략 업그레이드 — 6가지 리스크 보완 (+399줄)"
+    },
+    {
+     "ts": "2026-05-30T12:38",
+     "tool": "git",
+     "title": "fix(billionaire): 6개 버그 패치 — v30"
+    },
+    {
+     "ts": "2026-04-24T17:14",
+     "tool": "git",
+     "title": "fix: billionaire_portfolio — v29 종합패치: 버그 2건(discovered_stocks 테이블 누락, sqlite3.R"
+    },
+    {
+     "ts": "2026-04-08T00:54",
+     "tool": "git",
+     "title": "feat: ETF 포트폴리오 매니저 v2.1 종합패치"
+    },
+    {
+     "ts": "2026-04-08T00:29",
+     "tool": "git",
+     "title": "feat: ETF 지능형 포트폴리오 매니저 v2"
+    },
+    {
+     "ts": "2026-04-07T17:48",
+     "tool": "git",
+     "title": "fix(coinbot): 오류 분석 기반 버그 패치 8건"
+    },
+    {
+     "ts": "2026-04-06T12:27",
+     "tool": "git",
+     "title": "feat: 현실적 운용 가능화 패치 5건 (현금동적/SIDEWAYS동적/성과필터완화/ScoreMin투명화/self.regime버그픽스)"
+    },
+    {
+     "ts": "2026-04-06T12:14",
+     "tool": "git",
+     "title": "fix(coinbot): PENDING 체결 버그 수정 + 잔고 동기화 경고 개선"
+    }
+   ]
+  },
+  "future-me": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-09",
+   "active_now": false,
+   "commits": 15,
+   "timeline": []
+  },
+  "kr_asset_manager": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-07-28",
+   "active_now": false,
+   "commits": 3,
+   "timeline": [
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-03-23T12:56",
+     "tool": "git",
+     "title": "feat: 8가지 전략 모듈 종합 패치 + 포트폴리오 운용 시작"
+    },
+    {
+     "ts": "2026-03-23T12:11",
+     "tool": "git",
+     "title": "feat: Korean Asset Manager Bot - AI hedge fund simulation with 9-role pipeline"
+    }
+   ]
+  },
+  "openclaw": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-06-29",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-06-29T19:02",
+     "tool": "git",
+     "title": "fix(etf-dca): KIS 레이트리밋 가짜0 잔고 방어 (기존 버그)"
+    },
+    {
+     "ts": "2026-06-29T18:59",
+     "tool": "git",
+     "title": "feat(etf-dca): 스마트 적립 엔진 구현 — 지갑 이월/속도조절/예수금넛지/일일상한"
+    },
+    {
+     "ts": "2026-06-02T19:07",
+     "tool": "git",
+     "title": "feat(v9): 리포트 개선 + /v9status 명령어 추가"
+    },
+    {
+     "ts": "2026-06-02T18:56",
+     "tool": "git",
+     "title": "feat(v9): V9 전용 모드 전환 — V8 진입/알림 OFF + V9 리포트 신설"
+    },
+    {
+     "ts": "2026-06-02T18:39",
+     "tool": "git",
+     "title": "feat(v9): fusion V8→V9 전략 업그레이드 — 6가지 리스크 보완 (+399줄)"
+    },
+    {
+     "ts": "2026-05-30T12:38",
+     "tool": "git",
+     "title": "fix(billionaire): 6개 버그 패치 — v30"
+    },
+    {
+     "ts": "2026-04-24T17:14",
+     "tool": "git",
+     "title": "fix: billionaire_portfolio — v29 종합패치: 버그 2건(discovered_stocks 테이블 누락, sqlite3.R"
+    },
+    {
+     "ts": "2026-04-08T00:54",
+     "tool": "git",
+     "title": "feat: ETF 포트폴리오 매니저 v2.1 종합패치"
+    },
+    {
+     "ts": "2026-04-08T00:29",
+     "tool": "git",
+     "title": "feat: ETF 지능형 포트폴리오 매니저 v2"
+    },
+    {
+     "ts": "2026-04-07T17:48",
+     "tool": "git",
+     "title": "fix(coinbot): 오류 분석 기반 버그 패치 8건"
+    },
+    {
+     "ts": "2026-04-06T12:27",
+     "tool": "git",
+     "title": "feat: 현실적 운용 가능화 패치 5건 (현금동적/SIDEWAYS동적/성과필터완화/ScoreMin투명화/self.regime버그픽스)"
+    },
+    {
+     "ts": "2026-04-06T12:14",
+     "tool": "git",
+     "title": "fix(coinbot): PENDING 체결 버그 수정 + 잔고 동기화 경고 개선"
+    }
+   ]
+  },
+  "picks-dca-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-25",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-25T13:39",
+     "tool": "git",
+     "title": "fix(RV-02B 콜드감사 P3-B·C·D): 읽기전용 회귀 테스트 + 롤백 순서(정지 후 관문) + 백업명 셸 안내"
+    },
+    {
+     "ts": "2026-09-25T13:30",
+     "tool": "git",
+     "title": "fix(RV-02B 최종감사 D2·D3·P3): 검사 도구 롤백 관문 + 절차서 통일 + 주문 사이클 무체결 해제 알림"
+    },
+    {
+     "ts": "2026-09-25T13:03",
+     "tool": "git",
+     "title": "feat(RV-02B 사용자 결정 D-1×수수료): 예약액이 장부 현금보다 수수료 한도 이내로만 크면 주문"
+    },
+    {
+     "ts": "2026-09-25T12:22",
+     "tool": "git",
+     "title": "fix(RV-02B 재감사 P2): 분할 판정 제외는 placed 종목만 — down-sync 보호 집합과 일치"
+    },
+    {
+     "ts": "2026-09-25T12:14",
+     "tool": "git",
+     "title": "fix(RV-02B 7/7 콜드감사 P2×2·P3-1): 사건 알림은 실 notifier, 미확정 주문 종목은 분할 감지 제외, catchup "
+    },
+    {
+     "ts": "2026-09-25T11:59",
+     "tool": "git",
+     "title": "feat(RV-02B 6/7): 이행 대사 스크립트(mode=ro)·배포 절차·설계 이탈표 + picks 고유 맞물림 테스트"
+    },
+    {
+     "ts": "2026-09-25T11:59",
+     "tool": "git",
+     "title": "test(RV-02B 5/7): 공용 하네스(byte 동일)+picks 어댑터, 중단점 표·추가 케이스·외부검토 반례 4종·RV-02 반례를 실"
+    },
+    {
+     "ts": "2026-09-25T11:59",
+     "tool": "git",
+     "title": "feat(RV-02B 4/7): 텔레그램 읽기 명령 /근거 /재조회 /확인했음(D-5) + 수동 해소 /해소→/해소확인 2단계(기본 OFF)"
+    },
+    {
+     "ts": "2026-09-25T11:59",
+     "tool": "git",
+     "title": "feat(RV-02B 3/7): 주문 1건 T1/T2/T3 원자성·re-place 제거·⑦ LIVE 현금 저장 제거·D-6 동결·증거 기반 re"
+    },
+    {
+     "ts": "2026-09-25T11:59",
+     "tool": "git",
+     "title": "feat(RV-02B 2/7): ledger tx 헬퍼(BEGIN IMMEDIATE·중첩·rollback)·실행무결성 4표·CRUD·멱등 이행"
+    },
+    {
+     "ts": "2026-09-25T11:59",
+     "tool": "git",
+     "title": "feat(RV-02B 1/7): toss_client 주문 POST 불변조건 이식 — sector 9e7f258 과 byte 동일"
+    },
+    {
+     "ts": "2026-09-24T23:16",
+     "tool": "git",
+     "title": "fix(RV-02 3차 감사): 주문 접수 뒤 체결 조회 실패에도 잠금이 걸리게 한다"
+    }
+   ]
+  },
+  "projecttianxia": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-29",
+   "active_now": false,
+   "commits": 9,
+   "timeline": [
+    {
+     "ts": "2026-09-29T01:36",
+     "tool": "git",
+     "title": "Build M1 living Three Kingdoms sandbox slice"
+    },
+    {
+     "ts": "2026-09-28T23:11",
+     "tool": "git",
+     "title": "Add M0-3 Unity campaign integration validation"
+    },
+    {
+     "ts": "2026-09-28T23:07",
+     "tool": "git",
+     "title": "Build M0-3 campaign loop on authoritative simulation"
+    },
+    {
+     "ts": "2026-09-28T21:28",
+     "tool": "git",
+     "title": "Unify Unity with Tianxia.Sim and add minimum field combat"
+    },
+    {
+     "ts": "2026-09-28T18:48",
+     "tool": "git",
+     "title": "Audit Tianxia M0-1 readiness and next milestone"
+    },
+    {
+     "ts": "2026-09-28T18:08",
+     "tool": "git",
+     "title": "Present Tianxia as a live strategy command map"
+    },
+    {
+     "ts": "2026-09-28T17:42",
+     "tool": "git",
+     "title": "Verify M0-1 controls and simulation core"
+    },
+    {
+     "ts": "2026-09-28T17:27",
+     "tool": "git",
+     "title": "Document fresh-clone Windows build step"
+    },
+    {
+     "ts": "2026-09-28T17:26",
+     "tool": "git",
+     "title": "M0-1 playable Unity strategy prototype"
+    }
+   ]
+  },
+  "sadodwae-legal": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-10",
+   "active_now": false,
+   "commits": 1,
+   "timeline": [
+    {
+     "ts": "2026-09-10T01:11",
+     "tool": "git",
+     "title": "sadodwae legal pages (privacy/terms/data-deletion) — static, no app backend."
+    }
+   ]
+  },
+  "samgukji-game": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-09",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-09T19:23",
+     "tool": "git",
+     "title": "devcenter: engine/summarizeState 순수 함수 추가 — 세력별 보유 지역 수·병력 합계 요약 + vitest 테스트"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-03-25T00:43",
+     "tool": "git",
+     "title": "fix: 승리 임계값 동적화, 패배 조건 추가, 렌더링 일관성 개선"
+    },
+    {
+     "ts": "2026-03-25T00:39",
+     "tool": "git",
+     "title": "fix: listener 누적 버그, 승리 중복 알림, notify 이중 호출 수정"
+    },
+    {
+     "ts": "2026-03-25T00:35",
+     "tool": "git",
+     "title": "feat: 전체 시스템 통합 완료 — 플레이 가능한 삼국지 게임"
+    },
+    {
+     "ts": "2026-03-25T00:34",
+     "tool": "git",
+     "title": "fix: UI 모듈 null guard + Promise 안전성 개선"
+    },
+    {
+     "ts": "2026-03-25T00:27",
+     "tool": "git",
+     "title": "feat: GeneralUI 무장 관리 화면 구현"
+    },
+    {
+     "ts": "2026-03-25T00:27",
+     "tool": "git",
+     "title": "feat: BattleUI 전투 화면 + 스킬 카드 선택 구현"
+    },
+    {
+     "ts": "2026-03-25T00:26",
+     "tool": "git",
+     "title": "feat: PanelUI 정보 패널 + 명령 버튼 구현"
+    },
+    {
+     "ts": "2026-03-25T00:25",
+     "tool": "git",
+     "title": "feat: MapRenderer 한반도 SVG 지도 렌더링"
+    },
+    {
+     "ts": "2026-03-25T00:23",
+     "tool": "git",
+     "title": "feat: DiplomacyEngine 외교 시스템 구현"
+    },
+    {
+     "ts": "2026-03-25T00:23",
+     "tool": "git",
+     "title": "feat: TurnEngine 턴 진행 + AI 행동 구현"
+    }
+   ]
+  },
+  "toss-stock-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-24",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-24T16:10",
+     "tool": "git",
+     "title": "test(managed): 재정지·재해제 시 휴식 표식 해제 박제(5차 감사 P3-1)"
+    },
+    {
+     "ts": "2026-09-24T16:01",
+     "tool": "git",
+     "title": "test(managed): STARTED 성적표 ERROR 표기 단언 보강"
+    },
+    {
+     "ts": "2026-09-24T16:01",
+     "tool": "git",
+     "title": "fix(managed): 4차 재감사 — 시작 후 중단된 사이클은 ERROR, 재기동 뒤 일시정지 해제 인식, 문구·늦은실행 보정"
+    },
+    {
+     "ts": "2026-09-24T15:52",
+     "tool": "git",
+     "title": "test(managed): 시도한 날 휴식 판정 금지 이중방어 박제"
+    },
+    {
+     "ts": "2026-09-24T15:52",
+     "tool": "git",
+     "title": "fix(managed): 3차 재감사 — '일시정지 휴식' 은 창 끝까지 일시정지였고 오늘 시도가 없을 때만"
+    },
+    {
+     "ts": "2026-09-24T15:47",
+     "tool": "git",
+     "title": "fix(managed): 재감사 P2-A — 일시정지 표식은 매매창 시간에만, 늦은 실행 전 성적표 보류, 일시정지일 표기"
+    },
+    {
+     "ts": "2026-09-24T15:36",
+     "tool": "git",
+     "title": "fix(managed): 콜드감사 반영 — 성적표 전 MISSED 판정·수익률 단일 정의(perf_v2 비교창)·일시정지 오보 제거"
+    },
+    {
+     "ts": "2026-09-24T15:22",
+     "tool": "git",
+     "title": "fix(managed): 전수감사 0924 — A5 누락사이클·M-02 성과정의·M-04 수수료·M-06 vanish·M-08·§2 격리"
+    },
+    {
+     "ts": "2026-09-15T19:01",
+     "tool": "git",
+     "title": "feat(bench): ○○이봇 벤치 V2 — 섀도 3중에 배정(ALLOCATION) 미러(워터마크·멱등·소급 없음), perf_v2(원화 TW"
+    },
+    {
+     "ts": "2026-09-15T13:17",
+     "tool": "git",
+     "title": "feat(fleet): ○○이봇 싱글턴 런타임 가드 + ext(§1.4) + attestation(§1.5) 발행 — 코어 6봇 계약 완성"
+    },
+    {
+     "ts": "2026-09-15T11:45",
+     "tool": "git",
+     "title": "feat(managed): 명시적 운용예산 배정 큐 — 사용자 입금이 봇 예산에 닿는 정식 경로(사이드카, capital_events ALLOC"
+    },
+    {
+     "ts": "2026-09-12T17:26",
+     "tool": "git",
+     "title": "fix(managed): 수위계 관측을 로테이션 발동일 밖으로 + 30거래일 채점 event-date 기반"
+    }
+   ]
+  },
+  "us_stock_bot_v2": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-07-28",
+   "active_now": false,
+   "commits": 5,
+   "timeline": [
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-03-31T18:52",
+     "tool": "git",
+     "title": "fix(us-bot): 종합 패치 — 추가매수 버그, 스코어 역설, 변동성 필터, datetime 수정"
+    },
+    {
+     "ts": "2026-03-26T15:22",
+     "tool": "git",
+     "title": "fix(us-bot): 9인 AI confidence 3단계 사이징 — 40미만 거부, 40~69 0.7배, 70+ 1.0배"
+    },
+    {
+     "ts": "2026-03-23T02:39",
+     "tool": "git",
+     "title": "feat: 헤지펀드 프롬프트에 실시간 데이터 주입"
+    },
+    {
+     "ts": "2026-03-23T02:35",
+     "tool": "git",
+     "title": "feat: AI 헤지펀드 시뮬레이션 통합 (9명 역할 + 자동 분석)"
+    }
+   ]
+  }
+ },
+ "feed": [
+  {
+   "ts": "2026-10-10T10:36",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T10:34",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T10:32",
+   "tool": "git",
+   "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T10:31",
+   "tool": "git",
+   "title": "3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex ",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T10:28",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T10:27",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T06:53",
+   "tool": "git",
+   "title": "문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T06:49",
+   "tool": "git",
+   "title": "W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T06:38",
+   "tool": "git",
+   "title": "W4 콜드 감사 1차 FAIL 수리: 발탁 현령 박탈이 승급되던 P1 + P2 9",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T06:13",
+   "tool": "git",
+   "title": "W4 8단계: 한 바퀴 봇(loopSim)·관문 측정(실패 기록)·증거 W4·문서",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T05:31",
+   "tool": "git",
+   "title": "W4 7단계: 응용 퀘스트 → 영지 효과 연결 · 2차 전직 8직업·기술 16(필드·전장)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T05:22",
+   "tool": "git",
+   "title": "W4 6단계: UI — 영지 창·세율 팝업·임명장·승급/강등/박탈·사건 팝업·민심 띠·내 영지 격문 띠·호위 이름판·결산 '승급 예정'",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:55",
+   "tool": "git",
+   "title": "W4 5단계: 저장 v5 — 2차 전직 자리·단축키 6칸·세계 v1→v2 migrate·깨진 영지 정리",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:50",
+   "tool": "git",
+   "title": "W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:46",
+   "tool": "git",
+   "title": "W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:29",
+   "tool": "git",
+   "title": "W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:22",
+   "tool": "git",
+   "title": "W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:22",
+   "tool": "git",
+   "title": "W3 3차 감사 P2 수리: Worker 폴백 세대 확인·소속 맞추기 오류·WorldLink 테스트·refreshSiege 수비 세력 변경",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T04:21",
+   "tool": "git",
+   "title": "병합: W3 살아 있는 세계(w3-world 09f4865) → master(GFX 03f0613)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T03:51",
+   "tool": "git",
+   "title": "병합: GFX 웨이브(시안 수준 그래픽·마을4·사냥터8·몬스터15·외형57) → master",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T03:49",
+   "tool": "git",
+   "title": "재감사 PASS 뒤 P2: 다람쥐 공격 프레임 주석, resize 검사 설명, 주머니 고치기가 건물 칸을 다시 열지 않게, PROGRESS 감사",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T03:44",
+   "tool": "git",
+   "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T01:21",
+   "tool": "git",
+   "title": "W1 통합: 화면 D-n 떼기 후 구분점 공백 정리(서버·화면 동일)",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T01:21",
+   "tool": "git",
+   "title": "테스트: 본인 식별정보 없을 때 fail-closed 단언",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T01:20",
+   "tool": "git",
+   "title": "W1 화면: 사장 한 장 첫 화면 + 건물 단면도 + 결정 팝업 자동 열림 끔 + 폴링 다이어트(10-09 대표 Q5) — 콜드 재감사 수리 완",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T01:20",
+   "tool": "git",
+   "title": "재감사 반영: origin/<branch> 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T01:20",
+   "tool": "git",
+   "title": "W1 백엔드: 결재·텔레그램 형식(FMT3) + 토스 환율 자동 + 하이쿠 상한·측정 + 주문 킬스위치 3중·실돈 상한·손익분기(10-09 대표",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T01:02",
+   "tool": "git",
+   "title": "콜드감사 반영: 설명 XSS 이스케이프, 윈도우/WSL 경로 정규식, 초안 공개 id·일반화, push 재시도(앞선 커밋), publish 잠금",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T00:39",
+   "tool": "git",
+   "title": "활동: 워크트리 공유 저장소의 커밋 중복 제거",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T00:39",
+   "tool": "git",
+   "title": "검수 반영: 커밋 제목 첫 줄만($·리터럴",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T00:33",
+   "tool": "git",
+   "title": "활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T00:12",
+   "tool": "git",
+   "title": "발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T19:43",
+   "tool": "git",
+   "title": "재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T19:31",
+   "tool": "git",
+   "title": "엔진 감사 FAIL 8건 수리: info/exclude git-path·커밋 위생 관문(미커밋/의존성/심볼릭)·링크 대상 지문 탐지·npm 도구",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T19:23",
+   "tool": "git",
+   "title": "devcenter: engine/summarizeState 순수 함수 추가 — 세력별 보유 지역 수·병력 합계 요약 + vitest 테스트",
+   "project": "samgukji-game"
+  },
+  {
+   "ts": "2026-10-09T19:22",
+   "tool": "git",
+   "title": "엔진: node_modules 링크·vitest 허용·전역 규칙 비적용 명시(첫 실가동 시험 실패 원인 수리)",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T19:21",
+   "tool": "git",
+   "title": "엔진: 워크트리 .venv/node_modules 링크가 커밋되지 않게 info/exclude 등록 + 삼국지 배포 설정(엔진 첫 시험용)",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T19:11",
+   "tool": "git",
+   "title": "감사 5차 PASS 후 제안 반영: calls==0 단언·통째 update 정적 테스트·/retry merge·배포 경쟁 구간 예외 처리",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T19:08",
+   "tool": "git",
+   "title": "감사 4차 반영: 시작·배포실패 중 /stop 기록, merge_add 원자 증분, ERR_RE 구분자, 테스트 4건",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-09T18:24",
+   "tool": "git",
+   "title": "cycle W2: 개선 후보 → 섀도 실험 → 판정(10-08 대표 D3·D6·D8) — 콜드 감사 조건부 PASS + P2-1·P3-4 수리",
+   "project": "ai-securities"
+  }
+ ],
+ "data_at": "2026-10-10T10:36",
+ "active_projects": [
+  "ai-securities",
+  "dev-center",
+  "samguk-rpg",
+  "toss-marketing-center"
+ ]
+}

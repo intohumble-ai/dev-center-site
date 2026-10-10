@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아이디어 큐 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="index.html#projects">프로젝트</a>
+    <a href="queue.html">아이디어 큐</a>
+    <a href="index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<section class="queue-page">
+  <h1>아이디어 큐</h1>
+  <p class="lead">소유자가 텔레그램으로 적은 아이디어가 순서대로 쌓이고, PC 의 엔진이 한 번에 하나씩
+    <b>별도 워크트리에서 구현 → 테스트 → 콜드 감사(다른 모델이 diff 만 보고 반증) → 배포 금지시간 회피 → 배포 → 헬스체크(실패 시 자동 롤백)</b> 를 진행합니다.</p>
+  <div class="legend">
+    <span class="idea green blink mini"><span class="dot"></span>구현 중</span>
+    <span class="idea orange mini"><span class="dot"></span>다음 차례</span>
+    <span class="idea gray mini"><span class="dot"></span>대기</span>
+    <span class="idea blue mini"><span class="dot"></span>완료</span>
+    <span class="idea red mini"><span class="dot"></span>실패·롤백</span>
+    <span class="idea purple mini"><span class="dot"></span>사람 확인 필요</span>
+  </div>
+
+    <h2>완료 <small>1</small></h2>
+    <ul class="qlist">
+      <li class="idea blue">
+        <span class="dot"></span>
+        <div>
+          <b>완료</b> · <a href="projects/samgukji-game.html">samgukji-game</a>
+          <div class="txt">engine 폴더에 게임 상태 요약 순수 함수 summarizeState(state)를 추가한다: 세력별 보유 지역 수와 병력 합계를 객체로 반환. 기존 코드 스타일을 따르고 vitest 테스트를 추가한다.</div>
+          <small>2026-10-09 19:24 · 실패 1회 · 배포 성공 bcf6dc2→e744306</small>
+        </div>
+      </li>
+    </ul>
+
+  <h2>안전장치</h2>
+  <ul class="feats">
+    <li>한 번에 하나만. 별도 git 워크트리에서 구현(가동 중인 코드는 건드리지 않음).</li>
+    <li>콜드 감사: 구현 이력을 모르는 별도 모델이 diff 만 보고 반증 시도 — "아마 됐을 것" 은 FAIL.</li>
+    <li>배포 금지시간: 증권 매매창·예매 오픈런·봇 평가시각·미국장 첫 사이클은 피하고 대기.</li>
+    <li>배포 후 헬스체크(서비스 active · 새 코드 반영 · 로그 에러 없음) 실패 시 자동 롤백 + 알림.</li>
+    <li>AI 호출은 모델·턴 수·하루 호출 수·아이디어당 비용 상한 고정. 2회 실패면 멈추고 사람에게.</li>
+    <li>입력은 소유자 전용 경로만. 이 공개 페이지엔 입력창이 없습니다.</li>
+  </ul>
+</section>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="static/app.js"></script>
+</body>
+</html>

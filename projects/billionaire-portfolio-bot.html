@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>억만장자 포트폴리오 봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-dead">레거시·폐기</span>
+    <span class="cat">주식 자동매매</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>억만장자 포트폴리오 봇 <small>Billionaire Portfolio Bot</small></h1>
+  <p class="lead">대가 투자자 포트폴리오를 참고해 해외 주식을 자동 매매하던 소액 봇(2026-07-03 삭제)</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (2)</button>
+    <button data-t="work">최근 작업 (0)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (3)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">한국투자증권 계좌로 미국 주식 3~10종목을 운용하던 포트폴리오 봇이다. 2026-06 전수 감사에서 동기화 오류로 중복 매수가 난 실사고, 보정 수익률이 지수보다 낮음, 신호가 역지표(IC 음수), 수수료가 실현 손익보다 큼이라는 결과가 나왔다.
+자본이 소액이라 다종목 전략이 성립하지 않는다는 결론과 증권사 수수료를 토스로 통일한다는 결정에 따라 2026-07-03 사용자 지시로 서비스와 코드, DB를 모두 삭제했다. 삭제 전 압축 백업은 남겼다.
+당시 계좌에는 봇이 못 판 소수 주식이 남았다는 기록이 있어 수동 관리가 필요하다고 표시되어 있다. 이번 조사는 기억 노트 기반이며 폴더는 없다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>미확인 ~ 2026-07-03</dd>
+      <dt>기술</dt><dd><code>python</code> <code>kis-api</code> <code>sqlite</code> </dd>
+    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+<p class="note">수집된 세션·커밋이 없습니다(폴더가 PC 밖에 있거나 아직 매칭되지 않음).</p>    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>대가 포트폴리오 기반 종목 선정(노트 기준)</li><li>KIS 계좌 연동 자동 매매</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="billionaire-portfolio-bot">
+      <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>소액 자본으로 분산 포트폴리오를 만들면 수수료와 최소 단위 때문에 전략이 성립하지 않는다</li><li>신호의 역지표 여부를 감사로 확인하기 전에 실돈에 올리면 안 된다</li><li>삭제할 때는 남은 실포지션 처리 계획을 먼저 정해야 한다</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

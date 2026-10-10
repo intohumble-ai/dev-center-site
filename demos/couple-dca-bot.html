@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>커플 적립봇 데모 — 적립 분할 매수</title>
+<link rel="stylesheet" href="../static/style.css">
+<style>
+.demo-wrap{padding:14px;max-width:900px;margin:0 auto}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+.btn{background:var(--accent);color:#000;border:0;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer;margin:4px 4px 4px 0}
+.btn.alt{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.up{color:var(--green)}.down{color:var(--red)}
+.log{font-family:ui-monospace,monospace;font-size:12px;white-space:pre-wrap;max-height:200px;overflow:auto;color:var(--muted)}
+.seat{display:inline-block;width:22px;height:22px;margin:2px;border-radius:4px;background:var(--card2);border:1px solid var(--line);font-size:10px;text-align:center;line-height:22px;cursor:pointer}
+.seat.taken{background:var(--gray);opacity:.5}.seat.best{background:rgba(245,158,11,.4);border-color:var(--orange)}.seat.got{background:var(--green);color:#000}
+.badge-demo{font-size:11px;color:var(--orange);border:1px solid var(--orange);border-radius:6px;padding:1px 6px}
+</style></head>
+<body><div class="demo-wrap">
+<p><span class="badge-demo">샘플 데이터 데모</span> <small class="note">가짜 숫자입니다. 실 계좌·실 API 와 연결돼 있지 않습니다.</small></p>
+<h2>적립식 분할 매수(DCA) 시뮬레이터</h2>
+<p class="note">매달 같은 금액을 넣되, 가격이 떨어질수록 더 사는 "딥 트랜치" 규칙을 가짜 가격으로 돌려봅니다.</p>
+<div class="panel">
+  월 예산 <input id="bud" type="range" min="50" max="300" value="100"> <span id="budv">100</span>
+  · 하락 가중 <input id="w" type="range" min="0" max="3" value="2"> <span id="wv">2</span>x
+  <button class="btn" id="run">36개월 돌리기</button>
+</div>
+<div class="panel"><canvas id="cv" width="820" height="240" style="width:100%"></canvas></div>
+<div class="panel" id="out"></div>
+<script>
+const $=id=>document.getElementById(id);$('bud').oninput=()=>$('budv').textContent=$('bud').value;$('w').oninput=()=>$('wv').textContent=$('w').value;
+function run(){const B=+$('bud').value,W=+$('w').value;let p=100,peak=100,units=0,cost=0,units0=0,cost0=0;const ps=[],vs=[],vs0=[];
+ for(let m=0;m<36;m++){p*=1+(Math.random()-0.45)*0.14;peak=Math.max(peak,p);const dd=1-p/peak;const buy=B*(1+W*dd*3);units+=buy/p;cost+=buy;units0+=B/p;cost0+=B;ps.push(p);vs.push(units*p-cost);vs0.push(units0*p-cost0)}
+ const c=$('cv').getContext('2d');c.clearRect(0,0,820,240);const mn=Math.min(...vs,...vs0,0),mx=Math.max(...vs,...vs0,1);const y=v=>220-(v-mn)/(mx-mn)*200;
+ const line=(arr,col)=>{c.strokeStyle=col;c.lineWidth=2;c.beginPath();arr.forEach((v,i)=>{const x=10+i*800/35;i?c.lineTo(x,y(v)):c.moveTo(x,y(v))});c.stroke()};
+ c.strokeStyle='#555';c.beginPath();c.moveTo(10,y(0));c.lineTo(810,y(0));c.stroke();line(vs0,'#6b7280');line(vs,'#22c55e');
+ $('out').innerHTML=`<b>36개월 결과(가상)</b><br>딥트랜치(초록): 투입 ${cost.toFixed(0)} → 평가손익 <span class="${vs.at(-1)>=0?'up':'down'}">${vs.at(-1).toFixed(0)}</span><br>단순 적립(회색): 투입 ${cost0.toFixed(0)} → 평가손익 <span class="${vs0.at(-1)>=0?'up':'down'}">${vs0.at(-1).toFixed(0)}</span><br><small class="note">무작위 가격이라 매번 다릅니다. 하락 때 더 사면 평균단가는 내려가지만 투입 변동이 커진다는 점을 봅니다.</small>`}
+$('run').onclick=run;run();
+</script>
+</div></body></html>

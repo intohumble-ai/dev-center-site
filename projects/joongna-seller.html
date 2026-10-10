@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>중고나라 자동 판매 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light green"></span>
+    <span class="badge st-live">실전 가동</span>
+    <span class="cat">판매 자동화</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>중고나라 자동 판매 <small>Joongna Seller</small></h1>
+  <p class="lead">중고나라 판매글을 자동 등록·끌어올리고 CGV 보유표를 판매글로 동기화하는 도구</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (7)</button>
+    <button data-t="work">최근 작업 (1)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (4)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">Playwright 웹 자동화와 쿠키 세션으로 중고나라에 판매글을 등록하고, 끌어올리기(수정 저장으로 상단 노출)까지 자동으로 하는 도구다.
+YAML 상품 파일을 주면 이미지·카테고리 선택·가격 책정을 거쳐 등록하며, 기본은 드라이런이고 --post를 줘야 실등록한다.
+이후 CGV봇의 보유표 장부를 판매글로 동기화하는 sync(11시/17시 타이머)와 승인·카드이미지 생성 모듈이 추가됐다.
+킬스위치 파일이 없으면 실게시가 no-op이 되도록 막아 두었다.
+git 저장소가 아니므로 날짜와 커밋 수는 파일 수정시각 기준(커밋 수 없음)이다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-08 ~ 2026-10-02</dd>
+      <dt>기술</dt><dd><code>python</code> <code>playwright</code> <code>yaml</code> <code>telegram</code> <code>systemd</code> </dd>
+<dt>코드</dt><dd>5,640 줄</dd><dt>테스트</dt><dd>93 개</dd><dt>systemd 유닛</dt><dd>2 개</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 1 (Claude Code 1 · Codex 0 · 자동 호출 1)</span><span>마지막 활동 2026-10-02</span></div>
+    <ul class="feed">
+<li><span class="when">2026-10-02 13:56</span><span class="tool t-claude">Claude Code</span><span class="ttl">cgv봇 인기영화 자동예매</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>상품 YAML로 판매글 드라이런/실등록(sell.py)</li><li>원커맨드 제작·등록(make_and_post.py)</li><li>끌어올리기(내 상점 메뉴 경유 상품수정 후 저장)</li><li>쿠키 세션 저장과 만료 시 재로그인 알림</li><li>CGV 보유표 -&gt; 판매글 동기화(11시/17시 타이머)와 승인 흐름</li><li>가격 책정, 카드 이미지 생성, 묶음 판매 계획 모듈</li><li>킬스위치 파일 게이트(없으면 실게시 안 함)</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="joongna-seller">
+      <div class="row"><span>서비스</span><b class="svc">active</b></div>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>93</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>Playwright 헤드리스에서는 서버측 토큰 회전이 안 돼 keepalive 타이머가 실효성이 없었다(실증). 실제 Edge에서만 갱신된다</li><li>수정 URL 직접 접근은 웹에서 빈 페이지로 차단돼 mystore 메뉴 경유만 동작한다</li><li>이미지 최소 1장이 없으면 등록이 불가능하다</li><li>keepalive 타이머는 현재 비활성이며 sync 타이머만 활성이다(2026-10-09 확인)</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

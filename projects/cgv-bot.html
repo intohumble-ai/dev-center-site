@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CGV 예매봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light green"></span>
+    <span class="badge st-live">실전 가동</span>
+    <span class="cat">예매 자동화</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>CGV 예매봇 <small>CGV Ticket Bot</small></h1>
+  <p class="lead">CGV 인기 회차의 취소표와 명당 좌석을 24시간 감시하고 자동 예매·결제까지 진행하는 봇</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (12)</button>
+    <button data-t="work">최근 작업 (12)</button>
+    <button data-t="status">실시간 상태</button>
+<button data-t="shots">화면 (1)</button><button data-t="demo">샘플 데모</button>    <button data-t="lessons">시행착오 (8)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">인기 영화 회차의 명당 좌석이 취소로 풀리는 순간을 감시해 텔레그램으로 알리고, 현재는 좌석 확보와 간편결제 입력까지 무인 완주하는 모드로 운영한다.
+Xvfb 가상 디스플레이에서 CDP 크로미엄을 상시 띄워 로그인 세션을 유지하고, 웜풀(미리 붙여둔 브라우저)과 오픈런(예매 오픈 순간 선점) 경로, 취소 API 분석 등 여러 우회·최적화를 쌓았다.
+동시 보유·금액·일일·영화당 다층 한도와 환불 여유 게이트, 이중키 같은 실돈 안전장치가 핵심이다.
+프로젝트에서 가장 큰 저장소로 460커밋, 파이썬 약 14만 줄, 테스트 약 4천 개 규모이며 유닛이 40개 넘게 설치돼 있다.
+실사고를 거치며 테스트 통과가 실제 동작을 보장하지 않는다는 교훈을 반복해서 얻었다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-07 ~ 2026-10-05</dd>
+      <dt>기술</dt><dd><code>python</code> <code>playwright</code> <code>chromium-cdp</code> <code>xvfb</code> <code>sqlite</code> <code>telegram</code> <code>systemd</code> </dd>
+<dt>코드</dt><dd>138,937 줄</dd><dt>테스트</dt><dd>3,974 개</dd><dt>커밋</dt><dd>460</dd><dt>systemd 유닛</dt><dd>12 개</dd><dt>저장소</dt><dd><a href="https://github.com/intohumble-ai/cgv-bot">intohumble-ai/cgv-bot</a> (비공개)</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 9 (Claude Code 9 · Codex 0)</span><span>마지막 활동 2026-10-09</span></div>
+    <ul class="feed">
+<li><span class="when">2026-10-09 18:07</span><span class="tool t-claude">Claude Code</span><span class="ttl">A4f pc 메모리와 용량 소비 봇</span></li><li><span class="when">2026-10-05 19:58</span><span class="tool t-claude">Claude Code</span><span class="ttl">cgv봇 무대인사 감시 제외</span></li><li><span class="when">2026-10-05 19:42</span><span class="tool t-git">커밋</span><span class="ttl">test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)</span></li><li><span class="when">2026-10-05 19:25</span><span class="tool t-git">커밋</span><span class="ttl">feat(cgv): 매입 정책(같은 날 2회차·처음 관 2장, shadow) + 스스로 배우는 감시(밴딧, 기본 OFF) + 장부/좌석기록 극장</span></li><li><span class="when">2026-10-05 19:11</span><span class="tool t-git">커밋</span><span class="ttl">fix(cgv): 2차 회의 즉시 버그 — 알림 실패 시 환불 보장·발권 타임아웃 재시작 순서·토큰/점검 경보·결제 연속실패 정지</span></li><li><span class="when">2026-10-05 16:50</span><span class="tool t-git">커밋</span><span class="ttl">chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)</span></li><li><span class="when">2026-10-05 00:51</span><span class="tool t-git">커밋</span><span class="ttl">feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)</span></li><li><span class="when">2026-10-05 00:31</span><span class="tool t-git">커밋</span><span class="ttl">fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등</span></li><li><span class="when">2026-10-04 16:02</span><span class="tool t-git">커밋</span><span class="ttl">feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표</span></li><li><span class="when">2026-10-04 14:57</span><span class="tool t-git">커밋</span><span class="ttl">feat(cgv): 명당표 없던 일반관 5곳 자동 등급표 추가(용산 11·12관, 천호 1·3·5관)</span></li><li><span class="when">2026-10-04 13:43</span><span class="tool t-git">커밋</span><span class="ttl">fix(cgv): accessToken 만료 시 자동 갱신(프론트 방식) — 자동환불 전면 실패(10/3 오후~) 근본 수리</span></li><li><span class="when">2026-10-04 01:41</span><span class="tool t-git">커밋</span><span class="ttl">feat: 교체 24시간 컷·봇 하루상한 제외 + 배부완료 제외 전 표 완전관리(독립 자동환불·데드맨)</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>취소표·명당 좌석 24시간 감시와 텔레그램 즉시 알림(예매 딥링크 포함)</li><li>3단 모드 게이트: watch(알림만) / arm(좌석 확보) / pay_ui(결제까지)</li><li>간편결제 PIN 자동 입력과 PIN 이중키 안전장치</li><li>CDP 크로미엄 상시 유지와 로그인 세션 보존, 지수 백오프 재부착</li><li>웜풀(브라우저 선부착)과 오픈런 사전 준비 타이머</li><li>다층 캡: 동시보유·금액·일일·영화당 한도와 환불 여유 게이트</li><li>좌석 재등장 예측(실측 재등장 시간 기반)과 골든타임 점수</li><li>무대인사 회차 감시·자동발권 제외 규칙</li><li>환불 정리(refund-sweep)와 보유표 장부</li><li>워치독 5분 심박 점검과 브라우저 비대화 감시</li><li>팔란티어 센터 연동(한도 설정, 인기 관 패널, 판매중 배지)</li><li>중고나라 판매글 동기화(joongna-seller)용 표 데이터 제공</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="cgv-bot">
+      <div class="row"><span>서비스</span><b class="svc">active</b></div>
+<div class="row"><span>마지막 커밋</span><b>2026-10-05</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>3,974</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+  <section class="tab" data-p="shots">
+    <p class="note">실제 화면을 찍은 뒤 숫자·식별자를 자동으로 가린 스크린샷입니다.</p>
+    <div class="shots"><figure><img loading="lazy" src="../shots/cgv-bot/palantir_cgv_panel.png" alt="palantir_cgv_panel.png"><figcaption>palantir cgv panel</figcaption></figure></div>
+  </section>
+
+  <section class="tab" data-p="demo">
+    <p class="note">가짜 데이터로 돌아가는 미니 데모입니다. 직접 눌러보세요. (실 계좌·실 API 와 연결돼 있지 않습니다)</p>
+    <iframe class="demo" src="../demos/cgv-bot.html" title="CGV 예매봇 데모" loading="lazy"></iframe>
+    <a class="more" href="../demos/cgv-bot.html" target="_blank">새 창에서 열기 →</a>
+  </section>
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>테스트가 except Exception으로 삼키는 루프를 무한 실행해 RAM 6.5GB를 잠식한 것이 &#39;봇 꼬임&#39;의 정체였다(2026-08-10)</li><li>브랜치는 격리가 아니다: 서비스가 워킹트리에서 직접 실행돼 미검증 WIP 코드가 실발권 무장 상태로 라이브에 들어갔다(2026-08-12)</li><li>양 끝단만 테스트하면 가운데 배선 한 줄을 지워도 초록불이다. 뮤테이션 점검으로 잡았다</li><li>테스트가 텔레그램 롱폴을 새게 해 24,348회 호출한 문제를 차단했다</li><li>.env 인라인 주석이 실돈 설정을 무시시키던 버그를 수리했다</li><li>오픈런 실패 후 theater_ready 데드락을 발견해 수리했다(2026-08-19~20)</li><li>웜풀 측정 웨이브를 26번 돌려 &#39;발권 0&#39;이라는 결론에 도달해 측정 헛바퀴 방지 규칙(wave-gate)을 만들었다</li><li>결제가 새 창으로 열리는 사이트 변경에 대응하고 보통관 실발권을 켰다(2026-09-27~28)</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>적응형 코인봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-dead">레거시·폐기</span>
+    <span class="cat">코인 자동매매</span>
+<span class="tool t-claude">Claude Code</span>  </div>
+  <h1>적응형 코인봇 <small>Coinbot Adaptive</small></h1>
+  <p class="lead">coinbot-trend를 확장해 복수 전략과 주문 파이프라인, 자동 조정을 갖춘 멀티 전략 코인봇</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (9)</button>
+    <button data-t="work">최근 작업 (12)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (3)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">coinbot-trend의 추세·레짐·리스크 기능을 모두 보존하면서 Trend Core, MA Cross, Range 세 전략을 동시에 운용하도록 확장한 봇이다.
+전략 간 심볼 소유권 분리, intent→submit→fill 주문 파이프라인, 거래소↔DB 잔고 자동 조정(reconcile), 12항목 리스크 게이트, 섀도우 실험실을 갖췄다.
+2026-08-24부터 약 1주 만에 코드 2만 5천 줄, 테스트 645개 규모로 구현됐고 이관(cutover)·롤백 런북까지 작성됐다.
+그러나 2026-08-27에 서비스가 마스킹되고 &#39;phase0 disabled&#39; 상태로 정리되어 현재는 가동하지 않는다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-08 ~ 2026-08-25</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>telegram</code> <code>systemd</code> <code>upbit-api</code> </dd>
+<dt>코드</dt><dd>25,436 줄</dd><dt>테스트</dt><dd>645 개</dd><dt>커밋</dt><dd>24</dd><dt>systemd 유닛</dt><dd>3 개</dd><dt>저장소</dt><dd><a href="https://github.com/intohumble-ai/coinbot-adaptive">intohumble-ai/coinbot-adaptive</a> (비공개)</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 0 (Claude Code 0 · Codex 0)</span><span>마지막 활동 2026-08-25</span></div>
+    <ul class="feed">
+<li><span class="when">2026-08-25 21:29</span><span class="tool t-git">커밋</span><span class="ttl">fix(signal): held_markets 배선 — 보유 종목 신호 단계에서 제외</span></li><li><span class="when">2026-08-25 20:50</span><span class="tool t-git">커밋</span><span class="ttl">fix: 브리핑 시장 섹션이 통째로 빈칸 — 있는 데이터를 아무도 안 읽고 있었다</span></li><li><span class="when">2026-08-25 19:32</span><span class="tool t-git">커밋</span><span class="ttl">fix: 레짐 커서 이중 인코딩 — 재시작마다 가짜 REGIME_CHANGE + 히스테리시스 입력 오염</span></li><li><span class="when">2026-08-25 18:57</span><span class="tool t-git">커밋</span><span class="ttl">fix: 손실률(DD) 기준 통일 — hwm/baseline 을 basis 로, 사과÷오렌지 근본 수리</span></li><li><span class="when">2026-08-25 18:50</span><span class="tool t-git">커밋</span><span class="ttl">feat: 매수·매도 알림에 진입 근거와 위험 수치 채우기 — &#34;왜 샀는지&#34;가 보이게</span></li><li><span class="when">2026-08-25 18:42</span><span class="tool t-git">커밋</span><span class="ttl">fix: 관찰(스냅샷·대시보드)이 LIVE 봇을 정지시킬 수 있던 부작용 제거 — 순수 계산 분리</span></li><li><span class="when">2026-08-25 16:51</span><span class="tool t-git">커밋</span><span class="ttl">fix: 위험 알림(DD·PANIC·킬스위치) 재배선 — 내가 죽였던 것을 부작용 없이 되살린다</span></li><li><span class="when">2026-08-25 16:10</span><span class="tool t-git">커밋</span><span class="ttl">fix: 손절을 &#34;수익 전량청산&#34;으로 보고하던 버그 + /reconcile 이 항상 &#34;정상&#34;이라 답하던 문제</span></li><li><span class="when">2026-08-25 15:52</span><span class="tool t-git">커밋</span><span class="ttl">fix: 텔레그램 알림 내용이 비어서 나가던 문제 — 발송 시점에 스냅샷으로 재렌더</span></li><li><span class="when">2026-08-25 14:56</span><span class="tool t-git">커밋</span><span class="ttl">fix: 먼지 잔고가 1시간마다 CRITICAL 경보를 내던 문제 + 포지션 합산 오탐</span></li><li><span class="when">2026-08-25 14:55</span><span class="tool t-git">커밋</span><span class="ttl">fix: &#34;오늘 손익&#34;이 항상 0원이던 버그 — 없는 함수 kst_midnight_ts 를 부르고 있었다</span></li><li><span class="when">2026-08-25 14:51</span><span class="tool t-git">커밋</span><span class="ttl">fix: 전략 성과 집계에서 운영자 수동 정리 제외 — 판정 오염 방지</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>복수 전략 동시 운용(Trend Core, MA Cross, Range)</li><li>전략 간 심볼 소유권 관리(ownership)</li><li>주문 파이프라인 intent→submit→fill과 슬리피지 추적</li><li>거래소↔DB 잔고 자동 조정(reconcile)</li><li>12항목 리스크 게이트, 드로다운, 사이즈 산정</li><li>회계 모듈: equity 스냅샷, HWM, 손실 분류</li><li>ShadowLab 섀도우 실험</li><li>trend에서의 데이터 이관 스크립트와 롤백 가이드</li><li>헬스체크·아침 브리핑·야간 리뷰 타이머</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="coinbot-adaptive">
+      <div class="row"><span>서비스</span><b class="svc">inactive</b></div>
+<div class="row"><span>마지막 로그</span><b>일주일 이상</b></div><div class="row"><span>마지막 커밋</span><b>2026-08-25</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>645</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>문서가 매우 많다: 이관 런북, 롤백 가이드, 운용자 경험 마스터 플랜, 최종 감사(Fable5), 팔란티어 연동 계획</li><li>Phase0 읽기전용 감사(2026-08-26) 후 가동을 막았다</li><li>중지 사유의 상세와 실전 가동 여부는 미확인(서비스 마스킹 2026-08-27), 돈 구분은 미확인이라 none으로 표기</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

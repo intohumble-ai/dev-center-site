@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>코인봇 V2 (안전 골격·연구) — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light gray"></span>
+    <span class="badge st-wip">개발 중</span>
+    <span class="cat">실험</span>
+<span class="tool t-claude">Claude Code</span>  </div>
+  <h1>코인봇 V2 (안전 골격·연구) <small>Coinbot V2</small></h1>
+  <p class="lead">주문 기능 없이 공개 시세 연구와 검증만 하는 업비트 코인봇 안전 골격</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (9)</button>
+    <button data-t="work">최근 작업 (0)</button>
+    <button data-t="status">실시간 상태</button>
+    <button data-t="lessons">시행착오 (4)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">2026-08-27에 별도 저장소로 시작한 업비트 현물 봇의 안전 골격과 공개시장 연구 엔진이다.
+현재는 인증 없는 업비트 공개 캔들 조회만 하며 계좌조회·주문·텔레그램 전송·LIVE 모드는 구현하지 않았고, LIVE 플래그가 켜지면 시작 단계에서 거부한다.
+추가 전용 감사 원장, 단일 인스턴스 잠금, 불변 데이터 캐시와 해시, 다음 봉 시가 체결 백테스트, 워크포워드·부트스트랩·몬테카를로 검증을 갖췄다.
+사전 등록한 프로토콜로 BTC 레짐·진입 필터·청산 규칙을 검증하는 연구 단계가 진행됐다.
+git 저장소는 초기화됐지만 커밋은 아직 0개이며, 서비스 유닛은 없다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-08 ~ 2026-08-27</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>unittest</code> <code>upbit-public-api</code> </dd>
+<dt>코드</dt><dd>4,084 줄</dd><dt>테스트</dt><dd>74 개</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+<p class="note">수집된 세션·커밋이 없습니다(폴더가 PC 밖에 있거나 아직 매칭되지 않음).</p>    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>안전 설정 검사(LIVE 플래그·주문 전송 설정 거부)</li><li>SQLite 스키마와 추가 전용 감사 원장</li><li>단일 인스턴스 파일 잠금과 낙관적 버전 런타임 상태</li><li>매수하지 않은 신호와 거부 사유 기록</li><li>텔레그램 운용비서 메시지 미리보기(전송은 안 함)</li><li>4시간봉·일봉 공개 데이터 수집과 불변 캐시, 데이터셋 해시</li><li>다음 봉 시가 체결·비용·MFE/MAE 백테스트</li><li>시간순 분리·워크포워드·부트스트랩·몬테카를로 검증</li><li>상승·중립·하락장 분해와 현금·단순보유 벤치마크</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="coinbot-v2">
+      <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>74</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>사전 등록 프로토콜(BTC 비하락장 필터, 청산 검증)로 결과를 보기 전에 가설을 고정하는 방식을 썼다</li><li>README가 &#39;테스트 통과는 수익성이나 라이브 준비를 뜻하지 않는다&#39;고 명시한다</li><li>날짜(2026-08-27) 기준 이후 활동 흔적은 없다. 커밋이 0개이므로 날짜는 파일 수정 기준이다</li><li>메모리 노트 project_coinbot_v2는 ~/.openclaw 아래 옛 코인봇 v2(2026-03)를 가리키며 이 저장소와 다른 프로젝트다</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>섹터 적립봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light green"></span>
+    <span class="badge st-live">실전 가동</span>
+    <span class="cat">주식 자동매매</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>섹터 적립봇 <small>Sector DCA Bot</small></h1>
+  <p class="lead">미국 11개 섹터 ETF를 모멘텀 틸트로 적립하는 약세장 방어형 포트폴리오 봇</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (10)</button>
+    <button data-t="work">최근 작업 (12)</button>
+    <button data-t="status">실시간 상태</button>
+<button data-t="shots">화면 (1)</button><button data-t="demo">샘플 데모</button>    <button data-t="lessons">시행착오 (4)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">미국 섹터 ETF 11종을 균등 코어 위에 상대강도 틸트를 얹어 적립식으로 운용하는 봇이다. 2026-07에 모의로 시작해 곧 실계좌(LIVE)로 전환했다.
+기세(vigor) 필터가 약해진 주도 섹터를 방출하면 목표비중이 균등으로 환원되는 설계이며, 현금 단일 진실원천과 멱등 주문 의도 기록, 브로커 하드게이트로 체결 무결성을 지킨다.
+백테스트상 강세장에서는 SPY에 뒤지지만 약세장 낙폭을 줄이는 방어 전략으로 판정되었다. 형제 봇(picks, family, couple, pentagon)의 모태가 된 포크 원본이기도 하다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-07 ~ 2026-09-25</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>telegram</code> <code>systemd</code> <code>toss-open-api</code> </dd>
+<dt>코드</dt><dd>62,718 줄</dd><dt>테스트</dt><dd>815 개</dd><dt>커밋</dt><dd>131</dd><dt>systemd 유닛</dt><dd>3 개</dd><dt>저장소</dt><dd><a href="https://github.com/intohumble-ai/sector-dca-bot">intohumble-ai/sector-dca-bot</a> (비공개)</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 0 (Claude Code 0 · Codex 0 · 자동 호출 177)</span><span>마지막 활동 2026-09-25</span></div>
+    <ul class="feed">
+<li><span class="when">2026-09-25 13:39</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B 콜드감사 P3-B·C·D): 읽기전용 회귀 테스트 + 롤백 순서(정지 후 관문) + 백업명 셸 안내</span></li><li><span class="when">2026-09-25 13:30</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B 최종감사 D2·D3·P3): 검사 도구 롤백 관문 + 절차서 통일 + 주문 사이클 무체결 해제 알림</span></li><li><span class="when">2026-09-25 13:03</span><span class="tool t-git">커밋</span><span class="ttl">feat(RV-02B 사용자 결정 D-1×수수료): 예약액이 장부 현금보다 수수료 한도 이내로만 크면 주문</span></li><li><span class="when">2026-09-25 11:35</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B 4차 감사 P3-1~3): 수동 해소는 열린 사건·비자동 대상만, 전송 중 닫힌 intent 재개방 금지, 요약에 대조용 원</span></li><li><span class="when">2026-09-25 11:31</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B 3차 감사 P2-A~D): 수동 해소 대상 한정·오귀속 차단·확인 단계 원자화</span></li><li><span class="when">2026-09-25 11:25</span><span class="tool t-git">커밋</span><span class="ttl">feat(RV-02B 사용자 결정): 미확정 주문 수동 해소 /해소→/해소확인 2단계(기본 OFF) + 설계 이탈 7건·배포 절차 갱신</span></li><li><span class="when">2026-09-25 11:25</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B 총괄감사 후속): equity 에 열린 예약 가산·tx 커밋 실패 rollback·대사 정산분 부족비교·동결 판정 실패 시 </span></li><li><span class="when">2026-09-25 10:54</span><span class="tool t-git">커밋</span><span class="ttl">test(RV-02B 재감사 P3-a): 동결 제외는 같은 세션 재개 대상만 — 지난 세션 전송 전 cid 는 동결 유지</span></li><li><span class="when">2026-09-25 10:51</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B 콜드감사 P2×3·P3): 계약 없는 클라이언트 재개·해제 금지, 대사 실패에도 placed 종목 동결, 재개 분기 직접 검</span></li><li><span class="when">2026-09-25 10:33</span><span class="tool t-git">커밋</span><span class="ttl">fix(RV-02B): _live_orders — cursor 무시(같은 페이지 반복) 감지·주문번호 중복 제거</span></li><li><span class="when">2026-09-25 10:32</span><span class="tool t-git">커밋</span><span class="ttl">feat(RV-02B 8/8): 이행 대사 스크립트(mode=ro)·배포 절차·외부검토 반례 4종 실제 경로 테스트</span></li><li><span class="when">2026-09-25 10:28</span><span class="tool t-git">커밋</span><span class="ttl">feat(RV-02B 6/8): 텔레그램 읽기 명령 /근거 /재조회 /확인했음 (D-5: 금전 상태변경 0)</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>11개 섹터 ETF 균등 코어 + 상대강도 틸트</li><li>vigor(기세) 필터로 꺾인 주도 섹터 방출</li><li>적응형 코어(adaptive_core) 기능 플래그</li><li>킬스위치와 방어 모드</li><li>섀도 변형 A/B 운용과 레이스 리포트</li><li>배당 누적·재투자 처리</li><li>원화 표시 및 체감 손익 카드</li><li>배정 큐(assign)로 입금 현금 안전 반영</li><li>텔레그램 명령과 일일 배분 브리핑</li><li>reconcile로 브로커-장부 정합 점검</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="sector-dca-bot">
+      <div class="row"><span>서비스</span><b class="svc">active</b></div>
+<div class="row"><span>마지막 로그</span><b>1시간 이내</b></div><div class="row"><span>마지막 커밋</span><b>2026-09-25</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>815</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+  <section class="tab" data-p="shots">
+    <p class="note">실제 화면을 찍은 뒤 숫자·식별자를 자동으로 가린 스크린샷입니다.</p>
+    <div class="shots"><figure><img loading="lazy" src="../shots/sector-dca-bot/palantir_growth.png" alt="palantir_growth.png"><figcaption>palantir growth</figcaption></figure></div>
+  </section>
+
+  <section class="tab" data-p="demo">
+    <p class="note">가짜 데이터로 돌아가는 미니 데모입니다. 직접 눌러보세요. (실 계좌·실 API 와 연결돼 있지 않습니다)</p>
+    <iframe class="demo" src="../demos/sector-dca-bot.html" title="섹터 적립봇 데모" loading="lazy"></iframe>
+    <a class="more" href="../demos/sector-dca-bot.html" target="_blank">새 창에서 열기 →</a>
+  </section>
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>대시보드의 &#39;11섹터 균등&#39;은 버그가 아니라 vigor 필터가 주도 섹터를 전원 방출한 정상 동작이었음</li><li>수수료 fee=0은 표본 12행만 보고 과소기재로 오판했다가 실제 체결 응답으로 반증 — 실응답을 읽어야 함</li><li>백테스트 결과 강세장 CAGR은 SPY에 열위, 약세장 낙폭은 방어하는 레짐 의존 전략으로 정직하게 판정</li><li>대시보드와 봇의 목표비중 계산을 48케이스 패리티 테스트로 비트 단위 일치 확인</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>

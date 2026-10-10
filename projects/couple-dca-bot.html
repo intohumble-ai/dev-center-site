@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>커플 적립봇 — intohumble 개발 센터</title>
+<meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">🛠 intohumble 개발 센터</a>
+  <nav>
+    <a href="../index.html#projects">프로젝트</a>
+    <a href="../queue.html">아이디어 큐</a>
+    <a href="../index.html#about">소개</a>
+  </nav>
+</header>
+<main class="wrap">
+<article class="project">
+  <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
+  <div class="card-top">
+    <span class="light green"></span>
+    <span class="badge st-live">실전 가동</span>
+    <span class="cat">주식 자동매매</span>
+<span class="money">💵 실돈</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>커플 적립봇 <small>Couple DCA Bot</small></h1>
+  <p class="lead">같은 토스 계좌에서 장부만 분리해 월 적립식으로 운용하는 인스턴스형 DCA 봇 (○○이 인스턴스 가동)</p>
+
+  <div class="tabs" data-tabs>
+    <button data-t="about" class="on">의도·설명</button>
+    <button data-t="features">기능 (8)</button>
+    <button data-t="work">최근 작업 (12)</button>
+    <button data-t="status">실시간 상태</button>
+<button data-t="demo">샘플 데모</button>    <button data-t="lessons">시행착오 (4)</button>
+    <button data-t="ideas">아이디어 큐 (0)</button>
+  </div>
+
+  <section class="tab on" data-p="about">
+    <div class="desc">코드 저장소 하나에 인스턴스를 둘(○○, ○○) 두고 같은 계좌에서 장부만 분리해 월 적립식으로 담는 봇이다. 설정으로 인스턴스별 DB, 환경 파일, 상태 파일이 완전히 분리된다.
+현재는 ○○ 인스턴스가 딥트랜치 전략으로 LIVE 가동 중이고, ○○ 인스턴스는 서비스가 꺼져 있다. 세일 눈금(고점 대비 하락폭) 기준으로 분할 매수하며, 환율을 반영한 원화 적립 계산과 일일 알림을 한다.
+초기에는 하드핀 DRY였으나 이후 딥트랜치 전략 도입과 함께 LIVE 경로가 열렸다.
+</div>
+    <dl class="facts">
+      <dt>기간</dt><dd>2026-07 ~ 2026-09-26</dd>
+      <dt>기술</dt><dd><code>python</code> <code>sqlite</code> <code>telegram</code> <code>systemd</code> <code>toss-open-api</code> </dd>
+<dt>코드</dt><dd>20,777 줄</dd><dt>테스트</dt><dd>563 개</dd><dt>커밋</dt><dd>65</dd><dt>systemd 유닛</dt><dd>1 개</dd><dt>저장소</dt><dd><a href="https://github.com/intohumble-ai/couple-dca-bot">intohumble-ai/couple-dca-bot</a> (비공개)</dd>    </dl>
+  </section>
+
+  <section class="tab" data-p="work">
+    <div class="facts-inline"><span>세션 0 (Claude Code 0 · Codex 0)</span><span>마지막 활동 2026-09-26</span></div>
+    <ul class="feed">
+<li><span class="when">2026-09-26 11:23</span><span class="tool t-git">커밋</span><span class="ttl">fix(○○): 콜드감사 반영 + 9월창 되돌림 1회성 스크립트 (2026-09-26 사용자 결정 A안)</span></li><li><span class="when">2026-09-26 10:51</span><span class="tool t-git">커밋</span><span class="ttl">feat(○○): 자동 월예산 폐지 — 사람이 배정한 달러 안에서만 산다 (2026-09-26 사용자 결정)</span></li><li><span class="when">2026-09-24 16:41</span><span class="tool t-git">커밋</span><span class="ttl">fix(J-5 재감사 2): 새 사건 알림 스로틀은 &#39;other&#39; 분류 + 열린 사건 대체 시에만, 억제 시 WARNING 로그</span></li><li><span class="when">2026-09-24 16:34</span><span class="tool t-git">커밋</span><span class="ttl">fix(J-5 재감사): &#39;other&#39; 서명의 16진 주소·UUID·긴 식별자 정규화 + 같은 (분류,예외이름) 새 사건 알림 30분에 1회</span></li><li><span class="when">2026-09-24 16:10</span><span class="tool t-git">커밋</span><span class="ttl">fix(J-5 콜드감사 사소-5): UPDATE 알림에 최신 오류 본문, &#39;other&#39; 오류는 예외이름+메시지 요약으로 서명(다른 버그가 한 사</span></li><li><span class="when">2026-09-24 16:10</span><span class="tool t-git">커밋</span><span class="ttl">test(콜드감사 사소-4): 자기거부 검증이 실 ~/fleet-data/arbiter 를 읽지 않도록 &#39;실 경로&#39; 상수를 tmp 로 — all</span></li><li><span class="when">2026-09-24 16:00</span><span class="tool t-git">커밋</span><span class="ttl">test(§2 격리): dir_fd 기준 상대이름 오탐 제외(형제 동일)</span></li><li><span class="when">2026-09-24 15:33</span><span class="tool t-git">커밋</span><span class="ttl">fix(J-8 콜드감사 P3): DNS 대기 중 SIGTERM(_STOP) 이면 즉시 종료 — 정지 시 최대 90초 지연 제거</span></li><li><span class="when">2026-09-24 15:32</span><span class="tool t-git">커밋</span><span class="ttl">fix(J-5 콜드감사 P2): 복구는 연속 2회 정상에만 선언(깜빡임 알림 증식 방지) + 루프 한 바퀴를 _loop_step 으로 분리해 배</span></li><li><span class="when">2026-09-24 15:30</span><span class="tool t-git">커밋</span><span class="ttl">test(§2 격리, 콜드감사 P2): 상대경로·삭제/이름변경/mkdir/chmod/목록·gethostbyname 감시 + 토큰캐시·DATA_D</span></li><li><span class="when">2026-09-24 15:01</span><span class="tool t-git">커밋</span><span class="ttl">fix(D-10): 수수료 키 다중 조회 + 없으면 WARNING (sector R6(a) _FEE_KEYS 이식)</span></li><li><span class="when">2026-09-24 14:55</span><span class="tool t-git">커밋</span><span class="ttl">test(§2 격리): 자기검증 탐침을 sys.audit 합성 사건으로 — 실 I/O 0</span></li>    </ul>
+    <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
+  </section>
+
+  <section class="tab" data-p="features">
+    <ul class="feats"><li>인스턴스(○○/○○) 템플릿 유닛으로 장부 분리 운용</li><li>월 적립 입금 처리와 입금 장부</li><li>딥트랜치(세일 눈금) 분할 매수 전략</li><li>밴드 리밸런싱</li><li>환율 반영 원화 적립 계산</li><li>PAUSED 게이트·params_live·RUN_NOW 사이드카</li><li>설정 가드(config_guard)와 인시던트 기록</li><li>일일 하트비트와 텔레그램 알림</li></ul>
+  </section>
+
+  <section class="tab" data-p="status">
+    <div class="live" data-live="couple-dca-bot">
+      <div class="row"><span>서비스</span><b class="svc">active</b></div>
+<div class="row"><span>마지막 로그</span><b>1시간 이내</b></div><div class="row"><span>마지막 커밋</span><b>2026-09-26</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:36</b></div>
+<div class="row"><span>테스트 수</span><b>563</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+    </div>
+  </section>
+
+
+  <section class="tab" data-p="demo">
+    <p class="note">가짜 데이터로 돌아가는 미니 데모입니다. 직접 눌러보세요. (실 계좌·실 API 와 연결돼 있지 않습니다)</p>
+    <iframe class="demo" src="../demos/couple-dca-bot.html" title="커플 적립봇 데모" loading="lazy"></iframe>
+    <a class="more" href="../demos/couple-dca-bot.html" target="_blank">새 창에서 열기 →</a>
+  </section>
+
+  <section class="tab" data-p="lessons">
+    <ol class="lessons"><li>같은 계좌를 여러 장부로 나눌 때 인스턴스별 DB·상태 경로 분리가 필수</li><li>하드핀 DRY였던 설정이 전략 도입으로 LIVE가 되면서 설정 가드의 필요성이 커짐</li><li>2026-09-26 DB 되돌림(reverse) 백업이 남은 장부 교정 작업이 있었음</li><li>실돈 경로 봇에는 OOM 보호막(OOMScoreAdjust)을 별도로 적용</li></ol>
+  </section>
+
+  <section class="tab" data-p="ideas">
+<p class="note">이 프로젝트에 등록된 아이디어가 아직 없습니다.</p>  </section>
+</article>
+</main>
+<footer class="foot">
+  <span>데이터 기준 2026-10-10 10:36 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
+</footer>
+<script src="../static/app.js"></script>
+</body>
+</html>
