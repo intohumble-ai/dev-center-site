@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:05",
+     "ts": "2026-10-10T11:20",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 15,
+   "commits": 16,
    "timeline": [
     {
-     "ts": "2026-10-10T11:10",
+     "ts": "2026-10-10T11:16",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T11:12",
+     "tool": "git",
+     "title": "W5-POLISH 1차: 라벨 배치기·전장 정돈·결산 가변 화면·소리(WebAudio)·설정/도움말/첫 안내·짐승 정면/뒷모습·비정수 배율 글씨"
     },
     {
      "ts": "2026-10-10T06:53",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T04:29",
      "tool": "git",
      "title": "W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열"
-    },
-    {
-     "ts": "2026-10-10T04:22",
-     "tool": "git",
-     "title": "W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts"
     }
    ]
   },
@@ -666,9 +666,19 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:05",
+     "ts": "2026-10-10T11:12",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T11:11",
+     "tool": "git",
+     "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)"
+    },
+    {
+     "ts": "2026-10-10T11:11",
+     "tool": "git",
+     "title": "콘텐츠: 자동등록 초안 11개 검토·보강(기능·시행착오·상태, 배지 해제, reviewed 필드) + 엔진 문구 정직화(실가동 1건 성공 후 보"
     },
     {
      "ts": "2026-10-10T10:32",
@@ -714,16 +724,6 @@
      "ts": "2026-10-10T00:12",
      "tool": "git",
      "title": "발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치"
-    },
-    {
-     "ts": "2026-10-09T19:43",
-     "tool": "git",
-     "title": "재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z"
-    },
-    {
-     "ts": "2026-10-09T19:31",
-     "tool": "git",
-     "title": "엔진 감사 FAIL 8건 수리: info/exclude git-path·커밋 위생 관문(미커밋/의존성/심볼릭)·링크 대상 지문 탐지·npm 도구"
     }
    ]
   },
@@ -1914,28 +1914,46 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T11:10",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T11:10",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:05",
+   "ts": "2026-10-10T11:20",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
   },
   {
-   "ts": "2026-10-10T11:05",
+   "ts": "2026-10-10T11:16",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T11:12",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T11:12",
+   "tool": "git",
+   "title": "W5-POLISH 1차: 라벨 배치기·전장 정돈·결산 가변 화면·소리(WebAudio)·설정/도움말/첫 안내·짐승 정면/뒷모습·비정수 배율 글씨",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T11:11",
+   "tool": "git",
+   "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T11:11",
+   "tool": "git",
+   "title": "콘텐츠: 자동등록 초안 11개 검토·보강(기능·시행착오·상태, 배지 해제, reviewed 필드) + 엔진 문구 정직화(실가동 1건 성공 후 보",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T11:10",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T10:32",
@@ -2134,27 +2152,9 @@
    "tool": "git",
    "title": "엔진: 워크트리 .venv/node_modules 링크가 커밋되지 않게 info/exclude 등록 + 삼국지 배포 설정(엔진 첫 시험용)",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T19:11",
-   "tool": "git",
-   "title": "감사 5차 PASS 후 제안 반영: calls==0 단언·통째 update 정적 테스트·/retry merge·배포 경쟁 구간 예외 처리",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T19:08",
-   "tool": "git",
-   "title": "감사 4차 반영: 시작·배포실패 중 /stop 기록, merge_add 원자 증분, ERR_RE 구분자, 테스트 4건",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T18:24",
-   "tool": "git",
-   "title": "cycle W2: 개선 후보 → 섀도 실험 → 판정(10-08 대표 D3·D6·D8) — 콜드 감사 조건부 PASS + P2-1·P3-4 수리",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-10T11:10",
+ "data_at": "2026-10-10T11:20",
  "active_projects": [
   "ai-securities",
   "dev-center",

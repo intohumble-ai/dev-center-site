@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-10T11:10",
+ "data_at": "2026-10-10T11:20",
  "projects": {
   "ai-securities": {
    "id": "ai-securities",
@@ -275,7 +275,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "1시간 이내"
+   "log_age": "오늘"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",
