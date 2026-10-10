@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:18",
+     "ts": "2026-10-10T14:45",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:30",
+     "ts": "2026-10-10T14:42",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 32,
+   "commits": 27,
    "timeline": [
     {
-     "ts": "2026-10-10T14:35",
+     "ts": "2026-10-10T14:47",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T14:37",
+     "tool": "git",
+     "title": "master(W5-POLISH) 병합: 조작키 표에 목표 고정 키, 전장 규모 = 설정 창 값, 개전 배너 hudRects, 증거 새 키"
     },
     {
      "ts": "2026-10-10T14:21",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T13:02",
      "tool": "git",
      "title": "HISTORY: 문서(PROGRESS H1·H2 절·ARCHITECTURE §17) + 저장 검사에 의용군·사건 꼬리표 칸"
-    },
-    {
-     "ts": "2026-10-10T13:00",
-     "tool": "git",
-     "title": "W5-POLISH 콜드 감사 1차 FAIL 수리: 대화 안내 키·빈 추적 패널 넘침(+검사)·옛 키 표기·키 검사 대기·전후 이미지 갱신"
     }
    ]
   },
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,28 +1914,34 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T14:35",
+   "ts": "2026-10-10T14:47",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T14:30",
+   "ts": "2026-10-10T14:45",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T14:42",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T14:37",
+   "tool": "git",
+   "title": "master(W5-POLISH) 병합: 조작키 표에 목표 고정 키, 전장 규모 = 설정 창 값, 개전 배너 hudRects, 증거 새 키",
+   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T14:21",
    "tool": "git",
    "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:18",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T14:11",
@@ -2146,17 +2152,11 @@
    "tool": "git",
    "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T10:31",
-   "tool": "git",
-   "title": "3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex ",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T14:35",
+ "data_at": "2026-10-10T14:47",
  "active_projects": [
-  "dev-center",
+  "ai-securities",
   "samguk-rpg",
   "toss-marketing-center"
  ]
