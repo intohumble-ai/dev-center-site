@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:42",
+     "ts": "2026-10-10T12:10",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:50",
+     "ts": "2026-10-10T12:09",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -452,7 +452,7 @@
    "commits": 18,
    "timeline": [
     {
-     "ts": "2026-10-10T12:02",
+     "ts": "2026-10-10T12:11",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,10 +1914,22 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T12:02",
+   "ts": "2026-10-10T12:11",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:10",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T12:09",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T12:00",
@@ -1938,22 +1950,10 @@
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T11:50",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
    "ts": "2026-10-10T11:49",
    "tool": "git",
    "title": "문서: 역사 사건·시대감 퀘스트 계획(Fable 5.1) + 사용자 답변",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:42",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T11:41",
@@ -2154,10 +2154,9 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T12:02",
+ "data_at": "2026-10-10T12:11",
  "active_projects": [
   "ai-securities",
-  "dev-center",
   "samguk-rpg",
   "toss-marketing-center"
  ]
