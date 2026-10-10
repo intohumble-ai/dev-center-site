@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T16:40",
+     "ts": "2026-10-10T16:50",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T16:42",
+     "ts": "2026-10-10T16:52",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 25,
+   "commits": 26,
    "timeline": [
     {
-     "ts": "2026-10-10T16:43",
+     "ts": "2026-10-10T16:51",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T16:47",
+     "tool": "git",
+     "title": "QOL 재감사 수리: 최대 구매 수가 잠긴 묶음 빈자리를 세지 않음(잠금 묶음 분리와 일치)"
     },
     {
      "ts": "2026-10-10T16:36",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T15:25",
      "tool": "git",
      "title": "문서: 아트 개편 계획(ARTDIR_PLAN)·코에이식 능력치 계획(STATS_PLAN)·비교 시안 v3 + 사용자 답변"
-    },
-    {
-     "ts": "2026-10-10T15:23",
-     "tool": "git",
-     "title": "HISTORY 3차 재감사 PASS 기록 + 동작대 문턱 단언 보강(테스트만)"
     }
    ]
   },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T16:34",
+     "ts": "2026-10-10T16:48",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,34 +1914,40 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T16:43",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:42",
+   "ts": "2026-10-10T16:52",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
   },
   {
-   "ts": "2026-10-10T16:40",
+   "ts": "2026-10-10T16:51",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T16:50",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T16:48",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T16:47",
+   "tool": "git",
+   "title": "QOL 재감사 수리: 최대 구매 수가 잠긴 묶음 빈자리를 세지 않음(잠금 묶음 분리와 일치)",
+   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T16:36",
    "tool": "git",
    "title": "QOL 감사 수리: 사기·팔기 개수 검사(음수·NaN), 희귀 이상·레벨만 모자란 장비 자동 선택 제외, 잠금 묶음 분리, 확인 창 Enter ",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:34",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T16:27",
@@ -2146,15 +2152,9 @@
    "tool": "git",
    "title": "HISTORY: 문서(PROGRESS H1·H2 절·ARCHITECTURE §17) + 저장 검사에 의용군·사건 꼬리표 칸",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T13:00",
-   "tool": "git",
-   "title": "W5-POLISH 콜드 감사 1차 FAIL 수리: 대화 안내 키·빈 추적 패널 넘침(+검사)·옛 키 표기·키 검사 대기·전후 이미지 갱신",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T16:43",
+ "data_at": "2026-10-10T16:52",
  "active_projects": [
   "ai-securities",
   "dev-center",
