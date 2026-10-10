@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T20:23",
+     "ts": "2026-10-10T20:33",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1914,7 +1914,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T20:23",
+   "ts": "2026-10-10T20:33",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
@@ -2154,9 +2154,9 @@
    "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-10T20:23",
+ "data_at": "2026-10-10T20:33",
  "active_projects": [
   "ai-securities",
-  "toss-marketing-center"
+  "dev-center"
  ]
 }
