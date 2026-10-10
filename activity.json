@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -452,7 +452,7 @@
    "commits": 33,
    "timeline": [
     {
-     "ts": "2026-10-10T19:48",
+     "ts": "2026-10-10T23:14",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -662,11 +662,11 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:11",
+     "ts": "2026-10-10T23:14",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,6 +1914,18 @@
  },
  "feed": [
   {
+   "ts": "2026-10-10T23:14",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T23:14",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
    "ts": "2026-10-10T22:45",
    "tool": "claude",
    "title": "결정 후 병목 해결",
@@ -1936,12 +1948,6 @@
    "tool": "git",
    "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T19:48",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T19:47",
@@ -2014,12 +2020,6 @@
    "tool": "git",
    "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T19:11",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T19:04",
@@ -2154,9 +2154,10 @@
    "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-10T22:45",
+ "data_at": "2026-10-10T23:14",
  "active_projects": [
-  "ai-securities",
-  "samguk-rpg"
+  "dev-center",
+  "samguk-rpg",
+  "toss-marketing-center"
  ]
 }
