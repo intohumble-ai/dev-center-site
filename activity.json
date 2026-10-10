@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:05",
+     "ts": "2026-10-10T19:18",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -452,9 +452,14 @@
    "commits": 29,
    "timeline": [
     {
-     "ts": "2026-10-10T19:09",
+     "ts": "2026-10-10T19:21",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T19:17",
+     "tool": "git",
+     "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모"
     },
     {
      "ts": "2026-10-10T19:02",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T16:27",
      "tool": "git",
      "title": "문서: PROGRESS W5-PLAY 13절(HISTORY 병합 뒤 재측정)"
-    },
-    {
-     "ts": "2026-10-10T16:19",
-     "tool": "git",
-     "title": "QOL: 일괄 판매·되사기·장착 전 비교(▲▼)·잠금★·N·정렬/필터·물약 자동·수량 입력·보관함·프리셋·제작 최대 + 세계 공지 띠·전쟁 게시"
     }
    ]
   },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:10",
+     "ts": "2026-10-10T19:11",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,22 +1914,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T19:10",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T19:09",
+   "ts": "2026-10-10T19:21",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T19:05",
+   "ts": "2026-10-10T19:18",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T19:17",
+   "tool": "git",
+   "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:11",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T19:04",
@@ -2146,15 +2152,9 @@
    "tool": "git",
    "title": "2차 전직 안내 문구를 새 조작키(E·R)로",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:01",
-   "tool": "git",
-   "title": "병합: W5-POLISH(라벨 겹침·전장 정돈·소리·설정·도움말·퀘스트 추적·QWER 조작키·활 방향) → master",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T19:10",
+ "data_at": "2026-10-10T19:21",
  "active_projects": [
   "ai-securities",
   "dev-center",
