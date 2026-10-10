@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T22:33",
+     "ts": "2026-10-10T22:45",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,7 +1914,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T22:33",
+   "ts": "2026-10-10T22:45",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
@@ -2154,9 +2154,8 @@
    "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-10T22:33",
+ "data_at": "2026-10-10T22:45",
  "active_projects": [
-  "ai-securities",
-  "dev-center"
+  "ai-securities"
  ]
 }
