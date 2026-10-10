@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:14",
+     "ts": "2026-10-10T12:33",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,9 +269,19 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:21",
+     "ts": "2026-10-10T12:31",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T12:23",
+     "tool": "git",
+     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
+    },
+    {
+     "ts": "2026-10-10T12:09",
+     "tool": "git",
+     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
     },
     {
      "ts": "2026-10-10T11:41",
@@ -317,16 +327,6 @@
      "ts": "2026-09-14T13:20",
      "tool": "git",
      "title": "docs: inbound engine report 2026-09-14 13:30"
-    },
-    {
-     "ts": "2026-09-14T13:18",
-     "tool": "git",
-     "title": "Inbound Conversation Engine: inbound reply autopilot (detect→classify→safety→int"
-    },
-    {
-     "ts": "2026-09-14T11:17",
-     "tool": "git",
-     "title": "docs: conversation sprint report 2026-09-14 11:40"
     }
    ]
   },
@@ -449,12 +449,27 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 18,
+   "commits": 22,
    "timeline": [
     {
-     "ts": "2026-10-10T12:11",
+     "ts": "2026-10-10T12:32",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T12:31",
+     "tool": "git",
+     "title": "HISTORY H2: 기존 퀘스트 69개 시대어 재작성(Q9 — id·보상·목표 유지, 명분·대사 교체, 대사 토큰 13곳)"
+    },
+    {
+     "ts": "2026-10-10T12:31",
+     "tool": "git",
+     "title": "HISTORY H1: 역사 사건 엔진 + 뉴스급 사건 8 + 퀘스트급 사건 5(엔진 단계) · 세계 v3 · 저장 v6"
+    },
+    {
+     "ts": "2026-10-10T12:24",
+     "tool": "git",
+     "title": "W5-POLISH 3차: 활 손 높이·뒷모습 · 증거 전체(POLISH) · PROGRESS/ARCHITECTURE"
     },
     {
      "ts": "2026-10-10T12:00",
@@ -495,21 +510,6 @@
      "ts": "2026-10-10T05:31",
      "tool": "git",
      "title": "W4 7단계: 응용 퀘스트 → 영지 효과 연결 · 2차 전직 8직업·기술 16(필드·전장)"
-    },
-    {
-     "ts": "2026-10-10T05:22",
-     "tool": "git",
-     "title": "W4 6단계: UI — 영지 창·세율 팝업·임명장·승급/강등/박탈·사건 팝업·민심 띠·내 영지 격문 띠·호위 이름판·결산 '승급 예정'"
-    },
-    {
-     "ts": "2026-10-10T04:55",
-     "tool": "git",
-     "title": "W4 5단계: 저장 v5 — 2차 전직 자리·단축키 6칸·세계 v1→v2 migrate·깨진 영지 정리"
-    },
-    {
-     "ts": "2026-10-10T04:50",
-     "tool": "git",
-     "title": "W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프"
     }
    ]
   },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:18",
+     "ts": "2026-10-10T12:29",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,16 +1914,52 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T12:21",
+   "ts": "2026-10-10T12:33",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T12:32",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:31",
+   "tool": "git",
+   "title": "HISTORY H2: 기존 퀘스트 69개 시대어 재작성(Q9 — id·보상·목표 유지, 명분·대사 교체, 대사 토큰 13곳)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:31",
+   "tool": "git",
+   "title": "HISTORY H1: 역사 사건 엔진 + 뉴스급 사건 8 + 퀘스트급 사건 5(엔진 단계) · 세계 v3 · 저장 v6",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:31",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
   },
   {
-   "ts": "2026-10-10T12:18",
+   "ts": "2026-10-10T12:29",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T12:24",
+   "tool": "git",
+   "title": "W5-POLISH 3차: 활 손 높이·뒷모습 · 증거 전체(POLISH) · PROGRESS/ARCHITECTURE",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:23",
+   "tool": "git",
+   "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T12:16",
@@ -1932,16 +1968,10 @@
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T12:14",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T12:11",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
+   "ts": "2026-10-10T12:09",
+   "tool": "git",
+   "title": "home picks: apply the verified-comparison allowlist (fail-closed)",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T12:00",
@@ -2122,39 +2152,9 @@
    "tool": "git",
    "title": "W1 화면: 사장 한 장 첫 화면 + 건물 단면도 + 결정 팝업 자동 열림 끔 + 폴링 다이어트(10-09 대표 Q5) — 콜드 재감사 수리 완",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T01:20",
-   "tool": "git",
-   "title": "재감사 반영: origin/<branch> 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T01:20",
-   "tool": "git",
-   "title": "W1 백엔드: 결재·텔레그램 형식(FMT3) + 토스 환율 자동 + 하이쿠 상한·측정 + 주문 킬스위치 3중·실돈 상한·손익분기(10-09 대표",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T01:02",
-   "tool": "git",
-   "title": "콜드감사 반영: 설명 XSS 이스케이프, 윈도우/WSL 경로 정규식, 초안 공개 id·일반화, push 재시도(앞선 커밋), publish 잠금",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T00:39",
-   "tool": "git",
-   "title": "활동: 워크트리 공유 저장소의 커밋 중복 제거",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T00:39",
-   "tool": "git",
-   "title": "검수 반영: 커밋 제목 첫 줄만($·리터럴",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T12:21",
+ "data_at": "2026-10-10T12:33",
  "active_projects": [
   "ai-securities",
   "dev-center",
