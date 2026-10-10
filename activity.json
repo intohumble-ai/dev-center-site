@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T18:06",
+     "ts": "2026-10-10T19:00",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -265,11 +265,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T17:20",
+     "ts": "2026-10-10T19:00",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -448,11 +448,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 30,
    "timeline": [
     {
-     "ts": "2026-10-10T17:40",
+     "ts": "2026-10-10T19:00",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -662,11 +662,11 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T18:06",
+     "ts": "2026-10-10T19:00",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,28 +1914,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T18:06",
+   "ts": "2026-10-10T19:00",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
   },
   {
-   "ts": "2026-10-10T18:06",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T17:40",
+   "ts": "2026-10-10T19:00",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T17:20",
+   "ts": "2026-10-10T19:00",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T19:00",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T17:06",
@@ -2154,6 +2154,11 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T18:06",
- "active_projects": []
+ "data_at": "2026-10-10T19:00",
+ "active_projects": [
+  "ai-securities",
+  "dev-center",
+  "samguk-rpg",
+  "toss-marketing-center"
+ ]
 }
