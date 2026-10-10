@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-10T10:36",
+ "data_at": "2026-10-10T10:39",
  "projects": {
   "ai-securities": {
    "id": "ai-securities",
@@ -131,9 +131,9 @@
   },
   "dev-center": {
    "id": "dev-center",
-   "service": "inactive",
+   "service": "active",
    "last_commit": "2026-10-10",
-   "light": "gray"
+   "light": "green"
   },
   "family-bot": {
    "id": "family-bot",
