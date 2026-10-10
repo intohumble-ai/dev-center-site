@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:02",
+     "ts": "2026-10-10T14:18",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -452,9 +452,14 @@
    "commits": 32,
    "timeline": [
     {
-     "ts": "2026-10-10T14:14",
+     "ts": "2026-10-10T14:23",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T14:21",
+     "tool": "git",
+     "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히"
     },
     {
      "ts": "2026-10-10T14:11",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T13:00",
      "tool": "git",
      "title": "W5-POLISH 콜드 감사 1차 FAIL 수리: 대화 안내 키·빈 추적 패널 넘침(+검사)·옛 키 표기·키 검사 대기·전후 이미지 갱신"
-    },
-    {
-     "ts": "2026-10-10T12:57",
-     "tool": "git",
-     "title": "HISTORY H2: 기존 NPC 시대어·조건부 대사(NPC_ERA_COND), 채팅 [사건] 중복 제거·조사, 증거 스크립트 evidence-"
     }
    ]
   },
@@ -1914,16 +1914,28 @@
  },
  "feed": [
   {
+   "ts": "2026-10-10T14:23",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T14:21",
+   "tool": "git",
+   "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T14:18",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
    "ts": "2026-10-10T14:16",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T14:14",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T14:11",
@@ -1942,12 +1954,6 @@
    "tool": "git",
    "title": "2차 전직 안내 문구를 새 조작키(E·R)로",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:02",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T14:01",
@@ -2146,15 +2152,9 @@
    "tool": "git",
    "title": "3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex ",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T06:53",
-   "tool": "git",
-   "title": "문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T14:16",
+ "data_at": "2026-10-10T14:23",
  "active_projects": [
   "ai-securities",
   "dev-center",
