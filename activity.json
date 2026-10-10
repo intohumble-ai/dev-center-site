@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:10",
+     "ts": "2026-10-10T12:14",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:09",
+     "ts": "2026-10-10T12:21",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -662,13 +662,18 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:55",
+     "ts": "2026-10-10T12:18",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T12:16",
+     "tool": "git",
+     "title": "P1: devcenter/sandbox.py — bwrap 상자 A/B 인자 빌더·허용목록 프록시(일 상한)·토큰 환경상속·사본 clone/fe"
     },
     {
      "ts": "2026-10-10T11:53",
@@ -719,11 +724,6 @@
      "ts": "2026-10-10T00:39",
      "tool": "git",
      "title": "검수 반영: 커밋 제목 첫 줄만($·리터럴"
-    },
-    {
-     "ts": "2026-10-10T00:33",
-     "tool": "git",
-     "title": "활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용"
     }
    ]
   },
@@ -1914,34 +1914,40 @@
  },
  "feed": [
   {
+   "ts": "2026-10-10T12:21",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T12:18",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T12:16",
+   "tool": "git",
+   "title": "P1: devcenter/sandbox.py — bwrap 상자 A/B 인자 빌더·허용목록 프록시(일 상한)·토큰 환경상속·사본 clone/fe",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T12:14",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
    "ts": "2026-10-10T12:11",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T12:10",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T12:09",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
    "ts": "2026-10-10T12:00",
    "tool": "git",
    "title": "W5-POLISH 2차: 퀘스트 추적 패널·길 안내(questNav)·받을 수 있음 탭·찾아가기 / 조작키 개편(방향키+QWER·1234) / ",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:55",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T11:53",
@@ -2146,17 +2152,12 @@
    "tool": "git",
    "title": "검수 반영: 커밋 제목 첫 줄만($·리터럴",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T00:33",
-   "tool": "git",
-   "title": "활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T12:11",
+ "data_at": "2026-10-10T12:21",
  "active_projects": [
   "ai-securities",
+  "dev-center",
   "samguk-rpg",
   "toss-marketing-center"
  ]
