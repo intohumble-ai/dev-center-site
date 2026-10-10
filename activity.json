@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:00",
+     "ts": "2026-10-10T19:05",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:00",
+     "ts": "2026-10-10T19:02",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,27 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 30,
+   "commits": 29,
    "timeline": [
     {
-     "ts": "2026-10-10T19:00",
+     "ts": "2026-10-10T19:09",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T19:02",
+     "tool": "git",
+     "title": "evidence(font): 리사이즈 해상도 실측(1280→2560→640→1280)·FontFace 로드 상태·결과 합치기"
+    },
+    {
+     "ts": "2026-10-10T19:02",
+     "tool": "git",
+     "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU"
+    },
+    {
+     "ts": "2026-10-10T19:01",
+     "tool": "git",
+     "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)"
     },
     {
      "ts": "2026-10-10T17:06",
@@ -495,21 +510,6 @@
      "ts": "2026-10-10T16:19",
      "tool": "git",
      "title": "QOL: 일괄 판매·되사기·장착 전 비교(▲▼)·잠금★·N·정렬/필터·물약 자동·수량 입력·보관함·프리셋·제작 최대 + 세계 공지 띠·전쟁 게시"
-    },
-    {
-     "ts": "2026-10-10T16:18",
-     "tool": "git",
-     "title": "master 병합(HISTORY H1·H2 + 문서): 의용군 격문과 원군 격문 함께, main7 시대어 문구에 황건 진채 위치, PROGRES"
-    },
-    {
-     "ts": "2026-10-10T16:16",
-     "tool": "git",
-     "title": "W5-PLAY: 격문 빈도(원군 격문·접경 충돌·임관 뒤 첫 격문 보장·징 소리) + 측정 테스트, 증거 스크립트 타이밍 손질, PROGRESS"
-    },
-    {
-     "ts": "2026-10-10T16:07",
-     "tool": "git",
-     "title": "docs(mockups-v3): 게임 글씨 3차 시안(깔끔한 실사용 글꼴 G·H·I·J)"
     }
    ]
   },
@@ -666,9 +666,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:00",
+     "ts": "2026-10-10T19:10",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T19:04",
+     "tool": "git",
+     "title": "P2 엔진 교체: 샌드박스 엔진(상자 A 구현→fetch 회수→.claude 복원→관문→상자 B 테스트→콜드감사→단일 배포 관문→배포) + 실돈"
     },
     {
      "ts": "2026-10-10T15:33",
@@ -719,11 +724,6 @@
      "ts": "2026-10-10T10:31",
      "tool": "git",
      "title": "3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex "
-    },
-    {
-     "ts": "2026-10-10T01:21",
-     "tool": "git",
-     "title": "테스트: 본인 식별정보 없을 때 fail-closed 단언"
     }
    ]
   },
@@ -1914,28 +1914,52 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T19:00",
+   "ts": "2026-10-10T19:10",
    "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T19:00",
+   "ts": "2026-10-10T19:09",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T19:00",
+   "ts": "2026-10-10T19:05",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T19:04",
+   "tool": "git",
+   "title": "P2 엔진 교체: 샌드박스 엔진(상자 A 구현→fetch 회수→.claude 복원→관문→상자 B 테스트→콜드감사→단일 배포 관문→배포) + 실돈",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T19:02",
+   "tool": "git",
+   "title": "evidence(font): 리사이즈 해상도 실측(1280→2560→640→1280)·FontFace 로드 상태·결과 합치기",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:02",
+   "tool": "git",
+   "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:02",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
   },
   {
-   "ts": "2026-10-10T19:00",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
+   "ts": "2026-10-10T19:01",
+   "tool": "git",
+   "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)",
+   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T17:06",
@@ -2128,33 +2152,9 @@
    "tool": "git",
    "title": "병합: W5-POLISH(라벨 겹침·전장 정돈·소리·설정·도움말·퀘스트 추적·QWER 조작키·활 방향) → master",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T13:58",
-   "tool": "git",
-   "title": "W5-POLISH: 감사 4차 PASS 기록 · 증거 스크립트 안 쓰는 줄 정리",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T13:57",
-   "tool": "git",
-   "title": "I1 해소(B안, 사용자 결정 10/10): 상자 A 에 토큰 0 — ANTHROPIC_BASE_URL 평문 + 호스트 AuthProxy(엔드포",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T13:55",
-   "tool": "git",
-   "title": "HISTORY 콜드 감사 1차 FAIL 수리: P1 형주 헌납 뒤 남의 장수가 유표군 군주·수락만으로 사건 보상 + P2 마초 문구·동작대 완화",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T13:48",
-   "tool": "git",
-   "title": "W5-POLISH 재감사 3차 수리: 키 증거 검사 조건 대기·창 닫기 실패 기록",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T19:00",
+ "data_at": "2026-10-10T19:10",
  "active_projects": [
   "ai-securities",
   "dev-center",
