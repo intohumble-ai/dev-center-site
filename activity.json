@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:06",
+     "ts": "2026-10-10T15:11",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -265,11 +265,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:42",
+     "ts": "2026-10-10T15:17",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -452,7 +452,7 @@
    "commits": 28,
    "timeline": [
     {
-     "ts": "2026-10-10T15:01",
+     "ts": "2026-10-10T15:17",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:01",
+     "ts": "2026-10-10T15:18",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,16 +1914,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T15:06",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T15:01",
+   "ts": "2026-10-10T15:18",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T15:17",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T15:17",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T15:11",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T15:01",
@@ -1932,22 +1944,10 @@
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T15:01",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
-  },
-  {
    "ts": "2026-10-10T14:58",
    "tool": "git",
    "title": "HISTORY 재감사 2차 FAIL 수리 + 병합 뒤 맞춤: 형주 헌납 시 도시 든 채 멸망(P2-A) → 남은 땅 모두 넘김, 선택지 대사 토",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:42",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T14:37",
@@ -2154,10 +2154,11 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T15:06",
+ "data_at": "2026-10-10T15:18",
  "active_projects": [
   "ai-securities",
   "dev-center",
-  "samguk-rpg"
+  "samguk-rpg",
+  "toss-marketing-center"
  ]
 }
