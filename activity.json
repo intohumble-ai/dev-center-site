@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:28",
+     "ts": "2026-10-10T11:34",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:29",
+     "ts": "2026-10-10T11:41",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -452,7 +452,7 @@
    "commits": 16,
    "timeline": [
     {
-     "ts": "2026-10-10T11:27",
+     "ts": "2026-10-10T11:40",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:21",
+     "ts": "2026-10-10T11:37",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,28 +1914,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T11:29",
+   "ts": "2026-10-10T11:41",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
   },
   {
-   "ts": "2026-10-10T11:28",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T11:27",
+   "ts": "2026-10-10T11:40",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T11:21",
+   "ts": "2026-10-10T11:37",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T11:34",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T11:12",
@@ -2154,7 +2154,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T11:29",
+ "data_at": "2026-10-10T11:41",
  "active_projects": [
   "ai-securities",
   "dev-center",
