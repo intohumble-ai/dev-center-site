@@ -10,9 +10,19 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:45",
+     "ts": "2026-10-10T15:06",
      "tool": "claude",
      "title": "결정 후 병목 해결"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "Merge commit '6fcdfa3' into w2-int"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
     },
     {
      "ts": "2026-10-10T13:25",
@@ -58,16 +68,6 @@
      "ts": "2026-10-07T15:53",
      "tool": "git",
      "title": "decide-now: 대표 결정 즉시 반영·중복 결재 차단·부실 결재 보강·팝업 병목 수리(10-07 대표 요청) — 콜드 감사 4차 조건부 P"
-    },
-    {
-     "ts": "2026-10-07T15:36",
-     "tool": "git",
-     "title": "g7 후속: 백업 운영 P3 6건 + 후속 감사 P3 2건(후속 감사 PASS)"
-    },
-    {
-     "ts": "2026-10-07T14:58",
-     "tool": "git",
-     "title": "g7: 경험치 누적·활용 개선 5건(10-07 대표 '모두 진행') — 콜드 재감사 PASS"
     }
    ]
   },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 27,
+   "commits": 28,
    "timeline": [
     {
-     "ts": "2026-10-10T14:57",
+     "ts": "2026-10-10T15:01",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T14:58",
+     "tool": "git",
+     "title": "HISTORY 재감사 2차 FAIL 수리 + 병합 뒤 맞춤: 형주 헌납 시 도시 든 채 멸망(P2-A) → 남은 땅 모두 넘김, 선택지 대사 토"
     },
     {
      "ts": "2026-10-10T14:37",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T13:25",
      "tool": "git",
      "title": "W5-POLISH 재감사 2차 수리: 첫 사냥 대사 키·키 검사 조건 대기·추적 패널 띠·설정 키 라벨"
-    },
-    {
-     "ts": "2026-10-10T13:02",
-     "tool": "git",
-     "title": "HISTORY: 문서(PROGRESS H1·H2 절·ARCHITECTURE §17) + 저장 검사에 의용군·사건 꼬리표 칸"
     }
    ]
   },
@@ -666,9 +666,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:56",
+     "ts": "2026-10-10T15:01",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T15:01",
+     "tool": "git",
+     "title": "사이트 이름: Kyle's 개발 센터"
     },
     {
      "ts": "2026-10-10T13:57",
@@ -719,11 +724,6 @@
      "ts": "2026-10-10T01:20",
      "tool": "git",
      "title": "재감사 반영: origin/<branch> 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa"
-    },
-    {
-     "ts": "2026-10-10T01:02",
-     "tool": "git",
-     "title": "콜드감사 반영: 설명 XSS 이스케이프, 윈도우/WSL 경로 정규식, 초안 공개 id·일반화, push 재시도(앞선 커밋), publish 잠금"
     }
    ]
   },
@@ -1914,22 +1914,34 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T14:57",
+   "ts": "2026-10-10T15:06",
    "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
   },
   {
-   "ts": "2026-10-10T14:56",
+   "ts": "2026-10-10T15:01",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T14:45",
+   "ts": "2026-10-10T15:01",
+   "tool": "git",
+   "title": "사이트 이름: Kyle's 개발 센터",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T15:01",
    "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T14:58",
+   "tool": "git",
+   "title": "HISTORY 재감사 2차 FAIL 수리 + 병합 뒤 맞춤: 형주 헌납 시 도시 든 채 멸망(P2-A) → 남은 땅 모두 넘김, 선택지 대사 토",
+   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T14:42",
@@ -1948,6 +1960,18 @@
    "tool": "git",
    "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히",
    "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T14:18",
+   "tool": "git",
+   "title": "Merge commit '6fcdfa3' into w2-int",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T14:18",
+   "tool": "git",
+   "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T14:11",
@@ -2128,33 +2152,9 @@
    "tool": "git",
    "title": "W5-POLISH 1차: 라벨 배치기·전장 정돈·결산 가변 화면·소리(WebAudio)·설정/도움말/첫 안내·짐승 정면/뒷모습·비정수 배율 글씨",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T11:11",
-   "tool": "git",
-   "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T11:11",
-   "tool": "git",
-   "title": "콘텐츠: 자동등록 초안 11개 검토·보강(기능·시행착오·상태, 배지 해제, reviewed 필드) + 엔진 문구 정직화(실가동 1건 성공 후 보",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T11:02",
-   "tool": "git",
-   "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T10:32",
-   "tool": "git",
-   "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T14:57",
+ "data_at": "2026-10-10T15:06",
  "active_projects": [
   "ai-securities",
   "dev-center",
