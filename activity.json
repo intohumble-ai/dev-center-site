@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:34",
+     "ts": "2026-10-10T11:42",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,9 +269,24 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:41",
+     "ts": "2026-10-10T11:50",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T11:41",
+     "tool": "git",
+     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
+    },
+    {
+     "ts": "2026-10-10T11:20",
+     "tool": "git",
+     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
+    },
+    {
+     "ts": "2026-10-10T11:02",
+     "tool": "git",
+     "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)"
     },
     {
      "ts": "2026-10-10T03:44",
@@ -312,21 +327,6 @@
      "ts": "2026-09-14T11:17",
      "tool": "git",
      "title": "docs: conversation sprint report 2026-09-14 11:40"
-    },
-    {
-     "ts": "2026-09-14T11:15",
-     "tool": "git",
-     "title": "brand_cards: footer uses the real Home host (an invented 'sadodwae.pages' domain"
-    },
-    {
-     "ts": "2026-09-14T11:14",
-     "tool": "git",
-     "title": "Conversation-led growth sprint: daily conversation mission, 8-criteria seed rank"
-    },
-    {
-     "ts": "2026-09-14T10:02",
-     "tool": "git",
-     "title": "docs: status report 2026-09-14 01:10 (ad channel decision A/B)"
     }
    ]
   },
@@ -449,12 +449,17 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 16,
+   "commits": 17,
    "timeline": [
     {
-     "ts": "2026-10-10T11:40",
+     "ts": "2026-10-10T11:50",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T11:49",
+     "tool": "git",
+     "title": "문서: 역사 사건·시대감 퀘스트 계획(Fable 5.1) + 사용자 답변"
     },
     {
      "ts": "2026-10-10T11:12",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T04:46",
      "tool": "git",
      "title": "W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev"
-    },
-    {
-     "ts": "2026-10-10T04:29",
-     "tool": "git",
-     "title": "W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열"
     }
    ]
   },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T11:37",
+     "ts": "2026-10-10T11:45",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,28 +1914,46 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T11:41",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T11:40",
+   "ts": "2026-10-10T11:50",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T11:37",
+   "ts": "2026-10-10T11:50",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T11:49",
+   "tool": "git",
+   "title": "문서: 역사 사건·시대감 퀘스트 계획(Fable 5.1) + 사용자 답변",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T11:45",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T11:34",
+   "ts": "2026-10-10T11:42",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T11:41",
+   "tool": "git",
+   "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL ",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T11:20",
+   "tool": "git",
+   "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T11:12",
@@ -1954,6 +1972,12 @@
    "tool": "git",
    "title": "콘텐츠: 자동등록 초안 11개 검토·보강(기능·시행착오·상태, 배지 해제, reviewed 필드) + 엔진 문구 정직화(실가동 1건 성공 후 보",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T11:02",
+   "tool": "git",
+   "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T10:32",
@@ -2128,33 +2152,9 @@
    "tool": "git",
    "title": "재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T19:31",
-   "tool": "git",
-   "title": "엔진 감사 FAIL 8건 수리: info/exclude git-path·커밋 위생 관문(미커밋/의존성/심볼릭)·링크 대상 지문 탐지·npm 도구",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T19:23",
-   "tool": "git",
-   "title": "devcenter: engine/summarizeState 순수 함수 추가 — 세력별 보유 지역 수·병력 합계 요약 + vitest 테스트",
-   "project": "samgukji-game"
-  },
-  {
-   "ts": "2026-10-09T19:22",
-   "tool": "git",
-   "title": "엔진: node_modules 링크·vitest 허용·전역 규칙 비적용 명시(첫 실가동 시험 실패 원인 수리)",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-09T19:21",
-   "tool": "git",
-   "title": "엔진: 워크트리 .venv/node_modules 링크가 커밋되지 않게 info/exclude 등록 + 삼국지 배포 설정(엔진 첫 시험용)",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T11:41",
+ "data_at": "2026-10-10T11:50",
  "active_projects": [
   "ai-securities",
   "dev-center",
