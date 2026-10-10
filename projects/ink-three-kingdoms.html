@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>수묵 삼국지 (PC 게임) — intohumble 개발 센터</title>
+<title>묵영삼국 — 수묵 삼국지 (PC 게임) — intohumble 개발 센터</title>
 <meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
 <link rel="stylesheet" href="../static/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
@@ -24,25 +24,30 @@
     <span class="light unknown"></span>
     <span class="badge st-paused">중지</span>
     <span class="cat">게임</span>
-<span class="badge auto">자동 등록</span><span class="tool t-codex">Codex</span>  </div>
-  <h1>수묵 삼국지 (PC 게임) <small>ink-three-kingdoms</small></h1>
-  <p class="lead">수묵화 풍 삼국지 PC 게임 — 데스크톱 빌드 v0.1~v0.6 과 설계 문서 묶음</p>
+<span class="tool t-codex">Codex</span>  </div>
+  <h1>묵영삼국 — 수묵 삼국지 (PC 게임) <small>ink-three-kingdoms</small></h1>
+  <p class="lead">마을 RPG 로 시작해 Lv5 에 위·촉·오 중 한 나라에 입대하고 국가전에 참전하는 수묵화 풍 Canvas2D 게임 — Electron 데스크톱 v0.1~v0.6 을 하루에 완주</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (9)</button>
     <button data-t="work">최근 작업 (0)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (3)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">HTML/JS 기반 PC 게임. 데스크톱 패키지(v0.1~v0.6)와 설계 묶음을 output 에 배포하며 Codex Desktop 으로 개발.</div>
+    <div class="desc">&#34;작은 마을의 여행자가 성장해 삼국의 전쟁에 뛰어드는&#34; 흐름을 수묵화 연출로 그린 PC 게임이다. 순수 JS(ES modules) + Canvas2D + Web Audio 로 만들고 Electron 셸에 담았다. Codex Desktop 으로 개발.
+
+유파·병기·저장(core), 전투·진형·사기·적장 패턴(sim), 개인 점수·순위·공적 집계(assault), 마을·NPC·퀘스트·사냥(adventure), 국가·영지(campaign), 직업·전직(careers), 게임패드 조작, 수묵 VFX 렌더를 갖췄고 node --test 테스트 51건이 있다.
+
+v0.1~v0.6 데스크톱 패키지를 하루(2026-10-08) 안에 연속 배포했고, 버전마다 검증 결과·Windows 스모크 테스트·스크린샷을 qa/ 에 남겼다. 이후 손대지 않아 중지 상태다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-10 ~ 2026-10-08</dd>
-      <dt>기술</dt><dd><code>node</code> <code>web</code> </dd>
-<dt>코드</dt><dd>88 줄</dd>    </dl>
+      <dt>기술</dt><dd><code>javascript</code> <code>canvas2d</code> <code>electron</code> </dd>
+<dt>코드</dt><dd>1,568 줄</dd><dt>테스트</dt><dd>51 개</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
@@ -50,21 +55,21 @@
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>마을 RPG(청하마을) → Lv5 입대 → 위·촉·오 국가전 참전 흐름</li><li>전투·진형·사기·적장 행동 패턴 시뮬레이션</li><li>개인 점수·순위·공적 집계(어설트식, 수치·규칙은 자체 설계)</li><li>유파·병기, 직업·전직 체계</li><li>국가·영지 캠페인 층</li><li>수묵 VFX 렌더와 Web Audio</li><li>게임패드 지원</li><li>Electron 데스크톱 패키저(패키징 전 SHA-256 검증)</li><li>node --test 테스트 51건, 버전별 검증 로그·Windows 스모크 결과</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="ink-three-kingdoms">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>51</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>버전마다 검증 결과 텍스트·테스트 로그·스모크 JSON·스크린샷을 남기는 습관으로 하루 6개 릴리스를 추적 가능하게 유지했다</li><li>외부 게임의 시스템을 참고할 때 출처를 설계 문서에 밝히고 수치·규칙은 새로 설계했다</li><li>줄 수가 1,600줄 남짓이지만 파일 크기는 245KB — 압축형 코드라 줄 수로 규모를 재면 틀린다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -72,7 +77,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

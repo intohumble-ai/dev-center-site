@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>수익형 자동 코인봇 설계 (Codex) — intohumble 개발 센터</title>
+<title>코인봇 V2 설계·사전 감사 (Codex) — intohumble 개발 센터</title>
 <meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
 <link rel="stylesheet" href="../static/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
@@ -22,27 +22,32 @@
   <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
   <div class="card-top">
     <span class="light gray"></span>
-    <span class="badge st-dead">레거시·폐기</span>
+    <span class="badge st-done">완성(상시가동 아님)</span>
     <span class="cat">코인 자동매매</span>
-<span class="badge auto">자동 등록</span><span class="tool t-codex">Codex</span>  </div>
-  <h1>수익형 자동 코인봇 설계 (Codex) <small>Codex Coinbot Design</small></h1>
-  <p class="lead">Codex Desktop 에서 18개 세션으로 진행한 &#39;수익형 자동 코인봇&#39; 설계 작업(2026-08) — 이후 WSL 쪽 coinbot 계열로 이어짐</p>
+<span class="tool t-codex">Codex</span>  </div>
+  <h1>코인봇 V2 설계·사전 감사 (Codex) <small>Codex Coinbot Design</small></h1>
+  <p class="lead">업비트 현물 코인봇 V2 의 설계·읽기전용 사전 감사·SAFE 골격·전략 연구를 Codex Desktop 세션 18개로 진행한 기록(2026-08) — 결론은 &#34;라이브 미승인&#34;</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (7)</button>
     <button data-t="work">최근 작업 (2)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (4)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">Codex 작업 폴더에서 코인봇 전략·구조를 설계한 기록이다. 세션 18개가 남아 있고 이후 구현은 WSL 의 coinbot 프로젝트들로 넘어갔다(어느 봇과 직접 연결되는지는 미확인).</div>
+    <div class="desc">기존 코인봇(adaptive·trend·swing)이 같은 API 키와 텔레그램 토큰을 공유하고 재부팅 자동시작까지 켜져 있어, 새 봇을 그냥 얹으면 사고가 난다는 판단에서 시작했다. 코드를 짜기 전에 설계와 읽기전용 감사를 먼저 했다.
+
+산출물은 설계·구현 계획, 읽기전용 사전 감사(Phase 0), 텔레그램 운용비서 계획, 구현 상태 보고 등 문서 4종과 네트워크·주문 코드가 없는 Python SAFE 골격(unittest 약 70건)이다. 전략 연구에서는 BTC 비하락장 추세 후보가 비용 ▮▮배 조건에서도 양의 성과를 냈지만 외표본 거래 수가 부족해 라이브 승인하지 않았고, ETH 후보는 탈락했다.
+
+이후 구현은 WSL 의 coinbot-v2 저장소로 넘어갔다. 여기엔 설계와 판단 기록만 남는다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-08 ~ 2026-08-27</dd>
-      <dt>기술</dt><dd></dd>
-    </dl>
+      <dt>기술</dt><dd><code>python</code> <code>markdown</code> </dd>
+<dt>테스트</dt><dd>74 개</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
@@ -53,21 +58,21 @@
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>설계 원칙: 하락장 현금 보존, 투자 비중 상한, 기존 보유 코인은 INHERITED 로 분리(추가매수 금지·보호·청산만)</li><li>최소권한 신규 API 키(출금 금지)와 구형 봇과의 동시 거래 금지</li><li>킬스위치: 손실 한도 도달 시 정상이면 전량 청산, 상태 불명이면 주문 금지</li><li>Phase 0 읽기전용 사전 감사(키·토큰 공유, 자동시작 상태 점검)</li><li>텔레그램 운용비서 계획(하루 2회 보고, 매수 조건 임박 알림, 단일 폴러)</li><li>SAFE 골격(주문·네트워크 코드 없음) + unittest 약 70건</li><li>전략 연구: 비용 ▮▮배·민감도 분석·외표본 거래 수 기준으로 라이브 승인 판정</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="codex-coinbot-design">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>74</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>새 봇을 설계할 때 &#34;기존 봇이 같은 키·토큰을 쓰는가&#34;를 먼저 감사해 라이브 전환을 차단했다 — 설계보다 환경 점검이 먼저였다</li><li>백테스트가 좋아도 외표본 거래 수가 기준에 못 미치면 승인하지 않는 규칙을 문서로 박았다</li><li>주문 코드 없는 SAFE 골격을 먼저 만들어 테스트를 쌓고, 실돈 경로는 마지막에 붙이는 순서를 택했다</li><li>수익 보장을 약속하지 않고 &#34;하락장은 덜 잃기&#34;를 목표로 명시했다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -75,7 +80,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

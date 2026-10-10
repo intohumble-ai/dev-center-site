@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>삼국지 RPG (웹) — intohumble 개발 센터</title>
+<title>난세출세기 — 삼국지 RPG (웹) — intohumble 개발 센터</title>
 <meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
 <link rel="stylesheet" href="../static/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
@@ -24,51 +24,55 @@
     <span class="light gray"></span>
     <span class="badge st-wip">개발 중</span>
     <span class="cat">게임</span>
-<span class="badge auto">자동 등록</span><span class="tool t-claude">Claude Code</span>  </div>
-  <h1>삼국지 RPG (웹) <small>Samguk RPG</small></h1>
-  <p class="lead">Vite+TypeScript+PixiJS 로 만드는 브라우저 삼국지 RPG — RPG 루프(W1)와 전장 시뮬레이션(W2)을 병렬 워크트리로 개발 후 통합</p>
+<span class="pulse mini"><span class="ring"></span>지금 작업 중</span><span class="tool t-claude">Claude Code</span>  </div>
+  <h1>난세출세기 — 삼국지 RPG (웹) <small>Samguk RPG</small></h1>
+  <p class="lead">Vite+TypeScript+PixiJS 브라우저 삼국지 2D 도트 RPG — 이름 없는 병사에서 전직·임관·계급·영지까지. W0~W4 를 워크트리 병렬 개발 + 웨이브별 콜드 감사(FAIL→수리→PASS)로 진행</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (10)</button>
     <button data-t="work">최근 작업 (12)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (6)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">타이틀·캐릭터 생성·퀘스트·전직 4직업·소지품·상점·맵·저장/불러오기(W1)와 분대 전투 시뮬레이션·전쟁 UI·결산(W2)을 각각 별도 워크트리에서 만들고 감사(PASS) 후 main 에 통합했다.
-진영 편향 수리(대칭 맵·거리장 씨앗), 저장 데이터 검증, 행동 회귀 테스트 등 감사 지적을 반영하며 진행 중.</div>
+    <div class="desc">혼자 플레이하지만 AI 유저가 &#34;다른 플레이어&#34; 역할을 하는 서버 없는 삼국지 RPG. 병사로 시작해 Lv10 전직, Lv15 임관, 공적으로 계급(병졸~태수)을 올리고 영지를 다스리는 출세 루프가 핵심이다. 바람의나라풍 마을 + 이터널시티 UI + 진삼국무쌍 연출을 참고했고 원작 그림·이름 복제는 금지로 명문화했다.
+
+철칙은 sim↔render 분리와 시드 RNG 만 사용 — purity 테스트가 sim/data 파일마다 Pixi·DOM·Math.random 사용을 검사한다. 필드 RPG(몬스터 FSM·전투), 퀘스트 엔진, 아이템 강화·세트, 전장(거점 점령·격문·분대), 세계 시뮬(세력 AI·외교·365일, Web Worker), 계급·영지·세율·민심, 2차 전직 8직업, IndexedDB 저장 v5 마이그레이션을 담았다. vitest 테스트 58파일(약 590~650건).
+
+W0 뼈대→W1 RPG 루프→W2 전장→W3 세계→W4 출세·영지를 각각 별도 워크트리에서 만들고 웨이브마다 콜드 감사를 받아 PASS 후 병합했다. W4 &#34;한 바퀴 120분&#34; 관문은 12판 중 7판 도달로 미달 — 결정 대기 상태로 정직하게 기록했고 W5(전면전·다듬기)가 다음이다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-10 ~ 2026-10-10</dd>
       <dt>기술</dt><dd><code>typescript</code> <code>vite</code> <code>pixijs</code> <code>vitest</code> </dd>
-<dt>코드</dt><dd>24,705 줄</dd><dt>커밋</dt><dd>10</dd>    </dl>
+<dt>코드</dt><dd>38,460 줄</dd><dt>테스트</dt><dd>586 개</dd><dt>커밋</dt><dd>52</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
     <div class="facts-inline"><span>세션 1 (Claude Code 1 · Codex 0)</span><span>마지막 활동 2026-10-10</span></div>
     <ul class="feed">
-<li><span class="when">2026-10-10 10:28</span><span class="tool t-claude">Claude Code</span><span class="ttl">삼국지 RPG 게임 기획</span></li><li><span class="when">2026-10-10 06:53</span><span class="tool t-git">커밋</span><span class="ttl">문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고</span></li><li><span class="when">2026-10-10 06:49</span><span class="tool t-git">커밋</span><span class="ttl">W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백</span></li><li><span class="when">2026-10-10 06:38</span><span class="tool t-git">커밋</span><span class="ttl">W4 콜드 감사 1차 FAIL 수리: 발탁 현령 박탈이 승급되던 P1 + P2 9</span></li><li><span class="when">2026-10-10 06:13</span><span class="tool t-git">커밋</span><span class="ttl">W4 8단계: 한 바퀴 봇(loopSim)·관문 측정(실패 기록)·증거 W4·문서</span></li><li><span class="when">2026-10-10 05:31</span><span class="tool t-git">커밋</span><span class="ttl">W4 7단계: 응용 퀘스트 → 영지 효과 연결 · 2차 전직 8직업·기술 16(필드·전장)</span></li><li><span class="when">2026-10-10 05:22</span><span class="tool t-git">커밋</span><span class="ttl">W4 6단계: UI — 영지 창·세율 팝업·임명장·승급/강등/박탈·사건 팝업·민심 띠·내 영지 격문 띠·호위 이름판·결산 &#39;승급 예정&#39;</span></li><li><span class="when">2026-10-10 04:55</span><span class="tool t-git">커밋</span><span class="ttl">W4 5단계: 저장 v5 — 2차 전직 자리·단축키 6칸·세계 v1→v2 migrate·깨진 영지 정리</span></li><li><span class="when">2026-10-10 04:50</span><span class="tool t-git">커밋</span><span class="ttl">W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프</span></li><li><span class="when">2026-10-10 04:46</span><span class="tool t-git">커밋</span><span class="ttl">W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev</span></li><li><span class="when">2026-10-10 04:29</span><span class="tool t-git">커밋</span><span class="ttl">W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열</span></li><li><span class="when">2026-10-10 04:22</span><span class="tool t-git">커밋</span><span class="ttl">W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts</span></li>    </ul>
+<li><span class="when">2026-10-10 11:10</span><span class="tool t-claude">Claude Code</span><span class="ttl">삼국지 RPG 게임 기획</span></li><li><span class="when">2026-10-10 06:53</span><span class="tool t-git">커밋</span><span class="ttl">문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고</span></li><li><span class="when">2026-10-10 06:49</span><span class="tool t-git">커밋</span><span class="ttl">W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백</span></li><li><span class="when">2026-10-10 06:38</span><span class="tool t-git">커밋</span><span class="ttl">W4 콜드 감사 1차 FAIL 수리: 발탁 현령 박탈이 승급되던 P1 + P2 9</span></li><li><span class="when">2026-10-10 06:13</span><span class="tool t-git">커밋</span><span class="ttl">W4 8단계: 한 바퀴 봇(loopSim)·관문 측정(실패 기록)·증거 W4·문서</span></li><li><span class="when">2026-10-10 05:31</span><span class="tool t-git">커밋</span><span class="ttl">W4 7단계: 응용 퀘스트 → 영지 효과 연결 · 2차 전직 8직업·기술 16(필드·전장)</span></li><li><span class="when">2026-10-10 05:22</span><span class="tool t-git">커밋</span><span class="ttl">W4 6단계: UI — 영지 창·세율 팝업·임명장·승급/강등/박탈·사건 팝업·민심 띠·내 영지 격문 띠·호위 이름판·결산 &#39;승급 예정&#39;</span></li><li><span class="when">2026-10-10 04:55</span><span class="tool t-git">커밋</span><span class="ttl">W4 5단계: 저장 v5 — 2차 전직 자리·단축키 6칸·세계 v1→v2 migrate·깨진 영지 정리</span></li><li><span class="when">2026-10-10 04:50</span><span class="tool t-git">커밋</span><span class="ttl">W4 4단계: 토벌 의뢰 전장 왕복·내 영지 수비전 보너스·호위 분대·지휘 버프</span></li><li><span class="when">2026-10-10 04:46</span><span class="tool t-git">커밋</span><span class="ttl">W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev</span></li><li><span class="when">2026-10-10 04:29</span><span class="tool t-git">커밋</span><span class="ttl">W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열</span></li><li><span class="when">2026-10-10 04:22</span><span class="tool t-git">커밋</span><span class="ttl">W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts</span></li>    </ul>
     <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>출세 루프: 병사 → Lv10 전직 → Lv15 임관 → 공적·계급(병졸~태수) → 영지 관리</li><li>AI 유저가 다른 플레이어 역할을 하는 서버 없는 단일 플레이</li><li>sim↔render 분리, 시드 RNG 전용 — purity 테스트로 강제</li><li>필드 RPG: 몬스터 FSM·전투·퀘스트 엔진(호위·배달 등)</li><li>아이템 강화 +1~+10·세트 효과, 2차 전직 8직업</li><li>전장(W2): 거점 점령·격문·토벌·분대 전투</li><li>세계 시뮬(W3): 세력 AI·외교·365일, Web Worker 프로토콜</li><li>계급·영지·세율·민심(W4)</li><li>IndexedDB 저장 v5 + 마이그레이션</li><li>vitest 58파일, 뮤테이션 확인용 회귀 테스트, Playwright 증거 수집</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="samguk-rpg">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-<div class="row"><span>마지막 커밋</span><b>2026-10-10</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+<div class="row"><span>마지막 커밋</span><b>2026-10-10</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>586</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>W0 감사 1차 FAIL: 마지막 변경 뒤 typecheck 재실행을 빠뜨렸다. 2차 재감사에서는 1차 수정이 destroy() 이중 파괴라는 새 P1 을 만들었고 3차에 PASS — 수리가 새 버그를 만든다는 것을 체감했다</li><li>고친 줄을 일부러 빼도 통과하는 규칙 6종을 뮤테이션으로 찾아 회귀 테스트로 박았다</li><li>비트맵 글씨의 문턱값 처리가 한글 획(ㅏ·ㅜ)을 지워 &#34;아군&#34;이 &#34;이군&#34;으로 보이던 버그를 알파 보존 방식으로 고쳤다(보존율 97~▮%)</li><li>Worker 모드에서는 스냅샷이 비어 소속 세력이 지워지는데 인라인 테스트에서는 안 보였다 — 실행 모드별 테스트가 필요했다</li><li>W4 관문(12판 중 10판이 120분 안에 한 바퀴) 미달을 숫자 그대로 기록하고 총괄 결정으로 넘겼다</li><li>1600×900 에서 결산 화면 하단이 잘리고, 마을 4곳 중 3곳이 세력 수도라 영지 맵이 드물게 보이는 미완을 §타협 목록으로 남겼다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -76,7 +80,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

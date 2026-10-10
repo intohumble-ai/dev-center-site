@@ -24,25 +24,30 @@
     <span class="light gray"></span>
     <span class="badge st-wip">개발 중</span>
     <span class="cat">생활</span>
-<span class="badge auto">자동 등록</span><span class="tool t-codex">Codex</span>  </div>
+<span class="tool t-codex">Codex</span>  </div>
   <h1>우리의 여행 <small>couple-travel</small></h1>
-  <p class="lead">(개인 생활 관련 내용은 생략)</p>
+  <p class="lead">두 사람이 PC 에서 여행지 비교·지도·일정·예산·항공/숙소 견적을 함께 정리하는 한국어 여행 작업실(Next.js + Cloudflare Workers + D1, Leaflet 지도)</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (8)</button>
     <button data-t="work">최근 작업 (0)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (5)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">(개인 생활 관련 내용은 생략)</div>
+    <div class="desc">여행 준비가 메신저·메모·엑셀로 흩어지는 문제를 풀려고, 여행방 하나에 둘이 초대로 들어와 같은 데이터를 보며 계획하는 PC 용 웹앱을 만들었다.
+
+D1 공동 저장과 5초 동기화·충돌 감지·변경 기록 복원, 여행지 5곳 비교와 일정 초안(지도 연동), 예산·견적·예약/결제/환불 기록, 항공·숙소 검색 링크 실험실, 날씨 예보, 공유 대화와 AI 일정 초안(JSON), 시차 계산, JSON/ICS/PDF 내보내기를 갖췄다. 로컬 PC 의 ChatGPT 구독을 연결하는 pc-bridge 를 별도 Node 도구로 두었다. Codex Desktop 으로 개발.
+
+실제 결제·주문·환불 API 는 연결하지 않았고, 사용자 시나리오 점검 라운드를 돌며 UI 를 다듬는 단계다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-10 ~ 2026-10-05</dd>
       <dt>기술</dt><dd><code>node</code> <code>nextjs</code> </dd>
-<dt>코드</dt><dd>8,368 줄</dd><dt>커밋</dt><dd>10</dd>    </dl>
+<dt>코드</dt><dd>8,368 줄</dd><dt>테스트</dt><dd>29 개</dd><dt>커밋</dt><dd>10</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
@@ -53,21 +58,21 @@
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>여행방 + 7일 초대 링크(최대 2명)</li><li>D1 공동 저장, 5초 동기화, 충돌 감지, 변경 기록에서 복원</li><li>여행지 5곳 비교와 일정 초안(Leaflet 지도 연동)</li><li>예산·견적·예약/결제/환불 기록 관리</li><li>항공·숙소 검색 링크 실험실, 날씨 예보</li><li>공유 대화와 AI 일정 초안(JSON) 생성</li><li>JSON/ICS/PDF 내보내기</li><li>pc-bridge: 로컬 PC 의 ChatGPT 구독을 연결하는 Node 연결기</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="couple-travel">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-<div class="row"><span>마지막 커밋</span><b>2026-10-05</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+<div class="row"><span>마지막 커밋</span><b>2026-10-05</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>29</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>지도가 편집창·드롭다운을 가리는 문제 → 지도를 기본 접힘으로 두고 레이어를 격리했다(수정 전후 스크린샷을 qa/ 에 남김)</li><li>모달을 닫거나 새로고침할 때 미저장 예산 입력이 사라지는 손실을 막는 처리를 넣었다</li><li>빠른 연속 저장이 중복 기록을 만들어 중복 저장을 차단했다</li><li>계획 복원·AI 일정 적용이 금융 기록(결제·환불)을 과거 상태로 되돌리지 않도록 보호했다</li><li>아직 받지 못한 환불은 순지출에서 차감하지 않는 규칙으로 집계 왜곡을 피했다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -75,7 +80,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

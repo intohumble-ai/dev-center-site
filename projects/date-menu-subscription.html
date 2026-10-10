@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ChatGPT 구독 메뉴 테스트 도구 — intohumble 개발 센터</title>
+<title>ChatGPT 구독 연결 테스트 도구 — intohumble 개발 센터</title>
 <meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
 <link rel="stylesheet" href="../static/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
@@ -21,28 +21,33 @@
 <article class="project">
   <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
   <div class="card-top">
-    <span class="light unknown"></span>
-    <span class="badge st-paused">중지</span>
+    <span class="light gray"></span>
+    <span class="badge st-done">완성(상시가동 아님)</span>
     <span class="cat">실험</span>
-<span class="badge auto">자동 등록</span><span class="tool t-codex">Codex</span>  </div>
-  <h1>ChatGPT 구독 메뉴 테스트 도구 <small>date-menu-subscription</small></h1>
-  <p class="lead">배포 사이트의 ChatGPT 로그인 흐름을 PC 에서 별도로 점검하는 소형 테스트 도구(Node)</p>
+<span class="tool t-codex">Codex</span>  </div>
+  <h1>ChatGPT 구독 연결 테스트 도구 <small>date-menu-subscription</small></h1>
+  <p class="lead">배포 사이트와 별개로, 이 PC 의 ChatGPT 구독으로 모델 응답을 받아볼 수 있는지 확인한 일회성 Node 도구(PKCE 로그인 + Responses SSE)</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (5)</button>
     <button data-t="work">최근 작업 (0)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (2)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">현재 배포 사이트의 ChatGPT 로그인은 사용자 식별만 한다. 이 도구는 현재 PC에서 별도로 구독 사용 권한을 요청하고, 사용자가 공식 로그인 화면에서 동의하면 런닝 후 저녁 후보를 실제 모델에 보내는 일회성 개인 테스트다. 배포 사이트의 버튼을 자동 활성화하거나, 다른 사람에게 사용자의 구독을 제공하는 도구는 아니다.</div>
+    <div class="desc">배포 사이트의 ChatGPT 로그인은 사용자 식별만 한다. 사용자 본인의 구독 권한으로 실제 모델 호출이 가능한지 PC 에서 따로 검증하려고 만든 의존성 없는 Node 스크립트다.
+
+PKCE 로그인, 계정별 모델 선택, Responses API SSE 스트리밍(store:false), 세션의 로컬 보호 저장을 구현하고 &#34;저녁 메뉴 후보&#34; 질문으로 1회 검증했다. 다른 사람에게 구독을 제공하거나 사이트 버튼을 자동 활성화하는 도구가 아니다.
+
+검증 목적을 달성해 종료했고, 이 구조는 이후 couple-travel·couple-ledger·future-me 의 pc-bridge 로 이어졌다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-10 ~ 2026-10-04</dd>
-      <dt>기술</dt><dd></dd>
-    </dl>
+      <dt>기술</dt><dd><code>node</code> </dd>
+<dt>테스트</dt><dd>1 개</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
@@ -50,21 +55,21 @@
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>PKCE 기반 ChatGPT 로그인</li><li>계정별 사용 가능 모델 선택</li><li>Responses API SSE 스트리밍 요청(store:false)</li><li>등록·세션 정보 로컬 보호 저장</li><li>모의 데이터 검증 스크립트(test.mjs) 와 Windows 실행 배치</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="date-menu-subscription">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>1</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>원격 PC 설치는 SSH 연결 시간초과로 접지 않고 로컬 PC 1대 검증으로 범위를 좁혔다</li><li>백그라운드 세션 갱신은 구현하지 않고 수동 재로그인으로 두어 일회성 도구의 범위를 지켰다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -72,7 +77,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

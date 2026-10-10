@@ -21,28 +21,33 @@
 <article class="project">
   <p class="crumb"><a href="../index.html">← 전체 프로젝트</a></p>
   <div class="card-top">
-    <span class="light gray"></span>
-    <span class="badge st-wip">개발 중</span>
+    <span class="light unknown"></span>
+    <span class="badge st-paused">중지</span>
     <span class="cat">게임</span>
-<span class="badge auto">자동 등록</span><span class="tool t-codex">Codex</span>  </div>
+<span class="tool t-codex">Codex</span>  </div>
   <h1>Project Tianxia (Unity 삼국지 샌드박스) <small>ProjectTianxia</small></h1>
-  <p class="lead">Unity 6 기반 &#39;살아 있는 삼국지&#39; 전쟁 샌드박스 — 권위 시뮬레이션 위에 캠페인 루프와 커맨드 센터를 단계(M0~M2)별로 구축</p>
+  <p class="lead">Unity 6 삼국지 전쟁 샌드박스 — C# 시뮬레이션(Tianxia.Sim)을 규칙의 단일 권위로 두고 Unity 클라이언트가 그린다. M0~M3 마일스톤 보고서·감사·&#34;재미 관문 미통과&#34; 기록</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (9)</button>
     <button data-t="work">최근 작업 (9)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (5)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">C# 권위 시뮬레이션(src/tests)과 Unity 클라이언트(unity)를 분리하고, 마일스톤마다 보고서(M0-3, M1, M2…)와 플레이테스트 기록을 남기며 개발하는 PC 게임 프로젝트. Codex Desktop 으로 진행.</div>
+    <div class="desc">&#34;살아 있는 삼국지&#34; — 22개 거점·8세력·55장수가 플레이어 없이도 움직이는 전쟁 샌드박스를 목표로 했다. 규칙은 .NET C# 라이브러리 Tianxia.Sim 한 곳에만 두고, Unity 6(URP) 클라이언트는 그 결과를 보여주기만 한다. Codex Desktop 으로 개발.
+
+도시 건설·세율·예산·보급, 병종 3종·태세·공성 3방식, 외교(선물·전쟁·강화), AI 이동·개발, 사건 38종, 관직·공적·승진, 지도 레이어 7개, M3 에서 인구·가계·행정 부하·교역을 추가했다. xUnit 테스트 약 140건.
+
+마일스톤마다 보고서(M0·M0-3·M1·M2·M2.2·M3)와 감사 문서를 남겼고, 자동 플레이 결과 &#34;후반 전쟁이 사라져 재미 관문(Human Fun Gate) 미통과&#34;를 정직하게 기록한 채 멈춰 있다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-09 ~ 2026-09-29</dd>
       <dt>기술</dt><dd><code>unity</code> <code>csharp</code> </dd>
-<dt>커밋</dt><dd>9</dd>    </dl>
+<dt>코드</dt><dd>10,968 줄</dd><dt>테스트</dt><dd>141 개</dd><dt>커밋</dt><dd>9</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
@@ -53,21 +58,21 @@
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>C# Tianxia.Sim = 규칙의 단일 권위, Unity 는 표현 전용(DLL·JSON 동기화 스크립트)</li><li>22개 거점·8세력·55장수·9군단 시나리오(역사 영감, 고증 아님 명시)</li><li>도시 건설·세율·예산·창고·도로 보급</li><li>병종 3종·태세·공성(강공·포위·봉쇄)</li><li>외교(선물·전쟁·강화)와 세력 AI 이동·개발</li><li>사건 38종(고유 선택지 17종)</li><li>관직·공적·승진·일임, 지도 레이어 7개</li><li>M3: 인구·가계·행정 부하·교역·장수 이동·고문 전문화</li><li>xUnit 테스트 약 140건, 마일스톤 보고서 7개, 인수용 ZIP 생성 스크립트</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="projecttianxia">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-<div class="row"><span>마지막 커밋</span><b>2026-09-29</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+<div class="row"><span>마지막 커밋</span><b>2026-09-29</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>141</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>감사에서 P0 로 잡힌 것은 &#34;Unity WorldState 와 .NET Sim 의 이중 권위&#34; — 규칙을 잘못된 쪽에 붙이면 폐기 비용이 커서, 전부 Sim 으로 통일하는 커밋으로 해소했다</li><li>이동·날짜가 프레임 시간에 묶여 0.25초 넘는 경과를 잃던 문제, 적군에게도 명령이 가던 문제, 화면 밖으로 나가는 카메라를 P1 으로 수리했다</li><li>사용자 불만(능력치 숫자 없음·역할 불명·진언이 지도를 가림·2년차 전쟁 정체)을 보고서에 그대로 적고 인사 화면 개편으로 &#34;부분 완료&#34;라고 썼다</li><li>3년 자동 플레이에서 개발 완료도가 1년차와 같고 후반 전쟁이 없어 &#34;재미 관문 미통과&#34;로 결론 — 자동 플레이가 재미를 증명하지 않는다</li><li>Unity Editor 테스트 러너·GUI 플레이 미검증은 끝까지 열린 항목으로 남겼다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -75,7 +80,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

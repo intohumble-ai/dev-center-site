@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>내일의 나 (성장 다이어리) — intohumble 개발 센터</title>
+<title>내일의 나 (성장 다이어리·미래 운영실) — intohumble 개발 센터</title>
 <meta name="description" content="바이브코딩으로 타협 없이 만든 봇·도구들 — 가동 중인 것부터 실패한 실험까지 전부">
 <link rel="stylesheet" href="../static/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
@@ -24,25 +24,30 @@
     <span class="light gray"></span>
     <span class="badge st-wip">개발 중</span>
     <span class="cat">생활</span>
-<span class="badge auto">자동 등록</span><span class="tool t-codex">Codex</span>  </div>
-  <h1>내일의 나 (성장 다이어리) <small>future-me</small></h1>
-  <p class="lead">개인 성장 다이어리 웹앱 — PC·모바일 동일 계정, 리마인더·루틴·카카오 연동 시도(Next.js, Cloudflare)</p>
+<span class="tool t-codex">Codex</span>  </div>
+  <h1>내일의 나 (성장 다이어리·미래 운영실) <small>future-me</small></h1>
+  <p class="lead">PC·모바일 같은 계정으로 쌓는 개인 성장 다이어리 — 빠른 메모 자동 분류·루틴·습관·일정 알림·카카오 메모 연결(Next.js + Cloudflare Workers + D1), v1.1→v1.15</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (0)</button>
+    <button data-t="features">기능 (9)</button>
     <button data-t="work">최근 작업 (0)</button>
     <button data-t="status">실시간 상태</button>
-    <button data-t="lessons">시행착오 (0)</button>
+    <button data-t="lessons">시행착오 (5)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
-    <div class="desc">시안 색상으로 구현한 개인 성장 다이어리. v1.0~v1.15 까지 QA 묶음과 배포 기록을 남기며 가장 활발히 갱신 중인 Codex 프로젝트.</div>
+    <div class="desc">생각이 떠오를 때 바로 적고, 그것이 루틴·습관·일정·아이디어로 자동 분류돼 쌓이는 개인 운영실을 목표로 만들었다. Codex 프로젝트 중 가장 활발히 갱신 중(커밋 27개, 5일간).
+
+빠른 메모(규칙 + 모델 분류), 루틴·성장 기록, 카카오 메모 연결, 따라쓰기 타이핑, 일정·알림, 습관 형성, 아이디어 보관함, 오늘의 초점, 작은 시작, 기록 검색·복습, 반려 동반자, 휴대폰 연결(QR)을 담았다. PC 의 ChatGPT 구독을 쓰는 pc-bridge(Windows 자동시작 PowerShell 포함)와 kakao-relay 를 별도 도구로 두었다.
+
+테스트는 node --test 기반 30파일(약 200건)이며 QA 묶음을 버전마다 문서로 남긴다. PC 가 꺼진 상태의 실모델 응답, 자동시작 적용은 아직 검증 전이다.
+</div>
     <dl class="facts">
       <dt>기간</dt><dd>2026-10 ~ 2026-10-09</dd>
       <dt>기술</dt><dd><code>node</code> <code>nextjs</code> </dd>
-<dt>코드</dt><dd>11,189 줄</dd><dt>커밋</dt><dd>26</dd>    </dl>
+<dt>코드</dt><dd>11,189 줄</dd><dt>테스트</dt><dd>204 개</dd><dt>커밋</dt><dd>27</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
@@ -53,21 +58,21 @@
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>기록된 기능 목록이 없습니다.</li></ul>
+    <ul class="feats"><li>빠른 메모 → 규칙·모델 기반 자동 분류</li><li>루틴·성장 기록, 습관 형성, 오늘의 초점, 작은 시작</li><li>일정·알림(schedules/reminders)</li><li>아이디어 보관함과 기록 검색·복습</li><li>카카오 메모 연결(kakao-relay)</li><li>따라쓰기 타이핑 연습</li><li>휴대폰 연결(QR) — PC·모바일 같은 계정</li><li>pc-bridge: PC 의 ChatGPT 구독 연결기(Windows 자동시작 스크립트)</li><li>node --test 테스트 30파일, 버전별 QA 문서(v1.1~v1.15)</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="future-me">
       <div class="row"><span>서비스</span><b class="svc">상시 서비스 아님</b></div>
-<div class="row"><span>마지막 커밋</span><b>2026-10-10</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+<div class="row"><span>마지막 커밋</span><b>2026-10-10</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>204</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
 
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>기록된 시행착오가 없습니다.</li></ol>
+    <ol class="lessons"><li>시간대별 인사말이 서버·클라이언트에서 달라 hydration 불일치가 났고 렌더 시점을 맞춰 고쳤다</li><li>웹 다운로드 자산의 25MiB 제한을 배포 중 발견해 묶음을 나눴다</li><li>아이디어 화면이 중복 렌더링되던 문제를 수정했다</li><li>늦게 도착한 모델 분류 결과는 원문·권한·수정 상태가 그대로일 때만 적용해 경쟁 상태를 막았다</li><li>권한 철회 뒤 요청은 409 로 거절되는지, SQLite 동시 100요청에서 중복이 없는지 테스트로 확인했다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -75,7 +80,7 @@
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>

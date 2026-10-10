@@ -26,45 +26,46 @@
     <span class="cat">대시보드</span>
 <span class="pulse mini"><span class="ring"></span>지금 작업 중</span><span class="tool t-claude">Claude Code</span>  </div>
   <h1>개발 센터 <small>Dev Center</small></h1>
-  <p class="lead">모든 프로젝트를 한 곳에 누적하는 공개 포트폴리오 + 아이디어 큐를 자동으로 구현·감사·배포하는 엔진</p>
+  <p class="lead">모든 프로젝트를 한 곳에 누적하는 공개 포트폴리오(10분마다 자동 빌드·비밀 스캔·발행) + 아이디어 큐 자동구현 엔진(실가동 1건 성공 후 보류·안전 재설계 중)</p>
 
   <div class="tabs" data-tabs>
     <button data-t="about" class="on">의도·설명</button>
-    <button data-t="features">기능 (8)</button>
+    <button data-t="features">기능 (10)</button>
     <button data-t="work">최근 작업 (12)</button>
     <button data-t="status">실시간 상태</button>
-<button data-t="demo">샘플 데모</button>    <button data-t="lessons">시행착오 (2)</button>
+<button data-t="demo">샘플 데모</button>    <button data-t="lessons">시행착오 (7)</button>
     <button data-t="ideas">아이디어 큐 (0)</button>
   </div>
 
   <section class="tab on" data-p="about">
     <div class="desc">여러 봇을 동시에 만들다 보면 무엇을 어디까지 했는지 잊고 끝맺지 못한 채 다른 일로 넘어가는 일이 잦았다. 그래서 GitHub·LinkedIn 처럼 개발 이력이 전부 쌓이는 자리를 만들었다.
-PC 의 엔진이 5분마다 각 봇의 상태(서비스 가동·로그 신선도)와 아이디어 큐를 읽어 정적 사이트로 빌드하고 공개 저장소에 올린다. PC 가 꺼져도 마지막 스냅샷이 남는다.
-아이디어는 소유자 전용 텔레그램 봇으로만 들어오고, 엔진이 한 번에 하나씩 별도 워크트리에서 구현 → 테스트 → 콜드 감사 → 배포 금지시간 회피 → 배포 → 헬스체크(실패 시 롤백)를 진행한다.
-공개 빌드 직전에 비밀 스캐너(정규식 + .env 값 대조)가 돌아 하나라도 걸리면 발행이 중단된다.
+
+PC 의 빌더가 10분마다 각 봇의 상태(서비스 가동·로그 신선도)와 아이디어 큐·활동 기록을 읽어 정적 사이트로 빌드하고, 비밀 스캐너(정규식 + .env 값 대조)를 통과한 경우에만 공개 저장소에 올린다. PC 가 꺼져도 마지막 스냅샷이 남는다. 이 부분은 지금 가동 중이다.
+
+아이디어 큐 자동구현 엔진은 소유자 전용 텔레그램으로 들어온 아이디어를 별도 워크트리에서 구현 → 테스트 → 콜드 감사 → 배포 금지시간 회피 → 배포 → 헬스체크(실패 시 롤백)까지 처리하도록 만들었고, 실가동 1건(삼국지 게임의 상태 요약 함수)을 구현·테스트·감사·배포까지 성공시켰다. 그러나 실돈 봇까지 자동 배포하기에는 콜드 감사가 3연속 FAIL — 변조를 사후 흔적으로 탐지하는 방식은 우회 경로가 계속 나왔다. 그래서 자동 구현은 일시정지하고 샌드박스 격리 방식으로 재설계 중이다. 큐는 쌓이지만 사람이 풀어줄 때까지 돌지 않는다.
 </div>
     <dl class="facts">
-      <dt>기간</dt><dd>2026-10 ~ 2026-10-09</dd>
+      <dt>기간</dt><dd>2026-10 ~ 2026-10-10</dd>
       <dt>기술</dt><dd><code>python</code> <code>jinja2</code> <code>playwright</code> <code>systemd</code> <code>telegram</code> <code>github-pages</code> </dd>
-<dt>systemd 유닛</dt><dd>3 개</dd>    </dl>
+<dt>코드</dt><dd>6,528 줄</dd><dt>테스트</dt><dd>166 개</dd><dt>커밋</dt><dd>20</dd><dt>systemd 유닛</dt><dd>1 개</dd>    </dl>
   </section>
 
   <section class="tab" data-p="work">
     <div class="facts-inline"><span>세션 1 (Claude Code 1 · Codex 0 · 자동 호출 5)</span><span>마지막 활동 2026-10-10</span></div>
     <ul class="feed">
-<li><span class="when">2026-10-10 10:59</span><span class="tool t-claude">Claude Code</span><span class="ttl">개발 센터 포트폴리오 사이트</span></li><li><span class="when">2026-10-10 10:32</span><span class="tool t-git">커밋</span><span class="ttl">테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)</span></li><li><span class="when">2026-10-10 10:31</span><span class="tool t-git">커밋</span><span class="ttl">3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex </span></li><li><span class="when">2026-10-10 01:21</span><span class="tool t-git">커밋</span><span class="ttl">테스트: 본인 식별정보 없을 때 fail-closed 단언</span></li><li><span class="when">2026-10-10 01:20</span><span class="tool t-git">커밋</span><span class="ttl">재감사 반영: origin/&lt;branch&gt; 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa</span></li><li><span class="when">2026-10-10 01:02</span><span class="tool t-git">커밋</span><span class="ttl">콜드감사 반영: 설명 XSS 이스케이프, 윈도우/WSL 경로 정규식, 초안 공개 id·일반화, push 재시도(앞선 커밋), publish 잠금</span></li><li><span class="when">2026-10-10 00:39</span><span class="tool t-git">커밋</span><span class="ttl">활동: 워크트리 공유 저장소의 커밋 중복 제거</span></li><li><span class="when">2026-10-10 00:39</span><span class="tool t-git">커밋</span><span class="ttl">검수 반영: 커밋 제목 첫 줄만($·리터럴</span></li><li><span class="when">2026-10-10 00:33</span><span class="tool t-git">커밋</span><span class="ttl">활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용</span></li><li><span class="when">2026-10-10 00:12</span><span class="tool t-git">커밋</span><span class="ttl">발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치</span></li><li><span class="when">2026-10-09 19:43</span><span class="tool t-git">커밋</span><span class="ttl">재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z</span></li><li><span class="when">2026-10-09 19:31</span><span class="tool t-git">커밋</span><span class="ttl">엔진 감사 FAIL 8건 수리: info/exclude git-path·커밋 위생 관문(미커밋/의존성/심볼릭)·링크 대상 지문 탐지·npm 도구</span></li>    </ul>
+<li><span class="when">2026-10-10 11:05</span><span class="tool t-claude">Claude Code</span><span class="ttl">개발 센터 포트폴리오 사이트</span></li><li><span class="when">2026-10-10 10:32</span><span class="tool t-git">커밋</span><span class="ttl">테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)</span></li><li><span class="when">2026-10-10 10:31</span><span class="tool t-git">커밋</span><span class="ttl">3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex </span></li><li><span class="when">2026-10-10 01:21</span><span class="tool t-git">커밋</span><span class="ttl">테스트: 본인 식별정보 없을 때 fail-closed 단언</span></li><li><span class="when">2026-10-10 01:20</span><span class="tool t-git">커밋</span><span class="ttl">재감사 반영: origin/&lt;branch&gt; 기준 push 판정(+-u), 금액 정규식(한글 복합·코인·통화기호·6자리), 본인 저장소 판정 fa</span></li><li><span class="when">2026-10-10 01:02</span><span class="tool t-git">커밋</span><span class="ttl">콜드감사 반영: 설명 XSS 이스케이프, 윈도우/WSL 경로 정규식, 초안 공개 id·일반화, push 재시도(앞선 커밋), publish 잠금</span></li><li><span class="when">2026-10-10 00:39</span><span class="tool t-git">커밋</span><span class="ttl">활동: 워크트리 공유 저장소의 커밋 중복 제거</span></li><li><span class="when">2026-10-10 00:39</span><span class="tool t-git">커밋</span><span class="ttl">검수 반영: 커밋 제목 첫 줄만($·리터럴</span></li><li><span class="when">2026-10-10 00:33</span><span class="tool t-git">커밋</span><span class="ttl">활동 연동: Claude Code·Codex 세션·git 커밋 수집(읽기 전용)·프로젝트 매칭·자동 발견 초안·작업중 펄스·최근 활동 피드·내용</span></li><li><span class="when">2026-10-10 00:12</span><span class="tool t-git">커밋</span><span class="ttl">발행: 전용 토큰을 push 순간에만 credential helper 로 전달, 발행 폴더를 ~/dev-center/.publish 로(스크래치</span></li><li><span class="when">2026-10-09 19:43</span><span class="tool t-git">커밋</span><span class="ttl">재감사 FAIL 반영: 무시파일 우회 차단·전 종료경로 변조검사(needs_human)·지문 ctime/ino·상한 안전실패·hygiene -z</span></li><li><span class="when">2026-10-09 19:31</span><span class="tool t-git">커밋</span><span class="ttl">엔진 감사 FAIL 8건 수리: info/exclude git-path·커밋 위생 관문(미커밋/의존성/심볼릭)·링크 대상 지문 탐지·npm 도구</span></li>    </ul>
     <p class="note">세션 제목과 커밋 제목만 표시합니다. 대화 내용·파일·경로는 공개하지 않습니다.</p>
   </section>
 
   <section class="tab" data-p="features">
-    <ul class="feats"><li>프로젝트 1개 = YAML 1파일 (의도·기능·시행착오·상태 프로브 경로)</li><li>실시간 상태 프로브: systemctl is-active, 로그 신선도, 읽기전용 sqlite</li><li>아이디어 큐 상태기계(대기→구현→테스트→감사→배포→완료/롤백/사람확인)</li><li>초록 깜빡(구현 중)·주황(다음 차례) 표시</li><li>자동구현 엔진: 워크트리 격리·claude -p 모델/턴/비용 상한·콜드 감사·배포 금지시간·자동 롤백</li><li>비밀 스캐너 게이트(정규식 + 홈 아래 .env 값 대조) — 걸리면 발행 중단</li><li>스크린샷 자동 마스킹(숫자·식별자 치환) + 샘플 데이터 미니 데모</li><li>텔레그램 관리봇(본인 chat_id 만): /idea /queue /up /top /drop /retry</li></ul>
+    <ul class="feats"><li>프로젝트 1개 = YAML 1파일 (의도·기능·시행착오·상태 프로브 경로)</li><li>실시간 상태 프로브: systemctl is-active, 로그 신선도, 읽기전용 sqlite</li><li>10분 타이머: 빌드 → 비밀 스캔 → 내용이 바뀌었을 때만 발행(전용 토큰은 push 순간에만 전달)</li><li>비밀 스캐너 게이트(정규식 + 홈 아래 .env 값 대조) — 하나라도 걸리면 발행 중단</li><li>공개 마스킹: 숫자·금액·가족 이름·이니셜·경로 자동 치환, 개인 생활 키워드 일반화</li><li>작업 폴더 자동 발견 → 초안 YAML(자동 등록 배지), 사람이 검토 후 배지 해제</li><li>아이디어 큐 상태기계(대기→구현→테스트→감사→배포→완료/롤백/사람확인)와 공개 큐 페이지</li><li>자동구현 엔진(보류 중): 워크트리 격리·claude -p 모델/턴/비용 상한·콜드 감사·배포 금지시간·자동 롤백 — 실가동 1건 성공</li><li>텔레그램 관리봇(본인 chat_id 만): /idea /queue /up /top /drop /retry</li><li>Claude Code·Codex 활동 수집(제목·커밋만, 대화 내용 비공개)</li></ul>
   </section>
 
   <section class="tab" data-p="status">
     <div class="live" data-live="dev-center">
       <div class="row"><span>서비스</span><b class="svc">active</b></div>
-<div class="row"><span>마지막 커밋</span><b>2026-10-10</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 10:59</b></div>
-      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 엔진이 10분마다 읽어 올립니다.</p>
+<div class="row"><span>마지막 커밋</span><b>2026-10-10</b></div>      <div class="row"><span>데이터 기준</span><b>2026-10-10 11:10</b></div>
+<div class="row"><span>테스트 수</span><b>166</b></div>      <p class="note">실적·잔고·수익률은 공개 정책상 표시하지 않습니다(설정으로 켤 수 있음). 상태는 PC 의 빌더가 10분마다 읽어 올립니다.</p>
     </div>
   </section>
 
@@ -76,7 +77,7 @@ PC 의 엔진이 5분마다 각 봇의 상태(서비스 가동·로그 신선도
   </section>
 
   <section class="tab" data-p="lessons">
-    <ol class="lessons"><li>공개 페이지에 익명 입력창을 두면 &#39;출금해라&#39; 같은 문장이 자동 배포 경로로 들어갈 수 있어 입력 경로를 본인 전용으로 못 박았다</li><li>butler 봇 토큰은 다른 봇이 이미 폴링 중이라 수신용으로 못 쓴다 — 전용 봇 토큰이 필요</li></ol>
+    <ol class="lessons"><li>공개 페이지에 익명 입력창을 두면 &#34;출금해라&#34; 같은 문장이 자동 배포 경로로 들어갈 수 있어 입력 경로를 본인 전용 텔레그램으로 못 박았다</li><li>엔진 첫 실가동은 워크트리의 .venv/node_modules 심볼릭 링크가 그대로 커밋되는 버그로 실패했다 → info/exclude 등록 + 커밋 위생 관문(미커밋·의존성·심볼릭 링크 검사)을 추가했다</li><li>콜드 감사 1차에서 프로젝트 설명이 그대로 HTML 에 들어가는 XSS 가 잡혔다 — 내 YAML 만 들어온다고 가정했지만 자동 등록 초안은 폴더명을 그대로 쓰므로 이스케이프를 전부 넣었다</li><li>발행 스크립트가 upstream 없는 브랜치에서 push 성공 판정을 못 해 매 주기 다시 push 하던 것을 origin/&lt;branch&gt; 기준 판정으로 고쳤고, 공개 저장소에 쌓인 초기 이력은 리셋 스크립트로 정리했다(복귀 로직·테스트 포함)</li><li>엔진 감사는 FAIL 8건 → 재감사 FAIL(무시파일 우회·훅 무력화) → 3차 FAIL 로 이어졌다. 변조를 사후 흔적(지문·git 메타)으로 잡는 방식은 우회가 계속 나와 한계를 인정하고, 샌드박스에서 격리 실행하는 방식으로 재설계하기로 했다</li><li>비밀 스캐너는 처음엔 시간 단위·수량·통화까지 가려 과마스킹이 심했다 — 화이트리스트와 변형(쉼표 금액·전화 변형) 테스트를 쌓아 &#34;가릴 것은 가리고 읽을 수 있게&#34;를 맞췄다</li><li>butler 봇 토큰은 다른 봇이 이미 폴링 중이라 수신용으로 못 쓴다 — 전용 봇 토큰이 필요했다</li></ol>
   </section>
 
   <section class="tab" data-p="ideas">
@@ -84,7 +85,7 @@ PC 의 엔진이 5분마다 각 봇의 상태(서비스 가동·로그 신선도
 </article>
 </main>
 <footer class="foot">
-  <span>데이터 기준 2026-10-10 10:59 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
+  <span>데이터 기준 2026-10-10 11:10 · 10분마다 PC 가 활동·상태를 확인해 바뀐 것이 있을 때만 올립니다(PC 가 꺼져 있으면 마지막 상태).</span>
   <span>숫자 중 ▮ 는 공개 정책상 가린 값입니다. 이 페이지엔 입력창이 없습니다 — 아이디어 등록은 소유자 전용 경로(텔레그램 봇)로만.</span>
 </footer>
 <script src="../static/app.js"></script>
