@@ -10,9 +10,19 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:41",
+     "ts": "2026-10-10T19:52",
      "tool": "claude",
      "title": "결정 후 병목 해결"
+    },
+    {
+     "ts": "2026-10-10T19:18",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-10T19:11",
+     "tool": "git",
+     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
     },
     {
      "ts": "2026-10-10T15:05",
@@ -55,19 +65,9 @@
      "title": "W1 백엔드: 결재·텔레그램 형식(FMT3) + 토스 환율 자동 + 하이쿠 상한·측정 + 주문 킬스위치 3중·실돈 상한·손익분기(10-09 대표"
     },
     {
-     "ts": "2026-10-09T18:24",
-     "tool": "git",
-     "title": "cycle W2: 개선 후보 → 섀도 실험 → 판정(10-08 대표 D3·D6·D8) — 콜드 감사 조건부 PASS + P2-1·P3-4 수리"
-    },
-    {
      "ts": "2026-10-09T17:11",
      "tool": "claude",
      "title": ""
-    },
-    {
-     "ts": "2026-10-08T19:02",
-     "tool": "git",
-     "title": "cycle W0+W1: 데이터·개선·피드백 순환 1단계(10-08 대표 D1~D10 추천대로) — 콜드 재감사 PASS"
     }
    ]
   },
@@ -452,9 +452,14 @@
    "commits": 33,
    "timeline": [
     {
-     "ts": "2026-10-10T19:41",
+     "ts": "2026-10-10T19:48",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T19:47",
+     "tool": "git",
+     "title": "W5-PLAY: 히트스톱 중 목표 고정 키가 버려지던 것 수리 + 테스트, 증거 재캡처, PROGRESS 16절"
     },
     {
      "ts": "2026-10-10T19:40",
@@ -505,11 +510,6 @@
      "ts": "2026-10-10T19:02",
      "tool": "git",
      "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU"
-    },
-    {
-     "ts": "2026-10-10T19:01",
-     "tool": "git",
-     "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)"
     }
    ]
   },
@@ -1914,15 +1914,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T19:41",
+   "ts": "2026-10-10T19:52",
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
   },
   {
-   "ts": "2026-10-10T19:41",
+   "ts": "2026-10-10T19:48",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:47",
+   "tool": "git",
+   "title": "W5-PLAY: 히트스톱 중 목표 고정 키가 버려지던 것 수리 + 테스트, 증거 재캡처, PROGRESS 16절",
    "project": "samguk-rpg"
   },
   {
@@ -1974,10 +1980,22 @@
    "project": "samguk-rpg"
   },
   {
+   "ts": "2026-10-10T19:18",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
+   "project": "ai-securities"
+  },
+  {
    "ts": "2026-10-10T19:17",
    "tool": "git",
    "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모",
    "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:11",
+   "tool": "git",
+   "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T19:11",
@@ -2088,12 +2106,6 @@
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T15:33",
-   "tool": "git",
-   "title": "테스트: tickInput 이 둘째 틱부터 cycleTarget 도 끔(W5 계약)",
-   "project": "samguk-rpg"
-  },
-  {
    "ts": "2026-10-10T15:25",
    "tool": "git",
    "title": "문서: 아트 개편 계획(ARTDIR_PLAN)·코에이식 능력치 계획(STATS_PLAN)·비교 시안 v3 + 사용자 답변",
@@ -2140,21 +2152,9 @@
    "tool": "git",
    "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T14:18",
-   "tool": "git",
-   "title": "Merge commit '6fcdfa3' into w2-int",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T14:18",
-   "tool": "git",
-   "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-10T19:41",
+ "data_at": "2026-10-10T19:52",
  "active_projects": [
   "ai-securities",
   "samguk-rpg"
