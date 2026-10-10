@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T13:25",
+     "ts": "2026-10-10T13:52",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T13:35",
+     "ts": "2026-10-10T13:48",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,22 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 28,
+   "commits": 30,
    "timeline": [
     {
-     "ts": "2026-10-10T13:41",
+     "ts": "2026-10-10T13:55",
+     "tool": "git",
+     "title": "HISTORY 콜드 감사 1차 FAIL 수리: P1 형주 헌납 뒤 남의 장수가 유표군 군주·수락만으로 사건 보상 + P2 마초 문구·동작대 완화"
+    },
+    {
+     "ts": "2026-10-10T13:52",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T13:48",
+     "tool": "git",
+     "title": "W5-POLISH 재감사 3차 수리: 키 증거 검사 조건 대기·창 닫기 실패 기록"
     },
     {
      "ts": "2026-10-10T13:25",
@@ -500,16 +510,6 @@
      "ts": "2026-10-10T12:31",
      "tool": "git",
      "title": "HISTORY H1: 역사 사건 엔진 + 뉴스급 사건 8 + 퀘스트급 사건 5(엔진 단계) · 세계 v3 · 저장 v6"
-    },
-    {
-     "ts": "2026-10-10T12:24",
-     "tool": "git",
-     "title": "W5-POLISH 3차: 활 손 높이·뒷모습 · 증거 전체(POLISH) · PROGRESS/ARCHITECTURE"
-    },
-    {
-     "ts": "2026-10-10T12:00",
-     "tool": "git",
-     "title": "W5-POLISH 2차: 퀘스트 추적 패널·길 안내(questNav)·받을 수 있음 탭·찾아가기 / 조작키 개편(방향키+QWER·1234) / "
     }
    ]
   },
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,16 +1914,34 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T13:41",
+   "ts": "2026-10-10T13:55",
+   "tool": "git",
+   "title": "HISTORY 콜드 감사 1차 FAIL 수리: P1 형주 헌납 뒤 남의 장수가 유표군 군주·수락만으로 사건 보상 + P2 마초 문구·동작대 완화",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T13:52",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T13:52",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T13:35",
+   "ts": "2026-10-10T13:48",
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T13:48",
+   "tool": "git",
+   "title": "W5-POLISH 재감사 3차 수리: 키 증거 검사 조건 대기·창 닫기 실패 기록",
+   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T13:31",
@@ -1936,12 +1954,6 @@
    "tool": "git",
    "title": "W5-POLISH 재감사 2차 수리: 첫 사냥 대사 키·키 검사 조건 대기·추적 패널 띠·설정 키 라벨",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T13:25",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T13:02",
@@ -2140,23 +2152,11 @@
    "tool": "git",
    "title": "W4 3단계: 영지 경제 fief.ts·명령·사건·민란·응용 퀘스트 효과·프로토콜(fiefCommand/requestRaid/requestRev",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T04:29",
-   "tool": "git",
-   "title": "W4 2단계: 세계 확장(WorldState v2)·현령 임명·AI 유저 승급·봉급·계급 사건·랭킹 계급 열",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T04:22",
-   "tool": "git",
-   "title": "W4 1단계: 계급 표(rankRules)·순수 판정 rank.ts",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T13:41",
+ "data_at": "2026-10-10T13:55",
  "active_projects": [
-  "dev-center",
+  "ai-securities",
   "samguk-rpg",
   "toss-marketing-center"
  ]
