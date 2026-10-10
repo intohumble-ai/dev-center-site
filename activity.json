@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -452,7 +452,7 @@
    "commits": 27,
    "timeline": [
     {
-     "ts": "2026-10-10T14:47",
+     "ts": "2026-10-10T14:57",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -662,11 +662,11 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T14:07",
+     "ts": "2026-10-10T14:56",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,10 +1914,16 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T14:47",
+   "ts": "2026-10-10T14:57",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T14:56",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T14:45",
@@ -1948,12 +1954,6 @@
    "tool": "git",
    "title": "병합: master(W5-POLISH — 조작키 개편·퀘스트 길 안내·라벨 배치기) → history",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:07",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T14:03",
@@ -2154,10 +2154,10 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-10-10T14:47",
+ "data_at": "2026-10-10T14:57",
  "active_projects": [
   "ai-securities",
-  "samguk-rpg",
-  "toss-marketing-center"
+  "dev-center",
+  "samguk-rpg"
  ]
 }

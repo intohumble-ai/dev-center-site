@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-10T14:47",
+ "data_at": "2026-10-10T14:57",
  "projects": {
   "ai-securities": {
    "id": "ai-securities",
@@ -211,9 +211,9 @@
   },
   "ops-scripts": {
    "id": "ops-scripts",
-   "service": "inactive",
+   "service": "active",
    "last_commit": null,
-   "light": "gray"
+   "light": "green"
   },
   "palantir-center": {
    "id": "palantir-center",
