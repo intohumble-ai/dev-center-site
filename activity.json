@@ -10,9 +10,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:30",
+     "ts": "2026-10-10T15:46",
      "tool": "claude",
      "title": "결정 후 병목 해결"
+    },
+    {
+     "ts": "2026-10-10T15:05",
+     "tool": "git",
+     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
     },
     {
      "ts": "2026-10-10T14:18",
@@ -63,11 +68,6 @@
      "ts": "2026-10-08T19:02",
      "tool": "git",
      "title": "cycle W0+W1: 데이터·개선·피드백 순환 1단계(10-08 대표 D1~D10 추천대로) — 콜드 재감사 PASS"
-    },
-    {
-     "ts": "2026-10-07T15:53",
-     "tool": "git",
-     "title": "decide-now: 대표 결정 즉시 반영·중복 결재 차단·부실 결재 보강·팝업 병목 수리(10-07 대표 요청) — 콜드 감사 4차 조건부 P"
     }
    ]
   },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:32",
+     "ts": "2026-10-10T15:46",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -666,7 +666,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T15:39",
+     "ts": "2026-10-10T15:41",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
     },
@@ -1914,7 +1914,19 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T15:39",
+   "ts": "2026-10-10T15:46",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T15:46",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T15:41",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
@@ -1950,18 +1962,6 @@
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T15:32",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T15:30",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
    "ts": "2026-10-10T15:25",
    "tool": "git",
    "title": "문서: 아트 개편 계획(ARTDIR_PLAN)·코에이식 능력치 계획(STATS_PLAN)·비교 시안 v3 + 사용자 답변",
@@ -1984,6 +1984,12 @@
    "tool": "git",
    "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T15:05",
+   "tool": "git",
+   "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T15:01",
@@ -2146,15 +2152,9 @@
    "tool": "git",
    "title": "HISTORY H2: 기존 퀘스트 69개 시대어 재작성(Q9 — id·보상·목표 유지, 명분·대사 교체, 대사 토큰 13곳)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T12:24",
-   "tool": "git",
-   "title": "W5-POLISH 3차: 활 손 높이·뒷모습 · 증거 전체(POLISH) · PROGRESS/ARCHITECTURE",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T15:39",
+ "data_at": "2026-10-10T15:46",
  "active_projects": [
   "ai-securities",
   "dev-center",

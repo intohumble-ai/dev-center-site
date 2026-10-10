@@ -1,6 +1,6 @@
 :root{
   --bg:#0f1218;--card:#171b24;--card2:#1e2430;--fg:#e8ebf1;--muted:#98a2b3;--line:#2a3140;
-  --green:#22c55e;--orange:#f59e0b;--blue:#3b82f6;--red:#ef4444;--purple:#a855f7;--gray:#6b7280;
+  --green:#22c55e;--orange:#f59e0b;--blue:#3b82f6;--red:#ef4444;--purple:#a855f7;--gray:#6b7280;--amber:#eab308;
   --accent:#7dd3fc;
 }
 @media (prefers-color-scheme: light){
@@ -59,6 +59,8 @@ h2 small,h1 small{color:var(--muted);font-weight:400;font-size:13px;margin-left:
 .idea.blue .dot{background:var(--blue)}
 .idea.red .dot{background:var(--red)}
 .idea.purple .dot{background:var(--purple)}
+.idea.amber{border-color:var(--amber)}
+.idea.amber .dot{background:var(--amber);box-shadow:0 0 8px var(--amber)}
 .idea.muted{opacity:.5}
 .idea.idle{color:var(--muted)}
 .idea .txt{margin:2px 0}
