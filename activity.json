@@ -10,9 +10,24 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T21:36",
+     "ts": "2026-10-10T21:43",
      "tool": "claude",
      "title": "결정 후 병목 해결"
+    },
+    {
+     "ts": "2026-10-10T20:34",
+     "tool": "git",
+     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "Merge commit '482dec3' into w3-int2"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
     },
     {
      "ts": "2026-10-10T19:18",
@@ -48,21 +63,6 @@
      "ts": "2026-10-10T13:20",
      "tool": "git",
      "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
-    },
-    {
-     "ts": "2026-10-10T01:21",
-     "tool": "git",
-     "title": "W1 통합: 화면 D-n 떼기 후 구분점 공백 정리(서버·화면 동일)"
-    },
-    {
-     "ts": "2026-10-10T01:20",
-     "tool": "git",
-     "title": "W1 화면: 사장 한 장 첫 화면 + 건물 단면도 + 결정 팝업 자동 열림 끔 + 폴링 다이어트(10-09 대표 Q5) — 콜드 재감사 수리 완"
-    },
-    {
-     "ts": "2026-10-10T01:20",
-     "tool": "git",
-     "title": "W1 백엔드: 결재·텔레그램 형식(FMT3) + 토스 환율 자동 + 하이쿠 상한·측정 + 주문 킬스위치 3중·실돈 상한·손익분기(10-09 대표"
     },
     {
      "ts": "2026-10-09T17:11",
@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1914,9 +1914,27 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T21:36",
+   "ts": "2026-10-10T21:43",
    "tool": "claude",
    "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T20:34",
+   "tool": "git",
+   "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T20:03",
+   "tool": "git",
+   "title": "Merge commit '482dec3' into w3-int2",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T20:03",
+   "tool": "git",
+   "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음",
    "project": "ai-securities"
   },
   {
@@ -2134,29 +2152,10 @@
    "tool": "git",
    "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T15:01",
-   "tool": "git",
-   "title": "사이트 이름: Kyle's 개발 센터",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T14:58",
-   "tool": "git",
-   "title": "HISTORY 재감사 2차 FAIL 수리 + 병합 뒤 맞춤: 형주 헌납 시 도시 든 채 멸망(P2-A) → 남은 땅 모두 넘김, 선택지 대사 토",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:30",
-   "tool": "git",
-   "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg",
-   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-10T21:36",
+ "data_at": "2026-10-10T21:43",
  "active_projects": [
-  "ai-securities",
-  "dev-center"
+  "ai-securities"
  ]
 }
