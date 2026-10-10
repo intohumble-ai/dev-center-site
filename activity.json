@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T19:02",
+     "ts": "2026-10-10T19:27",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -449,12 +449,32 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 29,
+   "commits": 30,
    "timeline": [
     {
-     "ts": "2026-10-10T19:21",
+     "ts": "2026-10-10T19:31",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T19:29",
+     "tool": "git",
+     "title": "QOL 5차 감사 수리: 대화 메뉴 기억에서 대장간·약방 제외(창이 열리면 Enter = 강화·제작)"
+    },
+    {
+     "ts": "2026-10-10T19:25",
+     "tool": "git",
+     "title": "QOL 4차 감사 수리: 대화 메뉴 기억은 창만 여는 줄(상점·대장간·보관함)·처음 말 걸 때만 — Enter 연타로 쉬기 요금 반복 차감 막음"
+    },
+    {
+     "ts": "2026-10-10T19:23",
+     "tool": "git",
+     "title": "master 병합(글꼴 프리텐다드)"
+    },
+    {
+     "ts": "2026-10-10T19:21",
+     "tool": "git",
+     "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로"
     },
     {
      "ts": "2026-10-10T19:17",
@@ -490,26 +510,6 @@
      "ts": "2026-10-10T16:58",
      "tool": "git",
      "title": "evidence(font): 프리텐다드 캡처 스크립트·증거(1280×800·1920×1080, 폴백·창 크기 변경)"
-    },
-    {
-     "ts": "2026-10-10T16:58",
-     "tool": "git",
-     "title": "feat(font): 게임 글꼴 프리텐다드(500/700) + 장치 해상도 글씨·판넬"
-    },
-    {
-     "ts": "2026-10-10T16:47",
-     "tool": "git",
-     "title": "QOL 재감사 수리: 최대 구매 수가 잠긴 묶음 빈자리를 세지 않음(잠금 묶음 분리와 일치)"
-    },
-    {
-     "ts": "2026-10-10T16:36",
-     "tool": "git",
-     "title": "QOL 감사 수리: 사기·팔기 개수 검사(음수·NaN), 희귀 이상·레벨만 모자란 장비 자동 선택 제외, 잠금 묶음 분리, 확인 창 Enter "
-    },
-    {
-     "ts": "2026-10-10T16:27",
-     "tool": "git",
-     "title": "문서: PROGRESS W5-PLAY 13절(HISTORY 병합 뒤 재측정)"
     }
    ]
   },
@@ -1914,9 +1914,39 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T19:21",
+   "ts": "2026-10-10T19:31",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:29",
+   "tool": "git",
+   "title": "QOL 5차 감사 수리: 대화 메뉴 기억에서 대장간·약방 제외(창이 열리면 Enter = 강화·제작)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:27",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-10T19:25",
+   "tool": "git",
+   "title": "QOL 4차 감사 수리: 대화 메뉴 기억은 창만 여는 줄(상점·대장간·보관함)·처음 말 걸 때만 — Enter 연타로 쉬기 요금 반복 차감 막음",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:23",
+   "tool": "git",
+   "title": "master 병합(글꼴 프리텐다드)",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T19:21",
+   "tool": "git",
+   "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로",
    "project": "samguk-rpg"
   },
   {
@@ -1954,12 +1984,6 @@
    "tool": "git",
    "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:02",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T19:01",
@@ -2058,12 +2082,6 @@
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T15:32",
-   "tool": "git",
-   "title": "W5-PLAY: 3차 감사 P1(필드 목표 고정 키가 틱 없는 프레임에 사라지던 것)·P3 수리 + 퀘스트 자동 이동(A 키, 맵 넘기, 해제·",
-   "project": "samguk-rpg"
-  },
-  {
    "ts": "2026-10-10T15:25",
    "tool": "git",
    "title": "문서: 아트 개편 계획(ARTDIR_PLAN)·코에이식 능력치 계획(STATS_PLAN)·비교 시안 v3 + 사용자 답변",
@@ -2106,22 +2124,10 @@
    "project": "samguk-rpg"
   },
   {
-   "ts": "2026-10-10T14:37",
-   "tool": "git",
-   "title": "master(W5-POLISH) 병합: 조작키 표에 목표 고정 키, 전장 규모 = 설정 창 값, 개전 배너 hudRects, 증거 새 키",
-   "project": "samguk-rpg"
-  },
-  {
    "ts": "2026-10-10T14:30",
    "tool": "git",
    "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T14:21",
-   "tool": "git",
-   "title": "W5-PLAY 감사 2차 P3: 겹친 장판은 센 쪽, 장판·저주 보호막 회귀 테스트, 토벌 증거 검사 단단히",
-   "project": "samguk-rpg"
   },
   {
    "ts": "2026-10-10T14:18",
@@ -2146,15 +2152,9 @@
    "tool": "git",
    "title": "병합: master(W5-POLISH — 조작키 개편·퀘스트 길 안내·라벨 배치기) → history",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T14:03",
-   "tool": "git",
-   "title": "2차 전직 안내 문구를 새 조작키(E·R)로",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T19:21",
+ "data_at": "2026-10-10T19:31",
  "active_projects": [
   "ai-securities",
   "dev-center",
