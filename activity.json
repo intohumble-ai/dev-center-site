@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:41",
+     "ts": "2026-10-10T13:04",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -449,12 +449,27 @@
    "automated": 0,
    "last_day": "2026-10-10",
    "active_now": true,
-   "commits": 24,
+   "commits": 27,
    "timeline": [
     {
-     "ts": "2026-10-10T12:51",
+     "ts": "2026-10-10T13:02",
+     "tool": "git",
+     "title": "HISTORY: 문서(PROGRESS H1·H2 절·ARCHITECTURE §17) + 저장 검사에 의용군·사건 꼬리표 칸"
+    },
+    {
+     "ts": "2026-10-10T13:00",
+     "tool": "git",
+     "title": "W5-POLISH 콜드 감사 1차 FAIL 수리: 대화 안내 키·빈 추적 패널 넘침(+검사)·옛 키 표기·키 검사 대기·전후 이미지 갱신"
+    },
+    {
+     "ts": "2026-10-10T12:58",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
+    },
+    {
+     "ts": "2026-10-10T12:57",
+     "tool": "git",
+     "title": "HISTORY H2: 기존 NPC 시대어·조건부 대사(NPC_ERA_COND), 채팅 [사건] 중복 제거·조사, 증거 스크립트 evidence-"
     },
     {
      "ts": "2026-10-10T12:48",
@@ -495,21 +510,6 @@
      "ts": "2026-10-10T11:49",
      "tool": "git",
      "title": "문서: 역사 사건·시대감 퀘스트 계획(Fable 5.1) + 사용자 답변"
-    },
-    {
-     "ts": "2026-10-10T11:12",
-     "tool": "git",
-     "title": "W5-POLISH 1차: 라벨 배치기·전장 정돈·결산 가변 화면·소리(WebAudio)·설정/도움말/첫 안내·짐승 정면/뒷모습·비정수 배율 글씨"
-    },
-    {
-     "ts": "2026-10-10T06:53",
-     "tool": "git",
-     "title": "문서: PROGRESS W4 감사 경과 3차 PASS·P3 참고"
-    },
-    {
-     "ts": "2026-10-10T06:49",
-     "tool": "git",
-     "title": "W4 재감사(2차, PASS 조건부) P2 수리: 옛 저장 직전 계급·W4 키만 채우기·AI 불러오기 계급·테스트 공백"
     }
    ]
   },
@@ -662,13 +662,18 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T12:29",
+     "ts": "2026-10-10T12:59",
      "tool": "claude",
      "title": "개발 센터 포트폴리오 사이트"
+    },
+    {
+     "ts": "2026-10-10T12:58",
+     "tool": "git",
+     "title": "P1 콜드감사 FAIL 10건 수리: C1 fetch 전 사본 비밀 스캔+purge_branch · C2 /etc 화이트리스트+remount-r"
     },
     {
      "ts": "2026-10-10T12:16",
@@ -719,11 +724,6 @@
      "ts": "2026-10-10T00:39",
      "tool": "git",
      "title": "활동: 워크트리 공유 저장소의 커밋 중복 제거"
-    },
-    {
-     "ts": "2026-10-10T00:39",
-     "tool": "git",
-     "title": "검수 반영: 커밋 제목 첫 줄만($·리터럴"
     }
    ]
   },
@@ -1914,9 +1914,45 @@
  },
  "feed": [
   {
-   "ts": "2026-10-10T12:51",
+   "ts": "2026-10-10T13:04",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T13:02",
+   "tool": "git",
+   "title": "HISTORY: 문서(PROGRESS H1·H2 절·ARCHITECTURE §17) + 저장 검사에 의용군·사건 꼬리표 칸",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T13:00",
+   "tool": "git",
+   "title": "W5-POLISH 콜드 감사 1차 FAIL 수리: 대화 안내 키·빈 추적 패널 넘침(+검사)·옛 키 표기·키 검사 대기·전후 이미지 갱신",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:59",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T12:58",
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T12:58",
+   "tool": "git",
+   "title": "P1 콜드감사 FAIL 10건 수리: C1 fetch 전 사본 비밀 스캔+purge_branch · C2 /etc 화이트리스트+remount-r",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-10T12:57",
+   "tool": "git",
+   "title": "HISTORY H2: 기존 NPC 시대어·조건부 대사(NPC_ERA_COND), 채팅 [사건] 중복 제거·조사, 증거 스크립트 evidence-",
    "project": "samguk-rpg"
   },
   {
@@ -1924,12 +1960,6 @@
    "tool": "git",
    "title": "HISTORY H2: 사건 퀘스트 12 · 메인 신규 7 · 마을 연작 10 · 장수 방문자·사건 인물 NPC 18 · 조건부 대사 · 시대 퀘",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T12:41",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   },
   {
    "ts": "2026-10-10T12:36",
@@ -1960,12 +1990,6 @@
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T12:29",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   },
   {
    "ts": "2026-10-10T12:24",
@@ -2128,35 +2152,12 @@
    "tool": "git",
    "title": "W3 3차 감사 P2 수리: Worker 폴백 세대 확인·소속 맞추기 오류·WorldLink 테스트·refreshSiege 수비 세력 변경",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T04:21",
-   "tool": "git",
-   "title": "병합: W3 살아 있는 세계(w3-world 09f4865) → master(GFX 03f0613)",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T03:51",
-   "tool": "git",
-   "title": "병합: GFX 웨이브(시안 수준 그래픽·마을4·사냥터8·몬스터15·외형57) → master",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T03:44",
-   "tool": "git",
-   "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T01:21",
-   "tool": "git",
-   "title": "W1 통합: 화면 D-n 떼기 후 구분점 공백 정리(서버·화면 동일)",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-10T12:51",
+ "data_at": "2026-10-10T13:04",
  "active_projects": [
   "ai-securities",
+  "dev-center",
   "samguk-rpg"
  ]
 }
