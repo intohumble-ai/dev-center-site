@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-10T17:13",
+ "data_at": "2026-10-10T17:23",
  "projects": {
   "ai-securities": {
    "id": "ai-securities",
@@ -229,7 +229,7 @@
    "last_commit": "2026-09-24",
    "light": "green",
    "db_tables": 16,
-   "log_age": "1시간 이내"
+   "log_age": "오늘"
   },
   "picks-dca-bot": {
    "id": "picks-dca-bot",

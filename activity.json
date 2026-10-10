@@ -10,7 +10,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T17:12",
+     "ts": "2026-10-10T17:23",
      "tool": "claude",
      "title": "결정 후 병목 해결"
     },
@@ -269,7 +269,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-10T17:06",
+     "ts": "2026-10-10T17:20",
      "tool": "claude",
      "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
     },
@@ -452,7 +452,7 @@
    "commits": 30,
    "timeline": [
     {
-     "ts": "2026-10-10T17:09",
+     "ts": "2026-10-10T17:23",
      "tool": "claude",
      "title": "삼국지 RPG 게임 기획"
     },
@@ -1914,34 +1914,34 @@
  },
  "feed": [
   {
+   "ts": "2026-10-10T17:23",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T17:23",
+   "tool": "claude",
+   "title": "결정 후 병목 해결",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-10T17:20",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
    "ts": "2026-10-10T17:13",
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
   },
   {
-   "ts": "2026-10-10T17:12",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T17:09",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
-  },
-  {
    "ts": "2026-10-10T17:06",
    "tool": "git",
    "title": "W5-PLAY 감사 4차 수리: 접경 충돌·원군이 세력 격문을 밀어내던 것(P1), 자동 이동 아무 키 해제·귀환 해제·중독 오판(P2), 접경",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T17:06",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-10T16:58",
@@ -2154,7 +2154,7 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-10T17:13",
+ "data_at": "2026-10-10T17:23",
  "active_projects": [
   "ai-securities",
   "dev-center",
