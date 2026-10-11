@@ -265,7 +265,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2156,6 +2156,7 @@
  ],
  "data_at": "2026-10-11T04:45",
  "active_projects": [
-  "samguk-rpg"
+  "samguk-rpg",
+  "toss-marketing-center"
  ]
 }
