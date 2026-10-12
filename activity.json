@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-10-12",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2063,7 +2063,5 @@
   }
  ],
  "data_at": "2026-10-12T17:29",
- "active_projects": [
-  "ai-securities"
- ]
+ "active_projects": []
 }
