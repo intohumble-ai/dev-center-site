@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-11",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2062,8 +2062,9 @@
    "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-13T00:07",
+ "data_at": "2026-10-13T00:26",
  "active_projects": [
+  "dev-center",
   "toss-marketing-center"
  ]
 }
