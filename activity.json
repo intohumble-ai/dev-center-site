@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-11",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2062,8 +2062,6 @@
    "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-12T23:09",
- "active_projects": [
-  "dev-center"
- ]
+ "data_at": "2026-10-12T23:32",
+ "active_projects": []
 }
