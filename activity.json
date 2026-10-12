@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-10-11",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -448,7 +448,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-11",
-   "active_now": false,
+   "active_now": true,
    "commits": 33,
    "timeline": [
     {
@@ -795,98 +795,6 @@
      "ts": "2026-09-25T10:28",
      "tool": "git",
      "title": "feat(RV-02B 6/8): 텔레그램 읽기 명령 /근거 /재조회 /확인했음 (D-5: 금전 상태변경 0)"
-    }
-   ]
-  },
-  "codex-coinbot-design": {
-   "sessions": 18,
-   "sessions_claude": 0,
-   "sessions_codex": 18,
-   "automated": 0,
-   "last_day": "2026-08-27",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
-    {
-     "ts": "2026-08-27T22:27",
-     "tool": "codex",
-     "title": "설계하기 수익형 자동 코인봇"
-    },
-    {
-     "ts": "2026-08-27T21:52",
-     "tool": "codex",
-     "title": "",
-     "count": 17
-    }
-   ]
-  },
-  "math-tutor-assistant": {
-   "sessions": 123,
-   "sessions_claude": 0,
-   "sessions_codex": 123,
-   "automated": 0,
-   "last_day": "2026-09-24",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
-    {
-     "ts": "2026-09-24T22:06",
-     "tool": "codex",
-     "title": "학원 업무 관리 봇 구축"
-    },
-    {
-     "ts": "2026-09-22T00:15",
-     "tool": "codex",
-     "title": "",
-     "count": 106
-    },
-    {
-     "ts": "2026-09-07T22:36",
-     "tool": "codex",
-     "title": "학원 업무 관리 봇 구축"
-    },
-    {
-     "ts": "2026-09-07T22:09",
-     "tool": "codex",
-     "title": "",
-     "count": 3
-    },
-    {
-     "ts": "2026-09-07T22:03",
-     "tool": "codex",
-     "title": "학원 업무 관리 봇 구축"
-    },
-    {
-     "ts": "2026-09-07T21:04",
-     "tool": "codex",
-     "title": "",
-     "count": 10
-    },
-    {
-     "ts": "2026-09-07T15:49",
-     "tool": "codex",
-     "title": "학원 업무 관리 봇 구축"
-    }
-   ]
-  },
-  "codex-remote": {
-   "sessions": 2,
-   "sessions_claude": 0,
-   "sessions_codex": 2,
-   "automated": 0,
-   "last_day": "2026-09-25",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
-    {
-     "ts": "2026-09-25T19:20",
-     "tool": "codex",
-     "title": ""
-    },
-    {
-     "ts": "2026-09-25T19:19",
-     "tool": "codex",
-     "title": "GPT 원격 실행 링크 만들기"
     }
    ]
   },
@@ -2155,5 +2063,8 @@
   }
  ],
  "data_at": "2026-10-11T19:00",
- "active_projects": []
+ "active_projects": [
+  "ai-securities",
+  "samguk-rpg"
+ ]
 }
