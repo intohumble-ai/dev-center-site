@@ -662,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-11",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2064,6 +2064,7 @@
  ],
  "data_at": "2026-10-12T17:29",
  "active_projects": [
+  "dev-center",
   "toss-marketing-center"
  ]
 }
