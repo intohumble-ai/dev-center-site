@@ -142,7 +142,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "1시간 이내"
+   "log_age": "오늘"
   },
   "fleet-data": {
    "id": "fleet-data",
