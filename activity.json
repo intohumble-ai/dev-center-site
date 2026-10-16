@@ -260,8 +260,8 @@
    ]
   },
   "toss-marketing-center": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-13",
@@ -324,121 +324,9 @@
      "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
     },
     {
-     "ts": "2026-09-15T01:37",
-     "tool": "claude",
-     "title": "세션 이름 지정"
-    }
-   ]
-  },
-  "palantir-center": {
-   "sessions": 6,
-   "sessions_claude": 6,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-02",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-02T13:53",
+     "ts": "2026-09-14T17:41",
      "tool": "git",
-     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
-    },
-    {
-     "ts": "2026-10-02T13:46",
-     "tool": "git",
-     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
-    },
-    {
-     "ts": "2026-10-02T13:37",
-     "tool": "git",
-     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
-    },
-    {
-     "ts": "2026-10-02T13:27",
-     "tool": "git",
-     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
-    },
-    {
-     "ts": "2026-10-02T10:56",
-     "tool": "claude",
-     "title": "팔란티어 센터와 live 봇 할당분 확인"
-    },
-    {
-     "ts": "2026-09-30T22:04",
-     "tool": "git",
-     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
-    },
-    {
-     "ts": "2026-09-28T21:11",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
-    },
-    {
-     "ts": "2026-09-28T20:09",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
-    },
-    {
-     "ts": "2026-09-28T10:08",
-     "tool": "claude",
-     "title": "○○이봇 ▮▮ 할당"
-    },
-    {
-     "ts": "2026-09-27T22:54",
-     "tool": "git",
-     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
-    },
-    {
-     "ts": "2026-09-26T11:30",
-     "tool": "git",
-     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-26T10:58",
-     "tool": "git",
-     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
-    }
-   ]
-  },
-  "fleet-data": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-09-23",
-   "active_now": false,
-   "commits": 5,
-   "timeline": [
-    {
-     "ts": "2026-09-23T22:35",
-     "tool": "git",
-     "title": "fleet_intake: optional available_at/deployed_at receipt fields (CONTRACT §7.1)"
-    },
-    {
-     "ts": "2026-09-16T01:22",
-     "tool": "git",
-     "title": "wave G: readiness V3 dimensions (8 axes, 5-step ladder), no promotions"
-    },
-    {
-     "ts": "2026-09-16T01:02",
-     "tool": "git",
-     "title": "wave G: CONTRACT §7 execution integrity, fleet_intake receipts, arbiter observe_"
-    },
-    {
-     "ts": "2026-09-15T21:19",
-     "tool": "git",
-     "title": "wave E: FREEZE.json evidence-window freeze + readiness ladder V2 (pilot flag, da"
-    },
-    {
-     "ts": "2026-09-15T18:32",
-     "tool": "git",
-     "title": "chore: fleet-data 컨트롤 플레인 최초 버전관리 — CONTRACT v1.2(§1.4 ext·§1.5 attestation·§1.6"
-    },
-    {
-     "ts": "2026-09-13T13:04",
-     "tool": "claude",
-     "title": "Toss 마케팅 센터"
+     "title": "inbound_autopilot: use heartbeat-aware release_guard.tick_gate (skip on FRESH/HE"
     }
    ]
   },
@@ -588,7 +476,7 @@
    "sessions": 2,
    "sessions_claude": 2,
    "sessions_codex": 0,
-   "automated": 1,
+   "automated": 0,
    "last_day": "2026-09-29",
    "active_now": false,
    "commits": 7,
@@ -653,6 +541,77 @@
      "ts": "2026-10-02T13:56",
      "tool": "claude",
      "title": "cgv봇 인기영화 자동예매"
+    }
+   ]
+  },
+  "palantir-center": {
+   "sessions": 4,
+   "sessions_claude": 4,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-02",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-02T13:53",
+     "tool": "git",
+     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
+    },
+    {
+     "ts": "2026-10-02T13:46",
+     "tool": "git",
+     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
+    },
+    {
+     "ts": "2026-10-02T13:37",
+     "tool": "git",
+     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
+    },
+    {
+     "ts": "2026-10-02T13:27",
+     "tool": "git",
+     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
+    },
+    {
+     "ts": "2026-10-02T10:56",
+     "tool": "claude",
+     "title": "팔란티어 센터와 live 봇 할당분 확인"
+    },
+    {
+     "ts": "2026-09-30T22:04",
+     "tool": "git",
+     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
+    },
+    {
+     "ts": "2026-09-28T21:11",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
+    },
+    {
+     "ts": "2026-09-28T20:09",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
+    },
+    {
+     "ts": "2026-09-28T10:08",
+     "tool": "claude",
+     "title": "○○이봇 ▮▮ 할당"
+    },
+    {
+     "ts": "2026-09-27T22:54",
+     "tool": "git",
+     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
+    },
+    {
+     "ts": "2026-09-26T11:30",
+     "tool": "git",
+     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-26T10:58",
+     "tool": "git",
+     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
     }
    ]
   },
@@ -1236,6 +1195,42 @@
      "ts": "2026-09-25T12:00",
      "tool": "git",
      "title": "feat(RV-02B family 3~6/8): 주문 1건 T1/T2/T3 원자성·재전송 금지·_persist_cash LIVE 잠금 제거·확정"
+    }
+   ]
+  },
+  "fleet-data": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-23",
+   "active_now": false,
+   "commits": 5,
+   "timeline": [
+    {
+     "ts": "2026-09-23T22:35",
+     "tool": "git",
+     "title": "fleet_intake: optional available_at/deployed_at receipt fields (CONTRACT §7.1)"
+    },
+    {
+     "ts": "2026-09-16T01:22",
+     "tool": "git",
+     "title": "wave G: readiness V3 dimensions (8 axes, 5-step ladder), no promotions"
+    },
+    {
+     "ts": "2026-09-16T01:02",
+     "tool": "git",
+     "title": "wave G: CONTRACT §7 execution integrity, fleet_intake receipts, arbiter observe_"
+    },
+    {
+     "ts": "2026-09-15T21:19",
+     "tool": "git",
+     "title": "wave E: FREEZE.json evidence-window freeze + readiness ladder V2 (pilot flag, da"
+    },
+    {
+     "ts": "2026-09-15T18:32",
+     "tool": "git",
+     "title": "chore: fleet-data 컨트롤 플레인 최초 버전관리 — CONTRACT v1.2(§1.4 ext·§1.5 attestation·§1.6"
     }
    ]
   },
