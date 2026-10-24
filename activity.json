@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 4,
+   "commits": 5,
    "timeline": [
     {
-     "ts": "2026-10-24T14:07",
+     "ts": "2026-10-24T14:17",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T14:13",
+     "tool": "git",
+     "title": "backups/ 폴더 git 제외"
     },
     {
      "ts": "2026-10-24T14:07",
@@ -657,7 +662,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1853,9 +1858,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T14:07",
+   "ts": "2026-10-24T14:17",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T14:13",
+   "tool": "git",
+   "title": "backups/ 폴더 git 제외",
    "project": "ai-academy"
   },
   {
@@ -2085,16 +2096,11 @@
    "tool": "git",
    "title": "docs(mockups-v3): 게임 글씨 3차 시안(깔끔한 실사용 글꼴 G·H·I·J)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T15:38",
-   "tool": "git",
-   "title": "docs(mockups-v3): 게임 글씨 2차 시안 D·E·F 추가",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T14:07",
+ "data_at": "2026-10-24T14:17",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
