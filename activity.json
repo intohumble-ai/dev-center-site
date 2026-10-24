@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 10,
+   "commits": 11,
    "timeline": [
     {
-     "ts": "2026-10-24T19:58",
+     "ts": "2026-10-24T20:20",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T20:19",
+     "tool": "git",
+     "title": "S7-1 로그인·보안 기본: 원장 계정·세션·시도 제한·CSRF·127.0.0.1 바인딩·열람 감사"
     },
     {
      "ts": "2026-10-24T18:31",
@@ -687,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1883,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T19:58",
+   "ts": "2026-10-24T20:20",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T20:19",
+   "tool": "git",
+   "title": "S7-1 로그인·보안 기본: 원장 계정·세션·시도 제한·CSRF·127.0.0.1 바인딩·열람 감사",
    "project": "ai-academy"
   },
   {
@@ -2115,17 +2126,10 @@
    "tool": "git",
    "title": "QOL 재감사 수리: 최대 구매 수가 잠긴 묶음 빈자리를 세지 않음(잠금 묶음 분리와 일치)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:36",
-   "tool": "git",
-   "title": "QOL 감사 수리: 사기·팔기 개수 검사(음수·NaN), 희귀 이상·레벨만 모자란 장비 자동 선택 제외, 잠금 묶음 분리, 확인 창 Enter ",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T19:58",
+ "data_at": "2026-10-24T20:20",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
