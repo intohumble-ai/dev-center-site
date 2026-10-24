@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 2,
+   "commits": 3,
    "timeline": [
     {
-     "ts": "2026-10-24T13:35",
+     "ts": "2026-10-24T13:44",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T13:39",
+     "tool": "git",
+     "title": "S0 뼈대: Next.js+Prisma+SQLite, 합성 시드, DEMO 강제, v4 사무실 화면 이식"
     },
     {
      "ts": "2026-10-24T12:50",
@@ -1843,9 +1848,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T13:35",
+   "ts": "2026-10-24T13:44",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T13:39",
+   "tool": "git",
+   "title": "S0 뼈대: Next.js+Prisma+SQLite, 합성 시드, DEMO 강제, v4 사무실 화면 이식",
    "project": "ai-academy"
   },
   {
@@ -2075,15 +2086,9 @@
    "tool": "git",
    "title": "B안 재감사 수리(Important 4·Suggestion 5): I-1 비밀 스캔을 rev-list --objects 전 객체로 · I-2 R",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T15:25",
-   "tool": "git",
-   "title": "문서: 아트 개편 계획(ARTDIR_PLAN)·코에이식 능력치 계획(STATS_PLAN)·비교 시안 v3 + 사용자 답변",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T13:35",
+ "data_at": "2026-10-24T13:44",
  "active_projects": [
   "ai-academy"
  ]
