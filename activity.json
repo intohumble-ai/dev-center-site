@@ -550,11 +550,11 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-24T10:14",
+     "ts": "2026-10-24T10:30",
      "tool": "claude",
      "title": "개인 생활 관련 작업"
     },
@@ -1817,7 +1817,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T10:14",
+   "ts": "2026-10-24T10:30",
    "tool": "claude",
    "title": "개인 생활 관련 작업",
    "project": "dev-center"
@@ -2057,6 +2057,8 @@
    "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-24T10:14",
- "active_projects": []
+ "data_at": "2026-10-24T10:30",
+ "active_projects": [
+  "dev-center"
+ ]
 }
