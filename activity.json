@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 7,
+   "commits": 8,
    "timeline": [
     {
-     "ts": "2026-10-24T16:46",
+     "ts": "2026-10-24T16:55",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T16:53",
+     "tool": "git",
+     "title": "S4 후속 업무·다음 수업 준비·일정 브리핑"
     },
     {
      "ts": "2026-10-24T15:53",
@@ -1868,9 +1873,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T16:46",
+   "ts": "2026-10-24T16:55",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T16:53",
+   "tool": "git",
+   "title": "S4 후속 업무·다음 수업 준비·일정 브리핑",
    "project": "ai-academy"
   },
   {
@@ -2100,15 +2111,9 @@
    "tool": "git",
    "title": "master 병합(HISTORY H1·H2 + 문서): 의용군 격문과 원군 격문 함께, main7 시대어 문구에 황건 진채 위치, PROGRES",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:16",
-   "tool": "git",
-   "title": "W5-PLAY: 격문 빈도(원군 격문·접경 충돌·임관 뒤 첫 격문 보장·징 소리) + 측정 테스트, 증거 스크립트 타이밍 손질, PROGRESS",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T16:46",
+ "data_at": "2026-10-24T16:55",
  "active_projects": [
   "ai-academy"
  ]
