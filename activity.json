@@ -81,7 +81,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-10-24T16:20",
+     "ts": "2026-10-24T16:37",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -672,7 +672,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1868,7 +1868,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T16:20",
+   "ts": "2026-10-24T16:37",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2108,9 +2108,8 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T16:20",
+ "data_at": "2026-10-24T16:37",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
