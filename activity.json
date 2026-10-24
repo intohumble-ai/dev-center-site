@@ -78,12 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 17,
+   "commits": 19,
    "timeline": [
     {
-     "ts": "2026-10-25T04:05",
+     "ts": "2026-10-25T04:19",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T04:17",
+     "tool": "git",
+     "title": "docs: S10 감사 P2 위치 정리(A5 뒤로)"
+    },
+    {
+     "ts": "2026-10-25T04:17",
+     "tool": "git",
+     "title": "feat(S10): 원장 스타일 학습 — 수정 기록에서 표현 규칙 후보, 승인 후 승격"
     },
     {
      "ts": "2026-10-25T01:38",
@@ -129,16 +139,6 @@
      "ts": "2026-10-24T20:59",
      "tool": "git",
      "title": "데모 기간 비밀번호 최소 길이 완화(원장 결정): DEMO_MODE 에서만 AUTH_MIN_PASSWORD_LENGTH 4~12"
-    },
-    {
-     "ts": "2026-10-24T20:19",
-     "tool": "git",
-     "title": "S7-1 로그인·보안 기본: 원장 계정·세션·시도 제한·CSRF·127.0.0.1 바인딩·열람 감사"
-    },
-    {
-     "ts": "2026-10-24T18:31",
-     "tool": "git",
-     "title": "S6 통합·측정: E2E 핵심 동선, 인수 판정서, 실패 사례, 측정 양식, 실데이터 게이트, README 최종"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1888,9 +1888,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T04:05",
+   "ts": "2026-10-25T04:19",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T04:17",
+   "tool": "git",
+   "title": "docs: S10 감사 P2 위치 정리(A5 뒤로)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T04:17",
+   "tool": "git",
+   "title": "feat(S10): 원장 스타일 학습 — 수정 기록에서 표현 규칙 후보, 승인 후 승격",
    "project": "ai-academy"
   },
   {
@@ -2114,22 +2126,11 @@
    "tool": "git",
    "title": "P2 엔진 교체: 샌드박스 엔진(상자 A 구현→fetch 회수→.claude 복원→관문→상자 B 테스트→콜드감사→단일 배포 관문→배포) + 실돈",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-10T19:02",
-   "tool": "git",
-   "title": "evidence(font): 리사이즈 해상도 실측(1280→2560→640→1280)·FontFace 로드 상태·결과 합치기",
-   "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:02",
-   "tool": "git",
-   "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T04:05",
+ "data_at": "2026-10-25T04:19",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
