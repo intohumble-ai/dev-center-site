@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 15,
+   "commits": 16,
    "timeline": [
     {
-     "ts": "2026-10-24T23:24",
+     "ts": "2026-10-24T23:27",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T23:26",
+     "tool": "git",
+     "title": "docs: 타이머 수리 감사 P2 4건 기술부채 기록"
     },
     {
      "ts": "2026-10-24T23:24",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T17:46",
      "tool": "git",
      "title": "S5 상황실·운영실 완성: 부록 B 숫자, 부서 상세, 실행 목록, 실패 UX, 이벤트 범위, 저녁 테마"
-    },
-    {
-     "ts": "2026-10-24T16:53",
-     "tool": "git",
-     "title": "S4 후속 업무·다음 수업 준비·일정 브리핑"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T23:24",
+   "ts": "2026-10-24T23:27",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T23:26",
+   "tool": "git",
+   "title": "docs: 타이머 수리 감사 P2 4건 기술부채 기록",
    "project": "ai-academy"
   },
   {
@@ -2120,17 +2126,10 @@
    "tool": "git",
    "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T17:06",
-   "tool": "git",
-   "title": "W5-PLAY 감사 4차 수리: 접경 충돌·원군이 세력 격문을 밀어내던 것(P1), 자동 이동 아무 키 해제·귀환 해제·중독 오판(P2), 접경",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T23:24",
+ "data_at": "2026-10-24T23:27",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
