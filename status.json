@@ -1,6 +1,11 @@
 {
- "data_at": "2026-10-24T10:30",
+ "data_at": "2026-10-24T11:42",
  "projects": {
+  "ai-academy": {
+   "id": "ai-academy",
+   "last_commit": "2026-10-24",
+   "light": "gray"
+  },
   "ai-securities": {
    "id": "ai-securities",
    "service": "active",

@@ -71,6 +71,27 @@
     }
    ]
   },
+  "ai-academy": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-24",
+   "active_now": true,
+   "commits": 1,
+   "timeline": [
+    {
+     "ts": "2026-10-24T11:42",
+     "tool": "claude",
+     "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T11:35",
+     "tool": "git",
+     "title": "원본 시작 패키지 (AI_Academy_Claude_Code_Starter.zip, 2026-10-24 수신)"
+    }
+   ]
+  },
   "life-os": {
    "sessions": 1,
    "sessions_claude": 1,
@@ -545,19 +566,14 @@
    ]
   },
   "dev-center": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 1,
+   "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 5,
-   "last_day": "2026-10-24",
+   "last_day": "2026-10-13",
    "active_now": false,
    "commits": 15,
    "timeline": [
-    {
-     "ts": "2026-10-24T10:30",
-     "tool": "claude",
-     "title": "개인 생활 관련 작업"
-    },
     {
      "ts": "2026-10-13T01:55",
      "tool": "claude",
@@ -612,18 +628,28 @@
      "ts": "2026-10-10T10:32",
      "tool": "git",
      "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)"
+    },
+    {
+     "ts": "2026-10-10T10:31",
+     "tool": "git",
+     "title": "3차 감사 반영: 과마스킹(통화 화이트리스트·시간단위·수량) 수정, 전화 변형, 쉼표 금액, 비git 초안 publish:false(Codex "
     }
    ]
   },
   "toss-marketing-center": {
-   "sessions": 1,
-   "sessions_claude": 1,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-13",
-   "active_now": false,
+   "last_day": "2026-10-24",
+   "active_now": true,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-10-24T11:42",
+     "tool": "claude",
+     "title": "개인 생활 관련 작업"
+    },
     {
      "ts": "2026-10-13T01:55",
      "tool": "claude",
@@ -678,11 +704,6 @@
      "ts": "2026-10-10T03:44",
      "tool": "git",
      "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
-    },
-    {
-     "ts": "2026-09-14T17:41",
-     "tool": "git",
-     "title": "inbound_autopilot: use heartbeat-aware release_guard.tick_gate (skip on FRESH/HE"
     }
    ]
   },
@@ -1817,10 +1838,22 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T10:30",
+   "ts": "2026-10-24T11:42",
    "tool": "claude",
    "title": "개인 생활 관련 작업",
-   "project": "dev-center"
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-24T11:42",
+   "tool": "claude",
+   "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T11:35",
+   "tool": "git",
+   "title": "원본 시작 패키지 (AI_Academy_Claude_Code_Starter.zip, 2026-10-24 수신)",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-10-13T01:55",
@@ -2043,20 +2076,11 @@
    "tool": "git",
    "title": "HISTORY 3차 재감사 PASS 기록 + 동작대 문턱 단언 보강(테스트만)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T15:22",
-   "tool": "git",
-   "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-10T15:08",
-   "tool": "git",
-   "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w",
-   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-24T10:30",
- "active_projects": []
+ "data_at": "2026-10-24T11:42",
+ "active_projects": [
+  "ai-academy",
+  "toss-marketing-center"
+ ]
 }
