@@ -72,8 +72,8 @@
    ]
   },
   "life-os": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 1,
+   "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-09-28",
@@ -84,11 +84,6 @@
      "ts": "2026-09-28T14:26",
      "tool": "claude",
      "title": "원격 pc 저장소 문제"
-    },
-    {
-     "ts": "2026-09-21T11:13",
-     "tool": "claude",
-     "title": "AI Life RPG 제품 설계 지침 Wave I"
     },
     {
      "ts": "2026-09-21T11:13",
@@ -139,6 +134,11 @@
      "ts": "2026-09-21T01:50",
      "tool": "git",
      "title": "fix(today): a chosen rest day is not answered with the recovery invitation (WAVE"
+    },
+    {
+     "ts": "2026-09-21T01:43",
+     "tool": "git",
+     "title": "docs(wave-j): Team A report"
     }
    ]
   },
@@ -189,8 +189,8 @@
    ]
   },
   "pentagon-bot": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-05",
@@ -256,77 +256,6 @@
      "ts": "2026-09-24T14:43",
      "tool": "git",
      "title": "fix(order,isolation): SPRINT0 A2 접수 오류 5분류 + §2 운영파일 '접근 0'(읽기 포함)"
-    }
-   ]
-  },
-  "toss-marketing-center": {
-   "sessions": 2,
-   "sessions_claude": 2,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-13",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
-    },
-    {
-     "ts": "2026-10-10T15:22",
-     "tool": "git",
-     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
-    },
-    {
-     "ts": "2026-10-10T15:08",
-     "tool": "git",
-     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
-    },
-    {
-     "ts": "2026-10-10T14:30",
-     "tool": "git",
-     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
-    },
-    {
-     "ts": "2026-10-10T14:15",
-     "tool": "git",
-     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
-    },
-    {
-     "ts": "2026-10-10T12:23",
-     "tool": "git",
-     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
-    },
-    {
-     "ts": "2026-10-10T12:09",
-     "tool": "git",
-     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
-    },
-    {
-     "ts": "2026-10-10T11:41",
-     "tool": "git",
-     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
-    },
-    {
-     "ts": "2026-10-10T11:20",
-     "tool": "git",
-     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
-    },
-    {
-     "ts": "2026-10-10T11:02",
-     "tool": "git",
-     "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)"
-    },
-    {
-     "ts": "2026-10-10T03:44",
-     "tool": "git",
-     "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
-    },
-    {
-     "ts": "2026-09-14T17:41",
-     "tool": "git",
-     "title": "inbound_autopilot: use heartbeat-aware release_guard.tick_gate (skip on FRESH/HE"
     }
    ]
   },
@@ -402,8 +331,8 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 9,
-   "sessions_claude": 9,
+   "sessions": 8,
+   "sessions_claude": 8,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-09",
@@ -545,8 +474,8 @@
    ]
   },
   "palantir-center": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-02",
@@ -621,7 +550,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -683,6 +612,77 @@
      "ts": "2026-10-10T10:32",
      "tool": "git",
      "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)"
+    }
+   ]
+  },
+  "toss-marketing-center": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-13",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-13T01:55",
+     "tool": "claude",
+     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T15:22",
+     "tool": "git",
+     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
+    },
+    {
+     "ts": "2026-10-10T15:08",
+     "tool": "git",
+     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
+    },
+    {
+     "ts": "2026-10-10T14:30",
+     "tool": "git",
+     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
+    },
+    {
+     "ts": "2026-10-10T14:15",
+     "tool": "git",
+     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
+    },
+    {
+     "ts": "2026-10-10T12:23",
+     "tool": "git",
+     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
+    },
+    {
+     "ts": "2026-10-10T12:09",
+     "tool": "git",
+     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
+    },
+    {
+     "ts": "2026-10-10T11:41",
+     "tool": "git",
+     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
+    },
+    {
+     "ts": "2026-10-10T11:20",
+     "tool": "git",
+     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
+    },
+    {
+     "ts": "2026-10-10T11:02",
+     "tool": "git",
+     "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)"
+    },
+    {
+     "ts": "2026-10-10T03:44",
+     "tool": "git",
+     "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
+    },
+    {
+     "ts": "2026-09-14T17:41",
+     "tool": "git",
+     "title": "inbound_autopilot: use heartbeat-aware release_guard.tick_gate (skip on FRESH/HE"
     }
    ]
   },
@@ -2058,7 +2058,5 @@
   }
  ],
  "data_at": "2026-10-24T10:14",
- "active_projects": [
-  "dev-center"
- ]
+ "active_projects": []
 }
