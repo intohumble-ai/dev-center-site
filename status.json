@@ -1,11 +1,11 @@
 {
- "data_at": "2026-10-24T10:11",
+ "data_at": "2026-10-24T10:14",
  "projects": {
   "ai-securities": {
    "id": "ai-securities",
-   "service": "inactive",
+   "service": "active",
    "last_commit": "2026-10-10",
-   "light": "gray",
+   "light": "green",
    "db_tables": 143
   },
   "allweather-bot": {
@@ -40,17 +40,17 @@
   },
   "cgv-bot": {
    "id": "cgv-bot",
-   "service": "inactive",
+   "service": "active",
    "log_error": null,
    "last_commit": "2026-10-05",
-   "light": "gray",
+   "light": "green",
    "db_tables": 0,
    "log_age": null
   },
   "claude-auto-resume": {
    "id": "claude-auto-resume",
-   "service": "inactive",
-   "light": "gray"
+   "service": "active",
+   "light": "green"
   },
   "claude-env-tuning": {
    "id": "claude-env-tuning",
@@ -69,8 +69,8 @@
   },
   "codex-remote": {
    "id": "codex-remote",
-   "service": "inactive",
-   "light": "gray"
+   "service": "active",
+   "light": "green"
   },
   "coinbot-adaptive": {
    "id": "coinbot-adaptive",
@@ -131,9 +131,9 @@
   },
   "dev-center": {
    "id": "dev-center",
-   "service": "inactive",
+   "service": "active",
    "last_commit": "2026-10-10",
-   "light": "gray"
+   "light": "green"
   },
   "family-bot": {
    "id": "family-bot",
@@ -180,9 +180,9 @@
   },
   "joongna-seller": {
    "id": "joongna-seller",
-   "service": "inactive",
+   "service": "active",
    "last_commit": null,
-   "light": "gray"
+   "light": "green"
   },
   "kr_asset_manager": {
    "id": "kr_asset_manager",
