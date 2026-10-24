@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-25T02:42",
+ "data_at": "2026-10-25T03:02",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -234,7 +234,7 @@
    "last_commit": "2026-09-24",
    "light": "green",
    "db_tables": 16,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "picks-dca-bot": {
    "id": "picks-dca-bot",
