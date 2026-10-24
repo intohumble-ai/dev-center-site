@@ -81,7 +81,7 @@
    "commits": 9,
    "timeline": [
     {
-     "ts": "2026-10-24T17:50",
+     "ts": "2026-10-24T18:05",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -1878,7 +1878,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T17:50",
+   "ts": "2026-10-24T18:05",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2118,7 +2118,7 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T17:50",
+ "data_at": "2026-10-24T18:05",
  "active_projects": [
   "ai-academy"
  ]
