@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 9,
+   "commits": 10,
    "timeline": [
     {
-     "ts": "2026-10-24T18:21",
+     "ts": "2026-10-24T18:32",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T18:31",
+     "tool": "git",
+     "title": "S6 통합·측정: E2E 핵심 동선, 인수 판정서, 실패 사례, 측정 양식, 실데이터 게이트, README 최종"
     },
     {
      "ts": "2026-10-24T17:46",
@@ -682,7 +687,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1878,9 +1883,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T18:21",
+   "ts": "2026-10-24T18:32",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T18:31",
+   "tool": "git",
+   "title": "S6 통합·측정: E2E 핵심 동선, 인수 판정서, 실패 사례, 측정 양식, 실데이터 게이트, README 최종",
    "project": "ai-academy"
   },
   {
@@ -2110,17 +2121,10 @@
    "tool": "git",
    "title": "QOL 감사 수리: 사기·팔기 개수 검사(음수·NaN), 희귀 이상·레벨만 모자란 장비 자동 선택 제외, 잠금 묶음 분리, 확인 창 Enter ",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:27",
-   "tool": "git",
-   "title": "문서: PROGRESS W5-PLAY 13절(HISTORY 병합 뒤 재측정)",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T18:21",
+ "data_at": "2026-10-24T18:32",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
