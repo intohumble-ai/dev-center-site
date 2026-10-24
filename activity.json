@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 1,
+   "commits": 2,
    "timeline": [
     {
-     "ts": "2026-10-24T12:46",
+     "ts": "2026-10-24T12:51",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T12:50",
+     "tool": "git",
+     "title": "설계 확정: ITTIVE 이름·설계안 v1(docs/11)·v4 디자인 원본·결정 기록"
     },
     {
      "ts": "2026-10-24T11:35",
@@ -1838,9 +1843,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T12:46",
+   "ts": "2026-10-24T12:51",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T12:50",
+   "tool": "git",
+   "title": "설계 확정: ITTIVE 이름·설계안 v1(docs/11)·v4 디자인 원본·결정 기록",
    "project": "ai-academy"
   },
   {
@@ -2070,15 +2081,9 @@
    "tool": "git",
    "title": "문서: 아트 개편 계획(ARTDIR_PLAN)·코에이식 능력치 계획(STATS_PLAN)·비교 시안 v3 + 사용자 답변",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T15:23",
-   "tool": "git",
-   "title": "HISTORY 3차 재감사 PASS 기록 + 동작대 문턱 단언 보강(테스트만)",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T12:46",
+ "data_at": "2026-10-24T12:51",
  "active_projects": [
   "ai-academy"
  ]
