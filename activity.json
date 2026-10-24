@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-24",
    "active_now": true,
-   "commits": 8,
+   "commits": 9,
    "timeline": [
     {
-     "ts": "2026-10-24T17:39",
+     "ts": "2026-10-24T17:50",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T17:46",
+     "tool": "git",
+     "title": "S5 상황실·운영실 완성: 부록 B 숫자, 부서 상세, 실행 목록, 실패 UX, 이벤트 범위, 저녁 테마"
     },
     {
      "ts": "2026-10-24T16:53",
@@ -1873,9 +1878,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T17:39",
+   "ts": "2026-10-24T17:50",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T17:46",
+   "tool": "git",
+   "title": "S5 상황실·운영실 완성: 부록 B 숫자, 부서 상세, 실행 목록, 실패 UX, 이벤트 범위, 저녁 테마",
    "project": "ai-academy"
   },
   {
@@ -2105,15 +2116,9 @@
    "tool": "git",
    "title": "문서: PROGRESS W5-PLAY 13절(HISTORY 병합 뒤 재측정)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T16:18",
-   "tool": "git",
-   "title": "master 병합(HISTORY H1·H2 + 문서): 의용군 격문과 원군 격문 함께, main7 시대어 문구에 황건 진채 위치, PROGRES",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T17:39",
+ "data_at": "2026-10-24T17:50",
  "active_projects": [
   "ai-academy"
  ]
