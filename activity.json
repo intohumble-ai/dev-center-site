@@ -81,7 +81,7 @@
    "commits": 6,
    "timeline": [
     {
-     "ts": "2026-10-24T15:11",
+     "ts": "2026-10-24T15:16",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -1863,7 +1863,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T15:11",
+   "ts": "2026-10-24T15:16",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2103,7 +2103,7 @@
    "project": "samgukji-game"
   }
  ],
- "data_at": "2026-10-24T15:11",
+ "data_at": "2026-10-24T15:16",
  "active_projects": [
   "ai-academy",
   "toss-marketing-center"
