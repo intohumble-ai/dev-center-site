@@ -81,7 +81,7 @@
    "commits": 1,
    "timeline": [
     {
-     "ts": "2026-10-24T11:52",
+     "ts": "2026-10-24T12:02",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -646,7 +646,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-24T11:53",
+     "ts": "2026-10-24T11:57",
      "tool": "claude",
      "title": "개인 생활 관련 작업"
     },
@@ -1838,16 +1838,16 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T11:53",
-   "tool": "claude",
-   "title": "개인 생활 관련 작업",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-24T11:52",
+   "ts": "2026-10-24T12:02",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T11:57",
+   "tool": "claude",
+   "title": "개인 생활 관련 작업",
+   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-10-24T11:35",
@@ -2078,7 +2078,7 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T11:53",
+ "data_at": "2026-10-24T12:02",
  "active_projects": [
   "ai-academy",
   "toss-marketing-center"
