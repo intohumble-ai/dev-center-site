@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 16,
+   "commits": 17,
    "timeline": [
     {
-     "ts": "2026-10-25T01:31",
+     "ts": "2026-10-25T01:40",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T01:38",
+     "tool": "git",
+     "title": "feat(S9): LLM 문장 다듬기 — 이 PC claude -p(haiku), 허용 목록 끝맺음 선택"
     },
     {
      "ts": "2026-10-24T23:26",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T18:31",
      "tool": "git",
      "title": "S6 통합·측정: E2E 핵심 동선, 인수 판정서, 실패 사례, 측정 양식, 실데이터 게이트, README 최종"
-    },
-    {
-     "ts": "2026-10-24T17:46",
-     "tool": "git",
-     "title": "S5 상황실·운영실 완성: 부록 B 숫자, 부서 상세, 실행 목록, 실패 UX, 이벤트 범위, 저녁 테마"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T01:31",
+   "ts": "2026-10-25T01:40",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T01:38",
+   "tool": "git",
+   "title": "feat(S9): LLM 문장 다듬기 — 이 PC claude -p(haiku), 허용 목록 끝맺음 선택",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:01",
-   "tool": "git",
-   "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T01:31",
+ "data_at": "2026-10-25T01:40",
  "active_projects": [
   "ai-academy"
  ]
