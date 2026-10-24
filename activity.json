@@ -81,9 +81,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-24T23:14",
+     "ts": "2026-10-24T23:24",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-24T23:24",
+     "tool": "git",
+     "title": "fix(timer): 커스텀 실행기에서 일정 스캔 타이머 미기동 회귀 수리"
     },
     {
      "ts": "2026-10-24T22:59",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T16:53",
      "tool": "git",
      "title": "S4 후속 업무·다음 수업 준비·일정 브리핑"
-    },
-    {
-     "ts": "2026-10-24T15:53",
-     "tool": "git",
-     "title": "S3 승인함: 수정·승인·반려·모의발송, 버전 고정, 근거 칩, 원장 편집 경고"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-24T23:14",
+   "ts": "2026-10-24T23:24",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-24T23:24",
+   "tool": "git",
+   "title": "fix(timer): 커스텀 실행기에서 일정 스캔 타이머 미기동 회귀 수리",
    "project": "ai-academy"
   },
   {
@@ -1975,12 +1981,6 @@
    "ts": "2026-10-24T14:07",
    "tool": "git",
    "title": "S1 학생·수업 기록 저장: 목록·상세·점검표, 버전 기록, 학생 혼입 차단",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T13:39",
-   "tool": "git",
-   "title": "S0 뼈대: Next.js+Prisma+SQLite, 합성 시드, DEMO 강제, v4 사무실 화면 이식",
    "project": "ai-academy"
   },
   {
@@ -2128,7 +2128,7 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-24T23:14",
+ "data_at": "2026-10-24T23:24",
  "active_projects": [
   "ai-academy",
   "toss-marketing-center"
