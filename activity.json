@@ -81,7 +81,7 @@
    "commits": 19,
    "timeline": [
     {
-     "ts": "2026-10-25T11:08",
+     "ts": "2026-10-25T11:17",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1888,7 +1888,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T11:08",
+   "ts": "2026-10-25T11:17",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2128,8 +2128,9 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-10-25T11:08",
+ "data_at": "2026-10-25T11:17",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
