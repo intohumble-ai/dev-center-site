@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 25,
+   "commits": 26,
    "timeline": [
     {
-     "ts": "2026-10-25T15:49",
+     "ts": "2026-10-25T16:01",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T15:56",
+     "tool": "git",
+     "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차"
     },
     {
      "ts": "2026-10-25T15:44",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T23:26",
      "tool": "git",
      "title": "docs: 타이머 수리 감사 P2 4건 기술부채 기록"
-    },
-    {
-     "ts": "2026-10-24T23:24",
-     "tool": "git",
-     "title": "fix(timer): 커스텀 실행기에서 일정 스캔 타이머 미기동 회귀 수리"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T15:49",
+   "ts": "2026-10-25T16:01",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T15:56",
+   "tool": "git",
+   "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "QOL 5차 감사 수리: 대화 메뉴 기억에서 대장간·약방 제외(창이 열리면 Enter = 강화·제작)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:25",
-   "tool": "git",
-   "title": "QOL 4차 감사 수리: 대화 메뉴 기억은 창만 여는 줄(상점·대장간·보관함)·처음 말 걸 때만 — Enter 연타로 쉬기 요금 반복 차감 막음",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T15:49",
+ "data_at": "2026-10-25T16:01",
  "active_projects": [
   "ai-academy"
  ]
