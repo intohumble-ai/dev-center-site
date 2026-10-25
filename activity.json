@@ -81,7 +81,7 @@
    "commits": 22,
    "timeline": [
     {
-     "ts": "2026-10-25T12:28",
+     "ts": "2026-10-25T12:42",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -1888,7 +1888,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T12:28",
+   "ts": "2026-10-25T12:42",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2128,7 +2128,7 @@
    "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-25T12:28",
+ "data_at": "2026-10-25T12:42",
  "active_projects": [
   "ai-academy"
  ]
