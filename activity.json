@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 19,
+   "commits": 20,
    "timeline": [
     {
-     "ts": "2026-10-25T11:26",
+     "ts": "2026-10-25T11:40",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T11:32",
+     "tool": "git",
+     "title": "feat(S11): 실사용 전환 — 실데이터 모드·관리 화면·점검표 확장·삭제 일반화"
     },
     {
      "ts": "2026-10-25T04:17",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T21:00",
      "tool": "git",
      "title": "WIP S7-2 데이터 관리(감사 전)"
-    },
-    {
-     "ts": "2026-10-24T20:59",
-     "tool": "git",
-     "title": "데모 기간 비밀번호 최소 길이 완화(원장 결정): DEMO_MODE 에서만 AUTH_MIN_PASSWORD_LENGTH 4~12"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T11:26",
+   "ts": "2026-10-25T11:40",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T11:32",
+   "tool": "git",
+   "title": "feat(S11): 실사용 전환 — 실데이터 모드·관리 화면·점검표 확장·삭제 일반화",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T19:04",
-   "tool": "git",
-   "title": "P2 엔진 교체: 샌드박스 엔진(상자 A 구현→fetch 회수→.claude 복원→관문→상자 B 테스트→콜드감사→단일 배포 관문→배포) + 실돈",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-25T11:26",
+ "data_at": "2026-10-25T11:40",
  "active_projects": [
   "ai-academy"
  ]
