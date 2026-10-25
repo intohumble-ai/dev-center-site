@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 24,
+   "commits": 25,
    "timeline": [
     {
-     "ts": "2026-10-25T15:08",
+     "ts": "2026-10-25T15:49",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T15:44",
+     "tool": "git",
+     "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리"
     },
     {
      "ts": "2026-10-25T14:15",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T23:24",
      "tool": "git",
      "title": "fix(timer): 커스텀 실행기에서 일정 스캔 타이머 미기동 회귀 수리"
-    },
-    {
-     "ts": "2026-10-24T22:59",
-     "tool": "git",
-     "title": "S8 AI 부서 확대: 수연(자료 준비 제안)·소식(시험 직전보강 제안) L0 실동작, 학교 일정·제안 처리"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T15:08",
+   "ts": "2026-10-25T15:49",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T15:44",
+   "tool": "git",
+   "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "QOL 4차 감사 수리: 대화 메뉴 기억은 창만 여는 줄(상점·대장간·보관함)·처음 말 걸 때만 — Enter 연타로 쉬기 요금 반복 차감 막음",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:23",
-   "tool": "git",
-   "title": "master 병합(글꼴 프리텐다드)",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T15:08",
+ "data_at": "2026-10-25T15:49",
  "active_projects": [
   "ai-academy"
  ]
