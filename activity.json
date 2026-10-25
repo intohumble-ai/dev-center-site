@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 20,
+   "commits": 21,
    "timeline": [
     {
-     "ts": "2026-10-25T12:01",
+     "ts": "2026-10-25T12:08",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T12:02",
+     "tool": "git",
+     "title": "fix(S11): 콜드 감사 지적 수리 — 보호자명 잔여·호칭 확대·표시 전용 칸·삭제 시간초과·동시 수정"
     },
     {
      "ts": "2026-10-25T11:32",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T21:00",
      "tool": "git",
      "title": "master(비밀번호 완화) 합치기 — 문서 충돌은 양쪽 내용 모두 유지"
-    },
-    {
-     "ts": "2026-10-24T21:00",
-     "tool": "git",
-     "title": "WIP S7-2 데이터 관리(감사 전)"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T12:01",
+   "ts": "2026-10-25T12:08",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T12:02",
+   "tool": "git",
+   "title": "fix(S11): 콜드 감사 지적 수리 — 보호자명 잔여·호칭 확대·표시 전용 칸·삭제 시간초과·동시 수정",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:11",
-   "tool": "git",
-   "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-25T12:01",
+ "data_at": "2026-10-25T12:08",
  "active_projects": [
   "ai-academy"
  ]
