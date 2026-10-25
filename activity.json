@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 23,
+   "commits": 24,
    "timeline": [
     {
-     "ts": "2026-10-25T14:02",
+     "ts": "2026-10-25T14:17",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T14:15",
+     "tool": "git",
+     "title": "feat(S12-1): 인증 사진 — 올리기·직접 입력·검토·확정·점검표 반영·삭제/열람/보존/백업"
     },
     {
      "ts": "2026-10-25T12:46",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T22:59",
      "tool": "git",
      "title": "S8 AI 부서 확대: 수연(자료 준비 제안)·소식(시험 직전보강 제안) L0 실동작, 학교 일정·제안 처리"
-    },
-    {
-     "ts": "2026-10-24T21:38",
-     "tool": "git",
-     "title": "S7-2 데이터 관리: 암호화 백업·복구 훈련·정보주체 열람/삭제·목록 열람 감사"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T14:02",
+   "ts": "2026-10-25T14:17",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T14:15",
+   "tool": "git",
+   "title": "feat(S12-1): 인증 사진 — 올리기·직접 입력·검토·확정·점검표 반영·삭제/열람/보존/백업",
    "project": "ai-academy"
   },
   {
@@ -2120,16 +2126,11 @@
    "tool": "git",
    "title": "master 병합(글꼴 프리텐다드)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:21",
-   "tool": "git",
-   "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T14:02",
+ "data_at": "2026-10-25T14:17",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
