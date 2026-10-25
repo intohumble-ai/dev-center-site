@@ -260,8 +260,8 @@
    ]
   },
   "pentagon-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 1,
+   "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-05",
@@ -272,11 +272,6 @@
      "ts": "2026-10-05T12:48",
      "tool": "claude",
      "title": "A4f pc 봇 오류 원인 분석"
-    },
-    {
-     "ts": "2026-09-24T22:06",
-     "tool": "claude",
-     "title": "Wave 11 brief MASTER_PROMPT 및 ACCEPTANCE_TESTS 재검증"
     },
     {
      "ts": "2026-09-24T16:11",
@@ -327,6 +322,11 @@
      "ts": "2026-09-24T14:43",
      "tool": "git",
      "title": "fix(order,isolation): SPRINT0 A2 접수 오류 5분류 + §2 운영파일 '접근 0'(읽기 포함)"
+    },
+    {
+     "ts": "2026-09-24T14:36",
+     "tool": "git",
+     "title": "fix(tp1): SPRINT0 A1 — tp1 고정 목표 대비 누적 체결, 확정 기록 원자화, 기동복구 사유 보존"
     }
    ]
   },
@@ -545,8 +545,8 @@
    ]
   },
   "palantir-center": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-02",
