@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 27,
+   "commits": 28,
    "timeline": [
     {
-     "ts": "2026-10-25T16:55",
+     "ts": "2026-10-25T17:03",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T16:56",
+     "tool": "git",
+     "title": "fix(S12-2): 감사 P2 — 가림 뒤 글자 상한 맞춤, 경고 문구 자기 차단 제거, 시간 상한 480초"
     },
     {
      "ts": "2026-10-25T16:44",
@@ -134,11 +139,6 @@
      "ts": "2026-10-25T04:17",
      "tool": "git",
      "title": "feat(S10): 원장 스타일 학습 — 수정 기록에서 표현 규칙 후보, 승인 후 승격"
-    },
-    {
-     "ts": "2026-10-25T01:38",
-     "tool": "git",
-     "title": "feat(S9): LLM 문장 다듬기 — 이 PC claude -p(haiku), 허용 목록 끝맺음 선택"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T16:55",
+   "ts": "2026-10-25T17:03",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T16:56",
+   "tool": "git",
+   "title": "fix(S12-2): 감사 P2 — 가림 뒤 글자 상한 맞춤, 경고 문구 자기 차단 제거, 시간 상한 480초",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "QOL: 7차 감사 PASS 기록",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:33",
-   "tool": "git",
-   "title": "QOL 6차 감사 수리: 퀘스트 줄([진행 중] 등)이 하나라도 있으면 대화 커서 기억 안 함",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T16:55",
+ "data_at": "2026-10-25T17:03",
  "active_projects": [
   "ai-academy"
  ]
