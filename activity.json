@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 21,
+   "commits": 22,
    "timeline": [
     {
-     "ts": "2026-10-25T12:18",
+     "ts": "2026-10-25T12:28",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T12:24",
+     "tool": "git",
+     "title": "fix(S11): 재감사 지적 — 관계값 호칭 판정 좁힘·보호자명 잔여 검사·좀비 경쟁 테스트·README 한계"
     },
     {
      "ts": "2026-10-25T12:02",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T21:01",
      "tool": "git",
      "title": "real_data_gate: 합치기로 겹친 옛 '다음 할 일' 목록 제거"
-    },
-    {
-     "ts": "2026-10-24T21:00",
-     "tool": "git",
-     "title": "master(비밀번호 완화) 합치기 — 문서 충돌은 양쪽 내용 모두 유지"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T12:18",
+   "ts": "2026-10-25T12:28",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T12:24",
+   "tool": "git",
+   "title": "fix(S11): 재감사 지적 — 관계값 호칭 판정 좁힘·보호자명 잔여 검사·좀비 경쟁 테스트·README 한계",
    "project": "ai-academy"
   },
   {
@@ -2120,17 +2126,10 @@
    "tool": "git",
    "title": "개인 생활 관련 작업",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T19:17",
-   "tool": "git",
-   "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T12:18",
+ "data_at": "2026-10-25T12:28",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
