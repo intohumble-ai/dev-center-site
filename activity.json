@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 22,
+   "commits": 23,
    "timeline": [
     {
-     "ts": "2026-10-25T12:42",
+     "ts": "2026-10-25T12:48",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-25T12:46",
+     "tool": "git",
+     "title": "fix(S11): 3차 재감사 P2 — 이름+호칭 보호자명은 실명으로 검색, 주석·README 정정"
     },
     {
      "ts": "2026-10-25T12:24",
@@ -134,11 +139,6 @@
      "ts": "2026-10-24T21:38",
      "tool": "git",
      "title": "S7-2 데이터 관리: 암호화 백업·복구 훈련·정보주체 열람/삭제·목록 열람 감사"
-    },
-    {
-     "ts": "2026-10-24T21:01",
-     "tool": "git",
-     "title": "real_data_gate: 합치기로 겹친 옛 '다음 할 일' 목록 제거"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T12:42",
+   "ts": "2026-10-25T12:48",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T12:46",
+   "tool": "git",
+   "title": "fix(S11): 3차 재감사 P2 — 이름+호칭 보호자명은 실명으로 검색, 주석·README 정정",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:18",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-25T12:42",
+ "data_at": "2026-10-25T12:48",
  "active_projects": [
   "ai-academy"
  ]
