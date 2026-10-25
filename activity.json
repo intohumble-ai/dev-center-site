@@ -78,10 +78,15 @@
    "automated": 0,
    "last_day": "2026-10-25",
    "active_now": true,
-   "commits": 26,
+   "commits": 27,
    "timeline": [
     {
-     "ts": "2026-10-25T16:31",
+     "ts": "2026-10-25T16:44",
+     "tool": "git",
+     "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결"
+    },
+    {
+     "ts": "2026-10-25T16:43",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -134,11 +139,6 @@
      "ts": "2026-10-25T01:38",
      "tool": "git",
      "title": "feat(S9): LLM 문장 다듬기 — 이 PC claude -p(haiku), 허용 목록 끝맺음 선택"
-    },
-    {
-     "ts": "2026-10-24T23:26",
-     "tool": "git",
-     "title": "docs: 타이머 수리 감사 P2 4건 기술부채 기록"
     }
    ]
   },
@@ -1888,7 +1888,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T16:31",
+   "ts": "2026-10-25T16:44",
+   "tool": "git",
+   "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-25T16:43",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2120,15 +2126,9 @@
    "tool": "git",
    "title": "QOL 6차 감사 수리: 퀘스트 줄([진행 중] 등)이 하나라도 있으면 대화 커서 기억 안 함",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:29",
-   "tool": "git",
-   "title": "QOL 5차 감사 수리: 대화 메뉴 기억에서 대장간·약방 제외(창이 열리면 Enter = 강화·제작)",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T16:31",
+ "data_at": "2026-10-25T16:44",
  "active_projects": [
   "ai-academy"
  ]
