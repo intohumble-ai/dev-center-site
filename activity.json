@@ -81,14 +81,14 @@
    "commits": 27,
    "timeline": [
     {
+     "ts": "2026-10-25T16:55",
+     "tool": "claude",
+     "title": "Tailscale 압축파일 전송"
+    },
+    {
      "ts": "2026-10-25T16:44",
      "tool": "git",
      "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결"
-    },
-    {
-     "ts": "2026-10-25T16:43",
-     "tool": "claude",
-     "title": "Tailscale 압축파일 전송"
     },
     {
      "ts": "2026-10-25T15:56",
@@ -1888,15 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-25T16:44",
-   "tool": "git",
-   "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결",
+   "ts": "2026-10-25T16:55",
+   "tool": "claude",
+   "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-25T16:43",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
+   "ts": "2026-10-25T16:44",
+   "tool": "git",
+   "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결",
    "project": "ai-academy"
   },
   {
@@ -2128,7 +2128,7 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-25T16:44",
+ "data_at": "2026-10-25T16:55",
  "active_projects": [
   "ai-academy"
  ]
