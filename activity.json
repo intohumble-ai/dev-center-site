@@ -78,8 +78,18 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 35,
+   "commits": 36,
    "timeline": [
+    {
+     "ts": "2026-10-26T18:25",
+     "tool": "claude",
+     "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T18:19",
+     "tool": "git",
+     "title": "fix(S13-1): 콜드 감사 P1·P2·P3 — 채택 뒤 일정 변경 표시·변경 확인 제안, 계획 제안 흡수, 대상·회차·삭제 일정 방어"
+    },
     {
      "ts": "2026-10-26T18:08",
      "tool": "git",
@@ -89,11 +99,6 @@
      "ts": "2026-10-26T18:08",
      "tool": "git",
      "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크"
-    },
-    {
-     "ts": "2026-10-26T18:08",
-     "tool": "claude",
-     "title": "Tailscale 압축파일 전송"
     },
     {
      "ts": "2026-10-26T17:56",
@@ -134,11 +139,6 @@
      "ts": "2026-10-25T16:44",
      "tool": "git",
      "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결"
-    },
-    {
-     "ts": "2026-10-25T15:56",
-     "tool": "git",
-     "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차"
     }
    ]
   },
@@ -1888,6 +1888,18 @@
  },
  "feed": [
   {
+   "ts": "2026-10-26T18:25",
+   "tool": "claude",
+   "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T18:19",
+   "tool": "git",
+   "title": "fix(S13-1): 콜드 감사 P1·P2·P3 — 채택 뒤 일정 변경 표시·변경 확인 제안, 계획 제안 흡수, 대상·회차·삭제 일정 방어",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-10-26T18:08",
    "tool": "git",
    "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)",
@@ -1897,12 +1909,6 @@
    "ts": "2026-10-26T18:08",
    "tool": "git",
    "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T18:08",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-13T01:55",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-26T18:08",
+ "data_at": "2026-10-26T18:25",
  "active_projects": [
   "ai-academy",
   "toss-marketing-center"
