@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 34,
+   "commits": 35,
    "timeline": [
     {
-     "ts": "2026-10-26T17:43",
+     "ts": "2026-10-26T17:53",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T17:44",
+     "tool": "git",
+     "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제"
     },
     {
      "ts": "2026-10-26T17:43",
@@ -134,11 +139,6 @@
      "ts": "2026-10-25T15:44",
      "tool": "git",
      "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리"
-    },
-    {
-     "ts": "2026-10-25T14:15",
-     "tool": "git",
-     "title": "feat(S12-1): 인증 사진 — 올리기·직접 입력·검토·확정·점검표 반영·삭제/열람/보존/백업"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T17:43",
+   "ts": "2026-10-26T17:53",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T17:44",
+   "tool": "git",
+   "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-12T23:02",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T17:43",
+ "data_at": "2026-10-26T17:53",
  "active_projects": [
   "ai-academy"
  ]
