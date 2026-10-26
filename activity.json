@@ -78,8 +78,13 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": false,
-   "commits": 34,
+   "commits": 35,
    "timeline": [
+    {
+     "ts": "2026-10-26T22:35",
+     "tool": "git",
+     "title": "feat(S14-1): 조교·주말 인력 기반 — 인력·가능 시간·운영 설정·수요 스캔·공백표(읽기 전용)·직원 정보주체 경로"
+    },
     {
      "ts": "2026-10-26T21:51",
      "tool": "claude",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T18:45",
      "tool": "git",
      "title": "docs(evidence): S13-1 실서비스 반영 확인"
-    },
-    {
-     "ts": "2026-10-26T18:37",
-     "tool": "git",
-     "title": "fix(S13-1): 재감사 P2-1·P3-2 — 지운 '일정 변경됨' 표식 재부착 방지, 항목 version 판단을 조건부 갱신 하나로"
     }
    ]
   },
@@ -406,10 +406,15 @@
    "sessions_claude": 8,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-09",
-   "active_now": false,
+   "last_day": "2026-10-26",
+   "active_now": true,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-10-26T22:34",
+     "tool": "claude",
+     "title": "유○○ 강사 랜딩페이지 디자인 시안"
+    },
     {
      "ts": "2026-10-09T18:07",
      "tool": "claude",
@@ -464,28 +469,18 @@
      "ts": "2026-10-04T13:43",
      "tool": "git",
      "title": "fix(cgv): accessToken 만료 시 자동 갱신(프론트 방식) — 자동환불 전면 실패(10/3 오후~) 근본 수리"
-    },
-    {
-     "ts": "2026-10-04T01:41",
-     "tool": "git",
-     "title": "feat: 교체 24시간 컷·봇 하루상한 제외 + 배부완료 제외 전 표 완전관리(독립 자동환불·데드맨)"
     }
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-26",
-   "active_now": true,
+   "last_day": "2026-09-29",
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-10-26T22:26",
-     "tool": "claude",
-     "title": "유○○ 강사 랜딩페이지 디자인 시안"
-    },
     {
      "ts": "2026-09-29T18:49",
      "tool": "claude",
@@ -1893,10 +1888,16 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T22:26",
+   "ts": "2026-10-26T22:35",
+   "tool": "git",
+   "title": "feat(S14-1): 조교·주말 인력 기반 — 인력·가능 시간·운영 설정·수요 스캔·공백표(읽기 전용)·직원 정보주체 경로",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T22:34",
    "tool": "claude",
    "title": "유○○ 강사 랜딩페이지 디자인 시안",
-   "project": "upbit-auto-bot"
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-10-26T21:52",
@@ -2125,16 +2126,10 @@
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-13T01:55",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-26T22:26",
+ "data_at": "2026-10-26T22:35",
  "active_projects": [
-  "upbit-auto-bot"
+  "cgv-bot"
  ]
 }
