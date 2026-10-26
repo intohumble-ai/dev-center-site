@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 36,
+   "commits": 33,
    "timeline": [
     {
-     "ts": "2026-10-26T19:44",
+     "ts": "2026-10-26T19:56",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T19:53",
+     "tool": "git",
+     "title": "docs(evidence): S13-2 실서비스 반영 확인"
     },
     {
      "ts": "2026-10-26T19:37",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T17:44",
      "tool": "git",
      "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제"
-    },
-    {
-     "ts": "2026-10-26T17:32",
-     "tool": "git",
-     "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T19:44",
+   "ts": "2026-10-26T19:56",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T19:53",
+   "tool": "git",
+   "title": "docs(evidence): S13-2 실서비스 반영 확인",
    "project": "ai-academy"
   },
   {
@@ -1975,30 +1981,6 @@
    "ts": "2026-10-26T17:10",
    "tool": "git",
    "title": "feat(auth): 한글 사용자명 허용 + 계정 이름 바꾸기 CLI(auth:rename)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T16:56",
-   "tool": "git",
-   "title": "fix(S12-2): 감사 P2 — 가림 뒤 글자 상한 맞춤, 경고 문구 자기 차단 제거, 시간 상한 480초",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T16:44",
-   "tool": "git",
-   "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T15:56",
-   "tool": "git",
-   "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T15:44",
-   "tool": "git",
-   "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리",
    "project": "ai-academy"
   },
   {
@@ -2126,9 +2108,27 @@
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-13T01:55",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-12T23:02",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
+  },
+  {
+   "ts": "2026-10-10T20:34",
+   "tool": "git",
+   "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·",
+   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-26T19:44",
+ "data_at": "2026-10-26T19:56",
  "active_projects": [
   "ai-academy"
  ]
