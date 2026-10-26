@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 35,
+   "commits": 36,
    "timeline": [
     {
-     "ts": "2026-10-26T17:53",
+     "ts": "2026-10-26T18:01",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T17:56",
+     "tool": "git",
+     "title": "docs(evidence): 원장 아이디 유○○ 실서비스 반영 확인"
     },
     {
      "ts": "2026-10-26T17:44",
@@ -134,11 +139,6 @@
      "ts": "2026-10-25T15:56",
      "tool": "git",
      "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차"
-    },
-    {
-     "ts": "2026-10-25T15:44",
-     "tool": "git",
-     "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T17:53",
+   "ts": "2026-10-26T18:01",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T17:56",
+   "tool": "git",
+   "title": "docs(evidence): 원장 아이디 유○○ 실서비스 반영 확인",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-13T01:55",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-26T17:53",
+ "data_at": "2026-10-26T18:01",
  "active_projects": [
   "ai-academy"
  ]
