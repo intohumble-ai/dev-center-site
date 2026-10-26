@@ -77,18 +77,18 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-26",
-   "active_now": false,
+   "active_now": true,
    "commits": 35,
    "timeline": [
+    {
+     "ts": "2026-10-26T22:42",
+     "tool": "claude",
+     "title": "Tailscale 압축파일 전송"
+    },
     {
      "ts": "2026-10-26T22:35",
      "tool": "git",
      "title": "feat(S14-1): 조교·주말 인력 기반 — 인력·가능 시간·운영 설정·수요 스캔·공백표(읽기 전용)·직원 정보주체 경로"
-    },
-    {
-     "ts": "2026-10-26T21:51",
-     "tool": "claude",
-     "title": "Tailscale 압축파일 전송"
     },
     {
      "ts": "2026-10-26T21:30",
@@ -1888,6 +1888,12 @@
  },
  "feed": [
   {
+   "ts": "2026-10-26T22:42",
+   "tool": "claude",
+   "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-10-26T22:35",
    "tool": "git",
    "title": "feat(S14-1): 조교·주말 인력 기반 — 인력·가능 시간·운영 설정·수요 스캔·공백표(읽기 전용)·직원 정보주체 경로",
@@ -1904,12 +1910,6 @@
    "tool": "claude",
    "title": "개인 생활 관련 작업",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-26T21:51",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-10-26T21:30",
@@ -2128,8 +2128,9 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-10-26T22:35",
+ "data_at": "2026-10-26T22:42",
  "active_projects": [
+  "ai-academy",
   "cgv-bot"
  ]
 }
