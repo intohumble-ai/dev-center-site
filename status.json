@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-26T23:03",
+ "data_at": "2026-10-26T23:12",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -20,7 +20,7 @@
    "last_commit": "2026-07-28",
    "light": "green",
    "db_tables": 14,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "billionaire-portfolio-bot": {
    "id": "billionaire-portfolio-bot",
@@ -147,7 +147,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "fleet-data": {
    "id": "fleet-data",
@@ -160,7 +160,7 @@
    "log_error": null,
    "last_commit": "2026-10-25",
    "light": "unknown",
-   "log_age": "1일 전"
+   "log_age": "2일 전"
   },
   "fusion-v9-coinbot": {
    "id": "fusion-v9-coinbot",
@@ -280,7 +280,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",
