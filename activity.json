@@ -81,7 +81,7 @@
    "commits": 34,
    "timeline": [
     {
-     "ts": "2026-10-26T21:45",
+     "ts": "2026-10-26T21:51",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -691,12 +691,12 @@
    "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-24",
-   "active_now": false,
+   "last_day": "2026-10-26",
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-24T11:57",
+     "ts": "2026-10-26T21:52",
      "tool": "claude",
      "title": "개인 생활 관련 작업"
     },
@@ -1888,7 +1888,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T21:45",
+   "ts": "2026-10-26T21:52",
+   "tool": "claude",
+   "title": "개인 생활 관련 작업",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-26T21:51",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2098,12 +2104,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-24T11:57",
-   "tool": "claude",
-   "title": "개인 생활 관련 작업",
-   "project": "toss-marketing-center"
-  },
-  {
    "ts": "2026-10-13T01:55",
    "tool": "claude",
    "title": "결정 후 병목 해결",
@@ -2128,8 +2128,9 @@
    "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T21:45",
+ "data_at": "2026-10-26T21:52",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
