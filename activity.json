@@ -78,17 +78,27 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 32,
+   "commits": 34,
    "timeline": [
+    {
+     "ts": "2026-10-26T17:43",
+     "tool": "claude",
+     "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T17:43",
+     "tool": "git",
+     "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)"
+    },
+    {
+     "ts": "2026-10-26T17:38",
+     "tool": "git",
+     "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크"
+    },
     {
      "ts": "2026-10-26T17:32",
      "tool": "git",
      "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외"
-    },
-    {
-     "ts": "2026-10-26T17:32",
-     "tool": "claude",
-     "title": "Tailscale 압축파일 전송"
     },
     {
      "ts": "2026-10-26T17:23",
@@ -129,16 +139,6 @@
      "ts": "2026-10-25T14:15",
      "tool": "git",
      "title": "feat(S12-1): 인증 사진 — 올리기·직접 입력·검토·확정·점검표 반영·삭제/열람/보존/백업"
-    },
-    {
-     "ts": "2026-10-25T12:46",
-     "tool": "git",
-     "title": "fix(S11): 3차 재감사 P2 — 이름+호칭 보호자명은 실명으로 검색, 주석·README 정정"
-    },
-    {
-     "ts": "2026-10-25T12:24",
-     "tool": "git",
-     "title": "fix(S11): 재감사 지적 — 관계값 호칭 판정 좁힘·보호자명 잔여 검사·좀비 경쟁 테스트·README 한계"
     }
    ]
   },
@@ -1888,15 +1888,27 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T17:32",
+   "ts": "2026-10-26T17:43",
+   "tool": "claude",
+   "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T17:43",
    "tool": "git",
-   "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외",
+   "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T17:38",
+   "tool": "git",
+   "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크",
    "project": "ai-academy"
   },
   {
    "ts": "2026-10-26T17:32",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
+   "tool": "git",
+   "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외",
    "project": "ai-academy"
   },
   {
@@ -2114,21 +2126,9 @@
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T20:34",
-   "tool": "git",
-   "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T20:03",
-   "tool": "git",
-   "title": "Merge commit '482dec3' into w3-int2",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-26T17:32",
+ "data_at": "2026-10-26T17:43",
  "active_projects": [
   "ai-academy"
  ]
