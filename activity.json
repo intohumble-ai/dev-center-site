@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 36,
+   "commits": 37,
    "timeline": [
     {
-     "ts": "2026-10-26T21:11",
+     "ts": "2026-10-26T21:21",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T21:21",
+     "tool": "git",
+     "title": "fix(S13-3): 재감사 P2-a·P3 — 원래 날짜로 되돌린 일정의 결과 업무 기한, 보호자 이름 부분 가림"
     },
     {
      "ts": "2026-10-26T20:57",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T18:19",
      "tool": "git",
      "title": "fix(S13-1): 콜드 감사 P1·P2·P3 — 채택 뒤 일정 변경 표시·변경 확인 제안, 계획 제안 흡수, 대상·회차·삭제 일정 방어"
-    },
-    {
-     "ts": "2026-10-26T18:08",
-     "tool": "git",
-     "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)"
     }
    ]
   },
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T21:11",
+   "ts": "2026-10-26T21:21",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T21:21",
+   "tool": "git",
+   "title": "fix(S13-3): 재감사 P2-a·P3 — 원래 날짜로 되돌린 일정의 결과 업무 기한, 보호자 이름 부분 가림",
    "project": "ai-academy"
   },
   {
@@ -2120,15 +2126,9 @@
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-13T01:55",
-   "tool": "claude",
-   "title": "개발 센터 포트폴리오 사이트",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-10-26T21:11",
+ "data_at": "2026-10-26T21:21",
  "active_projects": [
   "ai-academy",
   "toss-marketing-center"
