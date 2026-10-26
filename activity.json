@@ -473,14 +473,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-29",
-   "active_now": false,
+   "last_day": "2026-10-26",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-10-26T22:06",
+     "tool": "claude",
+     "title": "유○○ 강사 랜딩페이지 디자인 시안"
+    },
     {
      "ts": "2026-09-29T18:49",
      "tool": "claude",
@@ -1888,6 +1893,12 @@
  },
  "feed": [
   {
+   "ts": "2026-10-26T22:06",
+   "tool": "claude",
+   "title": "유○○ 강사 랜딩페이지 디자인 시안",
+   "project": "upbit-auto-bot"
+  },
+  {
    "ts": "2026-10-26T21:52",
    "tool": "claude",
    "title": "개인 생활 관련 작업",
@@ -2120,17 +2131,12 @@
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-12T23:02",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T21:52",
+ "data_at": "2026-10-26T22:06",
  "active_projects": [
   "ai-academy",
-  "toss-marketing-center"
+  "toss-marketing-center",
+  "upbit-auto-bot"
  ]
 }
