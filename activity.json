@@ -78,12 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 34,
+   "commits": 36,
    "timeline": [
     {
-     "ts": "2026-10-26T20:49",
+     "ts": "2026-10-26T20:57",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T20:57",
+     "tool": "git",
+     "title": "fix(S13-3): 보호자 호칭 판정을 순수 모듈로 분리(화면 번들이 privacy·sqlite 를 끌어와 빌드 실패하던 것)"
+    },
+    {
+     "ts": "2026-10-26T20:54",
+     "tool": "git",
+     "title": "fix(S13-3): 콜드 감사 P2·P3 — 일정 변경 때 결과 업무 기한, 보호자 이름 가림 외"
     },
     {
      "ts": "2026-10-26T20:23",
@@ -129,16 +139,6 @@
      "ts": "2026-10-26T18:08",
      "tool": "git",
      "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)"
-    },
-    {
-     "ts": "2026-10-26T18:08",
-     "tool": "git",
-     "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크"
-    },
-    {
-     "ts": "2026-10-26T17:56",
-     "tool": "git",
-     "title": "docs(evidence): 원장 아이디 유○○ 실서비스 반영 확인"
     }
    ]
   },
@@ -1888,9 +1888,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T20:49",
+   "ts": "2026-10-26T20:57",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T20:57",
+   "tool": "git",
+   "title": "fix(S13-3): 보호자 호칭 판정을 순수 모듈로 분리(화면 번들이 privacy·sqlite 를 끌어와 빌드 실패하던 것)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T20:54",
+   "tool": "git",
+   "title": "fix(S13-3): 콜드 감사 P2·P3 — 일정 변경 때 결과 업무 기한, 보호자 이름 가림 외",
    "project": "ai-academy"
   },
   {
@@ -2114,21 +2126,9 @@
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-10-13T01:55",
-   "tool": "claude",
-   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
-   "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-12T23:02",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T20:49",
+ "data_at": "2026-10-26T20:57",
  "active_projects": [
   "ai-academy"
  ]
