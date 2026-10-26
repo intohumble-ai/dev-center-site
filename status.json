@@ -45,10 +45,10 @@
   },
   "cgv-bot": {
    "id": "cgv-bot",
-   "service": "active",
+   "service": "failed",
    "log_error": null,
    "last_commit": "2026-10-05",
-   "light": "green",
+   "light": "red",
    "db_tables": 0,
    "log_age": null
   },
