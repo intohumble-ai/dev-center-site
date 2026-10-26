@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 37,
+   "commits": 34,
    "timeline": [
     {
-     "ts": "2026-10-26T21:21",
+     "ts": "2026-10-26T21:33",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T21:30",
+     "tool": "git",
+     "title": "docs(evidence): S13-3 실서비스 반영 확인"
     },
     {
      "ts": "2026-10-26T21:21",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T18:37",
      "tool": "git",
      "title": "fix(S13-1): 재감사 P2-1·P3-2 — 지운 '일정 변경됨' 표식 재부착 방지, 항목 version 판단을 조건부 갱신 하나로"
-    },
-    {
-     "ts": "2026-10-26T18:19",
-     "tool": "git",
-     "title": "fix(S13-1): 콜드 감사 P1·P2·P3 — 채택 뒤 일정 변경 표시·변경 확인 제안, 계획 제안 흡수, 대상·회차·삭제 일정 방어"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1888,9 +1888,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T21:21",
+   "ts": "2026-10-26T21:33",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T21:30",
+   "tool": "git",
+   "title": "docs(evidence): S13-3 실서비스 반영 확인",
    "project": "ai-academy"
   },
   {
@@ -1981,30 +1987,6 @@
    "ts": "2026-10-26T17:44",
    "tool": "git",
    "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:32",
-   "tool": "git",
-   "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:23",
-   "tool": "git",
-   "title": "fix(privacy): users 표 없는 DB(단위 테스트용)에서도 계정 칸 판별이 동작",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:20",
-   "tool": "git",
-   "title": "fix(auth): 감사 P2 — 학생 삭제가 계정 이름 칸을 건드리지 않음, rename 감사에 from·to",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:10",
-   "tool": "git",
-   "title": "feat(auth): 한글 사용자명 허용 + 계정 이름 바꾸기 CLI(auth:rename)",
    "project": "ai-academy"
   },
   {
@@ -2126,11 +2108,28 @@
    "tool": "claude",
    "title": "결정 후 병목 해결",
    "project": "ai-securities"
+  },
+  {
+   "ts": "2026-10-13T01:55",
+   "tool": "claude",
+   "title": "개발 센터 포트폴리오 사이트",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-13T01:55",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-10-12T23:02",
+   "tool": "claude",
+   "title": "삼국지 RPG 게임 기획",
+   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T21:21",
+ "data_at": "2026-10-26T21:33",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
