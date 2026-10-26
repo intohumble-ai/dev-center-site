@@ -78,17 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 34,
+   "commits": 35,
    "timeline": [
+    {
+     "ts": "2026-10-26T19:18",
+     "tool": "claude",
+     "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T19:11",
+     "tool": "git",
+     "title": "test(S13-2): 브리핑이 이번 주 할 일이 남은 학생만 세는지 고정(뮤테이션 N13 대응)"
+    },
     {
      "ts": "2026-10-26T19:02",
      "tool": "git",
      "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이"
-    },
-    {
-     "ts": "2026-10-26T19:02",
-     "tool": "claude",
-     "title": "Tailscale 압축파일 전송"
     },
     {
      "ts": "2026-10-26T18:45",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T17:23",
      "tool": "git",
      "title": "fix(privacy): users 표 없는 DB(단위 테스트용)에서도 계정 칸 판별이 동작"
-    },
-    {
-     "ts": "2026-10-26T17:20",
-     "tool": "git",
-     "title": "fix(auth): 감사 P2 — 학생 삭제가 계정 이름 칸을 건드리지 않음, rename 감사에 from·to"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1888,15 +1888,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T19:02",
+   "ts": "2026-10-26T19:18",
+   "tool": "claude",
+   "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T19:11",
    "tool": "git",
-   "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이",
+   "title": "test(S13-2): 브리핑이 이번 주 할 일이 남은 학생만 세는지 고정(뮤테이션 N13 대응)",
    "project": "ai-academy"
   },
   {
    "ts": "2026-10-26T19:02",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
+   "tool": "git",
+   "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이",
    "project": "ai-academy"
   },
   {
@@ -2120,16 +2126,11 @@
    "tool": "claude",
    "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
    "project": "toss-marketing-center"
-  },
-  {
-   "ts": "2026-10-12T23:02",
-   "tool": "claude",
-   "title": "삼국지 RPG 게임 기획",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T19:02",
+ "data_at": "2026-10-26T19:18",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
