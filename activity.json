@@ -78,10 +78,15 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 33,
+   "commits": 34,
    "timeline": [
     {
-     "ts": "2026-10-26T18:46",
+     "ts": "2026-10-26T19:02",
+     "tool": "git",
+     "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이"
+    },
+    {
+     "ts": "2026-10-26T19:02",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T17:20",
      "tool": "git",
      "title": "fix(auth): 감사 P2 — 학생 삭제가 계정 이름 칸을 건드리지 않음, rename 감사에 from·to"
-    },
-    {
-     "ts": "2026-10-26T17:10",
-     "tool": "git",
-     "title": "feat(auth): 한글 사용자명 허용 + 계정 이름 바꾸기 CLI(auth:rename)"
     }
    ]
   },
@@ -1888,7 +1888,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T18:46",
+   "ts": "2026-10-26T19:02",
+   "tool": "git",
+   "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T19:02",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -2120,15 +2126,9 @@
    "tool": "claude",
    "title": "삼국지 RPG 게임 기획",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T20:34",
-   "tool": "git",
-   "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-26T18:46",
+ "data_at": "2026-10-26T19:02",
  "active_projects": [
   "ai-academy"
  ]
