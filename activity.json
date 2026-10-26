@@ -78,10 +78,20 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 36,
+   "commits": 35,
    "timeline": [
     {
-     "ts": "2026-10-26T18:01",
+     "ts": "2026-10-26T18:08",
+     "tool": "git",
+     "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)"
+    },
+    {
+     "ts": "2026-10-26T18:08",
+     "tool": "git",
+     "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크"
+    },
+    {
+     "ts": "2026-10-26T18:08",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
@@ -94,16 +104,6 @@
      "ts": "2026-10-26T17:44",
      "tool": "git",
      "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제"
-    },
-    {
-     "ts": "2026-10-26T17:43",
-     "tool": "git",
-     "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)"
-    },
-    {
-     "ts": "2026-10-26T17:38",
-     "tool": "git",
-     "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크"
     },
     {
      "ts": "2026-10-26T17:32",
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1888,7 +1888,19 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T18:01",
+   "ts": "2026-10-26T18:08",
+   "tool": "git",
+   "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T18:08",
+   "tool": "git",
+   "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T18:08",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
    "project": "ai-academy"
@@ -1903,18 +1915,6 @@
    "ts": "2026-10-26T17:44",
    "tool": "git",
    "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:43",
-   "tool": "git",
-   "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:38",
-   "tool": "git",
-   "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크",
    "project": "ai-academy"
   },
   {
@@ -1993,12 +1993,6 @@
    "ts": "2026-10-25T11:32",
    "tool": "git",
    "title": "feat(S11): 실사용 전환 — 실데이터 모드·관리 화면·점검표 확장·삭제 일반화",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T04:17",
-   "tool": "git",
-   "title": "docs: S10 감사 P2 위치 정리(A5 뒤로)",
    "project": "ai-academy"
   },
   {
@@ -2126,10 +2120,17 @@
    "tool": "claude",
    "title": "개발 센터 포트폴리오 사이트",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-10-13T01:55",
+   "tool": "claude",
+   "title": "사도돼 프로젝트 전체 분석 및 기능 제안",
+   "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-26T18:01",
+ "data_at": "2026-10-26T18:08",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-marketing-center"
  ]
 }
