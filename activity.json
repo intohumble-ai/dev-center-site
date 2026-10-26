@@ -78,8 +78,13 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 35,
+   "commits": 36,
    "timeline": [
+    {
+     "ts": "2026-10-26T23:03",
+     "tool": "git",
+     "title": "fix(S14-1): 콜드 감사 P2-1·P3 1~6 수리"
+    },
     {
      "ts": "2026-10-26T22:56",
      "tool": "claude",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T19:02",
      "tool": "git",
      "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이"
-    },
-    {
-     "ts": "2026-10-26T18:45",
-     "tool": "git",
-     "title": "docs(evidence): S13-1 실서비스 반영 확인"
     }
    ]
   },
@@ -214,14 +214,19 @@
    ]
   },
   "butler-bot": {
-   "sessions": 1,
-   "sessions_claude": 1,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-27",
-   "active_now": false,
+   "last_day": "2026-10-26",
+   "active_now": true,
    "commits": 6,
    "timeline": [
+    {
+     "ts": "2026-10-26T23:03",
+     "tool": "claude",
+     "title": "카카오톡 AI 문제 풀이 봇"
+    },
     {
      "ts": "2026-09-27T10:03",
      "tool": "claude",
@@ -473,19 +478,14 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-26",
-   "active_now": true,
+   "last_day": "2026-09-29",
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-10-26T22:56",
-     "tool": "claude",
-     "title": "카카오톡 AI 문제 풀이 봇"
-    },
     {
      "ts": "2026-09-29T18:49",
      "tool": "claude",
@@ -1893,16 +1893,22 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T22:56",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
+   "ts": "2026-10-26T23:03",
+   "tool": "git",
+   "title": "fix(S14-1): 콜드 감사 P2-1·P3 1~6 수리",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T23:03",
+   "tool": "claude",
+   "title": "카카오톡 AI 문제 풀이 봇",
+   "project": "butler-bot"
   },
   {
    "ts": "2026-10-26T22:56",
    "tool": "claude",
-   "title": "카카오톡 AI 문제 풀이 봇",
-   "project": "upbit-auto-bot"
+   "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-10-26T22:35",
@@ -2119,17 +2125,11 @@
    "tool": "git",
    "title": "S1 학생·수업 기록 저장: 목록·상세·점검표, 버전 기록, 학생 혼입 차단",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-13T01:55",
-   "tool": "claude",
-   "title": "결정 후 병목 해결",
-   "project": "ai-securities"
   }
  ],
- "data_at": "2026-10-26T22:58",
+ "data_at": "2026-10-26T23:03",
  "active_projects": [
   "ai-academy",
-  "upbit-auto-bot"
+  "butler-bot"
  ]
 }
