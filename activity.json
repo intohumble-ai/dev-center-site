@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-26",
-   "active_now": true,
+   "active_now": false,
    "commits": 34,
    "timeline": [
     {
@@ -482,7 +482,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-10-26T22:16",
+     "ts": "2026-10-26T22:26",
      "tool": "claude",
      "title": "유○○ 강사 랜딩페이지 디자인 시안"
     },
@@ -1893,7 +1893,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T22:16",
+   "ts": "2026-10-26T22:26",
    "tool": "claude",
    "title": "유○○ 강사 랜딩페이지 디자인 시안",
    "project": "upbit-auto-bot"
@@ -2133,9 +2133,8 @@
    "project": "toss-marketing-center"
   }
  ],
- "data_at": "2026-10-26T22:16",
+ "data_at": "2026-10-26T22:26",
  "active_projects": [
-  "ai-academy",
   "upbit-auto-bot"
  ]
 }
