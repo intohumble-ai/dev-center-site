@@ -78,12 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-26",
    "active_now": true,
-   "commits": 30,
+   "commits": 32,
    "timeline": [
     {
-     "ts": "2026-10-26T17:22",
+     "ts": "2026-10-26T17:32",
+     "tool": "git",
+     "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외"
+    },
+    {
+     "ts": "2026-10-26T17:32",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
+    },
+    {
+     "ts": "2026-10-26T17:23",
+     "tool": "git",
+     "title": "fix(privacy): users 표 없는 DB(단위 테스트용)에서도 계정 칸 판별이 동작"
     },
     {
      "ts": "2026-10-26T17:20",
@@ -129,16 +139,6 @@
      "ts": "2026-10-25T12:24",
      "tool": "git",
      "title": "fix(S11): 재감사 지적 — 관계값 호칭 판정 좁힘·보호자명 잔여 검사·좀비 경쟁 테스트·README 한계"
-    },
-    {
-     "ts": "2026-10-25T12:02",
-     "tool": "git",
-     "title": "fix(S11): 콜드 감사 지적 수리 — 보호자명 잔여·호칭 확대·표시 전용 칸·삭제 시간초과·동시 수정"
-    },
-    {
-     "ts": "2026-10-25T11:32",
-     "tool": "git",
-     "title": "feat(S11): 실사용 전환 — 실데이터 모드·관리 화면·점검표 확장·삭제 일반화"
     }
    ]
   },
@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1888,9 +1888,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T17:22",
+   "ts": "2026-10-26T17:32",
+   "tool": "git",
+   "title": "fix(privacy): 재감사 P2-1 — 로그인 실패 기록은 계정 이름과 같을 때만 삭제 검사에서 제외",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T17:32",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-26T17:23",
+   "tool": "git",
+   "title": "fix(privacy): users 표 없는 DB(단위 테스트용)에서도 계정 칸 판별이 동작",
    "project": "ai-academy"
   },
   {
@@ -2114,23 +2126,10 @@
    "tool": "git",
    "title": "Merge commit '482dec3' into w3-int2",
    "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T20:03",
-   "tool": "git",
-   "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-10-10T19:47",
-   "tool": "git",
-   "title": "W5-PLAY: 히트스톱 중 목표 고정 키가 버려지던 것 수리 + 테스트, 증거 재캡처, PROGRESS 16절",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T17:22",
+ "data_at": "2026-10-26T17:32",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
