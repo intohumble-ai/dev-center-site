@@ -692,7 +692,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2130,7 +2130,6 @@
  ],
  "data_at": "2026-10-26T19:18",
  "active_projects": [
-  "ai-academy",
-  "toss-marketing-center"
+  "ai-academy"
  ]
 }
