@@ -71,74 +71,54 @@
     }
    ]
   },
-  "ai-academy": {
-   "sessions": 1,
-   "sessions_claude": 1,
+  "butler-bot": {
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-26",
-   "active_now": false,
-   "commits": 28,
+   "active_now": true,
+   "commits": 6,
    "timeline": [
     {
-     "ts": "2026-10-26T14:04",
+     "ts": "2026-10-26T17:11",
      "tool": "claude",
      "title": "Tailscale 압축파일 전송"
     },
     {
-     "ts": "2026-10-25T16:56",
-     "tool": "git",
-     "title": "fix(S12-2): 감사 P2 — 가림 뒤 글자 상한 맞춤, 경고 문구 자기 차단 제거, 시간 상한 480초"
+     "ts": "2026-09-27T10:03",
+     "tool": "claude",
+     "title": "바이낸스봇, 센터+봇"
     },
     {
-     "ts": "2026-10-25T16:44",
+     "ts": "2026-09-15T11:11",
      "tool": "git",
-     "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결"
+     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
     },
     {
-     "ts": "2026-10-25T15:56",
+     "ts": "2026-08-01T23:42",
      "tool": "git",
-     "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차"
+     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
     },
     {
-     "ts": "2026-10-25T15:44",
+     "ts": "2026-07-28T19:49",
      "tool": "git",
-     "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리"
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
     },
     {
-     "ts": "2026-10-25T14:15",
+     "ts": "2026-07-28T10:20",
      "tool": "git",
-     "title": "feat(S12-1): 인증 사진 — 올리기·직접 입력·검토·확정·점검표 반영·삭제/열람/보존/백업"
+     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
     },
     {
-     "ts": "2026-10-25T12:46",
+     "ts": "2026-07-21T20:34",
      "tool": "git",
-     "title": "fix(S11): 3차 재감사 P2 — 이름+호칭 보호자명은 실명으로 검색, 주석·README 정정"
+     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
     },
     {
-     "ts": "2026-10-25T12:24",
+     "ts": "2026-07-14T02:46",
      "tool": "git",
-     "title": "fix(S11): 재감사 지적 — 관계값 호칭 판정 좁힘·보호자명 잔여 검사·좀비 경쟁 테스트·README 한계"
-    },
-    {
-     "ts": "2026-10-25T12:02",
-     "tool": "git",
-     "title": "fix(S11): 콜드 감사 지적 수리 — 보호자명 잔여·호칭 확대·표시 전용 칸·삭제 시간초과·동시 수정"
-    },
-    {
-     "ts": "2026-10-25T11:32",
-     "tool": "git",
-     "title": "feat(S11): 실사용 전환 — 실데이터 모드·관리 화면·점검표 확장·삭제 일반화"
-    },
-    {
-     "ts": "2026-10-25T04:17",
-     "tool": "git",
-     "title": "docs: S10 감사 P2 위치 정리(A5 뒤로)"
-    },
-    {
-     "ts": "2026-10-25T04:17",
-     "tool": "git",
-     "title": "feat(S10): 원장 스타일 학습 — 수정 기록에서 표현 규칙 후보, 승인 후 승격"
+     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
     }
    ]
   },
@@ -210,52 +190,6 @@
      "ts": "2026-09-21T01:43",
      "tool": "git",
      "title": "docs(wave-j): Team A report"
-    }
-   ]
-  },
-  "butler-bot": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-09-27",
-   "active_now": false,
-   "commits": 6,
-   "timeline": [
-    {
-     "ts": "2026-09-27T10:03",
-     "tool": "claude",
-     "title": "바이낸스봇, 센터+봇"
-    },
-    {
-     "ts": "2026-09-15T11:11",
-     "tool": "git",
-     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
-    },
-    {
-     "ts": "2026-08-01T23:42",
-     "tool": "git",
-     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
-    },
-    {
-     "ts": "2026-07-28T19:49",
-     "tool": "git",
-     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
-    },
-    {
-     "ts": "2026-07-28T10:20",
-     "tool": "git",
-     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
-    },
-    {
-     "ts": "2026-07-21T20:34",
-     "tool": "git",
-     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
-    },
-    {
-     "ts": "2026-07-14T02:46",
-     "tool": "git",
-     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
     }
    ]
   },
@@ -692,7 +626,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -754,6 +688,77 @@
      "ts": "2026-10-10T03:44",
      "tool": "git",
      "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
+    }
+   ]
+  },
+  "ai-academy": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-26",
+   "active_now": false,
+   "commits": 29,
+   "timeline": [
+    {
+     "ts": "2026-10-26T17:10",
+     "tool": "git",
+     "title": "feat(auth): 한글 사용자명 허용 + 계정 이름 바꾸기 CLI(auth:rename)"
+    },
+    {
+     "ts": "2026-10-25T16:56",
+     "tool": "git",
+     "title": "fix(S12-2): 감사 P2 — 가림 뒤 글자 상한 맞춤, 경고 문구 자기 차단 제거, 시간 상한 480초"
+    },
+    {
+     "ts": "2026-10-25T16:44",
+     "tool": "git",
+     "title": "feat(S12-2): 인증 사진 AI 분석 — opus 분석·깊게 분석 버튼, 채점 기호 범례, 결과 검사·상한·운영실 연결"
+    },
+    {
+     "ts": "2026-10-25T15:56",
+     "tool": "git",
+     "title": "docs(S12-1): 재감사 P2 — 짝 표식 한계(복사본)·짝 거부 복구 절차"
+    },
+    {
+     "ts": "2026-10-25T15:44",
+     "tool": "git",
+     "title": "fix(S12-1): 감사 지적 — 메타 제거 강화(EOI 꼬리·스캔 사이 APPn·PNG 보조 청크), 사진 누락 경고, 분석 삭제 금지 트리"
+    },
+    {
+     "ts": "2026-10-25T14:15",
+     "tool": "git",
+     "title": "feat(S12-1): 인증 사진 — 올리기·직접 입력·검토·확정·점검표 반영·삭제/열람/보존/백업"
+    },
+    {
+     "ts": "2026-10-25T12:46",
+     "tool": "git",
+     "title": "fix(S11): 3차 재감사 P2 — 이름+호칭 보호자명은 실명으로 검색, 주석·README 정정"
+    },
+    {
+     "ts": "2026-10-25T12:24",
+     "tool": "git",
+     "title": "fix(S11): 재감사 지적 — 관계값 호칭 판정 좁힘·보호자명 잔여 검사·좀비 경쟁 테스트·README 한계"
+    },
+    {
+     "ts": "2026-10-25T12:02",
+     "tool": "git",
+     "title": "fix(S11): 콜드 감사 지적 수리 — 보호자명 잔여·호칭 확대·표시 전용 칸·삭제 시간초과·동시 수정"
+    },
+    {
+     "ts": "2026-10-25T11:32",
+     "tool": "git",
+     "title": "feat(S11): 실사용 전환 — 실데이터 모드·관리 화면·점검표 확장·삭제 일반화"
+    },
+    {
+     "ts": "2026-10-25T04:17",
+     "tool": "git",
+     "title": "docs: S10 감사 P2 위치 정리(A5 뒤로)"
+    },
+    {
+     "ts": "2026-10-25T04:17",
+     "tool": "git",
+     "title": "feat(S10): 원장 스타일 학습 — 수정 기록에서 표현 규칙 후보, 승인 후 승격"
     }
    ]
   },
@@ -1888,9 +1893,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-26T14:04",
+   "ts": "2026-10-26T17:11",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
+   "project": "butler-bot"
+  },
+  {
+   "ts": "2026-10-26T17:10",
+   "tool": "git",
+   "title": "feat(auth): 한글 사용자명 허용 + 계정 이름 바꾸기 CLI(auth:rename)",
    "project": "ai-academy"
   },
   {
@@ -2120,14 +2131,11 @@
    "tool": "git",
    "title": "QOL: master(FONT 프리텐다드) 병합 뒤 증거 다시 찍음(23/23 OK)",
    "project": "samguk-rpg"
-  },
-  {
-   "ts": "2026-10-10T19:34",
-   "tool": "git",
-   "title": "QOL: 7차 감사 PASS 기록",
-   "project": "samguk-rpg"
   }
  ],
- "data_at": "2026-10-26T14:04",
- "active_projects": []
+ "data_at": "2026-10-26T17:11",
+ "active_projects": [
+  "butler-bot",
+  "toss-marketing-center"
+ ]
 }
