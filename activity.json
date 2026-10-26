@@ -72,14 +72,19 @@
    ]
   },
   "ai-academy": {
-   "sessions": 1,
-   "sessions_claude": 1,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-26",
-   "active_now": false,
+   "last_day": "2026-10-27",
+   "active_now": true,
    "commits": 36,
    "timeline": [
+    {
+     "ts": "2026-10-27T08:43",
+     "tool": "claude",
+     "title": "AI학원 관련 검토"
+    },
     {
      "ts": "2026-10-26T23:10",
      "tool": "claude",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T19:11",
      "tool": "git",
      "title": "test(S13-2): 브리핑이 이번 주 할 일이 남은 학생만 세는지 고정(뮤테이션 N13 대응)"
-    },
-    {
-     "ts": "2026-10-26T19:02",
-     "tool": "git",
-     "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이"
     }
    ]
   },
@@ -407,14 +407,19 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 7,
-   "sessions_claude": 7,
+   "sessions": 8,
+   "sessions_claude": 8,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-09",
-   "active_now": false,
+   "last_day": "2026-10-27",
+   "active_now": true,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-10-27T08:43",
+     "tool": "claude",
+     "title": "cgv봇 멈춤 원인"
+    },
     {
      "ts": "2026-10-09T18:07",
      "tool": "claude",
@@ -469,23 +474,23 @@
      "ts": "2026-10-04T13:43",
      "tool": "git",
      "title": "fix(cgv): accessToken 만료 시 자동 갱신(프론트 방식) — 자동환불 전면 실패(10/3 오후~) 근본 수리"
-    },
-    {
-     "ts": "2026-10-04T01:41",
-     "tool": "git",
-     "title": "feat: 교체 24시간 컷·봇 하루상한 제외 + 배부완료 제외 전 표 완전관리(독립 자동환불·데드맨)"
     }
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-29",
-   "active_now": false,
+   "last_day": "2026-10-27",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-10-27T08:43",
+     "tool": "claude",
+     "title": "수학 질문 답변 프로그램"
+    },
     {
      "ts": "2026-09-29T18:49",
      "tool": "claude",
@@ -1893,6 +1898,24 @@
  },
  "feed": [
   {
+   "ts": "2026-10-27T08:43",
+   "tool": "claude",
+   "title": "수학 질문 답변 프로그램",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-10-27T08:43",
+   "tool": "claude",
+   "title": "cgv봇 멈춤 원인",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-10-27T08:43",
+   "tool": "claude",
+   "title": "AI학원 관련 검토",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-10-26T23:10",
    "tool": "claude",
    "title": "Tailscale 압축파일 전송",
@@ -2107,26 +2130,12 @@
    "tool": "git",
    "title": "S3 승인함: 수정·승인·반려·모의발송, 버전 고정, 근거 칩, 원장 편집 경고",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T15:09",
-   "tool": "git",
-   "title": "S2 수업 마감 엔진: 5단계 워크플로, 템플릿 초안, 품질 검사, 실행 상세, 실제 기록 다시보기",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T14:13",
-   "tool": "git",
-   "title": "backups/ 폴더 git 제외",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T14:07",
-   "tool": "git",
-   "title": "S1 학생·수업 기록 저장: 목록·상세·점검표, 버전 기록, 학생 혼입 차단",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-26T23:12",
- "active_projects": []
+ "data_at": "2026-10-27T08:43",
+ "active_projects": [
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
+ ]
 }
