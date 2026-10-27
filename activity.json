@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
-   "active_now": false,
+   "active_now": true,
    "commits": 42,
    "timeline": [
     {
@@ -2144,6 +2144,7 @@
  ],
  "data_at": "2026-10-27T11:12",
  "active_projects": [
+  "ai-academy",
   "upbit-auto-bot"
  ]
 }
