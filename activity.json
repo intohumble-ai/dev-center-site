@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-27",
    "active_now": true,
-   "commits": 39,
+   "commits": 40,
    "timeline": [
     {
-     "ts": "2026-10-27T10:21",
+     "ts": "2026-10-27T10:36",
      "tool": "claude",
      "title": "AI학원 관련 검토"
+    },
+    {
+     "ts": "2026-10-27T10:33",
+     "tool": "git",
+     "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침"
     },
     {
      "ts": "2026-10-27T10:02",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T20:54",
      "tool": "git",
      "title": "fix(S13-3): 콜드 감사 P2·P3 — 일정 변경 때 결과 업무 기한, 보호자 이름 가림 외"
-    },
-    {
-     "ts": "2026-10-26T20:23",
-     "tool": "git",
-     "title": "feat(S13-3): 시험대비 결과·회고·재계획·취소 + AI 버튼 2개(범위 나누기 제안·회고 초안)"
     }
    ]
   },
@@ -416,7 +416,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-27T10:23",
+     "ts": "2026-10-27T10:36",
      "tool": "claude",
      "title": "cgv봇 멈춤 원인"
     },
@@ -1913,22 +1913,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T10:23",
+   "ts": "2026-10-27T10:36",
    "tool": "claude",
    "title": "cgv봇 멈춤 원인",
    "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-10-27T10:36",
+   "tool": "claude",
+   "title": "AI학원 관련 검토",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T10:33",
+   "tool": "git",
+   "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-10-27T10:23",
    "tool": "claude",
    "title": "ThinkRail SPEC.md 설계 원칙 자동화",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-10-27T10:21",
-   "tool": "claude",
-   "title": "AI학원 관련 검토",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-10-27T10:02",
@@ -2139,15 +2145,9 @@
    "tool": "git",
    "title": "WIP S7-2 데이터 관리(감사 전)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T20:59",
-   "tool": "git",
-   "title": "데모 기간 비밀번호 최소 길이 완화(원장 결정): DEMO_MODE 에서만 AUTH_MIN_PASSWORD_LENGTH 4~12",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T10:23",
+ "data_at": "2026-10-27T10:36",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
