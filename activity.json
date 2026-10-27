@@ -78,17 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 52,
+   "commits": 53,
    "timeline": [
+    {
+     "ts": "2026-10-28T00:21",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-28T00:18",
+     "tool": "git",
+     "title": "fix(W1): 콜드 감사 반영 — 지시형 오탐 축소·재마감 경로 보완·저장 직후 버전"
+    },
     {
      "ts": "2026-10-28T00:11",
      "tool": "git",
      "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 "
-    },
-    {
-     "ts": "2026-10-28T00:09",
-     "tool": "claude",
-     "title": "AI 학원"
     },
     {
      "ts": "2026-10-28T00:02",
@@ -134,11 +139,6 @@
      "ts": "2026-10-27T21:46",
      "tool": "git",
      "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기"
-    },
-    {
-     "ts": "2026-10-27T11:09",
-     "tool": "claude",
-     "title": "AI학원 관련 검토"
     }
    ]
   },
@@ -1903,15 +1903,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T00:11",
-   "tool": "git",
-   "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 ",
+   "ts": "2026-10-28T00:21",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-28T00:09",
-   "tool": "claude",
-   "title": "AI 학원",
+   "ts": "2026-10-28T00:18",
+   "tool": "git",
+   "title": "fix(W1): 콜드 감사 반영 — 지시형 오탐 축소·재마감 경로 보완·저장 직후 버전",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T00:11",
+   "tool": "git",
+   "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 ",
    "project": "ai-academy"
   },
   {
@@ -2129,15 +2135,9 @@
    "tool": "git",
    "title": "fix(S13-1): 콜드 감사 P1·P2·P3 — 채택 뒤 일정 변경 표시·변경 확인 제안, 계획 제안 흡수, 대상·회차·삭제 일정 방어",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T18:08",
-   "tool": "git",
-   "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T00:11",
+ "data_at": "2026-10-28T00:21",
  "active_projects": [
   "ai-academy"
  ]
