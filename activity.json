@@ -81,7 +81,7 @@
    "commits": 40,
    "timeline": [
     {
-     "ts": "2026-10-27T10:36",
+     "ts": "2026-10-27T10:46",
      "tool": "claude",
      "title": "AI학원 관련 검토"
     },
@@ -210,57 +210,6 @@
      "ts": "2026-09-21T01:43",
      "tool": "git",
      "title": "docs(wave-j): Team A report"
-    }
-   ]
-  },
-  "butler-bot": {
-   "sessions": 2,
-   "sessions_claude": 2,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-26",
-   "active_now": false,
-   "commits": 6,
-   "timeline": [
-    {
-     "ts": "2026-10-26T23:03",
-     "tool": "claude",
-     "title": "카카오톡 AI 문제 풀이 봇"
-    },
-    {
-     "ts": "2026-09-27T10:03",
-     "tool": "claude",
-     "title": "바이낸스봇, 센터+봇"
-    },
-    {
-     "ts": "2026-09-15T11:11",
-     "tool": "git",
-     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
-    },
-    {
-     "ts": "2026-08-01T23:42",
-     "tool": "git",
-     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
-    },
-    {
-     "ts": "2026-07-28T19:49",
-     "tool": "git",
-     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
-    },
-    {
-     "ts": "2026-07-28T10:20",
-     "tool": "git",
-     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
-    },
-    {
-     "ts": "2026-07-21T20:34",
-     "tool": "git",
-     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
-    },
-    {
-     "ts": "2026-07-14T02:46",
-     "tool": "git",
-     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
     }
    ]
   },
@@ -769,6 +718,52 @@
      "ts": "2026-10-10T03:44",
      "tool": "git",
      "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
+    }
+   ]
+  },
+  "butler-bot": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-26",
+   "active_now": false,
+   "commits": 6,
+   "timeline": [
+    {
+     "ts": "2026-10-26T23:03",
+     "tool": "claude",
+     "title": "카카오톡 AI 문제 풀이 봇"
+    },
+    {
+     "ts": "2026-09-15T11:11",
+     "tool": "git",
+     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
+    },
+    {
+     "ts": "2026-08-01T23:42",
+     "tool": "git",
+     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-07-28T10:20",
+     "tool": "git",
+     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
+    },
+    {
+     "ts": "2026-07-21T20:34",
+     "tool": "git",
+     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
+    },
+    {
+     "ts": "2026-07-14T02:46",
+     "tool": "git",
+     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
     }
    ]
   },
@@ -1913,16 +1908,16 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T10:36",
+   "ts": "2026-10-27T10:46",
    "tool": "claude",
-   "title": "cgv봇 멈춤 원인",
-   "project": "cgv-bot"
+   "title": "AI학원 관련 검토",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-10-27T10:36",
    "tool": "claude",
-   "title": "AI학원 관련 검토",
-   "project": "ai-academy"
+   "title": "cgv봇 멈춤 원인",
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-10-27T10:33",
@@ -2147,7 +2142,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T10:36",
+ "data_at": "2026-10-27T10:46",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
