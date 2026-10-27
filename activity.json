@@ -81,7 +81,7 @@
    "commits": 42,
    "timeline": [
     {
-     "ts": "2026-10-27T19:58",
+     "ts": "2026-10-27T20:10",
      "tool": "claude",
      "title": "AI 학원"
     },
@@ -1903,7 +1903,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T19:58",
+   "ts": "2026-10-27T20:10",
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
@@ -2137,7 +2137,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T19:58",
+ "data_at": "2026-10-27T20:10",
  "active_projects": [
   "ai-academy"
  ]
