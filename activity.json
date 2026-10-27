@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 54,
+   "commits": 55,
    "timeline": [
     {
-     "ts": "2026-10-28T00:31",
+     "ts": "2026-10-28T00:41",
      "tool": "claude",
      "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-28T00:37",
+     "tool": "git",
+     "title": "fix(W1 #4): 지시형 검사 3차 — 절 끝 명령 + 답 바꾸기/점수 고정/무시 지시 결합으로 재설계"
     },
     {
      "ts": "2026-10-28T00:27",
@@ -134,11 +139,6 @@
      "ts": "2026-10-27T23:50",
      "tool": "git",
      "title": "fix(W1 #1): 다시 마감 때 기록이 바뀐 학생만 새 초안 + 확인창(원장 결정 Q1)"
-    },
-    {
-     "ts": "2026-10-27T23:43",
-     "tool": "git",
-     "title": "fix(W1 #2): 동시 정답 로그인 거짓 잠금 — 실패 행이 실제 잠겼을 때만 잠금, 이미 지워졌으면 성공"
     }
    ]
   },
@@ -1903,9 +1903,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T00:31",
+   "ts": "2026-10-28T00:41",
    "tool": "claude",
    "title": "AI 학원",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T00:37",
+   "tool": "git",
+   "title": "fix(W1 #4): 지시형 검사 3차 — 절 끝 명령 + 답 바꾸기/점수 고정/무시 지시 결합으로 재설계",
    "project": "ai-academy"
   },
   {
@@ -2129,15 +2135,9 @@
    "tool": "git",
    "title": "docs(evidence): S13-1 실서비스 반영 확인",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T18:37",
-   "tool": "git",
-   "title": "fix(S13-1): 재감사 P2-1·P3-2 — 지운 '일정 변경됨' 표식 재부착 방지, 항목 version 판단을 조건부 갱신 하나로",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T00:31",
+ "data_at": "2026-10-28T00:41",
  "active_projects": [
   "ai-academy"
  ]
