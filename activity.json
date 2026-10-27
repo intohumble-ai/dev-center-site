@@ -78,12 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 50,
+   "commits": 52,
    "timeline": [
     {
-     "ts": "2026-10-28T00:00",
+     "ts": "2026-10-28T00:11",
+     "tool": "git",
+     "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 "
+    },
+    {
+     "ts": "2026-10-28T00:09",
      "tool": "claude",
      "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-28T00:02",
+     "tool": "git",
+     "title": "test(W1 #1): S10 문체 규칙 테스트를 '바뀐 학생만 새 초안' 규칙에 맞춤"
     },
     {
      "ts": "2026-10-27T23:59",
@@ -129,16 +139,6 @@
      "ts": "2026-10-27T11:09",
      "tool": "claude",
      "title": "AI학원 관련 검토"
-    },
-    {
-     "ts": "2026-10-27T11:00",
-     "tool": "git",
-     "title": "fix(S14): 최종 감사 P2 — 이미 쓴 분은 max(지금, 스냅숏)로 해시(늘어난 근무가 상한 초과를 숨기지 않게) + 직원 이름 경고 "
-    },
-    {
-     "ts": "2026-10-27T10:33",
-     "tool": "git",
-     "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침"
     }
    ]
   },
@@ -1903,9 +1903,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T00:00",
+   "ts": "2026-10-28T00:11",
+   "tool": "git",
+   "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T00:09",
    "tool": "claude",
    "title": "AI 학원",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T00:02",
+   "tool": "git",
+   "title": "test(W1 #1): S10 문체 규칙 테스트를 '바뀐 학생만 새 초안' 규칙에 맞춤",
    "project": "ai-academy"
   },
   {
@@ -2123,21 +2135,9 @@
    "tool": "git",
    "title": "test(S13-1): E2E '다음 주로' 항목을 id 로 고정(넘긴 사본과 같은 종류라 strict 위반)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T18:08",
-   "tool": "git",
-   "title": "feat(S13-1): 시험대비 기반 — 역산 계획 제안·채택·학생별 계획표·항목 체크",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:56",
-   "tool": "git",
-   "title": "docs(evidence): 원장 아이디 유○○ 실서비스 반영 확인",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T00:00",
+ "data_at": "2026-10-28T00:11",
  "active_projects": [
   "ai-academy"
  ]
