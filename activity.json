@@ -81,7 +81,7 @@
    "commits": 39,
    "timeline": [
     {
-     "ts": "2026-10-27T10:14",
+     "ts": "2026-10-27T10:21",
      "tool": "claude",
      "title": "AI학원 관련 검토"
     },
@@ -416,7 +416,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-27T10:16",
+     "ts": "2026-10-27T10:23",
      "tool": "claude",
      "title": "cgv봇 멈춤 원인"
     },
@@ -478,14 +478,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-10-27T10:23",
+     "tool": "claude",
+     "title": "ThinkRail SPEC.md 설계 원칙 자동화"
+    },
     {
      "ts": "2026-10-27T08:57",
      "tool": "claude",
@@ -1908,13 +1913,19 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T10:16",
+   "ts": "2026-10-27T10:23",
    "tool": "claude",
    "title": "cgv봇 멈춤 원인",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-10-27T10:14",
+   "ts": "2026-10-27T10:23",
+   "tool": "claude",
+   "title": "ThinkRail SPEC.md 설계 원칙 자동화",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-10-27T10:21",
    "tool": "claude",
    "title": "AI학원 관련 검토",
    "project": "ai-academy"
@@ -2134,17 +2145,12 @@
    "tool": "git",
    "title": "데모 기간 비밀번호 최소 길이 완화(원장 결정): DEMO_MODE 에서만 AUTH_MIN_PASSWORD_LENGTH 4~12",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T20:19",
-   "tool": "git",
-   "title": "S7-1 로그인·보안 기본: 원장 계정·세션·시도 제한·CSRF·127.0.0.1 바인딩·열람 감사",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T10:16",
+ "data_at": "2026-10-27T10:23",
  "active_projects": [
   "ai-academy",
-  "cgv-bot"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
