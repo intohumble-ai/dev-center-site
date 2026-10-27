@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-27",
    "active_now": true,
-   "commits": 36,
+   "commits": 37,
    "timeline": [
     {
-     "ts": "2026-10-27T08:50",
+     "ts": "2026-10-27T08:57",
      "tool": "claude",
      "title": "AI학원 관련 검토"
+    },
+    {
+     "ts": "2026-10-27T08:57",
+     "tool": "git",
+     "title": "docs(S15): 카톡 질문방 설계서 + 10-27 결정·검토 반영(일치·오답 계수, 시범 낮은 상한안)"
     },
     {
      "ts": "2026-10-26T23:10",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T19:37",
      "tool": "git",
      "title": "fix(S13-2): 콜드 감사 P1·P2·P3 — 결과 대기 되돌리기, 이번 주 술어 하나, 묶음 토글 롤백·검증·예외 분리"
-    },
-    {
-     "ts": "2026-10-26T19:11",
-     "tool": "git",
-     "title": "test(S13-2): 브리핑이 이번 주 할 일이 남은 학생만 세는지 고정(뮤테이션 N13 대응)"
     }
    ]
   },
@@ -407,8 +407,8 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 8,
-   "sessions_claude": 8,
+   "sessions": 7,
+   "sessions_claude": 7,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
@@ -416,7 +416,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-27T08:45",
+     "ts": "2026-10-27T09:01",
      "tool": "claude",
      "title": "cgv봇 멈춤 원인"
     },
@@ -487,7 +487,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-10-27T08:43",
+     "ts": "2026-10-27T08:57",
      "tool": "claude",
      "title": "수학 질문 답변 프로그램"
     },
@@ -1898,19 +1898,25 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T08:50",
-   "tool": "claude",
-   "title": "AI학원 관련 검토",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T08:45",
+   "ts": "2026-10-27T09:01",
    "tool": "claude",
    "title": "cgv봇 멈춤 원인",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-10-27T08:43",
+   "ts": "2026-10-27T08:57",
+   "tool": "claude",
+   "title": "AI학원 관련 검토",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T08:57",
+   "tool": "git",
+   "title": "docs(S15): 카톡 질문방 설계서 + 10-27 결정·검토 반영(일치·오답 계수, 시범 낮은 상한안)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T08:57",
    "tool": "claude",
    "title": "수학 질문 답변 프로그램",
    "project": "upbit-auto-bot"
@@ -2124,15 +2130,9 @@
    "tool": "git",
    "title": "S4 후속 업무·다음 수업 준비·일정 브리핑",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T15:53",
-   "tool": "git",
-   "title": "S3 승인함: 수정·승인·반려·모의발송, 버전 고정, 근거 칩, 원장 편집 경고",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T08:50",
+ "data_at": "2026-10-27T09:01",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
