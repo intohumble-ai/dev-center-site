@@ -77,11 +77,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
-   "active_now": true,
+   "active_now": false,
    "commits": 42,
    "timeline": [
     {
-     "ts": "2026-10-27T11:06",
+     "ts": "2026-10-27T11:09",
      "tool": "claude",
      "title": "AI학원 관련 검토"
     },
@@ -436,7 +436,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-10-27T10:23",
+     "ts": "2026-10-27T11:12",
      "tool": "claude",
      "title": "ThinkRail SPEC.md 설계 원칙 자동화"
     },
@@ -1908,7 +1908,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T11:06",
+   "ts": "2026-10-27T11:12",
+   "tool": "claude",
+   "title": "ThinkRail SPEC.md 설계 원칙 자동화",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-10-27T11:09",
    "tool": "claude",
    "title": "AI학원 관련 검토",
    "project": "ai-academy"
@@ -1930,12 +1936,6 @@
    "tool": "git",
    "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T10:23",
-   "tool": "claude",
-   "title": "ThinkRail SPEC.md 설계 원칙 자동화",
-   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-10-27T10:02",
@@ -2142,8 +2142,6 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T11:06",
- "active_projects": [
-  "ai-academy"
- ]
+ "data_at": "2026-10-27T11:12",
+ "active_projects": []
 }
