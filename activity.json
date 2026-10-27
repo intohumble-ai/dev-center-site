@@ -81,7 +81,7 @@
    "commits": 37,
    "timeline": [
     {
-     "ts": "2026-10-27T08:57",
+     "ts": "2026-10-27T09:11",
      "tool": "claude",
      "title": "AI학원 관련 검토"
     },
@@ -416,7 +416,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-27T09:01",
+     "ts": "2026-10-27T09:12",
      "tool": "claude",
      "title": "cgv봇 멈춤 원인"
     },
@@ -483,7 +483,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1898,13 +1898,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T09:01",
+   "ts": "2026-10-27T09:12",
    "tool": "claude",
    "title": "cgv봇 멈춤 원인",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-10-27T08:57",
+   "ts": "2026-10-27T09:11",
    "tool": "claude",
    "title": "AI학원 관련 검토",
    "project": "ai-academy"
@@ -2132,10 +2132,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T09:01",
+ "data_at": "2026-10-27T09:12",
  "active_projects": [
   "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "cgv-bot"
  ]
 }
