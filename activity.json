@@ -76,19 +76,44 @@
    "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-27",
+   "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 45,
+   "commits": 50,
    "timeline": [
+    {
+     "ts": "2026-10-28T00:00",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-27T23:59",
+     "tool": "git",
+     "title": "feat(W1): 학부모 피드백 빠른 작성 — 표 4개(비파괴 마이그레이션)·이름 토큰화 LLM 생성(동시 3)·다시 쓰기·복사·말투 학습·설정"
+    },
+    {
+     "ts": "2026-10-27T23:58",
+     "tool": "git",
+     "title": "test(s4-render): '/office 24시간 이내 0' 시한폭탄 수리 — 기대값을 같은 규칙(dueBucket)으로 DB 에서 계산"
+    },
+    {
+     "ts": "2026-10-27T23:57",
+     "tool": "git",
+     "title": "fix(W1 #5): 수업 없이 올린 사진을 그 학생의 가장 가까운 다음 수업 점검표에 연결"
+    },
+    {
+     "ts": "2026-10-27T23:55",
+     "tool": "git",
+     "title": "fix(W1 #4): 사진 분석 '명령 주입' 오탐 — AI 요약·판정 칸은 빼고 인용 칸만, 지시형 꼴 결합일 때만(원장 결정 Q7)"
+    },
+    {
+     "ts": "2026-10-27T23:52",
+     "tool": "git",
+     "title": "fix(W1 #3): 저장 안 한 수정이 있으면 AI 문장 다듬기 잠금 + 먼저 저장 안내 — 수정 소실 방지"
+    },
     {
      "ts": "2026-10-27T23:50",
      "tool": "git",
      "title": "fix(W1 #1): 다시 마감 때 기록이 바뀐 학생만 새 초안 + 확인창(원장 결정 Q1)"
-    },
-    {
-     "ts": "2026-10-27T23:47",
-     "tool": "claude",
-     "title": "AI 학원"
     },
     {
      "ts": "2026-10-27T23:43",
@@ -114,31 +139,6 @@
      "ts": "2026-10-27T10:33",
      "tool": "git",
      "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침"
-    },
-    {
-     "ts": "2026-10-27T10:02",
-     "tool": "git",
-     "title": "feat(S14-3): 직원·학부모 공지 초안·승인·모의 발송·복사 + S14-2 감사 P2 1~3·P3 a~c 수리"
-    },
-    {
-     "ts": "2026-10-27T09:25",
-     "tool": "git",
-     "title": "feat(S14-2): 조교 배치 제안·채택·편집·다시 제안·근무 기록 + S14-1 재감사 P2-1·P3 1~6 수리"
-    },
-    {
-     "ts": "2026-10-27T08:57",
-     "tool": "git",
-     "title": "docs(S15): 카톡 질문방 설계서 + 10-27 결정·검토 반영(일치·오답 계수, 시범 낮은 상한안)"
-    },
-    {
-     "ts": "2026-10-26T23:10",
-     "tool": "claude",
-     "title": "Tailscale 압축파일 전송"
-    },
-    {
-     "ts": "2026-10-26T23:03",
-     "tool": "git",
-     "title": "fix(S14-1): 콜드 감사 P2-1·P3 1~6 수리"
     }
    ]
   },
@@ -1903,15 +1903,45 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T23:50",
-   "tool": "git",
-   "title": "fix(W1 #1): 다시 마감 때 기록이 바뀐 학생만 새 초안 + 확인창(원장 결정 Q1)",
+   "ts": "2026-10-28T00:00",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-27T23:47",
-   "tool": "claude",
-   "title": "AI 학원",
+   "ts": "2026-10-27T23:59",
+   "tool": "git",
+   "title": "feat(W1): 학부모 피드백 빠른 작성 — 표 4개(비파괴 마이그레이션)·이름 토큰화 LLM 생성(동시 3)·다시 쓰기·복사·말투 학습·설정",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T23:58",
+   "tool": "git",
+   "title": "test(s4-render): '/office 24시간 이내 0' 시한폭탄 수리 — 기대값을 같은 규칙(dueBucket)으로 DB 에서 계산",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T23:57",
+   "tool": "git",
+   "title": "fix(W1 #5): 수업 없이 올린 사진을 그 학생의 가장 가까운 다음 수업 점검표에 연결",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T23:55",
+   "tool": "git",
+   "title": "fix(W1 #4): 사진 분석 '명령 주입' 오탐 — AI 요약·판정 칸은 빼고 인용 칸만, 지시형 꼴 결합일 때만(원장 결정 Q7)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T23:52",
+   "tool": "git",
+   "title": "fix(W1 #3): 저장 안 한 수정이 있으면 AI 문장 다듬기 잠금 + 먼저 저장 안내 — 수정 소실 방지",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T23:50",
+   "tool": "git",
+   "title": "fix(W1 #1): 다시 마감 때 기록이 바뀐 학생만 새 초안 + 확인창(원장 결정 Q1)",
    "project": "ai-academy"
   },
   {
@@ -2105,39 +2135,9 @@
    "tool": "git",
    "title": "docs(evidence): 원장 아이디 유○○ 실서비스 반영 확인",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T17:44",
-   "tool": "git",
-   "title": "fix(privacy): 최종 재감사 P1·P2 — 학생 이름·id 가 든 로그인 실패 기록은 가리지 않고 행 삭제",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T04:17",
-   "tool": "git",
-   "title": "feat(S10): 원장 스타일 학습 — 수정 기록에서 표현 규칙 후보, 승인 후 승격",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-25T01:38",
-   "tool": "git",
-   "title": "feat(S9): LLM 문장 다듬기 — 이 PC claude -p(haiku), 허용 목록 끝맺음 선택",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T23:26",
-   "tool": "git",
-   "title": "docs: 타이머 수리 감사 P2 4건 기술부채 기록",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T23:24",
-   "tool": "git",
-   "title": "fix(timer): 커스텀 실행기에서 일정 스캔 타이머 미기동 회귀 수리",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T23:50",
+ "data_at": "2026-10-28T00:00",
  "active_projects": [
   "ai-academy"
  ]
