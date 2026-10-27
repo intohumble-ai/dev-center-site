@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-27T09:47",
+ "data_at": "2026-10-27T10:05",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -47,7 +47,7 @@
    "id": "cgv-bot",
    "service": "active",
    "log_error": null,
-   "last_commit": "2026-10-05",
+   "last_commit": "2026-10-27",
    "light": "green",
    "db_tables": 0,
    "log_age": null

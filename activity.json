@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-27",
    "active_now": true,
-   "commits": 38,
+   "commits": 39,
    "timeline": [
     {
-     "ts": "2026-10-27T09:37",
+     "ts": "2026-10-27T10:05",
      "tool": "claude",
      "title": "AI학원 관련 검토"
+    },
+    {
+     "ts": "2026-10-27T10:02",
+     "tool": "git",
+     "title": "feat(S14-3): 직원·학부모 공지 초안·승인·모의 발송·복사 + S14-2 감사 P2 1~3·P3 a~c 수리"
     },
     {
      "ts": "2026-10-27T09:25",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T20:23",
      "tool": "git",
      "title": "feat(S13-3): 시험대비 결과·회고·재계획·취소 + AI 버튼 2개(범위 나누기 제안·회고 초안)"
-    },
-    {
-     "ts": "2026-10-26T19:53",
-     "tool": "git",
-     "title": "docs(evidence): S13-2 실서비스 반영 확인"
     }
    ]
   },
@@ -416,9 +416,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-27T09:47",
+     "ts": "2026-10-27T10:05",
      "tool": "claude",
      "title": "cgv봇 멈춤 원인"
+    },
+    {
+     "ts": "2026-10-27T09:47",
+     "tool": "git",
+     "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
     },
     {
      "ts": "2026-10-09T18:07",
@@ -469,11 +474,6 @@
      "ts": "2026-10-04T14:57",
      "tool": "git",
      "title": "feat(cgv): 명당표 없던 일반관 5곳 자동 등급표 추가(용산 11·12관, 천호 1·3·5관)"
-    },
-    {
-     "ts": "2026-10-04T13:43",
-     "tool": "git",
-     "title": "fix(cgv): accessToken 만료 시 자동 갱신(프론트 방식) — 자동환불 전면 실패(10/3 오후~) 근본 수리"
     }
    ]
   },
@@ -483,7 +483,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1908,16 +1908,28 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T09:47",
+   "ts": "2026-10-27T10:05",
+   "tool": "claude",
+   "title": "AI학원 관련 검토",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T10:05",
    "tool": "claude",
    "title": "cgv봇 멈춤 원인",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-10-27T09:37",
-   "tool": "claude",
-   "title": "AI학원 관련 검토",
+   "ts": "2026-10-27T10:02",
+   "tool": "git",
+   "title": "feat(S14-3): 직원·학부모 공지 초안·승인·모의 발송·복사 + S14-2 감사 P2 1~3·P3 a~c 수리",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T09:47",
+   "tool": "git",
+   "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리",
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-10-27T09:25",
@@ -2128,24 +2140,11 @@
    "tool": "git",
    "title": "S7-1 로그인·보안 기본: 원장 계정·세션·시도 제한·CSRF·127.0.0.1 바인딩·열람 감사",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T18:31",
-   "tool": "git",
-   "title": "S6 통합·측정: E2E 핵심 동선, 인수 판정서, 실패 사례, 측정 양식, 실데이터 게이트, README 최종",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T17:46",
-   "tool": "git",
-   "title": "S5 상황실·운영실 완성: 부록 B 숫자, 부서 상세, 실행 목록, 실패 UX, 이벤트 범위, 저녁 테마",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T09:47",
+ "data_at": "2026-10-27T10:05",
  "active_projects": [
   "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "cgv-bot"
  ]
 }
