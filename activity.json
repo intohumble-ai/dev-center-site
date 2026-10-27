@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-27",
    "active_now": true,
-   "commits": 42,
+   "commits": 43,
    "timeline": [
     {
-     "ts": "2026-10-27T21:44",
+     "ts": "2026-10-27T21:47",
      "tool": "claude",
      "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-27T21:46",
+     "tool": "git",
+     "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기"
     },
     {
      "ts": "2026-10-27T11:09",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T21:30",
      "tool": "git",
      "title": "docs(evidence): S13-3 실서비스 반영 확인"
-    },
-    {
-     "ts": "2026-10-26T21:21",
-     "tool": "git",
-     "title": "fix(S13-3): 재감사 P2-a·P3 — 원래 날짜로 되돌린 일정의 결과 업무 기한, 보호자 이름 부분 가림"
     }
    ]
   },
@@ -1903,9 +1903,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T21:44",
+   "ts": "2026-10-27T21:47",
    "tool": "claude",
    "title": "AI 학원",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-27T21:46",
+   "tool": "git",
+   "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기",
    "project": "ai-academy"
   },
   {
@@ -2129,15 +2135,9 @@
    "tool": "git",
    "title": "S7-2 데이터 관리: 암호화 백업·복구 훈련·정보주체 열람/삭제·목록 열람 감사",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T21:01",
-   "tool": "git",
-   "title": "real_data_gate: 합치기로 겹친 옛 '다음 할 일' 목록 제거",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T21:44",
+ "data_at": "2026-10-27T21:47",
  "active_projects": [
   "ai-academy"
  ]
