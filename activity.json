@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 55,
+   "commits": 56,
    "timeline": [
     {
-     "ts": "2026-10-28T00:41",
+     "ts": "2026-10-28T00:53",
      "tool": "claude",
      "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-28T00:53",
+     "tool": "git",
+     "title": "fix(W1 #4): 원장 결정 Q-B(b) — 정규식 '명령 주입' 감지는 참고 경고로, 확인 체크는 AI 'AI 대상 문구' 보고만"
     },
     {
      "ts": "2026-10-28T00:37",
@@ -134,11 +139,6 @@
      "ts": "2026-10-27T23:52",
      "tool": "git",
      "title": "fix(W1 #3): 저장 안 한 수정이 있으면 AI 문장 다듬기 잠금 + 먼저 저장 안내 — 수정 소실 방지"
-    },
-    {
-     "ts": "2026-10-27T23:50",
-     "tool": "git",
-     "title": "fix(W1 #1): 다시 마감 때 기록이 바뀐 학생만 새 초안 + 확인창(원장 결정 Q1)"
     }
    ]
   },
@@ -1903,9 +1903,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T00:41",
+   "ts": "2026-10-28T00:53",
    "tool": "claude",
    "title": "AI 학원",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T00:53",
+   "tool": "git",
+   "title": "fix(W1 #4): 원장 결정 Q-B(b) — 정규식 '명령 주입' 감지는 참고 경고로, 확인 체크는 AI 'AI 대상 문구' 보고만",
    "project": "ai-academy"
   },
   {
@@ -2129,15 +2135,9 @@
    "tool": "git",
    "title": "feat(S13-2): 시험대비 추적 — 확인 테스트 결과·사진 연결·반 묶음 격자·상황실 숫자·브리핑·시험 경과 전이",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T18:45",
-   "tool": "git",
-   "title": "docs(evidence): S13-1 실서비스 반영 확인",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T00:41",
+ "data_at": "2026-10-28T00:53",
  "active_projects": [
   "ai-academy"
  ]
