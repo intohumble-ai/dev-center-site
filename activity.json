@@ -72,14 +72,19 @@
    ]
   },
   "ai-academy": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-27",
-   "active_now": false,
+   "active_now": true,
    "commits": 42,
    "timeline": [
+    {
+     "ts": "2026-10-27T19:17",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
     {
      "ts": "2026-10-27T11:09",
      "tool": "claude",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T21:21",
      "tool": "git",
      "title": "fix(S13-3): 재감사 P2-a·P3 — 원래 날짜로 되돌린 일정의 결과 업무 기한, 보호자 이름 부분 가림"
-    },
-    {
-     "ts": "2026-10-26T20:57",
-     "tool": "git",
-     "title": "fix(S13-3): 보호자 호칭 판정을 순수 모듈로 분리(화면 번들이 privacy·sqlite 를 끌어와 빌드 실패하던 것)"
     }
    ]
   },
@@ -1908,6 +1908,12 @@
  },
  "feed": [
   {
+   "ts": "2026-10-27T19:17",
+   "tool": "claude",
+   "title": "AI 학원",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-10-27T11:12",
    "tool": "claude",
    "title": "ThinkRail SPEC.md 설계 원칙 자동화",
@@ -2134,14 +2140,10 @@
    "tool": "git",
    "title": "real_data_gate: 합치기로 겹친 옛 '다음 할 일' 목록 제거",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T21:00",
-   "tool": "git",
-   "title": "master(비밀번호 완화) 합치기 — 문서 충돌은 양쪽 내용 모두 유지",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T11:12",
- "active_projects": []
+ "data_at": "2026-10-27T19:17",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
