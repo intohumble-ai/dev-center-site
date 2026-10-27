@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-10-27",
    "active_now": true,
-   "commits": 37,
+   "commits": 38,
    "timeline": [
     {
-     "ts": "2026-10-27T09:22",
+     "ts": "2026-10-27T09:30",
      "tool": "claude",
      "title": "AI학원 관련 검토"
+    },
+    {
+     "ts": "2026-10-27T09:25",
+     "tool": "git",
+     "title": "feat(S14-2): 조교 배치 제안·채택·편집·다시 제안·근무 기록 + S14-1 재감사 P2-1·P3 1~6 수리"
     },
     {
      "ts": "2026-10-27T08:57",
@@ -134,11 +139,6 @@
      "ts": "2026-10-26T19:53",
      "tool": "git",
      "title": "docs(evidence): S13-2 실서비스 반영 확인"
-    },
-    {
-     "ts": "2026-10-26T19:37",
-     "tool": "git",
-     "title": "fix(S13-2): 콜드 감사 P1·P2·P3 — 결과 대기 되돌리기, 이번 주 술어 하나, 묶음 토글 롤백·검증·예외 분리"
     }
    ]
   },
@@ -407,19 +407,14 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 7,
-   "sessions_claude": 7,
+   "sessions": 6,
+   "sessions_claude": 6,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-27",
-   "active_now": true,
+   "last_day": "2026-10-09",
+   "active_now": false,
    "commits": 15,
    "timeline": [
-    {
-     "ts": "2026-10-27T09:18",
-     "tool": "claude",
-     "title": "cgv봇 멈춤 원인"
-    },
     {
      "ts": "2026-10-09T18:07",
      "tool": "claude",
@@ -474,6 +469,11 @@
      "ts": "2026-10-04T13:43",
      "tool": "git",
      "title": "fix(cgv): accessToken 만료 시 자동 갱신(프론트 방식) — 자동환불 전면 실패(10/3 오후~) 근본 수리"
+    },
+    {
+     "ts": "2026-10-04T01:41",
+     "tool": "git",
+     "title": "feat: 교체 24시간 컷·봇 하루상한 제외 + 배부완료 제외 전 표 완전관리(독립 자동환불·데드맨)"
     }
    ]
   },
@@ -555,14 +555,19 @@
    ]
   },
   "palantir-center": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-02",
-   "active_now": false,
+   "last_day": "2026-10-27",
+   "active_now": true,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-10-27T09:33",
+     "tool": "claude",
+     "title": "cgv봇 멈춤 원인"
+    },
     {
      "ts": "2026-10-02T13:53",
      "tool": "git",
@@ -617,11 +622,6 @@
      "ts": "2026-09-26T11:30",
      "tool": "git",
      "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-26T10:58",
-     "tool": "git",
-     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
     }
    ]
   },
@@ -1396,6 +1396,16 @@
     }
    ]
   },
+  "future-me-update-20261027": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-10",
+   "active_now": false,
+   "commits": 15,
+   "timeline": []
+  },
   "future-me": {
    "sessions": 0,
    "sessions_claude": 0,
@@ -1898,16 +1908,22 @@
  },
  "feed": [
   {
-   "ts": "2026-10-27T09:22",
+   "ts": "2026-10-27T09:33",
+   "tool": "claude",
+   "title": "cgv봇 멈춤 원인",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-10-27T09:30",
    "tool": "claude",
    "title": "AI학원 관련 검토",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-27T09:18",
-   "tool": "claude",
-   "title": "cgv봇 멈춤 원인",
-   "project": "cgv-bot"
+   "ts": "2026-10-27T09:25",
+   "tool": "git",
+   "title": "feat(S14-2): 조교 배치 제안·채택·편집·다시 제안·근무 기록 + S14-1 재감사 P2-1·P3 1~6 수리",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-10-27T08:57",
@@ -2124,17 +2140,11 @@
    "tool": "git",
    "title": "S5 상황실·운영실 완성: 부록 B 숫자, 부서 상세, 실행 목록, 실패 UX, 이벤트 범위, 저녁 테마",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-24T16:53",
-   "tool": "git",
-   "title": "S4 후속 업무·다음 수업 준비·일정 브리핑",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-27T09:22",
+ "data_at": "2026-10-27T09:33",
  "active_projects": [
   "ai-academy",
-  "cgv-bot"
+  "palantir-center"
  ]
 }
