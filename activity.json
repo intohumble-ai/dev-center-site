@@ -78,10 +78,15 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 73,
+   "commits": 74,
    "timeline": [
     {
-     "ts": "2026-10-28T13:39",
+     "ts": "2026-10-28T13:49",
+     "tool": "git",
+     "title": "fix(MM-1 재재감사 P1·P2·P3): 객관식 채점 뒤집힘·확정 오답 칸 환불·자가 치유 오탐·처리 중 상한 집계"
+    },
+    {
+     "ts": "2026-10-28T13:43",
      "tool": "claude",
      "title": "AI 학원"
     },
@@ -134,11 +139,6 @@
      "ts": "2026-10-28T10:02",
      "tool": "git",
      "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서"
-    },
-    {
-     "ts": "2026-10-28T09:57",
-     "tool": "git",
-     "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기"
     }
    ]
   },
@@ -1903,7 +1903,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T13:39",
+   "ts": "2026-10-28T13:49",
+   "tool": "git",
+   "title": "fix(MM-1 재재감사 P1·P2·P3): 객관식 채점 뒤집힘·확정 오답 칸 환불·자가 치유 오탐·처리 중 상한 집계",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T13:43",
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
@@ -2137,7 +2143,7 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-10-28T13:39",
+ "data_at": "2026-10-28T13:49",
  "active_projects": [
   "ai-academy"
  ]
