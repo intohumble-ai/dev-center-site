@@ -78,17 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 64,
+   "commits": 66,
    "timeline": [
+    {
+     "ts": "2026-10-28T10:17",
+     "tool": "git",
+     "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전"
+    },
+    {
+     "ts": "2026-10-28T10:16",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
     {
      "ts": "2026-10-28T10:07",
      "tool": "git",
      "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지"
-    },
-    {
-     "ts": "2026-10-28T10:07",
-     "tool": "claude",
-     "title": "AI 학원"
     },
     {
      "ts": "2026-10-28T10:02",
@@ -134,11 +139,6 @@
      "ts": "2026-10-28T00:18",
      "tool": "git",
      "title": "fix(W1): 콜드 감사 반영 — 지시형 오탐 축소·재마감 경로 보완·저장 직후 버전"
-    },
-    {
-     "ts": "2026-10-28T00:11",
-     "tool": "git",
-     "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 "
     }
    ]
   },
@@ -1903,15 +1903,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T10:07",
+   "ts": "2026-10-28T10:17",
    "tool": "git",
-   "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지",
+   "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T10:16",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
    "ts": "2026-10-28T10:07",
-   "tool": "claude",
-   "title": "AI 학원",
+   "tool": "git",
+   "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지",
    "project": "ai-academy"
   },
   {
@@ -2129,15 +2135,9 @@
    "tool": "git",
    "title": "fix(S13-3): 재감사 P2-a·P3 — 원래 날짜로 되돌린 일정의 결과 업무 기한, 보호자 이름 부분 가림",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T20:57",
-   "tool": "git",
-   "title": "fix(S13-3): 보호자 호칭 판정을 순수 모듈로 분리(화면 번들이 privacy·sqlite 를 끌어와 빌드 실패하던 것)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T10:07",
+ "data_at": "2026-10-28T10:17",
  "active_projects": [
   "ai-academy"
  ]
