@@ -81,14 +81,14 @@
    "commits": 70,
    "timeline": [
     {
-     "ts": "2026-10-28T10:40",
-     "tool": "git",
-     "title": "test(MM-1): 정보주체 시험 — 백그라운드 대기열이 끝난 뒤 DB 연결을 끊는다(전체 실행 때 경합)"
+     "ts": "2026-10-28T10:49",
+     "tool": "claude",
+     "title": "AI 학원"
     },
     {
      "ts": "2026-10-28T10:40",
-     "tool": "claude",
-     "title": "AI 학원"
+     "tool": "git",
+     "title": "test(MM-1): 정보주체 시험 — 백그라운드 대기열이 끝난 뒤 DB 연결을 끊는다(전체 실행 때 경합)"
     },
     {
      "ts": "2026-10-28T10:38",
@@ -1903,15 +1903,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T10:40",
-   "tool": "git",
-   "title": "test(MM-1): 정보주체 시험 — 백그라운드 대기열이 끝난 뒤 DB 연결을 끊는다(전체 실행 때 경합)",
+   "ts": "2026-10-28T10:49",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
    "ts": "2026-10-28T10:40",
-   "tool": "claude",
-   "title": "AI 학원",
+   "tool": "git",
+   "title": "test(MM-1): 정보주체 시험 — 백그라운드 대기열이 끝난 뒤 DB 연결을 끊는다(전체 실행 때 경합)",
    "project": "ai-academy"
   },
   {
@@ -2137,7 +2137,7 @@
    "project": "butler-bot"
   }
  ],
- "data_at": "2026-10-28T10:40",
+ "data_at": "2026-10-28T10:49",
  "active_projects": [
   "ai-academy"
  ]
