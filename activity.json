@@ -81,7 +81,7 @@
    "commits": 74,
    "timeline": [
     {
-     "ts": "2026-10-28T14:12",
+     "ts": "2026-10-28T14:23",
      "tool": "claude",
      "title": "AI 학원"
     },
@@ -1903,7 +1903,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T14:12",
+   "ts": "2026-10-28T14:23",
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
@@ -2143,7 +2143,7 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-10-28T14:12",
+ "data_at": "2026-10-28T14:23",
  "active_projects": [
   "ai-academy"
  ]
