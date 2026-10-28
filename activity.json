@@ -78,17 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 61,
+   "commits": 62,
    "timeline": [
+    {
+     "ts": "2026-10-28T09:57",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-28T09:57",
+     "tool": "git",
+     "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기"
+    },
     {
      "ts": "2026-10-28T09:48",
      "tool": "git",
      "title": "fix(W1 통합 감사 P2-1·P2-2·P3): 학부모 피드백 이름 처리 — 수학 용어·합성어 보존, 표시이름 꼬리표, NFC·영문 경계"
-    },
-    {
-     "ts": "2026-10-28T09:43",
-     "tool": "claude",
-     "title": "AI 학원"
     },
     {
      "ts": "2026-10-28T09:41",
@@ -134,11 +139,6 @@
      "ts": "2026-10-27T23:59",
      "tool": "git",
      "title": "feat(W1): 학부모 피드백 빠른 작성 — 표 4개(비파괴 마이그레이션)·이름 토큰화 LLM 생성(동시 3)·다시 쓰기·복사·말투 학습·설정"
-    },
-    {
-     "ts": "2026-10-27T23:58",
-     "tool": "git",
-     "title": "test(s4-render): '/office 24시간 이내 0' 시한폭탄 수리 — 기대값을 같은 규칙(dueBucket)으로 DB 에서 계산"
     }
    ]
   },
@@ -1903,15 +1903,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T09:48",
-   "tool": "git",
-   "title": "fix(W1 통합 감사 P2-1·P2-2·P3): 학부모 피드백 이름 처리 — 수학 용어·합성어 보존, 표시이름 꼬리표, NFC·영문 경계",
+   "ts": "2026-10-28T09:57",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-28T09:43",
-   "tool": "claude",
-   "title": "AI 학원",
+   "ts": "2026-10-28T09:57",
+   "tool": "git",
+   "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T09:48",
+   "tool": "git",
+   "title": "fix(W1 통합 감사 P2-1·P2-2·P3): 학부모 피드백 이름 처리 — 수학 용어·합성어 보존, 표시이름 꼬리표, NFC·영문 경계",
    "project": "ai-academy"
   },
   {
@@ -2129,15 +2135,9 @@
    "tool": "git",
    "title": "feat(S13-3): 시험대비 결과·회고·재계획·취소 + AI 버튼 2개(범위 나누기 제안·회고 초안)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T19:53",
-   "tool": "git",
-   "title": "docs(evidence): S13-2 실서비스 반영 확인",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T09:48",
+ "data_at": "2026-10-28T09:57",
  "active_projects": [
   "ai-academy"
  ]
