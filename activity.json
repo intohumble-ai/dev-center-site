@@ -81,7 +81,7 @@
    "commits": 70,
    "timeline": [
     {
-     "ts": "2026-10-28T10:49",
+     "ts": "2026-10-28T11:00",
      "tool": "claude",
      "title": "AI 학원"
     },
@@ -1903,7 +1903,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T10:49",
+   "ts": "2026-10-28T11:00",
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
@@ -2137,7 +2137,7 @@
    "project": "butler-bot"
   }
  ],
- "data_at": "2026-10-28T10:49",
+ "data_at": "2026-10-28T11:00",
  "active_projects": [
   "ai-academy"
  ]
