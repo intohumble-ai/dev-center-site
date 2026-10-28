@@ -16,11 +16,11 @@
   "allweather-bot": {
    "id": "allweather-bot",
    "service": "active",
-   "log_error": false,
+   "log_error": true,
    "last_commit": "2026-07-28",
    "light": "green",
    "db_tables": 14,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "billionaire-portfolio-bot": {
    "id": "billionaire-portfolio-bot",
