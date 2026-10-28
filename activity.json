@@ -81,14 +81,14 @@
    "commits": 66,
    "timeline": [
     {
+     "ts": "2026-10-28T10:30",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
+    {
      "ts": "2026-10-28T10:17",
      "tool": "git",
      "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전"
-    },
-    {
-     "ts": "2026-10-28T10:16",
-     "tool": "claude",
-     "title": "AI 학원"
     },
     {
      "ts": "2026-10-28T10:07",
@@ -1903,15 +1903,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T10:17",
-   "tool": "git",
-   "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전",
+   "ts": "2026-10-28T10:30",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-28T10:16",
-   "tool": "claude",
-   "title": "AI 학원",
+   "ts": "2026-10-28T10:17",
+   "tool": "git",
+   "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전",
    "project": "ai-academy"
   },
   {
@@ -2137,7 +2137,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T10:17",
+ "data_at": "2026-10-28T10:30",
  "active_projects": [
   "ai-academy"
  ]
