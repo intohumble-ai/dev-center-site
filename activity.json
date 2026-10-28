@@ -78,10 +78,15 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 72,
+   "commits": 73,
    "timeline": [
     {
-     "ts": "2026-10-28T11:28",
+     "ts": "2026-10-28T13:19",
+     "tool": "git",
+     "title": "fix(MM-1 재감사 P1·P3): 동명이인 영구 잠김(예약 칸 되돌리기·자가 치유·예외 되돌림) + 재도전 변형·월 상한 재확인 + 객관식 "
+    },
+    {
+     "ts": "2026-10-28T11:46",
      "tool": "claude",
      "title": "AI 학원"
     },
@@ -134,11 +139,6 @@
      "ts": "2026-10-28T09:57",
      "tool": "git",
      "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기"
-    },
-    {
-     "ts": "2026-10-28T09:48",
-     "tool": "git",
-     "title": "fix(W1 통합 감사 P2-1·P2-2·P3): 학부모 피드백 이름 처리 — 수학 용어·합성어 보존, 표시이름 꼬리표, NFC·영문 경계"
     }
    ]
   },
@@ -1903,7 +1903,13 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T11:28",
+   "ts": "2026-10-28T13:19",
+   "tool": "git",
+   "title": "fix(MM-1 재감사 P1·P3): 동명이인 영구 잠김(예약 칸 되돌리기·자가 치유·예외 되돌림) + 재도전 변형·월 상한 재확인 + 객관식 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T11:46",
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
@@ -2129,15 +2135,9 @@
    "tool": "claude",
    "title": "수학 질문 답변 프로그램",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-10-26T23:10",
-   "tool": "claude",
-   "title": "Tailscale 압축파일 전송",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T11:40",
+ "data_at": "2026-10-28T13:19",
  "active_projects": [
   "ai-academy"
  ]
