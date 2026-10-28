@@ -81,14 +81,14 @@
    "commits": 72,
    "timeline": [
     {
+     "ts": "2026-10-28T11:28",
+     "tool": "claude",
+     "title": "AI 학원"
+    },
+    {
      "ts": "2026-10-28T11:20",
      "tool": "git",
      "title": "fix(MM-1): csrf 주석의 주소 표기(외부 URL 정적 검사 오탐)"
-    },
-    {
-     "ts": "2026-10-28T11:19",
-     "tool": "claude",
-     "title": "AI 학원"
     },
     {
      "ts": "2026-10-28T11:16",
@@ -1903,15 +1903,15 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T11:20",
-   "tool": "git",
-   "title": "fix(MM-1): csrf 주석의 주소 표기(외부 URL 정적 검사 오탐)",
+   "ts": "2026-10-28T11:28",
+   "tool": "claude",
+   "title": "AI 학원",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-10-28T11:19",
-   "tool": "claude",
-   "title": "AI 학원",
+   "ts": "2026-10-28T11:20",
+   "tool": "git",
+   "title": "fix(MM-1): csrf 주석의 주소 표기(외부 URL 정적 검사 오탐)",
    "project": "ai-academy"
   },
   {
@@ -2137,7 +2137,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T11:20",
+ "data_at": "2026-10-28T11:28",
  "active_projects": [
   "ai-academy"
  ]
