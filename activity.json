@@ -78,12 +78,22 @@
    "automated": 0,
    "last_day": "2026-10-28",
    "active_now": true,
-   "commits": 62,
+   "commits": 64,
    "timeline": [
     {
-     "ts": "2026-10-28T09:57",
+     "ts": "2026-10-28T10:07",
+     "tool": "git",
+     "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지"
+    },
+    {
+     "ts": "2026-10-28T10:07",
      "tool": "claude",
      "title": "AI 학원"
+    },
+    {
+     "ts": "2026-10-28T10:02",
+     "tool": "git",
+     "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서"
     },
     {
      "ts": "2026-10-28T09:57",
@@ -129,16 +139,6 @@
      "ts": "2026-10-28T00:11",
      "tool": "git",
      "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 "
-    },
-    {
-     "ts": "2026-10-28T00:02",
-     "tool": "git",
-     "title": "test(W1 #1): S10 문체 규칙 테스트를 '바뀐 학생만 새 초안' 규칙에 맞춤"
-    },
-    {
-     "ts": "2026-10-27T23:59",
-     "tool": "git",
-     "title": "feat(W1): 학부모 피드백 빠른 작성 — 표 4개(비파괴 마이그레이션)·이름 토큰화 LLM 생성(동시 3)·다시 쓰기·복사·말투 학습·설정"
     }
    ]
   },
@@ -1903,9 +1903,21 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T09:57",
+   "ts": "2026-10-28T10:07",
+   "tool": "git",
+   "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T10:07",
    "tool": "claude",
    "title": "AI 학원",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-10-28T10:02",
+   "tool": "git",
+   "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서",
    "project": "ai-academy"
   },
   {
@@ -2123,21 +2135,9 @@
    "tool": "git",
    "title": "fix(S13-3): 보호자 호칭 판정을 순수 모듈로 분리(화면 번들이 privacy·sqlite 를 끌어와 빌드 실패하던 것)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T20:54",
-   "tool": "git",
-   "title": "fix(S13-3): 콜드 감사 P2·P3 — 일정 변경 때 결과 업무 기한, 보호자 이름 가림 외",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-26T20:23",
-   "tool": "git",
-   "title": "feat(S13-3): 시험대비 결과·회고·재계획·취소 + AI 버튼 2개(범위 나누기 제안·회고 초안)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-28T09:57",
+ "data_at": "2026-10-28T10:07",
  "active_projects": [
   "ai-academy"
  ]
