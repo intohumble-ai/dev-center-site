@@ -4,7 +4,7 @@
    "sessions": 6,
    "sessions_claude": 6,
    "sessions_codex": 0,
-   "automated": 1,
+   "automated": 0,
    "last_day": "2026-10-13",
    "active_now": false,
    "commits": 15,
@@ -139,77 +139,6 @@
      "ts": "2026-10-28T10:02",
      "tool": "git",
      "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서"
-    }
-   ]
-  },
-  "life-os": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-09-28",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-09-28T14:26",
-     "tool": "claude",
-     "title": "원격 pc 저장소 문제"
-    },
-    {
-     "ts": "2026-09-21T11:13",
-     "tool": "git",
-     "title": "docs(wave-k): founder directive — from organizer to companion"
-    },
-    {
-     "ts": "2026-09-21T10:56",
-     "tool": "git",
-     "title": "docs: external audit briefing (2026-09-21)"
-    },
-    {
-     "ts": "2026-09-21T10:49",
-     "tool": "git",
-     "title": "fix(founder-device): the routine step circle starts empty; notes can be 지우기; 5분 "
-    },
-    {
-     "ts": "2026-09-21T02:11",
-     "tool": "git",
-     "title": "docs(report): Wave J report + dev notes"
-    },
-    {
-     "ts": "2026-09-21T02:10",
-     "tool": "git",
-     "title": "fix(trace): resolve repositories lazily — two live suites had silently stopped l"
-    },
-    {
-     "ts": "2026-09-21T02:05",
-     "tool": "git",
-     "title": "docs(shots): wave J integration checks"
-    },
-    {
-     "ts": "2026-09-21T02:03",
-     "tool": "git",
-     "title": "feat(settings): wire 계정 및 전체 데이터 삭제 to delete_my_account (WAVE J §20)"
-    },
-    {
-     "ts": "2026-09-21T01:58",
-     "tool": "git",
-     "title": "docs(wave-j): fold the A1-A5 handoff into the Team A report"
-    },
-    {
-     "ts": "2026-09-21T01:57",
-     "tool": "git",
-     "title": "feat(handoff): fold in Team B's five items that live in Team A files (A1–A5)"
-    },
-    {
-     "ts": "2026-09-21T01:50",
-     "tool": "git",
-     "title": "fix(today): a chosen rest day is not answered with the recovery invitation (WAVE"
-    },
-    {
-     "ts": "2026-09-21T01:43",
-     "tool": "git",
-     "title": "docs(wave-j): Team A report"
     }
    ]
   },
@@ -355,77 +284,6 @@
     }
    ]
   },
-  "cgv-bot": {
-   "sessions": 7,
-   "sessions_claude": 7,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-27",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-27T10:36",
-     "tool": "claude",
-     "title": "cgv봇 멈춤 원인"
-    },
-    {
-     "ts": "2026-10-27T09:47",
-     "tool": "git",
-     "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
-    },
-    {
-     "ts": "2026-10-09T18:07",
-     "tool": "claude",
-     "title": "A4f pc 메모리와 용량 소비 봇"
-    },
-    {
-     "ts": "2026-10-05T19:58",
-     "tool": "claude",
-     "title": "cgv봇 무대인사 감시 제외"
-    },
-    {
-     "ts": "2026-10-05T19:42",
-     "tool": "git",
-     "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
-    },
-    {
-     "ts": "2026-10-05T19:25",
-     "tool": "git",
-     "title": "feat(cgv): 매입 정책(같은 날 2회차·처음 관 2장, shadow) + 스스로 배우는 감시(밴딧, 기본 OFF) + 장부/좌석기록 극장"
-    },
-    {
-     "ts": "2026-10-05T19:11",
-     "tool": "git",
-     "title": "fix(cgv): 2차 회의 즉시 버그 — 알림 실패 시 환불 보장·발권 타임아웃 재시작 순서·토큰/점검 경보·결제 연속실패 정지"
-    },
-    {
-     "ts": "2026-10-05T16:50",
-     "tool": "git",
-     "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
-    },
-    {
-     "ts": "2026-10-05T00:51",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
-    },
-    {
-     "ts": "2026-10-05T00:31",
-     "tool": "git",
-     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
-    },
-    {
-     "ts": "2026-10-04T16:02",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표"
-    },
-    {
-     "ts": "2026-10-04T14:57",
-     "tool": "git",
-     "title": "feat(cgv): 명당표 없던 일반관 5곳 자동 등급표 추가(용산 11·12관, 천호 1·3·5관)"
-    }
-   ]
-  },
   "upbit-auto-bot": {
    "sessions": 3,
    "sessions_claude": 3,
@@ -503,9 +361,80 @@
     }
    ]
   },
+  "cgv-bot": {
+   "sessions": 3,
+   "sessions_claude": 3,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-27",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-27T10:36",
+     "tool": "claude",
+     "title": "cgv봇 멈춤 원인"
+    },
+    {
+     "ts": "2026-10-27T09:47",
+     "tool": "git",
+     "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
+    },
+    {
+     "ts": "2026-10-09T18:07",
+     "tool": "claude",
+     "title": "A4f pc 메모리와 용량 소비 봇"
+    },
+    {
+     "ts": "2026-10-05T19:58",
+     "tool": "claude",
+     "title": "cgv봇 무대인사 감시 제외"
+    },
+    {
+     "ts": "2026-10-05T19:42",
+     "tool": "git",
+     "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
+    },
+    {
+     "ts": "2026-10-05T19:25",
+     "tool": "git",
+     "title": "feat(cgv): 매입 정책(같은 날 2회차·처음 관 2장, shadow) + 스스로 배우는 감시(밴딧, 기본 OFF) + 장부/좌석기록 극장"
+    },
+    {
+     "ts": "2026-10-05T19:11",
+     "tool": "git",
+     "title": "fix(cgv): 2차 회의 즉시 버그 — 알림 실패 시 환불 보장·발권 타임아웃 재시작 순서·토큰/점검 경보·결제 연속실패 정지"
+    },
+    {
+     "ts": "2026-10-05T16:50",
+     "tool": "git",
+     "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
+    },
+    {
+     "ts": "2026-10-05T00:51",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
+    },
+    {
+     "ts": "2026-10-05T00:31",
+     "tool": "git",
+     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
+    },
+    {
+     "ts": "2026-10-04T16:02",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표"
+    },
+    {
+     "ts": "2026-10-04T14:57",
+     "tool": "git",
+     "title": "feat(cgv): 명당표 없던 일반관 5곳 자동 등급표 추가(용산 11·12관, 천호 1·3·5관)"
+    }
+   ]
+  },
   "palantir-center": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 1,
+   "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-02",
@@ -553,11 +482,6 @@
      "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
     },
     {
-     "ts": "2026-09-28T10:08",
-     "tool": "claude",
-     "title": "○○이봇 ▮▮ 할당"
-    },
-    {
      "ts": "2026-09-27T22:54",
      "tool": "git",
      "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
@@ -571,6 +495,11 @@
      "ts": "2026-09-26T10:58",
      "tool": "git",
      "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-25T20:46",
+     "tool": "git",
+     "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
     }
    ]
   },
@@ -1434,6 +1363,77 @@
      "ts": "2026-03-23T12:11",
      "tool": "git",
      "title": "feat: Korean Asset Manager Bot - AI hedge fund simulation with 9-role pipeline"
+    }
+   ]
+  },
+  "life-os": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-21",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-21T11:13",
+     "tool": "git",
+     "title": "docs(wave-k): founder directive — from organizer to companion"
+    },
+    {
+     "ts": "2026-09-21T10:56",
+     "tool": "git",
+     "title": "docs: external audit briefing (2026-09-21)"
+    },
+    {
+     "ts": "2026-09-21T10:49",
+     "tool": "git",
+     "title": "fix(founder-device): the routine step circle starts empty; notes can be 지우기; 5분 "
+    },
+    {
+     "ts": "2026-09-21T02:11",
+     "tool": "git",
+     "title": "docs(report): Wave J report + dev notes"
+    },
+    {
+     "ts": "2026-09-21T02:10",
+     "tool": "git",
+     "title": "fix(trace): resolve repositories lazily — two live suites had silently stopped l"
+    },
+    {
+     "ts": "2026-09-21T02:05",
+     "tool": "git",
+     "title": "docs(shots): wave J integration checks"
+    },
+    {
+     "ts": "2026-09-21T02:03",
+     "tool": "git",
+     "title": "feat(settings): wire 계정 및 전체 데이터 삭제 to delete_my_account (WAVE J §20)"
+    },
+    {
+     "ts": "2026-09-21T01:58",
+     "tool": "git",
+     "title": "docs(wave-j): fold the A1-A5 handoff into the Team A report"
+    },
+    {
+     "ts": "2026-09-21T01:57",
+     "tool": "git",
+     "title": "feat(handoff): fold in Team B's five items that live in Team A files (A1–A5)"
+    },
+    {
+     "ts": "2026-09-21T01:50",
+     "tool": "git",
+     "title": "fix(today): a chosen rest day is not answered with the recovery invitation (WAVE"
+    },
+    {
+     "ts": "2026-09-21T01:43",
+     "tool": "git",
+     "title": "docs(wave-j): Team A report"
+    },
+    {
+     "ts": "2026-09-21T01:43",
+     "tool": "git",
+     "title": "docs(wave-j): Team B report — every number, including the ones that did not move"
     }
    ]
   },
