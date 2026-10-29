@@ -1325,7 +1325,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-28",
+   "last_day": "2026-10-29",
    "active_now": false,
    "commits": 15,
    "timeline": []
@@ -2143,6 +2143,6 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-10-28T20:43",
+ "data_at": "2026-10-29T20:35",
  "active_projects": []
 }

@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-28T20:43",
+ "data_at": "2026-10-29T20:35",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -170,7 +170,7 @@
   },
   "future-me-update-20261027": {
    "id": "future-me-update-20261027",
-   "last_commit": "2026-10-28",
+   "last_commit": "2026-10-29",
    "light": "unknown"
   },
   "future-me": {
@@ -221,9 +221,9 @@
   },
   "ops-scripts": {
    "id": "ops-scripts",
-   "service": "active",
+   "service": "inactive",
    "last_commit": null,
-   "light": "green"
+   "light": "gray"
   },
   "palantir-center": {
    "id": "palantir-center",
