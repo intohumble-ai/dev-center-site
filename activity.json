@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-28",
-   "active_now": true,
+   "active_now": false,
    "commits": 74,
    "timeline": [
     {
@@ -2144,7 +2144,5 @@
   }
  ],
  "data_at": "2026-10-29T20:35",
- "active_projects": [
-  "ai-academy"
- ]
+ "active_projects": []
 }
