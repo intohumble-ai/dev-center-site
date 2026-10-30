@@ -281,7 +281,7 @@
   "sector-dca-bot": {
    "id": "sector-dca-bot",
    "service": "active",
-   "log_error": false,
+   "log_error": true,
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
