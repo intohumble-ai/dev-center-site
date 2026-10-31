@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-31T16:22",
+ "data_at": "2026-10-31T16:36",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -147,7 +147,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "1시간 이내"
+   "log_age": "오늘"
   },
   "fleet-data": {
    "id": "fleet-data",
@@ -221,9 +221,9 @@
   },
   "ops-scripts": {
    "id": "ops-scripts",
-   "service": "active",
+   "service": "inactive",
    "last_commit": null,
-   "light": "green"
+   "light": "gray"
   },
   "palantir-center": {
    "id": "palantir-center",
@@ -285,7 +285,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "1시간 이내"
+   "log_age": "오늘"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",
