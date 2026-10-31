@@ -284,54 +284,74 @@
     }
    ]
   },
-  "butler-bot": {
-   "sessions": 2,
-   "sessions_claude": 2,
+  "cgv-bot": {
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-31",
    "active_now": true,
-   "commits": 6,
+   "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-31T16:10",
+     "ts": "2026-10-31T16:20",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
     {
-     "ts": "2026-10-26T23:03",
+     "ts": "2026-10-27T10:36",
      "tool": "claude",
-     "title": "카카오톡 AI 문제 풀이 봇"
+     "title": "cgv봇 멈춤 원인"
     },
     {
-     "ts": "2026-09-15T11:11",
+     "ts": "2026-10-27T09:47",
      "tool": "git",
-     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
+     "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
     },
     {
-     "ts": "2026-08-01T23:42",
-     "tool": "git",
-     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
+     "ts": "2026-10-09T18:07",
+     "tool": "claude",
+     "title": "A4f pc 메모리와 용량 소비 봇"
     },
     {
-     "ts": "2026-07-28T19:49",
-     "tool": "git",
-     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+     "ts": "2026-10-05T19:58",
+     "tool": "claude",
+     "title": "cgv봇 무대인사 감시 제외"
     },
     {
-     "ts": "2026-07-28T10:20",
+     "ts": "2026-10-05T19:42",
      "tool": "git",
-     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
+     "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
     },
     {
-     "ts": "2026-07-21T20:34",
+     "ts": "2026-10-05T19:25",
      "tool": "git",
-     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
+     "title": "feat(cgv): 매입 정책(같은 날 2회차·처음 관 2장, shadow) + 스스로 배우는 감시(밴딧, 기본 OFF) + 장부/좌석기록 극장"
     },
     {
-     "ts": "2026-07-14T02:46",
+     "ts": "2026-10-05T19:11",
      "tool": "git",
-     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
+     "title": "fix(cgv): 2차 회의 즉시 버그 — 알림 실패 시 환불 보장·발권 타임아웃 재시작 순서·토큰/점검 경보·결제 연속실패 정지"
+    },
+    {
+     "ts": "2026-10-05T16:50",
+     "tool": "git",
+     "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
+    },
+    {
+     "ts": "2026-10-05T00:51",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
+    },
+    {
+     "ts": "2026-10-05T00:31",
+     "tool": "git",
+     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
+    },
+    {
+     "ts": "2026-10-04T16:02",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표"
     }
    ]
   },
@@ -404,77 +424,6 @@
      "ts": "2026-10-02T13:56",
      "tool": "claude",
      "title": "cgv봇 인기영화 자동예매"
-    }
-   ]
-  },
-  "cgv-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-27",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-27T10:36",
-     "tool": "claude",
-     "title": "cgv봇 멈춤 원인"
-    },
-    {
-     "ts": "2026-10-27T09:47",
-     "tool": "git",
-     "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
-    },
-    {
-     "ts": "2026-10-09T18:07",
-     "tool": "claude",
-     "title": "A4f pc 메모리와 용량 소비 봇"
-    },
-    {
-     "ts": "2026-10-05T19:58",
-     "tool": "claude",
-     "title": "cgv봇 무대인사 감시 제외"
-    },
-    {
-     "ts": "2026-10-05T19:42",
-     "tool": "git",
-     "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
-    },
-    {
-     "ts": "2026-10-05T19:25",
-     "tool": "git",
-     "title": "feat(cgv): 매입 정책(같은 날 2회차·처음 관 2장, shadow) + 스스로 배우는 감시(밴딧, 기본 OFF) + 장부/좌석기록 극장"
-    },
-    {
-     "ts": "2026-10-05T19:11",
-     "tool": "git",
-     "title": "fix(cgv): 2차 회의 즉시 버그 — 알림 실패 시 환불 보장·발권 타임아웃 재시작 순서·토큰/점검 경보·결제 연속실패 정지"
-    },
-    {
-     "ts": "2026-10-05T16:50",
-     "tool": "git",
-     "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
-    },
-    {
-     "ts": "2026-10-05T00:51",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
-    },
-    {
-     "ts": "2026-10-05T00:31",
-     "tool": "git",
-     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
-    },
-    {
-     "ts": "2026-10-04T16:02",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표"
-    },
-    {
-     "ts": "2026-10-04T14:57",
-     "tool": "git",
-     "title": "feat(cgv): 명당표 없던 일반관 5곳 자동 등급표 추가(용산 11·12관, 천호 1·3·5관)"
     }
    ]
   },
@@ -688,6 +637,52 @@
      "ts": "2026-10-10T03:44",
      "tool": "git",
      "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
+    }
+   ]
+  },
+  "butler-bot": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-26",
+   "active_now": false,
+   "commits": 6,
+   "timeline": [
+    {
+     "ts": "2026-10-26T23:03",
+     "tool": "claude",
+     "title": "카카오톡 AI 문제 풀이 봇"
+    },
+    {
+     "ts": "2026-09-15T11:11",
+     "tool": "git",
+     "title": "fix(equity): equity_daily 의미 정정 — cum_pnl_usd/realized_pnl_usd 추가(ADD COLUMN, 이력"
+    },
+    {
+     "ts": "2026-08-01T23:42",
+     "tool": "git",
+     "title": "feat(wave2): 발송 영수증 래퍼(B4) — morning_brief 배선, 팔란티어 audit.db 동형 스키마"
+    },
+    {
+     "ts": "2026-07-28T19:49",
+     "tool": "git",
+     "title": "chore: 백업 준비 — .gitignore 보강(.env/db/logs 차단)"
+    },
+    {
+     "ts": "2026-07-28T10:20",
+     "tool": "git",
+     "title": "test(guard): blank telegram tokens in conftest — suites must never see real toke"
+    },
+    {
+     "ts": "2026-07-21T20:34",
+     "tool": "git",
+     "title": "feat: telegram command layer (/지명·/지명해제·/지명목록, parse+handlers, poller gated OFF "
+    },
+    {
+     "ts": "2026-07-14T02:46",
+     "tool": "git",
+     "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
     }
    ]
   },
@@ -1903,10 +1898,10 @@
  },
  "feed": [
   {
-   "ts": "2026-10-31T16:10",
+   "ts": "2026-10-31T16:20",
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
-   "project": "butler-bot"
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-10-31T13:35",
@@ -2143,8 +2138,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-31T16:10",
+ "data_at": "2026-10-31T16:20",
  "active_projects": [
-  "butler-bot"
+  "cgv-bot"
  ]
 }
