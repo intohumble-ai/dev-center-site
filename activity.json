@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-31",
-   "active_now": true,
+   "active_now": false,
    "commits": 6,
    "timeline": [
     {
@@ -2144,7 +2144,5 @@
   }
  ],
  "data_at": "2026-10-31T14:16",
- "active_projects": [
-  "butler-bot"
- ]
+ "active_projects": []
 }
