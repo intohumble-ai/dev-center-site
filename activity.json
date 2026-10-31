@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-31",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1239,7 +1239,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-25",
+   "last_day": "2026-11-01",
    "active_now": false,
    "commits": 15,
    "timeline": []
@@ -2138,6 +2138,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-31T17:45",
- "active_projects": []
+ "data_at": "2026-11-01T04:45",
+ "active_projects": [
+  "cgv-bot"
+ ]
 }
