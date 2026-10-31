@@ -295,7 +295,7 @@
   "toss-stock-bot": {
    "id": "toss-stock-bot",
    "service": "active",
-   "log_error": true,
+   "log_error": false,
    "last_commit": "2026-09-24",
    "light": "green",
    "db_tables": 0,
