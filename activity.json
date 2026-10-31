@@ -76,12 +76,12 @@
    "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-28",
+   "last_day": "2026-10-31",
    "active_now": true,
    "commits": 74,
    "timeline": [
     {
-     "ts": "2026-10-28T15:44",
+     "ts": "2026-10-31T13:35",
      "tool": "claude",
      "title": "AI 학원"
     },
@@ -1898,7 +1898,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-28T15:44",
+   "ts": "2026-10-31T13:35",
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
@@ -2138,7 +2138,7 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-10-30T12:42",
+ "data_at": "2026-10-31T13:35",
  "active_projects": [
   "ai-academy"
  ]
