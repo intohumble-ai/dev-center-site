@@ -1,5 +1,5 @@
 {
- "data_at": "2026-10-31T14:16",
+ "data_at": "2026-10-31T15:58",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -108,7 +108,7 @@
   "couple-dca-bot": {
    "id": "couple-dca-bot",
    "service": "active",
-   "log_error": true,
+   "log_error": false,
    "last_commit": "2026-09-26",
    "light": "green",
    "db_tables": 19,

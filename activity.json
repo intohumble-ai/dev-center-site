@@ -294,7 +294,7 @@
    "commits": 6,
    "timeline": [
     {
-     "ts": "2026-10-31T14:16",
+     "ts": "2026-10-31T15:58",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
@@ -1903,7 +1903,7 @@
  },
  "feed": [
   {
-   "ts": "2026-10-31T14:16",
+   "ts": "2026-10-31T15:58",
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "butler-bot"
@@ -2143,7 +2143,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-10-31T14:16",
+ "data_at": "2026-10-31T15:58",
  "active_projects": [
   "butler-bot"
  ]
