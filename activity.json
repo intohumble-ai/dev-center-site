@@ -285,8 +285,8 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 6,
+   "sessions_claude": 6,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
@@ -294,7 +294,12 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T22:10",
+     "ts": "2026-11-01T22:36",
+     "tool": "claude",
+     "title": "작업 내용 손실 원인 문의"
+    },
+    {
+     "ts": "2026-11-01T22:25",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
@@ -347,11 +352,6 @@
      "ts": "2026-10-05T16:50",
      "tool": "git",
      "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
-    },
-    {
-     "ts": "2026-10-05T00:51",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1887,7 +1887,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T22:10",
+   "ts": "2026-11-01T22:36",
+   "tool": "claude",
+   "title": "작업 내용 손실 원인 문의",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T22:25",
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
@@ -2119,16 +2125,11 @@
    "tool": "git",
    "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T10:02",
-   "tool": "git",
-   "title": "feat(S14-3): 직원·학부모 공지 초안·승인·모의 발송·복사 + S14-2 감사 P2 1~3·P3 a~c 수리",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T22:10",
+ "data_at": "2026-11-01T22:36",
  "active_projects": [
-  "cgv-bot"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
