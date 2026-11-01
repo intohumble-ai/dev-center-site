@@ -365,7 +365,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-01T18:24",
+     "ts": "2026-11-01T18:26",
      "tool": "claude",
      "title": "Tailscale work3 링크 reconnect 문제"
     },
@@ -1887,7 +1887,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T18:24",
+   "ts": "2026-11-01T18:26",
    "tool": "claude",
    "title": "Tailscale work3 링크 reconnect 문제",
    "project": "upbit-auto-bot"
@@ -2127,7 +2127,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T18:24",
+ "data_at": "2026-11-01T18:33",
  "active_projects": [
   "upbit-auto-bot"
  ]
