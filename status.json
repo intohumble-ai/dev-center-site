@@ -221,9 +221,9 @@
   },
   "ops-scripts": {
    "id": "ops-scripts",
-   "service": "inactive",
+   "service": "active",
    "last_commit": null,
-   "light": "gray"
+   "light": "green"
   },
   "palantir-center": {
    "id": "palantir-center",
