@@ -143,8 +143,8 @@
    ]
   },
   "ai-securities": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-13",
@@ -294,7 +294,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T16:18",
+     "ts": "2026-11-01T16:20",
      "tool": "claude",
      "title": "CGV봇 환불 현황"
     },
@@ -408,93 +408,6 @@
      "ts": "2026-04-10T13:11",
      "tool": "git",
      "title": "종합 패치: 역발상 전환 매수 전략 + 인프라 안정화 7건"
-    }
-   ]
-  },
-  "joongna-seller": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-02",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
-    {
-     "ts": "2026-10-02T13:56",
-     "tool": "claude",
-     "title": "cgv봇 인기영화 자동예매"
-    }
-   ]
-  },
-  "palantir-center": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-02",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-02T13:53",
-     "tool": "git",
-     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
-    },
-    {
-     "ts": "2026-10-02T13:46",
-     "tool": "git",
-     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
-    },
-    {
-     "ts": "2026-10-02T13:37",
-     "tool": "git",
-     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
-    },
-    {
-     "ts": "2026-10-02T13:27",
-     "tool": "git",
-     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
-    },
-    {
-     "ts": "2026-10-02T10:56",
-     "tool": "claude",
-     "title": "팔란티어 센터와 live 봇 할당분 확인"
-    },
-    {
-     "ts": "2026-09-30T22:04",
-     "tool": "git",
-     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
-    },
-    {
-     "ts": "2026-09-28T21:11",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
-    },
-    {
-     "ts": "2026-09-28T20:09",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
-    },
-    {
-     "ts": "2026-09-27T22:54",
-     "tool": "git",
-     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
-    },
-    {
-     "ts": "2026-09-26T11:30",
-     "tool": "git",
-     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-26T10:58",
-     "tool": "git",
-     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-25T20:46",
-     "tool": "git",
-     "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
     }
    ]
   },
@@ -1503,6 +1416,77 @@
     }
    ]
   },
+  "palantir-center": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-02",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-02T13:53",
+     "tool": "git",
+     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
+    },
+    {
+     "ts": "2026-10-02T13:46",
+     "tool": "git",
+     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
+    },
+    {
+     "ts": "2026-10-02T13:37",
+     "tool": "git",
+     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
+    },
+    {
+     "ts": "2026-10-02T13:27",
+     "tool": "git",
+     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
+    },
+    {
+     "ts": "2026-09-30T22:04",
+     "tool": "git",
+     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
+    },
+    {
+     "ts": "2026-09-28T21:11",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
+    },
+    {
+     "ts": "2026-09-28T20:09",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
+    },
+    {
+     "ts": "2026-09-27T22:54",
+     "tool": "git",
+     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
+    },
+    {
+     "ts": "2026-09-26T11:30",
+     "tool": "git",
+     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-26T10:58",
+     "tool": "git",
+     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-25T20:46",
+     "tool": "git",
+     "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
+    },
+    {
+     "ts": "2026-09-25T20:06",
+     "tool": "git",
+     "title": "7차 콜드감사(조건부 PASS) 반영: 명세 R1 상한·재무장 경계 테스트 고정 + suppressed_keys 원소 정리"
+    }
+   ]
+  },
   "picks-dca-bot": {
    "sessions": 0,
    "sessions_claude": 0,
@@ -1898,7 +1882,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T16:18",
+   "ts": "2026-11-01T16:20",
    "tool": "claude",
    "title": "CGV봇 환불 현황",
    "project": "cgv-bot"
@@ -2138,7 +2122,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T16:18",
+ "data_at": "2026-11-01T16:20",
  "active_projects": [
   "cgv-bot"
  ]
