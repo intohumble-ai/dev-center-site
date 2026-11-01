@@ -294,14 +294,14 @@
    "commits": 15,
    "timeline": [
     {
+     "ts": "2026-11-01T16:45",
+     "tool": "claude",
+     "title": "CGV봇 환불 현황"
+    },
+    {
      "ts": "2026-11-01T16:37",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
-    },
-    {
-     "ts": "2026-11-01T16:34",
-     "tool": "claude",
-     "title": "CGV봇 환불 현황"
     },
     {
      "ts": "2026-10-27T10:36",
@@ -1882,15 +1882,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T16:37",
+   "ts": "2026-11-01T16:45",
    "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
+   "title": "CGV봇 환불 현황",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-11-01T16:34",
+   "ts": "2026-11-01T16:37",
    "tool": "claude",
-   "title": "CGV봇 환불 현황",
+   "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
   },
   {
@@ -2122,7 +2122,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T16:37",
+ "data_at": "2026-11-01T16:45",
  "active_projects": [
   "cgv-bot"
  ]
