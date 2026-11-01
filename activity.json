@@ -294,7 +294,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T18:03",
+     "ts": "2026-11-01T18:06",
      "tool": "claude",
      "title": "CGV봇 환불 현황"
     },
@@ -1882,7 +1882,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T18:03",
+   "ts": "2026-11-01T18:06",
    "tool": "claude",
    "title": "CGV봇 환불 현황",
    "project": "cgv-bot"
@@ -2122,7 +2122,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-01T18:03",
+ "data_at": "2026-11-01T18:06",
  "active_projects": [
   "cgv-bot"
  ]
