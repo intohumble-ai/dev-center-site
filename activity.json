@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -365,7 +365,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-01T18:26",
+     "ts": "2026-11-01T18:42",
      "tool": "claude",
      "title": "Tailscale work3 링크 reconnect 문제"
     },
@@ -1887,7 +1887,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T18:26",
+   "ts": "2026-11-01T18:42",
    "tool": "claude",
    "title": "Tailscale work3 링크 reconnect 문제",
    "project": "upbit-auto-bot"
@@ -2127,8 +2127,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T18:33",
+ "data_at": "2026-11-01T18:42",
  "active_projects": [
+  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
