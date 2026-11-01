@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -356,14 +356,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-27",
-   "active_now": false,
+   "last_day": "2026-11-01",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-01T18:24",
+     "tool": "claude",
+     "title": "Tailscale work3 링크 reconnect 문제"
+    },
     {
      "ts": "2026-10-27T11:12",
      "tool": "claude",
@@ -1882,6 +1887,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-01T18:24",
+   "tool": "claude",
+   "title": "Tailscale work3 링크 reconnect 문제",
+   "project": "upbit-auto-bot"
+  },
+  {
    "ts": "2026-11-01T18:06",
    "tool": "claude",
    "title": "CGV봇 환불 현황",
@@ -2114,16 +2125,10 @@
    "tool": "git",
    "title": "feat(S14-3): 직원·학부모 공지 초안·승인·모의 발송·복사 + S14-2 감사 P2 1~3·P3 a~c 수리",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T09:47",
-   "tool": "git",
-   "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-01T18:06",
+ "data_at": "2026-11-01T18:24",
  "active_projects": [
-  "cgv-bot"
+  "upbit-auto-bot"
  ]
 }
