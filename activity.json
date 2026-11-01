@@ -285,8 +285,8 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
@@ -294,7 +294,12 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T16:07",
+     "ts": "2026-11-01T16:18",
+     "tool": "claude",
+     "title": "CGV봇 환불 현황"
+    },
+    {
+     "ts": "2026-11-01T16:10",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
@@ -347,28 +352,18 @@
      "ts": "2026-10-05T00:31",
      "tool": "git",
      "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
-    },
-    {
-     "ts": "2026-10-04T16:02",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 좌석종류 옵션(--include-kinds) + 왕십리 5관 릴렉스시트 등급표"
     }
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-01",
-   "active_now": true,
+   "last_day": "2026-10-27",
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-11-01T16:06",
-     "tool": "claude",
-     "title": "CGV봇 환불 현황"
-    },
     {
      "ts": "2026-10-27T11:12",
      "tool": "claude",
@@ -1903,16 +1898,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T16:07",
+   "ts": "2026-11-01T16:18",
    "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
+   "title": "CGV봇 환불 현황",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-11-01T16:06",
+   "ts": "2026-11-01T16:10",
    "tool": "claude",
-   "title": "CGV봇 환불 현황",
-   "project": "upbit-auto-bot"
+   "title": "PC 창 주기적 깜빡임 문제",
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-10-31T13:35",
@@ -2143,9 +2138,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T16:07",
+ "data_at": "2026-11-01T16:18",
  "active_projects": [
-  "cgv-bot",
-  "upbit-auto-bot"
+  "cgv-bot"
  ]
 }
