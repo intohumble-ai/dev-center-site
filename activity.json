@@ -294,14 +294,14 @@
    "commits": 15,
    "timeline": [
     {
+     "ts": "2026-11-01T18:54",
+     "tool": "claude",
+     "title": "PC 창 주기적 깜빡임 문제"
+    },
+    {
      "ts": "2026-11-01T18:06",
      "tool": "claude",
      "title": "CGV봇 환불 현황"
-    },
-    {
-     "ts": "2026-11-01T17:53",
-     "tool": "claude",
-     "title": "PC 창 주기적 깜빡임 문제"
     },
     {
      "ts": "2026-11-01T17:40",
@@ -365,7 +365,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-01T18:42",
+     "ts": "2026-11-01T18:52",
      "tool": "claude",
      "title": "Tailscale work3 링크 reconnect 문제"
     },
@@ -1887,7 +1887,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T18:42",
+   "ts": "2026-11-01T18:54",
+   "tool": "claude",
+   "title": "PC 창 주기적 깜빡임 문제",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T18:52",
    "tool": "claude",
    "title": "Tailscale work3 링크 reconnect 문제",
    "project": "upbit-auto-bot"
@@ -1896,12 +1902,6 @@
    "ts": "2026-11-01T18:06",
    "tool": "claude",
    "title": "CGV봇 환불 현황",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T17:53",
-   "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
   },
   {
@@ -2127,7 +2127,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T18:42",
+ "data_at": "2026-11-01T18:54",
  "active_projects": [
   "cgv-bot",
   "upbit-auto-bot"
