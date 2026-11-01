@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-31",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -415,7 +415,7 @@
    "sessions": 1,
    "sessions_claude": 1,
    "sessions_codex": 0,
-   "automated": 1,
+   "automated": 0,
    "last_day": "2026-10-02",
    "active_now": false,
    "commits": 0,
@@ -2139,5 +2139,7 @@
   }
  ],
  "data_at": "2026-11-01T04:45",
- "active_projects": []
+ "active_projects": [
+  "cgv-bot"
+ ]
 }
