@@ -290,11 +290,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T19:00",
+     "ts": "2026-11-01T22:03",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
@@ -1887,16 +1887,16 @@
  },
  "feed": [
   {
+   "ts": "2026-11-01T22:03",
+   "tool": "claude",
+   "title": "PC 창 주기적 깜빡임 문제",
+   "project": "cgv-bot"
+  },
+  {
    "ts": "2026-11-01T19:23",
    "tool": "claude",
    "title": "Tailscale work3 링크 reconnect 문제",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T19:00",
-   "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
-   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-01T18:57",
@@ -2127,6 +2127,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T19:23",
- "active_projects": []
+ "data_at": "2026-11-01T22:03",
+ "active_projects": [
+  "cgv-bot"
+ ]
 }
