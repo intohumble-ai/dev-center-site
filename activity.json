@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-31",
-   "active_now": false,
+   "last_day": "2026-11-01",
+   "active_now": true,
    "commits": 74,
    "timeline": [
+    {
+     "ts": "2026-11-01T22:45",
+     "tool": "claude",
+     "title": "ai 학원 페이블 5.1 기능 아이디어"
+    },
     {
      "ts": "2026-10-31T13:35",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-10-28T10:07",
      "tool": "git",
      "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지"
-    },
-    {
-     "ts": "2026-10-28T10:02",
-     "tool": "git",
-     "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서"
     }
    ]
   },
@@ -294,7 +294,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T22:36",
+     "ts": "2026-11-01T22:41",
      "tool": "claude",
      "title": "작업 내용 손실 원인 문의"
     },
@@ -356,14 +356,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
    "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-01T22:40",
+     "tool": "claude",
+     "title": "최근 작업 목록 정리"
+    },
     {
      "ts": "2026-11-01T19:23",
      "tool": "claude",
@@ -1887,10 +1892,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T22:36",
+   "ts": "2026-11-01T22:45",
+   "tool": "claude",
+   "title": "ai 학원 페이블 5.1 기능 아이디어",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-01T22:41",
    "tool": "claude",
    "title": "작업 내용 손실 원인 문의",
    "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T22:40",
+   "tool": "claude",
+   "title": "최근 작업 목록 정리",
+   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-01T22:25",
@@ -2107,28 +2124,11 @@
    "tool": "claude",
    "title": "AI학원 관련 검토",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T11:00",
-   "tool": "git",
-   "title": "fix(S14): 최종 감사 P2 — 이미 쓴 분은 max(지금, 스냅숏)로 해시(늘어난 근무가 상한 초과를 숨기지 않게) + 직원 이름 경고 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T10:36",
-   "tool": "claude",
-   "title": "cgv봇 멈춤 원인",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-10-27T10:33",
-   "tool": "git",
-   "title": "fix(S14-3): 콜드 감사 P2-1·P2-2·P3 1~4 — 직원 공지 지문에서 날짜 제외, 공백 계산 계획 경계로 통일, 근무 기록 겹침",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T22:36",
+ "data_at": "2026-11-01T22:45",
  "active_projects": [
+  "ai-academy",
   "cgv-bot",
   "upbit-auto-bot"
  ]
