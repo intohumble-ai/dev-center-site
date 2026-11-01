@@ -294,7 +294,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-01T22:03",
+     "ts": "2026-11-01T22:10",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
@@ -1887,7 +1887,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T22:03",
+   "ts": "2026-11-01T22:10",
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
@@ -2127,7 +2127,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T22:03",
+ "data_at": "2026-11-01T22:10",
  "active_projects": [
   "cgv-bot"
  ]
