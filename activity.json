@@ -289,12 +289,12 @@
    "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-31",
-   "active_now": false,
+   "last_day": "2026-11-01",
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-10-31T17:45",
+     "ts": "2026-11-01T16:07",
      "tool": "claude",
      "title": "PC 창 주기적 깜빡임 문제"
     },
@@ -356,14 +356,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-27",
-   "active_now": false,
+   "last_day": "2026-11-01",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-01T16:06",
+     "tool": "claude",
+     "title": "CGV봇 환불 현황"
+    },
     {
      "ts": "2026-10-27T11:12",
      "tool": "claude",
@@ -1898,10 +1903,16 @@
  },
  "feed": [
   {
-   "ts": "2026-10-31T17:45",
+   "ts": "2026-11-01T16:07",
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T16:06",
+   "tool": "claude",
+   "title": "CGV봇 환불 현황",
+   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-10-31T13:35",
@@ -2130,14 +2141,11 @@
    "tool": "git",
    "title": "feat(S14-2): 조교 배치 제안·채택·편집·다시 제안·근무 기록 + S14-1 재감사 P2-1·P3 1~6 수리",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T08:57",
-   "tool": "git",
-   "title": "docs(S15): 카톡 질문방 설계서 + 10-27 결정·검토 반영(일치·오답 계수, 시범 낮은 상한안)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-01T04:45",
- "active_projects": []
+ "data_at": "2026-11-01T16:07",
+ "active_projects": [
+  "cgv-bot",
+  "upbit-auto-bot"
+ ]
 }
