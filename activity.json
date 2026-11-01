@@ -10,7 +10,7 @@
    "commits": 74,
    "timeline": [
     {
-     "ts": "2026-11-01T23:12",
+     "ts": "2026-11-01T23:29",
      "tool": "claude",
      "title": "ai 학원 페이블 5.1 기능 아이디어"
     },
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-01T23:12",
+   "ts": "2026-11-01T23:29",
    "tool": "claude",
    "title": "ai 학원 페이블 5.1 기능 아이디어",
    "project": "ai-academy"
@@ -2112,15 +2112,9 @@
    "tool": "git",
    "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T11:12",
-   "tool": "claude",
-   "title": "ThinkRail SPEC.md 설계 원칙 자동화",
-   "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-01T23:12",
+ "data_at": "2026-11-01T23:29",
  "active_projects": [
   "ai-academy"
  ]
