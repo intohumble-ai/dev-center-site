@@ -10,7 +10,7 @@
    "commits": 74,
    "timeline": [
     {
-     "ts": "2026-11-02T14:49",
+     "ts": "2026-11-02T15:03",
      "tool": "claude",
      "title": "ai 학원 페이블 5.1 기능 아이디어"
     },
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-02T14:49",
+   "ts": "2026-11-02T15:03",
    "tool": "claude",
    "title": "ai 학원 페이블 5.1 기능 아이디어",
    "project": "ai-academy"
@@ -2108,7 +2108,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-02T14:49",
+ "data_at": "2026-11-02T15:03",
  "active_projects": [
   "ai-academy"
  ]
