@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-02",
-   "active_now": true,
+   "active_now": false,
    "commits": 74,
    "timeline": [
     {
@@ -2100,16 +2100,8 @@
    "tool": "git",
    "title": "fix(W1 #1): 다시 마감 때 기록이 바뀐 학생만 새 초안 + 확인창(원장 결정 Q1)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T23:43",
-   "tool": "git",
-   "title": "fix(W1 #2): 동시 정답 로그인 거짓 잠금 — 실패 행이 실제 잠겼을 때만 잠금, 이미 지워졌으면 성공",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-02T16:48",
- "active_projects": [
-  "ai-academy"
- ]
+ "data_at": "2026-11-02T17:05",
+ "active_projects": []
 }
