@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-02",
-   "active_now": false,
+   "active_now": true,
    "commits": 74,
    "timeline": [
     {
-     "ts": "2026-11-02T00:24",
+     "ts": "2026-11-02T14:47",
      "tool": "claude",
      "title": "ai 학원 페이블 5.1 기능 아이디어"
     },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1243,7 +1243,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-01",
+   "last_day": "2026-11-02",
    "active_now": false,
    "commits": 15,
    "timeline": []
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-02T00:24",
+   "ts": "2026-11-02T14:47",
    "tool": "claude",
    "title": "ai 학원 페이블 5.1 기능 아이디어",
    "project": "ai-academy"
@@ -2108,8 +2108,10 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-02T00:33",
+ "data_at": "2026-11-02T14:47",
  "active_projects": [
-  "cgv-bot"
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
