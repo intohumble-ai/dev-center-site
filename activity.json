@@ -10,7 +10,7 @@
    "commits": 79,
    "timeline": [
     {
-     "ts": "2026-11-04T02:32",
+     "ts": "2026-11-04T02:39",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T02:32",
+   "ts": "2026-11-04T02:39",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
@@ -2072,8 +2072,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T02:32",
+ "data_at": "2026-11-04T02:39",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
