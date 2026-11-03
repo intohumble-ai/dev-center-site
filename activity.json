@@ -7,10 +7,15 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 83,
+   "commits": 84,
    "timeline": [
     {
-     "ts": "2026-11-04T03:22",
+     "ts": "2026-11-04T03:31",
+     "tool": "git",
+     "title": "fix(R2 G팀): 콜드 감사 반영 — 이름 끝 1자 호칭 오탐(P1), 만드는 중 보낸 글 등록 경쟁·감사 중복(P2), 채팅 초안 날짜 점"
+    },
+    {
+     "ts": "2026-11-04T03:30",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-10-31T13:35",
      "tool": "claude",
      "title": "AI 학원"
-    },
-    {
-     "ts": "2026-10-28T13:55",
-     "tool": "git",
-     "title": "fix(MM-1 재재감사 P1·P2·P3): 객관식 채점 뒤집힘·확정 오답 칸 환불·자가 치유 오탐·처리 중 상한 집계"
     }
    ]
   },
@@ -1892,7 +1892,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T03:22",
+   "ts": "2026-11-04T03:31",
+   "tool": "git",
+   "title": "fix(R2 G팀): 콜드 감사 반영 — 이름 끝 1자 호칭 오탐(P1), 만드는 중 보낸 글 등록 경쟁·감사 중복(P2), 채팅 초안 날짜 점",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T03:30",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
@@ -2058,15 +2064,9 @@
    "tool": "git",
    "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T09:57",
-   "tool": "git",
-   "title": "feat(S15-0): 풀이 엔진 실측 도구 + 정확 대수 답 대조기",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T03:22",
+ "data_at": "2026-11-04T03:31",
  "active_projects": [
   "ai-academy"
  ]
