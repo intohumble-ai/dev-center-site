@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 99,
+   "commits": 102,
    "timeline": [
     {
-     "ts": "2026-11-04T05:52",
+     "ts": "2026-11-04T06:03",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T06:03",
+     "tool": "git",
+     "title": "docs(R2): 3차 반영·실작동 확인 기록"
+    },
+    {
+     "ts": "2026-11-04T06:01",
+     "tool": "git",
+     "title": "fix(R2 글 모양): 최종 감사 P2 — 복사한 반 공통 일정을 생성 재료에서 되살림(오염 문단 제외)·명단 밖 이름 제목줄/소제목 학습 차"
     },
     {
      "ts": "2026-11-04T05:52",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T04:11",
      "tool": "git",
      "title": "feat(R2 글 모양): 보낸 글에서 뼈대 학습(번호 소제목·한 줄 한 문장·마치며·제목줄) + 메모 내부 표기 풀이 + 지난 점수 해석 위주"
-    },
-    {
-     "ts": "2026-11-04T04:11",
-     "tool": "git",
-     "title": "docs(R2): 실서비스 반영·실작동 확인 기록"
-    },
-    {
-     "ts": "2026-11-04T04:01",
-     "tool": "git",
-     "title": "docs(R2 측정): 개선 후 재측정 결과(11/2, 2회, 짝 비교)"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1892,9 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T05:52",
+   "ts": "2026-11-04T06:03",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T06:03",
+   "tool": "git",
+   "title": "docs(R2): 3차 반영·실작동 확인 기록",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T06:01",
+   "tool": "git",
+   "title": "fix(R2 글 모양): 최종 감사 P2 — 복사한 반 공통 일정을 생성 재료에서 되살림(오염 문단 제외)·명단 밖 이름 제목줄/소제목 학습 차",
    "project": "ai-academy"
   },
   {
@@ -2046,18 +2058,10 @@
    "tool": "claude",
    "title": "최근 작업 목록 정리",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T22:25",
-   "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-04T05:52",
+ "data_at": "2026-11-04T06:03",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
