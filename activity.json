@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 79,
+   "commits": 80,
    "timeline": [
     {
-     "ts": "2026-11-04T02:39",
+     "ts": "2026-11-04T02:53",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T02:52",
+     "tool": "git",
+     "title": "feat(R2 측정): 학부모 피드백 생성기 실측 도구(eval-feedback) + 11/2 기준선"
     },
     {
      "ts": "2026-11-04T02:31",
@@ -63,11 +68,6 @@
      "ts": "2026-10-28T11:16",
      "tool": "git",
      "title": "fix(MM-1 콜드 감사 P1·P2·P3): 번호 무차별 대입 원자적 잠금·AI 하루 상한 동시 우회·객관식 찍기 + P3 6건"
-    },
-    {
-     "ts": "2026-10-28T10:40",
-     "tool": "git",
-     "title": "test(MM-1): 정보주체 시험 — 백그라운드 대기열이 끝난 뒤 DB 연결을 끊는다(전체 실행 때 경합)"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1892,9 +1892,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T02:39",
+   "ts": "2026-11-04T02:53",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T02:52",
+   "tool": "git",
+   "title": "feat(R2 측정): 학부모 피드백 생성기 실측 도구(eval-feedback) + 11/2 기준선",
    "project": "ai-academy"
   },
   {
@@ -2064,17 +2070,12 @@
    "tool": "git",
    "title": "fix(W1 #4): 원장 결정 Q-B(b) — 정규식 '명령 주입' 감지는 참고 경고로, 확인 체크는 AI 'AI 대상 문구' 보고만",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T00:37",
-   "tool": "git",
-   "title": "fix(W1 #4): 지시형 검사 3차 — 절 끝 명령 + 답 바꾸기/점수 고정/무시 지시 결합으로 재설계",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T02:39",
+ "data_at": "2026-11-04T02:53",
  "active_projects": [
   "ai-academy",
-  "cgv-bot"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
