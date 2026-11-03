@@ -10,7 +10,7 @@
    "commits": 75,
    "timeline": [
     {
-     "ts": "2026-11-04T01:49",
+     "ts": "2026-11-04T01:54",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T01:49",
+   "ts": "2026-11-04T01:54",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
@@ -2070,18 +2070,10 @@
    "tool": "git",
    "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 ",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T00:02",
-   "tool": "git",
-   "title": "test(W1 #1): S10 문체 규칙 테스트를 '바뀐 학생만 새 초안' 규칙에 맞춤",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T01:49",
+ "data_at": "2026-11-04T01:57",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
