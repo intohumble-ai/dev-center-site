@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 97,
+   "commits": 99,
    "timeline": [
     {
-     "ts": "2026-11-04T05:42",
+     "ts": "2026-11-04T05:52",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T05:52",
+     "tool": "git",
+     "title": "fix(R2 글 모양): 감사5 후속 — 중복 제거는 문장 통째 일치만(길이 하한 제거), 이름 자리 없는 제목줄은 일반 낱말일 때만 학습"
+    },
+    {
+     "ts": "2026-11-04T05:47",
+     "tool": "git",
+     "title": "fix(R2 글 모양): 감사5 — 짧은 개인 사실 삭제 회귀(통째 일치·25자 이상만 중복 제거)·'○○ 포함 전원' 반 전체 일정 규칙·명단"
     },
     {
      "ts": "2026-11-04T05:34",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T04:01",
      "tool": "git",
      "title": "docs(R2 측정): 개선 후 재측정 결과(11/2, 2회, 짝 비교)"
-    },
-    {
-     "ts": "2026-11-04T03:58",
-     "tool": "git",
-     "title": "fix(R2 감사): 못 푼 문제 훑기 기간 하한·개수 상한·시험 계정 제외·렌더 중 쓰기 제거(P1), 다시 쓰기 보낸 글 차단 테스트(P2-"
-    },
-    {
-     "ts": "2026-11-04T03:35",
-     "tool": "git",
-     "title": "fix(R2 G팀): 재감사 P3 — 초안 없는 학생의 같은 보낸 글 재등록도 감사 생략"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1892,9 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T05:42",
+   "ts": "2026-11-04T05:52",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T05:52",
+   "tool": "git",
+   "title": "fix(R2 글 모양): 감사5 후속 — 중복 제거는 문장 통째 일치만(길이 하한 제거), 이름 자리 없는 제목줄은 일반 낱말일 때만 학습",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T05:47",
+   "tool": "git",
+   "title": "fix(R2 글 모양): 감사5 — 짧은 개인 사실 삭제 회귀(통째 일치·25자 이상만 중복 제거)·'○○ 포함 전원' 반 전체 일정 규칙·명단",
    "project": "ai-academy"
   },
   {
@@ -2040,23 +2052,12 @@
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T19:23",
-   "tool": "claude",
-   "title": "Tailscale work3 링크 reconnect 문제",
-   "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T18:57",
-   "tool": "claude",
-   "title": "CGV봇 환불 현황",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-04T05:42",
+ "data_at": "2026-11-04T05:52",
  "active_projects": [
   "ai-academy",
-  "cgv-bot"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
