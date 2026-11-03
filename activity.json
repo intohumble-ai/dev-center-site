@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 74,
    "timeline": [
     {
@@ -365,7 +365,7 @@
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-04T01:30",
+     "ts": "2026-11-04T01:39",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -1897,7 +1897,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T01:30",
+   "ts": "2026-11-04T01:39",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "upbit-auto-bot"
@@ -2081,17 +2081,10 @@
    "tool": "git",
    "title": "feat(W1): 학부모 피드백 빠른 작성 — 표 4개(비파괴 마이그레이션)·이름 토큰화 LLM 생성(동시 3)·다시 쓰기·복사·말투 학습·설정",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T23:58",
-   "tool": "git",
-   "title": "test(s4-render): '/office 24시간 이내 0' 시한폭탄 수리 — 기대값을 같은 규칙(dueBucket)으로 DB 에서 계산",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T01:30",
+ "data_at": "2026-11-04T01:39",
  "active_projects": [
-  "ai-academy",
   "upbit-auto-bot"
  ]
 }
