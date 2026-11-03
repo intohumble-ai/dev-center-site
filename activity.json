@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 75,
+   "commits": 76,
    "timeline": [
     {
-     "ts": "2026-11-04T01:54",
+     "ts": "2026-11-04T02:12",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T02:10",
+     "tool": "git",
+     "title": "feat(R2 r2mm): MATH MATE 결과 잇기 — 오답 한마디·못 푼 문제·한 줄 답장·수업 전 3줄·쌍둥이·중복 묶기·자동 조회 감사"
     },
     {
      "ts": "2026-11-04T01:43",
@@ -63,11 +68,6 @@
      "ts": "2026-10-28T10:36",
      "tool": "git",
      "title": "fix(MM-1): 정답 표시 다듬기(3*x → 3x, sqrt → √) · E2E 격리 확인 로케이터"
-    },
-    {
-     "ts": "2026-10-28T10:33",
-     "tool": "git",
-     "title": "feat(MM-1 ④~⑥): 학생 화면 6장·원장 검토함·번호 발급·성장(레벨·배지·퀘스트)·문지기 + 개인정보·사진 정리 등록"
     }
    ]
   },
@@ -1892,9 +1892,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T01:54",
+   "ts": "2026-11-04T02:12",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T02:10",
+   "tool": "git",
+   "title": "feat(R2 r2mm): MATH MATE 결과 잇기 — 오답 한마디·못 푼 문제·한 줄 답장·수업 전 3줄·쌍둥이·중복 묶기·자동 조회 감사",
    "project": "ai-academy"
   },
   {
@@ -2064,15 +2070,9 @@
    "tool": "git",
    "title": "fix(W1): 콜드 감사 반영 — 지시형 오탐 축소·재마감 경로 보완·저장 직후 버전",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T00:11",
-   "tool": "git",
-   "title": "test(W1): E2E(가짜 실행기 1440·390) 학부모 피드백 흐름 + README·.env.example 갱신 · 만들기 끝나면 상단 ",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T01:57",
+ "data_at": "2026-11-04T02:12",
  "active_projects": [
   "ai-academy"
  ]
