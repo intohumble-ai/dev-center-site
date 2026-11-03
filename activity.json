@@ -294,7 +294,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-03T15:38",
+     "ts": "2026-11-03T16:08",
      "tool": "claude",
      "title": "작업 내용 손실 원인 문의"
     },
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-03T15:38",
+   "ts": "2026-11-03T16:08",
    "tool": "claude",
    "title": "작업 내용 손실 원인 문의",
    "project": "cgv-bot"
@@ -2096,6 +2096,6 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-03T15:38",
+ "data_at": "2026-11-03T16:08",
  "active_projects": []
 }
