@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 102,
    "timeline": [
     {
-     "ts": "2026-11-04T06:06",
+     "ts": "2026-11-04T06:58",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T06:06",
+   "ts": "2026-11-04T06:58",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
@@ -2060,8 +2060,8 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-04T06:06",
+ "data_at": "2026-11-04T06:58",
  "active_projects": [
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
