@@ -7,17 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 84,
+   "commits": 86,
    "timeline": [
+    {
+     "ts": "2026-11-04T03:42",
+     "tool": "claude",
+     "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T03:35",
+     "tool": "git",
+     "title": "fix(R2 G팀): 재감사 P3 — 초안 없는 학생의 같은 보낸 글 재등록도 감사 생략"
+    },
     {
      "ts": "2026-11-04T03:31",
      "tool": "git",
      "title": "fix(R2 G팀): 콜드 감사 반영 — 이름 끝 1자 호칭 오탐(P1), 만드는 중 보낸 글 등록 경쟁·감사 중복(P2), 채팅 초안 날짜 점"
-    },
-    {
-     "ts": "2026-11-04T03:30",
-     "tool": "claude",
-     "title": "AI학원 전체 분석 및 평가"
     },
     {
      "ts": "2026-11-04T03:19",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T01:18",
      "tool": "claude",
      "title": "ai 학원 페이블 5.1 기능 아이디어"
-    },
-    {
-     "ts": "2026-10-31T13:35",
-     "tool": "claude",
-     "title": "AI 학원"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1892,15 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T03:31",
-   "tool": "git",
-   "title": "fix(R2 G팀): 콜드 감사 반영 — 이름 끝 1자 호칭 오탐(P1), 만드는 중 보낸 글 등록 경쟁·감사 중복(P2), 채팅 초안 날짜 점",
+   "ts": "2026-11-04T03:42",
+   "tool": "claude",
+   "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T03:30",
-   "tool": "claude",
-   "title": "AI학원 전체 분석 및 평가",
+   "ts": "2026-11-04T03:35",
+   "tool": "git",
+   "title": "fix(R2 G팀): 재감사 P3 — 초안 없는 학생의 같은 보낸 글 재등록도 감사 생략",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T03:31",
+   "tool": "git",
+   "title": "fix(R2 G팀): 콜드 감사 반영 — 이름 끝 1자 호칭 오탐(P1), 만드는 중 보낸 글 등록 경쟁·감사 중복(P2), 채팅 초안 날짜 점",
    "project": "ai-academy"
   },
   {
@@ -2046,28 +2052,11 @@
    "tool": "git",
    "title": "feat(MM-1 ④~⑥): 학생 화면 6장·원장 검토함·번호 발급·성장(레벨·배지·퀘스트)·문지기 + 개인정보·사진 정리 등록",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T10:17",
-   "tool": "git",
-   "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T10:07",
-   "tool": "git",
-   "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T10:02",
-   "tool": "git",
-   "title": "fix(W1 통합 재감사 P1·P2): 이름 가림 회귀·사진 확인 강제 사유 순서",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T03:31",
+ "data_at": "2026-11-04T03:42",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
