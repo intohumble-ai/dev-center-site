@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 94,
+   "commits": 95,
    "timeline": [
     {
-     "ts": "2026-11-04T04:41",
+     "ts": "2026-11-04T04:58",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T04:58",
+     "tool": "git",
+     "title": "fix(R2): 학생 본인 일정 누락·보낸 글 반 구분·못 푼 문제 훑기 막힘"
     },
     {
      "ts": "2026-11-04T04:40",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T03:19",
      "tool": "git",
      "title": "feat(R2 측정): 심사 보정 — as-of 를 메모 입력 직전으로, 분량 기준, 참조 기반 짝 비교 + 새 as-of 기준선"
-    },
-    {
-     "ts": "2026-11-04T03:12",
-     "tool": "git",
-     "title": "fix(R2 G팀): 실측 반영 — 단위 대조 지난 결과 오탐, 시험 직전 글 약속 고르기, 비교로 나온 학기 단원 제외 + 근거 문서"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1892,9 +1892,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T04:41",
+   "ts": "2026-11-04T04:58",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T04:58",
+   "tool": "git",
+   "title": "fix(R2): 학생 본인 일정 누락·보낸 글 반 구분·못 푼 문제 훑기 막힘",
    "project": "ai-academy"
   },
   {
@@ -2046,18 +2052,11 @@
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T13:55",
-   "tool": "git",
-   "title": "fix(MM-1 재재감사 P1·P2·P3): 객관식 채점 뒤집힘·확정 오답 칸 환불·자가 치유 오탐·처리 중 상한 집계",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T04:41",
+ "data_at": "2026-11-04T04:58",
  "active_projects": [
   "ai-academy",
-  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
