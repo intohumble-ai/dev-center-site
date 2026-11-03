@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 86,
+   "commits": 89,
    "timeline": [
     {
-     "ts": "2026-11-04T03:49",
+     "ts": "2026-11-04T04:05",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T04:01",
+     "tool": "git",
+     "title": "docs(R2 측정): 개선 후 재측정 결과(11/2, 2회, 짝 비교)"
+    },
+    {
+     "ts": "2026-11-04T03:58",
+     "tool": "git",
+     "title": "fix(R2 감사): 못 푼 문제 훑기 기간 하한·개수 상한·시험 계정 제외·렌더 중 쓰기 제거(P1), 다시 쓰기 보낸 글 차단 테스트(P2-"
     },
     {
      "ts": "2026-11-04T03:35",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T02:10",
      "tool": "git",
      "title": "feat(R2 r2mm): MATH MATE 결과 잇기 — 오답 한마디·못 푼 문제·한 줄 답장·수업 전 3줄·쌍둥이·중복 묶기·자동 조회 감사"
-    },
-    {
-     "ts": "2026-11-04T01:43",
-     "tool": "git",
-     "title": "chore: 10/28 이후 작업 폴더 상태 스냅숏(서비스 중인 코드 그대로 기록)"
-    },
-    {
-     "ts": "2026-11-04T01:18",
-     "tool": "claude",
-     "title": "ai 학원 페이블 5.1 기능 아이디어"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1892,9 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T03:49",
+   "ts": "2026-11-04T04:05",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T04:01",
+   "tool": "git",
+   "title": "docs(R2 측정): 개선 후 재측정 결과(11/2, 2회, 짝 비교)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T03:58",
+   "tool": "git",
+   "title": "fix(R2 감사): 못 푼 문제 훑기 기간 하한·개수 상한·시험 계정 제외·렌더 중 쓰기 제거(P1), 다시 쓰기 보낸 글 차단 테스트(P2-",
    "project": "ai-academy"
   },
   {
@@ -2040,24 +2052,10 @@
    "tool": "git",
    "title": "test(MM-1): 답 자동 판정 불가 → 검토함·힌트 가림·XP 보류(ready 전 힌트 비공개 뮤테이션을 두 시험이 잡게)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T10:36",
-   "tool": "git",
-   "title": "fix(MM-1): 정답 표시 다듬기(3*x → 3x, sqrt → √) · E2E 격리 확인 로케이터",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T10:33",
-   "tool": "git",
-   "title": "feat(MM-1 ④~⑥): 학생 화면 6장·원장 검토함·번호 발급·성장(레벨·배지·퀘스트)·문지기 + 개인정보·사진 정리 등록",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T03:49",
+ "data_at": "2026-11-04T04:05",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
