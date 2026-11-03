@@ -10,7 +10,7 @@
    "commits": 93,
    "timeline": [
     {
-     "ts": "2026-11-04T04:26",
+     "ts": "2026-11-04T04:35",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T04:26",
+   "ts": "2026-11-04T04:35",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
@@ -2054,7 +2054,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T04:26",
+ "data_at": "2026-11-04T04:35",
  "active_projects": [
   "ai-academy"
  ]
