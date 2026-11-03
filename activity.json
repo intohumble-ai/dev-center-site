@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-02",
-   "active_now": false,
+   "active_now": true,
    "commits": 74,
    "timeline": [
     {
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2098,7 +2098,7 @@
  ],
  "data_at": "2026-11-03T16:08",
  "active_projects": [
-  "cgv-bot",
+  "ai-academy",
   "upbit-auto-bot"
  ]
 }
