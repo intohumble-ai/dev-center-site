@@ -1,14 +1,24 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
-   "commits": 74,
+   "active_now": true,
+   "commits": 75,
    "timeline": [
+    {
+     "ts": "2026-11-04T01:49",
+     "tool": "claude",
+     "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T01:43",
+     "tool": "git",
+     "title": "chore: 10/28 이후 작업 폴더 상태 스냅숏(서비스 중인 코드 그대로 기록)"
+    },
     {
      "ts": "2026-11-04T01:18",
      "tool": "claude",
@@ -58,16 +68,6 @@
      "ts": "2026-10-28T10:33",
      "tool": "git",
      "title": "feat(MM-1 ④~⑥): 학생 화면 6장·원장 검토함·번호 발급·성장(레벨·배지·퀘스트)·문지기 + 개인정보·사진 정리 등록"
-    },
-    {
-     "ts": "2026-10-28T10:17",
-     "tool": "git",
-     "title": "feat(MM-1 ①~③): MATH MATE 학생 질문 — 데이터·번호 입장·학생 세션·질문 엔진(가짜 실행기)·힌트 사다리·정답·XP·재도전"
-    },
-    {
-     "ts": "2026-10-28T10:07",
-     "tool": "git",
-     "title": "test(W1 재감사): 가짜 전화번호를 조각으로 — 보안 정적 검사 T12 오탐 방지"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -356,19 +356,14 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-04",
+   "last_day": "2026-11-01",
    "active_now": true,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-11-04T01:39",
-     "tool": "claude",
-     "title": "AI학원 전체 분석 및 평가"
-    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -1897,10 +1892,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T01:39",
+   "ts": "2026-11-04T01:49",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
-   "project": "upbit-auto-bot"
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T01:43",
+   "tool": "git",
+   "title": "chore: 10/28 이후 작업 폴더 상태 스냅숏(서비스 중인 코드 그대로 기록)",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-11-04T01:18",
@@ -2075,16 +2076,12 @@
    "tool": "git",
    "title": "test(W1 #1): S10 문체 규칙 테스트를 '바뀐 학생만 새 초안' 규칙에 맞춤",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-27T23:59",
-   "tool": "git",
-   "title": "feat(W1): 학부모 피드백 빠른 작성 — 표 4개(비파괴 마이그레이션)·이름 토큰화 LLM 생성(동시 3)·다시 쓰기·복사·말투 학습·설정",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T01:39",
+ "data_at": "2026-11-04T01:49",
  "active_projects": [
+  "ai-academy",
+  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
