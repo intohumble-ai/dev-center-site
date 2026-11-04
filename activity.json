@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 125,
+   "commits": 127,
    "timeline": [
     {
-     "ts": "2026-11-04T19:35",
+     "ts": "2026-11-04T19:46",
+     "tool": "git",
+     "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: "
+    },
+    {
+     "ts": "2026-11-04T19:46",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T19:37",
+     "tool": "git",
+     "title": "fix(R4 MM 4차 감사): 결정적 누출 검사 — 값 뒤 풀이·단위 괄호, 굵게·코드 표시, '=' 뒤 줄바꿈, '7이요/7일 거예요/7이겠"
     },
     {
      "ts": "2026-11-04T19:25",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T18:19",
      "tool": "git",
      "title": "fix(r3 5차 감사 P1): [약속 아님] 표시를 operation_tasks 대신 ittive_meta 에 — 업무 근거(taskConte"
-    },
-    {
-     "ts": "2026-11-04T18:08",
-     "tool": "git",
-     "title": "fix(r3): 첫 화면 약속 후보 줄은 '가능성 높은' 후보만(다짐·계획 문장 15개 소음 방지, 나머지는 학생 화면)"
-    },
-    {
-     "ts": "2026-11-04T18:07",
-     "tool": "git",
-     "title": "feat(r3): 보낸 글 약속 자동 등록 없앰 → 학생 화면 '보낸 글 속 약속 후보'(넣기/약속 아님) + 수업 전 카드 한 줄"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T19:35",
+   "ts": "2026-11-04T19:46",
+   "tool": "git",
+   "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T19:46",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T19:37",
+   "tool": "git",
+   "title": "fix(R4 MM 4차 감사): 결정적 누출 검사 — 값 뒤 풀이·단위 괄호, 굵게·코드 표시, '=' 뒤 줄바꿈, '7이요/7일 거예요/7이겠",
    "project": "ai-academy"
   },
   {
@@ -2105,16 +2117,12 @@
    "tool": "git",
    "title": "docs(R2 측정): 개선 후 재측정 결과(11/2, 2회, 짝 비교)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T03:58",
-   "tool": "git",
-   "title": "fix(R2 감사): 못 푼 문제 훑기 기간 하한·개수 상한·시험 계정 제외·렌더 중 쓰기 제거(P1), 다시 쓰기 보낸 글 차단 테스트(P2-",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T19:35",
+ "data_at": "2026-11-04T19:46",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
