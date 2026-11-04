@@ -10,6 +10,21 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-04T23:58",
+     "tool": "git",
+     "title": "docs: record verified academy upgrade and live activation"
+    },
+    {
+     "ts": "2026-11-04T23:53",
+     "tool": "git",
+     "title": "test: verify post-answer dialogue and next-lesson selection"
+    },
+    {
+     "ts": "2026-11-04T23:50",
+     "tool": "git",
+     "title": "test: target editable fields by their accessible roles"
+    },
+    {
      "ts": "2026-11-04T23:47",
      "tool": "git",
      "title": "fix: carry lesson actions into lazy tools and allow reasoning after a correct an"
@@ -53,21 +68,6 @@
      "ts": "2026-11-04T23:23",
      "tool": "git",
      "title": "feat: connect relevant student memories and practical writing choices"
-    },
-    {
-     "ts": "2026-11-04T23:15",
-     "tool": "git",
-     "title": "feat: reserve flexible staff for later demand when choosing assignments"
-    },
-    {
-     "ts": "2026-11-04T23:11",
-     "tool": "git",
-     "title": "feat: turn exam observations into next-lesson coaching and guided practice"
-    },
-    {
-     "ts": "2026-11-04T22:03",
-     "tool": "claude",
-     "title": "전체 작업 진행"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1897,6 +1897,24 @@
  },
  "feed": [
   {
+   "ts": "2026-11-04T23:58",
+   "tool": "git",
+   "title": "docs: record verified academy upgrade and live activation",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:53",
+   "tool": "git",
+   "title": "test: verify post-answer dialogue and next-lesson selection",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:50",
+   "tool": "git",
+   "title": "test: target editable fields by their accessible roles",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-04T23:47",
    "tool": "git",
    "title": "fix: carry lesson actions into lazy tools and allow reasoning after a correct an",
@@ -1975,27 +1993,9 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T21:59",
-   "tool": "git",
-   "title": "test(R3 감사 P3 후속): 삭제 조건 경계 — 깨진 JSON dismissed 키·다른 접두 키 보존(뮤테이션 M2·M3 잡힘)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T21:51",
-   "tool": "git",
-   "title": "fix(R3·R4 감사 P3): 학생 삭제 시 [약속 아님] 표시 함께 삭제 · 참/거짓 정답은 심판만 · 약속 후보 500개 넘는 키 조회 테",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T21:11",
-   "tool": "git",
-   "title": "docs(R4·R5): 실서비스 반영·실작동 확인 기록",
    "project": "ai-academy"
   },
   {
@@ -2047,9 +2047,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-04T23:47",
+ "data_at": "2026-11-04T23:58",
  "active_projects": [
-  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
