@@ -7,17 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 124,
+   "commits": 125,
    "timeline": [
+    {
+     "ts": "2026-11-04T19:35",
+     "tool": "claude",
+     "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T19:25",
+     "tool": "git",
+     "title": "fix(R4 MM 심판): 공개된 힌트에도 있는 내용은 다음 힌트 누출 아님·애매하면 false(최종 답은 애매하면 막음 유지) — 실측 거짓 "
+    },
     {
      "ts": "2026-11-04T19:25",
      "tool": "git",
      "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다"
-    },
-    {
-     "ts": "2026-11-04T19:17",
-     "tool": "claude",
-     "title": "AI학원 전체 분석 및 평가"
     },
     {
      "ts": "2026-11-04T19:16",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T18:07",
      "tool": "git",
      "title": "feat(r3): 보낸 글 약속 자동 등록 없앰 → 학생 화면 '보낸 글 속 약속 후보'(넣기/약속 아님) + 수업 전 카드 한 줄"
-    },
-    {
-     "ts": "2026-11-04T17:51",
-     "tool": "git",
-     "title": "fix(r3 3차 감사): 보고·안내 약속 자동 등록을 '할 일을 마친 뒤 알림' 구조로 재설계 — 지난 결과·글 안 내용·계획 표지 우선 제외"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,15 +1897,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T19:25",
-   "tool": "git",
-   "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다",
+   "ts": "2026-11-04T19:35",
+   "tool": "claude",
+   "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T19:17",
-   "tool": "claude",
-   "title": "AI학원 전체 분석 및 평가",
+   "ts": "2026-11-04T19:25",
+   "tool": "git",
+   "title": "fix(R4 MM 심판): 공개된 힌트에도 있는 내용은 다음 힌트 누출 아님·애매하면 false(최종 답은 애매하면 막음 유지) — 실측 거짓 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T19:25",
+   "tool": "git",
+   "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다",
    "project": "ai-academy"
   },
   {
@@ -2107,9 +2113,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T19:25",
+ "data_at": "2026-11-04T19:35",
  "active_projects": [
-  "ai-academy",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
