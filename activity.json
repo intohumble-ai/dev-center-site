@@ -10,6 +10,16 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-04T23:15",
+     "tool": "git",
+     "title": "feat: reserve flexible staff for later demand when choosing assignments"
+    },
+    {
+     "ts": "2026-11-04T23:11",
+     "tool": "git",
+     "title": "feat: turn exam observations into next-lesson coaching and guided practice"
+    },
+    {
      "ts": "2026-11-04T22:03",
      "tool": "claude",
      "title": "전체 작업 진행"
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T20:19",
      "tool": "git",
      "title": "fix(R4 MM 9차 감사 P1·P2): 자모 보기('ㄱ, ㄴ')를 대조할 글자로 · 괄호 보기 여러 답('(가), (나)')은 괄호째 찾기"
-    },
-    {
-     "ts": "2026-11-04T20:10",
-     "tool": "git",
-     "title": "fix(R4 MM 8차 감사 P2): 빈 값·한 글자 한글 값은 글자 그대로 찾지 않음('(가)' 보기에서 모든 답을 막던 오탐) — 심판 몫"
-    },
-    {
-     "ts": "2026-11-04T20:02",
-     "tool": "git",
-     "title": "fix(R4 MM 7차 감사 P1): 정답 값(보기 글)도 같은 괄호 꼴로 정규화('x = 3 (중근)') · 끝말 '로 나와요·아닐까요'"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,6 +1897,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-04T23:15",
+   "tool": "git",
+   "title": "feat: reserve flexible staff for later demand when choosing assignments",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:11",
+   "tool": "git",
+   "title": "feat: turn exam observations into next-lesson coaching and guided practice",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-04T22:03",
    "tool": "claude",
    "title": "전체 작업 진행",
@@ -1981,18 +1993,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T19:37",
-   "tool": "git",
-   "title": "fix(R4 MM 4차 감사): 결정적 누출 검사 — 값 뒤 풀이·단위 괄호, 굵게·코드 표시, '=' 뒤 줄바꿈, '7이요/7일 거예요/7이겠",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T19:25",
-   "tool": "git",
-   "title": "fix(R4 MM 심판): 공개된 힌트에도 있는 내용은 다음 힌트 누출 아님·애매하면 false(최종 답은 애매하면 막음 유지) — 실측 거짓 ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T15:16",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
@@ -2047,6 +2047,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T22:03",
- "active_projects": []
+ "data_at": "2026-11-04T23:15",
+ "active_projects": [
+  "upbit-auto-bot"
+ ]
 }
