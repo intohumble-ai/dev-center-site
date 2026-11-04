@@ -7,12 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 106,
+   "commits": 110,
    "timeline": [
     {
-     "ts": "2026-11-04T17:08",
+     "ts": "2026-11-04T17:17",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T17:14",
+     "tool": "git",
+     "title": "feat(R3 통합): 피드백 생성에 학생 수첩(관리 방침·열린 챙길 것) 연결 + 통합 테스트(고민·내부 메모 비노출)"
+    },
+    {
+     "ts": "2026-11-04T17:12",
+     "tool": "git",
+     "title": "test: 수첩 테스트의 번호 형태를 실행 중 조립(T12)"
+    },
+    {
+     "ts": "2026-11-04T17:10",
+     "tool": "git",
+     "title": "feat(R3 F팀): 지난 피드백과 같은 글 금지 + 이번 달 숙제 누적 + 학생 수첩 입력 자리"
     },
     {
      "ts": "2026-11-04T17:06",
@@ -53,21 +68,6 @@
      "ts": "2026-11-04T05:34",
      "tool": "git",
      "title": "fix(R2 글 모양): 감사4 지적 구조 수리 — 반 공통 일정 옮기기 제거(복사만)·맨 소제목 완전 일치만·콜론 뒤 숫자·마치며 한 줄 보존"
-    },
-    {
-     "ts": "2026-11-04T05:21",
-     "tool": "git",
-     "title": "fix(R2 글 모양): 감사3 지적 수리 — 반 공통 일정 보존·뼈대 후처리 내용 보존/멱등·인사 떼기·뼈대 학습 이름/날짜 가림"
-    },
-    {
-     "ts": "2026-11-04T04:58",
-     "tool": "git",
-     "title": "fix(R2): 학생 본인 일정 누락·보낸 글 반 구분·못 푼 문제 훑기 막힘"
-    },
-    {
-     "ts": "2026-11-04T04:40",
-     "tool": "git",
-     "title": "docs(R2 글 모양): 2차 측정(after-style2) + 근거 문서, 테스트 전화번호 형식 값 제거"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T17:08",
+   "ts": "2026-11-04T17:17",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:14",
+   "tool": "git",
+   "title": "feat(R3 통합): 피드백 생성에 학생 수첩(관리 방침·열린 챙길 것) 연결 + 통합 테스트(고민·내부 메모 비노출)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:12",
+   "tool": "git",
+   "title": "test: 수첩 테스트의 번호 형태를 실행 중 조립(T12)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:10",
+   "tool": "git",
+   "title": "feat(R3 F팀): 지난 피드백과 같은 글 금지 + 이번 달 숙제 누적 + 학생 수첩 입력 자리",
    "project": "ai-academy"
   },
   {
@@ -2069,16 +2087,11 @@
    "tool": "git",
    "title": "chore: 10/28 이후 작업 폴더 상태 스냅숏(서비스 중인 코드 그대로 기록)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T01:18",
-   "tool": "claude",
-   "title": "ai 학원 페이블 5.1 기능 아이디어",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T17:08",
+ "data_at": "2026-11-04T17:17",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
