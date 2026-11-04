@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-05",
    "active_now": true,
-   "commits": 48,
+   "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T02:45",
+     "ts": "2026-11-05T02:56",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T02:55",
+     "tool": "git",
+     "title": "fix(MM ○○쌤 3차 감사): 재도전·쌍둥이 정답 키는 20개 상한에서 자르지 않음 · 사칭 뒷조건 '듯' · 남은 미탐 문서"
     },
     {
      "ts": "2026-11-05T02:45",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:32",
      "tool": "git",
      "title": "test: scope twin input checks to the opened practice card"
-    },
-    {
-     "ts": "2026-11-04T23:32",
-     "tool": "git",
-     "title": "test: isolate AI limits from local settings and cover twin exposure"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T02:45",
+   "ts": "2026-11-05T02:56",
    "tool": "claude",
    "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T02:55",
+   "tool": "git",
+   "title": "fix(MM ○○쌤 3차 감사): 재도전·쌍둥이 정답 키는 20개 상한에서 자르지 않음 · 사칭 뒷조건 '듯' · 남은 미탐 문서",
    "project": "ai-academy"
   },
   {
@@ -1987,30 +1993,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T23:23",
-   "tool": "git",
-   "title": "feat: connect relevant student memories and practical writing choices",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T23:15",
-   "tool": "git",
-   "title": "feat: reserve flexible staff for later demand when choosing assignments",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T23:11",
-   "tool": "git",
-   "title": "feat: turn exam observations into next-lesson coaching and guided practice",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T22:02",
-   "tool": "git",
-   "title": "docs(R3 P3): 실서비스 반영·실작동 확인 기록",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
@@ -2045,12 +2027,29 @@
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T19:23",
+   "tool": "claude",
+   "title": "Tailscale work3 링크 reconnect 문제",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-11-01T18:57",
+   "tool": "claude",
+   "title": "CGV봇 환불 현황",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T17:40",
+   "tool": "git",
+   "title": "fix(cgv): 앱 직접 환불 표 자동 인식(-999) + GET 토큰 갱신으로 30분 거짓 로그인 경보 제거",
+   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T02:45",
+ "data_at": "2026-11-05T02:56",
  "active_projects": [
   "ai-academy",
-  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
