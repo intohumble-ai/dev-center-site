@@ -7,17 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 127,
+   "commits": 128,
    "timeline": [
+    {
+     "ts": "2026-11-04T19:56",
+     "tool": "claude",
+     "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T19:53",
+     "tool": "git",
+     "title": "fix(R4 MM 6차 감사 P1·P2): 누출 검사를 괄호 두 꼴(경계 표시·지움) 모두로 — 이전보다 덜 막지 않게 구조적으로 보장, 문제 "
+    },
     {
      "ts": "2026-11-04T19:46",
      "tool": "git",
      "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: "
-    },
-    {
-     "ts": "2026-11-04T19:46",
-     "tool": "claude",
-     "title": "AI학원 전체 분석 및 평가"
     },
     {
      "ts": "2026-11-04T19:37",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T18:28",
      "tool": "git",
      "title": "fix(r3 6차 감사 P3): [약속 아님] 동시 두 번 눌러도 500 안 나게 upsert"
-    },
-    {
-     "ts": "2026-11-04T18:19",
-     "tool": "git",
-     "title": "fix(r3 5차 감사 P1): [약속 아님] 표시를 operation_tasks 대신 ittive_meta 에 — 업무 근거(taskConte"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1897,15 +1897,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T19:46",
+   "ts": "2026-11-04T19:56",
+   "tool": "claude",
+   "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T19:53",
    "tool": "git",
-   "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: ",
+   "title": "fix(R4 MM 6차 감사 P1·P2): 누출 검사를 괄호 두 꼴(경계 표시·지움) 모두로 — 이전보다 덜 막지 않게 구조적으로 보장, 문제 ",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-04T19:46",
-   "tool": "claude",
-   "title": "AI학원 전체 분석 및 평가",
+   "tool": "git",
+   "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: ",
    "project": "ai-academy"
   },
   {
@@ -2111,18 +2117,11 @@
    "tool": "git",
    "title": "docs(R2): 실서비스 반영·실작동 확인 기록",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T04:01",
-   "tool": "git",
-   "title": "docs(R2 측정): 개선 후 재측정 결과(11/2, 2회, 짝 비교)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T19:46",
+ "data_at": "2026-11-04T19:56",
  "active_projects": [
   "ai-academy",
-  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
