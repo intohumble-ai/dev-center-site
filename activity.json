@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 116,
+   "commits": 117,
    "timeline": [
     {
-     "ts": "2026-11-04T18:22",
+     "ts": "2026-11-04T18:33",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T18:28",
+     "tool": "git",
+     "title": "fix(r3 6차 감사 P3): [약속 아님] 동시 두 번 눌러도 500 안 나게 upsert"
     },
     {
      "ts": "2026-11-04T18:19",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T17:06",
      "tool": "git",
      "title": "feat(R3 N 학생 수첩): 챙길 것(operation_tasks)·약속 자동 등록·학부모 대화 붙여넣기·관리 방침/고민 칸·내부 메모 AI"
-    },
-    {
-     "ts": "2026-11-04T17:04",
-     "tool": "git",
-     "title": "test: 시험일 지난 시한폭탄 테스트 시계 고정·출결 테스트의 번호 형태를 실행 중 조립(T12)"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T18:22",
+   "ts": "2026-11-04T18:33",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T18:28",
+   "tool": "git",
+   "title": "fix(r3 6차 감사 P3): [약속 아님] 동시 두 번 눌러도 500 안 나게 upsert",
    "project": "ai-academy"
   },
   {
@@ -2093,17 +2099,10 @@
    "tool": "git",
    "title": "feat(R2 G팀): 학부모 피드백 2단계 — 회의 채택 11~15 + 월 한도 마무리 + 시험 자동 끄기 + 메모 나누기 시간 제한·재시도 ",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T02:52",
-   "tool": "git",
-   "title": "feat(R2 측정): 학부모 피드백 생성기 실측 도구(eval-feedback) + 11/2 기준선",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T18:22",
+ "data_at": "2026-11-04T18:33",
  "active_projects": [
-  "ai-academy",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
