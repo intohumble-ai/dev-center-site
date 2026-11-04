@@ -5,10 +5,15 @@
    "sessions_claude": 6,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-04",
+   "last_day": "2026-11-05",
    "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-05T01:39",
+     "tool": "claude",
+     "title": "전체 작업 진행"
+    },
     {
      "ts": "2026-11-04T23:58",
      "tool": "git",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:23",
      "tool": "git",
      "title": "feat: connect student thinking to tutoring and unify learning progress"
-    },
-    {
-     "ts": "2026-11-04T23:23",
-     "tool": "git",
-     "title": "feat: connect relevant student memories and practical writing choices"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1897,6 +1897,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-05T01:39",
+   "tool": "claude",
+   "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-04T23:58",
    "tool": "git",
    "title": "docs: record verified academy upgrade and live activation",
@@ -1981,12 +1987,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T22:03",
-   "tool": "claude",
-   "title": "전체 작업 진행",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T22:02",
    "tool": "git",
    "title": "docs(R3 P3): 실서비스 반영·실작동 확인 기록",
@@ -2047,8 +2047,9 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-04T23:58",
+ "data_at": "2026-11-05T01:39",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
