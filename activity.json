@@ -10,7 +10,7 @@
    "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-05T02:14",
+     "ts": "2026-11-05T02:20",
      "tool": "claude",
      "title": "전체 작업 진행"
     },
@@ -1897,7 +1897,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T02:14",
+   "ts": "2026-11-05T02:20",
    "tool": "claude",
    "title": "전체 작업 진행",
    "project": "ai-academy"
@@ -2047,7 +2047,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T02:14",
+ "data_at": "2026-11-05T02:20",
  "active_projects": [
   "ai-academy",
   "upbit-auto-bot"
