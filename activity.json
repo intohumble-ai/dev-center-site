@@ -7,12 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 102,
+   "commits": 106,
    "timeline": [
     {
-     "ts": "2026-11-04T16:51",
+     "ts": "2026-11-04T17:08",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T17:06",
+     "tool": "git",
+     "title": "feat(R3 N 학생 수첩): 챙길 것(operation_tasks)·약속 자동 등록·학부모 대화 붙여넣기·관리 방침/고민 칸·내부 메모 AI"
+    },
+    {
+     "ts": "2026-11-04T17:04",
+     "tool": "git",
+     "title": "test: 시험일 지난 시한폭탄 테스트 시계 고정·출결 테스트의 번호 형태를 실행 중 조립(T12)"
+    },
+    {
+     "ts": "2026-11-04T17:00",
+     "tool": "git",
+     "title": "feat(R3 출결 메시지): 학부모 피드백 화면 상단 '출결 메시지 만들기' 버튼"
     },
     {
      "ts": "2026-11-04T06:03",
@@ -53,21 +68,6 @@
      "ts": "2026-11-04T04:40",
      "tool": "git",
      "title": "docs(R2 글 모양): 2차 측정(after-style2) + 근거 문서, 테스트 전화번호 형식 값 제거"
-    },
-    {
-     "ts": "2026-11-04T04:24",
-     "tool": "git",
-     "title": "docs(R2 글 모양): 1차 측정 결과(after-style1, 79b9d40)"
-    },
-    {
-     "ts": "2026-11-04T04:24",
-     "tool": "git",
-     "title": "fix(R2 글 모양): 지연 사유 포장 금지·요일 일정 옮겨 붙이기 금지·반 공통 남의 일정 금지·감점 원인 구분 계획 + 테스트"
-    },
-    {
-     "ts": "2026-11-04T04:11",
-     "tool": "git",
-     "title": "feat(R2 글 모양): 보낸 글에서 뼈대 학습(번호 소제목·한 줄 한 문장·마치며·제목줄) + 메모 내부 표기 풀이 + 지난 점수 해석 위주"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T16:51",
+   "ts": "2026-11-04T17:08",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:06",
+   "tool": "git",
+   "title": "feat(R3 N 학생 수첩): 챙길 것(operation_tasks)·약속 자동 등록·학부모 대화 붙여넣기·관리 방침/고민 칸·내부 메모 AI",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:04",
+   "tool": "git",
+   "title": "test: 시험일 지난 시한폭탄 테스트 시계 고정·출결 테스트의 번호 형태를 실행 중 조립(T12)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:00",
+   "tool": "git",
+   "title": "feat(R3 출결 메시지): 학부모 피드백 화면 상단 '출결 메시지 만들기' 버튼",
    "project": "ai-academy"
   },
   {
@@ -2057,17 +2075,10 @@
    "tool": "claude",
    "title": "ai 학원 페이블 5.1 기능 아이디어",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-03T16:08",
-   "tool": "claude",
-   "title": "작업 내용 손실 원인 문의",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-04T16:51",
+ "data_at": "2026-11-04T17:08",
  "active_projects": [
-  "ai-academy",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
