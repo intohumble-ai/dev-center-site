@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 45,
+   "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-04T21:42",
+     "ts": "2026-11-04T21:52",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-04T21:51",
+     "tool": "git",
+     "title": "fix(R3·R4 감사 P3): 학생 삭제 시 [약속 아님] 표시 함께 삭제 · 참/거짓 정답은 심판만 · 약속 후보 500개 넘는 키 조회 테"
     },
     {
      "ts": "2026-11-04T21:14",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T19:46",
      "tool": "git",
      "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: "
-    },
-    {
-     "ts": "2026-11-04T19:37",
-     "tool": "git",
-     "title": "fix(R4 MM 4차 감사): 결정적 누출 검사 — 값 뒤 풀이·단위 괄호, 굵게·코드 표시, '=' 뒤 줄바꿈, '7이요/7일 거예요/7이겠"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T21:42",
+   "ts": "2026-11-04T21:52",
    "tool": "claude",
    "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T21:51",
+   "tool": "git",
+   "title": "fix(R3·R4 감사 P3): 학생 삭제 시 [약속 아님] 표시 함께 삭제 · 참/거짓 정답은 심판만 · 약속 후보 500개 넘는 키 조회 테",
    "project": "ai-academy"
   },
   {
@@ -2039,17 +2045,12 @@
    "tool": "claude",
    "title": "AI 학원",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-10-28T13:55",
-   "tool": "git",
-   "title": "fix(MM-1 재재감사 P1·P2·P3): 객관식 채점 뒤집힘·확정 오답 칸 환불·자가 치유 오탐·처리 중 상한 집계",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T21:42",
+ "data_at": "2026-11-04T21:52",
  "active_projects": [
   "ai-academy",
-  "cgv-bot"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
