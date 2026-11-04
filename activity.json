@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 46,
+   "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-04T21:52",
+     "ts": "2026-11-04T22:03",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-04T22:02",
+     "tool": "git",
+     "title": "docs(R3 P3): 실서비스 반영·실작동 확인 기록"
+    },
+    {
+     "ts": "2026-11-04T21:59",
+     "tool": "git",
+     "title": "test(R3 감사 P3 후속): 삭제 조건 경계 — 깨진 JSON dismissed 키·다른 접두 키 보존(뮤테이션 M2·M3 잡힘)"
     },
     {
      "ts": "2026-11-04T21:51",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T20:02",
      "tool": "git",
      "title": "fix(R4 MM 7차 감사 P1): 정답 값(보기 글)도 같은 괄호 꼴로 정규화('x = 3 (중근)') · 끝말 '로 나와요·아닐까요'"
-    },
-    {
-     "ts": "2026-11-04T19:53",
-     "tool": "git",
-     "title": "fix(R4 MM 6차 감사 P1·P2): 누출 검사를 괄호 두 꼴(경계 표시·지움) 모두로 — 이전보다 덜 막지 않게 구조적으로 보장, 문제 "
-    },
-    {
-     "ts": "2026-11-04T19:46",
-     "tool": "git",
-     "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: "
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T21:52",
+   "ts": "2026-11-04T22:03",
    "tool": "claude",
    "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T22:02",
+   "tool": "git",
+   "title": "docs(R3 P3): 실서비스 반영·실작동 확인 기록",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T21:59",
+   "tool": "git",
+   "title": "test(R3 감사 P3 후속): 삭제 조건 경계 — 깨진 JSON dismissed 키·다른 접두 키 보존(뮤테이션 M2·M3 잡힘)",
    "project": "ai-academy"
   },
   {
@@ -1981,18 +1993,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T19:25",
-   "tool": "git",
-   "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T19:16",
-   "tool": "git",
-   "title": "fix(R4 MM 감사): 힌트 모드 이어 묻기 정답 누출 두 겹 검사 — 정규화한 결정적 검사(마침표·여러 답·보기 변형·한글 읽기·단위·전각",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T15:16",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
@@ -2047,10 +2047,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T21:52",
+ "data_at": "2026-11-04T22:03",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
