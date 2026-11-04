@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 111,
+   "commits": 112,
    "timeline": [
     {
-     "ts": "2026-11-04T17:39",
+     "ts": "2026-11-04T17:49",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T17:43",
+     "tool": "git",
+     "title": "fix(r3 재감사 P2): 글 안 연결 문장('아래에 정리해 말씀드리겠습니다' 등)은 약속 자동 등록 안 함 — 기한 표지·후속 확인·조건부 "
     },
     {
      "ts": "2026-11-04T17:35",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T05:52",
      "tool": "git",
      "title": "fix(R2 글 모양): 감사5 후속 — 중복 제거는 문장 통째 일치만(길이 하한 제거), 이름 자리 없는 제목줄은 일반 낱말일 때만 학습"
-    },
-    {
-     "ts": "2026-11-04T05:47",
-     "tool": "git",
-     "title": "fix(R2 글 모양): 감사5 — 짧은 개인 사실 삭제 회귀(통째 일치·25자 이상만 중복 제거)·'○○ 포함 전원' 반 전체 일정 규칙·명단"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T17:39",
+   "ts": "2026-11-04T17:49",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:43",
+   "tool": "git",
+   "title": "fix(r3 재감사 P2): 글 안 연결 문장('아래에 정리해 말씀드리겠습니다' 등)은 약속 자동 등록 안 함 — 기한 표지·후속 확인·조건부 ",
    "project": "ai-academy"
   },
   {
@@ -2087,16 +2093,12 @@
    "tool": "git",
    "title": "feat(R2 r2mm): MATH MATE 결과 잇기 — 오답 한마디·못 푼 문제·한 줄 답장·수업 전 3줄·쌍둥이·중복 묶기·자동 조회 감사",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T01:43",
-   "tool": "git",
-   "title": "chore: 10/28 이후 작업 폴더 상태 스냅숏(서비스 중인 코드 그대로 기록)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T17:39",
+ "data_at": "2026-11-04T17:49",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
