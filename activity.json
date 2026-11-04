@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 6,
+   "sessions_claude": 6,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-04T21:42",
+     "tool": "claude",
+     "title": "전체 작업 진행"
+    },
     {
      "ts": "2026-11-04T21:14",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T19:37",
      "tool": "git",
      "title": "fix(R4 MM 4차 감사): 결정적 누출 검사 — 값 뒤 풀이·단위 괄호, 굵게·코드 표시, '=' 뒤 줄바꿈, '7이요/7일 거예요/7이겠"
-    },
-    {
-     "ts": "2026-11-04T19:25",
-     "tool": "git",
-     "title": "fix(R4 MM 심판): 공개된 힌트에도 있는 내용은 다음 힌트 누출 아님·애매하면 false(최종 답은 애매하면 막음 유지) — 실측 거짓 "
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -356,19 +356,14 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 6,
-   "sessions_claude": 6,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-11-04T21:33",
-     "tool": "claude",
-     "title": "전체 작업 진행"
-    },
     {
      "ts": "2026-11-04T15:16",
      "tool": "claude",
@@ -423,6 +418,11 @@
      "ts": "2026-04-10T13:22",
      "tool": "git",
      "title": "shadow 게이트 수정: 최근 48h + 최소 30건 기준"
+    },
+    {
+     "ts": "2026-04-10T13:11",
+     "tool": "git",
+     "title": "종합 패치: 역발상 전환 매수 전략 + 인프라 안정화 7건"
     }
    ]
   },
@@ -1897,10 +1897,10 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T21:33",
+   "ts": "2026-11-04T21:42",
    "tool": "claude",
    "title": "전체 작업 진행",
-   "project": "upbit-auto-bot"
+   "project": "ai-academy"
   },
   {
    "ts": "2026-11-04T21:14",
@@ -2047,9 +2047,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T21:33",
+ "data_at": "2026-11-04T21:42",
  "active_projects": [
   "ai-academy",
-  "upbit-auto-bot"
+  "cgv-bot"
  ]
 }
