@@ -6,13 +6,18 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-05",
-   "active_now": false,
-   "commits": 45,
+   "active_now": true,
+   "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-05T01:45",
+     "ts": "2026-11-05T02:14",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T02:12",
+     "tool": "git",
+     "title": "feat(MM ○○쌤): 학생 화면 AI 문구 제거 · ○○쌤's 힌트/해설 + 원장 말투 견본 · 개념 설명(문제 안 버튼 + 개념 물어보기)"
     },
     {
      "ts": "2026-11-04T23:58",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:23",
      "tool": "git",
      "title": "feat: guide lessons from preparation through follow-up"
-    },
-    {
-     "ts": "2026-11-04T23:23",
-     "tool": "git",
-     "title": "feat: connect student thinking to tutoring and unify learning progress"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T01:45",
+   "ts": "2026-11-05T02:14",
    "tool": "claude",
    "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T02:12",
+   "tool": "git",
+   "title": "feat(MM ○○쌤): 학생 화면 AI 문구 제거 · ○○쌤's 힌트/해설 + 원장 말투 견본 · 개념 설명(문제 안 버튼 + 개념 물어보기)",
    "project": "ai-academy"
   },
   {
@@ -2039,14 +2045,11 @@
    "tool": "claude",
    "title": "CGV봇 환불 현황",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T17:40",
-   "tool": "git",
-   "title": "fix(cgv): 앱 직접 환불 표 자동 인식(-999) + GET 토큰 갱신으로 30분 거짓 로그인 경보 제거",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T01:45",
- "active_projects": []
+ "data_at": "2026-11-05T02:14",
+ "active_projects": [
+  "ai-academy",
+  "upbit-auto-bot"
+ ]
 }
