@@ -10,6 +10,21 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-04T23:23",
+     "tool": "git",
+     "title": "feat: guide lessons from preparation through follow-up"
+    },
+    {
+     "ts": "2026-11-04T23:23",
+     "tool": "git",
+     "title": "feat: connect student thinking to tutoring and unify learning progress"
+    },
+    {
+     "ts": "2026-11-04T23:23",
+     "tool": "git",
+     "title": "feat: connect relevant student memories and practical writing choices"
+    },
+    {
      "ts": "2026-11-04T23:15",
      "tool": "git",
      "title": "feat: reserve flexible staff for later demand when choosing assignments"
@@ -53,21 +68,6 @@
      "ts": "2026-11-04T21:08",
      "tool": "git",
      "title": "feat(R4 MM 심판): 보기 기호 정답 누출/언급 구분 예시(최종 감사 P3 — 기호 정답은 심판 한 겹)"
-    },
-    {
-     "ts": "2026-11-04T21:01",
-     "tool": "git",
-     "title": "feat(R4 MM 원장 결정 11-04): 보기 기호 정답('ㄱ, ㄴ'·'(가), (나)'·'(참)')은 결정적 검사에서 빼고 AI 심판만 —"
-    },
-    {
-     "ts": "2026-11-04T20:28",
-     "tool": "git",
-     "title": "fix(R4 MM 10차 감사): 보기 기호 정답('ㄱ, ㄴ'·'(가), (나)')은 결론 문맥(…이 맞아요·답은…·문장 끝)에서 정답 기호 묶"
-    },
-    {
-     "ts": "2026-11-04T20:19",
-     "tool": "git",
-     "title": "fix(R4 MM 9차 감사 P1·P2): 자모 보기('ㄱ, ㄴ')를 대조할 글자로 · 괄호 보기 여러 답('(가), (나)')은 괄호째 찾기"
     }
    ]
   },
@@ -1897,6 +1897,24 @@
  },
  "feed": [
   {
+   "ts": "2026-11-04T23:23",
+   "tool": "git",
+   "title": "feat: guide lessons from preparation through follow-up",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:23",
+   "tool": "git",
+   "title": "feat: connect student thinking to tutoring and unify learning progress",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:23",
+   "tool": "git",
+   "title": "feat: connect relevant student memories and practical writing choices",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-04T23:15",
    "tool": "git",
    "title": "feat: reserve flexible staff for later demand when choosing assignments",
@@ -1975,24 +1993,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T20:02",
-   "tool": "git",
-   "title": "fix(R4 MM 7차 감사 P1): 정답 값(보기 글)도 같은 괄호 꼴로 정규화('x = 3 (중근)') · 끝말 '로 나와요·아닐까요'",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T19:53",
-   "tool": "git",
-   "title": "fix(R4 MM 6차 감사 P1·P2): 누출 검사를 괄호 두 꼴(경계 표시·지움) 모두로 — 이전보다 덜 막지 않게 구조적으로 보장, 문제 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T19:46",
-   "tool": "git",
-   "title": "fix(R4 MM 5차 감사 P1): 한글 괄호를 지우지 않고 경계만 표시(괄호 안 결론 퇴행 8건 수리)·짝 없는 괄호 떼고 대조('(정답: ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T15:16",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
@@ -2047,7 +2047,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T23:15",
+ "data_at": "2026-11-04T23:23",
  "active_projects": [
   "upbit-auto-bot"
  ]
