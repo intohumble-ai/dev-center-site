@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -2048,5 +2048,7 @@
   }
  ],
  "data_at": "2026-11-04T23:58",
- "active_projects": []
+ "active_projects": [
+  "upbit-auto-bot"
+ ]
 }
