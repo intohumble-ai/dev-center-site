@@ -10,7 +10,7 @@
    "commits": 102,
    "timeline": [
     {
-     "ts": "2026-11-04T15:13",
+     "ts": "2026-11-04T15:18",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
     },
@@ -356,14 +356,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-01",
-   "active_now": false,
+   "last_day": "2026-11-04",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-04T15:16",
+     "tool": "claude",
+     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
+    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -1892,10 +1897,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T15:13",
+   "ts": "2026-11-04T15:18",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T15:16",
+   "tool": "claude",
+   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-04T06:03",
@@ -2052,16 +2063,11 @@
    "tool": "claude",
    "title": "작업 내용 손실 원인 문의",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T22:40",
-   "tool": "claude",
-   "title": "최근 작업 목록 정리",
-   "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-04T15:13",
+ "data_at": "2026-11-04T15:19",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
