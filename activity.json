@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 115,
+   "commits": 116,
    "timeline": [
     {
-     "ts": "2026-11-04T18:11",
+     "ts": "2026-11-04T18:22",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T18:19",
+     "tool": "git",
+     "title": "fix(r3 5차 감사 P1): [약속 아님] 표시를 operation_tasks 대신 ittive_meta 에 — 업무 근거(taskConte"
     },
     {
      "ts": "2026-11-04T18:08",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T17:04",
      "tool": "git",
      "title": "test: 시험일 지난 시한폭탄 테스트 시계 고정·출결 테스트의 번호 형태를 실행 중 조립(T12)"
-    },
-    {
-     "ts": "2026-11-04T17:00",
-     "tool": "git",
-     "title": "feat(R3 출결 메시지): 학부모 피드백 화면 상단 '출결 메시지 만들기' 버튼"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T18:11",
+   "ts": "2026-11-04T18:22",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T18:19",
+   "tool": "git",
+   "title": "fix(r3 5차 감사 P1): [약속 아님] 표시를 operation_tasks 대신 ittive_meta 에 — 업무 근거(taskConte",
    "project": "ai-academy"
   },
   {
@@ -2093,16 +2099,11 @@
    "tool": "git",
    "title": "feat(R2 측정): 학부모 피드백 생성기 실측 도구(eval-feedback) + 11/2 기준선",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T02:31",
-   "tool": "git",
-   "title": "fix(R2 G팀): 기존 실패 테스트 12건 원인 수리",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T18:11",
+ "data_at": "2026-11-04T18:22",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
