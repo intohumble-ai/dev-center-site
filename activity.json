@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 117,
+   "commits": 118,
    "timeline": [
     {
-     "ts": "2026-11-04T18:33",
+     "ts": "2026-11-04T18:42",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T18:33",
+     "tool": "git",
+     "title": "docs(R3): 실서비스 반영·실작동 확인 기록"
     },
     {
      "ts": "2026-11-04T18:28",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T17:10",
      "tool": "git",
      "title": "feat(R3 F팀): 지난 피드백과 같은 글 금지 + 이번 달 숙제 누적 + 학생 수첩 입력 자리"
-    },
-    {
-     "ts": "2026-11-04T17:06",
-     "tool": "git",
-     "title": "feat(R3 N 학생 수첩): 챙길 것(operation_tasks)·약속 자동 등록·학부모 대화 붙여넣기·관리 방침/고민 칸·내부 메모 AI"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T18:33",
+   "ts": "2026-11-04T18:42",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T18:33",
+   "tool": "git",
+   "title": "docs(R3): 실서비스 반영·실작동 확인 기록",
    "project": "ai-academy"
   },
   {
@@ -2101,8 +2107,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T18:33",
+ "data_at": "2026-11-04T18:42",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
