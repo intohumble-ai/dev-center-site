@@ -6,9 +6,19 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-04T23:47",
+     "tool": "git",
+     "title": "fix: carry lesson actions into lazy tools and allow reasoning after a correct an"
+    },
+    {
+     "ts": "2026-11-04T23:40",
+     "tool": "git",
+     "title": "fix: finish browser handoffs and serve student dynamic-route assets"
+    },
     {
      "ts": "2026-11-04T23:33",
      "tool": "git",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T22:03",
      "tool": "claude",
      "title": "전체 작업 진행"
-    },
-    {
-     "ts": "2026-11-04T22:02",
-     "tool": "git",
-     "title": "docs(R3 P3): 실서비스 반영·실작동 확인 기록"
-    },
-    {
-     "ts": "2026-11-04T21:59",
-     "tool": "git",
-     "title": "test(R3 감사 P3 후속): 삭제 조건 경계 — 깨진 JSON dismissed 키·다른 접두 키 보존(뮤테이션 M2·M3 잡힘)"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,6 +1897,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-04T23:47",
+   "tool": "git",
+   "title": "fix: carry lesson actions into lazy tools and allow reasoning after a correct an",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:40",
+   "tool": "git",
+   "title": "fix: finish browser handoffs and serve student dynamic-route assets",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-04T23:33",
    "tool": "git",
    "title": "test: distinguish injected score text from normal learning descriptions",
@@ -1987,12 +1999,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T21:08",
-   "tool": "git",
-   "title": "feat(R4 MM 심판): 보기 기호 정답 누출/언급 구분 예시(최종 감사 P3 — 기호 정답은 심판 한 겹)",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T15:16",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
@@ -2039,16 +2045,11 @@
    "tool": "git",
    "title": "fix(cgv): 앱 직접 환불 표 자동 인식(-999) + GET 토큰 갱신으로 30분 거짓 로그인 경보 제거",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-10-31T13:35",
-   "tool": "claude",
-   "title": "AI 학원",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T23:33",
+ "data_at": "2026-11-04T23:47",
  "active_projects": [
-  "ai-academy"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
