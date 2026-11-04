@@ -143,8 +143,8 @@
    ]
   },
   "ai-securities": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 3,
+   "sessions_claude": 3,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-13",
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2066,5 +2066,7 @@
   }
  ],
  "data_at": "2026-11-04T15:19",
- "active_projects": []
+ "active_projects": [
+  "cgv-bot"
+ ]
 }
