@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 133,
+   "commits": 134,
    "timeline": [
     {
-     "ts": "2026-11-04T21:11",
+     "ts": "2026-11-04T21:14",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T21:11",
+     "tool": "git",
+     "title": "docs(R4·R5): 실서비스 반영·실작동 확인 기록"
     },
     {
      "ts": "2026-11-04T21:08",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T19:25",
      "tool": "git",
      "title": "fix(R4 MM 심판): 공개된 힌트에도 있는 내용은 다음 힌트 누출 아님·애매하면 false(최종 답은 애매하면 막음 유지) — 실측 거짓 "
-    },
-    {
-     "ts": "2026-11-04T19:25",
-     "tool": "git",
-     "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T21:11",
+   "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T21:11",
+   "tool": "git",
+   "title": "docs(R4·R5): 실서비스 반영·실작동 확인 기록",
    "project": "ai-academy"
   },
   {
@@ -2111,16 +2117,11 @@
    "tool": "git",
    "title": "fix(R2): 학생 본인 일정 누락·보낸 글 반 구분·못 푼 문제 훑기 막힘",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T04:40",
-   "tool": "git",
-   "title": "docs(R2 글 모양): 2차 측정(after-style2) + 근거 문서, 테스트 전화번호 형식 값 제거",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T21:11",
+ "data_at": "2026-11-04T21:14",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
