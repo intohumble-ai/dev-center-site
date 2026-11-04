@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 122,
+   "commits": 124,
    "timeline": [
     {
-     "ts": "2026-11-04T19:00",
+     "ts": "2026-11-04T19:25",
+     "tool": "git",
+     "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다"
+    },
+    {
+     "ts": "2026-11-04T19:17",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T19:16",
+     "tool": "git",
+     "title": "fix(R4 MM 감사): 힌트 모드 이어 묻기 정답 누출 두 겹 검사 — 정규화한 결정적 검사(마침표·여러 답·보기 변형·한글 읽기·단위·전각"
     },
     {
      "ts": "2026-11-04T18:49",
@@ -58,16 +68,6 @@
      "ts": "2026-11-04T17:51",
      "tool": "git",
      "title": "fix(r3 3차 감사): 보고·안내 약속 자동 등록을 '할 일을 마친 뒤 알림' 구조로 재설계 — 지난 결과·글 안 내용·계획 표지 우선 제외"
-    },
-    {
-     "ts": "2026-11-04T17:43",
-     "tool": "git",
-     "title": "fix(r3 재감사 P2): 글 안 연결 문장('아래에 정리해 말씀드리겠습니다' 등)은 약속 자동 등록 안 함 — 기한 표지·후속 확인·조건부 "
-    },
-    {
-     "ts": "2026-11-04T17:35",
-     "tool": "git",
-     "title": "fix(r3): 감사 지적 수리 — 챙길 것 told/원문만, 약속 자동 등록 좁힘, 등록 실패 격리, 분수 날짜·시점 떼기·카드 30일·메모 "
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T19:00",
+   "ts": "2026-11-04T19:25",
+   "tool": "git",
+   "title": "fix(R4 MM): 누출 심판을 final_leak/next_hint_leak 로 나눔 — 최종 답만 막고 선생님 확인, 다음 힌트 내용은 다",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T19:17",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T19:16",
+   "tool": "git",
+   "title": "fix(R4 MM 감사): 힌트 모드 이어 묻기 정답 누출 두 겹 검사 — 정규화한 결정적 검사(마침표·여러 답·보기 변형·한글 읽기·단위·전각",
    "project": "ai-academy"
   },
   {
@@ -2093,22 +2105,11 @@
    "tool": "git",
    "title": "fix(R2 감사): 못 푼 문제 훑기 기간 하한·개수 상한·시험 계정 제외·렌더 중 쓰기 제거(P1), 다시 쓰기 보낸 글 차단 테스트(P2-",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T03:35",
-   "tool": "git",
-   "title": "fix(R2 G팀): 재감사 P3 — 초안 없는 학생의 같은 보낸 글 재등록도 감사 생략",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T03:31",
-   "tool": "git",
-   "title": "fix(R2 G팀): 콜드 감사 반영 — 이름 끝 1자 호칭 오탐(P1), 만드는 중 보낸 글 등록 경쟁·감사 중복(P2), 채팅 초안 날짜 점",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T19:00",
+ "data_at": "2026-11-04T19:25",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
