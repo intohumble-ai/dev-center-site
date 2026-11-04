@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 129,
+   "commits": 130,
    "timeline": [
     {
-     "ts": "2026-11-04T20:04",
+     "ts": "2026-11-04T20:13",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T20:10",
+     "tool": "git",
+     "title": "fix(R4 MM 8차 감사 P2): 빈 값·한 글자 한글 값은 글자 그대로 찾지 않음('(가)' 보기에서 모든 답을 막던 오탐) — 심판 몫"
     },
     {
      "ts": "2026-11-04T20:02",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T18:48",
      "tool": "git",
      "title": "feat(r5 학부모 연락 한 화면): 학부모 피드백·학부모 연락 메뉴를 '학부모 연락'(/parent-contact) 하나로 — 탭 4개(수업"
-    },
-    {
-     "ts": "2026-11-04T18:33",
-     "tool": "git",
-     "title": "docs(R3): 실서비스 반영·실작동 확인 기록"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T20:04",
+   "ts": "2026-11-04T20:13",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T20:10",
+   "tool": "git",
+   "title": "fix(R4 MM 8차 감사 P2): 빈 값·한 글자 한글 값은 글자 그대로 찾지 않음('(가)' 보기에서 모든 답을 막던 오탐) — 심판 몫",
    "project": "ai-academy"
   },
   {
@@ -2111,16 +2117,11 @@
    "tool": "git",
    "title": "fix(R2 글 모양): 지연 사유 포장 금지·요일 일정 옮겨 붙이기 금지·반 공통 남의 일정 금지·감점 원인 구분 계획 + 테스트",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T04:11",
-   "tool": "git",
-   "title": "feat(R2 글 모양): 보낸 글에서 뼈대 학습(번호 소제목·한 줄 한 문장·마치며·제목줄) + 메모 내부 표기 풀이 + 지난 점수 해석 위주",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T20:04",
+ "data_at": "2026-11-04T20:13",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
