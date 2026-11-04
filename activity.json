@@ -6,9 +6,29 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-04T23:33",
+     "tool": "git",
+     "title": "test: distinguish injected score text from normal learning descriptions"
+    },
+    {
+     "ts": "2026-11-04T23:32",
+     "tool": "git",
+     "title": "test: scope twin input checks to the opened practice card"
+    },
+    {
+     "ts": "2026-11-04T23:32",
+     "tool": "git",
+     "title": "test: isolate AI limits from local settings and cover twin exposure"
+    },
+    {
+     "ts": "2026-11-04T23:30",
+     "tool": "git",
+     "title": "fix: preserve teacher rewrite intent and verify complete classroom workflows"
+    },
     {
      "ts": "2026-11-04T23:23",
      "tool": "git",
@@ -48,26 +68,6 @@
      "ts": "2026-11-04T21:59",
      "tool": "git",
      "title": "test(R3 감사 P3 후속): 삭제 조건 경계 — 깨진 JSON dismissed 키·다른 접두 키 보존(뮤테이션 M2·M3 잡힘)"
-    },
-    {
-     "ts": "2026-11-04T21:51",
-     "tool": "git",
-     "title": "fix(R3·R4 감사 P3): 학생 삭제 시 [약속 아님] 표시 함께 삭제 · 참/거짓 정답은 심판만 · 약속 후보 500개 넘는 키 조회 테"
-    },
-    {
-     "ts": "2026-11-04T21:14",
-     "tool": "claude",
-     "title": "AI학원 전체 분석 및 평가"
-    },
-    {
-     "ts": "2026-11-04T21:11",
-     "tool": "git",
-     "title": "docs(R4·R5): 실서비스 반영·실작동 확인 기록"
-    },
-    {
-     "ts": "2026-11-04T21:08",
-     "tool": "git",
-     "title": "feat(R4 MM 심판): 보기 기호 정답 누출/언급 구분 예시(최종 감사 P3 — 기호 정답은 심판 한 겹)"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,6 +1897,30 @@
  },
  "feed": [
   {
+   "ts": "2026-11-04T23:33",
+   "tool": "git",
+   "title": "test: distinguish injected score text from normal learning descriptions",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:32",
+   "tool": "git",
+   "title": "test: scope twin input checks to the opened practice card",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:32",
+   "tool": "git",
+   "title": "test: isolate AI limits from local settings and cover twin exposure",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T23:30",
+   "tool": "git",
+   "title": "fix: preserve teacher rewrite intent and verify complete classroom workflows",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-04T23:23",
    "tool": "git",
    "title": "feat: guide lessons from preparation through follow-up",
@@ -1969,30 +1993,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T21:01",
-   "tool": "git",
-   "title": "feat(R4 MM 원장 결정 11-04): 보기 기호 정답('ㄱ, ㄴ'·'(가), (나)'·'(참)')은 결정적 검사에서 빼고 AI 심판만 —",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T20:28",
-   "tool": "git",
-   "title": "fix(R4 MM 10차 감사): 보기 기호 정답('ㄱ, ㄴ'·'(가), (나)')은 결론 문맥(…이 맞아요·답은…·문장 끝)에서 정답 기호 묶",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T20:19",
-   "tool": "git",
-   "title": "fix(R4 MM 9차 감사 P1·P2): 자모 보기('ㄱ, ㄴ')를 대조할 글자로 · 괄호 보기 여러 답('(가), (나)')은 괄호째 찾기",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T20:10",
-   "tool": "git",
-   "title": "fix(R4 MM 8차 감사 P2): 빈 값·한 글자 한글 값은 글자 그대로 찾지 않음('(가)' 보기에서 모든 답을 막던 오탐) — 심판 몫",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T15:16",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
@@ -2047,8 +2047,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T23:23",
+ "data_at": "2026-11-04T23:33",
  "active_projects": [
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
