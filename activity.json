@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-04",
    "active_now": true,
-   "commits": 112,
+   "commits": 113,
    "timeline": [
     {
-     "ts": "2026-11-04T17:49",
+     "ts": "2026-11-04T17:56",
      "tool": "claude",
      "title": "AI학원 전체 분석 및 평가"
+    },
+    {
+     "ts": "2026-11-04T17:51",
+     "tool": "git",
+     "title": "fix(r3 3차 감사): 보고·안내 약속 자동 등록을 '할 일을 마친 뒤 알림' 구조로 재설계 — 지난 결과·글 안 내용·계획 표지 우선 제외"
     },
     {
      "ts": "2026-11-04T17:43",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T06:01",
      "tool": "git",
      "title": "fix(R2 글 모양): 최종 감사 P2 — 복사한 반 공통 일정을 생성 재료에서 되살림(오염 문단 제외)·명단 밖 이름 제목줄/소제목 학습 차"
-    },
-    {
-     "ts": "2026-11-04T05:52",
-     "tool": "git",
-     "title": "fix(R2 글 모양): 감사5 후속 — 중복 제거는 문장 통째 일치만(길이 하한 제거), 이름 자리 없는 제목줄은 일반 낱말일 때만 학습"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,9 +1897,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-04T17:49",
+   "ts": "2026-11-04T17:56",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T17:51",
+   "tool": "git",
+   "title": "fix(r3 3차 감사): 보고·안내 약속 자동 등록을 '할 일을 마친 뒤 알림' 구조로 재설계 — 지난 결과·글 안 내용·계획 표지 우선 제외",
    "project": "ai-academy"
   },
   {
@@ -2095,10 +2101,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-04T17:49",
+ "data_at": "2026-11-04T17:56",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
