@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T17:02",
+     "ts": "2026-11-05T17:07",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
     },
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T17:02",
+   "ts": "2026-11-05T17:07",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
@@ -2042,7 +2042,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T17:02",
+ "data_at": "2026-11-05T17:14",
  "active_projects": [
   "ai-academy"
  ]
