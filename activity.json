@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-05",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T03:52",
+     "ts": "2026-11-05T15:30",
      "tool": "claude",
      "title": "전체 작업 진행"
     },
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1897,7 +1897,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T03:52",
+   "ts": "2026-11-05T15:30",
    "tool": "claude",
    "title": "전체 작업 진행",
    "project": "ai-academy"
@@ -2047,8 +2047,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T14:02",
+ "data_at": "2026-11-05T15:30",
  "active_projects": [
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
