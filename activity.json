@@ -10,14 +10,14 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T19:42",
-     "tool": "claude",
-     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
-    },
-    {
-     "ts": "2026-11-05T19:38",
+     "ts": "2026-11-05T19:51",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T19:50",
+     "tool": "claude",
+     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
     },
     {
      "ts": "2026-11-05T17:34",
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1892,15 +1892,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T19:42",
+   "ts": "2026-11-05T19:51",
    "tool": "claude",
-   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "title": "전체 작업 진행",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-05T19:38",
+   "ts": "2026-11-05T19:50",
    "tool": "claude",
-   "title": "전체 작업 진행",
+   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
   },
   {
@@ -2042,9 +2042,10 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T19:42",
+ "data_at": "2026-11-05T19:51",
  "active_projects": [
   "ai-academy",
-  "cgv-bot"
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
