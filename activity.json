@@ -71,80 +71,9 @@
     }
    ]
   },
-  "pentagon-bot": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-05",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-05T12:48",
-     "tool": "claude",
-     "title": "A4f pc 봇 오류 원인 분석"
-    },
-    {
-     "ts": "2026-09-24T16:11",
-     "tool": "git",
-     "title": "fix(order): 7차 콜드감사 P3 정리 — 문맥 누락 경보를 복구 경로 전부로, 설계상 손절 없는 엔진 오경보 제거, 고아 매수는 원 문"
-    },
-    {
-     "ts": "2026-09-24T16:03",
-     "tool": "git",
-     "title": "fix(order): 6차 콜드감사 — 뒤늦게 확정된 매수도 손절가 유지, 차지된 주문번호 중복 매칭 제외, 경보 재시도 백오프"
-    },
-    {
-     "ts": "2026-09-24T15:54",
-     "tool": "git",
-     "title": "fix(order): 5차 콜드감사 — 경보 전송 성공 후에만 표식·사이클 체결확인 스윕·장외 나이 스윕·해제 스크립트 강화"
-    },
-    {
-     "ts": "2026-09-24T15:43",
-     "tool": "git",
-     "title": "fix(order): 4차 콜드감사 — 미결 주문 나이 스윕·매수 진행중 부분체결 미확정·사람 확인 후 종결 경로"
-    },
-    {
-     "ts": "2026-09-24T15:31",
-     "tool": "git",
-     "title": "fix(order): 3차 콜드감사 — 미결 주문 경보 누락 경로 봉쇄·진행중 부분체결 미확정·격리 보정"
-    },
-    {
-     "ts": "2026-09-24T15:17",
-     "tool": "git",
-     "title": "fix(order): 재감사 N1 — 불명확 주문 자동 종결·재발주 제거 → 사람 확인 경보(새 주문 차단 유지)"
-    },
-    {
-     "ts": "2026-09-24T15:08",
-     "tool": "git",
-     "title": "fix(order): 콜드감사 반증 수리 — 불명확 주문 종결·복구 사유 보존·거절키 분리·POST 재전송 금지"
-    },
-    {
-     "ts": "2026-09-24T14:48",
-     "tool": "git",
-     "title": "feat(maint): SPRINT0 A1 — tp1 선기록 오염 포지션용 봇 소유 유지보수 경로(기본 dry-run)"
-    },
-    {
-     "ts": "2026-09-24T14:45",
-     "tool": "git",
-     "title": "fix(drift): SPRINT0 B1 — 대사 판정 상태 5종 + ▮▮변화 감지 증명"
-    },
-    {
-     "ts": "2026-09-24T14:43",
-     "tool": "git",
-     "title": "fix(order,isolation): SPRINT0 A2 접수 오류 5분류 + §2 운영파일 '접근 0'(읽기 포함)"
-    },
-    {
-     "ts": "2026-09-24T14:36",
-     "tool": "git",
-     "title": "fix(tp1): SPRINT0 A1 — tp1 고정 목표 대비 누적 체결, 확정 기록 원자화, 기동복구 사유 보존"
-    }
-   ]
-  },
   "ai-securities": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 2,
+   "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-10-13",
@@ -285,8 +214,8 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 6,
-   "sessions_claude": 6,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
@@ -329,11 +258,6 @@
      "title": "A4f pc 메모리와 용량 소비 봇"
     },
     {
-     "ts": "2026-10-05T19:58",
-     "tool": "claude",
-     "title": "cgv봇 무대인사 감시 제외"
-    },
-    {
      "ts": "2026-10-05T19:42",
      "tool": "git",
      "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
@@ -352,6 +276,11 @@
      "ts": "2026-10-05T16:50",
      "tool": "git",
      "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
+    },
+    {
+     "ts": "2026-10-05T00:51",
+     "tool": "git",
+     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
     }
    ]
   },
@@ -1494,6 +1423,77 @@
      "ts": "2026-09-25T20:06",
      "tool": "git",
      "title": "7차 콜드감사(조건부 PASS) 반영: 명세 R1 상한·재무장 경계 테스트 고정 + suppressed_keys 원소 정리"
+    }
+   ]
+  },
+  "pentagon-bot": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-09-24",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-09-24T16:11",
+     "tool": "git",
+     "title": "fix(order): 7차 콜드감사 P3 정리 — 문맥 누락 경보를 복구 경로 전부로, 설계상 손절 없는 엔진 오경보 제거, 고아 매수는 원 문"
+    },
+    {
+     "ts": "2026-09-24T16:03",
+     "tool": "git",
+     "title": "fix(order): 6차 콜드감사 — 뒤늦게 확정된 매수도 손절가 유지, 차지된 주문번호 중복 매칭 제외, 경보 재시도 백오프"
+    },
+    {
+     "ts": "2026-09-24T15:54",
+     "tool": "git",
+     "title": "fix(order): 5차 콜드감사 — 경보 전송 성공 후에만 표식·사이클 체결확인 스윕·장외 나이 스윕·해제 스크립트 강화"
+    },
+    {
+     "ts": "2026-09-24T15:43",
+     "tool": "git",
+     "title": "fix(order): 4차 콜드감사 — 미결 주문 나이 스윕·매수 진행중 부분체결 미확정·사람 확인 후 종결 경로"
+    },
+    {
+     "ts": "2026-09-24T15:31",
+     "tool": "git",
+     "title": "fix(order): 3차 콜드감사 — 미결 주문 경보 누락 경로 봉쇄·진행중 부분체결 미확정·격리 보정"
+    },
+    {
+     "ts": "2026-09-24T15:17",
+     "tool": "git",
+     "title": "fix(order): 재감사 N1 — 불명확 주문 자동 종결·재발주 제거 → 사람 확인 경보(새 주문 차단 유지)"
+    },
+    {
+     "ts": "2026-09-24T15:08",
+     "tool": "git",
+     "title": "fix(order): 콜드감사 반증 수리 — 불명확 주문 종결·복구 사유 보존·거절키 분리·POST 재전송 금지"
+    },
+    {
+     "ts": "2026-09-24T14:48",
+     "tool": "git",
+     "title": "feat(maint): SPRINT0 A1 — tp1 선기록 오염 포지션용 봇 소유 유지보수 경로(기본 dry-run)"
+    },
+    {
+     "ts": "2026-09-24T14:45",
+     "tool": "git",
+     "title": "fix(drift): SPRINT0 B1 — 대사 판정 상태 5종 + ▮▮변화 감지 증명"
+    },
+    {
+     "ts": "2026-09-24T14:43",
+     "tool": "git",
+     "title": "fix(order,isolation): SPRINT0 A2 접수 오류 5분류 + §2 운영파일 '접근 0'(읽기 포함)"
+    },
+    {
+     "ts": "2026-09-24T14:36",
+     "tool": "git",
+     "title": "fix(tp1): SPRINT0 A1 — tp1 고정 목표 대비 누적 체결, 확정 기록 원자화, 기동복구 사유 보존"
+    },
+    {
+     "ts": "2026-09-24T14:30",
+     "tool": "git",
+     "title": "test(isolation): SPRINT0 §2 — HOME·로그·DB·토큰캐시·fleet-data 격리 + 자식 프로세스 차단막"
     }
    ]
   },
