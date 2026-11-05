@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-06T01:42",
+     "ts": "2026-11-06T01:51",
      "tool": "claude",
      "title": "AI 학원 질문 프로그램 전투력 시스템"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-06T01:42",
+   "ts": "2026-11-06T01:51",
    "tool": "claude",
    "title": "AI 학원 질문 프로그램 전투력 시스템",
    "project": "ai-academy"
@@ -2042,8 +2042,10 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-06T01:42",
+ "data_at": "2026-11-06T01:51",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
