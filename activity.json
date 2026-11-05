@@ -1,8 +1,8 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 6,
-   "sessions_claude": 6,
+   "sessions": 7,
+   "sessions_claude": 7,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-05",
@@ -10,7 +10,12 @@
    "commits": 51,
    "timeline": [
     {
-     "ts": "2026-11-05T15:51",
+     "ts": "2026-11-05T16:02",
+     "tool": "claude",
+     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
+    },
+    {
+     "ts": "2026-11-05T16:00",
      "tool": "claude",
      "title": "전체 작업 진행"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:58",
      "tool": "git",
      "title": "docs: record verified academy upgrade and live activation"
-    },
-    {
-     "ts": "2026-11-04T23:53",
-     "tool": "git",
-     "title": "test: verify post-answer dialogue and next-lesson selection"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -356,19 +356,14 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-05",
-   "active_now": true,
+   "last_day": "2026-11-01",
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-11-05T15:37",
-     "tool": "claude",
-     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
-    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -1897,7 +1892,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T15:51",
+   "ts": "2026-11-05T16:02",
+   "tool": "claude",
+   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T16:00",
    "tool": "claude",
    "title": "전체 작업 진행",
    "project": "ai-academy"
@@ -1925,12 +1926,6 @@
    "tool": "git",
    "title": "feat(MM 11-05 재요청): 학생 화면 '학습 도우미' 안내 제거·○○쌤 1인칭 · 유사문제가 원래 수 재사용/순서 바꿈이면 다시 만들기",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T15:37",
-   "tool": "claude",
-   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
-   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-05T02:57",
@@ -2047,10 +2042,8 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-05T15:51",
+ "data_at": "2026-11-05T16:02",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot",
-  "upbit-auto-bot"
+  "ai-academy"
  ]
 }
