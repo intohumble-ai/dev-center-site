@@ -10,6 +10,11 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-05T16:44",
+     "tool": "claude",
+     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
+    },
+    {
      "ts": "2026-11-05T16:28",
      "tool": "claude",
      "title": "전체 작업 진행"
@@ -23,11 +28,6 @@
      "ts": "2026-11-05T16:25",
      "tool": "git",
      "title": "feat(MM 11-05 원장 재요청): ○○쌤 1인칭·학습 도우미 안내 제거 · 개념 이어 묻기·쌤 요령 · 유사문제 숫자만 바꾸기 차단 · "
-    },
-    {
-     "ts": "2026-11-05T16:24",
-     "tool": "claude",
-     "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
     },
     {
      "ts": "2026-11-05T02:57",
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1892,6 +1892,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-05T16:44",
+   "tool": "claude",
+   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-05T16:28",
    "tool": "claude",
    "title": "전체 작업 진행",
@@ -1907,12 +1913,6 @@
    "ts": "2026-11-05T16:25",
    "tool": "git",
    "title": "feat(MM 11-05 원장 재요청): ○○쌤 1인칭·학습 도우미 안내 제거 · 개념 이어 묻기·쌤 요령 · 유사문제 숫자만 바꾸기 차단 · ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T16:24",
-   "tool": "claude",
-   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
   },
   {
@@ -2042,8 +2042,9 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T16:28",
+ "data_at": "2026-11-05T16:44",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
