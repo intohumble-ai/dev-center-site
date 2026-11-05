@@ -7,42 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-05",
    "active_now": true,
-   "commits": 52,
+   "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T16:23",
+     "ts": "2026-11-05T16:28",
      "tool": "claude",
      "title": "전체 작업 진행"
     },
     {
-     "ts": "2026-11-05T16:21",
+     "ts": "2026-11-05T16:27",
+     "tool": "git",
+     "title": "docs(MM 11-05 2차): 실서비스 반영 기록"
+    },
+    {
+     "ts": "2026-11-05T16:25",
+     "tool": "git",
+     "title": "feat(MM 11-05 원장 재요청): ○○쌤 1인칭·학습 도우미 안내 제거 · 개념 이어 묻기·쌤 요령 · 유사문제 숫자만 바꾸기 차단 · "
+    },
+    {
+     "ts": "2026-11-05T16:24",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
-    },
-    {
-     "ts": "2026-11-05T16:13",
-     "tool": "git",
-     "title": "fix(MM 11-05 감사): 링크 파일 커밋 제외 · 변형 잡기 월 상한 4번 몫 · 비슷함 검사 보기 제외·비율 · 리포트 멈춤/기한 지남"
-    },
-    {
-     "ts": "2026-11-05T15:51",
-     "tool": "git",
-     "title": "feat(MM 나의 성장 11-05 재요청): 나의 수학 리포트(규칙 기반) · 레벨 마크 넘침 · 쉬운 칭호 · XP 규칙 칸 삭제 · 학생 "
-    },
-    {
-     "ts": "2026-11-05T15:51",
-     "tool": "git",
-     "title": "chore(MM 11-05): 안 쓰는 voice-guard 삭제 · 합친 뒤 테스트·문서 정리"
-    },
-    {
-     "ts": "2026-11-05T15:45",
-     "tool": "git",
-     "title": "feat(MM 개념 물어보기 11-05 재요청): 이어 묻기(thread, 8턴) · 쌤 요령(tip) · ○○T 문체 · 예시 버튼·학습 도우"
-    },
-    {
-     "ts": "2026-11-05T15:37",
-     "tool": "git",
-     "title": "feat(MM 11-05 재요청): 학생 화면 '학습 도우미' 안내 제거·○○쌤 1인칭 · 유사문제가 원래 수 재사용/순서 바꿈이면 다시 만들기"
     },
     {
      "ts": "2026-11-05T02:57",
@@ -68,6 +53,21 @@
      "ts": "2026-11-05T02:12",
      "tool": "git",
      "title": "feat(MM ○○쌤): 학생 화면 AI 문구 제거 · ○○쌤's 힌트/해설 + 원장 말투 견본 · 개념 설명(문제 안 버튼 + 개념 물어보기)"
+    },
+    {
+     "ts": "2026-11-04T23:58",
+     "tool": "git",
+     "title": "docs: record verified academy upgrade and live activation"
+    },
+    {
+     "ts": "2026-11-04T23:53",
+     "tool": "git",
+     "title": "test: verify post-answer dialogue and next-lesson selection"
+    },
+    {
+     "ts": "2026-11-04T23:50",
+     "tool": "git",
+     "title": "test: target editable fields by their accessible roles"
     }
    ]
   },
@@ -1892,45 +1892,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T16:23",
+   "ts": "2026-11-05T16:28",
    "tool": "claude",
    "title": "전체 작업 진행",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-05T16:21",
+   "ts": "2026-11-05T16:27",
+   "tool": "git",
+   "title": "docs(MM 11-05 2차): 실서비스 반영 기록",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T16:25",
+   "tool": "git",
+   "title": "feat(MM 11-05 원장 재요청): ○○쌤 1인칭·학습 도우미 안내 제거 · 개념 이어 묻기·쌤 요령 · 유사문제 숫자만 바꾸기 차단 · ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T16:24",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T16:13",
-   "tool": "git",
-   "title": "fix(MM 11-05 감사): 링크 파일 커밋 제외 · 변형 잡기 월 상한 4번 몫 · 비슷함 검사 보기 제외·비율 · 리포트 멈춤/기한 지남",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T15:51",
-   "tool": "git",
-   "title": "feat(MM 나의 성장 11-05 재요청): 나의 수학 리포트(규칙 기반) · 레벨 마크 넘침 · 쉬운 칭호 · XP 규칙 칸 삭제 · 학생 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T15:51",
-   "tool": "git",
-   "title": "chore(MM 11-05): 안 쓰는 voice-guard 삭제 · 합친 뒤 테스트·문서 정리",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T15:45",
-   "tool": "git",
-   "title": "feat(MM 개념 물어보기 11-05 재요청): 이어 묻기(thread, 8턴) · 쌤 요령(tip) · ○○T 문체 · 예시 버튼·학습 도우",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T15:37",
-   "tool": "git",
-   "title": "feat(MM 11-05 재요청): 학생 화면 '학습 도우미' 안내 제거·○○쌤 1인칭 · 유사문제가 원래 수 재사용/순서 바꿈이면 다시 만들기",
    "project": "ai-academy"
   },
   {
@@ -2012,18 +1994,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T23:30",
-   "tool": "git",
-   "title": "fix: preserve teacher rewrite intent and verify complete classroom workflows",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T23:23",
-   "tool": "git",
-   "title": "feat: guide lessons from preparation through follow-up",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
@@ -2040,9 +2010,39 @@
    "tool": "claude",
    "title": "작업 내용 손실 원인 문의",
    "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T22:40",
+   "tool": "claude",
+   "title": "최근 작업 목록 정리",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-11-01T22:25",
+   "tool": "claude",
+   "title": "PC 창 주기적 깜빡임 문제",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T19:23",
+   "tool": "claude",
+   "title": "Tailscale work3 링크 reconnect 문제",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-11-01T18:57",
+   "tool": "claude",
+   "title": "CGV봇 환불 현황",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-01T17:40",
+   "tool": "git",
+   "title": "fix(cgv): 앱 직접 환불 표 자동 인식(-999) + GET 토큰 갱신으로 30분 거짓 로그인 경보 제거",
+   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T16:23",
+ "data_at": "2026-11-05T16:28",
  "active_projects": [
   "ai-academy"
  ]
