@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-05",
    "active_now": true,
-   "commits": 45,
+   "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-05T15:30",
+     "ts": "2026-11-05T15:40",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T15:37",
+     "tool": "git",
+     "title": "feat(MM 11-05 재요청): 학생 화면 '학습 도우미' 안내 제거·○○쌤 1인칭 · 유사문제가 원래 수 재사용/순서 바꿈이면 다시 만들기"
     },
     {
      "ts": "2026-11-05T02:57",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:40",
      "tool": "git",
      "title": "fix: finish browser handoffs and serve student dynamic-route assets"
-    },
-    {
-     "ts": "2026-11-04T23:33",
-     "tool": "git",
-     "title": "test: distinguish injected score text from normal learning descriptions"
     }
    ]
   },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -360,12 +360,12 @@
    "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-04",
-   "active_now": false,
+   "last_day": "2026-11-05",
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-04T15:16",
+     "ts": "2026-11-05T15:37",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
     },
@@ -1897,10 +1897,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T15:30",
+   "ts": "2026-11-05T15:40",
    "tool": "claude",
    "title": "전체 작업 진행",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T15:37",
+   "tool": "git",
+   "title": "feat(MM 11-05 재요청): 학생 화면 '학습 도우미' 안내 제거·○○쌤 1인칭 · 유사문제가 원래 수 재사용/순서 바꿈이면 다시 만들기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T15:37",
+   "tool": "claude",
+   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-05T02:57",
@@ -1999,12 +2011,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T15:16",
-   "tool": "claude",
-   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
-   "project": "upbit-auto-bot"
-  },
-  {
    "ts": "2026-11-04T01:18",
    "tool": "claude",
    "title": "ai 학원 페이블 5.1 기능 아이디어",
@@ -2039,16 +2045,12 @@
    "tool": "claude",
    "title": "CGV봇 환불 현황",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T17:40",
-   "tool": "git",
-   "title": "fix(cgv): 앱 직접 환불 표 자동 인식(-999) + GET 토큰 갱신으로 30분 거짓 로그인 경보 제거",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T15:30",
+ "data_at": "2026-11-05T15:40",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
