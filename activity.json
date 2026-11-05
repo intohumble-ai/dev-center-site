@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2044,7 +2044,6 @@
  ],
  "data_at": "2026-11-05T22:19",
  "active_projects": [
-  "cgv-bot",
   "upbit-auto-bot"
  ]
 }
