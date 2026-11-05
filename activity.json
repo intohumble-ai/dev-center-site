@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T21:38",
+     "ts": "2026-11-05T21:47",
+     "tool": "claude",
+     "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T21:47",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
     },
@@ -18,11 +23,6 @@
      "ts": "2026-11-05T21:06",
      "tool": "git",
      "title": "merge: master(말투 정리 3·기록)"
-    },
-    {
-     "ts": "2026-11-05T21:05",
-     "tool": "claude",
-     "title": "전체 작업 진행"
     },
     {
      "ts": "2026-11-05T21:05",
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-01",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
@@ -1892,7 +1892,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T21:38",
+   "ts": "2026-11-05T21:47",
+   "tool": "claude",
+   "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T21:47",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
@@ -1901,12 +1907,6 @@
    "ts": "2026-11-05T21:06",
    "tool": "git",
    "title": "merge: master(말투 정리 3·기록)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T21:05",
-   "tool": "claude",
-   "title": "전체 작업 진행",
    "project": "ai-academy"
   },
   {
@@ -2042,8 +2042,10 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T21:38",
+ "data_at": "2026-11-05T21:47",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot",
+  "upbit-auto-bot"
  ]
 }
