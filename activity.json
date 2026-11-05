@@ -361,7 +361,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-04",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -1248,7 +1248,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-02",
+   "last_day": "2026-11-05",
    "active_now": false,
    "commits": 15,
    "timeline": []
@@ -2047,8 +2047,6 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T03:52",
- "active_projects": [
-  "upbit-auto-bot"
- ]
+ "data_at": "2026-11-05T14:02",
+ "active_projects": []
 }
