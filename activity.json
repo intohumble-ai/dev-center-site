@@ -10,9 +10,14 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T17:23",
+     "ts": "2026-11-05T17:35",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
+    },
+    {
+     "ts": "2026-11-05T17:34",
+     "tool": "git",
+     "title": "feat(매쓰플랫 연동): 원장 반 학습지 결과 자동 가져오기 · '매쓰플랫 한눈에' 반 화면 · 지금 최신화 버튼 · 피드백 재료 연결"
     },
     {
      "ts": "2026-11-05T17:23",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:53",
      "tool": "git",
      "title": "test: verify post-answer dialogue and next-lesson selection"
-    },
-    {
-     "ts": "2026-11-04T23:50",
-     "tool": "git",
-     "title": "test: target editable fields by their accessible roles"
     }
    ]
   },
@@ -1892,9 +1892,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T17:23",
+   "ts": "2026-11-05T17:35",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T17:34",
+   "tool": "git",
+   "title": "feat(매쓰플랫 연동): 원장 반 학습지 결과 자동 가져오기 · '매쓰플랫 한눈에' 반 화면 · 지금 최신화 버튼 · 피드백 재료 연결",
    "project": "ai-academy"
   },
   {
@@ -1988,12 +1994,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T23:32",
-   "tool": "git",
-   "title": "test: isolate AI limits from local settings and cover twin exposure",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
@@ -2042,7 +2042,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T17:25",
+ "data_at": "2026-11-05T17:35",
  "active_projects": [
   "ai-academy"
  ]
