@@ -7,17 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-05",
    "active_now": true,
-   "commits": 51,
+   "commits": 52,
    "timeline": [
     {
-     "ts": "2026-11-05T16:12",
+     "ts": "2026-11-05T16:23",
+     "tool": "claude",
+     "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T16:21",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
     },
     {
-     "ts": "2026-11-05T16:09",
-     "tool": "claude",
-     "title": "전체 작업 진행"
+     "ts": "2026-11-05T16:13",
+     "tool": "git",
+     "title": "fix(MM 11-05 감사): 링크 파일 커밋 제외 · 변형 잡기 월 상한 4번 몫 · 비슷함 검사 보기 제외·비율 · 리포트 멈춤/기한 지남"
     },
     {
      "ts": "2026-11-05T15:51",
@@ -63,11 +68,6 @@
      "ts": "2026-11-05T02:12",
      "tool": "git",
      "title": "feat(MM ○○쌤): 학생 화면 AI 문구 제거 · ○○쌤's 힌트/해설 + 원장 말투 견본 · 개념 설명(문제 안 버튼 + 개념 물어보기)"
-    },
-    {
-     "ts": "2026-11-04T23:58",
-     "tool": "git",
-     "title": "docs: record verified academy upgrade and live activation"
     }
    ]
   },
@@ -1892,15 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T16:12",
+   "ts": "2026-11-05T16:23",
+   "tool": "claude",
+   "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T16:21",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-05T16:09",
-   "tool": "claude",
-   "title": "전체 작업 진행",
+   "ts": "2026-11-05T16:13",
+   "tool": "git",
+   "title": "fix(MM 11-05 감사): 링크 파일 커밋 제외 · 변형 잡기 월 상한 4번 몫 · 비슷함 검사 보기 제외·비율 · 리포트 멈춤/기한 지남",
    "project": "ai-academy"
   },
   {
@@ -2034,15 +2040,9 @@
    "tool": "claude",
    "title": "작업 내용 손실 원인 문의",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T22:40",
-   "tool": "claude",
-   "title": "최근 작업 목록 정리",
-   "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-05T16:12",
+ "data_at": "2026-11-05T16:23",
  "active_projects": [
   "ai-academy"
  ]
