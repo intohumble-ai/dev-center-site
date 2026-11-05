@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-06T01:23",
+     "ts": "2026-11-06T01:28",
      "tool": "claude",
      "title": "AI 학원 질문 프로그램 전투력 시스템"
     },
@@ -1892,7 +1892,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-06T01:23",
+   "ts": "2026-11-06T01:28",
    "tool": "claude",
    "title": "AI 학원 질문 프로그램 전투력 시스템",
    "project": "ai-academy"
@@ -2042,7 +2042,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-06T01:23",
+ "data_at": "2026-11-06T01:28",
  "active_projects": [
   "ai-academy"
  ]
