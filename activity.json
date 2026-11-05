@@ -7,12 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-05",
    "active_now": true,
-   "commits": 46,
+   "commits": 51,
    "timeline": [
     {
-     "ts": "2026-11-05T15:40",
+     "ts": "2026-11-05T15:51",
      "tool": "claude",
      "title": "전체 작업 진행"
+    },
+    {
+     "ts": "2026-11-05T15:51",
+     "tool": "git",
+     "title": "feat(MM 나의 성장 11-05 재요청): 나의 수학 리포트(규칙 기반) · 레벨 마크 넘침 · 쉬운 칭호 · XP 규칙 칸 삭제 · 학생 "
+    },
+    {
+     "ts": "2026-11-05T15:51",
+     "tool": "git",
+     "title": "chore(MM 11-05): 안 쓰는 voice-guard 삭제 · 합친 뒤 테스트·문서 정리"
+    },
+    {
+     "ts": "2026-11-05T15:45",
+     "tool": "git",
+     "title": "feat(MM 개념 물어보기 11-05 재요청): 이어 묻기(thread, 8턴) · 쌤 요령(tip) · ○○T 문체 · 예시 버튼·학습 도우"
     },
     {
      "ts": "2026-11-05T15:37",
@@ -53,21 +68,6 @@
      "ts": "2026-11-04T23:53",
      "tool": "git",
      "title": "test: verify post-answer dialogue and next-lesson selection"
-    },
-    {
-     "ts": "2026-11-04T23:50",
-     "tool": "git",
-     "title": "test: target editable fields by their accessible roles"
-    },
-    {
-     "ts": "2026-11-04T23:47",
-     "tool": "git",
-     "title": "fix: carry lesson actions into lazy tools and allow reasoning after a correct an"
-    },
-    {
-     "ts": "2026-11-04T23:40",
-     "tool": "git",
-     "title": "fix: finish browser handoffs and serve student dynamic-route assets"
     }
    ]
   },
@@ -1897,9 +1897,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T15:40",
+   "ts": "2026-11-05T15:51",
    "tool": "claude",
    "title": "전체 작업 진행",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T15:51",
+   "tool": "git",
+   "title": "feat(MM 나의 성장 11-05 재요청): 나의 수학 리포트(규칙 기반) · 레벨 마크 넘침 · 쉬운 칭호 · XP 규칙 칸 삭제 · 학생 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T15:51",
+   "tool": "git",
+   "title": "chore(MM 11-05): 안 쓰는 voice-guard 삭제 · 합친 뒤 테스트·문서 정리",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T15:45",
+   "tool": "git",
+   "title": "feat(MM 개념 물어보기 11-05 재요청): 이어 묻기(thread, 8턴) · 쌤 요령(tip) · ○○T 문체 · 예시 버튼·학습 도우",
    "project": "ai-academy"
   },
   {
@@ -2027,27 +2045,9 @@
    "tool": "claude",
    "title": "최근 작업 목록 정리",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T22:25",
-   "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T19:23",
-   "tool": "claude",
-   "title": "Tailscale work3 링크 reconnect 문제",
-   "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T18:57",
-   "tool": "claude",
-   "title": "CGV봇 환불 현황",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T15:40",
+ "data_at": "2026-11-05T15:51",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
