@@ -10,14 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-05T20:45",
+     "ts": "2026-11-05T20:54",
      "tool": "claude",
      "title": "전체 작업 진행"
     },
     {
-     "ts": "2026-11-05T20:38",
+     "ts": "2026-11-05T20:52",
      "tool": "claude",
      "title": "매쓰플랫 학생 데이터 연동 자동 피드백"
+    },
+    {
+     "ts": "2026-11-05T20:49",
+     "tool": "git",
+     "title": "fix(말투 정리): AI 학원 전체 거친 글 수리 — 지도 제안 프롬프트·출력 정리(옛 제안 포함), 공용 쉬운 말 검사(plain-voice"
     },
     {
      "ts": "2026-11-05T17:34",
@@ -63,11 +68,6 @@
      "ts": "2026-11-04T23:58",
      "tool": "git",
      "title": "docs: record verified academy upgrade and live activation"
-    },
-    {
-     "ts": "2026-11-04T23:53",
-     "tool": "git",
-     "title": "test: verify post-answer dialogue and next-lesson selection"
     }
    ]
   },
@@ -1892,15 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-05T20:45",
+   "ts": "2026-11-05T20:54",
    "tool": "claude",
    "title": "전체 작업 진행",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-05T20:38",
+   "ts": "2026-11-05T20:52",
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-05T20:49",
+   "tool": "git",
+   "title": "fix(말투 정리): AI 학원 전체 거친 글 수리 — 지도 제안 프롬프트·출력 정리(옛 제안 포함), 공용 쉬운 말 검사(plain-voice",
    "project": "ai-academy"
   },
   {
@@ -1988,12 +1994,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-04T23:32",
-   "tool": "git",
-   "title": "test: scope twin input checks to the opened practice card",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
@@ -2042,7 +2042,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-05T20:45",
+ "data_at": "2026-11-05T20:54",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
