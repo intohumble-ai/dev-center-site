@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 8,
-   "sessions_claude": 8,
+   "sessions": 9,
+   "sessions_claude": 9,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-06",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-06T17:08",
+     "tool": "claude",
+     "title": "매쓰플랫 수업 전 점검 메시지"
+    },
     {
      "ts": "2026-11-06T01:51",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-05T21:01",
      "tool": "git",
      "title": "fix(말투 정리 3): 학생 기억 패널 해결 라벨·학생 삭제 오류 문구"
-    },
-    {
-     "ts": "2026-11-05T21:00",
-     "tool": "git",
-     "title": "fix(매쓰플랫 2단계): 재감사 메모 반영 — 화면 난이도도 필수/응용/심화(평균 난이도 숫자 제거) · 정답률 표시·생성 경로 시각 테스트 "
     }
    ]
   },
@@ -1892,6 +1892,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-06T17:08",
+   "tool": "claude",
+   "title": "매쓰플랫 수업 전 점검 메시지",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-06T01:51",
    "tool": "claude",
    "title": "AI 학원 질문 프로그램 전투력 시스템",
@@ -2034,14 +2040,10 @@
    "tool": "claude",
    "title": "Tailscale work3 링크 reconnect 문제",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T18:57",
-   "tool": "claude",
-   "title": "CGV봇 환불 현황",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-06T01:51",
- "active_projects": []
+ "data_at": "2026-11-06T17:08",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
