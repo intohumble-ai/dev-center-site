@@ -1,8 +1,8 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 9,
-   "sessions_claude": 9,
+   "sessions": 10,
+   "sessions_claude": 10,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-06",
@@ -10,9 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-06T17:08",
+     "ts": "2026-11-06T17:15",
+     "tool": "claude",
+     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
+     "ts": "2026-11-06T17:09",
      "tool": "claude",
      "title": "매쓰플랫 수업 전 점검 메시지"
+    },
+    {
+     "ts": "2026-11-06T17:09",
+     "tool": "git",
+     "title": "feat(매쓰플랫 수업 전 점검): 텔레그램 메시지 양식 정리 — 한 줄 요약·칸 나눔·이모티콘·점수 낮은 순 색 표시"
     },
     {
      "ts": "2026-11-06T01:51",
@@ -58,16 +68,6 @@
      "ts": "2026-11-05T21:05",
      "tool": "git",
      "title": "merge: master(말투 정리 1·2) 를 매쓰플랫 2단계에 합침 — 성취도 칸 떼기 + 쉬운 말 검사 함께"
-    },
-    {
-     "ts": "2026-11-05T21:02",
-     "tool": "git",
-     "title": "docs: 11-05 말투 정리 반영 기록"
-    },
-    {
-     "ts": "2026-11-05T21:01",
-     "tool": "git",
-     "title": "fix(말투 정리 3): 학생 기억 패널 해결 라벨·학생 삭제 오류 문구"
     }
    ]
   },
@@ -1892,9 +1892,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-06T17:08",
+   "ts": "2026-11-06T17:15",
+   "tool": "claude",
+   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-06T17:09",
    "tool": "claude",
    "title": "매쓰플랫 수업 전 점검 메시지",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-06T17:09",
+   "tool": "git",
+   "title": "feat(매쓰플랫 수업 전 점검): 텔레그램 메시지 양식 정리 — 한 줄 요약·칸 나눔·이모티콘·점수 낮은 순 색 표시",
    "project": "ai-academy"
   },
   {
@@ -2000,12 +2012,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-05T20:04",
-   "tool": "git",
-   "title": "fix(매쓰플랫 2단계·팀 A): 콜드 감사 수리 — 회복 오판·정답률 분모·단계 숫자 표현·칸 떼기·서명 섞임·주간 중복·유형 잘림",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
@@ -2034,15 +2040,9 @@
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T19:23",
-   "tool": "claude",
-   "title": "Tailscale work3 링크 reconnect 문제",
-   "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-06T17:08",
+ "data_at": "2026-11-06T17:15",
  "active_projects": [
   "ai-academy"
  ]
