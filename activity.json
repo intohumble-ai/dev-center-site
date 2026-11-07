@@ -10,19 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T16:44",
+     "ts": "2026-11-07T16:55",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
+     "ts": "2026-11-07T16:45",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-07T16:38",
      "tool": "git",
      "title": "fix(전투력 S3): 재감사 P2 — 몬스터 카드는 문제 원문 완화 없이 한 번 더 정답 검사(\"결국 5가 나와\" 우회 표현 차단)"
-    },
-    {
-     "ts": "2026-11-07T16:34",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-07T16:28",
@@ -1940,21 +1940,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T16:44",
+   "ts": "2026-11-07T16:55",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T16:45",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-07T16:38",
    "tool": "git",
    "title": "fix(전투력 S3): 재감사 P2 — 몬스터 카드는 문제 원문 완화 없이 한 번 더 정답 검사(\"결국 5가 나와\" 우회 표현 차단)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-07T16:34",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
@@ -2090,7 +2090,7 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-07T16:44",
+ "data_at": "2026-11-07T16:55",
  "active_projects": [
   "ai-academy"
  ]
