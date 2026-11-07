@@ -1,8 +1,8 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 10,
-   "sessions_claude": 10,
+   "sessions": 11,
+   "sessions_claude": 11,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-07",
@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T14:37",
+     "ts": "2026-11-07T14:59",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-07T14:57",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-11-06T18:31",
      "tool": "git",
      "title": "fix(말투 학습 2차 재감사): 그대로 쓴 비율에서 점수·데이터 줄·성취도 칸 제외 · 기준선 기록 때 저장(화면은 읽기만) · 자기소개 줄 "
-    },
-    {
-     "ts": "2026-11-06T18:08",
-     "tool": "git",
-     "title": "fix(말투 학습 재감사): 점수판 지표를 '그대로 쓴 비율'+무관 기준선으로 · 통째로 다시 쓴 견본 표시 · 장부 실패/뒤 날짜 짝 시험 ·"
     }
    ]
   },
@@ -285,19 +285,14 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-07",
-   "active_now": true,
+   "last_day": "2026-11-01",
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-11-07T14:34",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
-    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -365,7 +360,12 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-07T14:34",
+     "ts": "2026-11-07T14:59",
+     "tool": "git",
+     "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리"
+    },
+    {
+     "ts": "2026-11-07T14:59",
      "tool": "claude",
      "title": "Codex 최근 프로젝트 작업 내역"
     },
@@ -418,19 +418,14 @@
      "ts": "2026-10-10T11:11",
      "tool": "git",
      "title": "콘텐츠: 자동등록 초안 11개 검토·보강(기능·시행착오·상태, 배지 해제, reviewed 필드) + 엔진 문구 정직화(실가동 1건 성공 후 보"
-    },
-    {
-     "ts": "2026-10-10T10:32",
-     "tool": "git",
-     "title": "테스트: 쉼표·마침표 단독 비금액 단언(선행 단어 없는 경우)"
     }
    ]
   },
   "toss-marketing-center": {
-   "sessions": 2,
+   "sessions": 4,
    "sessions_claude": 2,
-   "sessions_codex": 0,
-   "automated": 0,
+   "sessions_codex": 2,
+   "automated": 1,
    "last_day": "2026-10-26",
    "active_now": false,
    "commits": 15,
@@ -439,6 +434,16 @@
      "ts": "2026-10-26T21:52",
      "tool": "claude",
      "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-15T13:29",
+     "tool": "codex",
+     "title": "새 Local Edge 연결 확인"
+    },
+    {
+     "ts": "2026-10-14T17:40",
+     "tool": "codex",
+     "title": "Edge 탭 목록 읽기"
     },
     {
      "ts": "2026-10-13T01:55",
@@ -484,16 +489,6 @@
      "ts": "2026-10-10T11:20",
      "tool": "git",
      "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
-    },
-    {
-     "ts": "2026-10-10T11:02",
-     "tool": "git",
-     "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)"
-    },
-    {
-     "ts": "2026-10-10T03:44",
-     "tool": "git",
-     "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
     }
    ]
   },
@@ -540,6 +535,54 @@
      "ts": "2026-07-14T02:46",
      "tool": "git",
      "title": "feat: butler-bot Phase 1 (관찰 모드) — 위시리스트 타이밍 집사: 진단카드+진입상태머신(3분할)+가상집행·근거카드+보유관리"
+    }
+   ]
+  },
+  "codex-coinbot-design": {
+   "sessions": 1,
+   "sessions_claude": 0,
+   "sessions_codex": 1,
+   "automated": 0,
+   "last_day": "2026-08-27",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-08-27T22:27",
+     "tool": "codex",
+     "title": "설계하기 수익형 자동 코인봇"
+    }
+   ]
+  },
+  "math-tutor-assistant": {
+   "sessions": 1,
+   "sessions_claude": 0,
+   "sessions_codex": 1,
+   "automated": 0,
+   "last_day": "2026-09-24",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-09-24T22:06",
+     "tool": "codex",
+     "title": "학원 업무 관리 봇 구축"
+    }
+   ]
+  },
+  "codex-remote": {
+   "sessions": 1,
+   "sessions_claude": 0,
+   "sessions_codex": 1,
+   "automated": 0,
+   "last_day": "2026-09-25",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-09-25T19:25",
+     "tool": "codex",
+     "title": "GPT 원격 실행 링크 만들기"
     }
    ]
   },
@@ -1897,22 +1940,28 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T14:37",
+   "ts": "2026-11-07T14:59",
    "tool": "claude",
-   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-07T14:34",
+   "ts": "2026-11-07T14:59",
+   "tool": "git",
+   "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-07T14:59",
    "tool": "claude",
    "title": "Codex 최근 프로젝트 작업 내역",
    "project": "dev-center"
   },
   {
-   "ts": "2026-11-07T14:34",
+   "ts": "2026-11-07T14:57",
    "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
-   "project": "upbit-auto-bot"
+   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-11-07T14:26",
@@ -2047,10 +2096,9 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-07T14:37",
+ "data_at": "2026-11-07T14:59",
  "active_projects": [
   "ai-academy",
-  "dev-center",
-  "upbit-auto-bot"
+  "dev-center"
  ]
 }
