@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T18:23",
+     "ts": "2026-11-07T18:40",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
     },
@@ -356,7 +356,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-11-07",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1940,7 +1940,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T18:23",
+   "ts": "2026-11-07T18:40",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
@@ -2090,9 +2090,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-07T18:23",
+ "data_at": "2026-11-07T18:40",
  "active_projects": [
-  "ai-academy",
-  "dev-center"
+  "ai-academy"
  ]
 }
