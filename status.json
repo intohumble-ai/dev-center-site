@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-07T20:41",
+ "data_at": "2026-11-08T04:45",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -158,9 +158,9 @@
   "fleet-vault": {
    "id": "fleet-vault",
    "log_error": null,
-   "last_commit": "2026-11-07",
+   "last_commit": "2026-11-08",
    "light": "unknown",
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "fusion-v9-coinbot": {
    "id": "fusion-v9-coinbot",
