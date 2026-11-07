@@ -6,18 +6,23 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-07",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T19:01",
+     "ts": "2026-11-07T19:42",
+     "tool": "claude",
+     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
+     "ts": "2026-11-07T19:42",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
-     "ts": "2026-11-07T18:46",
-     "tool": "claude",
-     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+     "ts": "2026-11-07T19:42",
+     "tool": "git",
+     "title": "feat(학부모 피드백): 말투 견본 편당 2,000→4,000자, 묶음 상한 상수 연동"
     },
     {
      "ts": "2026-11-07T17:51",
@@ -63,11 +68,6 @@
      "ts": "2026-11-07T16:34",
      "tool": "git",
      "title": "fix(빠른 피드백·매쓰플랫): 콜드 감사 수리 — 최신화 중 반·날짜 경합 차단, 줄 갱신 상한, 일부 실패 표시·재가져오기, 안내 문구"
-    },
-    {
-     "ts": "2026-11-07T16:28",
-     "tool": "git",
-     "title": "merge: master 9e23c36(매쓰플랫 1단계) 을 전투력 S3 브랜치에 병합 — 충돌 없음, 마이그레이션 순서 ▮▮ → ▮▮"
     }
    ]
   },
@@ -356,11 +356,16 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-11-07",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-07T15:04",
+     "ts": "2026-11-07T19:43",
+     "tool": "git",
+     "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리"
+    },
+    {
+     "ts": "2026-11-07T19:43",
      "tool": "claude",
      "title": "Codex 최근 프로젝트 작업 내역"
     },
@@ -413,11 +418,6 @@
      "ts": "2026-10-10T11:11",
      "tool": "git",
      "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)"
-    },
-    {
-     "ts": "2026-10-10T11:11",
-     "tool": "git",
-     "title": "콘텐츠: 자동등록 초안 11개 검토·보강(기능·시행착오·상태, 배지 해제, reviewed 필드) + 엔진 문구 정직화(실가동 1건 성공 후 보"
     }
    ]
   },
@@ -1940,15 +1940,33 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T19:01",
+   "ts": "2026-11-07T19:43",
+   "tool": "git",
+   "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-07T19:43",
+   "tool": "claude",
+   "title": "Codex 최근 프로젝트 작업 내역",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-07T19:42",
+   "tool": "claude",
+   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T19:42",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-07T18:46",
-   "tool": "claude",
-   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "ts": "2026-11-07T19:42",
+   "tool": "git",
+   "title": "feat(학부모 피드백): 말투 견본 편당 2,000→4,000자, 묶음 상한 상수 연동",
    "project": "ai-academy"
   },
   {
@@ -2012,12 +2030,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-07T15:04",
-   "tool": "claude",
-   "title": "Codex 최근 프로젝트 작업 내역",
-   "project": "dev-center"
-  },
-  {
    "ts": "2026-11-07T14:59",
    "tool": "git",
    "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리",
@@ -2076,20 +2088,11 @@
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T19:23",
-   "tool": "claude",
-   "title": "Tailscale work3 링크 reconnect 문제",
-   "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T18:57",
-   "tool": "claude",
-   "title": "CGV봇 환불 현황",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-07T19:01",
- "active_projects": []
+ "data_at": "2026-11-07T19:43",
+ "active_projects": [
+  "ai-academy",
+  "dev-center"
+ ]
 }
