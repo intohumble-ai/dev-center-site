@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T15:31",
+     "ts": "2026-11-07T15:39",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-07T15:37",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -23,11 +28,6 @@
      "ts": "2026-11-07T15:09",
      "tool": "git",
      "title": "fix(교육뉴스): 콜드 감사 P2·P3 수리 — 이름 가림·동시 실행/오래된 기록 테스트·저장 실패 정리"
-    },
-    {
-     "ts": "2026-11-07T15:05",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-07T15:02",
@@ -356,7 +356,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-11-07",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1940,7 +1940,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T15:31",
+   "ts": "2026-11-07T15:39",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T15:37",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
@@ -1955,12 +1961,6 @@
    "ts": "2026-11-07T15:09",
    "tool": "git",
    "title": "fix(교육뉴스): 콜드 감사 P2·P3 수리 — 이름 가림·동시 실행/오래된 기록 테스트·저장 실패 정리",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-07T15:05",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
@@ -2090,9 +2090,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-07T15:31",
+ "data_at": "2026-11-07T15:39",
  "active_projects": [
-  "ai-academy",
-  "dev-center"
+  "ai-academy"
  ]
 }
