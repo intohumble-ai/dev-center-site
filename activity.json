@@ -10,14 +10,24 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T14:59",
+     "ts": "2026-11-07T15:10",
+     "tool": "claude",
+     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
+     "ts": "2026-11-07T15:05",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
-     "ts": "2026-11-07T14:57",
-     "tool": "claude",
-     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+     "ts": "2026-11-07T15:02",
+     "tool": "git",
+     "title": "fix(전투력 S2): 콜드 감사 P3 수리 — 바쁨 리셋 테스트·dry-run AI 꺼짐·해부 결과 유실 lost"
+    },
+    {
+     "ts": "2026-11-07T14:42",
+     "tool": "git",
+     "title": "feat(전투력 S2): 학생 전투력 Elo·대결 정산·소급 스크립트"
     },
     {
      "ts": "2026-11-07T14:26",
@@ -58,16 +68,6 @@
      "ts": "2026-11-06T22:06",
      "tool": "git",
      "title": "fix(MM 개념 물어보기 오탐): 관련 없는 개념 설명이 다른 문제의 짧은 답·보기 번호와 겹쳐 '답이 들어가서 보여 줄 수 없어'로 막히던 "
-    },
-    {
-     "ts": "2026-11-06T18:52",
-     "tool": "git",
-     "title": "fix(말투 학습 3차 재감사): 메모 되풀이 문장 제외·기준선 커밋 뒤·입력 상한 2,500자·이름 가림·봉투 먼저 떼기·데이터 줄 판정 좁힘"
-    },
-    {
-     "ts": "2026-11-06T18:31",
-     "tool": "git",
-     "title": "fix(말투 학습 2차 재감사): 그대로 쓴 비율에서 점수·데이터 줄·성취도 칸 제외 · 기준선 기록 때 저장(화면은 읽기만) · 자기소개 줄 "
     }
    ]
   },
@@ -360,14 +360,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-07T14:59",
-     "tool": "git",
-     "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리"
+     "ts": "2026-11-07T15:04",
+     "tool": "claude",
+     "title": "Codex 최근 프로젝트 작업 내역"
     },
     {
      "ts": "2026-11-07T14:59",
-     "tool": "claude",
-     "title": "Codex 최근 프로젝트 작업 내역"
+     "tool": "git",
+     "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리"
     },
     {
      "ts": "2026-10-13T01:55",
@@ -1940,9 +1940,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T14:59",
+   "ts": "2026-11-07T15:10",
+   "tool": "claude",
+   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T15:05",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T15:04",
+   "tool": "claude",
+   "title": "Codex 최근 프로젝트 작업 내역",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-07T15:02",
+   "tool": "git",
+   "title": "fix(전투력 S2): 콜드 감사 P3 수리 — 바쁨 리셋 테스트·dry-run AI 꺼짐·해부 결과 유실 lost",
    "project": "ai-academy"
   },
   {
@@ -1952,15 +1970,9 @@
    "project": "dev-center"
   },
   {
-   "ts": "2026-11-07T14:59",
-   "tool": "claude",
-   "title": "Codex 최근 프로젝트 작업 내역",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-07T14:57",
-   "tool": "claude",
-   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "ts": "2026-11-07T14:42",
+   "tool": "git",
+   "title": "feat(전투력 S2): 학생 전투력 Elo·대결 정산·소급 스크립트",
    "project": "ai-academy"
   },
   {
@@ -2066,18 +2078,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-05T22:03",
-   "tool": "git",
-   "title": "fix(말투 정리 4): 원장 화면 영문 제목 10곳 한국어로 · '결재'→'승인' 통일 · 부서 소개 '지금 하는 일' 쉬운 말(마이그레이션)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T21:58",
-   "tool": "git",
-   "title": "test/docs(매쓰플랫 숙제): 감사 메모 반영 — 뺄 말이 네 곳(학부모 줄·원장 화면·점검·상담) 모두 적용되는지 연결 테스트 · 재시도",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-04T21:14",
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
@@ -2096,7 +2096,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-07T14:59",
+ "data_at": "2026-11-07T15:10",
  "active_projects": [
   "ai-academy",
   "dev-center"
