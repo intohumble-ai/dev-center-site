@@ -10,14 +10,24 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-07T17:49",
+     "ts": "2026-11-07T17:57",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-07T17:54",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
     {
+     "ts": "2026-11-07T17:51",
+     "tool": "git",
+     "title": "test(시험대비 누적 노트): 따옴표 변경에 맞춰 기대 문자열 갱신"
+    },
+    {
      "ts": "2026-11-07T17:49",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
+     "tool": "git",
+     "title": "style(시험대비 누적 노트): 린트 react/no-unescaped-entities — 따옴표를 ‘’ 로"
     },
     {
      "ts": "2026-11-07T17:45",
@@ -58,16 +68,6 @@
      "ts": "2026-11-07T16:28",
      "tool": "git",
      "title": "merge: master 9e23c36(매쓰플랫 1단계) 을 전투력 S3 브랜치에 병합 — 충돌 없음, 마이그레이션 순서 ▮▮ → ▮▮"
-    },
-    {
-     "ts": "2026-11-07T16:26",
-     "tool": "git",
-     "title": "fix(전투력 S3): 콜드 감사 P2·P3 수리 — 몬스터 카드 정답 누출 검사·'그대로' 문구 푼 방식별·제목/재도전 안내 조건·성능"
-    },
-    {
-     "ts": "2026-11-07T16:11",
-     "tool": "git",
-     "title": "feat(빠른 피드백): 매쓰플랫 마지막 가져오기 줄 + [메시지 만들기] 전 최신화"
     }
    ]
   },
@@ -1940,15 +1940,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T17:49",
+   "ts": "2026-11-07T17:57",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T17:54",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
   },
   {
+   "ts": "2026-11-07T17:51",
+   "tool": "git",
+   "title": "test(시험대비 누적 노트): 따옴표 변경에 맞춰 기대 문자열 갱신",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-07T17:49",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
+   "tool": "git",
+   "title": "style(시험대비 누적 노트): 린트 react/no-unescaped-entities — 따옴표를 ‘’ 로",
    "project": "ai-academy"
   },
   {
@@ -1997,18 +2009,6 @@
    "ts": "2026-11-07T16:28",
    "tool": "git",
    "title": "merge: master 9e23c36(매쓰플랫 1단계) 을 전투력 S3 브랜치에 병합 — 충돌 없음, 마이그레이션 순서 ▮▮ → ▮▮",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-07T16:26",
-   "tool": "git",
-   "title": "fix(전투력 S3): 콜드 감사 P2·P3 수리 — 몬스터 카드 정답 누출 검사·'그대로' 문구 푼 방식별·제목/재도전 안내 조건·성능",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-07T16:11",
-   "tool": "git",
-   "title": "feat(빠른 피드백): 매쓰플랫 마지막 가져오기 줄 + [메시지 만들기] 전 최신화",
    "project": "ai-academy"
   },
   {
@@ -2090,7 +2090,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-07T17:49",
+ "data_at": "2026-11-07T17:57",
  "active_projects": [
   "ai-academy"
  ]
