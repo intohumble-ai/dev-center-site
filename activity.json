@@ -10,14 +10,14 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-07T14:37",
+     "tool": "claude",
+     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
      "ts": "2026-11-07T14:26",
      "tool": "claude",
      "title": "매쓰플랫 수업 전 점검 메시지"
-    },
-    {
-     "ts": "2026-11-07T14:14",
-     "tool": "claude",
-     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
     {
      "ts": "2026-11-07T04:12",
@@ -285,14 +285,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-01",
-   "active_now": false,
+   "last_day": "2026-11-07",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-07T14:34",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -360,7 +365,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-07T14:27",
+     "ts": "2026-11-07T14:34",
      "tool": "claude",
      "title": "Codex 최근 프로젝트 작업 내역"
     },
@@ -1892,21 +1897,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-07T14:27",
+   "ts": "2026-11-07T14:37",
+   "tool": "claude",
+   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-07T14:34",
    "tool": "claude",
    "title": "Codex 최근 프로젝트 작업 내역",
    "project": "dev-center"
   },
   {
+   "ts": "2026-11-07T14:34",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "upbit-auto-bot"
+  },
+  {
    "ts": "2026-11-07T14:26",
    "tool": "claude",
    "title": "매쓰플랫 수업 전 점검 메시지",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-07T14:14",
-   "tool": "claude",
-   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
   },
   {
@@ -2034,17 +2045,12 @@
    "tool": "claude",
    "title": "작업 내용 손실 원인 문의",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T22:40",
-   "tool": "claude",
-   "title": "최근 작업 목록 정리",
-   "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-07T14:27",
+ "data_at": "2026-11-07T14:37",
  "active_projects": [
   "ai-academy",
-  "dev-center"
+  "dev-center",
+  "upbit-auto-bot"
  ]
 }
