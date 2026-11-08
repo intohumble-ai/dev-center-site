@@ -10,14 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-08T20:03",
+     "ts": "2026-11-08T20:13",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-08T20:12",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
     {
-     "ts": "2026-11-07T20:41",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
+     "ts": "2026-11-08T20:11",
+     "tool": "git",
+     "title": "fix(MATH MATE 학생 화면): 휴대폰 키보드가 입력칸을 가림·새 답/힌트가 위쪽에 생겨 계속 올려야 함"
     },
     {
      "ts": "2026-11-07T19:42",
@@ -63,11 +68,6 @@
      "ts": "2026-11-07T17:45",
      "tool": "git",
      "title": "fix(매쓰플랫 2단계): 콜드 감사 P3 수리 — 숙제 칩·숙제 줄 3줄 안·못 읽은 장 침묵·제출 순서·칩 ▮% 보호·단원 앞글자 매핑 제거"
-    },
-    {
-     "ts": "2026-11-07T17:22",
-     "tool": "git",
-     "title": "feat(매쓰플랫 2단계): 문항 단위 저장·반복 오답 신호·대표 문항·중단원 묶음·과목별 칩 캐시·단원 사전 v0·공용 학습 프로필·수업 전 "
     }
    ]
   },
@@ -1940,15 +1940,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-08T20:03",
+   "ts": "2026-11-08T20:13",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-08T20:12",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-07T20:41",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
+   "ts": "2026-11-08T20:11",
+   "tool": "git",
+   "title": "fix(MATH MATE 학생 화면): 휴대폰 키보드가 입력칸을 가림·새 답/힌트가 위쪽에 생겨 계속 올려야 함",
    "project": "ai-academy"
   },
   {
@@ -2082,15 +2088,9 @@
    "tool": "claude",
    "title": "PC 창 주기적 깜빡임 문제",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-01T19:23",
-   "tool": "claude",
-   "title": "Tailscale work3 링크 reconnect 문제",
-   "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-08T20:03",
+ "data_at": "2026-11-08T20:13",
  "active_projects": [
   "ai-academy"
  ]
