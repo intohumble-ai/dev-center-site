@@ -10,19 +10,29 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-08T21:47",
+     "ts": "2026-11-08T22:02",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
+     "ts": "2026-11-08T22:02",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-08T21:57",
+     "tool": "git",
+     "title": "Merge: MATH MATE ○○쌤의 편지(/mm/letter)"
+    },
+    {
+     "ts": "2026-11-08T21:56",
+     "tool": "git",
+     "title": "feat(MATH MATE): ○○쌤의 편지 — 학생 자기 기록으로 쓰는 ○○쌤 말투 피드백 편지(/mm/letter)"
     },
     {
      "ts": "2026-11-08T21:27",
      "tool": "git",
      "title": "fix(MATH MATE): 검토로 멈춘 질문 다시 살펴보기·사진 다시 찍기, 넓이 단위 표기(cm^2) 오판 수리, 힌트 버튼을 열린 카드 아"
-    },
-    {
-     "ts": "2026-11-08T20:13",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-08T20:11",
@@ -58,16 +68,6 @@
      "ts": "2026-11-07T18:16",
      "tool": "git",
      "title": "feat(매쓰플랫 3단계 A): 지난 글↔이번 결과 이어 쓰기 재료·지도 포인트 사전·필수/응용/심화 주별 추세"
-    },
-    {
-     "ts": "2026-11-07T17:51",
-     "tool": "git",
-     "title": "test(시험대비 누적 노트): 따옴표 변경에 맞춰 기대 문자열 갱신"
-    },
-    {
-     "ts": "2026-11-07T17:49",
-     "tool": "git",
-     "title": "style(시험대비 누적 노트): 린트 react/no-unescaped-entities — 따옴표를 ‘’ 로"
     }
    ]
   },
@@ -1940,21 +1940,33 @@
  },
  "feed": [
   {
-   "ts": "2026-11-08T21:47",
+   "ts": "2026-11-08T22:02",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-08T22:02",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-08T21:57",
+   "tool": "git",
+   "title": "Merge: MATH MATE ○○쌤의 편지(/mm/letter)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-08T21:56",
+   "tool": "git",
+   "title": "feat(MATH MATE): ○○쌤의 편지 — 학생 자기 기록으로 쓰는 ○○쌤 말투 피드백 편지(/mm/letter)",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-08T21:27",
    "tool": "git",
    "title": "fix(MATH MATE): 검토로 멈춘 질문 다시 살펴보기·사진 다시 찍기, 넓이 단위 표기(cm^2) 오판 수리, 힌트 버튼을 열린 카드 아",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-08T20:13",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
@@ -2024,12 +2036,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-07T17:45",
-   "tool": "git",
-   "title": "fix(매쓰플랫 2단계): 콜드 감사 P3 수리 — 숙제 칩·숙제 줄 3줄 안·못 읽은 장 침묵·제출 순서·칩 ▮% 보호·단원 앞글자 매핑 제거",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-07T14:59",
    "tool": "git",
    "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리",
@@ -2082,15 +2088,9 @@
    "tool": "claude",
    "title": "최근 작업 목록 정리",
    "project": "upbit-auto-bot"
-  },
-  {
-   "ts": "2026-11-01T22:25",
-   "tool": "claude",
-   "title": "PC 창 주기적 깜빡임 문제",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-08T21:47",
+ "data_at": "2026-11-08T22:02",
  "active_projects": [
   "ai-academy"
  ]
