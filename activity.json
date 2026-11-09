@@ -10,12 +10,17 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T21:32",
+     "ts": "2026-11-09T21:42",
      "tool": "claude",
      "title": "매쓰플랫 연동 학부모 피드백"
     },
     {
-     "ts": "2026-11-09T21:31",
+     "ts": "2026-11-09T21:38",
+     "tool": "git",
+     "title": "feat(학부모 링크): H 보고서 AI 초안 모듈 — 검토한 피드백 글·질문 기록 요약만 근거, hReportSchema 검사 통과만 저장(1"
+    },
+    {
+     "ts": "2026-11-09T21:37",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-11-09T19:57",
      "tool": "git",
      "title": "fix(scan:demo 안전장치): 표식이 real 이 아니면 언제나 실데이터 행 검사 · 실행 경로(spawn) 테스트 · 빠른 수업 메모 "
-    },
-    {
-     "ts": "2026-11-09T19:57",
-     "tool": "git",
-     "title": "feat(학부모 칸): '지난 수업 이후 해 온 학습지' 줄 — 직전 수업일 다음 날~오늘 제출한 전 배정 학습지(주말 프린트·배치고사 포함, "
     }
    ]
   },
@@ -285,7 +285,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1935,13 +1935,19 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T21:32",
+   "ts": "2026-11-09T21:42",
    "tool": "claude",
    "title": "매쓰플랫 연동 학부모 피드백",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T21:31",
+   "ts": "2026-11-09T21:38",
+   "tool": "git",
+   "title": "feat(학부모 링크): H 보고서 AI 초안 모듈 — 검토한 피드백 글·질문 기록 요약만 근거, hReportSchema 검사 통과만 저장(1",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T21:37",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
@@ -2043,12 +2049,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T12:57",
-   "tool": "git",
-   "title": "fix(MM 내 풀이 확인): 재감사 P2 — XP 한 번만 판정을 엔진 sameProblem(숫자 서명+유사도)으로(숫자만 바꾼 다른 문제는 ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-07T19:43",
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
@@ -2103,9 +2103,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T21:32",
+ "data_at": "2026-11-09T21:42",
  "active_projects": [
-  "ai-academy",
-  "dev-center"
+  "ai-academy"
  ]
 }
