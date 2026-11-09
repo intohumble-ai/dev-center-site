@@ -1,18 +1,33 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 11,
-   "sessions_claude": 11,
+   "sessions": 12,
+   "sessions_claude": 12,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
    "active_now": true,
-   "commits": 45,
+   "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-09T19:46",
+     "ts": "2026-11-09T19:57",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-09T19:57",
+     "tool": "claude",
+     "title": "매쓰플랫 연동 학부모 피드백"
+    },
+    {
+     "ts": "2026-11-09T19:57",
+     "tool": "git",
+     "title": "fix(scan:demo 안전장치): 표식이 real 이 아니면 언제나 실데이터 행 검사 · 실행 경로(spawn) 테스트 · 빠른 수업 메모 "
+    },
+    {
+     "ts": "2026-11-09T19:57",
+     "tool": "git",
+     "title": "feat(학부모 칸): '지난 수업 이후 해 온 학습지' 줄 — 직전 수업일 다음 날~오늘 제출한 전 배정 학습지(주말 프린트·배치고사 포함, "
     },
     {
      "ts": "2026-11-09T18:53",
@@ -53,21 +68,6 @@
      "ts": "2026-11-09T12:48",
      "tool": "git",
      "title": "fix(MM 내 풀이 확인): 통합 감사 — 누출 AI 심판 2겹째(호출 몫 5)·판정 불가는 검토함·끝난 질문 정리·다시 읽기 5분·XP 한 "
-    },
-    {
-     "ts": "2026-11-09T12:27",
-     "tool": "git",
-     "title": "feat(MM): '내 풀이 확인받기' 평가를 리포트 AI 분석·공부 처방 입력에 — 끝까지 푼(재도전 대기 아닌) 문제의 끝난 평가만, blo"
-    },
-    {
-     "ts": "2026-11-09T12:20",
-     "tool": "git",
-     "title": "Merge: 나의 수학 리포트 AI 분석 + ○○쌤의 공부 처방(이름 변경·다음에 풀어 볼 문제) + 하단 탭 '분석'"
-    },
-    {
-     "ts": "2026-11-09T12:19",
-     "tool": "git",
-     "title": "fix(MM): 콜드 감사 P2-1·P2-2·P3 — 쌍둥이 open 행으로 영구 제외 안 함 · 분석 실패해도 성장/원장 화면 정상 · 상한·"
     }
    ]
   },
@@ -1935,9 +1935,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T19:46",
+   "ts": "2026-11-09T19:57",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T19:57",
+   "tool": "claude",
+   "title": "매쓰플랫 연동 학부모 피드백",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T19:57",
+   "tool": "git",
+   "title": "fix(scan:demo 안전장치): 표식이 real 이 아니면 언제나 실데이터 행 검사 · 실행 경로(spawn) 테스트 · 빠른 수업 메모 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T19:57",
+   "tool": "git",
+   "title": "feat(학부모 칸): '지난 수업 이후 해 온 학습지' 줄 — 직전 수업일 다음 날~오늘 제출한 전 배정 학습지(주말 프린트·배치고사 포함, ",
    "project": "ai-academy"
   },
   {
@@ -2037,12 +2055,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T12:06",
-   "tool": "git",
-   "title": "fix(MM): 다시 풀기가 남은 문제는 리포트 AI 분석 입력에서 빼고, 처방엔 그 문제 학생 글을 넣지 않음",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-07T19:43",
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
@@ -2097,7 +2109,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T19:46",
+ "data_at": "2026-11-09T19:57",
  "active_projects": [
   "ai-academy"
  ]
