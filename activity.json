@@ -10,9 +10,14 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T12:20",
+     "ts": "2026-11-09T12:30",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
+    },
+    {
+     "ts": "2026-11-09T12:28",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-08T22:17",
@@ -28,11 +33,6 @@
      "ts": "2026-11-08T22:06",
      "tool": "git",
      "title": "feat(전투력): 학년 '기타'(원장 시험 계정)는 단원 앞머리로 추정한 학년으로 대결·학생 1명 소급"
-    },
-    {
-     "ts": "2026-11-08T22:02",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-08T21:57",
@@ -356,7 +356,7 @@
    "sessions_codex": 0,
    "automated": 5,
    "last_day": "2026-11-07",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1940,9 +1940,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T12:20",
+   "ts": "2026-11-09T12:30",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T12:28",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
@@ -1961,12 +1967,6 @@
    "ts": "2026-11-08T22:06",
    "tool": "git",
    "title": "feat(전투력): 학년 '기타'(원장 시험 계정)는 단원 앞머리로 추정한 학년으로 대결·학생 1명 소급",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-08T22:02",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
@@ -2090,8 +2090,9 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-09T12:20",
+ "data_at": "2026-11-09T12:30",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "dev-center"
  ]
 }
