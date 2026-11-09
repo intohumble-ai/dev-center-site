@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T11:52",
+     "ts": "2026-11-09T12:01",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -1940,7 +1940,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T11:52",
+   "ts": "2026-11-09T12:01",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
@@ -2090,7 +2090,7 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-09T11:52",
+ "data_at": "2026-11-09T12:01",
  "active_projects": [
   "ai-academy"
  ]
