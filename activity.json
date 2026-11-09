@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T15:55",
+     "ts": "2026-11-09T16:07",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -1935,7 +1935,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T15:55",
+   "ts": "2026-11-09T16:07",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
@@ -2097,7 +2097,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T15:55",
+ "data_at": "2026-11-09T16:07",
  "active_projects": [
   "ai-academy"
  ]
