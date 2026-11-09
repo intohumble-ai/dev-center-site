@@ -10,9 +10,24 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T22:22",
+     "ts": "2026-11-09T22:33",
+     "tool": "git",
+     "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따"
+    },
+    {
+     "ts": "2026-11-09T22:33",
      "tool": "claude",
      "title": "매쓰플랫 연동 학부모 피드백"
+    },
+    {
+     "ts": "2026-11-09T22:27",
+     "tool": "git",
+     "title": "feat(학부모 링크): MATH MATE 칸 '선생님이 직접 만든 AI 학습 프로그램' + 입장 링크(MM_PUBLIC_URL, 아이 이름·P"
+    },
+    {
+     "ts": "2026-11-09T22:26",
+     "tool": "git",
+     "title": "fix(H 보고서 AI 초안): 원장 11-09 — 제목은 아이 이름('겸이의 11월 9일'), 한 줄은 숫자 나열 대신 마음을 건드리는 문장"
     },
     {
      "ts": "2026-11-09T22:13",
@@ -53,21 +68,6 @@
      "ts": "2026-11-09T20:58",
      "tool": "git",
      "title": "fix(학부모 칸): 감사 P2 — '보낸 시각' 기준을 보낸 글 등록(결과글·provided·reported_sent)만으로 좁힘. 복사 시각"
-    },
-    {
-     "ts": "2026-11-09T20:52",
-     "tool": "git",
-     "title": "feat(학부모 칸): 그날 밤 낸 숙제도 — 직전 수업일 제출분 중 그날 글을 보낸 시각(복사·보낸 글 등록 중 가장 늦은 때) 뒤에 낸 것은"
-    },
-    {
-     "ts": "2026-11-09T20:49",
-     "tool": "git",
-     "title": "fix(자료 라인업): 고등 겨울방학 교재 4종 원장 설명(11-09) — 이니쉬 기초 개념 / 에센셜 필수 특강(개념+필수) / 시그니처 필수"
-    },
-    {
-     "ts": "2026-11-09T20:46",
-     "tool": "git",
-     "title": "fix(자료 라인업): 일취월장 원장 확정(11-09) — 시험대비(시험 3~2주 전·1주 전), 일→취→월→장 순서대로 + 학생 수준에 맞춰 "
     }
    ]
   },
@@ -285,7 +285,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1935,9 +1935,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T22:22",
+   "ts": "2026-11-09T22:33",
+   "tool": "git",
+   "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T22:33",
    "tool": "claude",
    "title": "매쓰플랫 연동 학부모 피드백",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T22:27",
+   "tool": "git",
+   "title": "feat(학부모 링크): MATH MATE 칸 '선생님이 직접 만든 AI 학습 프로그램' + 입장 링크(MM_PUBLIC_URL, 아이 이름·P",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T22:26",
+   "tool": "git",
+   "title": "fix(H 보고서 AI 초안): 원장 11-09 — 제목은 아이 이름('겸이의 11월 9일'), 한 줄은 숫자 나열 대신 마음을 건드리는 문장",
    "project": "ai-academy"
   },
   {
@@ -2019,24 +2037,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T19:57",
-   "tool": "git",
-   "title": "fix(scan:demo 안전장치): 표식이 real 이 아니면 언제나 실데이터 행 검사 · 실행 경로(spawn) 테스트 · 빠른 수업 메모 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T19:57",
-   "tool": "git",
-   "title": "feat(학부모 칸): '지난 수업 이후 해 온 학습지' 줄 — 직전 수업일 다음 날~오늘 제출한 전 배정 학습지(주말 프린트·배치고사 포함, ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T18:53",
-   "tool": "git",
-   "title": "test: 메인 작업 폴더에서만 실패하던 3건 수리 — .env 의 실 DB 주소 누출·저장소 이름 의존 경로",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-09T18:47",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
@@ -2103,8 +2103,9 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T22:22",
+ "data_at": "2026-11-09T22:33",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "dev-center"
  ]
 }
