@@ -6,18 +6,23 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T18:25",
-     "tool": "claude",
-     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
-    },
-    {
-     "ts": "2026-11-09T17:30",
+     "ts": "2026-11-09T18:53",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-09T18:53",
+     "tool": "git",
+     "title": "test: 메인 작업 폴더에서만 실패하던 3건 수리 — .env 의 실 DB 주소 누출·저장소 이름 의존 경로"
+    },
+    {
+     "ts": "2026-11-09T18:47",
+     "tool": "claude",
+     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
     {
      "ts": "2026-11-09T17:30",
@@ -63,11 +68,6 @@
      "ts": "2026-11-09T12:19",
      "tool": "git",
      "title": "fix(MM): 콜드 감사 P2-1·P2-2·P3 — 쌍둥이 open 행으로 영구 제외 안 함 · 분석 실패해도 성장/원장 화면 정상 · 상한·"
-    },
-    {
-     "ts": "2026-11-09T12:14",
-     "tool": "git",
-     "title": "chore: 내 풀이 확인 마이그레이션 시각을 리포트 분석 표 뒤로(같은 시각 이름 충돌 방지)"
     }
    ]
   },
@@ -1935,15 +1935,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T18:25",
+   "ts": "2026-11-09T18:53",
    "tool": "claude",
-   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
+   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T17:30",
+   "ts": "2026-11-09T18:53",
+   "tool": "git",
+   "title": "test: 메인 작업 폴더에서만 실패하던 3건 수리 — .env 의 실 DB 주소 누출·저장소 이름 의존 경로",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T18:47",
    "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
+   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
   },
   {
@@ -2037,12 +2043,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T12:03",
-   "tool": "git",
-   "title": "wip(MM): 내 풀이 확인받기 1차",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-07T19:43",
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
@@ -2097,6 +2097,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T18:25",
- "active_projects": []
+ "data_at": "2026-11-09T18:53",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
