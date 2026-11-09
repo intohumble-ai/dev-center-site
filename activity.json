@@ -10,12 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T16:45",
+     "ts": "2026-11-09T17:00",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
-     "ts": "2026-11-09T16:43",
+     "ts": "2026-11-09T17:00",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -1935,22 +1935,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T16:47",
-   "tool": "claude",
-   "title": "Codex 최근 프로젝트 작업 내역",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-09T16:45",
+   "ts": "2026-11-09T17:00",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T16:43",
+   "ts": "2026-11-09T17:00",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T16:47",
+   "tool": "claude",
+   "title": "Codex 최근 프로젝트 작업 내역",
+   "project": "dev-center"
   },
   {
    "ts": "2026-11-09T16:28",
@@ -2097,7 +2097,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T16:47",
+ "data_at": "2026-11-09T17:00",
  "active_projects": [
   "ai-academy",
   "dev-center"
