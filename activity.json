@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T22:43",
+     "ts": "2026-11-09T23:39",
      "tool": "claude",
      "title": "매쓰플랫 연동 학부모 피드백"
     },
@@ -285,7 +285,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1935,7 +1935,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T22:43",
+   "ts": "2026-11-09T23:39",
    "tool": "claude",
    "title": "매쓰플랫 연동 학부모 피드백",
    "project": "ai-academy"
@@ -2103,8 +2103,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T22:43",
+ "data_at": "2026-11-09T23:39",
  "active_projects": [
-  "dev-center"
+  "ai-academy"
  ]
 }
