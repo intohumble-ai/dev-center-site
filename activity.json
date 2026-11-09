@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T16:36",
+     "ts": "2026-11-09T16:45",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-09T16:43",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -18,11 +23,6 @@
      "ts": "2026-11-09T16:28",
      "tool": "git",
      "title": "fix(출결 메시지): 원장 확정 양식(11-09) — 형식 기준은 평소 등원 안내(특별 안내 제외), 뼈대 01 수업·02 자료 및 과제·03"
-    },
-    {
-     "ts": "2026-11-09T13:04",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
     },
     {
      "ts": "2026-11-09T12:57",
@@ -284,12 +284,12 @@
    "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-07",
+   "last_day": "2026-11-09",
    "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-07T20:39",
+     "ts": "2026-11-09T16:47",
      "tool": "claude",
      "title": "Codex 최근 프로젝트 작업 내역"
     },
@@ -1935,7 +1935,19 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T16:36",
+   "ts": "2026-11-09T16:47",
+   "tool": "claude",
+   "title": "Codex 최근 프로젝트 작업 내역",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-09T16:45",
+   "tool": "claude",
+   "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T16:43",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
@@ -1944,12 +1956,6 @@
    "ts": "2026-11-09T16:28",
    "tool": "git",
    "title": "fix(출결 메시지): 원장 확정 양식(11-09) — 형식 기준은 평소 등원 안내(특별 안내 제외), 뼈대 01 수업·02 자료 및 과제·03",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T13:04",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
   },
   {
@@ -2037,12 +2043,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-07T20:39",
-   "tool": "claude",
-   "title": "Codex 최근 프로젝트 작업 내역",
-   "project": "dev-center"
-  },
-  {
    "ts": "2026-11-07T19:43",
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
@@ -2097,7 +2097,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T16:36",
+ "data_at": "2026-11-09T16:47",
  "active_projects": [
   "ai-academy",
   "dev-center"
