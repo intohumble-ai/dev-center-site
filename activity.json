@@ -71,77 +71,6 @@
     }
    ]
   },
-  "ai-securities": {
-   "sessions": 2,
-   "sessions_claude": 2,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-13",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "결정 후 병목 해결"
-    },
-    {
-     "ts": "2026-10-10T20:34",
-     "tool": "git",
-     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
-    },
-    {
-     "ts": "2026-10-10T20:03",
-     "tool": "git",
-     "title": "Merge commit '482dec3' into w3-int2"
-    },
-    {
-     "ts": "2026-10-10T20:03",
-     "tool": "git",
-     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
-    },
-    {
-     "ts": "2026-10-10T19:18",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-10-10T19:11",
-     "tool": "git",
-     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
-    },
-    {
-     "ts": "2026-10-10T15:05",
-     "tool": "git",
-     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
-    },
-    {
-     "ts": "2026-10-10T14:18",
-     "tool": "git",
-     "title": "Merge commit '6fcdfa3' into w2-int"
-    },
-    {
-     "ts": "2026-10-10T14:18",
-     "tool": "git",
-     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
-    },
-    {
-     "ts": "2026-10-10T13:25",
-     "tool": "git",
-     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
-    },
-    {
-     "ts": "2026-10-10T13:20",
-     "tool": "git",
-     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
-    },
-    {
-     "ts": "2026-10-09T17:11",
-     "tool": "claude",
-     "title": ""
-    }
-   ]
-  },
   "samguk-rpg": {
    "sessions": 1,
    "sessions_claude": 1,
@@ -214,8 +143,8 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-03",
@@ -253,11 +182,6 @@
      "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
     },
     {
-     "ts": "2026-10-09T18:07",
-     "tool": "claude",
-     "title": "A4f pc 메모리와 용량 소비 봇"
-    },
-    {
      "ts": "2026-10-05T19:42",
      "tool": "git",
      "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
@@ -281,6 +205,11 @@
      "ts": "2026-10-05T00:51",
      "tool": "git",
      "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
+    },
+    {
+     "ts": "2026-10-05T00:31",
+     "tool": "git",
+     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
     }
    ]
   },
@@ -354,9 +283,9 @@
    "sessions": 2,
    "sessions_claude": 2,
    "sessions_codex": 0,
-   "automated": 5,
+   "automated": 0,
    "last_day": "2026-11-07",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -418,6 +347,72 @@
      "ts": "2026-10-10T11:11",
      "tool": "git",
      "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)"
+    }
+   ]
+  },
+  "ai-securities": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-13",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-13T01:55",
+     "tool": "claude",
+     "title": "결정 후 병목 해결"
+    },
+    {
+     "ts": "2026-10-10T20:34",
+     "tool": "git",
+     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "Merge commit '482dec3' into w3-int2"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
+    },
+    {
+     "ts": "2026-10-10T19:18",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-10T19:11",
+     "tool": "git",
+     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
+    },
+    {
+     "ts": "2026-10-10T15:05",
+     "tool": "git",
+     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "Merge commit '6fcdfa3' into w2-int"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
+    },
+    {
+     "ts": "2026-10-10T13:25",
+     "tool": "git",
+     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
+    },
+    {
+     "ts": "2026-10-10T13:20",
+     "tool": "git",
+     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
     }
    ]
   },
@@ -2103,5 +2098,7 @@
   }
  ],
  "data_at": "2026-11-09T14:00",
- "active_projects": []
+ "active_projects": [
+  "dev-center"
+ ]
 }
