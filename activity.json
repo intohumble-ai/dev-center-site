@@ -5,12 +5,12 @@
    "sessions_claude": 11,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-08",
-   "active_now": false,
+   "last_day": "2026-11-09",
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-08T23:19",
+     "ts": "2026-11-09T11:02",
      "tool": "claude",
      "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     },
@@ -1940,7 +1940,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-08T23:19",
+   "ts": "2026-11-09T11:02",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
    "project": "ai-academy"
@@ -2090,6 +2090,8 @@
    "project": "upbit-auto-bot"
   }
  ],
- "data_at": "2026-11-08T23:19",
- "active_projects": []
+ "data_at": "2026-11-09T11:02",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
