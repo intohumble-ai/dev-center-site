@@ -10,14 +10,24 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T22:33",
+     "ts": "2026-11-09T22:43",
+     "tool": "claude",
+     "title": "매쓰플랫 연동 학부모 피드백"
+    },
+    {
+     "ts": "2026-11-09T22:40",
      "tool": "git",
-     "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따"
+     "title": "test: mm-share-entry createTestDb 인자(빌드 타입 검사 실패 수리)"
+    },
+    {
+     "ts": "2026-11-09T22:36",
+     "tool": "git",
+     "title": "test: 보안 정적 검사(T12)에 걸리던 전화번호 모양 합성값 교체"
     },
     {
      "ts": "2026-11-09T22:33",
-     "tool": "claude",
-     "title": "매쓰플랫 연동 학부모 피드백"
+     "tool": "git",
+     "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따"
     },
     {
      "ts": "2026-11-09T22:27",
@@ -58,16 +68,6 @@
      "ts": "2026-11-09T21:31",
      "tool": "git",
      "title": "feat(학부모 링크): 'MATH MATE 질문 기록' 칸 — 기준일까지 최근 30일 질문 수·스스로/힌트/풀이 뒤 해결·확인 중·추가 질문 "
-    },
-    {
-     "ts": "2026-11-09T21:23",
-     "tool": "git",
-     "title": "feat(학부모 링크): H 보고서 링크를 학부모 폰에서 열리게 — 문지기(:10000 공개)가 GET·HEAD /share/<열쇠 43자>만 "
-    },
-    {
-     "ts": "2026-11-09T20:58",
-     "tool": "git",
-     "title": "fix(학부모 칸): 감사 P2 — '보낸 시각' 기준을 보낸 글 등록(결과글·provided·reported_sent)만으로 좁힘. 복사 시각"
     }
    ]
   },
@@ -285,7 +285,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -1935,15 +1935,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T22:33",
+   "ts": "2026-11-09T22:43",
+   "tool": "claude",
+   "title": "매쓰플랫 연동 학부모 피드백",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T22:40",
    "tool": "git",
-   "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따",
+   "title": "test: mm-share-entry createTestDb 인자(빌드 타입 검사 실패 수리)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T22:36",
+   "tool": "git",
+   "title": "test: 보안 정적 검사(T12)에 걸리던 전화번호 모양 합성값 교체",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-09T22:33",
-   "tool": "claude",
-   "title": "매쓰플랫 연동 학부모 피드백",
+   "tool": "git",
+   "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따",
    "project": "ai-academy"
   },
   {
@@ -2025,18 +2037,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T20:40",
-   "tool": "git",
-   "title": "fix(자료 라인업): 일취월장 감사 P2·P3 — 지어낸 제목 예시 비움(제목 복사 버튼 안 붙음)·시기/제목/사용 방식 '원장 확인 전'을 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T20:37",
-   "tool": "git",
-   "title": "feat(자료 라인업): 교재 '일취월장' 추가 — 일 비기너·실버 / 취 필수 유형 / 월 응용 유형 / 장 심화 유형(원장 11-09). 쓰",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-09T18:47",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
@@ -2103,9 +2103,8 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T22:33",
+ "data_at": "2026-11-09T22:43",
  "active_projects": [
-  "ai-academy",
-  "dev-center"
+  "ai-academy"
  ]
 }
