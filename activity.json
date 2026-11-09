@@ -10,14 +10,24 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-09T21:21",
+     "ts": "2026-11-09T21:32",
      "tool": "claude",
      "title": "매쓰플랫 연동 학부모 피드백"
     },
     {
-     "ts": "2026-11-09T21:07",
+     "ts": "2026-11-09T21:31",
      "tool": "claude",
      "title": "매쓰플랫 AI 학원 연동 분석"
+    },
+    {
+     "ts": "2026-11-09T21:31",
+     "tool": "git",
+     "title": "feat(학부모 링크): 'MATH MATE 질문 기록' 칸 — 기준일까지 최근 30일 질문 수·스스로/힌트/풀이 뒤 해결·확인 중·추가 질문 "
+    },
+    {
+     "ts": "2026-11-09T21:23",
+     "tool": "git",
+     "title": "feat(학부모 링크): H 보고서 링크를 학부모 폰에서 열리게 — 문지기(:10000 공개)가 GET·HEAD /share/<열쇠 43자>만 "
     },
     {
      "ts": "2026-11-09T20:58",
@@ -58,16 +68,6 @@
      "ts": "2026-11-09T19:57",
      "tool": "git",
      "title": "feat(학부모 칸): '지난 수업 이후 해 온 학습지' 줄 — 직전 수업일 다음 날~오늘 제출한 전 배정 학습지(주말 프린트·배치고사 포함, "
-    },
-    {
-     "ts": "2026-11-09T18:53",
-     "tool": "git",
-     "title": "test: 메인 작업 폴더에서만 실패하던 3건 수리 — .env 의 실 DB 주소 누출·저장소 이름 의존 경로"
-    },
-    {
-     "ts": "2026-11-09T18:47",
-     "tool": "claude",
-     "title": "목동씨앤씨 본관 수학 진단평가 안내문"
     }
    ]
   },
@@ -285,7 +285,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-09",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1935,15 +1935,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-09T21:21",
+   "ts": "2026-11-09T21:32",
    "tool": "claude",
    "title": "매쓰플랫 연동 학부모 피드백",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T21:07",
+   "ts": "2026-11-09T21:31",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T21:31",
+   "tool": "git",
+   "title": "feat(학부모 링크): 'MATH MATE 질문 기록' 칸 — 기준일까지 최근 30일 질문 수·스스로/힌트/풀이 뒤 해결·확인 중·추가 질문 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-09T21:23",
+   "tool": "git",
+   "title": "feat(학부모 링크): H 보고서 링크를 학부모 폰에서 열리게 — 문지기(:10000 공개)가 GET·HEAD /share/<열쇠 43자>만 ",
    "project": "ai-academy"
   },
   {
@@ -2037,18 +2049,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T12:52",
-   "tool": "git",
-   "title": "fix(lint): 전투력 설명 따옴표",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T12:48",
-   "tool": "git",
-   "title": "fix(MM 내 풀이 확인): 통합 감사 — 누출 AI 심판 2겹째(호출 몫 5)·판정 불가는 검토함·끝난 질문 정리·다시 읽기 5분·XP 한 ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-07T19:43",
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
@@ -2103,8 +2103,9 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-09T21:21",
+ "data_at": "2026-11-09T21:32",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "dev-center"
  ]
 }
