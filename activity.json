@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2260,6 +2260,8 @@
  ],
  "data_at": "2026-11-10T22:12",
  "active_projects": [
-  "cgv-bot"
+  "ai-academy",
+  "cgv-bot",
+  "cnc-scoreboard-cf"
  ]
 }
