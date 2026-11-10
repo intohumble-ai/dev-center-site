@@ -71,74 +71,39 @@
     }
    ]
   },
-  "toss-marketing-center": {
-   "sessions": 5,
-   "sessions_claude": 3,
-   "sessions_codex": 2,
-   "automated": 1,
+  "cnc-scoreboard-cf": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
-   "commits": 15,
+   "active_now": true,
+   "commits": 13,
    "timeline": [
     {
-     "ts": "2026-11-10T18:38",
+     "ts": "2026-11-10T19:32",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
-     "ts": "2026-10-26T21:52",
-     "tool": "claude",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-10-15T13:29",
-     "tool": "codex",
-     "title": "새 Local Edge 연결 확인"
-    },
-    {
-     "ts": "2026-10-14T17:40",
-     "tool": "codex",
-     "title": "Edge 탭 목록 읽기"
-    },
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
-    },
-    {
-     "ts": "2026-10-10T15:22",
+     "ts": "2026-11-10T18:34",
      "tool": "git",
-     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
+     "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침"
     },
     {
-     "ts": "2026-10-10T15:08",
+     "ts": "2026-11-10T17:12",
      "tool": "git",
-     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
+     "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)"
     },
     {
-     "ts": "2026-10-10T14:30",
+     "ts": "2026-11-10T17:09",
      "tool": "git",
-     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
+     "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id"
     },
     {
-     "ts": "2026-10-10T14:15",
+     "ts": "2026-11-10T17:02",
      "tool": "git",
-     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
-    },
-    {
-     "ts": "2026-10-10T12:23",
-     "tool": "git",
-     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
-    },
-    {
-     "ts": "2026-10-10T12:09",
-     "tool": "git",
-     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
-    },
-    {
-     "ts": "2026-10-10T11:41",
-     "tool": "git",
-     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
+     "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어"
     }
    ]
   },
@@ -219,7 +184,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -487,6 +452,77 @@
     }
    ]
   },
+  "toss-marketing-center": {
+   "sessions": 4,
+   "sessions_claude": 2,
+   "sessions_codex": 2,
+   "automated": 1,
+   "last_day": "2026-10-26",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-26T21:52",
+     "tool": "claude",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-15T13:29",
+     "tool": "codex",
+     "title": "새 Local Edge 연결 확인"
+    },
+    {
+     "ts": "2026-10-14T17:40",
+     "tool": "codex",
+     "title": "Edge 탭 목록 읽기"
+    },
+    {
+     "ts": "2026-10-13T01:55",
+     "tool": "claude",
+     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T15:22",
+     "tool": "git",
+     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
+    },
+    {
+     "ts": "2026-10-10T15:08",
+     "tool": "git",
+     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
+    },
+    {
+     "ts": "2026-10-10T14:30",
+     "tool": "git",
+     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
+    },
+    {
+     "ts": "2026-10-10T14:15",
+     "tool": "git",
+     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
+    },
+    {
+     "ts": "2026-10-10T12:23",
+     "tool": "git",
+     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
+    },
+    {
+     "ts": "2026-10-10T12:09",
+     "tool": "git",
+     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
+    },
+    {
+     "ts": "2026-10-10T11:41",
+     "tool": "git",
+     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
+    },
+    {
+     "ts": "2026-10-10T11:20",
+     "tool": "git",
+     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
+    }
+   ]
+  },
   "butler-bot": {
    "sessions": 1,
    "sessions_claude": 1,
@@ -721,37 +757,6 @@
      "ts": "2026-11-10T17:02",
      "tool": "git",
      "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계"
-    }
-   ]
-  },
-  "cnc-scoreboard-cf": {
-   "sessions": 0,
-   "sessions_claude": 0,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-11-10",
-   "active_now": false,
-   "commits": 13,
-   "timeline": [
-    {
-     "ts": "2026-11-10T18:34",
-     "tool": "git",
-     "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침"
-    },
-    {
-     "ts": "2026-11-10T17:12",
-     "tool": "git",
-     "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)"
-    },
-    {
-     "ts": "2026-11-10T17:09",
-     "tool": "git",
-     "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id"
-    },
-    {
-     "ts": "2026-11-10T17:02",
-     "tool": "git",
-     "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어"
     }
    ]
   },
@@ -1982,10 +1987,10 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T18:38",
+   "ts": "2026-11-10T19:32",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
-   "project": "toss-marketing-center"
+   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-10T18:34",
@@ -2180,6 +2185,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T18:38",
- "active_projects": []
+ "data_at": "2026-11-10T19:32",
+ "active_projects": [
+  "cgv-bot",
+  "cnc-scoreboard-cf"
+ ]
 }
