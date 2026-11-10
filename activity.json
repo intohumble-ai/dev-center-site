@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T17:45",
+     "ts": "2026-11-10T18:31",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1977,16 +1977,16 @@
  },
  "feed": [
   {
+   "ts": "2026-11-10T18:31",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "toss-marketing-center"
+  },
+  {
    "ts": "2026-11-10T17:50",
    "tool": "claude",
    "title": "MCP 설정 상태 확인",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-10T17:45",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
-   "project": "toss-marketing-center"
   },
   {
    "ts": "2026-11-10T17:12",
@@ -2169,8 +2169,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T17:50",
+ "data_at": "2026-11-10T18:31",
  "active_projects": [
+  "cgv-bot",
   "toss-marketing-center"
  ]
 }
