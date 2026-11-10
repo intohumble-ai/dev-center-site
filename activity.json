@@ -1,14 +1,24 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 12,
-   "sessions_claude": 12,
+   "sessions": 13,
+   "sessions_claude": 13,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:29",
+     "tool": "claude",
+     "title": "AI 학원 프로그램"
+    },
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 에 명령·경로 섹션 추가"
+    },
     {
      "ts": "2026-11-10T09:34",
      "tool": "claude",
@@ -58,16 +68,6 @@
      "ts": "2026-11-09T21:38",
      "tool": "git",
      "title": "feat(학부모 링크): H 보고서 AI 초안 모듈 — 검토한 피드백 글·질문 기록 요약만 근거, hReportSchema 검사 통과만 저장(1"
-    },
-    {
-     "ts": "2026-11-09T21:37",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
-    },
-    {
-     "ts": "2026-11-09T21:31",
-     "tool": "git",
-     "title": "feat(학부모 링크): 'MATH MATE 질문 기록' 칸 — 기준일까지 최근 30일 질문 수·스스로/힌트/풀이 뒤 해결·확인 중·추가 질문 "
     }
    ]
   },
@@ -77,11 +77,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 14,
    "timeline": [
     {
-     "ts": "2026-11-10T20:19",
+     "ts": "2026-11-10T21:30",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -189,11 +189,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T17:50",
+     "ts": "2026-11-10T21:25",
      "tool": "claude",
      "title": "MCP 설정 상태 확인"
     },
@@ -325,10 +325,15 @@
    "sessions_claude": 2,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-09",
+   "last_day": "2026-11-10",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-11-09T17:25",
      "tool": "claude",
@@ -383,11 +388,6 @@
      "ts": "2026-10-10T11:53",
      "tool": "git",
      "title": "P0: 샌드박스 실현 가능성 실측 — 상자 A에서 claude -p 2회 성공(▮▮), 허용 호스트 api.anthropic.com 단일 확정,"
-    },
-    {
-     "ts": "2026-10-10T11:11",
-     "tool": "git",
-     "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)"
     }
    ]
   },
@@ -396,10 +396,15 @@
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-13",
+   "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 15,
+   "commits": 16,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-10-13T01:55",
      "tool": "claude",
@@ -533,10 +538,15 @@
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-26",
+   "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 6,
+   "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-10-26T23:03",
      "tool": "claude",
@@ -756,8 +766,13 @@
    "automated": 0,
    "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 5,
+   "commits": 6,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-11-10T17:02",
      "tool": "git",
@@ -912,10 +927,15 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-08-02",
+   "last_day": "2026-11-10",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-08-02T10:50",
      "tool": "git",
@@ -970,11 +990,6 @@
      "ts": "2026-07-13T23:04",
      "tool": "git",
      "title": "feat: 섀도우 리그표 매일화(sec_league 추출) + 공포가중 DCA 섀도우 선수(fear_dca, FG<25·역김프 트리거·월 ▮▮ "
-    },
-    {
-     "ts": "2026-07-13T21:01",
-     "tool": "git",
-     "title": "feat: 사이드카 종합패치 6건 — 벤치마크 성적표+김프·펀딩 레코더+상장빔 워처+그리드 섀도우+슬리피지 감사+리그표 (unittest 12→"
     }
    ]
   },
@@ -1191,10 +1206,16 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-08",
+   "last_day": "2026-11-10",
    "active_now": false,
    "commits": 15,
-   "timeline": []
+   "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    }
+   ]
   },
   "fusion-v9-coinbot": {
    "sessions": 0,
@@ -1460,10 +1481,15 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-10-02",
+   "last_day": "2026-11-10",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-10-02T13:53",
      "tool": "git",
@@ -1518,11 +1544,6 @@
      "ts": "2026-09-25T20:46",
      "tool": "git",
      "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
-    },
-    {
-     "ts": "2026-09-25T20:06",
-     "tool": "git",
-     "title": "7차 콜드감사(조건부 PASS) 반영: 명세 R1 상한·재무장 경계 테스트 고정 + suppressed_keys 원소 정리"
     }
    ]
   },
@@ -1887,10 +1908,15 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-24",
+   "last_day": "2026-11-10",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
     {
      "ts": "2026-09-24T16:10",
      "tool": "git",
@@ -1945,11 +1971,6 @@
      "ts": "2026-09-15T11:45",
      "tool": "git",
      "title": "feat(managed): 명시적 운용예산 배정 큐 — 사용자 입금이 봇 예산에 닿는 정식 경로(사이드카, capital_events ALLOC"
-    },
-    {
-     "ts": "2026-09-12T17:26",
-     "tool": "git",
-     "title": "fix(managed): 수위계 관측을 로테이션 발동일 밖으로 + 30거래일 채점 event-date 기반"
     }
    ]
   },
@@ -1992,10 +2013,76 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T20:19",
+   "ts": "2026-11-10T21:30",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T21:29",
+   "tool": "claude",
+   "title": "AI 학원 프로그램",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "claude",
+   "title": "MCP 설정 상태 확인",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 에 명령·경로 섹션 추가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "ai-securities"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "butler-bot"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "cnc-reporting-portal-cf"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "coinbot-trend"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "fleet-vault"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "toss-stock-bot"
   },
   {
    "ts": "2026-11-10T20:19",
@@ -2008,12 +2095,6 @@
    "tool": "git",
    "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T17:50",
-   "tool": "claude",
-   "title": "MCP 설정 상태 확인",
-   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-10T17:12",
@@ -2136,12 +2217,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T20:46",
-   "tool": "git",
-   "title": "fix(자료 라인업): 일취월장 원장 확정(11-09) — 시험대비(시험 3~2주 전·1주 전), 일→취→월→장 순서대로 + 학생 수준에 맞춰 ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-09T18:47",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
@@ -2176,26 +2251,12 @@
    "tool": "claude",
    "title": "AI 학원 질문 프로그램 전투력 시스템",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-06T01:10",
-   "tool": "claude",
-   "title": "전체 작업 진행",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T22:19",
-   "tool": "claude",
-   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T21:14",
-   "tool": "claude",
-   "title": "AI학원 전체 분석 및 평가",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T20:19",
- "active_projects": []
+ "data_at": "2026-11-10T21:30",
+ "active_projects": [
+  "ai-academy",
+  "cgv-bot",
+  "cnc-scoreboard-cf"
+ ]
 }

@@ -1,15 +1,15 @@
 {
- "data_at": "2026-11-10T20:19",
+ "data_at": "2026-11-10T21:30",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
-   "last_commit": "2026-11-09",
+   "last_commit": "2026-11-10",
    "light": "gray"
   },
   "ai-securities": {
    "id": "ai-securities",
    "service": "active",
-   "last_commit": "2026-10-10",
+   "last_commit": "2026-11-10",
    "light": "green",
    "db_tables": 143
   },
@@ -39,7 +39,7 @@
   "butler-bot": {
    "id": "butler-bot",
    "service": "active",
-   "last_commit": "2026-09-15",
+   "last_commit": "2026-11-10",
    "light": "green",
    "db_tables": 8
   },
@@ -105,7 +105,7 @@
    "id": "coinbot-trend",
    "service": "inactive",
    "log_error": false,
-   "last_commit": "2026-08-02",
+   "last_commit": "2026-11-10",
    "light": "gray",
    "db_tables": null,
    "log_age": "일주일 이상"
@@ -147,7 +147,7 @@
   "dev-center": {
    "id": "dev-center",
    "service": "active",
-   "last_commit": "2026-11-07",
+   "last_commit": "2026-11-10",
    "light": "green"
   },
   "family-bot": {
@@ -168,7 +168,7 @@
   "fleet-vault": {
    "id": "fleet-vault",
    "log_error": null,
-   "last_commit": "2026-11-08",
+   "last_commit": "2026-11-10",
    "light": "unknown",
    "log_age": "오늘"
   },
@@ -238,7 +238,7 @@
   "palantir-center": {
    "id": "palantir-center",
    "service": "active",
-   "last_commit": "2026-10-02",
+   "last_commit": "2026-11-10",
    "light": "green",
    "state_age": "1시간 이내"
   },
@@ -306,7 +306,7 @@
    "id": "toss-stock-bot",
    "service": "active",
    "log_error": false,
-   "last_commit": "2026-09-24",
+   "last_commit": "2026-11-10",
    "light": "green",
    "db_tables": 0,
    "log_age": "1시간 이내"
