@@ -71,6 +71,77 @@
     }
    ]
   },
+  "toss-marketing-center": {
+   "sessions": 5,
+   "sessions_claude": 3,
+   "sessions_codex": 2,
+   "automated": 1,
+   "last_day": "2026-11-10",
+   "active_now": true,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-11-10T14:35",
+     "tool": "claude",
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-10-26T21:52",
+     "tool": "claude",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-15T13:29",
+     "tool": "codex",
+     "title": "새 Local Edge 연결 확인"
+    },
+    {
+     "ts": "2026-10-14T17:40",
+     "tool": "codex",
+     "title": "Edge 탭 목록 읽기"
+    },
+    {
+     "ts": "2026-10-13T01:55",
+     "tool": "claude",
+     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
+    },
+    {
+     "ts": "2026-10-10T15:22",
+     "tool": "git",
+     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
+    },
+    {
+     "ts": "2026-10-10T15:08",
+     "tool": "git",
+     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
+    },
+    {
+     "ts": "2026-10-10T14:30",
+     "tool": "git",
+     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
+    },
+    {
+     "ts": "2026-10-10T14:15",
+     "tool": "git",
+     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
+    },
+    {
+     "ts": "2026-10-10T12:23",
+     "tool": "git",
+     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
+    },
+    {
+     "ts": "2026-10-10T12:09",
+     "tool": "git",
+     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
+    },
+    {
+     "ts": "2026-10-10T11:41",
+     "tool": "git",
+     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
+    }
+   ]
+  },
   "samguk-rpg": {
    "sessions": 1,
    "sessions_claude": 1,
@@ -214,14 +285,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-01",
-   "active_now": false,
+   "last_day": "2026-11-10",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-10T14:34",
+     "tool": "claude",
+     "title": "MCP 설정 상태 확인"
+    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -413,77 +489,6 @@
      "ts": "2026-10-10T13:20",
      "tool": "git",
      "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
-    }
-   ]
-  },
-  "toss-marketing-center": {
-   "sessions": 4,
-   "sessions_claude": 2,
-   "sessions_codex": 2,
-   "automated": 1,
-   "last_day": "2026-10-26",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-26T21:52",
-     "tool": "claude",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-10-15T13:29",
-     "tool": "codex",
-     "title": "새 Local Edge 연결 확인"
-    },
-    {
-     "ts": "2026-10-14T17:40",
-     "tool": "codex",
-     "title": "Edge 탭 목록 읽기"
-    },
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
-    },
-    {
-     "ts": "2026-10-10T15:22",
-     "tool": "git",
-     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
-    },
-    {
-     "ts": "2026-10-10T15:08",
-     "tool": "git",
-     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
-    },
-    {
-     "ts": "2026-10-10T14:30",
-     "tool": "git",
-     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
-    },
-    {
-     "ts": "2026-10-10T14:15",
-     "tool": "git",
-     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
-    },
-    {
-     "ts": "2026-10-10T12:23",
-     "tool": "git",
-     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
-    },
-    {
-     "ts": "2026-10-10T12:09",
-     "tool": "git",
-     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
-    },
-    {
-     "ts": "2026-10-10T11:41",
-     "tool": "git",
-     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
-    },
-    {
-     "ts": "2026-10-10T11:20",
-     "tool": "git",
-     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
     }
    ]
   },
@@ -1935,6 +1940,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-10T14:35",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-11-10T14:34",
+   "tool": "claude",
+   "title": "MCP 설정 상태 확인",
+   "project": "upbit-auto-bot"
+  },
+  {
    "ts": "2026-11-10T09:34",
    "tool": "claude",
    "title": "매쓰플랫 연동 학부모 피드백",
@@ -2095,14 +2112,11 @@
    "tool": "claude",
    "title": "ai 학원 페이블 5.1 기능 아이디어",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-03T16:08",
-   "tool": "claude",
-   "title": "작업 내용 손실 원인 문의",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-10T09:34",
- "active_projects": []
+ "data_at": "2026-11-10T14:35",
+ "active_projects": [
+  "toss-marketing-center",
+  "upbit-auto-bot"
+ ]
 }
