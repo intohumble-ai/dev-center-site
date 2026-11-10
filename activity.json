@@ -10,14 +10,14 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-11T01:19",
+     "tool": "claude",
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
      "ts": "2026-11-11T01:09",
      "tool": "claude",
      "title": "AI 학원 프로그램"
-    },
-    {
-     "ts": "2026-11-11T01:08",
-     "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
      "ts": "2026-11-11T01:03",
@@ -2013,15 +2013,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T01:09",
+   "ts": "2026-11-11T01:19",
    "tool": "claude",
-   "title": "AI 학원 프로그램",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-11T01:08",
+   "ts": "2026-11-11T01:09",
    "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "title": "AI 학원 프로그램",
    "project": "ai-academy"
   },
   {
@@ -2253,7 +2253,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T01:09",
+ "data_at": "2026-11-11T01:19",
  "active_projects": [
   "ai-academy"
  ]
