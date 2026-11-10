@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T18:31",
+     "ts": "2026-11-10T18:38",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -731,8 +731,13 @@
    "automated": 0,
    "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 12,
+   "commits": 13,
    "timeline": [
+    {
+     "ts": "2026-11-10T18:34",
+     "tool": "git",
+     "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침"
+    },
     {
      "ts": "2026-11-10T17:12",
      "tool": "git",
@@ -1977,10 +1982,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T18:31",
+   "ts": "2026-11-10T18:38",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-11-10T18:34",
+   "tool": "git",
+   "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침",
+   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-10T17:50",
@@ -2169,9 +2180,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T18:31",
+ "data_at": "2026-11-10T18:38",
  "active_projects": [
-  "cgv-bot",
   "toss-marketing-center"
  ]
 }
