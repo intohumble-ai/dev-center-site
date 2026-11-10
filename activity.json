@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T14:43",
+     "ts": "2026-11-10T15:49",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-11-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -712,6 +712,26 @@
      "title": "w16/pairbook: re-audit P1 — calendar days with zero bars also wait then get jour"
     }
    ]
+  },
+  "cnc-reporting-portal-cf": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-05",
+   "active_now": false,
+   "commits": 4,
+   "timeline": []
+  },
+  "cnc-scoreboard-cf": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-05",
+   "active_now": false,
+   "commits": 9,
+   "timeline": []
   },
   "coinbot-adaptive": {
    "sessions": 0,
@@ -1940,7 +1960,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T14:43",
+   "ts": "2026-11-10T15:49",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "toss-marketing-center"
@@ -2114,9 +2134,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T14:43",
+ "data_at": "2026-11-10T15:49",
  "active_projects": [
-  "toss-marketing-center",
-  "upbit-auto-bot"
+  "toss-marketing-center"
  ]
 }
