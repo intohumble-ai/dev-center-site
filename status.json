@@ -16,11 +16,11 @@
   "allweather-bot": {
    "id": "allweather-bot",
    "service": "active",
-   "log_error": false,
+   "log_error": true,
    "last_commit": "2026-07-28",
    "light": "green",
    "db_tables": 14,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "billionaire-portfolio-bot": {
    "id": "billionaire-portfolio-bot",
@@ -54,8 +54,8 @@
   },
   "claude-auto-resume": {
    "id": "claude-auto-resume",
-   "service": "failed",
-   "light": "red"
+   "service": "active",
+   "light": "green"
   },
   "claude-env-tuning": {
    "id": "claude-env-tuning",
@@ -147,7 +147,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "fleet-data": {
    "id": "fleet-data",
@@ -285,7 +285,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",
