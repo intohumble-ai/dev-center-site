@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T17:15",
+     "ts": "2026-11-10T17:45",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -214,14 +214,19 @@
    ]
   },
   "cgv-bot": {
-   "sessions": 4,
-   "sessions_claude": 4,
+   "sessions": 5,
+   "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-03",
-   "active_now": false,
+   "last_day": "2026-11-10",
+   "active_now": true,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-10T17:48",
+     "tool": "claude",
+     "title": "MCP 설정 상태 확인"
+    },
     {
      "ts": "2026-11-03T16:08",
      "tool": "claude",
@@ -276,28 +281,18 @@
      "ts": "2026-10-05T00:51",
      "tool": "git",
      "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
-    },
-    {
-     "ts": "2026-10-05T00:31",
-     "tool": "git",
-     "title": "fix(cgv): 좌석 등급표 17개 시야 기준 재조정 — 앞줄·통로 밖 사이드·맨 뒷줄 강등"
     }
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 1,
-   "last_day": "2026-11-10",
-   "active_now": true,
+   "last_day": "2026-11-01",
+   "active_now": false,
    "commits": 7,
    "timeline": [
-    {
-     "ts": "2026-11-10T14:36",
-     "tool": "claude",
-     "title": "MCP 설정 상태 확인"
-    },
     {
      "ts": "2026-11-01T22:40",
      "tool": "claude",
@@ -1982,7 +1977,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T17:15",
+   "ts": "2026-11-10T17:48",
+   "tool": "claude",
+   "title": "MCP 설정 상태 확인",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-10T17:45",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "toss-marketing-center"
@@ -2010,12 +2011,6 @@
    "tool": "git",
    "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T14:36",
-   "tool": "claude",
-   "title": "MCP 설정 상태 확인",
-   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-10T09:34",
@@ -2174,9 +2169,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T17:15",
+ "data_at": "2026-11-10T17:48",
  "active_projects": [
-  "toss-marketing-center",
-  "upbit-auto-bot"
+  "cgv-bot",
+  "toss-marketing-center"
  ]
 }
