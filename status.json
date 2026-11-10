@@ -1,9 +1,9 @@
 {
- "data_at": "2026-11-11T01:00",
+ "data_at": "2026-11-11T01:09",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
-   "last_commit": "2026-11-10",
+   "last_commit": "2026-11-11",
    "light": "gray"
   },
   "ai-securities": {
@@ -295,7 +295,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",

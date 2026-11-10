@@ -10,64 +10,64 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T01:00",
-     "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
-    },
-    {
-     "ts": "2026-11-11T01:00",
+     "ts": "2026-11-11T01:09",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
     {
-     "ts": "2026-11-10T21:56",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-10T21:54",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-10T21:54",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-10T21:51",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-10T21:25",
-     "tool": "git",
-     "title": "docs: Claude Code용 CLAUDE.md 안내문 에 명령·경로 섹션 추가"
-    },
-    {
-     "ts": "2026-11-10T09:34",
+     "ts": "2026-11-11T01:08",
      "tool": "claude",
-     "title": "매쓰플랫 연동 학부모 피드백"
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
-     "ts": "2026-11-09T22:40",
+     "ts": "2026-11-11T01:03",
      "tool": "git",
-     "title": "test: mm-share-entry createTestDb 인자(빌드 타입 검사 실패 수리)"
+     "title": "fix(관리 카드): 통합 재감사 P2 — 약속 시점 낱말 확장(15일에·이번 달·다음 테스트·시험 전까지·2주 뒤·매 수업 등) + 회귀 표"
     },
     {
-     "ts": "2026-11-09T22:36",
+     "ts": "2026-11-11T00:56",
      "tool": "git",
-     "title": "test: 보안 정적 검사(T12)에 걸리던 전화번호 모양 합성값 교체"
+     "title": "test(병합): 관리 카드 삭제 시험의 internal_note 칸 흉내 줄 제거 — ▮▮ 마이그레이션으로 이미 있음"
     },
     {
-     "ts": "2026-11-09T22:33",
+     "ts": "2026-11-11T00:50",
      "tool": "git",
-     "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따"
+     "title": "fix(정보주체 삭제·안내): 삭제한 아이의 🔒 원장 메모를 수업 메모(private_json·review_json·prepared_json)에"
     },
     {
-     "ts": "2026-11-09T22:27",
+     "ts": "2026-11-11T00:49",
      "tool": "git",
-     "title": "feat(학부모 링크): MATH MATE 칸 '선생님이 직접 만든 AI 학습 프로그램' + 입장 링크(MM_PUBLIC_URL, 아이 이름·P"
+     "title": "fix(관리 카드): 실데이터 시험 반영 — 글 1편당 새 후보 4개 상한, 약속은 시점+행동 있을 때만(시점 낱말 검사) / 통합 감사 P1 "
+    },
+    {
+     "ts": "2026-11-11T00:40",
+     "tool": "git",
+     "title": "fix(상단 메뉴): '전체 메뉴'를 열면 옆 버튼이 메뉴 높이만큼 길쭉해지던 것 — 버튼 높이 고정, PC는 떠 있는 상자·폰은 아래 한 줄 "
+    },
+    {
+     "ts": "2026-11-11T00:23",
+     "tool": "git",
+     "title": "test(병합): 관리 카드 시험의 '팀 A 칸 없음' 전제 제거 — ▮▮ 마이그레이션으로 internal_note 칸이 실제로 있음"
+    },
+    {
+     "ts": "2026-11-11T00:06",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-11-10T23:34",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-11-10T23:26",
+     "tool": "git",
+     "title": "fix(관리 카드): 재감사 P2·P3 — 내부 메모 호출 막힘을 실패로 표시·다시 배우기 대상, 조각 대조를 그날 메모로 좁히고 2조각 이상만"
+    },
+    {
+     "ts": "2026-11-10T23:13",
+     "tool": "git",
+     "title": "fix(관리 카드·수정 기억): 감사 P1 — 내부 메모를 보낸 글 호출과 분리(별도 호출, 결과 무조건 원장 전용)+조각 대조 방어, 고침 규"
     }
    ]
   },
@@ -2013,15 +2013,81 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T01:00",
+   "ts": "2026-11-11T01:09",
+   "tool": "claude",
+   "title": "AI 학원 프로그램",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T01:08",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-11T01:00",
-   "tool": "claude",
-   "title": "AI 학원 프로그램",
+   "ts": "2026-11-11T01:03",
+   "tool": "git",
+   "title": "fix(관리 카드): 통합 재감사 P2 — 약속 시점 낱말 확장(15일에·이번 달·다음 테스트·시험 전까지·2주 뒤·매 수업 등) + 회귀 표",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T00:56",
+   "tool": "git",
+   "title": "test(병합): 관리 카드 삭제 시험의 internal_note 칸 흉내 줄 제거 — ▮▮ 마이그레이션으로 이미 있음",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T00:50",
+   "tool": "git",
+   "title": "fix(정보주체 삭제·안내): 삭제한 아이의 🔒 원장 메모를 수업 메모(private_json·review_json·prepared_json)에",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T00:49",
+   "tool": "git",
+   "title": "fix(관리 카드): 실데이터 시험 반영 — 글 1편당 새 후보 4개 상한, 약속은 시점+행동 있을 때만(시점 낱말 검사) / 통합 감사 P1 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T00:40",
+   "tool": "git",
+   "title": "fix(상단 메뉴): '전체 메뉴'를 열면 옆 버튼이 메뉴 높이만큼 길쭉해지던 것 — 버튼 높이 고정, PC는 떠 있는 상자·폰은 아래 한 줄 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T00:23",
+   "tool": "git",
+   "title": "test(병합): 관리 카드 시험의 '팀 A 칸 없음' 전제 제거 — ▮▮ 마이그레이션으로 internal_note 칸이 실제로 있음",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T00:06",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T23:34",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T23:26",
+   "tool": "git",
+   "title": "fix(관리 카드): 재감사 P2·P3 — 내부 메모 호출 막힘을 실패로 표시·다시 배우기 대상, 조각 대조를 그날 메모로 좁히고 2조각 이상만",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T23:13",
+   "tool": "git",
+   "title": "fix(관리 카드·수정 기억): 감사 P1 — 내부 메모를 보낸 글 호출과 분리(별도 호출, 결과 무조건 원장 전용)+조각 대조 방어, 고침 규",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T22:58",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
    "project": "ai-academy"
   },
   {
@@ -2029,30 +2095,6 @@
    "tool": "claude",
    "title": "MCP 설정 상태 확인",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-10T21:56",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-10T21:54",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-10T21:54",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-10T21:51",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-10T21:50",
@@ -2071,12 +2113,6 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 에 명령·경로 섹션 추가",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-10T21:25",
@@ -2169,69 +2205,9 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T22:40",
-   "tool": "git",
-   "title": "test: mm-share-entry createTestDb 인자(빌드 타입 검사 실패 수리)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T22:36",
-   "tool": "git",
-   "title": "test: 보안 정적 검사(T12)에 걸리던 전화번호 모양 합성값 교체",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T22:33",
-   "tool": "git",
-   "title": "feat(학부모 링크): 링크 속 MATH MATE 버튼이 그 아이 계정으로 바로 열림(/mm/enter/<공유 열쇠> — 공유본 만료·회수 따",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T22:27",
-   "tool": "git",
-   "title": "feat(학부모 링크): MATH MATE 칸 '선생님이 직접 만든 AI 학습 프로그램' + 입장 링크(MM_PUBLIC_URL, 아이 이름·P",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T22:26",
-   "tool": "git",
-   "title": "fix(H 보고서 AI 초안): 원장 11-09 — 제목은 아이 이름('겸이의 11월 9일'), 한 줄은 숫자 나열 대신 마음을 건드리는 문장",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T22:13",
-   "tool": "git",
-   "title": "fix(학부모 링크): 원장 11-09 — 한 줄은 아이 성과·위치를 숫자로·빈 말(기록 없음) 금지·이전 매쓰플랫 데이터로 채움·질문 기록 없",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T22:05",
-   "tool": "git",
-   "title": "feat(학부모 링크): 교재 진도표 단원별 성취 색(탄탄·안정·다지는 중·학습 완료, 매쓰플랫 문항 정답률 기준) — 원장 11-09",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T21:44",
-   "tool": "git",
-   "title": "fix(학부모 링크): 원장 11-09 — 첫 머리 임팩트 한 줄·연락처 겹침 제거(모델이 넣어도 뺌)·칸마다 구체적으로·공유 화면 글씨 크고 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T21:38",
-   "tool": "git",
-   "title": "feat(학부모 링크): H 보고서 AI 초안 모듈 — 검토한 피드백 글·질문 기록 요약만 근거, hReportSchema 검사 통과만 저장(1",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-09T21:37",
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T21:31",
-   "tool": "git",
-   "title": "feat(학부모 링크): 'MATH MATE 질문 기록' 칸 — 기준일까지 최근 30일 질문 수·스스로/힌트/풀이 뒤 해결·확인 중·추가 질문 ",
    "project": "ai-academy"
   },
   {
@@ -2251,9 +2227,33 @@
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
    "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-07T14:59",
+   "tool": "git",
+   "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-07T14:26",
+   "tool": "claude",
+   "title": "매쓰플랫 수업 전 점검 메시지",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-06T01:51",
+   "tool": "claude",
+   "title": "AI 학원 질문 프로그램 전투력 시스템",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-06T01:10",
+   "tool": "claude",
+   "title": "전체 작업 진행",
+   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T01:00",
+ "data_at": "2026-11-11T01:09",
  "active_projects": [
   "ai-academy"
  ]
