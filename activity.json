@@ -290,7 +290,7 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-11-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 7,
    "timeline": [
     {
@@ -2116,7 +2116,6 @@
  ],
  "data_at": "2026-11-10T14:43",
  "active_projects": [
-  "toss-marketing-center",
-  "upbit-auto-bot"
+  "toss-marketing-center"
  ]
 }
