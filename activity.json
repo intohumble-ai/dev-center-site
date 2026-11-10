@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T17:04",
+     "ts": "2026-11-10T17:15",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -736,8 +736,18 @@
    "automated": 0,
    "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 10,
+   "commits": 12,
    "timeline": [
+    {
+     "ts": "2026-11-10T17:12",
+     "tool": "git",
+     "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)"
+    },
+    {
+     "ts": "2026-11-10T17:09",
+     "tool": "git",
+     "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id"
+    },
     {
      "ts": "2026-11-10T17:02",
      "tool": "git",
@@ -1972,10 +1982,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T17:04",
+   "ts": "2026-11-10T17:15",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-11-10T17:12",
+   "tool": "git",
+   "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T17:09",
+   "tool": "git",
+   "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id",
+   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-10T17:02",
@@ -2150,15 +2172,9 @@
    "tool": "claude",
    "title": "AI학원 전체 분석 및 평가",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T01:18",
-   "tool": "claude",
-   "title": "ai 학원 페이블 5.1 기능 아이디어",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T17:04",
+ "data_at": "2026-11-10T17:15",
  "active_projects": [
   "toss-marketing-center"
  ]
