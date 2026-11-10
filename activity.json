@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-11-10",
    "active_now": true,
-   "commits": 13,
+   "commits": 14,
    "timeline": [
     {
-     "ts": "2026-11-10T20:17",
+     "ts": "2026-11-10T20:19",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-10T20:19",
+     "tool": "git",
+     "title": "강사 리그·배치 화면에서 등수와 '원본' 표시 제거, CSV 등수 열 삭제, 리그 탭에선 상단 원본 경고 숨김"
     },
     {
      "ts": "2026-11-10T18:34",
@@ -184,7 +189,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -1987,9 +1992,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T20:17",
+   "ts": "2026-11-10T20:19",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T20:19",
+   "tool": "git",
+   "title": "강사 리그·배치 화면에서 등수와 '원본' 표시 제거, CSV 등수 열 삭제, 리그 탭에선 상단 원본 경고 숨김",
    "project": "cnc-scoreboard-cf"
   },
   {
@@ -2185,8 +2196,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T20:17",
+ "data_at": "2026-11-10T20:19",
  "active_projects": [
+  "cgv-bot",
   "cnc-scoreboard-cf"
  ]
 }
