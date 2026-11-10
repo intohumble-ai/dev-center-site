@@ -77,7 +77,7 @@
    "sessions_codex": 2,
    "automated": 1,
    "last_day": "2026-11-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2181,7 +2181,5 @@
   }
  ],
  "data_at": "2026-11-10T18:38",
- "active_projects": [
-  "toss-marketing-center"
- ]
+ "active_projects": []
 }
