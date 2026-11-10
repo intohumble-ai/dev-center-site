@@ -5,12 +5,12 @@
    "sessions_claude": 13,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-10",
+   "last_day": "2026-11-11",
    "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-10T23:57",
+     "ts": "2026-11-11T00:07",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
@@ -76,12 +76,12 @@
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-10",
+   "last_day": "2026-11-11",
    "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T23:52",
+     "ts": "2026-11-11T00:04",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -2018,13 +2018,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T23:57",
+   "ts": "2026-11-11T00:07",
    "tool": "claude",
    "title": "AI 학원 프로그램",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-10T23:52",
+   "ts": "2026-11-11T00:04",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "cnc-scoreboard-cf"
@@ -2258,7 +2258,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-10T23:57",
+ "data_at": "2026-11-11T00:07",
  "active_projects": [
   "ai-academy",
   "cnc-scoreboard-cf"
