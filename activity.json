@@ -1,8 +1,8 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 13,
-   "sessions_claude": 13,
+   "sessions": 14,
+   "sessions_claude": 14,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-11",
@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T00:49",
+     "ts": "2026-11-11T01:00",
+     "tool": "claude",
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-11T01:00",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
@@ -63,57 +68,6 @@
      "ts": "2026-11-09T22:27",
      "tool": "git",
      "title": "feat(학부모 링크): MATH MATE 칸 '선생님이 직접 만든 AI 학습 프로그램' + 입장 링크(MM_PUBLIC_URL, 아이 이름·P"
-    },
-    {
-     "ts": "2026-11-09T22:26",
-     "tool": "git",
-     "title": "fix(H 보고서 AI 초안): 원장 11-09 — 제목은 아이 이름('겸이의 11월 9일'), 한 줄은 숫자 나열 대신 마음을 건드리는 문장"
-    }
-   ]
-  },
-  "cnc-scoreboard-cf": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-11-11",
-   "active_now": true,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-11-11T00:45",
-     "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
-    },
-    {
-     "ts": "2026-11-10T21:31",
-     "tool": "git",
-     "title": "강사 리그 엑셀 11/10 새 양식 지원(총점=2분기만족도+시상합계, 날짜 칸 자동 탐지·검산), 주간 증감에서 새 항목 제외"
-    },
-    {
-     "ts": "2026-11-10T20:19",
-     "tool": "git",
-     "title": "강사 리그·배치 화면에서 등수와 '원본' 표시 제거, CSV 등수 열 삭제, 리그 탭에선 상단 원본 경고 숨김"
-    },
-    {
-     "ts": "2026-11-10T18:34",
-     "tool": "git",
-     "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침"
-    },
-    {
-     "ts": "2026-11-10T17:12",
-     "tool": "git",
-     "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)"
-    },
-    {
-     "ts": "2026-11-10T17:09",
-     "tool": "git",
-     "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id"
-    },
-    {
-     "ts": "2026-11-10T17:02",
-     "tool": "git",
-     "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어"
     }
    ]
   },
@@ -782,6 +736,47 @@
      "ts": "2026-11-10T17:02",
      "tool": "git",
      "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계"
+    }
+   ]
+  },
+  "cnc-scoreboard-cf": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-10",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-11-10T21:31",
+     "tool": "git",
+     "title": "강사 리그 엑셀 11/10 새 양식 지원(총점=2분기만족도+시상합계, 날짜 칸 자동 탐지·검산), 주간 증감에서 새 항목 제외"
+    },
+    {
+     "ts": "2026-11-10T20:19",
+     "tool": "git",
+     "title": "강사 리그·배치 화면에서 등수와 '원본' 표시 제거, CSV 등수 열 삭제, 리그 탭에선 상단 원본 경고 숨김"
+    },
+    {
+     "ts": "2026-11-10T18:34",
+     "tool": "git",
+     "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침"
+    },
+    {
+     "ts": "2026-11-10T17:12",
+     "tool": "git",
+     "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)"
+    },
+    {
+     "ts": "2026-11-10T17:09",
+     "tool": "git",
+     "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id"
+    },
+    {
+     "ts": "2026-11-10T17:02",
+     "tool": "git",
+     "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어"
     }
    ]
   },
@@ -2018,16 +2013,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T00:49",
+   "ts": "2026-11-11T01:00",
    "tool": "claude",
-   "title": "AI 학원 프로그램",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-11T00:45",
+   "ts": "2026-11-11T01:00",
    "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
-   "project": "cnc-scoreboard-cf"
+   "title": "AI 학원 프로그램",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-11-10T22:12",
@@ -2258,9 +2253,8 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-11T00:49",
+ "data_at": "2026-11-11T01:00",
  "active_projects": [
-  "ai-academy",
-  "cnc-scoreboard-cf"
+  "ai-academy"
  ]
 }
