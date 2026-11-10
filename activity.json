@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T16:53",
+     "ts": "2026-11-10T17:04",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -718,20 +718,32 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-05",
+   "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 4,
-   "timeline": []
+   "commits": 5,
+   "timeline": [
+    {
+     "ts": "2026-11-10T17:02",
+     "tool": "git",
+     "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계"
+    }
+   ]
   },
   "cnc-scoreboard-cf": {
    "sessions": 0,
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-05",
+   "last_day": "2026-11-10",
    "active_now": false,
-   "commits": 9,
-   "timeline": []
+   "commits": 10,
+   "timeline": [
+    {
+     "ts": "2026-11-10T17:02",
+     "tool": "git",
+     "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어"
+    }
+   ]
   },
   "coinbot-adaptive": {
    "sessions": 0,
@@ -1960,10 +1972,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T16:53",
+   "ts": "2026-11-10T17:04",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "toss-marketing-center"
+  },
+  {
+   "ts": "2026-11-10T17:02",
+   "tool": "git",
+   "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계",
+   "project": "cnc-reporting-portal-cf"
+  },
+  {
+   "ts": "2026-11-10T17:02",
+   "tool": "git",
+   "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어",
+   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-10T14:36",
@@ -2134,7 +2158,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T16:53",
+ "data_at": "2026-11-10T17:04",
  "active_projects": [
   "toss-marketing-center"
  ]

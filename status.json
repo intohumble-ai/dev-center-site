@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-10T16:53",
+ "data_at": "2026-11-10T17:04",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -70,12 +70,12 @@
   },
   "cnc-reporting-portal-cf": {
    "id": "cnc-reporting-portal-cf",
-   "last_commit": "2026-11-05",
+   "last_commit": "2026-11-10",
    "light": "gray"
   },
   "cnc-scoreboard-cf": {
    "id": "cnc-scoreboard-cf",
-   "last_commit": "2026-11-05",
+   "last_commit": "2026-11-10",
    "light": "gray"
   },
   "codex-coinbot-design": {
