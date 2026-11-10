@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T02:21",
+     "ts": "2026-11-11T02:33",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T02:21",
+   "ts": "2026-11-11T02:33",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
@@ -2253,8 +2253,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T02:21",
+ "data_at": "2026-11-11T02:33",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
