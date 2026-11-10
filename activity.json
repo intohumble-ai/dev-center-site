@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-10T21:58",
+     "ts": "2026-11-10T22:53",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
@@ -2018,6 +2018,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-10T22:53",
+   "tool": "claude",
+   "title": "AI 학원 프로그램",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-10T22:12",
    "tool": "claude",
    "title": "MCP 설정 상태 확인",
@@ -2028,12 +2034,6 @@
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T21:58",
-   "tool": "claude",
-   "title": "AI 학원 프로그램",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-10T21:56",
@@ -2258,7 +2258,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-10T22:12",
+ "data_at": "2026-11-10T22:53",
  "active_projects": [
   "ai-academy"
  ]
