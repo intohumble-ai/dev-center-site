@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-10T21:29",
+     "ts": "2026-11-10T21:39",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
@@ -78,12 +78,17 @@
    "automated": 0,
    "last_day": "2026-11-10",
    "active_now": true,
-   "commits": 14,
+   "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T21:30",
+     "ts": "2026-11-10T21:31",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-10T21:31",
+     "tool": "git",
+     "title": "강사 리그 엑셀 11/10 새 양식 지원(총점=2분기만족도+시상합계, 날짜 칸 자동 탐지·검산), 주간 증감에서 새 항목 제외"
     },
     {
      "ts": "2026-11-10T20:19",
@@ -193,9 +198,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T21:25",
+     "ts": "2026-11-10T21:39",
      "tool": "claude",
      "title": "MCP 설정 상태 확인"
+    },
+    {
+     "ts": "2026-11-10T21:26",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
     },
     {
      "ts": "2026-11-03T16:08",
@@ -246,11 +256,6 @@
      "ts": "2026-10-05T16:50",
      "tool": "git",
      "title": "chore(cgv): 운영 중 설정 커밋(giftradar·watch_targets) — 9/27~ 미커밋 운영 해소(2차 회의 Y7)"
-    },
-    {
-     "ts": "2026-10-05T00:51",
-     "tool": "git",
-     "title": "feat(cgv): 등급표 생성기 v2 — 시야 편향 수리(앞줄 잠금·관종별 중심·통로 사이드·물리 축·의미 검사)"
     }
    ]
   },
@@ -2013,21 +2018,33 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T21:30",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
-   "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T21:29",
+   "ts": "2026-11-10T21:39",
    "tool": "claude",
    "title": "AI 학원 프로그램",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-10T21:25",
+   "ts": "2026-11-10T21:39",
    "tool": "claude",
    "title": "MCP 설정 상태 확인",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-10T21:31",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T21:31",
+   "tool": "git",
+   "title": "강사 리그 엑셀 11/10 새 양식 지원(총점=2분기만족도+시상합계, 날짜 칸 자동 탐지·검산), 주간 증감에서 새 항목 제외",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T21:26",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "cgv-bot"
   },
   {
@@ -2239,21 +2256,9 @@
    "tool": "git",
    "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-07T14:26",
-   "tool": "claude",
-   "title": "매쓰플랫 수업 전 점검 메시지",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-06T01:51",
-   "tool": "claude",
-   "title": "AI 학원 질문 프로그램 전투력 시스템",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-10T21:30",
+ "data_at": "2026-11-10T21:39",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
