@@ -10,9 +10,14 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-10T21:39",
+     "ts": "2026-11-10T21:51",
      "tool": "claude",
      "title": "AI 학원 프로그램"
+    },
+    {
+     "ts": "2026-11-10T21:51",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
     },
     {
      "ts": "2026-11-10T21:25",
@@ -63,11 +68,6 @@
      "ts": "2026-11-09T21:44",
      "tool": "git",
      "title": "fix(학부모 링크): 원장 11-09 — 첫 머리 임팩트 한 줄·연락처 겹침 제거(모델이 넣어도 뺌)·칸마다 구체적으로·공유 화면 글씨 크고 "
-    },
-    {
-     "ts": "2026-11-09T21:38",
-     "tool": "git",
-     "title": "feat(학부모 링크): H 보고서 AI 초안 모듈 — 검토한 피드백 글·질문 기록 요약만 근거, hReportSchema 검사 통과만 저장(1"
     }
    ]
   },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -198,7 +198,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T21:39",
+     "ts": "2026-11-10T21:50",
      "tool": "claude",
      "title": "MCP 설정 상태 확인"
     },
@@ -2018,13 +2018,19 @@
  },
  "feed": [
   {
-   "ts": "2026-11-10T21:39",
+   "ts": "2026-11-10T21:51",
    "tool": "claude",
    "title": "AI 학원 프로그램",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-10T21:39",
+   "ts": "2026-11-10T21:51",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-10T21:50",
    "tool": "claude",
    "title": "MCP 설정 상태 확인",
    "project": "cgv-bot"
@@ -2228,12 +2234,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-09T20:49",
-   "tool": "git",
-   "title": "fix(자료 라인업): 고등 겨울방학 교재 4종 원장 설명(11-09) — 이니쉬 기초 개념 / 에센셜 필수 특강(개념+필수) / 시그니처 필수",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-09T18:47",
    "tool": "claude",
    "title": "목동씨앤씨 본관 수학 진단평가 안내문",
@@ -2258,10 +2258,9 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-10T21:39",
+ "data_at": "2026-11-10T21:51",
  "active_projects": [
   "ai-academy",
-  "cgv-bot",
-  "cnc-scoreboard-cf"
+  "cgv-bot"
  ]
 }
