@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T00:28",
+     "ts": "2026-11-11T00:39",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-11T00:28",
+     "ts": "2026-11-11T00:38",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
@@ -2018,13 +2018,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T00:28",
+   "ts": "2026-11-11T00:39",
    "tool": "claude",
    "title": "AI 학원 프로그램",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-11T00:28",
+   "ts": "2026-11-11T00:38",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "cnc-scoreboard-cf"
@@ -2258,7 +2258,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-11T00:28",
+ "data_at": "2026-11-11T00:39",
  "active_projects": [
   "ai-academy",
   "cgv-bot",
