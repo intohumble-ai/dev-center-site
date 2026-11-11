@@ -10,14 +10,49 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T19:20",
+     "ts": "2026-11-11T19:31",
      "tool": "claude",
      "title": "AI 학원 프로그램"
     },
     {
-     "ts": "2026-11-11T16:50",
+     "ts": "2026-11-11T19:30",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-11T19:26",
+     "tool": "git",
+     "title": "fix(★약속 3차 감사 소수리): 고쳐 씀 후보 · ★🔒 잠금 · 보관 자리 판정 · 업무 done 보존 · 안내"
+    },
+    {
+     "ts": "2026-11-11T18:56",
+     "tool": "git",
+     "title": "fix(★약속 재감사 FAIL 수리): ★ 업무 모델·인계 거름 · 잠긴 link 자동 내림 · 고쳐 쓴 줄 이어받기 · 칸 규칙 정화"
+    },
+    {
+     "ts": "2026-11-11T18:27",
+     "tool": "git",
+     "title": "fix(★약속 콜드 감사 FAIL 수리): 모델 입력 공용 정화 forModel · 결과 사유 분리 · 잠긴 행 글자 짝 · 파서 오배정"
+    },
+    {
+     "ts": "2026-11-11T17:46",
+     "tool": "git",
+     "title": "chore(★약속 통합): W1·W2·W3 병합 — 브리핑·텔레그램 ★ 조회를 실제 listOpenStarPromises 에 연결"
+    },
+    {
+     "ts": "2026-11-11T17:40",
+     "tool": "git",
+     "title": "feat(★약속 W2): 부모님 링크 '약속' 카드 · open_checks 자리 · 출결 메모 원장 전용 줄 · 전체 메뉴 전략기획실"
+    },
+    {
+     "ts": "2026-11-11T17:22",
+     "tool": "git",
+     "title": "feat(수업 전 브리핑): W3 — 결정적 조립 lessonBrief·패널·반복 규칙 한 줄·텔레그램 ★ 오늘 챙길 것"
+    },
+    {
+     "ts": "2026-11-11T17:20",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
     },
     {
      "ts": "2026-11-11T02:38",
@@ -33,41 +68,6 @@
      "ts": "2026-11-11T01:03",
      "tool": "git",
      "title": "fix(관리 카드): 통합 재감사 P2 — 약속 시점 낱말 확장(15일에·이번 달·다음 테스트·시험 전까지·2주 뒤·매 수업 등) + 회귀 표"
-    },
-    {
-     "ts": "2026-11-11T00:56",
-     "tool": "git",
-     "title": "test(병합): 관리 카드 삭제 시험의 internal_note 칸 흉내 줄 제거 — ▮▮ 마이그레이션으로 이미 있음"
-    },
-    {
-     "ts": "2026-11-11T00:52",
-     "tool": "git",
-     "title": "fix: 전략기획실 — AppNav·globals.css 되돌림(다른 세션 작업 중), 스타일 전용 CSS 로 분리, 결정 버튼·지도 입구 크게"
-    },
-    {
-     "ts": "2026-11-11T00:50",
-     "tool": "git",
-     "title": "fix(정보주체 삭제·안내): 삭제한 아이의 🔒 원장 메모를 수업 메모(private_json·review_json·prepared_json)에"
-    },
-    {
-     "ts": "2026-11-11T00:49",
-     "tool": "git",
-     "title": "fix(관리 카드): 실데이터 시험 반영 — 글 1편당 새 후보 4개 상한, 약속은 시점+행동 있을 때만(시점 낱말 검사) / 통합 감사 P1 "
-    },
-    {
-     "ts": "2026-11-11T00:40",
-     "tool": "git",
-     "title": "fix(상단 메뉴): '전체 메뉴'를 열면 옆 버튼이 메뉴 높이만큼 길쭉해지던 것 — 버튼 높이 고정, PC는 떠 있는 상자·폰은 아래 한 줄 "
-    },
-    {
-     "ts": "2026-11-11T00:35",
-     "tool": "git",
-     "title": "feat: 전략기획실 — 사무실 지도 별도 방·/strategy 회의록·안건·원장 결정·회의록 들여오기 (원장 11-11)"
-    },
-    {
-     "ts": "2026-11-11T00:23",
-     "tool": "git",
-     "title": "test(병합): 관리 카드 시험의 '팀 A 칸 없음' 전제 제거 — ▮▮ 마이그레이션으로 internal_note 칸이 실제로 있음"
     }
    ]
   },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2013,15 +2013,57 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T19:20",
+   "ts": "2026-11-11T19:31",
    "tool": "claude",
    "title": "AI 학원 프로그램",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-11T16:50",
+   "ts": "2026-11-11T19:30",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T19:26",
+   "tool": "git",
+   "title": "fix(★약속 3차 감사 소수리): 고쳐 씀 후보 · ★🔒 잠금 · 보관 자리 판정 · 업무 done 보존 · 안내",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T18:56",
+   "tool": "git",
+   "title": "fix(★약속 재감사 FAIL 수리): ★ 업무 모델·인계 거름 · 잠긴 link 자동 내림 · 고쳐 쓴 줄 이어받기 · 칸 규칙 정화",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T18:27",
+   "tool": "git",
+   "title": "fix(★약속 콜드 감사 FAIL 수리): 모델 입력 공용 정화 forModel · 결과 사유 분리 · 잠긴 행 글자 짝 · 파서 오배정",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T17:46",
+   "tool": "git",
+   "title": "chore(★약속 통합): W1·W2·W3 병합 — 브리핑·텔레그램 ★ 조회를 실제 listOpenStarPromises 에 연결",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T17:40",
+   "tool": "git",
+   "title": "feat(★약속 W2): 부모님 링크 '약속' 카드 · open_checks 자리 · 출결 메모 원장 전용 줄 · 전체 메뉴 전략기획실",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T17:22",
+   "tool": "git",
+   "title": "feat(수업 전 브리핑): W3 — 결정적 조립 lessonBrief·패널·반복 규칙 한 줄·텔레그램 ★ 오늘 챙길 것",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T17:20",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
    "project": "ai-academy"
   },
   {
@@ -2052,36 +2094,6 @@
    "ts": "2026-11-11T00:52",
    "tool": "git",
    "title": "fix: 전략기획실 — AppNav·globals.css 되돌림(다른 세션 작업 중), 스타일 전용 CSS 로 분리, 결정 버튼·지도 입구 크게",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T00:50",
-   "tool": "git",
-   "title": "fix(정보주체 삭제·안내): 삭제한 아이의 🔒 원장 메모를 수업 메모(private_json·review_json·prepared_json)에",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T00:49",
-   "tool": "git",
-   "title": "fix(관리 카드): 실데이터 시험 반영 — 글 1편당 새 후보 4개 상한, 약속은 시점+행동 있을 때만(시점 낱말 검사) / 통합 감사 P1 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T00:40",
-   "tool": "git",
-   "title": "fix(상단 메뉴): '전체 메뉴'를 열면 옆 버튼이 메뉴 높이만큼 길쭉해지던 것 — 버튼 높이 고정, PC는 떠 있는 상자·폰은 아래 한 줄 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T00:35",
-   "tool": "git",
-   "title": "feat: 전략기획실 — 사무실 지도 별도 방·/strategy 회의록·안건·원장 결정·회의록 들여오기 (원장 11-11)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T00:23",
-   "tool": "git",
-   "title": "test(병합): 관리 카드 시험의 '팀 A 칸 없음' 전제 제거 — ▮▮ 마이그레이션으로 internal_note 칸이 실제로 있음",
    "project": "ai-academy"
   },
   {
@@ -2239,22 +2251,11 @@
    "tool": "claude",
    "title": "AI 학원 질문 프로그램 전투력 시스템",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-06T01:10",
-   "tool": "claude",
-   "title": "전체 작업 진행",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-05T22:19",
-   "tool": "claude",
-   "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T19:20",
+ "data_at": "2026-11-11T19:31",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
