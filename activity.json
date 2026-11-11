@@ -6,18 +6,23 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-11",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T11:07",
+     "ts": "2026-11-11T12:08",
+     "tool": "claude",
+     "title": "AI 학원 프로그램"
+    },
+    {
+     "ts": "2026-11-11T12:08",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
-     "ts": "2026-11-11T11:07",
-     "tool": "claude",
-     "title": "AI 학원 프로그램"
+     "ts": "2026-11-11T02:38",
+     "tool": "git",
+     "title": "feat(운영실): 부서들이 실제로 일하게 — 이름표 어댑터·5부서 주간 점검·첫 화면 재배치(설계서 2판 1단계 A·B·C)"
     },
     {
      "ts": "2026-11-11T01:13",
@@ -63,11 +68,6 @@
      "ts": "2026-11-11T00:23",
      "tool": "git",
      "title": "test(병합): 관리 카드 시험의 '팀 A 칸 없음' 전제 제거 — ▮▮ 마이그레이션으로 internal_note 칸이 실제로 있음"
-    },
-    {
-     "ts": "2026-11-11T00:06",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
     }
    ]
   },
@@ -2013,15 +2013,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T11:07",
+   "ts": "2026-11-11T12:08",
+   "tool": "claude",
+   "title": "AI 학원 프로그램",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T12:08",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-11T11:07",
-   "tool": "claude",
-   "title": "AI 학원 프로그램",
+   "ts": "2026-11-11T02:38",
+   "tool": "git",
+   "title": "feat(운영실): 부서들이 실제로 일하게 — 이름표 어댑터·5부서 주간 점검·첫 화면 재배치(설계서 2판 1단계 A·B·C)",
    "project": "ai-academy"
   },
   {
@@ -2076,12 +2082,6 @@
    "ts": "2026-11-11T00:23",
    "tool": "git",
    "title": "test(병합): 관리 카드 시험의 '팀 A 칸 없음' 전제 제거 — ▮▮ 마이그레이션으로 internal_note 칸이 실제로 있음",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T00:06",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
    "project": "ai-academy"
   },
   {
@@ -2253,6 +2253,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T11:07",
- "active_projects": []
+ "data_at": "2026-11-11T12:08",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
