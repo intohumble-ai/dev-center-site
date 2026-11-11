@@ -10,19 +10,29 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T22:08",
+     "ts": "2026-11-11T22:14",
      "tool": "claude",
      "title": "AI 학원 프로그램"
+    },
+    {
+     "ts": "2026-11-11T22:13",
+     "tool": "claude",
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-11T21:54",
+     "tool": "git",
+     "title": "feat(mathflat): 진도표 단원 색 = 유형분석(개념·기본) · 수업일 당일 숙제는 학부모 쪽 완료"
+    },
+    {
+     "ts": "2026-11-11T21:49",
+     "tool": "git",
+     "title": "fix(mm-contest): 개막 전 수리 P2-A·P2-B·P3-1·P3-2·P3-4"
     },
     {
      "ts": "2026-11-11T21:20",
      "tool": "git",
      "title": "feat(피드백 복사): H형 보고서 링크를 글 서두(인사 아래)로 — 원장 11-11"
-    },
-    {
-     "ts": "2026-11-11T21:09",
-     "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
      "ts": "2026-11-11T20:49",
@@ -50,24 +60,14 @@
      "title": "feat(MATH MATE): 원내 대회 — 제1회 전투력 챔피언십(예고·개막 팝업·현황판·알림·마감 확정)"
     },
     {
-     "ts": "2026-11-11T19:26",
-     "tool": "git",
-     "title": "fix(★약속 3차 감사 소수리): 고쳐 씀 후보 · ★🔒 잠금 · 보관 자리 판정 · 업무 done 보존 · 안내"
+     "ts": "2026-11-10T09:34",
+     "tool": "claude",
+     "title": "매쓰플랫 연동 학부모 피드백"
     },
     {
-     "ts": "2026-11-11T18:56",
-     "tool": "git",
-     "title": "fix(★약속 재감사 FAIL 수리): ★ 업무 모델·인계 거름 · 잠긴 link 자동 내림 · 고쳐 쓴 줄 이어받기 · 칸 규칙 정화"
-    },
-    {
-     "ts": "2026-11-11T18:27",
-     "tool": "git",
-     "title": "fix(★약속 콜드 감사 FAIL 수리): 모델 입력 공용 정화 forModel · 결과 사유 분리 · 잠긴 행 글자 짝 · 파서 오배정"
-    },
-    {
-     "ts": "2026-11-11T17:46",
-     "tool": "git",
-     "title": "chore(★약속 통합): W1·W2·W3 병합 — 브리핑·텔레그램 ★ 조회를 실제 listOpenStarPromises 에 연결"
+     "ts": "2026-11-09T21:37",
+     "tool": "claude",
+     "title": "매쓰플랫 AI 학원 연동 분석"
     }
    ]
   },
@@ -2013,21 +2013,33 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T22:08",
+   "ts": "2026-11-11T22:14",
    "tool": "claude",
    "title": "AI 학원 프로그램",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T22:13",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T21:54",
+   "tool": "git",
+   "title": "feat(mathflat): 진도표 단원 색 = 유형분석(개념·기본) · 수업일 당일 숙제는 학부모 쪽 완료",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T21:49",
+   "tool": "git",
+   "title": "fix(mm-contest): 개막 전 수리 P2-A·P2-B·P3-1·P3-2·P3-4",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-11T21:20",
    "tool": "git",
    "title": "feat(피드백 복사): H형 보고서 링크를 글 서두(인사 아래)로 — 원장 11-11",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T21:09",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
@@ -2058,30 +2070,6 @@
    "ts": "2026-11-11T19:38",
    "tool": "git",
    "title": "feat(MATH MATE): 원내 대회 — 제1회 전투력 챔피언십(예고·개막 팝업·현황판·알림·마감 확정)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T19:26",
-   "tool": "git",
-   "title": "fix(★약속 3차 감사 소수리): 고쳐 씀 후보 · ★🔒 잠금 · 보관 자리 판정 · 업무 done 보존 · 안내",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T18:56",
-   "tool": "git",
-   "title": "fix(★약속 재감사 FAIL 수리): ★ 업무 모델·인계 거름 · 잠긴 link 자동 내림 · 고쳐 쓴 줄 이어받기 · 칸 규칙 정화",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T18:27",
-   "tool": "git",
-   "title": "fix(★약속 콜드 감사 FAIL 수리): 모델 입력 공용 정화 forModel · 결과 사유 분리 · 잠긴 행 글자 짝 · 파서 오배정",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T17:46",
-   "tool": "git",
-   "title": "chore(★약속 통합): W1·W2·W3 병합 — 브리핑·텔레그램 ★ 조회를 실제 listOpenStarPromises 에 연결",
    "project": "ai-academy"
   },
   {
@@ -2251,9 +2239,15 @@
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-04T21:14",
+   "tool": "claude",
+   "title": "AI학원 전체 분석 및 평가",
+   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T22:08",
+ "data_at": "2026-11-11T22:14",
  "active_projects": [
   "ai-academy"
  ]
