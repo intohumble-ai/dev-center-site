@@ -10,9 +10,14 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-11T21:11",
+     "ts": "2026-11-11T21:21",
      "tool": "claude",
      "title": "AI 학원 프로그램"
+    },
+    {
+     "ts": "2026-11-11T21:20",
+     "tool": "git",
+     "title": "feat(피드백 복사): H형 보고서 링크를 글 서두(인사 아래)로 — 원장 11-11"
     },
     {
      "ts": "2026-11-11T21:09",
@@ -63,11 +68,6 @@
      "ts": "2026-11-11T17:46",
      "tool": "git",
      "title": "chore(★약속 통합): W1·W2·W3 병합 — 브리핑·텔레그램 ★ 조회를 실제 listOpenStarPromises 에 연결"
-    },
-    {
-     "ts": "2026-11-11T17:40",
-     "tool": "git",
-     "title": "feat(★약속 W2): 부모님 링크 '약속' 카드 · open_checks 자리 · 출결 메모 원장 전용 줄 · 전체 메뉴 전략기획실"
     }
    ]
   },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2013,9 +2013,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-11T21:11",
+   "ts": "2026-11-11T21:21",
    "tool": "claude",
    "title": "AI 학원 프로그램",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-11T21:20",
+   "tool": "git",
+   "title": "feat(피드백 복사): H형 보고서 링크를 글 서두(인사 아래)로 — 원장 11-11",
    "project": "ai-academy"
   },
   {
@@ -2076,12 +2082,6 @@
    "ts": "2026-11-11T17:46",
    "tool": "git",
    "title": "chore(★약속 통합): W1·W2·W3 병합 — 브리핑·텔레그램 ★ 조회를 실제 listOpenStarPromises 에 연결",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T17:40",
-   "tool": "git",
-   "title": "feat(★약속 W2): 부모님 링크 '약속' 카드 · open_checks 자리 · 출결 메모 원장 전용 줄 · 전체 메뉴 전략기획실",
    "project": "ai-academy"
   },
   {
@@ -2253,8 +2253,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-11T21:11",
+ "data_at": "2026-11-11T21:21",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
