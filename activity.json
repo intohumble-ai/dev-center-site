@@ -71,84 +71,13 @@
     }
    ]
   },
-  "samguk-rpg": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-10-12",
-   "active_now": false,
-   "commits": 33,
-   "timeline": [
-    {
-     "ts": "2026-10-12T23:02",
-     "tool": "claude",
-     "title": "삼국지 RPG 게임 기획"
-    },
-    {
-     "ts": "2026-10-10T19:47",
-     "tool": "git",
-     "title": "W5-PLAY: 히트스톱 중 목표 고정 키가 버려지던 것 수리 + 테스트, 증거 재캡처, PROGRESS 16절"
-    },
-    {
-     "ts": "2026-10-10T19:40",
-     "tool": "git",
-     "title": "QOL: master(FONT 프리텐다드) 병합 뒤 증거 다시 찍음(23/23 OK)"
-    },
-    {
-     "ts": "2026-10-10T19:34",
-     "tool": "git",
-     "title": "QOL: 7차 감사 PASS 기록"
-    },
-    {
-     "ts": "2026-10-10T19:33",
-     "tool": "git",
-     "title": "QOL 6차 감사 수리: 퀘스트 줄([진행 중] 등)이 하나라도 있으면 대화 커서 기억 안 함"
-    },
-    {
-     "ts": "2026-10-10T19:29",
-     "tool": "git",
-     "title": "QOL 5차 감사 수리: 대화 메뉴 기억에서 대장간·약방 제외(창이 열리면 Enter = 강화·제작)"
-    },
-    {
-     "ts": "2026-10-10T19:25",
-     "tool": "git",
-     "title": "QOL 4차 감사 수리: 대화 메뉴 기억은 창만 여는 줄(상점·대장간·보관함)·처음 말 걸 때만 — Enter 연타로 쉬기 요금 반복 차감 막음"
-    },
-    {
-     "ts": "2026-10-10T19:23",
-     "tool": "git",
-     "title": "master 병합(글꼴 프리텐다드)"
-    },
-    {
-     "ts": "2026-10-10T19:21",
-     "tool": "git",
-     "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로"
-    },
-    {
-     "ts": "2026-10-10T19:17",
-     "tool": "git",
-     "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모"
-    },
-    {
-     "ts": "2026-10-10T19:02",
-     "tool": "git",
-     "title": "evidence(font): 리사이즈 해상도 실측(1280→2560→640→1280)·FontFace 로드 상태·결과 합치기"
-    },
-    {
-     "ts": "2026-10-10T19:02",
-     "tool": "git",
-     "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU"
-    }
-   ]
-  },
   "cgv-bot": {
    "sessions": 5,
    "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-12",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -280,8 +209,8 @@
    ]
   },
   "dev-center": {
-   "sessions": 2,
-   "sessions_claude": 2,
+   "sessions": 1,
+   "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-10",
@@ -307,11 +236,6 @@
      "ts": "2026-11-07T14:59",
      "tool": "git",
      "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리"
-    },
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "개발 센터 포트폴리오 사이트"
     },
     {
      "ts": "2026-10-10T19:04",
@@ -347,148 +271,11 @@
      "ts": "2026-10-10T11:53",
      "tool": "git",
      "title": "P0: 샌드박스 실현 가능성 실측 — 상자 A에서 claude -p 2회 성공(▮▮), 허용 호스트 api.anthropic.com 단일 확정,"
-    }
-   ]
-  },
-  "ai-securities": {
-   "sessions": 1,
-   "sessions_claude": 1,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-11-10",
-   "active_now": false,
-   "commits": 16,
-   "timeline": [
+    },
     {
-     "ts": "2026-11-10T21:25",
+     "ts": "2026-10-10T11:11",
      "tool": "git",
-     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
-    },
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "결정 후 병목 해결"
-    },
-    {
-     "ts": "2026-10-10T20:34",
-     "tool": "git",
-     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
-    },
-    {
-     "ts": "2026-10-10T20:03",
-     "tool": "git",
-     "title": "Merge commit '482dec3' into w3-int2"
-    },
-    {
-     "ts": "2026-10-10T20:03",
-     "tool": "git",
-     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
-    },
-    {
-     "ts": "2026-10-10T19:18",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-10-10T19:11",
-     "tool": "git",
-     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
-    },
-    {
-     "ts": "2026-10-10T15:05",
-     "tool": "git",
-     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
-    },
-    {
-     "ts": "2026-10-10T14:18",
-     "tool": "git",
-     "title": "Merge commit '6fcdfa3' into w2-int"
-    },
-    {
-     "ts": "2026-10-10T14:18",
-     "tool": "git",
-     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
-    },
-    {
-     "ts": "2026-10-10T13:25",
-     "tool": "git",
-     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
-    },
-    {
-     "ts": "2026-10-10T13:20",
-     "tool": "git",
-     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
-    }
-   ]
-  },
-  "toss-marketing-center": {
-   "sessions": 4,
-   "sessions_claude": 2,
-   "sessions_codex": 2,
-   "automated": 1,
-   "last_day": "2026-10-26",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-10-26T21:52",
-     "tool": "claude",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-10-15T13:29",
-     "tool": "codex",
-     "title": "새 Local Edge 연결 확인"
-    },
-    {
-     "ts": "2026-10-14T17:40",
-     "tool": "codex",
-     "title": "Edge 탭 목록 읽기"
-    },
-    {
-     "ts": "2026-10-13T01:55",
-     "tool": "claude",
-     "title": "사도돼 프로젝트 전체 분석 및 기능 제안"
-    },
-    {
-     "ts": "2026-10-10T15:22",
-     "tool": "git",
-     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
-    },
-    {
-     "ts": "2026-10-10T15:08",
-     "tool": "git",
-     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
-    },
-    {
-     "ts": "2026-10-10T14:30",
-     "tool": "git",
-     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
-    },
-    {
-     "ts": "2026-10-10T14:15",
-     "tool": "git",
-     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
-    },
-    {
-     "ts": "2026-10-10T12:23",
-     "tool": "git",
-     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
-    },
-    {
-     "ts": "2026-10-10T12:09",
-     "tool": "git",
-     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
-    },
-    {
-     "ts": "2026-10-10T11:41",
-     "tool": "git",
-     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
-    },
-    {
-     "ts": "2026-10-10T11:20",
-     "tool": "git",
-     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
+     "title": "설계: 엔진 bwrap 샌드박스 재설계 문서(위협모델·상자 A/B·fetch 회수·diff 위생·실돈 정책·실측 9건)"
     }
    ]
   },
@@ -543,6 +330,77 @@
     }
    ]
   },
+  "toss-marketing-center": {
+   "sessions": 3,
+   "sessions_claude": 1,
+   "sessions_codex": 2,
+   "automated": 1,
+   "last_day": "2026-10-26",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-10-26T21:52",
+     "tool": "claude",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-15T13:29",
+     "tool": "codex",
+     "title": "새 Local Edge 연결 확인"
+    },
+    {
+     "ts": "2026-10-14T17:40",
+     "tool": "codex",
+     "title": "Edge 탭 목록 읽기"
+    },
+    {
+     "ts": "2026-10-10T15:22",
+     "tool": "git",
+     "title": "deal_page disclosure fail-closed; pin reused threads_verdict link to the product"
+    },
+    {
+     "ts": "2026-10-10T15:08",
+     "tool": "git",
+     "title": "sado-link: cold-audit fixes — product_id 7-day rule, toss host detection, bulk w"
+    },
+    {
+     "ts": "2026-10-10T14:30",
+     "tool": "git",
+     "title": "sado-link: arbiter spacing 30 via config; Threads link reply issues its own tagg"
+    },
+    {
+     "ts": "2026-10-10T14:15",
+     "tool": "git",
+     "title": "sado-link: home 🟢 sharelink auto-issue + 🟢 verdict link reply + user's post form"
+    },
+    {
+     "ts": "2026-10-10T12:23",
+     "tool": "git",
+     "title": "home: gate recent verdict changes too; align peer-evidence fixtures; E2E gate te"
+    },
+    {
+     "ts": "2026-10-10T12:09",
+     "tool": "git",
+     "title": "home picks: apply the verified-comparison allowlist (fail-closed)"
+    },
+    {
+     "ts": "2026-10-10T11:41",
+     "tool": "git",
+     "title": "Thumbnails: tolerate a bad blocklist, follow the newest observation, worker URL "
+    },
+    {
+     "ts": "2026-10-10T11:20",
+     "tool": "git",
+     "title": "Home/verdict payload: optional thumbnail_url (Toss image URL or null)"
+    },
+    {
+     "ts": "2026-10-10T11:02",
+     "tool": "git",
+     "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)"
+    }
+   ]
+  },
   "codex-coinbot-design": {
    "sessions": 1,
    "sessions_claude": 0,
@@ -588,6 +446,72 @@
      "ts": "2026-09-25T19:25",
      "tool": "codex",
      "title": "GPT 원격 실행 링크 만들기"
+    }
+   ]
+  },
+  "ai-securities": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-10",
+   "active_now": false,
+   "commits": 16,
+   "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
+    {
+     "ts": "2026-10-10T20:34",
+     "tool": "git",
+     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "Merge commit '482dec3' into w3-int2"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
+    },
+    {
+     "ts": "2026-10-10T19:18",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-10T19:11",
+     "tool": "git",
+     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
+    },
+    {
+     "ts": "2026-10-10T15:05",
+     "tool": "git",
+     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "Merge commit '6fcdfa3' into w2-int"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
+    },
+    {
+     "ts": "2026-10-10T13:25",
+     "tool": "git",
+     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
+    },
+    {
+     "ts": "2026-10-10T13:20",
+     "tool": "git",
+     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
     }
    ]
   },
@@ -1761,6 +1685,77 @@
     }
    ]
   },
+  "samguk-rpg": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-10-10",
+   "active_now": false,
+   "commits": 33,
+   "timeline": [
+    {
+     "ts": "2026-10-10T19:47",
+     "tool": "git",
+     "title": "W5-PLAY: 히트스톱 중 목표 고정 키가 버려지던 것 수리 + 테스트, 증거 재캡처, PROGRESS 16절"
+    },
+    {
+     "ts": "2026-10-10T19:40",
+     "tool": "git",
+     "title": "QOL: master(FONT 프리텐다드) 병합 뒤 증거 다시 찍음(23/23 OK)"
+    },
+    {
+     "ts": "2026-10-10T19:34",
+     "tool": "git",
+     "title": "QOL: 7차 감사 PASS 기록"
+    },
+    {
+     "ts": "2026-10-10T19:33",
+     "tool": "git",
+     "title": "QOL 6차 감사 수리: 퀘스트 줄([진행 중] 등)이 하나라도 있으면 대화 커서 기억 안 함"
+    },
+    {
+     "ts": "2026-10-10T19:29",
+     "tool": "git",
+     "title": "QOL 5차 감사 수리: 대화 메뉴 기억에서 대장간·약방 제외(창이 열리면 Enter = 강화·제작)"
+    },
+    {
+     "ts": "2026-10-10T19:25",
+     "tool": "git",
+     "title": "QOL 4차 감사 수리: 대화 메뉴 기억은 창만 여는 줄(상점·대장간·보관함)·처음 말 걸 때만 — Enter 연타로 쉬기 요금 반복 차감 막음"
+    },
+    {
+     "ts": "2026-10-10T19:23",
+     "tool": "git",
+     "title": "master 병합(글꼴 프리텐다드)"
+    },
+    {
+     "ts": "2026-10-10T19:21",
+     "tool": "git",
+     "title": "문서: PROGRESS W5-PLAY 15절(5차 감사 PASS·남은 P3), 14절 접경 충돌 문구를 실제 동작으로"
+    },
+    {
+     "ts": "2026-10-10T19:17",
+     "tool": "git",
+     "title": "QOL: 대화 메뉴 기억이 [완료]·[새 의뢰] 줄을 가리지 않게 + PROGRESS 검증·병합 메모"
+    },
+    {
+     "ts": "2026-10-10T19:02",
+     "tool": "git",
+     "title": "evidence(font): 리사이즈 해상도 실측(1280→2560→640→1280)·FontFace 로드 상태·결과 합치기"
+    },
+    {
+     "ts": "2026-10-10T19:02",
+     "tool": "git",
+     "title": "fix(font): 감사 P1·P2·P3 — 배율 변경·글꼴 늦은 로드 즉시 재그리기, 픽셀 상한 LRU"
+    },
+    {
+     "ts": "2026-10-10T19:01",
+     "tool": "git",
+     "title": "증거: W5PLAY 최종 재캡처(20/20, e13e660 빌드)"
+    }
+   ]
+  },
   "samgukji-game": {
    "sessions": 0,
    "sessions_claude": 0,
@@ -2249,7 +2244,6 @@
  ],
  "data_at": "2026-11-12T15:06",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot"
+  "ai-academy"
  ]
 }
