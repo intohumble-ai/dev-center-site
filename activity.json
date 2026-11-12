@@ -7,17 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-12",
    "active_now": true,
-   "commits": 45,
+   "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-12T20:14",
+     "ts": "2026-11-12T20:27",
      "tool": "claude",
      "title": "AI학원 프로그램 대대적 개선"
     },
     {
-     "ts": "2026-11-12T19:47",
+     "ts": "2026-11-12T20:25",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-12T20:25",
+     "tool": "git",
+     "title": "test(★약속 재감사): 기록 시각을 NOW 직전으로 고정 — 실제 시각이 11/12 20:00을 넘으면 깨지던 시한폭탄 2건 수리"
+    },
+    {
+     "ts": "2026-11-12T20:17",
+     "tool": "git",
+     "title": "fix(오늘 수업): 실사용 시험에서 본 불편 4가지 — 원장 11-12 \"권장대로 수리\""
     },
     {
      "ts": "2026-11-12T19:46",
@@ -58,16 +68,6 @@
      "ts": "2026-11-11T21:20",
      "tool": "git",
      "title": "feat(피드백 복사): H형 보고서 링크를 글 서두(인사 아래)로 — 원장 11-11"
-    },
-    {
-     "ts": "2026-11-11T20:49",
-     "tool": "git",
-     "title": "style(H 보고서): '학습 완료' 색을 신호등 녹색으로(원장 11-11)"
-    },
-    {
-     "ts": "2026-11-11T20:48",
-     "tool": "git",
-     "title": "style(H 보고서): '학습 완료' 단원 색을 회색→보라 + ✓ (원장 11-11: 끝낸 단원이 안심되게)"
     }
    ]
   },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-12",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2008,15 +2008,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-12T20:14",
+   "ts": "2026-11-12T20:27",
    "tool": "claude",
    "title": "AI학원 프로그램 대대적 개선",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-12T19:47",
+   "ts": "2026-11-12T20:25",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-12T20:25",
+   "tool": "git",
+   "title": "test(★약속 재감사): 기록 시각을 NOW 직전으로 고정 — 실제 시각이 11/12 20:00을 넘으면 깨지던 시한폭탄 2건 수리",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-12T20:17",
+   "tool": "git",
+   "title": "fix(오늘 수업): 실사용 시험에서 본 불편 4가지 — 원장 11-12 \"권장대로 수리\"",
    "project": "ai-academy"
   },
   {
@@ -2083,12 +2095,6 @@
    "ts": "2026-11-11T20:48",
    "tool": "git",
    "title": "style(H 보고서): '학습 완료' 단원 색을 회색→보라 + ✓ (원장 11-11: 끝낸 단원이 안심되게)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T20:19",
-   "tool": "git",
-   "title": "fix(MATH MATE 대회): 콜드 감사 P1-1 삭제 토큰(숫자·짧은 행 id 제외, 이벤트 TEXT id+seq) · P2-1 삭제 시험",
    "project": "ai-academy"
   },
   {
@@ -2240,16 +2246,11 @@
    "tool": "claude",
    "title": "AI 학원 질문 프로그램 전투력 시스템",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-06T01:10",
-   "tool": "claude",
-   "title": "전체 작업 진행",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-12T20:14",
+ "data_at": "2026-11-12T20:27",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
