@@ -10,19 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-12T14:56",
+     "ts": "2026-11-12T15:06",
      "tool": "claude",
      "title": "AI학원 프로그램 대대적 개선"
+    },
+    {
+     "ts": "2026-11-12T14:57",
+     "tool": "claude",
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
      "ts": "2026-11-12T14:42",
      "tool": "claude",
      "title": "AI 학원 프로그램"
-    },
-    {
-     "ts": "2026-11-11T22:13",
-     "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
      "ts": "2026-11-11T21:54",
@@ -147,12 +147,12 @@
    "sessions_claude": 5,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-10",
-   "active_now": false,
+   "last_day": "2026-11-12",
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-10T22:12",
+     "ts": "2026-11-12T14:58",
      "tool": "claude",
      "title": "MCP 설정 상태 확인"
     },
@@ -1293,7 +1293,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-05",
+   "last_day": "2026-11-12",
    "active_now": false,
    "commits": 15,
    "timeline": []
@@ -2013,21 +2013,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-12T14:56",
+   "ts": "2026-11-12T15:06",
    "tool": "claude",
    "title": "AI학원 프로그램 대대적 개선",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-12T14:58",
+   "tool": "claude",
+   "title": "MCP 설정 상태 확인",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-12T14:57",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-12T14:42",
    "tool": "claude",
    "title": "AI 학원 프로그램",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T22:13",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
@@ -2077,12 +2083,6 @@
    "tool": "git",
    "title": "feat(MATH MATE): 원내 대회 — 제1회 전투력 챔피언십(예고·개막 팝업·현황판·알림·마감 확정)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-10T22:12",
-   "tool": "claude",
-   "title": "MCP 설정 상태 확인",
-   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-10T21:50",
@@ -2247,8 +2247,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-12T14:56",
+ "data_at": "2026-11-12T15:06",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
