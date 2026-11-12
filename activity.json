@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 14,
-   "sessions_claude": 14,
+   "sessions": 15,
+   "sessions_claude": 15,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-12",
    "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-12T14:56",
+     "tool": "claude",
+     "title": "AI학원 프로그램 대대적 개선"
+    },
     {
      "ts": "2026-11-12T14:42",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-10T09:34",
      "tool": "claude",
      "title": "매쓰플랫 연동 학부모 피드백"
-    },
-    {
-     "ts": "2026-11-09T21:37",
-     "tool": "claude",
-     "title": "매쓰플랫 AI 학원 연동 분석"
     }
    ]
   },
@@ -2013,6 +2013,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-12T14:56",
+   "tool": "claude",
+   "title": "AI학원 프로그램 대대적 개선",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-12T14:42",
    "tool": "claude",
    "title": "AI 학원 프로그램",
@@ -2239,15 +2245,9 @@
    "tool": "claude",
    "title": "매쓰플랫 학생 데이터 연동 자동 피드백",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-04T21:14",
-   "tool": "claude",
-   "title": "AI학원 전체 분석 및 평가",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-12T14:42",
+ "data_at": "2026-11-12T14:56",
  "active_projects": [
   "ai-academy"
  ]
