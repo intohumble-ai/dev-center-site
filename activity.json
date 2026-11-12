@@ -7,22 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-12",
    "active_now": true,
-   "commits": 47,
+   "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-12T19:43",
+     "ts": "2026-11-12T19:48",
      "tool": "claude",
      "title": "AI학원 프로그램 대대적 개선"
+    },
+    {
+     "ts": "2026-11-12T19:47",
+     "tool": "claude",
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+    },
+    {
+     "ts": "2026-11-12T19:46",
+     "tool": "git",
+     "title": "fix(오늘 수업 ③): 늦게 온 상태 응답이 새 글을 되돌리지 않게 + 폴링 요청 겹침 방지"
     },
     {
      "ts": "2026-11-12T19:37",
      "tool": "git",
      "title": "fix(오늘 수업 ③): 보고서 맞추는 동안 상태 다시 읽기 + '보고서 맞추는 중' 표시"
-    },
-    {
-     "ts": "2026-11-12T17:24",
-     "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
      "ts": "2026-11-12T17:19",
@@ -63,11 +68,6 @@
      "ts": "2026-11-11T20:48",
      "tool": "git",
      "title": "style(H 보고서): '학습 완료' 단원 색을 회색→보라 + ✓ (원장 11-11: 끝낸 단원이 안심되게)"
-    },
-    {
-     "ts": "2026-11-11T20:19",
-     "tool": "git",
-     "title": "fix(MATH MATE 대회): 콜드 감사 P1-1 삭제 토큰(숫자·짧은 행 id 제외, 이벤트 TEXT id+seq) · P2-1 삭제 시험"
     }
    ]
   },
@@ -2008,21 +2008,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-12T19:43",
+   "ts": "2026-11-12T19:48",
    "tool": "claude",
    "title": "AI학원 프로그램 대대적 개선",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-12T19:47",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-12T19:46",
+   "tool": "git",
+   "title": "fix(오늘 수업 ③): 늦게 온 상태 응답이 새 글을 되돌리지 않게 + 폴링 요청 겹침 방지",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-12T19:37",
    "tool": "git",
    "title": "fix(오늘 수업 ③): 보고서 맞추는 동안 상태 다시 읽기 + '보고서 맞추는 중' 표시",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-12T17:24",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
@@ -2083,12 +2089,6 @@
    "ts": "2026-11-11T20:19",
    "tool": "git",
    "title": "fix(MATH MATE 대회): 콜드 감사 P1-1 삭제 토큰(숫자·짧은 행 id 제외, 이벤트 TEXT id+seq) · P2-1 삭제 시험",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-11T20:05",
-   "tool": "git",
-   "title": "feat(MATH MATE 대회): 첫 대회 11/16~11/29 · 이상 신호 원장 알림([인정]·[무효]·[다시 인정], 텔레그램 하루 5건",
    "project": "ai-academy"
   },
   {
@@ -2248,7 +2248,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-12T19:43",
+ "data_at": "2026-11-12T19:48",
  "active_projects": [
   "ai-academy"
  ]
