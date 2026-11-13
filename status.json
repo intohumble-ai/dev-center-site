@@ -118,7 +118,7 @@
   "couple-dca-bot": {
    "id": "couple-dca-bot",
    "service": "active",
-   "log_error": false,
+   "log_error": true,
    "last_commit": "2026-09-26",
    "light": "green",
    "db_tables": 19,
@@ -157,7 +157,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "fleet-data": {
    "id": "fleet-data",
