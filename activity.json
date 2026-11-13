@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-13T22:15",
+     "ts": "2026-11-13T22:26",
      "tool": "claude",
      "title": "ai학원 피드백 및 H형 보고서 조정"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-13T22:15",
+   "ts": "2026-11-13T22:26",
    "tool": "claude",
    "title": "ai학원 피드백 및 H형 보고서 조정",
    "project": "ai-academy"
@@ -2248,7 +2248,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-13T22:15",
+ "data_at": "2026-11-13T22:26",
  "active_projects": [
   "ai-academy"
  ]
