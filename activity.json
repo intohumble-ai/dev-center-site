@@ -5,12 +5,12 @@
    "sessions_claude": 16,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-13",
+   "last_day": "2026-11-14",
    "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-13T23:51",
+     "ts": "2026-11-14T00:01",
      "tool": "claude",
      "title": "ai학원 피드백 및 H형 보고서 조정"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-13T23:51",
+   "ts": "2026-11-14T00:01",
    "tool": "claude",
    "title": "ai학원 피드백 및 H형 보고서 조정",
    "project": "ai-academy"
@@ -2248,7 +2248,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-13T23:51",
+ "data_at": "2026-11-14T00:01",
  "active_projects": [
   "ai-academy"
  ]
