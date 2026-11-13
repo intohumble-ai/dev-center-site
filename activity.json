@@ -5,19 +5,19 @@
    "sessions_claude": 15,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-12",
-   "active_now": false,
+   "last_day": "2026-11-13",
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-12T20:44",
+     "ts": "2026-11-13T19:52",
      "tool": "claude",
-     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
+     "title": "AI학원 프로그램 대대적 개선"
     },
     {
      "ts": "2026-11-12T20:44",
      "tool": "claude",
-     "title": "AI학원 프로그램 대대적 개선"
+     "title": "씨앤씨 스코어보드 11월 1주차 데이터"
     },
     {
      "ts": "2026-11-12T20:42",
@@ -2008,15 +2008,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-12T20:44",
+   "ts": "2026-11-13T19:52",
    "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
+   "title": "AI학원 프로그램 대대적 개선",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-12T20:44",
    "tool": "claude",
-   "title": "AI학원 프로그램 대대적 개선",
+   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
    "project": "ai-academy"
   },
   {
@@ -2248,6 +2248,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-12T20:44",
- "active_projects": []
+ "data_at": "2026-11-13T19:52",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
