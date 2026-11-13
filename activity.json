@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-13",
    "active_now": true,
-   "commits": 45,
+   "commits": 46,
    "timeline": [
     {
-     "ts": "2026-11-13T20:35",
+     "ts": "2026-11-13T20:41",
      "tool": "claude",
      "title": "AI학원 프로그램 대대적 개선"
+    },
+    {
+     "ts": "2026-11-13T20:38",
+     "tool": "git",
+     "title": "feat(학부모 연락): '다른 연락'→'연락 양식', 양식 목록의 보낸 글 원문 정리, 오늘 수업 ③에 추가 학습 안내 양식 버튼 — 원장 1"
     },
     {
      "ts": "2026-11-12T20:44",
@@ -63,11 +68,6 @@
      "ts": "2026-11-12T14:42",
      "tool": "claude",
      "title": "AI 학원 프로그램"
-    },
-    {
-     "ts": "2026-11-11T21:54",
-     "tool": "git",
-     "title": "feat(mathflat): 진도표 단원 색 = 유형분석(개념·기본) · 수업일 당일 숙제는 학부모 쪽 완료"
     }
    ]
   },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-12",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2008,9 +2008,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-13T20:35",
+   "ts": "2026-11-13T20:41",
    "tool": "claude",
    "title": "AI학원 프로그램 대대적 개선",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-13T20:38",
+   "tool": "git",
+   "title": "feat(학부모 연락): '다른 연락'→'연락 양식', 양식 목록의 보낸 글 원문 정리, 오늘 수업 ③에 추가 학습 안내 양식 버튼 — 원장 1",
    "project": "ai-academy"
   },
   {
@@ -2240,17 +2246,10 @@
    "tool": "claude",
    "title": "매쓰플랫 수업 전 점검 메시지",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-06T01:51",
-   "tool": "claude",
-   "title": "AI 학원 질문 프로그램 전투력 시스템",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-13T20:35",
+ "data_at": "2026-11-13T20:41",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot"
+  "ai-academy"
  ]
 }
