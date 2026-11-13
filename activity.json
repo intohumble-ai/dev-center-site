@@ -1,14 +1,24 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 15,
-   "sessions_claude": 15,
+   "sessions": 16,
+   "sessions_claude": 16,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-13",
    "active_now": true,
-   "commits": 45,
+   "commits": 46,
    "timeline": [
+    {
+     "ts": "2026-11-13T21:35",
+     "tool": "claude",
+     "title": "ai학원 피드백 및 H형 보고서 조정"
+    },
+    {
+     "ts": "2026-11-13T21:32",
+     "tool": "git",
+     "title": "fix(H 보고서): 해명·면책 문장 없애기 + 평가 카드는 첫 탭에만 — 원장 11-13"
+    },
     {
      "ts": "2026-11-13T21:21",
      "tool": "claude",
@@ -58,16 +68,6 @@
      "ts": "2026-11-12T19:37",
      "tool": "git",
      "title": "fix(오늘 수업 ③): 보고서 맞추는 동안 상태 다시 읽기 + '보고서 맞추는 중' 표시"
-    },
-    {
-     "ts": "2026-11-12T17:19",
-     "tool": "git",
-     "title": "feat(오늘 수업): 수업 전→중→후를 한 화면 /today 로 — 원장 11-12"
-    },
-    {
-     "ts": "2026-11-12T16:06",
-     "tool": "git",
-     "title": "feat(수업 전 카드): 막힘 줄을 학생 1명당 1줄로 — 원장 11-12"
     }
    ]
   },
@@ -2008,6 +2008,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-13T21:35",
+   "tool": "claude",
+   "title": "ai학원 피드백 및 H형 보고서 조정",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-13T21:32",
+   "tool": "git",
+   "title": "fix(H 보고서): 해명·면책 문장 없애기 + 평가 카드는 첫 탭에만 — 원장 11-13",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-13T21:21",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 1주차 데이터",
@@ -2234,21 +2246,9 @@
    "tool": "git",
    "title": "fix(활동 수집): rollout 파일도 DB 와 같은 최상위 필터 + 낡은 빌드 테스트 교정 + 테스트 캐시 격리",
    "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-07T14:59",
-   "tool": "git",
-   "title": "fix(활동 수집): 새 Codex DB(state_5.sqlite) 대화 집계 — Codex 세션 0건 문제 수리",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-07T14:26",
-   "tool": "claude",
-   "title": "매쓰플랫 수업 전 점검 메시지",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-13T21:21",
+ "data_at": "2026-11-13T21:35",
  "active_projects": [
   "ai-academy"
  ]
