@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-13T23:18",
+ "data_at": "2026-11-13T23:41",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -157,7 +157,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "fleet-data": {
    "id": "fleet-data",
@@ -245,7 +245,7 @@
   "pentagon-bot": {
    "id": "pentagon-bot",
    "service": "active",
-   "log_error": false,
+   "log_error": true,
    "last_commit": "2026-09-24",
    "light": "green",
    "db_tables": 16,
@@ -295,7 +295,7 @@
    "last_commit": "2026-09-25",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",
