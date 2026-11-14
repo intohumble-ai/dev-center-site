@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-14",
-   "active_now": true,
+   "active_now": false,
    "commits": 45,
    "timeline": [
     {
@@ -1130,7 +1130,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-10",
+   "last_day": "2026-11-15",
    "active_now": false,
    "commits": 15,
    "timeline": [
@@ -2248,8 +2248,6 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-14T00:07",
- "active_projects": [
-  "ai-academy"
- ]
+ "data_at": "2026-11-15T04:45",
+ "active_projects": []
 }
