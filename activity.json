@@ -6,9 +6,14 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-16",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-16T19:55",
+     "tool": "claude",
+     "title": "AI학원 수업 메모 통합 관리"
+    },
     {
      "ts": "2026-11-16T19:24",
      "tool": "claude",
@@ -33,11 +38,6 @@
      "ts": "2026-11-16T17:53",
      "tool": "git",
      "title": "feat(매쓰플랫 자료 뽑기): 취약 10적·Pathfinder·FRONTIER Ⅱ 학생별 미리보기→생성·출제→되돌리기"
-    },
-    {
-     "ts": "2026-11-16T17:07",
-     "tool": "claude",
-     "title": "AI학원 수업 메모 통합 관리"
     },
     {
      "ts": "2026-11-16T17:07",
@@ -2008,6 +2008,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-16T19:55",
+   "tool": "claude",
+   "title": "AI학원 수업 메모 통합 관리",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-16T19:24",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
@@ -2035,12 +2041,6 @@
    "ts": "2026-11-16T17:53",
    "tool": "git",
    "title": "feat(매쓰플랫 자료 뽑기): 취약 10적·Pathfinder·FRONTIER Ⅱ 학생별 미리보기→생성·출제→되돌리기",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-16T17:07",
-   "tool": "claude",
-   "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
@@ -2248,6 +2248,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-16T19:24",
- "active_projects": []
+ "data_at": "2026-11-16T19:55",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
