@@ -10,14 +10,14 @@
    "commits": 45,
    "timeline": [
     {
+     "ts": "2026-11-16T23:19",
+     "tool": "claude",
+     "title": "매쓰플랫 연동 맞춤 자료 생성기"
+    },
+    {
      "ts": "2026-11-16T23:16",
      "tool": "claude",
      "title": "AI학원 수업 메모 통합 관리"
-    },
-    {
-     "ts": "2026-11-16T22:24",
-     "tool": "claude",
-     "title": "매쓰플랫 연동 맞춤 자료 생성기"
     },
     {
      "ts": "2026-11-16T22:22",
@@ -2008,15 +2008,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T23:16",
+   "ts": "2026-11-16T23:19",
    "tool": "claude",
-   "title": "AI학원 수업 메모 통합 관리",
+   "title": "매쓰플랫 연동 맞춤 자료 생성기",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-16T22:24",
+   "ts": "2026-11-16T23:16",
    "tool": "claude",
-   "title": "매쓰플랫 연동 맞춤 자료 생성기",
+   "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
@@ -2248,7 +2248,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-16T23:16",
+ "data_at": "2026-11-16T23:19",
  "active_projects": [
   "ai-academy"
  ]
