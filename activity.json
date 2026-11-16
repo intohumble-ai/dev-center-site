@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-16T22:23",
+     "ts": "2026-11-16T22:24",
+     "tool": "claude",
+     "title": "AI학원 수업 메모 통합 관리"
+    },
+    {
+     "ts": "2026-11-16T22:24",
      "tool": "claude",
      "title": "매쓰플랫 연동 맞춤 자료 생성기"
     },
@@ -18,11 +23,6 @@
      "ts": "2026-11-16T22:22",
      "tool": "git",
      "title": "fix(피드백): 7차 감사 수리 — 학부모 말은 넓게 막고('호칭 + 낱말 + :') 원장이 학부모께 전하라는 꼴('~께 전할 말'·'학부모 "
-    },
-    {
-     "ts": "2026-11-16T22:21",
-     "tool": "claude",
-     "title": "AI학원 수업 메모 통합 관리"
     },
     {
      "ts": "2026-11-16T22:21",
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-16",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2008,7 +2008,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T22:23",
+   "ts": "2026-11-16T22:24",
+   "tool": "claude",
+   "title": "AI학원 수업 메모 통합 관리",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-16T22:24",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
    "project": "ai-academy"
@@ -2017,12 +2023,6 @@
    "ts": "2026-11-16T22:22",
    "tool": "git",
    "title": "fix(피드백): 7차 감사 수리 — 학부모 말은 넓게 막고('호칭 + 낱말 + :') 원장이 학부모께 전하라는 꼴('~께 전할 말'·'학부모 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-16T22:21",
-   "tool": "claude",
-   "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
@@ -2248,9 +2248,8 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-16T22:23",
+ "data_at": "2026-11-16T22:24",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot"
+  "ai-academy"
  ]
 }
