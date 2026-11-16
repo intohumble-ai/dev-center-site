@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 16,
-   "sessions_claude": 16,
+   "sessions": 17,
+   "sessions_claude": 17,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-15",
-   "active_now": false,
+   "last_day": "2026-11-16",
+   "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-16T16:54",
+     "tool": "claude",
+     "title": "AI학원 수업 메모 통합 관리"
+    },
     {
      "ts": "2026-11-15T21:05",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-13T23:48",
      "tool": "git",
      "title": "docs(H 보고서 원칙): 6차 감사 — 보관 범위·재맞춤 짝짓기 기록"
-    },
-    {
-     "ts": "2026-11-13T23:47",
-     "tool": "git",
-     "title": "fix(H 보고서 원칙): 6차 감사 — 재맞춤은 이름·목차로 책을 짝짓고(애매하면 건너뜀), 원장 고침 판정 전 반 원문에도 글자 원칙 적용"
     }
    ]
   },
@@ -2008,6 +2008,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-16T16:54",
+   "tool": "claude",
+   "title": "AI학원 수업 메모 통합 관리",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-15T21:05",
    "tool": "claude",
    "title": "ai학원 피드백 및 H형 보고서 조정",
@@ -2240,14 +2246,10 @@
    "tool": "claude",
    "title": "매쓰플랫 AI 학원 연동 분석",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T18:47",
-   "tool": "claude",
-   "title": "목동씨앤씨 본관 수학 진단평가 안내문",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-15T21:05",
- "active_projects": []
+ "data_at": "2026-11-16T16:54",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
