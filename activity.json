@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-16",
    "active_now": true,
-   "commits": 47,
+   "commits": 48,
    "timeline": [
     {
-     "ts": "2026-11-16T18:07",
+     "ts": "2026-11-16T18:15",
      "tool": "claude",
      "title": "매쓰플랫 연동 맞춤 자료 생성기"
+    },
+    {
+     "ts": "2026-11-16T18:15",
+     "tool": "git",
+     "title": "fix(매쓰플랫 자료 뽑기): 재감사 수리 — 만료는 draft 만(일부 만든 실행은 남은 학생만 빼고 되돌리기 가능), 잠금 globalThi"
     },
     {
      "ts": "2026-11-16T18:06",
@@ -63,11 +68,6 @@
      "ts": "2026-11-15T19:37",
      "tool": "git",
      "title": "feat(보강 후 피드백): 같은 칸에서 학생별 '보강 후 피드백' 생성 — 메모 필수·아침 안내 이어 받기·연락처 줄은 설정 번호로만·다른 글"
-    },
-    {
-     "ts": "2026-11-15T17:07",
-     "tool": "git",
-     "title": "fix(보강 전 안내): 재감사 — 소개·서명 줄에 다른 학생 학교 이름이면 버림, 같은 학생·날짜라도 모양이 다르면 따로 저장"
     }
    ]
   },
@@ -2008,9 +2008,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T18:07",
+   "ts": "2026-11-16T18:15",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-16T18:15",
+   "tool": "git",
+   "title": "fix(매쓰플랫 자료 뽑기): 재감사 수리 — 만료는 draft 만(일부 만든 실행은 남은 학생만 빼고 되돌리기 가능), 잠금 globalThi",
    "project": "ai-academy"
   },
   {
@@ -2240,15 +2246,9 @@
    "tool": "git",
    "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T17:02",
-   "tool": "git",
-   "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계",
-   "project": "cnc-reporting-portal-cf"
   }
  ],
- "data_at": "2026-11-16T18:07",
+ "data_at": "2026-11-16T18:15",
  "active_projects": [
   "ai-academy"
  ]
