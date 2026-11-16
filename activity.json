@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-16T22:24",
+     "ts": "2026-11-16T23:16",
      "tool": "claude",
      "title": "AI학원 수업 메모 통합 관리"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T22:24",
+   "ts": "2026-11-16T23:16",
    "tool": "claude",
    "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
@@ -2248,7 +2248,7 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-16T22:24",
+ "data_at": "2026-11-16T23:16",
  "active_projects": [
   "ai-academy"
  ]
