@@ -7,12 +7,17 @@
    "automated": 0,
    "last_day": "2026-11-16",
    "active_now": true,
-   "commits": 48,
+   "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-16T18:15",
+     "ts": "2026-11-16T18:29",
      "tool": "claude",
      "title": "매쓰플랫 연동 맞춤 자료 생성기"
+    },
+    {
+     "ts": "2026-11-16T18:25",
+     "tool": "git",
+     "title": "fix(매쓰플랫 자료 뽑기): 3차 감사(PASS) 참고 수리 — 감사 성공 뒤에만 5분 표시, 복구 갱신 한 트랜잭션, 6시간 지난 실행 다시"
     },
     {
      "ts": "2026-11-16T18:15",
@@ -63,11 +68,6 @@
      "ts": "2026-11-15T19:38",
      "tool": "git",
      "title": "fix(보강 후 피드백): 연락처 기본 문장을 원장 실제 문장 모양으로(제 개인번호·가감 없이)"
-    },
-    {
-     "ts": "2026-11-15T19:37",
-     "tool": "git",
-     "title": "feat(보강 후 피드백): 같은 칸에서 학생별 '보강 후 피드백' 생성 — 메모 필수·아침 안내 이어 받기·연락처 줄은 설정 번호로만·다른 글"
     }
    ]
   },
@@ -2008,9 +2008,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T18:15",
+   "ts": "2026-11-16T18:29",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-16T18:25",
+   "tool": "git",
+   "title": "fix(매쓰플랫 자료 뽑기): 3차 감사(PASS) 참고 수리 — 감사 성공 뒤에만 5분 표시, 복구 갱신 한 트랜잭션, 6시간 지난 실행 다시",
    "project": "ai-academy"
   },
   {
@@ -2107,30 +2113,6 @@
    "ts": "2026-11-13T23:48",
    "tool": "git",
    "title": "docs(H 보고서 원칙): 6차 감사 — 보관 범위·재맞춤 짝짓기 기록",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-13T23:47",
-   "tool": "git",
-   "title": "fix(H 보고서 원칙): 6차 감사 — 재맞춤은 이름·목차로 책을 짝짓고(애매하면 건너뜀), 원장 고침 판정 전 반 원문에도 글자 원칙 적용",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-13T23:30",
-   "tool": "git",
-   "title": "feat(H 보고서 원칙): 장부 칸에 '호칭 지정' 추가 + 5차 감사 설계 문서",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-13T23:28",
-   "tool": "git",
-   "title": "fix(H 보고서 원칙): 5차 감사 — 진도표는 이름·목차 일치만 짝짓고 책 통째 교체 없이 확인만, [복사] 전 보고서 감사 기록 보관, 규",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-13T23:06",
-   "tool": "git",
-   "title": "docs(H 보고서 원칙): 감사 뒤 확정한 안전 규칙·남은 한계",
    "project": "ai-academy"
   },
   {
@@ -2246,9 +2228,27 @@
    "tool": "git",
    "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id",
    "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T17:02",
+   "tool": "git",
+   "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계",
+   "project": "cnc-reporting-portal-cf"
+  },
+  {
+   "ts": "2026-11-10T17:02",
+   "tool": "git",
+   "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-10T09:34",
+   "tool": "claude",
+   "title": "매쓰플랫 연동 학부모 피드백",
+   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-16T18:15",
+ "data_at": "2026-11-16T18:29",
  "active_projects": [
   "ai-academy"
  ]
