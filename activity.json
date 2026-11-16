@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-16T18:32",
+     "ts": "2026-11-16T19:24",
      "tool": "claude",
      "title": "매쓰플랫 연동 맞춤 자료 생성기"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T18:32",
+   "ts": "2026-11-16T19:24",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
    "project": "ai-academy"
@@ -2248,7 +2248,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-16T18:32",
+ "data_at": "2026-11-16T19:24",
  "active_projects": [
   "ai-academy"
  ]
