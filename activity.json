@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T15:57",
+     "ts": "2026-11-17T16:10",
      "tool": "claude",
      "title": "cgv봇 복구"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T15:57",
+   "ts": "2026-11-17T16:10",
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
@@ -2248,7 +2248,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-17T15:57",
+ "data_at": "2026-11-17T16:10",
  "active_projects": [
   "ai-academy",
   "cgv-bot"
