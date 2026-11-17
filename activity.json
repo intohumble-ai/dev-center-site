@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T22:48",
+     "ts": "2026-11-17T22:53",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T22:48",
+   "ts": "2026-11-17T22:53",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
    "project": "ai-academy"
@@ -2253,7 +2253,7 @@
    "project": "cnc-reporting-portal-cf"
   }
  ],
- "data_at": "2026-11-17T22:48",
+ "data_at": "2026-11-17T22:53",
  "active_projects": [
   "ai-academy",
   "upbit-auto-bot"
