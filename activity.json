@@ -77,11 +77,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T18:03",
+     "ts": "2026-11-17T18:55",
      "tool": "claude",
      "title": "cgv봇 복구"
     },
@@ -2008,6 +2008,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-17T18:55",
+   "tool": "claude",
+   "title": "cgv봇 복구",
+   "project": "cgv-bot"
+  },
+  {
    "ts": "2026-11-17T18:21",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
@@ -2018,12 +2024,6 @@
    "tool": "git",
    "title": "feat(매쓰플랫 자료 뽑기): 화면 애플식 개편 · 학생별 Pathfinder 유형 수 실시간 · 불러오기 실패 대응",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-17T18:03",
-   "tool": "claude",
-   "title": "cgv봇 복구",
-   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-17T17:48",
@@ -2248,6 +2248,8 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-17T18:21",
- "active_projects": []
+ "data_at": "2026-11-17T18:55",
+ "active_projects": [
+  "cgv-bot"
+ ]
 }
