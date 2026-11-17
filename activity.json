@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-16",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
@@ -2250,6 +2250,7 @@
  ],
  "data_at": "2026-11-16T23:19",
  "active_projects": [
+  "ai-academy",
   "cgv-bot"
  ]
 }
