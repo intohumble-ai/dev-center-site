@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T15:46",
+     "ts": "2026-11-17T16:38",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -77,11 +77,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T16:10",
+     "ts": "2026-11-17T16:38",
      "tool": "claude",
      "title": "cgv봇 복구"
     },
@@ -2008,13 +2008,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T16:10",
+   "ts": "2026-11-17T16:38",
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-11-17T15:46",
+   "ts": "2026-11-17T16:38",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
    "project": "ai-academy"
@@ -2248,6 +2248,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-17T16:10",
- "active_projects": []
+ "data_at": "2026-11-17T16:38",
+ "active_projects": [
+  "ai-academy",
+  "cgv-bot"
+ ]
 }
