@@ -5,12 +5,12 @@
    "sessions_claude": 18,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-16",
-   "active_now": false,
+   "last_day": "2026-11-17",
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-16T23:19",
+     "ts": "2026-11-17T13:59",
      "tool": "claude",
      "title": "매쓰플랫 연동 맞춤 자료 생성기"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-16T23:19",
+   "ts": "2026-11-17T13:59",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
    "project": "ai-academy"
@@ -2248,8 +2248,9 @@
    "project": "dev-center"
   }
  ],
- "data_at": "2026-11-16T23:19",
+ "data_at": "2026-11-17T13:59",
  "active_projects": [
+  "ai-academy",
   "cgv-bot"
  ]
 }
