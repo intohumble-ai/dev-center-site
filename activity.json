@@ -10,14 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T17:42",
+     "ts": "2026-11-17T17:53",
+     "tool": "claude",
+     "title": "AI학원 매쓰플랫 자료 자동 인쇄"
+    },
+    {
+     "ts": "2026-11-17T17:48",
      "tool": "claude",
      "title": "AI학원 수업 메모 통합 관리"
     },
     {
-     "ts": "2026-11-17T17:41",
-     "tool": "claude",
-     "title": "AI학원 매쓰플랫 자료 자동 인쇄"
+     "ts": "2026-11-17T17:48",
+     "tool": "git",
+     "title": "fix(★약속): 약속 업무(operation_tasks) 시각을 받은 now 로 기록 — 시험 고정 시각과 벽시계가 어긋나 11/13부터 '링"
     },
     {
      "ts": "2026-11-17T17:05",
@@ -63,11 +68,6 @@
      "ts": "2026-11-16T22:06",
      "tool": "git",
      "title": "fix(피드백·숙제·보고서): 5차 감사 수리 + 속도 — 결석일 학습지를 수업 전 점검·AI 재료에서도 뺌(낸 것은 완료, 같은 날 출석이면 "
-    },
-    {
-     "ts": "2026-11-16T21:48",
-     "tool": "git",
-     "title": "fix(피드백): 4차 감사 수리 + 원장 지시 — 결석한 수업일에 나간 학습지는 숙제 판정·AI 재료에서 뺌, 학부모 말(앞에 무엇이 붙어도)"
     }
    ]
   },
@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T17:42",
+     "ts": "2026-11-17T17:45",
      "tool": "claude",
      "title": "cgv봇 복구"
     },
@@ -2008,22 +2008,28 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T17:42",
+   "ts": "2026-11-17T17:53",
+   "tool": "claude",
+   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-17T17:48",
    "tool": "claude",
    "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-17T17:42",
+   "ts": "2026-11-17T17:48",
+   "tool": "git",
+   "title": "fix(★약속): 약속 업무(operation_tasks) 시각을 받은 now 로 기록 — 시험 고정 시각과 벽시계가 어긋나 11/13부터 '링",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-17T17:45",
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-17T17:41",
-   "tool": "claude",
-   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-17T17:05",
@@ -2240,15 +2246,9 @@
    "tool": "claude",
    "title": "매쓰플랫 연동 학부모 피드백",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-09T21:37",
-   "tool": "claude",
-   "title": "매쓰플랫 AI 학원 연동 분석",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-17T17:42",
+ "data_at": "2026-11-17T17:53",
  "active_projects": [
   "ai-academy",
   "cgv-bot"
