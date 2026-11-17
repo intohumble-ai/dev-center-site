@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T17:53",
+     "ts": "2026-11-17T18:03",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -81,9 +81,14 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T17:45",
+     "ts": "2026-11-17T18:00",
      "tool": "claude",
      "title": "cgv봇 복구"
+    },
+    {
+     "ts": "2026-11-17T17:45",
+     "tool": "git",
+     "title": "feat(cgv): siege 영화별 허용 극장(movie_site_allow)·금지 관(movie_screen_deny)"
     },
     {
      "ts": "2026-11-17T16:52",
@@ -134,11 +139,6 @@
      "ts": "2026-10-27T09:47",
      "tool": "git",
      "title": "feat(cgv): 감시 중 상영 0개 장기화 경보(zero_watch) + 날짜 시한폭탄 테스트 수리"
-    },
-    {
-     "ts": "2026-10-05T19:42",
-     "tool": "git",
-     "title": "test(cgv): 결제 연속실패 카운터·매입 정지 플래그 테스트 격리(실 data/ 누출 차단)"
     }
    ]
   },
@@ -2008,10 +2008,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T17:53",
+   "ts": "2026-11-17T18:03",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-17T18:00",
+   "tool": "claude",
+   "title": "cgv봇 복구",
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-17T17:48",
@@ -2027,8 +2033,8 @@
   },
   {
    "ts": "2026-11-17T17:45",
-   "tool": "claude",
-   "title": "cgv봇 복구",
+   "tool": "git",
+   "title": "feat(cgv): siege 영화별 허용 극장(movie_site_allow)·금지 관(movie_screen_deny)",
    "project": "cgv-bot"
   },
   {
@@ -2240,15 +2246,9 @@
    "tool": "git",
    "title": "Cloudflare 이사: 비밀번호 로그인·에이전트 토큰·KV 파일저장·다중 관 요약·D1 로그인 방어",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T09:34",
-   "tool": "claude",
-   "title": "매쓰플랫 연동 학부모 피드백",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-17T17:53",
+ "data_at": "2026-11-17T18:03",
  "active_projects": [
   "ai-academy",
   "cgv-bot"
