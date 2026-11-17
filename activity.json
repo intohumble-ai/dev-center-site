@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T20:52",
+     "ts": "2026-11-17T21:03",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T20:52",
+   "ts": "2026-11-17T21:03",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
    "project": "ai-academy"
@@ -2248,7 +2248,7 @@
    "project": "cnc-reporting-portal-cf"
   }
  ],
- "data_at": "2026-11-17T20:52",
+ "data_at": "2026-11-17T21:03",
  "active_projects": [
   "ai-academy"
  ]
