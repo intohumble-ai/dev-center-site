@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T17:22",
+     "ts": "2026-11-17T17:42",
+     "tool": "claude",
+     "title": "AI학원 수업 메모 통합 관리"
+    },
+    {
+     "ts": "2026-11-17T17:41",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -28,11 +33,6 @@
      "ts": "2026-11-17T13:59",
      "tool": "claude",
      "title": "매쓰플랫 연동 맞춤 자료 생성기"
-    },
-    {
-     "ts": "2026-11-16T23:16",
-     "tool": "claude",
-     "title": "AI학원 수업 메모 통합 관리"
     },
     {
      "ts": "2026-11-16T22:22",
@@ -77,11 +77,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T17:09",
+     "ts": "2026-11-17T17:42",
      "tool": "claude",
      "title": "cgv봇 복구"
     },
@@ -2008,16 +2008,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T17:22",
+   "ts": "2026-11-17T17:42",
    "tool": "claude",
-   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
+   "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-17T17:09",
+   "ts": "2026-11-17T17:42",
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-17T17:41",
+   "tool": "claude",
+   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-11-17T17:05",
@@ -2041,12 +2047,6 @@
    "ts": "2026-11-17T13:59",
    "tool": "claude",
    "title": "매쓰플랫 연동 맞춤 자료 생성기",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-16T23:16",
-   "tool": "claude",
-   "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
@@ -2248,8 +2248,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-17T17:22",
+ "data_at": "2026-11-17T17:42",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
