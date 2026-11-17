@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T19:28",
+     "ts": "2026-11-17T19:38",
      "tool": "claude",
      "title": "AI학원 수업 메모 통합 관리"
     },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2008,7 +2008,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T19:28",
+   "ts": "2026-11-17T19:38",
    "tool": "claude",
    "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
@@ -2248,8 +2248,9 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-17T19:28",
+ "data_at": "2026-11-17T19:38",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
