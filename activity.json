@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-17T19:13",
+     "ts": "2026-11-17T19:23",
+     "tool": "claude",
+     "title": "AI학원 수업 메모 통합 관리"
+    },
+    {
+     "ts": "2026-11-17T19:22",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -18,11 +23,6 @@
      "ts": "2026-11-17T18:17",
      "tool": "git",
      "title": "feat(매쓰플랫 자료 뽑기): 화면 애플식 개편 · 학생별 Pathfinder 유형 수 실시간 · 불러오기 실패 대응"
-    },
-    {
-     "ts": "2026-11-17T17:48",
-     "tool": "claude",
-     "title": "AI학원 수업 메모 통합 관리"
     },
     {
      "ts": "2026-11-17T17:48",
@@ -77,11 +77,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-17T18:55",
+     "ts": "2026-11-17T19:23",
      "tool": "claude",
      "title": "cgv봇 복구"
     },
@@ -2008,27 +2008,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T19:13",
+   "ts": "2026-11-17T19:23",
    "tool": "claude",
-   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
+   "title": "AI학원 수업 메모 통합 관리",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-17T18:55",
+   "ts": "2026-11-17T19:23",
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-11-17T18:17",
-   "tool": "git",
-   "title": "feat(매쓰플랫 자료 뽑기): 화면 애플식 개편 · 학생별 Pathfinder 유형 수 실시간 · 불러오기 실패 대응",
+   "ts": "2026-11-17T19:22",
+   "tool": "claude",
+   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-17T17:48",
-   "tool": "claude",
-   "title": "AI학원 수업 메모 통합 관리",
+   "ts": "2026-11-17T18:17",
+   "tool": "git",
+   "title": "feat(매쓰플랫 자료 뽑기): 화면 애플식 개편 · 학생별 Pathfinder 유형 수 실시간 · 불러오기 실패 대응",
    "project": "ai-academy"
   },
   {
@@ -2248,8 +2248,9 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-17T19:13",
+ "data_at": "2026-11-17T19:23",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
