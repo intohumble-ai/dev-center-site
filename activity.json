@@ -148,11 +148,11 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-11-17",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-17T14:07",
+     "ts": "2026-11-17T14:25",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 자료 자동 인쇄"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-17T14:07",
+   "ts": "2026-11-17T14:25",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
    "project": "upbit-auto-bot"
@@ -2253,6 +2253,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-17T14:07",
- "active_projects": []
+ "data_at": "2026-11-17T14:25",
+ "active_projects": [
+  "upbit-auto-bot"
+ ]
 }
