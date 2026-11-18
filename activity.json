@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-18",
-   "active_now": false,
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-18T18:00",
+     "ts": "2026-11-18T18:46",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-18T18:00",
+   "ts": "2026-11-18T18:46",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능",
    "project": "ai-academy"
@@ -2253,6 +2253,8 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-18T18:00",
- "active_projects": []
+ "data_at": "2026-11-18T18:46",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
