@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 19,
-   "sessions_claude": 19,
+   "sessions": 20,
+   "sessions_claude": 20,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-17",
-   "active_now": false,
+   "last_day": "2026-11-18",
+   "active_now": true,
    "commits": 45,
    "timeline": [
+    {
+     "ts": "2026-11-18T16:06",
+     "tool": "claude",
+     "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능"
+    },
     {
      "ts": "2026-11-17T22:53",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-16T22:21",
      "tool": "git",
      "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-16T22:18",
-     "tool": "git",
-     "title": "fix(피드백): 6차 감사 수리 — 학부모 말 판정을 낱말 목록으로 좁힘(원장의 '학부모님께 전할 말:' 지시는 살림), 17:00 점검 결석"
     }
    ]
   },
@@ -2013,6 +2013,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-18T16:06",
+   "tool": "claude",
+   "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-17T22:53",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 자료 자동 인쇄",
@@ -2245,14 +2251,10 @@
    "tool": "git",
    "title": "매출 목표 달성률을 매출·목표 둘 다 보고된 관끼리만 계산 + 실제 D1/KV id",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T17:02",
-   "tool": "git",
-   "title": "Cloudflare 이사: Sites bearer 제거·서비스 바인딩 중계",
-   "project": "cnc-reporting-portal-cf"
   }
  ],
- "data_at": "2026-11-17T22:53",
- "active_projects": []
+ "data_at": "2026-11-18T16:06",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
