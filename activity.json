@@ -7,17 +7,52 @@
    "automated": 0,
    "last_day": "2026-11-19",
    "active_now": true,
-   "commits": 48,
+   "commits": 58,
    "timeline": [
     {
-     "ts": "2026-11-19T23:33",
+     "ts": "2026-11-19T23:43",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
     {
-     "ts": "2026-11-19T23:10",
+     "ts": "2026-11-19T23:43",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
+    },
+    {
+     "ts": "2026-11-19T23:37",
+     "tool": "git",
+     "title": "merge: 11-19 수학메이트 '여러 답' 안전장치(감사 4차 PASS) · Codex 느린 응답 재시도(PASS) · H 보고서 '(단원 "
+    },
+    {
+     "ts": "2026-11-19T23:33",
+     "tool": "git",
+     "title": "fix(4차 감사 후속 11-19 여러 답): 괄호 음수·와/과/및/이고 뒤 음수·음수/마이너스 낱말 · '0보다 커야/작아야' · 대문자 부등"
+    },
+    {
+     "ts": "2026-11-19T23:31",
+     "tool": "git",
+     "title": "fix(3차 감사 11-19 여러 답 — 단순 규칙): 부호·범위 제한 문제에서 ± 짝이거나 음수 항목이 섞인 여러 답이면 신호 무관 검토 · "
+    },
+    {
+     "ts": "2026-11-19T23:28",
+     "tool": "git",
+     "title": "fix(감사 P2 11-19): '(추정)' 지우기는 단원 이름 모양 뒤에서만(등급·원인·정답률 추정은 유지) · lookbehind 제거(iO"
+    },
+    {
+     "ts": "2026-11-19T23:25",
+     "tool": "git",
+     "title": "fix(재감사 11-19 여러 답): 부호 제한 + ± 짝이면 신호 무관 검토 · ± 내부 꼴·켤레 짝 · 0보다 크/0 이상/점수/최댓값 등 "
+    },
+    {
+     "ts": "2026-11-19T23:23",
+     "tool": "git",
+     "title": "fix(11-19 실데이터): H 보고서·학부모 글의 내부 표시 '(단원 추정)' 제거 — 공유 화면·미리보기·복사·새 생성 모두(원본 보존) "
+    },
+    {
+     "ts": "2026-11-19T23:11",
+     "tool": "git",
+     "title": "fix(콜드 감사 11-19 여러 답): ± 짝도 부호 제한·갈림 단서 검사 · 와/및/혹은/and/·/전각 쉼표 구분 · '모두 몇'·'각각 "
     },
     {
      "ts": "2026-11-19T22:59",
@@ -30,44 +65,9 @@
      "title": "fix(전체 카톡): 5차 감사 P2 9건 — 화면·서버 같은 글 정리 함수·C1/줄구분자 정리·첫 줄 뒤 어긋남은 늘 ❓·글 넣기 전 창 닫힘"
     },
     {
-     "ts": "2026-11-19T22:38",
+     "ts": "2026-11-19T22:55",
      "tool": "git",
-     "title": "fix(전체 카톡): 4차 감사 수리 — 글 넣는 중 원장 입력 감지(❓/건너뜀)·창 닫힘 시 거짓 보냄 방지·연속 실패 멈춤에 새 상태·제어문"
-    },
-    {
-     "ts": "2026-11-19T22:20",
-     "tool": "git",
-     "title": "fix(전체 카톡): 감사 1~3차 수리 + 처음 한 번 방 확인 + 창을 띄우지 않는 보내기(WM_CHAR·EM_REPLACESEL·PostM"
-    },
-    {
-     "ts": "2026-11-19T21:40",
-     "tool": "git",
-     "title": "merge: 11-19 수학메이트 AI 단계별 설정(규칙 꼬리 @모델:노력 · 불일치 다시 풀기) — 콜드 감사 PASS"
-    },
-    {
-     "ts": "2026-11-19T21:33",
-     "tool": "git",
-     "title": "feat(11-19 수학메이트 AI 설정): 규칙 꼬리 @모델:노력 · 두 풀이 불일치 시 풀이2를 한 단계 깊게 1회 다시(ITTIVE_MM_"
-    },
-    {
-     "ts": "2026-11-19T20:32",
-     "tool": "git",
-     "title": "merge master 769e36d into kakao-broadcast"
-    },
-    {
-     "ts": "2026-11-19T20:32",
-     "tool": "git",
-     "title": "feat(전체 카톡): PC 카톡으로 같은 글을 학생별 방에 한 명씩 보내기 — 1차(감사 FAIL 수리 전)"
-    },
-    {
-     "ts": "2026-11-19T20:25",
-     "tool": "git",
-     "title": "merge: 11-19 수학메이트 '너가 가장 약한 유형 — 비슷한 문제'(새 표 mm_type_drills, 기본 켬) · 기능별 AI 실행기"
-    },
-    {
-     "ts": "2026-11-19T20:17",
-     "tool": "git",
-     "title": "fix(콜드 감사 11-19 AI 스위치): 실제 응답한 쪽 기록 누락 6곳 · 쿨다운 분리 시험 · h_report lane·discussio"
+     "title": "feat(11-19 수학메이트): '여러 답' 안전장치 — 두 풀이가 같은 여러 답이면 문제에 여러 답 신호가 없거나 풀이에 답이 갈리는 단서가"
     }
    ]
   },
@@ -2013,15 +2013,57 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T23:33",
+   "ts": "2026-11-19T23:43",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T23:10",
+   "ts": "2026-11-19T23:43",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:37",
+   "tool": "git",
+   "title": "merge: 11-19 수학메이트 '여러 답' 안전장치(감사 4차 PASS) · Codex 느린 응답 재시도(PASS) · H 보고서 '(단원 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:33",
+   "tool": "git",
+   "title": "fix(4차 감사 후속 11-19 여러 답): 괄호 음수·와/과/및/이고 뒤 음수·음수/마이너스 낱말 · '0보다 커야/작아야' · 대문자 부등",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:31",
+   "tool": "git",
+   "title": "fix(3차 감사 11-19 여러 답 — 단순 규칙): 부호·범위 제한 문제에서 ± 짝이거나 음수 항목이 섞인 여러 답이면 신호 무관 검토 · ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:28",
+   "tool": "git",
+   "title": "fix(감사 P2 11-19): '(추정)' 지우기는 단원 이름 모양 뒤에서만(등급·원인·정답률 추정은 유지) · lookbehind 제거(iO",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:25",
+   "tool": "git",
+   "title": "fix(재감사 11-19 여러 답): 부호 제한 + ± 짝이면 신호 무관 검토 · ± 내부 꼴·켤레 짝 · 0보다 크/0 이상/점수/최댓값 등 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:23",
+   "tool": "git",
+   "title": "fix(11-19 실데이터): H 보고서·학부모 글의 내부 표시 '(단원 추정)' 제거 — 공유 화면·미리보기·복사·새 생성 모두(원본 보존) ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:11",
+   "tool": "git",
+   "title": "fix(콜드 감사 11-19 여러 답): ± 짝도 부호 제한·갈림 단서 검사 · 와/및/혹은/and/·/전각 쉼표 구분 · '모두 몇'·'각각 ",
    "project": "ai-academy"
   },
   {
@@ -2037,6 +2079,18 @@
    "project": "ai-academy"
   },
   {
+   "ts": "2026-11-19T22:55",
+   "tool": "git",
+   "title": "feat(11-19 수학메이트): '여러 답' 안전장치 — 두 풀이가 같은 여러 답이면 문제에 여러 답 신호가 없거나 풀이에 답이 갈리는 단서가",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T22:50",
+   "tool": "git",
+   "title": "fix(감사 P3 11-19): Codex 다시 시도는 전체 상한 ≥ 2×tryMs 일 때만 · 평가 스크립트 codex 출처 판정 앞부분 일치",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-19T22:38",
    "tool": "git",
    "title": "fix(전체 카톡): 4차 감사 수리 — 글 넣는 중 원장 입력 감지(❓/건너뜀)·창 닫힘 시 거짓 보냄 방지·연속 실패 멈춤에 새 상태·제어문",
@@ -2046,18 +2100,6 @@
    "ts": "2026-11-19T22:20",
    "tool": "git",
    "title": "fix(전체 카톡): 감사 1~3차 수리 + 처음 한 번 방 확인 + 창을 띄우지 않는 보내기(WM_CHAR·EM_REPLACESEL·PostM",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T21:40",
-   "tool": "git",
-   "title": "merge: 11-19 수학메이트 AI 단계별 설정(규칙 꼬리 @모델:노력 · 불일치 다시 풀기) — 콜드 감사 PASS",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T21:33",
-   "tool": "git",
-   "title": "feat(11-19 수학메이트 AI 설정): 규칙 꼬리 @모델:노력 · 두 풀이 불일치 시 풀이2를 한 단계 깊게 1회 다시(ITTIVE_MM_",
    "project": "ai-academy"
   },
   {
@@ -2209,51 +2251,9 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "butler-bot"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "cnc-reporting-portal-cf"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "coinbot-trend"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "fleet-vault"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-19T23:33",
+ "data_at": "2026-11-19T23:43",
  "active_projects": [
   "ai-academy"
  ]
