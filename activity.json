@@ -7,17 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-19",
    "active_now": true,
-   "commits": 48,
+   "commits": 49,
    "timeline": [
     {
-     "ts": "2026-11-19T22:33",
+     "ts": "2026-11-19T22:42",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
     {
-     "ts": "2026-11-19T22:32",
+     "ts": "2026-11-19T22:39",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
+    },
+    {
+     "ts": "2026-11-19T22:38",
+     "tool": "git",
+     "title": "fix(전체 카톡): 4차 감사 수리 — 글 넣는 중 원장 입력 감지(❓/건너뜀)·창 닫힘 시 거짓 보냄 방지·연속 실패 멈춤에 새 상태·제어문"
     },
     {
      "ts": "2026-11-19T22:20",
@@ -63,11 +68,6 @@
      "ts": "2026-11-19T19:49",
      "tool": "git",
      "title": "feat(11-19 AI 실행기): 기능별 스위치 ITTIVE_LLM_ROUTE(앞부분 가장 긴 일치, claude/codex/claude-on"
-    },
-    {
-     "ts": "2026-11-19T19:48",
-     "tool": "git",
-     "title": "feat(11-19 원장): 카드 제목 '너가 가장 약한 유형 — 비슷한 문제 풀어 볼래?' · 스위치 기본 켬(설정 행 없으면 켬, 원장이 끄"
     }
    ]
   },
@@ -2013,15 +2013,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T22:33",
+   "ts": "2026-11-19T22:42",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T22:32",
+   "ts": "2026-11-19T22:39",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T22:38",
+   "tool": "git",
+   "title": "fix(전체 카톡): 4차 감사 수리 — 글 넣는 중 원장 입력 감지(❓/건너뜀)·창 닫힘 시 거짓 보냄 방지·연속 실패 멈춤에 새 상태·제어문",
    "project": "ai-academy"
   },
   {
@@ -2245,15 +2251,9 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "fleet-vault"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-19T22:33",
+ "data_at": "2026-11-19T22:42",
  "active_projects": [
   "ai-academy"
  ]
