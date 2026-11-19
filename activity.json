@@ -10,19 +10,19 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-20T00:49",
+     "ts": "2026-11-20T00:54",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
+    },
+    {
+     "ts": "2026-11-20T00:53",
+     "tool": "claude",
+     "title": "AI학원 프로그램 연동 개선"
     },
     {
      "ts": "2026-11-20T00:49",
      "tool": "git",
      "title": "fix(전체 카톡): 안 보낼 때 우리가 넣은 앞부분만 골라 지움 — 짧은 글도 지워지고 원장이 친 글은 남김, 못 지우면 ⚠️ 알리고 방 열어"
-    },
-    {
-     "ts": "2026-11-20T00:46",
-     "tool": "claude",
-     "title": "AI학원 프로그램 연동 개선"
     },
     {
      "ts": "2026-11-19T23:37",
@@ -2013,21 +2013,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T00:49",
+   "ts": "2026-11-20T00:54",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T00:53",
+   "tool": "claude",
+   "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
    "ts": "2026-11-20T00:49",
    "tool": "git",
    "title": "fix(전체 카톡): 안 보낼 때 우리가 넣은 앞부분만 골라 지움 — 짧은 글도 지워지고 원장이 친 글은 남김, 못 지우면 ⚠️ 알리고 방 열어",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T00:46",
-   "tool": "claude",
-   "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
@@ -2253,7 +2253,7 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-20T00:49",
+ "data_at": "2026-11-20T00:54",
  "active_projects": [
   "ai-academy"
  ]
