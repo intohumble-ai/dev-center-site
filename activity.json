@@ -7,15 +7,20 @@
    "automated": 0,
    "last_day": "2026-11-19",
    "active_now": true,
-   "commits": 47,
+   "commits": 48,
    "timeline": [
     {
-     "ts": "2026-11-19T22:03",
+     "ts": "2026-11-19T22:22",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
     {
-     "ts": "2026-11-19T22:03",
+     "ts": "2026-11-19T22:20",
+     "tool": "git",
+     "title": "fix(전체 카톡): 감사 1~3차 수리 + 처음 한 번 방 확인 + 창을 띄우지 않는 보내기(WM_CHAR·EM_REPLACESEL·PostM"
+    },
+    {
+     "ts": "2026-11-19T22:19",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-11-19T19:48",
      "tool": "git",
      "title": "feat(11-19 원장): 카드 제목 '너가 가장 약한 유형 — 비슷한 문제 풀어 볼래?' · 스위치 기본 켬(설정 행 없으면 켬, 원장이 끄"
-    },
-    {
-     "ts": "2026-11-19T19:45",
-     "tool": "git",
-     "title": "feat(MATH MATE 11-19): 매쓰플랫 자주 틀린 유형 → AI 비슷한 문제(누를 때 만들기, 독립 검산 2회 일치만, +10 XP·"
     }
    ]
   },
@@ -2013,13 +2013,19 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T22:03",
+   "ts": "2026-11-19T22:22",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T22:03",
+   "ts": "2026-11-19T22:20",
+   "tool": "git",
+   "title": "fix(전체 카톡): 감사 1~3차 수리 + 처음 한 번 방 확인 + 창을 띄우지 않는 보내기(WM_CHAR·EM_REPLACESEL·PostM",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T22:19",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
@@ -2245,15 +2251,9 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-19T22:03",
+ "data_at": "2026-11-19T22:22",
  "active_projects": [
   "ai-academy"
  ]
