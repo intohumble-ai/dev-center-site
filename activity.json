@@ -10,12 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-19T19:31",
+     "ts": "2026-11-19T19:42",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
     {
-     "ts": "2026-11-19T19:29",
+     "ts": "2026-11-19T19:42",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
@@ -2013,13 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T19:31",
+   "ts": "2026-11-19T19:42",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T19:29",
+   "ts": "2026-11-19T19:42",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
@@ -2253,7 +2253,7 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-19T19:31",
+ "data_at": "2026-11-19T19:42",
  "active_projects": [
   "ai-academy"
  ]
