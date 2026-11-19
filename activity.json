@@ -7,17 +7,47 @@
    "automated": 0,
    "last_day": "2026-11-19",
    "active_now": true,
-   "commits": 45,
+   "commits": 52,
    "timeline": [
     {
-     "ts": "2026-11-19T20:11",
+     "ts": "2026-11-19T20:25",
+     "tool": "claude",
+     "title": "AI학원 프로그램 카톡 단체 공지 기능"
+    },
+    {
+     "ts": "2026-11-19T20:25",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
     {
-     "ts": "2026-11-19T20:10",
-     "tool": "claude",
-     "title": "AI학원 프로그램 카톡 단체 공지 기능"
+     "ts": "2026-11-19T20:25",
+     "tool": "git",
+     "title": "merge: 11-19 수학메이트 '너가 가장 약한 유형 — 비슷한 문제'(새 표 mm_type_drills, 기본 켬) · 기능별 AI 실행기"
+    },
+    {
+     "ts": "2026-11-19T20:17",
+     "tool": "git",
+     "title": "fix(콜드 감사 11-19 AI 스위치): 실제 응답한 쪽 기록 누락 6곳 · 쿨다운 분리 시험 · h_report lane·discussio"
+    },
+    {
+     "ts": "2026-11-19T20:06",
+     "tool": "git",
+     "title": "fix(콜드 감사 11-19 비슷한 문제): 개념 물어보기 정답 차단에 안 푼 drill 포함 · 한도를 접수 기준과 같게(대기 질문이 밀리지 "
+    },
+    {
+     "ts": "2026-11-19T19:49",
+     "tool": "git",
+     "title": "feat(11-19 AI 실행기): 기능별 스위치 ITTIVE_LLM_ROUTE(앞부분 가장 긴 일치, claude/codex/claude-on"
+    },
+    {
+     "ts": "2026-11-19T19:48",
+     "tool": "git",
+     "title": "feat(11-19 원장): 카드 제목 '너가 가장 약한 유형 — 비슷한 문제 풀어 볼래?' · 스위치 기본 켬(설정 행 없으면 켬, 원장이 끄"
+    },
+    {
+     "ts": "2026-11-19T19:45",
+     "tool": "git",
+     "title": "feat(MATH MATE 11-19): 매쓰플랫 자주 틀린 유형 → AI 비슷한 문제(누를 때 만들기, 독립 검산 2회 일치만, +10 XP·"
     },
     {
      "ts": "2026-11-19T19:04",
@@ -38,36 +68,6 @@
      "ts": "2026-11-19T18:51",
      "tool": "git",
      "title": "feat(되돌아오는 확인 11-19): 수학메이트 막힘으로 넣은 소단원 → 출제 뒤 매쓰플랫 맞힘/푼 수(자료 뽑기 미리보기 · 학생별 매쓰플랫"
-    },
-    {
-     "ts": "2026-11-19T18:00",
-     "tool": "git",
-     "title": "fix(9차 감사 11-19): 높/낮/떨어 는 공부 요령 꼴(높이·낮추·떨어뜨·떨어지는·~수록·~으면)만 빼는 방식으로 — '점수가 높네·떨어"
-    },
-    {
-     "ts": "2026-11-19T17:59",
-     "tool": "claude",
-     "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능"
-    },
-    {
-     "ts": "2026-11-19T17:55",
-     "tool": "git",
-     "title": "fix(후속 11-19): 처방 누출 검사 공부 요령 오탐('부분 점수를 받아서'·'점수 높이는 방법'·'받은 셈') 통과 · mm-report"
-    },
-    {
-     "ts": "2026-11-19T17:49",
-     "tool": "git",
-     "title": "merge: 11-19 쓱 메모(★약속 빠른 입력) — 콜드 감사 2회(FAIL→PASS)"
-    },
-    {
-     "ts": "2026-11-19T17:49",
-     "tool": "git",
-     "title": "feat(11-19): 쓱 메모 — 한 칸에 '이름 + 할 일' 여러 줄 → 재원생 전체에서 학생 찾아 내부 메모 ★약속으로(겹치거나 못 찾으면"
-    },
-    {
-     "ts": "2026-11-19T17:40",
-     "tool": "git",
-     "title": "fix(7차 감사 11-19): 점수 칭찬 지난 일 꼴('점수를 잘 받아서'·'점수 받은 거'·'점수를 높게 받았어') 다시 잡기 — 받(았|아"
     }
    ]
   },
@@ -2013,15 +2013,51 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T20:11",
+   "ts": "2026-11-19T20:25",
+   "tool": "claude",
+   "title": "AI학원 프로그램 카톡 단체 공지 기능",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T20:25",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T20:10",
-   "tool": "claude",
-   "title": "AI학원 프로그램 카톡 단체 공지 기능",
+   "ts": "2026-11-19T20:25",
+   "tool": "git",
+   "title": "merge: 11-19 수학메이트 '너가 가장 약한 유형 — 비슷한 문제'(새 표 mm_type_drills, 기본 켬) · 기능별 AI 실행기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T20:17",
+   "tool": "git",
+   "title": "fix(콜드 감사 11-19 AI 스위치): 실제 응답한 쪽 기록 누락 6곳 · 쿨다운 분리 시험 · h_report lane·discussio",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T20:06",
+   "tool": "git",
+   "title": "fix(콜드 감사 11-19 비슷한 문제): 개념 물어보기 정답 차단에 안 푼 drill 포함 · 한도를 접수 기준과 같게(대기 질문이 밀리지 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T19:49",
+   "tool": "git",
+   "title": "feat(11-19 AI 실행기): 기능별 스위치 ITTIVE_LLM_ROUTE(앞부분 가장 긴 일치, claude/codex/claude-on",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T19:48",
+   "tool": "git",
+   "title": "feat(11-19 원장): 카드 제목 '너가 가장 약한 유형 — 비슷한 문제 풀어 볼래?' · 스위치 기본 켬(설정 행 없으면 켬, 원장이 끄",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T19:45",
+   "tool": "git",
+   "title": "feat(MATH MATE 11-19): 매쓰플랫 자주 틀린 유형 → AI 비슷한 문제(누를 때 만들기, 독립 검산 2회 일치만, +10 XP·",
    "project": "ai-academy"
   },
   {
@@ -2215,45 +2251,9 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "coinbot-trend"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "dev-center"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "fleet-vault"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "toss-stock-bot"
-  },
-  {
-   "ts": "2026-11-10T20:19",
-   "tool": "git",
-   "title": "강사 리그·배치 화면에서 등수와 '원본' 표시 제거, CSV 등수 열 삭제, 리그 탭에선 상단 원본 경고 숨김",
-   "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T18:34",
-   "tool": "git",
-   "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침",
-   "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-19T20:11",
+ "data_at": "2026-11-19T20:25",
  "active_projects": [
   "ai-academy"
  ]
