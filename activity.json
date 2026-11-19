@@ -1,8 +1,8 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 21,
-   "sessions_claude": 21,
+   "sessions": 22,
+   "sessions_claude": 22,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-19",
@@ -10,7 +10,12 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-19T19:20",
+     "ts": "2026-11-19T19:31",
+     "tool": "claude",
+     "title": "AI학원 프로그램 카톡 단체 공지 기능"
+    },
+    {
+     "ts": "2026-11-19T19:29",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-11-19T17:40",
      "tool": "git",
      "title": "fix(7차 감사 11-19): 점수 칭찬 지난 일 꼴('점수를 잘 받아서'·'점수 받은 거'·'점수를 높게 받았어') 다시 잡기 — 받(았|아"
-    },
-    {
-     "ts": "2026-11-19T17:37",
-     "tool": "git",
-     "title": "merge: 11-19 프로그램 연계 4건(자료 뽑기←수학메이트 막힌 단원 · 17시 점검 수학메이트 줄 · 공부 처방 매쓰플랫 유형 · 단원 "
     }
    ]
   },
@@ -2013,7 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T19:20",
+   "ts": "2026-11-19T19:31",
+   "tool": "claude",
+   "title": "AI학원 프로그램 카톡 단체 공지 기능",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T19:29",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
@@ -2245,15 +2251,9 @@
    "tool": "git",
    "title": "원장님용 주간 보고서: 저장·API·화면·A4 인쇄·첨부 + 사실 묶음/숫자 대조/게시 스크립트 + 작성 지침",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T17:12",
-   "tool": "git",
-   "title": "주간 자료 반영 스크립트 견본(11월 1주차, 에이전트 토큰)",
-   "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-19T19:20",
+ "data_at": "2026-11-19T19:31",
  "active_projects": [
   "ai-academy"
  ]
