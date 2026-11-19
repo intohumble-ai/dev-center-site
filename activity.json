@@ -7,17 +7,27 @@
    "automated": 0,
    "last_day": "2026-11-19",
    "active_now": true,
-   "commits": 49,
+   "commits": 48,
    "timeline": [
     {
-     "ts": "2026-11-19T22:55",
+     "ts": "2026-11-19T23:04",
+     "tool": "claude",
+     "title": "AI학원 프로그램 연동 개선"
+    },
+    {
+     "ts": "2026-11-19T23:04",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
     {
-     "ts": "2026-11-19T22:55",
-     "tool": "claude",
-     "title": "AI학원 프로그램 연동 개선"
+     "ts": "2026-11-19T22:59",
+     "tool": "git",
+     "title": "merge: 11-19 전체 카톡(PC 카톡으로 같은 글을 학생별 방에 한 명씩 — 처음 한 번 방 확인·창 안 띄우는 보내기) — 콜드 감사 "
+    },
+    {
+     "ts": "2026-11-19T22:56",
+     "tool": "git",
+     "title": "fix(전체 카톡): 5차 감사 P2 9건 — 화면·서버 같은 글 정리 함수·C1/줄구분자 정리·첫 줄 뒤 어긋남은 늘 ❓·글 넣기 전 창 닫힘"
     },
     {
      "ts": "2026-11-19T22:38",
@@ -58,16 +68,6 @@
      "ts": "2026-11-19T20:17",
      "tool": "git",
      "title": "fix(콜드 감사 11-19 AI 스위치): 실제 응답한 쪽 기록 누락 6곳 · 쿨다운 분리 시험 · h_report lane·discussio"
-    },
-    {
-     "ts": "2026-11-19T20:06",
-     "tool": "git",
-     "title": "fix(콜드 감사 11-19 비슷한 문제): 개념 물어보기 정답 차단에 안 푼 drill 포함 · 한도를 접수 기준과 같게(대기 질문이 밀리지 "
-    },
-    {
-     "ts": "2026-11-19T19:49",
-     "tool": "git",
-     "title": "feat(11-19 AI 실행기): 기능별 스위치 ITTIVE_LLM_ROUTE(앞부분 가장 긴 일치, claude/codex/claude-on"
     }
    ]
   },
@@ -2013,15 +2013,27 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T22:55",
+   "ts": "2026-11-19T23:04",
+   "tool": "claude",
+   "title": "AI학원 프로그램 연동 개선",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T23:04",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T22:55",
-   "tool": "claude",
-   "title": "AI학원 프로그램 연동 개선",
+   "ts": "2026-11-19T22:59",
+   "tool": "git",
+   "title": "merge: 11-19 전체 카톡(PC 카톡으로 같은 글을 학생별 방에 한 명씩 — 처음 한 번 방 확인·창 안 띄우는 보내기) — 콜드 감사 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T22:56",
+   "tool": "git",
+   "title": "fix(전체 카톡): 5차 감사 P2 9건 — 화면·서버 같은 글 정리 함수·C1/줄구분자 정리·첫 줄 뒤 어긋남은 늘 ❓·글 넣기 전 창 닫힘",
    "project": "ai-academy"
   },
   {
@@ -2106,24 +2118,6 @@
    "ts": "2026-11-19T19:04",
    "tool": "git",
    "title": "fix(감사 11-19 되돌아오는 확인 P2 외): 잇지 못한 옛 항목은 '아직 풀지 않음' 대신 줄을 뺌 · 처방 검사 '~면서' 다시 잡기 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T18:51",
-   "tool": "git",
-   "title": "fix(10차 감사 11-19): '대부분 점수가…' 가 부분 점수 예외에 걸리던 결함 · '점수가 떨어지는 게 걱정/떨어지지 않아서' 다시 잡",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T18:51",
-   "tool": "git",
-   "title": "feat(되돌아오는 확인 11-19): 수학메이트 막힘으로 넣은 소단원 → 출제 뒤 매쓰플랫 맞힘/푼 수(자료 뽑기 미리보기 · 학생별 매쓰플랫",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T18:00",
-   "tool": "git",
-   "title": "fix(9차 감사 11-19): 높/낮/떨어 는 공부 요령 꼴(높이·낮추·떨어뜨·떨어지는·~수록·~으면)만 빼는 방식으로 — '점수가 높네·떨어",
    "project": "ai-academy"
   },
   {
@@ -2251,9 +2245,15 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "fleet-vault"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-19T22:55",
+ "data_at": "2026-11-19T23:04",
  "active_projects": [
   "ai-academy"
  ]
