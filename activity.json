@@ -7,15 +7,25 @@
    "automated": 0,
    "last_day": "2026-11-19",
    "active_now": true,
-   "commits": 52,
+   "commits": 47,
    "timeline": [
     {
-     "ts": "2026-11-19T20:25",
+     "ts": "2026-11-19T20:33",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
     {
-     "ts": "2026-11-19T20:25",
+     "ts": "2026-11-19T20:32",
+     "tool": "git",
+     "title": "merge master 769e36d into kakao-broadcast"
+    },
+    {
+     "ts": "2026-11-19T20:32",
+     "tool": "git",
+     "title": "feat(전체 카톡): PC 카톡으로 같은 글을 학생별 방에 한 명씩 보내기 — 1차(감사 FAIL 수리 전)"
+    },
+    {
+     "ts": "2026-11-19T20:28",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
@@ -58,16 +68,6 @@
      "ts": "2026-11-19T19:04",
      "tool": "git",
      "title": "fix(감사 11-19 되돌아오는 확인 P2 외): 잇지 못한 옛 항목은 '아직 풀지 않음' 대신 줄을 뺌 · 처방 검사 '~면서' 다시 잡기 "
-    },
-    {
-     "ts": "2026-11-19T18:51",
-     "tool": "git",
-     "title": "fix(10차 감사 11-19): '대부분 점수가…' 가 부분 점수 예외에 걸리던 결함 · '점수가 떨어지는 게 걱정/떨어지지 않아서' 다시 잡"
-    },
-    {
-     "ts": "2026-11-19T18:51",
-     "tool": "git",
-     "title": "feat(되돌아오는 확인 11-19): 수학메이트 막힘으로 넣은 소단원 → 출제 뒤 매쓰플랫 맞힘/푼 수(자료 뽑기 미리보기 · 학생별 매쓰플랫"
     }
    ]
   },
@@ -2013,13 +2013,25 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T20:25",
+   "ts": "2026-11-19T20:33",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T20:25",
+   "ts": "2026-11-19T20:32",
+   "tool": "git",
+   "title": "merge master 769e36d into kakao-broadcast",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T20:32",
+   "tool": "git",
+   "title": "feat(전체 카톡): PC 카톡으로 같은 글을 학생별 방에 한 명씩 보내기 — 1차(감사 FAIL 수리 전)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T20:28",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
@@ -2106,42 +2118,6 @@
    "ts": "2026-11-19T17:49",
    "tool": "git",
    "title": "merge: 11-19 쓱 메모(★약속 빠른 입력) — 콜드 감사 2회(FAIL→PASS)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:49",
-   "tool": "git",
-   "title": "feat(11-19): 쓱 메모 — 한 칸에 '이름 + 할 일' 여러 줄 → 재원생 전체에서 학생 찾아 내부 메모 ★약속으로(겹치거나 못 찾으면",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:40",
-   "tool": "git",
-   "title": "fix(7차 감사 11-19): 점수 칭찬 지난 일 꼴('점수를 잘 받아서'·'점수 받은 거'·'점수를 높게 받았어') 다시 잡기 — 받(았|아",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:37",
-   "tool": "git",
-   "title": "merge: 11-19 프로그램 연계 4건(자료 뽑기←수학메이트 막힌 단원 · 17시 점검 수학메이트 줄 · 공부 처방 매쓰플랫 유형 · 단원 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:36",
-   "tool": "git",
-   "title": "fix(6차 감사 11-19): % 칭찬('▮% 정도 맞혔어'·'맞은 게 ▮%야'·'맞췄어') 다시 잡기 · '점수를' 은 지난 일(받았·높였·",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:31",
-   "tool": "git",
-   "title": "fix(5차 감사 11-19): 누출 검사 빈틈 4곳 — 'N점이나', '점수가 잘 나왔어', '친구들보다도', % 는 조사만 끼고 맞힘·틀림과",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:25",
-   "tool": "git",
-   "title": "fix(4차 감사 11-19, 원장 '확실한 말만'): 처방 누출 검사를 틀림없는 점수·등수·비교 말로 — %는 맞/틀/정답과 붙을 때만, N점",
    "project": "ai-academy"
   },
   {
@@ -2251,9 +2227,33 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "coinbot-trend"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "dev-center"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "fleet-vault"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-10T21:25",
+   "tool": "git",
+   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
+   "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-19T20:25",
+ "data_at": "2026-11-19T20:33",
  "active_projects": [
   "ai-academy"
  ]
