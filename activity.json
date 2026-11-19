@@ -10,7 +10,12 @@
    "commits": 48,
    "timeline": [
     {
-     "ts": "2026-11-19T22:22",
+     "ts": "2026-11-19T22:33",
+     "tool": "claude",
+     "title": "AI학원 프로그램 연동 개선"
+    },
+    {
+     "ts": "2026-11-19T22:32",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
@@ -18,11 +23,6 @@
      "ts": "2026-11-19T22:20",
      "tool": "git",
      "title": "fix(전체 카톡): 감사 1~3차 수리 + 처음 한 번 방 확인 + 창을 띄우지 않는 보내기(WM_CHAR·EM_REPLACESEL·PostM"
-    },
-    {
-     "ts": "2026-11-19T22:19",
-     "tool": "claude",
-     "title": "AI학원 프로그램 연동 개선"
     },
     {
      "ts": "2026-11-19T21:40",
@@ -2013,7 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T22:22",
+   "ts": "2026-11-19T22:33",
+   "tool": "claude",
+   "title": "AI학원 프로그램 연동 개선",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T22:32",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
@@ -2022,12 +2028,6 @@
    "ts": "2026-11-19T22:20",
    "tool": "git",
    "title": "fix(전체 카톡): 감사 1~3차 수리 + 처음 한 번 방 확인 + 창을 띄우지 않는 보내기(WM_CHAR·EM_REPLACESEL·PostM",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T22:19",
-   "tool": "claude",
-   "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
@@ -2253,7 +2253,7 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-19T22:22",
+ "data_at": "2026-11-19T22:33",
  "active_projects": [
   "ai-academy"
  ]
