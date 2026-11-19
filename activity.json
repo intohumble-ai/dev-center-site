@@ -10,12 +10,12 @@
    "commits": 48,
    "timeline": [
     {
-     "ts": "2026-11-19T23:04",
+     "ts": "2026-11-19T23:15",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
     {
-     "ts": "2026-11-19T23:04",
+     "ts": "2026-11-19T23:10",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
@@ -2013,13 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T23:04",
+   "ts": "2026-11-19T23:15",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T23:04",
+   "ts": "2026-11-19T23:10",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
@@ -2253,7 +2253,7 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-19T23:04",
+ "data_at": "2026-11-19T23:15",
  "active_projects": [
   "ai-academy"
  ]
