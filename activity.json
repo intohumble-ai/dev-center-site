@@ -5,14 +5,39 @@
    "sessions_claude": 20,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-18",
-   "active_now": false,
+   "last_day": "2026-11-19",
+   "active_now": true,
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-18T22:07",
+     "ts": "2026-11-19T14:50",
      "tool": "claude",
      "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능"
+    },
+    {
+     "ts": "2026-11-19T14:50",
+     "tool": "git",
+     "title": "fix(11-18 통합): '숙제 마무리 O :' 꼴을 원본 숙제 판정이 직접 읽음 · 비슷한 이름 경고 조사 와/과"
+    },
+    {
+     "ts": "2026-11-19T14:45",
+     "tool": "git",
+     "title": "merge: 11-18 재발 방지 묶음(A 글 만들기·B 정리하기 화면·C 수학메이트)"
+    },
+    {
+     "ts": "2026-11-19T14:45",
+     "tool": "git",
+     "title": "wip(team-a-1118): 재발 방지 묶음 — 팀 a 작업분(총괄 통합 전)"
+    },
+    {
+     "ts": "2026-11-19T14:45",
+     "tool": "git",
+     "title": "wip(team-b-1118): 재발 방지 묶음 — 팀 b 작업분(총괄 통합 전)"
+    },
+    {
+     "ts": "2026-11-19T14:45",
+     "tool": "git",
+     "title": "wip(team-c-1118): 재발 방지 묶음 — 팀 c 작업분(총괄 통합 전)"
     },
     {
      "ts": "2026-11-18T21:33",
@@ -43,31 +68,6 @@
      "ts": "2026-11-18T19:27",
      "tool": "git",
      "title": "fix(학부모 피드백): 메모의 '○○ 제외하고 나머지 모두 …' 요청이 빼라고 한 아이에게만 가던 것 — 확실할 때만 나누고 모르면 보내지 않"
-    },
-    {
-     "ts": "2026-11-18T18:00",
-     "tool": "git",
-     "title": "feat(매쓰플랫 자료 뽑기): 자동 인쇄 연결 — 만든 뒤 학생마다 바로 인쇄 · 학생별 [인쇄] 버튼"
-    },
-    {
-     "ts": "2026-11-18T17:03",
-     "tool": "git",
-     "title": "feat(매쓰플랫 자료 뽑기): Pathfinder 문항 정답률 하한(기본 ▮%) · 후보 나눠 받기 · 자료 클릭 경합 수리"
-    },
-    {
-     "ts": "2026-11-18T16:34",
-     "tool": "git",
-     "title": "feat(매쓰플랫 자료 뽑기): Pathfinder 목표 문제 수 · FRONTIER 학생마다/반 전체 같은 문제/직접 정하기"
-    },
-    {
-     "ts": "2026-11-17T22:53",
-     "tool": "claude",
-     "title": "AI학원 매쓰플랫 자료 자동 인쇄"
-    },
-    {
-     "ts": "2026-11-17T21:12",
-     "tool": "claude",
-     "title": "AI학원 수업 메모 통합 관리"
     }
    ]
   },
@@ -2013,9 +2013,39 @@
  },
  "feed": [
   {
-   "ts": "2026-11-18T22:07",
+   "ts": "2026-11-19T14:50",
    "tool": "claude",
    "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T14:50",
+   "tool": "git",
+   "title": "fix(11-18 통합): '숙제 마무리 O :' 꼴을 원본 숙제 판정이 직접 읽음 · 비슷한 이름 경고 조사 와/과",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T14:45",
+   "tool": "git",
+   "title": "merge: 11-18 재발 방지 묶음(A 글 만들기·B 정리하기 화면·C 수학메이트)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T14:45",
+   "tool": "git",
+   "title": "wip(team-a-1118): 재발 방지 묶음 — 팀 a 작업분(총괄 통합 전)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T14:45",
+   "tool": "git",
+   "title": "wip(team-b-1118): 재발 방지 묶음 — 팀 b 작업분(총괄 통합 전)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-19T14:45",
+   "tool": "git",
+   "title": "wip(team-c-1118): 재발 방지 묶음 — 팀 c 작업분(총괄 통합 전)",
    "project": "ai-academy"
   },
   {
@@ -2091,28 +2121,10 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-17T20:00",
-   "tool": "git",
-   "title": "chore(deps): Next.js 16.4.3 → 16.4.6 (eslint-config-next 함께) — 보안 권고 GHSA-mfr8-8",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-17T19:23",
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-17T18:17",
-   "tool": "git",
-   "title": "feat(매쓰플랫 자료 뽑기): 화면 애플식 개편 · 학생별 Pathfinder 유형 수 실시간 · 불러오기 실패 대응",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-17T17:48",
-   "tool": "git",
-   "title": "fix(★약속): 약속 업무(operation_tasks) 시각을 받은 now 로 기록 — 시험 고정 시각과 벽시계가 어긋나 11/13부터 '링",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-17T17:45",
@@ -2121,22 +2133,10 @@
    "project": "cgv-bot"
   },
   {
-   "ts": "2026-11-17T17:05",
-   "tool": "git",
-   "title": "fix(매쓰플랫 자료 뽑기): FRONTIER 제안은 지금 구간 점수 2회가 찬 뒤에만 — 옛 구간 점수로 같은 제안 반복 안 함",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-17T16:52",
    "tool": "git",
    "title": "fix(cgv): pay_ui 결제 절대 상한 50000→70000 + 하루한도·결제보류 테스트 격리",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-17T15:30",
-   "tool": "git",
-   "title": "feat(매쓰플랫 자료 뽑기 2차): 범위 자동/직접 · 오늘 결석 해제 · 자료별 인쇄 설정 기억 · FRONTIER 구간 제안 버튼",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-17T13:59",
@@ -2253,6 +2253,8 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-18T22:07",
- "active_projects": []
+ "data_at": "2026-11-19T14:50",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
