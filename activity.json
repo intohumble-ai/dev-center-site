@@ -10,7 +10,7 @@
    "commits": 45,
    "timeline": [
     {
-     "ts": "2026-11-19T15:57",
+     "ts": "2026-11-19T16:06",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T15:57",
+   "ts": "2026-11-19T16:06",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
@@ -2253,7 +2253,7 @@
    "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-19T15:57",
+ "data_at": "2026-11-19T16:06",
  "active_projects": [
   "ai-academy"
  ]
