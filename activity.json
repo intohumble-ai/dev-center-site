@@ -5,17 +5,17 @@
    "sessions_claude": 22,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-19",
+   "last_day": "2026-11-20",
    "active_now": true,
    "commits": 58,
    "timeline": [
     {
-     "ts": "2026-11-19T23:43",
+     "ts": "2026-11-20T00:40",
      "tool": "claude",
      "title": "AI학원 프로그램 연동 개선"
     },
     {
-     "ts": "2026-11-19T23:43",
+     "ts": "2026-11-20T00:40",
      "tool": "claude",
      "title": "AI학원 프로그램 카톡 단체 공지 기능"
     },
@@ -2013,13 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-19T23:43",
+   "ts": "2026-11-20T00:40",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-19T23:43",
+   "ts": "2026-11-20T00:40",
    "tool": "claude",
    "title": "AI학원 프로그램 카톡 단체 공지 기능",
    "project": "ai-academy"
@@ -2253,7 +2253,7 @@
    "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-19T23:43",
+ "data_at": "2026-11-20T00:40",
  "active_projects": [
   "ai-academy"
  ]
