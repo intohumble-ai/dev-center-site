@@ -10,7 +10,7 @@
    "commits": 59,
    "timeline": [
     {
-     "ts": "2026-11-20T19:16",
+     "ts": "2026-11-20T19:21",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
     },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-20",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T19:16",
+   "ts": "2026-11-20T19:21",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
@@ -2253,9 +2253,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-20T19:16",
+ "data_at": "2026-11-20T19:21",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot"
+  "ai-academy"
  ]
 }
