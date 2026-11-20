@@ -10,7 +10,7 @@
    "commits": 51,
    "timeline": [
     {
-     "ts": "2026-11-20T16:38",
+     "ts": "2026-11-20T16:46",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T16:38",
+   "ts": "2026-11-20T16:46",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
@@ -2253,7 +2253,7 @@
    "project": "coinbot-trend"
   }
  ],
- "data_at": "2026-11-20T16:38",
+ "data_at": "2026-11-20T16:46",
  "active_projects": [
   "ai-academy"
  ]
