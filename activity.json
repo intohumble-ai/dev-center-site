@@ -5,12 +5,12 @@
    "sessions_claude": 23,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-20",
-   "active_now": false,
+   "last_day": "2026-11-21",
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-20T22:58",
+     "ts": "2026-11-21T00:00",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
     },
@@ -76,12 +76,12 @@
    "sessions_claude": 7,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-20",
-   "active_now": false,
+   "last_day": "2026-11-21",
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-20T17:12",
+     "ts": "2026-11-21T00:01",
      "tool": "claude",
      "title": "cgv봇 예매 취소 및 정지"
     },
@@ -2013,7 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T22:58",
+   "ts": "2026-11-21T00:01",
+   "tool": "claude",
+   "title": "cgv봇 예매 취소 및 정지",
+   "project": "cgv-bot"
+  },
+  {
+   "ts": "2026-11-21T00:00",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
@@ -2107,12 +2113,6 @@
    "tool": "git",
    "title": "merge: 등원 안내 문자 안전 글자",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T17:12",
-   "tool": "claude",
-   "title": "cgv봇 예매 취소 및 정지",
-   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-20T04:02",
@@ -2253,6 +2253,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-20T22:58",
- "active_projects": []
+ "data_at": "2026-11-21T00:01",
+ "active_projects": [
+  "ai-academy",
+  "cgv-bot"
+ ]
 }
