@@ -10,6 +10,11 @@
    "commits": 60,
    "timeline": [
     {
+     "ts": "2026-11-20T22:33",
+     "tool": "claude",
+     "title": "AI학원 lesson-intake 격주 수업 메모"
+    },
+    {
      "ts": "2026-11-20T22:29",
      "tool": "git",
      "title": "merge: 시험 보고서 링크 공개 주소"
@@ -18,11 +23,6 @@
      "ts": "2026-11-20T22:29",
      "tool": "git",
      "title": "fix(시험 보고서): 학부모 링크를 공개 주소(문지기, MM_PUBLIC_URL 출처)로 — 원장 화면 주소(Tailscale :8449)는 "
-    },
-    {
-     "ts": "2026-11-20T22:28",
-     "tool": "claude",
-     "title": "AI학원 lesson-intake 격주 수업 메모"
     },
     {
      "ts": "2026-11-20T22:13",
@@ -2013,6 +2013,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-20T22:33",
+   "tool": "claude",
+   "title": "AI학원 lesson-intake 격주 수업 메모",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-20T22:29",
    "tool": "git",
    "title": "merge: 시험 보고서 링크 공개 주소",
@@ -2022,12 +2028,6 @@
    "ts": "2026-11-20T22:29",
    "tool": "git",
    "title": "fix(시험 보고서): 학부모 링크를 공개 주소(문지기, MM_PUBLIC_URL 출처)로 — 원장 화면 주소(Tailscale :8449)는 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T22:28",
-   "tool": "claude",
-   "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
   },
   {
@@ -2253,7 +2253,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-20T22:29",
+ "data_at": "2026-11-20T22:33",
  "active_projects": [
   "ai-academy"
  ]
