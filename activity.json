@@ -10,6 +10,11 @@
    "commits": 59,
    "timeline": [
     {
+     "ts": "2026-11-20T17:53",
+     "tool": "claude",
+     "title": "AI학원 lesson-intake 격주 수업 메모"
+    },
+    {
      "ts": "2026-11-20T17:52",
      "tool": "git",
      "title": "merge: 부모님께 전할 한마디 수업 전·숙제 O/X 줄 제외"
@@ -18,11 +23,6 @@
      "ts": "2026-11-20T17:52",
      "tool": "git",
      "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-20T17:51",
-     "tool": "claude",
-     "title": "AI학원 lesson-intake 격주 수업 메모"
     },
     {
      "ts": "2026-11-20T17:27",
@@ -2013,6 +2013,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-20T17:53",
+   "tool": "claude",
+   "title": "AI학원 lesson-intake 격주 수업 메모",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-20T17:52",
    "tool": "git",
    "title": "merge: 부모님께 전할 한마디 수업 전·숙제 O/X 줄 제외",
@@ -2022,12 +2028,6 @@
    "ts": "2026-11-20T17:52",
    "tool": "git",
    "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T17:51",
-   "tool": "claude",
-   "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
   },
   {
@@ -2253,7 +2253,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-20T17:52",
+ "data_at": "2026-11-20T17:53",
  "active_projects": [
   "ai-academy"
  ]
