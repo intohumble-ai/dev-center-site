@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-21T00:00",
+     "ts": "2026-11-21T00:12",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
     },
@@ -81,7 +81,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-21T00:01",
+     "ts": "2026-11-21T00:04",
      "tool": "claude",
      "title": "cgv봇 예매 취소 및 정지"
     },
@@ -2013,16 +2013,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-21T00:01",
-   "tool": "claude",
-   "title": "cgv봇 예매 취소 및 정지",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-21T00:00",
+   "ts": "2026-11-21T00:12",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-21T00:04",
+   "tool": "claude",
+   "title": "cgv봇 예매 취소 및 정지",
+   "project": "cgv-bot"
   },
   {
    "ts": "2026-11-20T22:29",
@@ -2253,7 +2253,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-21T00:01",
+ "data_at": "2026-11-21T00:12",
  "active_projects": [
   "ai-academy",
   "cgv-bot"
