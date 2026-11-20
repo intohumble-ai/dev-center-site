@@ -10,7 +10,17 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-20T22:18",
+     "ts": "2026-11-20T22:29",
+     "tool": "git",
+     "title": "merge: 시험 보고서 링크 공개 주소"
+    },
+    {
+     "ts": "2026-11-20T22:29",
+     "tool": "git",
+     "title": "fix(시험 보고서): 학부모 링크를 공개 주소(문지기, MM_PUBLIC_URL 출처)로 — 원장 화면 주소(Tailscale :8449)는 "
+    },
+    {
+     "ts": "2026-11-20T22:28",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
     },
@@ -58,16 +68,6 @@
      "ts": "2026-11-20T20:51",
      "tool": "git",
      "title": "merge: 등원 안내↔피드백 반복 금지"
-    },
-    {
-     "ts": "2026-11-20T20:51",
-     "tool": "git",
-     "title": "feat(피드백): 등원 안내↔수업 후 피드백 반복 금지 — 보낸 '부모님께 전할 한마디' 줄은 정리하기 입력에서 뺌([그래도 넣기] 토글), "
-    },
-    {
-     "ts": "2026-11-20T20:06",
-     "tool": "git",
-     "title": "merge: 아이별 오늘 숙제(가정)"
     }
    ]
   },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-20",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2013,7 +2013,19 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T22:18",
+   "ts": "2026-11-20T22:29",
+   "tool": "git",
+   "title": "merge: 시험 보고서 링크 공개 주소",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T22:29",
+   "tool": "git",
+   "title": "fix(시험 보고서): 학부모 링크를 공개 주소(문지기, MM_PUBLIC_URL 출처)로 — 원장 화면 주소(Tailscale :8449)는 ",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T22:28",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
    "project": "ai-academy"
@@ -2094,18 +2106,6 @@
    "ts": "2026-11-20T18:31",
    "tool": "git",
    "title": "merge: 등원 안내 문자 안전 글자",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T18:31",
-   "tool": "git",
-   "title": "feat(등원 안내): 문자에서 깨지는 글자 금지 — 소제목 ■·체크 √, 완성 글 smsSafe 거르기·뺀 글자 알림(콜드 감사 PASS 조건",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T17:52",
-   "tool": "git",
-   "title": "merge: 부모님께 전할 한마디 수업 전·숙제 O/X 줄 제외",
    "project": "ai-academy"
   },
   {
@@ -2253,9 +2253,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-20T22:18",
+ "data_at": "2026-11-20T22:29",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot"
+  "ai-academy"
  ]
 }
