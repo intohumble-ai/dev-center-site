@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 22,
-   "sessions_claude": 22,
+   "sessions": 23,
+   "sessions_claude": 23,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-20",
-   "active_now": false,
+   "active_now": true,
    "commits": 51,
    "timeline": [
+    {
+     "ts": "2026-11-20T16:27",
+     "tool": "claude",
+     "title": "AI학원 lesson-intake 격주 수업 메모"
+    },
     {
      "ts": "2026-11-20T04:02",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-19T23:37",
      "tool": "git",
      "title": "merge: 11-19 수학메이트 '여러 답' 안전장치(감사 4차 PASS) · Codex 느린 응답 재시도(PASS) · H 보고서 '(단원 "
-    },
-    {
-     "ts": "2026-11-19T23:33",
-     "tool": "git",
-     "title": "fix(4차 감사 후속 11-19 여러 답): 괄호 음수·와/과/및/이고 뒤 음수·음수/마이너스 낱말 · '0보다 커야/작아야' · 대문자 부등"
     }
    ]
   },
@@ -2013,6 +2013,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-20T16:27",
+   "tool": "claude",
+   "title": "AI학원 lesson-intake 격주 수업 메모",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-20T04:02",
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
@@ -2245,14 +2251,10 @@
    "tool": "git",
    "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
    "project": "coinbot-trend"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "dev-center"
   }
  ],
- "data_at": "2026-11-20T04:02",
- "active_projects": []
+ "data_at": "2026-11-20T16:27",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
