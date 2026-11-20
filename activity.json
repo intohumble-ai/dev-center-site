@@ -7,12 +7,32 @@
    "automated": 0,
    "last_day": "2026-11-20",
    "active_now": true,
-   "commits": 51,
+   "commits": 55,
    "timeline": [
     {
-     "ts": "2026-11-20T16:59",
+     "ts": "2026-11-20T17:09",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
+    },
+    {
+     "ts": "2026-11-20T17:08",
+     "tool": "git",
+     "title": "merge: 매쓰플랫 Signature 자료"
+    },
+    {
+     "ts": "2026-11-20T17:08",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-11-20T17:08",
+     "tool": "git",
+     "title": "feat(매쓰플랫 자료): Signature '그럼에도 불구하고' — 유형분석 심화 칸만, Pathfinder와 따로 회전·하한 기본 없음(콜드"
+    },
+    {
+     "ts": "2026-11-20T17:08",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
     },
     {
      "ts": "2026-11-20T04:02",
@@ -48,26 +68,6 @@
      "ts": "2026-11-20T01:27",
      "tool": "git",
      "title": "fix(intake,llm): 콜드 감사 P2 5건·P3 4건 수리"
-    },
-    {
-     "ts": "2026-11-20T01:08",
-     "tool": "git",
-     "title": "fix(intake): 모델이 명단 키를 붙였던 빈 키 행은 버리지 않고 연결 확인 질문으로 남김 + 렌더 시험"
-    },
-    {
-     "ts": "2026-11-20T00:57",
-     "tool": "git",
-     "title": "feat(intake,llm): 숙제 O/X 엇갈림 질문을 결정적 코드로 보장 + 빈 학생 키 행 방어 + ITTIVE_LLM_SHADOW 섀도"
-    },
-    {
-     "ts": "2026-11-20T00:49",
-     "tool": "git",
-     "title": "fix(전체 카톡): 안 보낼 때 우리가 넣은 앞부분만 골라 지움 — 짧은 글도 지워지고 원장이 친 글은 남김, 못 지우면 ⚠️ 알리고 방 열어"
-    },
-    {
-     "ts": "2026-11-19T23:37",
-     "tool": "git",
-     "title": "merge: 11-19 수학메이트 '여러 답' 안전장치(감사 4차 PASS) · Codex 느린 응답 재시도(PASS) · H 보고서 '(단원 "
     }
    ]
   },
@@ -143,14 +143,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 5,
-   "sessions_claude": 5,
+   "sessions": 6,
+   "sessions_claude": 6,
    "sessions_codex": 0,
    "automated": 1,
-   "last_day": "2026-11-17",
-   "active_now": false,
+   "last_day": "2026-11-20",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-20T17:09",
+     "tool": "claude",
+     "title": "cgv봇 예매 취소 및 정지"
+    },
     {
      "ts": "2026-11-17T22:40",
      "tool": "claude",
@@ -205,11 +210,6 @@
      "ts": "2026-04-10T13:22",
      "tool": "git",
      "title": "shadow 게이트 수정: 최근 48h + 최소 30건 기준"
-    },
-    {
-     "ts": "2026-04-10T13:11",
-     "tool": "git",
-     "title": "종합 패치: 역발상 전환 매수 전략 + 인프라 안정화 7건"
     }
    ]
   },
@@ -2013,9 +2013,39 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T16:59",
+   "ts": "2026-11-20T17:09",
+   "tool": "claude",
+   "title": "cgv봇 예매 취소 및 정지",
+   "project": "upbit-auto-bot"
+  },
+  {
+   "ts": "2026-11-20T17:09",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T17:08",
+   "tool": "git",
+   "title": "merge: 매쓰플랫 Signature 자료",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T17:08",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T17:08",
+   "tool": "git",
+   "title": "feat(매쓰플랫 자료): Signature '그럼에도 불구하고' — 유형분석 심화 칸만, Pathfinder와 따로 회전·하한 기본 없음(콜드",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T17:08",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
    "project": "ai-academy"
   },
   {
@@ -2221,40 +2251,11 @@
    "tool": "git",
    "title": "강사 리그 엑셀 11/10 새 양식 지원(총점=2분기만족도+시상합계, 날짜 칸 자동 탐지·검산), 주간 증감에서 새 항목 제외",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-10T21:26",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "ai-securities"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "butler-bot"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "cnc-reporting-portal-cf"
-  },
-  {
-   "ts": "2026-11-10T21:25",
-   "tool": "git",
-   "title": "docs: Claude Code용 CLAUDE.md 안내문 추가",
-   "project": "coinbot-trend"
   }
  ],
- "data_at": "2026-11-20T16:59",
+ "data_at": "2026-11-20T17:09",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
