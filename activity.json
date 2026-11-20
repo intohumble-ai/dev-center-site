@@ -7,12 +7,22 @@
    "automated": 0,
    "last_day": "2026-11-20",
    "active_now": true,
-   "commits": 55,
+   "commits": 57,
    "timeline": [
     {
-     "ts": "2026-11-20T17:19",
+     "ts": "2026-11-20T17:30",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
+    },
+    {
+     "ts": "2026-11-20T17:27",
+     "tool": "git",
+     "title": "merge: 등원 안내 숙제 빼기"
+    },
+    {
+     "ts": "2026-11-20T17:27",
+     "tool": "git",
+     "title": "feat(등원 안내): 숙제 빼기 — '[숙제]' 줄부터 그 칸 끝까지 AI 입력에서 제외 + 본문에 '숙제'가 들어가면 확인 알림(콜드 감사 "
     },
     {
      "ts": "2026-11-20T17:08",
@@ -58,16 +68,6 @@
      "ts": "2026-11-20T03:14",
      "tool": "git",
      "title": "fix(전체 카톡): '메시지 입력'으로 시작하는 글도 거절(서버+도우미) — 넣다 만 글이 빈칸으로 보이는 틈 차단(감사 PASS)"
-    },
-    {
-     "ts": "2026-11-20T01:28",
-     "tool": "git",
-     "title": "docs: 섀도 시간 상한·MAX 표시 설명"
-    },
-    {
-     "ts": "2026-11-20T01:27",
-     "tool": "git",
-     "title": "fix(intake,llm): 콜드 감사 P2 5건·P3 4건 수리"
     }
    ]
   },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-20",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2013,9 +2013,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T17:19",
+   "ts": "2026-11-20T17:30",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T17:27",
+   "tool": "git",
+   "title": "merge: 등원 안내 숙제 빼기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T17:27",
+   "tool": "git",
+   "title": "feat(등원 안내): 숙제 빼기 — '[숙제]' 줄부터 그 칸 끝까지 AI 입력에서 제외 + 본문에 '숙제'가 들어가면 확인 알림(콜드 감사 ",
    "project": "ai-academy"
   },
   {
@@ -2239,23 +2251,10 @@
    "tool": "claude",
    "title": "AI 학원 프로그램",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-10T21:50",
-   "tool": "git",
-   "title": "chore(hook): 문서만 바뀐 커밋은 pytest·ruff 생략",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-10T21:31",
-   "tool": "git",
-   "title": "강사 리그 엑셀 11/10 새 양식 지원(총점=2분기만족도+시상합계, 날짜 칸 자동 탐지·검산), 주간 증감에서 새 항목 제외",
-   "project": "cnc-scoreboard-cf"
   }
  ],
- "data_at": "2026-11-20T17:19",
+ "data_at": "2026-11-20T17:30",
  "active_projects": [
-  "ai-academy",
-  "cgv-bot"
+  "ai-academy"
  ]
 }
