@@ -10,9 +10,19 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-20T21:35",
+     "ts": "2026-11-20T21:47",
      "tool": "claude",
      "title": "AI학원 lesson-intake 격주 수업 메모"
+    },
+    {
+     "ts": "2026-11-20T21:46",
+     "tool": "git",
+     "title": "merge: 시험 보고서 원장 2차 고침"
+    },
+    {
+     "ts": "2026-11-20T21:46",
+     "tool": "git",
+     "title": "feat(시험 보고서): 원장 2차 고침 — 전국 보정 ▮%·○○T 판단·▮%=중등 100점 이상(고등 준비)·제목 한 줄·keep-all·잘한"
     },
     {
      "ts": "2026-11-20T21:01",
@@ -58,16 +68,6 @@
      "ts": "2026-11-20T17:52",
      "tool": "git",
      "title": "merge: 부모님께 전할 한마디 수업 전·숙제 O/X 줄 제외"
-    },
-    {
-     "ts": "2026-11-20T17:52",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-20T17:27",
-     "tool": "git",
-     "title": "merge: 등원 안내 숙제 빼기"
     }
    ]
   },
@@ -2013,9 +2013,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-20T21:35",
+   "ts": "2026-11-20T21:47",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T21:46",
+   "tool": "git",
+   "title": "merge: 시험 보고서 원장 2차 고침",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-20T21:46",
+   "tool": "git",
+   "title": "feat(시험 보고서): 원장 2차 고침 — 전국 보정 ▮%·○○T 판단·▮%=중등 100점 이상(고등 준비)·제목 한 줄·keep-all·잘한",
    "project": "ai-academy"
   },
   {
@@ -2100,18 +2112,6 @@
    "ts": "2026-11-20T17:08",
    "tool": "git",
    "title": "merge: 매쓰플랫 Signature 자료",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T17:08",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T17:08",
-   "tool": "git",
-   "title": "feat(매쓰플랫 자료): Signature '그럼에도 불구하고' — 유형분석 심화 칸만, Pathfinder와 따로 회전·하한 기본 없음(콜드",
    "project": "ai-academy"
   },
   {
@@ -2253,7 +2253,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-20T21:35",
+ "data_at": "2026-11-20T21:47",
  "active_projects": [
   "ai-academy"
  ]
