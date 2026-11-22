@@ -2228,14 +2228,8 @@
    "tool": "claude",
    "title": "cgv봇 복구",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-17T17:45",
-   "tool": "git",
-   "title": "feat(cgv): siege 영화별 허용 극장(movie_site_allow)·금지 관(movie_screen_deny)",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-23T01:37",
+ "data_at": "2026-11-23T01:46",
  "active_projects": []
 }
