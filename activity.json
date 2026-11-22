@@ -2204,32 +2204,8 @@
    "tool": "git",
    "title": "feat(11-19 수학메이트): '여러 답' 안전장치 — 두 풀이가 같은 여러 답이면 문제에 여러 답 신호가 없거나 풀이에 답이 갈리는 단서가",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T17:59",
-   "tool": "claude",
-   "title": "AI학원 매쓰플랫 숙제 문제 수 조정 기능",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-17T22:53",
-   "tool": "claude",
-   "title": "AI학원 매쓰플랫 자료 자동 인쇄",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-17T21:12",
-   "tool": "claude",
-   "title": "AI학원 수업 메모 통합 관리",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-17T19:23",
-   "tool": "claude",
-   "title": "cgv봇 복구",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-23T02:49",
+ "data_at": "2026-11-23T03:01",
  "active_projects": []
 }
