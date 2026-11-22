@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-22T23:52",
+ "data_at": "2026-11-23T00:02",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -309,7 +309,7 @@
    "last_commit": "2026-11-10",
    "light": "green",
    "db_tables": 0,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "upbit-auto-bot": {
    "id": "upbit-auto-bot",
