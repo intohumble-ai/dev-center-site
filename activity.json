@@ -2240,14 +2240,8 @@
    "tool": "git",
    "title": "fix(cgv): pay_ui 결제 절대 상한 50000→70000 + 하루한도·결제보류 테스트 격리",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-17T13:59",
-   "tool": "claude",
-   "title": "매쓰플랫 연동 맞춤 자료 생성기",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T00:54",
+ "data_at": "2026-11-23T01:01",
  "active_projects": []
 }
