@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-22",
-   "active_now": true,
+   "active_now": false,
    "commits": 60,
    "timeline": [
     {
@@ -2234,16 +2234,8 @@
    "tool": "git",
    "title": "feat(cgv): siege 영화별 허용 극장(movie_site_allow)·금지 관(movie_screen_deny)",
    "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-17T16:52",
-   "tool": "git",
-   "title": "fix(cgv): pay_ui 결제 절대 상한 50000→70000 + 하루한도·결제보류 테스트 격리",
-   "project": "cgv-bot"
   }
  ],
- "data_at": "2026-11-23T01:27",
- "active_projects": [
-  "ai-academy"
- ]
+ "data_at": "2026-11-23T01:37",
+ "active_projects": []
 }
