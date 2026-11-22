@@ -1,18 +1,24 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 23,
-   "sessions_claude": 23,
+   "sessions": 25,
+   "sessions_claude": 25,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-21",
-   "active_now": false,
+   "last_day": "2026-11-22",
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-21T10:17",
+     "ts": "2026-11-22T15:12",
      "tool": "claude",
-     "title": "AI학원 lesson-intake 격주 수업 메모"
+     "title": "mathflat 학교 묶음 찾기"
+    },
+    {
+     "ts": "2026-11-22T15:11",
+     "tool": "claude",
+     "title": "AI학원 lesson-intake 격주 수업 메모",
+     "count": 2
     },
     {
      "ts": "2026-11-21T02:31",
@@ -63,11 +69,6 @@
      "ts": "2026-11-21T00:37",
      "tool": "git",
      "title": "merge: 11-20 재발 방지"
-    },
-    {
-     "ts": "2026-11-21T00:37",
-     "tool": "git",
-     "title": "fix(정리하기·피드백): 11-20 재발 방지 — 매쓰플랫 점수 만점 100 자동, 메모에 없는 석차 알림, '1점' 거짓 단위 경고 끄기, "
     }
    ]
   },
@@ -77,7 +78,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-21",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2013,9 +2014,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-21T10:17",
+   "ts": "2026-11-22T15:12",
+   "tool": "claude",
+   "title": "mathflat 학교 묶음 찾기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-22T15:11",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
+   "count": 2,
    "project": "ai-academy"
   },
   {
@@ -2245,14 +2253,11 @@
    "tool": "claude",
    "title": "ai학원 피드백 및 H형 보고서 조정",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-13T21:21",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 1주차 데이터",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-22T04:45",
- "active_projects": []
+ "data_at": "2026-11-22T15:12",
+ "active_projects": [
+  "ai-academy",
+  "cgv-bot"
+ ]
 }
