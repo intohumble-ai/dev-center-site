@@ -10,9 +10,19 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-22T15:55",
+     "ts": "2026-11-22T15:58",
      "tool": "claude",
      "title": "mathflat 학교 묶음 찾기"
+    },
+    {
+     "ts": "2026-11-22T15:57",
+     "tool": "git",
+     "title": "fix(T's View): 평균 목표 감사 P3 — 못 맞추면 남은 문제 수 안내·정답률 없음 문구·다시 받기 시험"
+    },
+    {
+     "ts": "2026-11-22T15:50",
+     "tool": "git",
+     "title": "feat(T's View): 시험지 평균 정답률 목표 — 전체 난이도 맞추기"
     },
     {
      "ts": "2026-11-22T15:38",
@@ -59,16 +69,6 @@
      "ts": "2026-11-21T02:14",
      "tool": "git",
      "title": "fix(별의 순간): 다시 받기 칩 단위 판단·초안 한도(PF_DRAFT_MAX) 안에서만 (콜드 감사 P1·P2)"
-    },
-    {
-     "ts": "2026-11-21T01:26",
-     "tool": "git",
-     "title": "merge: [별의 순간] 자료"
-    },
-    {
-     "ts": "2026-11-21T01:26",
-     "tool": "git",
-     "title": "feat(학습지 만들기): [별의 순간] 이것만 알면 ≪기말≫ — 개념·기본 전체 훑기, 틀린 유형 맨 앞·다른 문제, 완료 판정(콜드 감사 조"
     }
    ]
   },
@@ -2014,9 +2014,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-22T15:55",
+   "ts": "2026-11-22T15:58",
    "tool": "claude",
    "title": "mathflat 학교 묶음 찾기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-22T15:57",
+   "tool": "git",
+   "title": "fix(T's View): 평균 목표 감사 P3 — 못 맞추면 남은 문제 수 안내·정답률 없음 문구·다시 받기 시험",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-22T15:50",
+   "tool": "git",
+   "title": "feat(T's View): 시험지 평균 정답률 목표 — 전체 난이도 맞추기",
    "project": "ai-academy"
   },
   {
@@ -2108,18 +2120,6 @@
    "ts": "2026-11-20T22:29",
    "tool": "git",
    "title": "merge: 시험 보고서 링크 공개 주소",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T22:29",
-   "tool": "git",
-   "title": "fix(시험 보고서): 학부모 링크를 공개 주소(문지기, MM_PUBLIC_URL 출처)로 — 원장 화면 주소(Tailscale :8449)는 ",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T22:13",
-   "tool": "git",
-   "title": "merge: 시험 보고서 문장 사실성·문구",
    "project": "ai-academy"
   },
   {
@@ -2255,7 +2255,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-22T15:55",
+ "data_at": "2026-11-22T15:58",
  "active_projects": [
   "ai-academy"
  ]
