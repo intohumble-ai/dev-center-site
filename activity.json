@@ -10,9 +10,19 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-22T16:48",
+     "ts": "2026-11-22T16:52",
      "tool": "claude",
      "title": "mathflat 학교 묶음 찾기"
+    },
+    {
+     "ts": "2026-11-22T16:51",
+     "tool": "git",
+     "title": "fix(수업 전 브리핑): H 보고서 자료 의도도 같은 종류의 날에서만 · 읽는 칸 줄임(감사 P2-1·P3-1)"
+    },
+    {
+     "ts": "2026-11-22T16:42",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
     },
     {
      "ts": "2026-11-22T16:20",
@@ -59,16 +69,6 @@
      "ts": "2026-11-21T02:16",
      "tool": "git",
      "title": "merge: 학부모 그래프·목차"
-    },
-    {
-     "ts": "2026-11-21T02:16",
-     "tool": "git",
-     "title": "merge: 별의 순간 재감사 수리"
-    },
-    {
-     "ts": "2026-11-21T02:16",
-     "tool": "git",
-     "title": "feat(학습지 만들기): T's View ll 학교 선생님들의 시선 — 학교 기출 쌍둥이·유사, 학교 짝 표·학교 묶음"
     }
    ]
   },
@@ -2014,9 +2014,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-22T16:48",
+   "ts": "2026-11-22T16:52",
    "tool": "claude",
    "title": "mathflat 학교 묶음 찾기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-22T16:51",
+   "tool": "git",
+   "title": "fix(수업 전 브리핑): H 보고서 자료 의도도 같은 종류의 날에서만 · 읽는 칸 줄임(감사 P2-1·P3-1)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-22T16:42",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
    "project": "ai-academy"
   },
   {
@@ -2102,18 +2114,6 @@
    "ts": "2026-11-21T01:26",
    "tool": "git",
    "title": "merge: [별의 순간] 자료",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-21T01:26",
-   "tool": "git",
-   "title": "feat(학습지 만들기): [별의 순간] 이것만 알면 ≪기말≫ — 개념·기본 전체 훑기, 틀린 유형 맨 앞·다른 문제, 완료 판정(콜드 감사 조",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-21T00:37",
-   "tool": "git",
-   "title": "merge: 11-20 재발 방지",
    "project": "ai-academy"
   },
   {
@@ -2255,7 +2255,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-22T16:48",
+ "data_at": "2026-11-22T16:52",
  "active_projects": [
   "ai-academy"
  ]
