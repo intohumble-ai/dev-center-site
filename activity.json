@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-22T18:55",
+     "ts": "2026-11-22T19:08",
      "tool": "claude",
      "title": "mathflat 학교 묶음 찾기"
     },
@@ -77,7 +77,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-21",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-22T18:55",
+   "ts": "2026-11-22T19:08",
    "tool": "claude",
    "title": "mathflat 학교 묶음 찾기",
    "project": "ai-academy"
@@ -2254,8 +2254,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-22T18:55",
+ "data_at": "2026-11-22T19:08",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cgv-bot"
  ]
 }
