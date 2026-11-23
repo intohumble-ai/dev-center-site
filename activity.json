@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T00:22",
+     "ts": "2026-11-24T00:35",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
+    },
+    {
+     "ts": "2026-11-24T00:35",
+     "tool": "git",
+     "title": "fix(T's View): 시험지 문제를 기출 번호순으로(1,2,3…·같은 번호는 최근 시험 먼저·짝 안 쌍둥이 먼저) — 매쓰플랫 글자순(10"
     },
     {
      "ts": "2026-11-23T23:26",
@@ -63,11 +68,6 @@
      "ts": "2026-11-23T16:31",
      "tool": "git",
      "title": "feat(T's View): 난이도 1~5단계 % 비중 · 목표 문제 수(기출 순서, 부족분 [채우기]) · 유형별 최대 < 짝이면 쌍둥이 우선"
-    },
-    {
-     "ts": "2026-11-23T16:31",
-     "tool": "git",
-     "title": "feat(숙제 자료 의도): 원장 초안(취약 10적·Pathfinder·FRONTIER Ⅱ·별의 순간·T's View 목적)과 AI 초안 합침 "
     }
    ]
   },
@@ -147,12 +147,12 @@
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-23",
+   "last_day": "2026-11-24",
    "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-23T21:51",
+     "ts": "2026-11-24T00:31",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -2023,10 +2023,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T00:22",
+   "ts": "2026-11-24T00:35",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-24T00:35",
+   "tool": "git",
+   "title": "fix(T's View): 시험지 문제를 기출 번호순으로(1,2,3…·같은 번호는 최근 시험 먼저·짝 안 쌍둥이 먼저) — 매쓰플랫 글자순(10",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-24T00:31",
+   "tool": "claude",
+   "title": "토스증권 AI 자동 매매 봇 시작점",
+   "project": "toss-stock-bot"
   },
   {
    "ts": "2026-11-23T23:26",
@@ -2051,12 +2063,6 @@
    "tool": "git",
    "title": "fix(학부모 그래프): 감사 — 학부모 쪽 데이터에서 보정 전 값·비율 빼기 · 그날 전국 값 없는 학습지가 섞이면 전국 점 안 찍음",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T21:51",
-   "tool": "claude",
-   "title": "토스증권 AI 자동 매매 봇 시작점",
-   "project": "toss-stock-bot"
   },
   {
    "ts": "2026-11-23T21:48",
@@ -2131,12 +2137,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-23T15:46",
-   "tool": "git",
-   "title": "feat(보강 결과 카드): 아이별 시험대비 누적 보고서 링크 — 11-22 남은 일 2",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-23T15:29",
    "tool": "claude",
    "title": "cgv봇 예매 취소 및 정지",
@@ -2180,7 +2180,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T00:22",
+ "data_at": "2026-11-24T00:35",
  "active_projects": [
   "ai-academy",
   "toss-stock-bot"
