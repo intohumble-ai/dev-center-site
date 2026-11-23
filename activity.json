@@ -152,7 +152,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T05:29",
+     "ts": "2026-11-24T06:33",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -1491,10 +1491,40 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-10",
+   "last_day": "2026-11-24",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-24T06:31",
+     "tool": "git",
+     "title": "merge: 11/24 A — ○○이 사장 인출(OWNER_WITHDRAWAL) 반영 벤치·손익추이·분석"
+    },
+    {
+     "ts": "2026-11-24T02:13",
+     "tool": "git",
+     "title": "fix(toss): dq 라벨 '배정·출금일 스냅샷 없음'(봇 perf_v2 와 동일)"
+    },
+    {
+     "ts": "2026-11-24T01:45",
+     "tool": "git",
+     "title": "fix(watchdog): 콜드감사 m-3 — bot='*' 경보가 정상일 때 자기 kind 해소"
+    },
+    {
+     "ts": "2026-11-24T01:29",
+     "tool": "git",
+     "title": "test(toss): 복사본 실데이터로 상세 페이지 렌더 1회(env 게이트 FIX1124_LIVE_DIR)"
+    },
+    {
+     "ts": "2026-11-24T01:25",
+     "tool": "git",
+     "title": "fix(watchdog,weekly): 11/24 T3 — 로그인 해소가 지갑 경보를 닫던 버그·펜타곤 실패 인텐트 일 1회 요약·상관행렬 어댑"
+    },
+    {
+     "ts": "2026-11-24T01:15",
+     "tool": "git",
+     "title": "fix(toss): 사용자 출금을 외부 현금흐름으로·시각 매핑·성과지수 낙폭 (T1 P1-2·P2-1·P2-2)"
+    },
     {
      "ts": "2026-11-10T21:25",
      "tool": "git",
@@ -1524,36 +1554,6 @@
      "ts": "2026-09-30T22:04",
      "tool": "git",
      "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
-    },
-    {
-     "ts": "2026-09-28T21:11",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
-    },
-    {
-     "ts": "2026-09-28T20:09",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
-    },
-    {
-     "ts": "2026-09-27T22:54",
-     "tool": "git",
-     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
-    },
-    {
-     "ts": "2026-09-26T11:30",
-     "tool": "git",
-     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-26T10:58",
-     "tool": "git",
-     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-25T20:46",
-     "tool": "git",
-     "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
     }
    ]
   },
@@ -1562,10 +1562,25 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-24",
+   "last_day": "2026-11-24",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-24T02:09",
+     "tool": "git",
+     "title": "test(isolation): dir_fd 상대경로를 그 폴더 기준으로 해석 — 재사용 basetemp 정리 시 '.env' 오탐 수리"
+    },
+    {
+     "ts": "2026-11-24T01:41",
+     "tool": "git",
+     "title": "fix(pentagon): 콜드감사 FAIL 재수리 — 흡수 매도 안전장치·거짓 안내 제거·야간 경보 히스테리시스·tp1 절대오차"
+    },
+    {
+     "ts": "2026-11-24T01:25",
+     "tool": "git",
+     "title": "fix(pentagon): 11/24 T3 감사 수리 — tp1 6자리·매도수량 공통 정규화·422 remain 분리·소프트월 남의 몫·심야 차"
+    },
     {
      "ts": "2026-09-24T16:11",
      "tool": "git",
@@ -1610,21 +1625,6 @@
      "ts": "2026-09-24T14:45",
      "tool": "git",
      "title": "fix(drift): SPRINT0 B1 — 대사 판정 상태 5종 + ▮▮변화 감지 증명"
-    },
-    {
-     "ts": "2026-09-24T14:43",
-     "tool": "git",
-     "title": "fix(order,isolation): SPRINT0 A2 접수 오류 5분류 + §2 운영파일 '접근 0'(읽기 포함)"
-    },
-    {
-     "ts": "2026-09-24T14:36",
-     "tool": "git",
-     "title": "fix(tp1): SPRINT0 A1 — tp1 고정 목표 대비 누적 체결, 확정 기록 원자화, 기동복구 사유 보존"
-    },
-    {
-     "ts": "2026-09-24T14:30",
-     "tool": "git",
-     "title": "test(isolation): SPRINT0 §2 — HOME·로그·DB·토큰캐시·fleet-data 격리 + 자식 프로세스 차단막"
     }
    ]
   },
@@ -2023,10 +2023,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T05:29",
+   "ts": "2026-11-24T06:33",
    "tool": "claude",
    "title": "토스증권 AI 자동 매매 봇 시작점",
    "project": "toss-stock-bot"
+  },
+  {
+   "ts": "2026-11-24T06:31",
+   "tool": "git",
+   "title": "merge: 11/24 A — ○○이 사장 인출(OWNER_WITHDRAWAL) 반영 벤치·손익추이·분석",
+   "project": "palantir-center"
   },
   {
    "ts": "2026-11-24T03:50",
@@ -2039,6 +2045,54 @@
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-24T02:13",
+   "tool": "git",
+   "title": "fix(toss): dq 라벨 '배정·출금일 스냅샷 없음'(봇 perf_v2 와 동일)",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-24T02:09",
+   "tool": "git",
+   "title": "test(isolation): dir_fd 상대경로를 그 폴더 기준으로 해석 — 재사용 basetemp 정리 시 '.env' 오탐 수리",
+   "project": "pentagon-bot"
+  },
+  {
+   "ts": "2026-11-24T01:45",
+   "tool": "git",
+   "title": "fix(watchdog): 콜드감사 m-3 — bot='*' 경보가 정상일 때 자기 kind 해소",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-24T01:41",
+   "tool": "git",
+   "title": "fix(pentagon): 콜드감사 FAIL 재수리 — 흡수 매도 안전장치·거짓 안내 제거·야간 경보 히스테리시스·tp1 절대오차",
+   "project": "pentagon-bot"
+  },
+  {
+   "ts": "2026-11-24T01:29",
+   "tool": "git",
+   "title": "test(toss): 복사본 실데이터로 상세 페이지 렌더 1회(env 게이트 FIX1124_LIVE_DIR)",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-24T01:25",
+   "tool": "git",
+   "title": "fix(watchdog,weekly): 11/24 T3 — 로그인 해소가 지갑 경보를 닫던 버그·펜타곤 실패 인텐트 일 1회 요약·상관행렬 어댑",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-24T01:25",
+   "tool": "git",
+   "title": "fix(pentagon): 11/24 T3 감사 수리 — tp1 6자리·매도수량 공통 정규화·422 remain 분리·소프트월 남의 몫·심야 차",
+   "project": "pentagon-bot"
+  },
+  {
+   "ts": "2026-11-24T01:15",
+   "tool": "git",
+   "title": "fix(toss): 사용자 출금을 외부 현금흐름으로·시각 매핑·성과지수 낙폭 (T1 P1-2·P2-1·P2-2)",
+   "project": "palantir-center"
   },
   {
    "ts": "2026-11-24T00:35",
@@ -2123,58 +2177,9 @@
    "tool": "git",
    "title": "fix(숙제 자료 의도): 감사 P3-1 — 확정된 항목의 [초안으로 저장]에 '(확정 풀림)' 표시",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T16:21",
-   "tool": "git",
-   "title": "feat(숙제 자료 의도): 자료 7종 의도·목적·효과·짚을 점·낮은 점수 해석 — AI 초안→원장 확정분만 피드백(보강 후·빠른 피드백)에 반",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T16:09",
-   "tool": "git",
-   "title": "fix(자료 뽑기): 미리보기 잠긴 이유가 앞선 안내에 가려지지 않게 늘 ⚠ 줄로 표시 — 원장 '왜 미리보기 안 눌려?'",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T15:29",
-   "tool": "claude",
-   "title": "cgv봇 예매 취소 및 정지",
-   "project": "cgv-bot"
-  },
-  {
-   "ts": "2026-11-23T15:29",
-   "tool": "claude",
-   "title": "mathflat 학교 묶음 찾기",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-22T15:11",
-   "tool": "claude",
-   "title": "AI학원 lesson-intake 격주 수업 메모",
-   "count": 2,
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T04:02",
-   "tool": "claude",
-   "title": "AI학원 프로그램 연동 개선",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T03:28",
-   "tool": "claude",
-   "title": "AI학원 프로그램 카톡 단체 공지 기능",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T03:14",
-   "tool": "git",
-   "title": "fix(전체 카톡): '메시지 입력'으로 시작하는 글도 거절(서버+도우미) — 넣다 만 글이 빈칸으로 보이는 틈 차단(감사 PASS)",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T06:11",
+ "data_at": "2026-11-24T06:33",
  "active_projects": [
   "toss-stock-bot"
  ]

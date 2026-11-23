@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-24T06:11",
+ "data_at": "2026-11-24T06:33",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -238,7 +238,7 @@
   "palantir-center": {
    "id": "palantir-center",
    "service": "active",
-   "last_commit": "2026-11-10",
+   "last_commit": "2026-11-24",
    "light": "green",
    "state_age": "1시간 이내"
   },
@@ -246,7 +246,7 @@
    "id": "pentagon-bot",
    "service": "active",
    "log_error": false,
-   "last_commit": "2026-09-24",
+   "last_commit": "2026-11-24",
    "light": "green",
    "db_tables": 16,
    "log_age": "1시간 이내"
