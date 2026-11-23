@@ -152,7 +152,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T04:29",
+     "ts": "2026-11-24T05:29",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -2023,7 +2023,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T04:29",
+   "ts": "2026-11-24T05:29",
    "tool": "claude",
    "title": "토스증권 AI 자동 매매 봇 시작점",
    "project": "toss-stock-bot"
@@ -2174,7 +2174,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T05:16",
+ "data_at": "2026-11-24T05:29",
  "active_projects": [
   "toss-stock-bot"
  ]
