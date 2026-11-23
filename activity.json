@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T00:46",
+     "ts": "2026-11-24T01:13",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -152,7 +152,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T01:05",
+     "ts": "2026-11-24T01:15",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2023,13 +2023,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T01:05",
+   "ts": "2026-11-24T01:15",
    "tool": "claude",
    "title": "토스증권 AI 자동 매매 봇 시작점",
    "project": "toss-stock-bot"
   },
   {
-   "ts": "2026-11-24T00:46",
+   "ts": "2026-11-24T01:13",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
@@ -2180,9 +2180,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T01:05",
+ "data_at": "2026-11-24T01:15",
  "active_projects": [
-  "cnc-scoreboard-cf",
+  "ai-academy",
   "toss-stock-bot"
  ]
 }
