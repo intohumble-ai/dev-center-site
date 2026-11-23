@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T18:03",
+     "ts": "2026-11-23T20:54",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -2023,6 +2023,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-23T20:54",
+   "tool": "claude",
+   "title": "AI학원 작업 이어하기",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-23T20:41",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
@@ -2033,12 +2039,6 @@
    "tool": "git",
    "title": "원장님 주간 보고서 새 틀 v2 확정(11월 3주차부터): 1분 요약·결정 카드·지난주 숙제 추적표·신호등 기준",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-23T18:03",
-   "tool": "claude",
-   "title": "AI학원 작업 이어하기",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-23T17:00",
@@ -2174,7 +2174,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T20:43",
+ "data_at": "2026-11-23T20:54",
  "active_projects": [
   "ai-academy",
   "cnc-scoreboard-cf"
