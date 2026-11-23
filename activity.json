@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T16:28",
+     "ts": "2026-11-23T16:36",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2018,7 +2018,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T16:28",
+   "ts": "2026-11-23T16:36",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
@@ -2187,9 +2187,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T16:28",
+ "data_at": "2026-11-23T16:39",
  "active_projects": [
-  "ai-academy",
-  "cnc-scoreboard-cf"
+  "ai-academy"
  ]
 }
