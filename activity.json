@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T20:54",
+     "ts": "2026-11-23T21:03",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -2023,7 +2023,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T20:54",
+   "ts": "2026-11-23T21:03",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
@@ -2174,7 +2174,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T20:54",
+ "data_at": "2026-11-23T21:03",
  "active_projects": [
   "ai-academy",
   "cnc-scoreboard-cf"
