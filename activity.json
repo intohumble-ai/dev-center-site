@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T21:56",
+     "ts": "2026-11-23T22:03",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
+    },
+    {
+     "ts": "2026-11-23T22:03",
+     "tool": "git",
+     "title": "fix(H형 보고서): 실전모의고사 표 빼기 (11-23 원장)"
     },
     {
      "ts": "2026-11-23T21:54",
@@ -63,11 +68,6 @@
      "ts": "2026-11-23T16:21",
      "tool": "git",
      "title": "feat(숙제 자료 의도): 자료 7종 의도·목적·효과·짚을 점·낮은 점수 해석 — AI 초안→원장 확정분만 피드백(보강 후·빠른 피드백)에 반"
-    },
-    {
-     "ts": "2026-11-23T16:09",
-     "tool": "git",
-     "title": "fix(자료 뽑기): 미리보기 잠긴 이유가 앞선 안내에 가려지지 않게 늘 ⚠ 줄로 표시 — 원장 '왜 미리보기 안 눌려?'"
     }
    ]
   },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2023,9 +2023,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T21:56",
+   "ts": "2026-11-23T22:03",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-23T22:03",
+   "tool": "git",
+   "title": "fix(H형 보고서): 실전모의고사 표 빼기 (11-23 원장)",
    "project": "ai-academy"
   },
   {
@@ -2143,12 +2149,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-22T20:55",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-22T15:11",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
@@ -2174,9 +2174,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T21:56",
+ "data_at": "2026-11-23T22:06",
  "active_projects": [
   "ai-academy",
-  "toss-stock-bot"
+  "cnc-scoreboard-cf"
  ]
 }
