@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T21:35",
+     "ts": "2026-11-23T21:42",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
+    },
+    {
+     "ts": "2026-11-23T21:37",
+     "tool": "git",
+     "title": "fix(매쓰플랫 동기화): 최근 과정이 다른 번호의 아는 과목(중2 등)이어도 아는 과정 키로 유형분석을 받음 — 라율 진도표 색이 11-22 "
     },
     {
      "ts": "2026-11-23T21:15",
@@ -63,11 +68,6 @@
      "ts": "2026-11-22T23:40",
      "tool": "git",
      "title": "fix(보강 메모): 5차 감사 P3 — NFD 로 들어온 (나만)·이름도 NFC 로 맞춘 뒤 판정"
-    },
-    {
-     "ts": "2026-11-22T23:34",
-     "tool": "git",
-     "title": "fix(보강용 화면): 4차 재감사 — 문단 첫 줄 명단 밖 이름 '누구?', 공통 줄도 전부 확인 목록, 🔒 문단은 빈 줄까지, 엄마·상담 등"
     }
    ]
   },
@@ -142,17 +142,17 @@
     }
    ]
   },
-  "ai-securities": {
+  "toss-stock-bot": {
    "sessions": 1,
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
    "active_now": true,
-   "commits": 16,
+   "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-23T21:35",
+     "ts": "2026-11-23T21:45",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -162,54 +162,54 @@
      "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
     },
     {
-     "ts": "2026-10-10T20:34",
+     "ts": "2026-09-24T16:10",
      "tool": "git",
-     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
+     "title": "test(managed): 재정지·재해제 시 휴식 표식 해제 박제(5차 감사 P3-1)"
     },
     {
-     "ts": "2026-10-10T20:03",
+     "ts": "2026-09-24T16:01",
      "tool": "git",
-     "title": "Merge commit '482dec3' into w3-int2"
+     "title": "test(managed): STARTED 성적표 ERROR 표기 단언 보강"
     },
     {
-     "ts": "2026-10-10T20:03",
+     "ts": "2026-09-24T16:01",
      "tool": "git",
-     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
+     "title": "fix(managed): 4차 재감사 — 시작 후 중단된 사이클은 ERROR, 재기동 뒤 일시정지 해제 인식, 문구·늦은실행 보정"
     },
     {
-     "ts": "2026-10-10T19:18",
+     "ts": "2026-09-24T15:52",
      "tool": "git",
-     "title": "개인 생활 관련 작업"
+     "title": "test(managed): 시도한 날 휴식 판정 금지 이중방어 박제"
     },
     {
-     "ts": "2026-10-10T19:11",
+     "ts": "2026-09-24T15:52",
      "tool": "git",
-     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
+     "title": "fix(managed): 3차 재감사 — '일시정지 휴식' 은 창 끝까지 일시정지였고 오늘 시도가 없을 때만"
     },
     {
-     "ts": "2026-10-10T15:05",
+     "ts": "2026-09-24T15:47",
      "tool": "git",
-     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
+     "title": "fix(managed): 재감사 P2-A — 일시정지 표식은 매매창 시간에만, 늦은 실행 전 성적표 보류, 일시정지일 표기"
     },
     {
-     "ts": "2026-10-10T14:18",
+     "ts": "2026-09-24T15:36",
      "tool": "git",
-     "title": "Merge commit '6fcdfa3' into w2-int"
+     "title": "fix(managed): 콜드감사 반영 — 성적표 전 MISSED 판정·수익률 단일 정의(perf_v2 비교창)·일시정지 오보 제거"
     },
     {
-     "ts": "2026-10-10T14:18",
+     "ts": "2026-09-24T15:22",
      "tool": "git",
-     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
+     "title": "fix(managed): 전수감사 0924 — A5 누락사이클·M-02 성과정의·M-04 수수료·M-06 vanish·M-08·§2 격리"
     },
     {
-     "ts": "2026-10-10T13:25",
+     "ts": "2026-09-15T19:01",
      "tool": "git",
-     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
+     "title": "feat(bench): ○○이봇 벤치 V2 — 섀도 3중에 배정(ALLOCATION) 미러(워터마크·멱등·소급 없음), perf_v2(원화 TW"
     },
     {
-     "ts": "2026-10-10T13:20",
+     "ts": "2026-09-15T13:17",
      "tool": "git",
-     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
+     "title": "feat(fleet): ○○이봇 싱글턴 런타임 가드 + ext(§1.4) + attestation(§1.5) 발행 — 코어 6봇 계약 완성"
     }
    ]
   },
@@ -573,6 +573,72 @@
      "ts": "2026-09-25T19:25",
      "tool": "codex",
      "title": "GPT 원격 실행 링크 만들기"
+    }
+   ]
+  },
+  "ai-securities": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-10",
+   "active_now": false,
+   "commits": 16,
+   "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
+    {
+     "ts": "2026-10-10T20:34",
+     "tool": "git",
+     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "Merge commit '482dec3' into w3-int2"
+    },
+    {
+     "ts": "2026-10-10T20:03",
+     "tool": "git",
+     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
+    },
+    {
+     "ts": "2026-10-10T19:18",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-10-10T19:11",
+     "tool": "git",
+     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
+    },
+    {
+     "ts": "2026-10-10T15:05",
+     "tool": "git",
+     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "Merge commit '6fcdfa3' into w2-int"
+    },
+    {
+     "ts": "2026-10-10T14:18",
+     "tool": "git",
+     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
+    },
+    {
+     "ts": "2026-10-10T13:25",
+     "tool": "git",
+     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
+    },
+    {
+     "ts": "2026-10-10T13:20",
+     "tool": "git",
+     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
     }
    ]
   },
@@ -1918,77 +1984,6 @@
     }
    ]
   },
-  "toss-stock-bot": {
-   "sessions": 0,
-   "sessions_claude": 0,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-11-10",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-11-10T21:25",
-     "tool": "git",
-     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
-    },
-    {
-     "ts": "2026-09-24T16:10",
-     "tool": "git",
-     "title": "test(managed): 재정지·재해제 시 휴식 표식 해제 박제(5차 감사 P3-1)"
-    },
-    {
-     "ts": "2026-09-24T16:01",
-     "tool": "git",
-     "title": "test(managed): STARTED 성적표 ERROR 표기 단언 보강"
-    },
-    {
-     "ts": "2026-09-24T16:01",
-     "tool": "git",
-     "title": "fix(managed): 4차 재감사 — 시작 후 중단된 사이클은 ERROR, 재기동 뒤 일시정지 해제 인식, 문구·늦은실행 보정"
-    },
-    {
-     "ts": "2026-09-24T15:52",
-     "tool": "git",
-     "title": "test(managed): 시도한 날 휴식 판정 금지 이중방어 박제"
-    },
-    {
-     "ts": "2026-09-24T15:52",
-     "tool": "git",
-     "title": "fix(managed): 3차 재감사 — '일시정지 휴식' 은 창 끝까지 일시정지였고 오늘 시도가 없을 때만"
-    },
-    {
-     "ts": "2026-09-24T15:47",
-     "tool": "git",
-     "title": "fix(managed): 재감사 P2-A — 일시정지 표식은 매매창 시간에만, 늦은 실행 전 성적표 보류, 일시정지일 표기"
-    },
-    {
-     "ts": "2026-09-24T15:36",
-     "tool": "git",
-     "title": "fix(managed): 콜드감사 반영 — 성적표 전 MISSED 판정·수익률 단일 정의(perf_v2 비교창)·일시정지 오보 제거"
-    },
-    {
-     "ts": "2026-09-24T15:22",
-     "tool": "git",
-     "title": "fix(managed): 전수감사 0924 — A5 누락사이클·M-02 성과정의·M-04 수수료·M-06 vanish·M-08·§2 격리"
-    },
-    {
-     "ts": "2026-09-15T19:01",
-     "tool": "git",
-     "title": "feat(bench): ○○이봇 벤치 V2 — 섀도 3중에 배정(ALLOCATION) 미러(워터마크·멱등·소급 없음), perf_v2(원화 TW"
-    },
-    {
-     "ts": "2026-09-15T13:17",
-     "tool": "git",
-     "title": "feat(fleet): ○○이봇 싱글턴 런타임 가드 + ext(§1.4) + attestation(§1.5) 발행 — 코어 6봇 계약 완성"
-    },
-    {
-     "ts": "2026-09-15T11:45",
-     "tool": "git",
-     "title": "feat(managed): 명시적 운용예산 배정 큐 — 사용자 입금이 봇 예산에 닿는 정식 경로(사이드카, capital_events ALLOC"
-    }
-   ]
-  },
   "us_stock_bot_v2": {
    "sessions": 0,
    "sessions_claude": 0,
@@ -2028,16 +2023,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T21:35",
+   "ts": "2026-11-23T21:45",
+   "tool": "claude",
+   "title": "토스증권 AI 자동 매매 봇 시작점",
+   "project": "toss-stock-bot"
+  },
+  {
+   "ts": "2026-11-23T21:42",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-23T21:35",
-   "tool": "claude",
-   "title": "토스증권 AI 자동 매매 봇 시작점",
-   "project": "ai-securities"
+   "ts": "2026-11-23T21:37",
+   "tool": "git",
+   "title": "fix(매쓰플랫 동기화): 최근 과정이 다른 번호의 아는 과목(중2 등)이어도 아는 과정 키로 유형분석을 받음 — 라율 진도표 색이 11-22 ",
+   "project": "ai-academy"
   },
   {
    "ts": "2026-11-23T21:19",
@@ -2148,12 +2149,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-22T20:42",
-   "tool": "git",
-   "title": "fix(전체 카톡 빠른 모드): 재감사 P2 — 붙여넣기 전 입력은 skip_room_touched(우리 글 안 나감, 다시 보내기 가능) · ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-22T15:11",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
@@ -2167,9 +2162,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T21:35",
+ "data_at": "2026-11-23T21:45",
  "active_projects": [
   "ai-academy",
-  "ai-securities"
+  "toss-stock-bot"
  ]
 }
