@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T16:36",
+     "ts": "2026-11-23T16:47",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
+    },
+    {
+     "ts": "2026-11-23T16:31",
+     "tool": "git",
+     "title": "feat(숙제 자료 의도): 원장 초안(취약 10적·Pathfinder·FRONTIER Ⅱ·별의 순간·T's View 목적)과 AI 초안 합침 "
     },
     {
      "ts": "2026-11-23T16:21",
@@ -63,11 +68,6 @@
      "ts": "2026-11-22T20:43",
      "tool": "git",
      "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-22T20:43",
-     "tool": "git",
-     "title": "feat(보강용 화면): 메모 칸 하나 — 자유롭게 쓰면 아이 이름으로 자동 배분(AI 없이)"
     }
    ]
   },
@@ -2018,9 +2018,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T16:36",
+   "ts": "2026-11-23T16:47",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-23T16:31",
+   "tool": "git",
+   "title": "feat(숙제 자료 의도): 원장 초안(취약 10적·Pathfinder·FRONTIER Ⅱ·별의 순간·T's View 목적)과 AI 초안 합침 ",
    "project": "ai-academy"
   },
   {
@@ -2126,12 +2132,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-22T20:10",
-   "tool": "git",
-   "title": "fix(보강 메모 나누기): 감사 — 외자 이름 키는 줄 맨 앞(들여쓰기 없음)·요일 글자 제외일 때만",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-22T15:11",
    "tool": "claude",
    "title": "AI학원 lesson-intake 격주 수업 메모",
@@ -2179,15 +2179,9 @@
    "tool": "git",
    "title": "fix(3차 감사 11-19 여러 답 — 단순 규칙): 부호·범위 제한 문제에서 ± 짝이거나 음수 항목이 섞인 여러 답이면 신호 무관 검토 · ",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T23:28",
-   "tool": "git",
-   "title": "fix(감사 P2 11-19): '(추정)' 지우기는 단원 이름 모양 뒤에서만(등급·원인·정답률 추정은 유지) · lookbehind 제거(iO",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T16:39",
+ "data_at": "2026-11-23T16:50",
  "active_projects": [
   "ai-academy"
  ]
