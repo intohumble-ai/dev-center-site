@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 60,
    "timeline": [
     {
@@ -152,7 +152,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T01:48",
+     "ts": "2026-11-24T01:54",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2023,7 +2023,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T01:48",
+   "ts": "2026-11-24T01:54",
    "tool": "claude",
    "title": "토스증권 AI 자동 매매 봇 시작점",
    "project": "toss-stock-bot"
@@ -2180,9 +2180,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T01:48",
+ "data_at": "2026-11-24T01:54",
  "active_projects": [
-  "ai-academy",
+  "cnc-scoreboard-cf",
   "toss-stock-bot"
  ]
 }
