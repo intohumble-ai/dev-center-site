@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T21:15",
+     "ts": "2026-11-23T21:19",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -142,6 +142,77 @@
     }
    ]
   },
+  "palantir-center": {
+   "sessions": 1,
+   "sessions_claude": 1,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-23",
+   "active_now": true,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-11-23T21:24",
+     "tool": "claude",
+     "title": "토스증권 AI 자동 매매 봇 시작점"
+    },
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
+    {
+     "ts": "2026-10-02T13:53",
+     "tool": "git",
+     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
+    },
+    {
+     "ts": "2026-10-02T13:46",
+     "tool": "git",
+     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
+    },
+    {
+     "ts": "2026-10-02T13:37",
+     "tool": "git",
+     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
+    },
+    {
+     "ts": "2026-10-02T13:27",
+     "tool": "git",
+     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
+    },
+    {
+     "ts": "2026-09-30T22:04",
+     "tool": "git",
+     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
+    },
+    {
+     "ts": "2026-09-28T21:11",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
+    },
+    {
+     "ts": "2026-09-28T20:09",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
+    },
+    {
+     "ts": "2026-09-27T22:54",
+     "tool": "git",
+     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
+    },
+    {
+     "ts": "2026-09-26T11:30",
+     "tool": "git",
+     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-26T10:58",
+     "tool": "git",
+     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
+    }
+   ]
+  },
   "cnc-scoreboard-cf": {
    "sessions": 1,
    "sessions_claude": 1,
@@ -152,7 +223,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-23T21:11",
+     "ts": "2026-11-23T21:19",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
     },
@@ -1415,77 +1486,6 @@
     }
    ]
   },
-  "palantir-center": {
-   "sessions": 0,
-   "sessions_claude": 0,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-11-10",
-   "active_now": false,
-   "commits": 15,
-   "timeline": [
-    {
-     "ts": "2026-11-10T21:25",
-     "tool": "git",
-     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
-    },
-    {
-     "ts": "2026-10-02T13:53",
-     "tool": "git",
-     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
-    },
-    {
-     "ts": "2026-10-02T13:46",
-     "tool": "git",
-     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
-    },
-    {
-     "ts": "2026-10-02T13:37",
-     "tool": "git",
-     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
-    },
-    {
-     "ts": "2026-10-02T13:27",
-     "tool": "git",
-     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
-    },
-    {
-     "ts": "2026-09-30T22:04",
-     "tool": "git",
-     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
-    },
-    {
-     "ts": "2026-09-28T21:11",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
-    },
-    {
-     "ts": "2026-09-28T20:09",
-     "tool": "git",
-     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
-    },
-    {
-     "ts": "2026-09-27T22:54",
-     "tool": "git",
-     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
-    },
-    {
-     "ts": "2026-09-26T11:30",
-     "tool": "git",
-     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-26T10:58",
-     "tool": "git",
-     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
-    },
-    {
-     "ts": "2026-09-25T20:46",
-     "tool": "git",
-     "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
-    }
-   ]
-  },
   "pentagon-bot": {
    "sessions": 0,
    "sessions_claude": 0,
@@ -2023,22 +2023,28 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T21:15",
+   "ts": "2026-11-23T21:24",
+   "tool": "claude",
+   "title": "토스증권 AI 자동 매매 봇 시작점",
+   "project": "palantir-center"
+  },
+  {
+   "ts": "2026-11-23T21:19",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-23T21:19",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
+   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-23T21:15",
    "tool": "git",
    "title": "fix(수업 메모 정리): 상대 날짜(이번 주 일요일 등)는 수업일 달력으로 확실할 때만 채우고 그 날짜만 묻는 질문 지움 · 숙제 O 명단 +",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T21:11",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
-   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-23T20:41",
@@ -2154,29 +2160,12 @@
    "tool": "claude",
    "title": "AI학원 프로그램 연동 개선",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T03:28",
-   "tool": "claude",
-   "title": "AI학원 프로그램 카톡 단체 공지 기능",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T03:14",
-   "tool": "git",
-   "title": "fix(전체 카톡): '메시지 입력'으로 시작하는 글도 거절(서버+도우미) — 넣다 만 글이 빈칸으로 보이는 틈 차단(감사 PASS)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-20T00:49",
-   "tool": "git",
-   "title": "fix(전체 카톡): 안 보낼 때 우리가 넣은 앞부분만 골라 지움 — 짧은 글도 지워지고 원장이 친 글은 남김, 못 지우면 ⚠️ 알리고 방 열어",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T21:15",
+ "data_at": "2026-11-23T21:25",
  "active_projects": [
   "ai-academy",
-  "cnc-scoreboard-cf"
+  "cnc-scoreboard-cf",
+  "palantir-center"
  ]
 }
