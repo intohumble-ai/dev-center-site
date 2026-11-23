@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2181,7 +2181,5 @@
   }
  ],
  "data_at": "2026-11-24T02:39",
- "active_projects": [
-  "cnc-scoreboard-cf"
- ]
+ "active_projects": []
 }
