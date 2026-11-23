@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-24T01:26",
+ "data_at": "2026-11-24T01:37",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -245,7 +245,7 @@
   "pentagon-bot": {
    "id": "pentagon-bot",
    "service": "active",
-   "log_error": true,
+   "log_error": false,
    "last_commit": "2026-09-24",
    "light": "green",
    "db_tables": 16,
