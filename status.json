@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-24T04:32",
+ "data_at": "2026-11-24T04:45",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -170,7 +170,7 @@
    "log_error": null,
    "last_commit": "2026-11-22",
    "light": "unknown",
-   "log_age": "1일 전"
+   "log_age": "2일 전"
   },
   "fusion-v9-coinbot": {
    "id": "fusion-v9-coinbot",
