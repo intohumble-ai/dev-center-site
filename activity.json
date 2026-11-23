@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T21:19",
+     "ts": "2026-11-23T21:35",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -142,17 +142,17 @@
     }
    ]
   },
-  "palantir-center": {
+  "ai-securities": {
    "sessions": 1,
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
    "active_now": true,
-   "commits": 15,
+   "commits": 16,
    "timeline": [
     {
-     "ts": "2026-11-23T21:24",
+     "ts": "2026-11-23T21:35",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -162,54 +162,54 @@
      "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
     },
     {
-     "ts": "2026-10-02T13:53",
+     "ts": "2026-10-10T20:34",
      "tool": "git",
-     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
+     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
     },
     {
-     "ts": "2026-10-02T13:46",
+     "ts": "2026-10-10T20:03",
      "tool": "git",
-     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
+     "title": "Merge commit '482dec3' into w3-int2"
     },
     {
-     "ts": "2026-10-02T13:37",
+     "ts": "2026-10-10T20:03",
      "tool": "git",
-     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
+     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
     },
     {
-     "ts": "2026-10-02T13:27",
+     "ts": "2026-10-10T19:18",
      "tool": "git",
-     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
+     "title": "개인 생활 관련 작업"
     },
     {
-     "ts": "2026-09-30T22:04",
+     "ts": "2026-10-10T19:11",
      "tool": "git",
-     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
+     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
     },
     {
-     "ts": "2026-09-28T21:11",
+     "ts": "2026-10-10T15:05",
      "tool": "git",
-     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
+     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
     },
     {
-     "ts": "2026-09-28T20:09",
+     "ts": "2026-10-10T14:18",
      "tool": "git",
-     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
+     "title": "Merge commit '6fcdfa3' into w2-int"
     },
     {
-     "ts": "2026-09-27T22:54",
+     "ts": "2026-10-10T14:18",
      "tool": "git",
-     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
+     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
     },
     {
-     "ts": "2026-09-26T11:30",
+     "ts": "2026-10-10T13:25",
      "tool": "git",
-     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
+     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
     },
     {
-     "ts": "2026-09-26T10:58",
+     "ts": "2026-10-10T13:20",
      "tool": "git",
-     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
+     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
     }
    ]
   },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -573,72 +573,6 @@
      "ts": "2026-09-25T19:25",
      "tool": "codex",
      "title": "GPT 원격 실행 링크 만들기"
-    }
-   ]
-  },
-  "ai-securities": {
-   "sessions": 0,
-   "sessions_claude": 0,
-   "sessions_codex": 0,
-   "automated": 0,
-   "last_day": "2026-11-10",
-   "active_now": false,
-   "commits": 16,
-   "timeline": [
-    {
-     "ts": "2026-11-10T21:25",
-     "tool": "git",
-     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
-    },
-    {
-     "ts": "2026-10-10T20:34",
-     "tool": "git",
-     "title": "W3 D24 결재 묶음 재감사 수리(PASS): 고정 5종·setting·league 즉시 카드, deciding 경합 복구(closed 판정·"
-    },
-    {
-     "ts": "2026-10-10T20:03",
-     "tool": "git",
-     "title": "Merge commit '482dec3' into w3-int2"
-    },
-    {
-     "ts": "2026-10-10T20:03",
-     "tool": "git",
-     "title": "W3 화면·월드: 층 탭·각주 접기·글자 13px·신호 모양·회의실 접기·빈 방 마지막 활동·책상 뱃지·접근성 44px·펼친 층 다크 토큰(묶음"
-    },
-    {
-     "ts": "2026-10-10T19:18",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-10-10T19:11",
-     "tool": "git",
-     "title": "W3 투자·학습: 경보→축소 초안(Q6) + 드로다운 사다리·변동성 목표 섀도 북 + 사후 발언 탐지 + 섀도 승자 공급 준비 + 관심 풀 시세"
-    },
-    {
-     "ts": "2026-10-10T15:05",
-     "tool": "git",
-     "title": "W2 결재: 요청 칸 맥락 합치기(AISEC_ASK_CONTEXT) 수리 — 콜드 4차 재감사 PASS(대표 불만 '결재 내용 불명' 대응)"
-    },
-    {
-     "ts": "2026-10-10T14:18",
-     "tool": "git",
-     "title": "Merge commit '6fcdfa3' into w2-int"
-    },
-    {
-     "ts": "2026-10-10T14:18",
-     "tool": "git",
-     "title": "W2 결재·화면: 결재 주제 스레드(topic_id) + 숨김 좁히기(topic_id 정확 일치 + 잔여 0) + 자유문 판정 린트 + RACI"
-    },
-    {
-     "ts": "2026-10-10T13:25",
-     "tool": "git",
-     "title": "W2 시장·체결: 2층 분할 집행 + 급락일 신규 보류 + 호가 실측·반스프레드 체결 모델(A3-06·A3-04) — 콜드 재감사 조건부 PAS"
-    },
-    {
-     "ts": "2026-10-10T13:20",
-     "tool": "git",
-     "title": "W2 실돈 배선: 실/모의 장부 구조 분리 + 실잔고 대조 + live_gates + 주문 유닛 뼈대(10-09 대표 Q1·Q2) — 콜드 재감"
     }
    ]
   },
@@ -1486,6 +1420,77 @@
     }
    ]
   },
+  "palantir-center": {
+   "sessions": 0,
+   "sessions_claude": 0,
+   "sessions_codex": 0,
+   "automated": 0,
+   "last_day": "2026-11-10",
+   "active_now": false,
+   "commits": 15,
+   "timeline": [
+    {
+     "ts": "2026-11-10T21:25",
+     "tool": "git",
+     "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
+    },
+    {
+     "ts": "2026-10-02T13:53",
+     "tool": "git",
+     "title": "feat(cgv): 판매중(호가) 배지·판매완료/되돌리기 버튼(/cgv/sold, /cgv/unsold)"
+    },
+    {
+     "ts": "2026-10-02T13:46",
+     "tool": "git",
+     "title": "watchdog: 오경보 표시는 공백 1세션일 때만(진짜 장애 뒤 보류는 중립 RESOLVED)·held_long 문구 사실만·알려진 한계 주석"
+    },
+    {
+     "ts": "2026-10-02T13:37",
+     "tool": "git",
+     "title": "watchdog 감사 수리: 보류 증거는 봇 DB shortfall 세션만·스냅샷은 평가 완료 증거로만(BROKER_CLOSED 제외·bot_i"
+    },
+    {
+     "ts": "2026-10-02T13:27",
+     "tool": "git",
+     "title": "watchdog: cycle_stale 전에 '평가 완료(last_evaluated_at)+잔액 부족 보류' 증거 확인 → 매수 보류 중(정보성"
+    },
+    {
+     "ts": "2026-09-30T22:04",
+     "tool": "git",
+     "title": "feat(cgv): 무대인사 표 배지·규정 마감(전날 23:59) 불일치 경고"
+    },
+    {
+     "ts": "2026-09-28T21:11",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 관 패널 — 고정/자동(알파)/제외 상태 배지·버튼, 자동으로 되돌리기(키 삭제), 손상 파일 경고"
+    },
+    {
+     "ts": "2026-09-28T20:09",
+     "tool": "git",
+     "title": "feat(center): CGV 인기작 감시할 관(보통관) 켜기/끄기 패널 신설"
+    },
+    {
+     "ts": "2026-09-27T22:54",
+     "tool": "git",
+     "title": "fix(center): CGV 한도 저장이 선물 1인/2인 상한을 지우던 문제 — 병합 쓰기·편집 칸·무제한 표시·금액 step 수리"
+    },
+    {
+     "ts": "2026-09-26T11:30",
+     "tool": "git",
+     "title": "fix(○○): 콜드감사 반영 + 입금 버튼 뷰어 허용(2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-26T10:58",
+     "tool": "git",
+     "title": "feat(○○): 청구액 = 봇 현금(배정 − 매수), 입금 버튼 실배정·소유자 전용 (2026-09-26 사용자 결정)"
+    },
+    {
+     "ts": "2026-09-25T20:46",
+     "tool": "git",
+     "title": "최종 전체감사(FAIL: P2 2·P3 6) 수리"
+    }
+   ]
+  },
   "pentagon-bot": {
    "sessions": 0,
    "sessions_claude": 0,
@@ -2023,16 +2028,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T21:24",
-   "tool": "claude",
-   "title": "토스증권 AI 자동 매매 봇 시작점",
-   "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-23T21:19",
+   "ts": "2026-11-23T21:35",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-23T21:35",
+   "tool": "claude",
+   "title": "토스증권 AI 자동 매매 봇 시작점",
+   "project": "ai-securities"
   },
   {
    "ts": "2026-11-23T21:19",
@@ -2162,10 +2167,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T21:25",
+ "data_at": "2026-11-23T21:35",
  "active_projects": [
   "ai-academy",
-  "cnc-scoreboard-cf",
-  "palantir-center"
+  "ai-securities"
  ]
 }
