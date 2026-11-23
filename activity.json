@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
@@ -148,13 +148,18 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-23T16:16",
+     "ts": "2026-11-23T20:41",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
+    },
+    {
+     "ts": "2026-11-23T20:41",
+     "tool": "git",
+     "title": "원장님 주간 보고서 새 틀 v2 확정(11월 3주차부터): 1분 요약·결정 카드·지난주 숙제 추적표·신호등 기준"
     },
     {
      "ts": "2026-11-10T21:31",
@@ -2018,6 +2023,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-23T20:41",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-23T20:41",
+   "tool": "git",
+   "title": "원장님 주간 보고서 새 틀 v2 확정(11월 3주차부터): 1분 요약·결정 카드·지난주 숙제 추적표·신호등 기준",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
    "ts": "2026-11-23T18:03",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2052,12 +2069,6 @@
    "tool": "git",
    "title": "feat(숙제 자료 의도): 자료 7종 의도·목적·효과·짚을 점·낮은 점수 해석 — AI 초안→원장 확정분만 피드백(보강 후·빠른 피드백)에 반",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T16:16",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
-   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-23T16:09",
@@ -2161,14 +2172,11 @@
    "tool": "git",
    "title": "fix(전체 카톡): 안 보낼 때 우리가 넣은 앞부분만 골라 지움 — 짧은 글도 지워지고 원장이 친 글은 남김, 못 지우면 ⚠️ 알리고 방 열어",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T23:37",
-   "tool": "git",
-   "title": "merge: 11-19 수학메이트 '여러 답' 안전장치(감사 4차 PASS) · Codex 느린 응답 재시도(PASS) · H 보고서 '(단원 ",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T20:00",
- "active_projects": []
+ "data_at": "2026-11-23T20:43",
+ "active_projects": [
+  "ai-academy",
+  "cnc-scoreboard-cf"
+ ]
 }
