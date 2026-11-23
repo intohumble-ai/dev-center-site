@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-23T16:47",
+     "ts": "2026-11-23T17:00",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-23",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2018,7 +2018,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23T16:47",
+   "ts": "2026-11-23T17:00",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
@@ -2173,16 +2173,11 @@
    "tool": "git",
    "title": "fix(4차 감사 후속 11-19 여러 답): 괄호 음수·와/과/및/이고 뒤 음수·음수/마이너스 낱말 · '0보다 커야/작아야' · 대문자 부등",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-19T23:31",
-   "tool": "git",
-   "title": "fix(3차 감사 11-19 여러 답 — 단순 규칙): 부호·범위 제한 문제에서 ± 짝이거나 음수 항목이 섞인 여러 답이면 신호 무관 검토 · ",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-23T16:50",
+ "data_at": "2026-11-23T17:00",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cnc-scoreboard-cf"
  ]
 }
