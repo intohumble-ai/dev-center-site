@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T00:35",
+     "ts": "2026-11-24T00:39",
      "tool": "claude",
      "title": "AI학원 작업 이어하기"
     },
@@ -152,7 +152,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T00:31",
+     "ts": "2026-11-24T00:41",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -2023,7 +2023,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T00:35",
+   "ts": "2026-11-24T00:41",
+   "tool": "claude",
+   "title": "토스증권 AI 자동 매매 봇 시작점",
+   "project": "toss-stock-bot"
+  },
+  {
+   "ts": "2026-11-24T00:39",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
    "project": "ai-academy"
@@ -2033,12 +2039,6 @@
    "tool": "git",
    "title": "fix(T's View): 시험지 문제를 기출 번호순으로(1,2,3…·같은 번호는 최근 시험 먼저·짝 안 쌍둥이 먼저) — 매쓰플랫 글자순(10",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-24T00:31",
-   "tool": "claude",
-   "title": "토스증권 AI 자동 매매 봇 시작점",
-   "project": "toss-stock-bot"
   },
   {
    "ts": "2026-11-23T23:26",
@@ -2180,7 +2180,7 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T00:35",
+ "data_at": "2026-11-24T00:44",
  "active_projects": [
   "ai-academy",
   "toss-stock-bot"
