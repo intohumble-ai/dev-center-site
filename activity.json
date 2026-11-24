@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 26,
-   "sessions_claude": 26,
+   "sessions": 27,
+   "sessions_claude": 27,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
    "active_now": true,
    "commits": 60,
    "timeline": [
+    {
+     "ts": "2026-11-24T15:13",
+     "tool": "claude",
+     "title": "AI학원 피드백·등원 메시지 자동화"
+    },
     {
      "ts": "2026-11-24T15:01",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-23T21:15",
      "tool": "git",
      "title": "fix(수업 메모 정리): 상대 날짜(이번 주 일요일 등)는 수업일 달력으로 확실할 때만 채우고 그 날짜만 묻는 질문 지움 · 숙제 O 명단 +"
-    },
-    {
-     "ts": "2026-11-23T17:00",
-     "tool": "git",
-     "title": "fix(T's View): 감사 수리 — 번호 우선 기출 순서·[채우기] 유형별 최대 지킴·채운 뒤 요약 다시 세기·낡은 안내 제거·쪼갤 짝은 "
     }
    ]
   },
@@ -223,7 +223,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T03:50",
+     "ts": "2026-11-24T15:13",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
     },
@@ -2023,6 +2023,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-24T15:13",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-24T15:13",
+   "tool": "claude",
+   "title": "AI학원 피드백·등원 메시지 자동화",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-24T15:01",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2045,12 +2057,6 @@
    "tool": "git",
    "title": "merge: 11/24 A — ○○이 사장 인출(OWNER_WITHDRAWAL) 반영 벤치·손익추이·분석",
    "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-24T03:50",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
-   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-24T02:13",
@@ -2171,15 +2177,9 @@
    "tool": "git",
    "title": "feat(T's View): 난이도 1~5단계 % 비중 · 목표 문제 수(기출 순서, 부족분 [채우기]) · 유형별 최대 < 짝이면 쌍둥이 우선",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T16:31",
-   "tool": "git",
-   "title": "feat(숙제 자료 의도): 원장 초안(취약 10적·Pathfinder·FRONTIER Ⅱ·별의 순간·T's View 목적)과 AI 초안 합침 ",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T15:01",
+ "data_at": "2026-11-24T15:13",
  "active_projects": [
   "ai-academy",
   "cnc-scoreboard-cf"
