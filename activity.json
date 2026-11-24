@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T00:21",
+     "ts": "2026-11-25T00:48",
      "tool": "claude",
      "title": "AI학원 피드백·등원 메시지 자동화"
     },
@@ -2028,7 +2028,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T00:21",
+   "ts": "2026-11-25T00:48",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
    "project": "ai-academy"
@@ -2178,7 +2178,7 @@
    "project": "family-bot"
   }
  ],
- "data_at": "2026-11-25T00:21",
+ "data_at": "2026-11-25T00:48",
  "active_projects": [
   "ai-academy"
  ]
