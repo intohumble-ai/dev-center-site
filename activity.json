@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T18:31",
+     "ts": "2026-11-24T19:26",
      "tool": "claude",
      "title": "AI학원 피드백·등원 메시지 자동화"
     },
@@ -148,11 +148,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T06:39",
+     "ts": "2026-11-24T19:27",
      "tool": "claude",
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,6 +2028,18 @@
  },
  "feed": [
   {
+   "ts": "2026-11-24T19:27",
+   "tool": "claude",
+   "title": "토스증권 AI 자동 매매 봇 시작점",
+   "project": "toss-stock-bot"
+  },
+  {
+   "ts": "2026-11-24T19:26",
+   "tool": "claude",
+   "title": "AI학원 피드백·등원 메시지 자동화",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-24T19:04",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
@@ -2038,12 +2050,6 @@
    "tool": "git",
    "title": "주간 보고: 리그 11/23 양식(인생강사상)·원본 칸 재해석 저장, 작성 원칙 v3, 한 번에 하는 절차서·전달 도구·견본",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-24T18:31",
-   "tool": "claude",
-   "title": "AI학원 피드백·등원 메시지 자동화",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-24T16:50",
@@ -2098,12 +2104,6 @@
    "tool": "git",
    "title": "fix(카톡 피드백): ★약속 '부모님께 알림'은 카톡이 실제로 나간 학생만 — [보내기 전 확인]에서는 링크에 넣은 약속 id만 적어 두고 보",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-24T06:39",
-   "tool": "claude",
-   "title": "토스증권 AI 자동 매매 봇 시작점",
-   "project": "toss-stock-bot"
   },
   {
    "ts": "2026-11-24T06:31",
@@ -2196,8 +2196,9 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-24T19:04",
+ "data_at": "2026-11-24T19:27",
  "active_projects": [
-  "cnc-scoreboard-cf"
+  "ai-academy",
+  "toss-stock-bot"
  ]
 }
