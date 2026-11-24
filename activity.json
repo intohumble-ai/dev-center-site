@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2181,6 +2181,6 @@
  ],
  "data_at": "2026-11-24T06:39",
  "active_projects": [
-  "toss-stock-bot"
+  "ai-academy"
  ]
 }
