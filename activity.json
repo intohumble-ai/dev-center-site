@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T20:19",
+     "ts": "2026-11-24T20:33",
      "tool": "claude",
      "title": "AI학원 피드백·등원 메시지 자동화"
     },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,7 +2028,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T20:19",
+   "ts": "2026-11-24T20:33",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
    "project": "ai-academy"
@@ -2188,17 +2188,10 @@
    "tool": "git",
    "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림",
    "project": "sector-dca-bot"
-  },
-  {
-   "ts": "2026-11-24T01:45",
-   "tool": "git",
-   "title": "fix(watchdog): 콜드감사 m-3 — bot='*' 경보가 정상일 때 자기 kind 해소",
-   "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-24T20:29",
+ "data_at": "2026-11-24T20:43",
  "active_projects": [
-  "ai-academy",
-  "toss-stock-bot"
+  "ai-academy"
  ]
 }
