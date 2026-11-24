@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 60,
    "timeline": [
     {
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2190,8 +2190,8 @@
    "project": "sector-dca-bot"
   }
  ],
- "data_at": "2026-11-24T20:53",
+ "data_at": "2026-11-24T21:03",
  "active_projects": [
-  "ai-academy"
+  "cnc-scoreboard-cf"
  ]
 }
