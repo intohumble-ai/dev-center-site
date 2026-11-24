@@ -10,9 +10,19 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T20:11",
+     "ts": "2026-11-24T20:19",
      "tool": "claude",
      "title": "AI학원 피드백·등원 메시지 자동화"
+    },
+    {
+     "ts": "2026-11-24T20:16",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
+    },
+    {
+     "ts": "2026-11-24T20:06",
+     "tool": "git",
+     "title": "개인 생활 관련 작업"
     },
     {
      "ts": "2026-11-24T16:50",
@@ -58,16 +68,6 @@
      "ts": "2026-11-24T13:54",
      "tool": "git",
      "title": "fix(카톡 피드백): ★약속 '부모님께 알림'은 카톡이 실제로 나간 학생만 — [보내기 전 확인]에서는 링크에 넣은 약속 id만 적어 두고 보"
-    },
-    {
-     "ts": "2026-11-24T00:35",
-     "tool": "git",
-     "title": "fix(T's View): 시험지 문제를 기출 번호순으로(1,2,3…·같은 번호는 최근 시험 먼저·짝 안 쌍둥이 먼저) — 매쓰플랫 글자순(10"
-    },
-    {
-     "ts": "2026-11-23T23:26",
-     "tool": "git",
-     "title": "fix(카톡 피드백): 감사 — 이미 [복사]한 학생은 기본 '오늘 받음'(그래도 다시 보내기로만) · 시작이 막혔으면 공유본 안 만듦 · 공유"
     }
    ]
   },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,9 +2028,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T20:11",
+   "ts": "2026-11-24T20:19",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-24T20:16",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-24T20:06",
+   "tool": "git",
+   "title": "개인 생활 관련 작업",
    "project": "ai-academy"
   },
   {
@@ -2182,23 +2194,10 @@
    "tool": "git",
    "title": "fix(watchdog): 콜드감사 m-3 — bot='*' 경보가 정상일 때 자기 kind 해소",
    "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-24T01:41",
-   "tool": "git",
-   "title": "fix(pentagon): 콜드감사 FAIL 재수리 — 흡수 매도 안전장치·거짓 안내 제거·야간 경보 히스테리시스·tp1 절대오차",
-   "project": "pentagon-bot"
-  },
-  {
-   "ts": "2026-11-24T01:29",
-   "tool": "git",
-   "title": "test(toss): 복사본 실데이터로 상세 페이지 렌더 1회(env 게이트 FIX1124_LIVE_DIR)",
-   "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-24T20:11",
+ "data_at": "2026-11-24T20:19",
  "active_projects": [
-  "ai-academy",
-  "cnc-scoreboard-cf"
+  "ai-academy"
  ]
 }
