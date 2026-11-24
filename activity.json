@@ -1308,7 +1308,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-12",
+   "last_day": "2026-11-24",
    "active_now": false,
    "commits": 15,
    "timeline": []
@@ -2190,7 +2190,7 @@
    "project": "sector-dca-bot"
   }
  ],
- "data_at": "2026-11-24T20:43",
+ "data_at": "2026-11-24T20:53",
  "active_projects": [
   "ai-academy"
  ]
