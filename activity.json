@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T20:00",
+     "ts": "2026-11-24T20:11",
      "tool": "claude",
      "title": "AI학원 피드백·등원 메시지 자동화"
     },
@@ -2028,7 +2028,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T20:00",
+   "ts": "2026-11-24T20:11",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
    "project": "ai-academy"
@@ -2196,7 +2196,7 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-24T20:00",
+ "data_at": "2026-11-24T20:11",
  "active_projects": [
   "ai-academy",
   "cnc-scoreboard-cf"
