@@ -219,11 +219,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T17:09",
+     "ts": "2026-11-24T17:52",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
     },
@@ -2023,16 +2023,16 @@
  },
  "feed": [
   {
+   "ts": "2026-11-24T17:52",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
    "ts": "2026-11-24T17:31",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-24T17:09",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
-   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-24T16:50",
@@ -2179,8 +2179,9 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T17:31",
+ "data_at": "2026-11-24T17:52",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "cnc-scoreboard-cf"
  ]
 }
