@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 60,
    "timeline": [
     {
@@ -223,7 +223,7 @@
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T17:52",
+     "ts": "2026-11-24T17:54",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
     },
@@ -2023,7 +2023,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T17:52",
+   "ts": "2026-11-24T17:54",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
    "project": "cnc-scoreboard-cf"
@@ -2179,9 +2179,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T17:52",
+ "data_at": "2026-11-24T17:54",
  "active_projects": [
-  "ai-academy",
   "cnc-scoreboard-cf"
  ]
 }
