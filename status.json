@@ -1,5 +1,5 @@
 {
- "data_at": "2026-11-24T18:31",
+ "data_at": "2026-11-24T19:04",
  "projects": {
   "ai-academy": {
    "id": "ai-academy",
@@ -75,7 +75,7 @@
   },
   "cnc-scoreboard-cf": {
    "id": "cnc-scoreboard-cf",
-   "last_commit": "2026-11-23",
+   "last_commit": "2026-11-24",
    "light": "gray"
   },
   "codex-coinbot-design": {
@@ -154,10 +154,10 @@
    "id": "family-bot",
    "service": "active",
    "log_error": false,
-   "last_commit": "2026-09-25",
+   "last_commit": "2026-11-24",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "fleet-data": {
    "id": "fleet-data",
@@ -254,7 +254,7 @@
   "picks-dca-bot": {
    "id": "picks-dca-bot",
    "service": "active",
-   "last_commit": "2026-09-25",
+   "last_commit": "2026-11-24",
    "light": "green",
    "db_tables": 26
   },
@@ -292,10 +292,10 @@
    "id": "sector-dca-bot",
    "service": "active",
    "log_error": false,
-   "last_commit": "2026-09-25",
+   "last_commit": "2026-11-24",
    "light": "green",
    "db_tables": 23,
-   "log_age": "오늘"
+   "log_age": "1시간 이내"
   },
   "toss-marketing-center": {
    "id": "toss-marketing-center",
@@ -306,7 +306,7 @@
    "id": "toss-stock-bot",
    "service": "active",
    "log_error": false,
-   "last_commit": "2026-11-10",
+   "last_commit": "2026-11-24",
    "light": "green",
    "db_tables": 0,
    "log_age": "1시간 이내"

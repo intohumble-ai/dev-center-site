@@ -157,6 +157,31 @@
      "title": "토스증권 AI 자동 매매 봇 시작점"
     },
     {
+     "ts": "2026-11-24T02:26",
+     "tool": "git",
+     "title": "test(managed): ④ 묵은 관측 회귀 테스트를 현재 시각 기준으로(뮤테이션 생존 수리)"
+    },
+    {
+     "ts": "2026-11-24T02:25",
+     "tool": "git",
+     "title": "fix(managed): 재감사 후속 — ④ 묵은 관측 판정 금지(UNKNOWN), 재질문 08:50 이후, DRY 가격 7일 상한, 회귀 테스"
+    },
+    {
+     "ts": "2026-11-24T02:09",
+     "tool": "git",
+     "title": "fix(managed): 콜드감사 반영 — 출금 질문 장치 오탐·맹점·이중기록·영구보류 수리"
+    },
+    {
+     "ts": "2026-11-24T01:26",
+     "tool": "git",
+     "title": "feat(managed): 출금 질문 장치(D)·삼중대사 현금④/UNKNOWN·캔들결측 평가 폴백·매수가능 min (T1 §5·P2-7·P2-8"
+    },
+    {
+     "ts": "2026-11-24T01:13",
+     "tool": "git",
+     "title": "fix(perf): 사용자 출금(OWNER_WITHDRAWAL)을 외부 현금흐름으로 + 흐름 시각 매핑 (T1 P1-2·P2-1·P2-3)"
+    },
+    {
      "ts": "2026-11-10T21:25",
      "tool": "git",
      "title": "docs: Claude Code용 CLAUDE.md 안내문 추가"
@@ -185,31 +210,6 @@
      "ts": "2026-09-24T15:52",
      "tool": "git",
      "title": "fix(managed): 3차 재감사 — '일시정지 휴식' 은 창 끝까지 일시정지였고 오늘 시도가 없을 때만"
-    },
-    {
-     "ts": "2026-09-24T15:47",
-     "tool": "git",
-     "title": "fix(managed): 재감사 P2-A — 일시정지 표식은 매매창 시간에만, 늦은 실행 전 성적표 보류, 일시정지일 표기"
-    },
-    {
-     "ts": "2026-09-24T15:36",
-     "tool": "git",
-     "title": "fix(managed): 콜드감사 반영 — 성적표 전 MISSED 판정·수익률 단일 정의(perf_v2 비교창)·일시정지 오보 제거"
-    },
-    {
-     "ts": "2026-09-24T15:22",
-     "tool": "git",
-     "title": "fix(managed): 전수감사 0924 — A5 누락사이클·M-02 성과정의·M-04 수수료·M-06 vanish·M-08·§2 격리"
-    },
-    {
-     "ts": "2026-09-15T19:01",
-     "tool": "git",
-     "title": "feat(bench): ○○이봇 벤치 V2 — 섀도 3중에 배정(ALLOCATION) 미러(워터마크·멱등·소급 없음), perf_v2(원화 TW"
-    },
-    {
-     "ts": "2026-09-15T13:17",
-     "tool": "git",
-     "title": "feat(fleet): ○○이봇 싱글턴 런타임 가드 + ext(§1.4) + attestation(§1.5) 발행 — 코어 6봇 계약 완성"
     }
    ]
   },
@@ -219,13 +219,18 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T17:54",
+     "ts": "2026-11-24T19:04",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
+    },
+    {
+     "ts": "2026-11-24T19:04",
+     "tool": "git",
+     "title": "주간 보고: 리그 11/23 양식(인생강사상)·원본 칸 재해석 저장, 작성 원칙 v3, 한 번에 하는 절차서·전달 도구·견본"
     },
     {
      "ts": "2026-11-23T20:41",
@@ -1109,10 +1114,20 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-25",
+   "last_day": "2026-11-24",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-24T02:39",
+     "tool": "git",
+     "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사"
+    },
+    {
+     "ts": "2026-11-24T01:51",
+     "tool": "git",
+     "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림"
+    },
     {
      "ts": "2026-09-25T13:39",
      "tool": "git",
@@ -1162,16 +1177,6 @@
      "ts": "2026-09-25T12:07",
      "tool": "git",
      "title": "feat(RV-02B family 8/8): 이행 대사 스크립트(mode=ro) — 4표+family 별표 존재·trades/positions/"
-    },
-    {
-     "ts": "2026-09-25T12:07",
-     "tool": "git",
-     "title": "test(RV-02B family 7/8): family 어댑터 하네스 + 중단점 표 전부 + 트랜치 복귀(D-4)·3회 상한·만기 강제·동결 "
-    },
-    {
-     "ts": "2026-09-25T12:00",
-     "tool": "git",
-     "title": "feat(RV-02B family 3~6/8): 주문 1건 T1/T2/T3 원자성·재전송 금지·_persist_cash LIVE 잠금 제거·확정"
     }
    ]
   },
@@ -1633,10 +1638,20 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-25",
+   "last_day": "2026-11-24",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-24T02:39",
+     "tool": "git",
+     "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사"
+    },
+    {
+     "ts": "2026-11-24T01:51",
+     "tool": "git",
+     "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림"
+    },
     {
      "ts": "2026-09-25T13:39",
      "tool": "git",
@@ -1686,16 +1701,6 @@
      "ts": "2026-09-25T11:59",
      "tool": "git",
      "title": "feat(RV-02B 2/7): ledger tx 헬퍼(BEGIN IMMEDIATE·중첩·rollback)·실행무결성 4표·CRUD·멱등 이행"
-    },
-    {
-     "ts": "2026-09-25T11:59",
-     "tool": "git",
-     "title": "feat(RV-02B 1/7): toss_client 주문 POST 불변조건 이식 — sector 9e7f258 과 byte 동일"
-    },
-    {
-     "ts": "2026-09-24T23:16",
-     "tool": "git",
-     "title": "fix(RV-02 3차 감사): 주문 접수 뒤 체결 조회 실패에도 잠금이 걸리게 한다"
     }
    ]
   },
@@ -1918,10 +1923,20 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-09-25",
+   "last_day": "2026-11-24",
    "active_now": false,
    "commits": 15,
    "timeline": [
+    {
+     "ts": "2026-11-24T02:39",
+     "tool": "git",
+     "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사"
+    },
+    {
+     "ts": "2026-11-24T01:51",
+     "tool": "git",
+     "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림"
+    },
     {
      "ts": "2026-09-25T13:39",
      "tool": "git",
@@ -1971,16 +1986,6 @@
      "ts": "2026-09-25T10:33",
      "tool": "git",
      "title": "fix(RV-02B): _live_orders — cursor 무시(같은 페이지 반복) 감지·주문번호 중복 제거"
-    },
-    {
-     "ts": "2026-09-25T10:32",
-     "tool": "git",
-     "title": "feat(RV-02B 8/8): 이행 대사 스크립트(mode=ro)·배포 절차·외부검토 반례 4종 실제 경로 테스트"
-    },
-    {
-     "ts": "2026-09-25T10:28",
-     "tool": "git",
-     "title": "feat(RV-02B 6/8): 텔레그램 읽기 명령 /근거 /재조회 /확인했음 (D-5: 금전 상태변경 0)"
     }
    ]
   },
@@ -2023,16 +2028,22 @@
  },
  "feed": [
   {
+   "ts": "2026-11-24T19:04",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
+   "ts": "2026-11-24T19:04",
+   "tool": "git",
+   "title": "주간 보고: 리그 11/23 양식(인생강사상)·원본 칸 재해석 저장, 작성 원칙 v3, 한 번에 하는 절차서·전달 도구·견본",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
    "ts": "2026-11-24T18:31",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-24T17:54",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
-   "project": "cnc-scoreboard-cf"
   },
   {
    "ts": "2026-11-24T16:50",
@@ -2101,6 +2112,36 @@
    "project": "palantir-center"
   },
   {
+   "ts": "2026-11-24T02:39",
+   "tool": "git",
+   "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
+   "project": "family-bot"
+  },
+  {
+   "ts": "2026-11-24T02:39",
+   "tool": "git",
+   "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
+   "project": "picks-dca-bot"
+  },
+  {
+   "ts": "2026-11-24T02:39",
+   "tool": "git",
+   "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
+   "project": "sector-dca-bot"
+  },
+  {
+   "ts": "2026-11-24T02:26",
+   "tool": "git",
+   "title": "test(managed): ④ 묵은 관측 회귀 테스트를 현재 시각 기준으로(뮤테이션 생존 수리)",
+   "project": "toss-stock-bot"
+  },
+  {
+   "ts": "2026-11-24T02:25",
+   "tool": "git",
+   "title": "fix(managed): 재감사 후속 — ④ 묵은 관측 판정 금지(UNKNOWN), 재질문 08:50 이후, DRY 가격 7일 상한, 회귀 테스",
+   "project": "toss-stock-bot"
+  },
+  {
    "ts": "2026-11-24T02:13",
    "tool": "git",
    "title": "fix(toss): dq 라벨 '배정·출금일 스냅샷 없음'(봇 perf_v2 와 동일)",
@@ -2109,8 +2150,32 @@
   {
    "ts": "2026-11-24T02:09",
    "tool": "git",
+   "title": "fix(managed): 콜드감사 반영 — 출금 질문 장치 오탐·맹점·이중기록·영구보류 수리",
+   "project": "toss-stock-bot"
+  },
+  {
+   "ts": "2026-11-24T02:09",
+   "tool": "git",
    "title": "test(isolation): dir_fd 상대경로를 그 폴더 기준으로 해석 — 재사용 basetemp 정리 시 '.env' 오탐 수리",
    "project": "pentagon-bot"
+  },
+  {
+   "ts": "2026-11-24T01:51",
+   "tool": "git",
+   "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림",
+   "project": "family-bot"
+  },
+  {
+   "ts": "2026-11-24T01:51",
+   "tool": "git",
+   "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림",
+   "project": "picks-dca-bot"
+  },
+  {
+   "ts": "2026-11-24T01:51",
+   "tool": "git",
+   "title": "fix(1124 감사 T2 팀B): 수량 청산·D-3 422 두 코드 미접수·주문 직후 재조회·자동 하향 폐지+질문 래치·상한 재알림",
+   "project": "sector-dca-bot"
   },
   {
    "ts": "2026-11-24T01:45",
@@ -2129,56 +2194,10 @@
    "tool": "git",
    "title": "test(toss): 복사본 실데이터로 상세 페이지 렌더 1회(env 게이트 FIX1124_LIVE_DIR)",
    "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-24T01:25",
-   "tool": "git",
-   "title": "fix(watchdog,weekly): 11/24 T3 — 로그인 해소가 지갑 경보를 닫던 버그·펜타곤 실패 인텐트 일 1회 요약·상관행렬 어댑",
-   "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-24T01:25",
-   "tool": "git",
-   "title": "fix(pentagon): 11/24 T3 감사 수리 — tp1 6자리·매도수량 공통 정규화·422 remain 분리·소프트월 남의 몫·심야 차",
-   "project": "pentagon-bot"
-  },
-  {
-   "ts": "2026-11-24T01:15",
-   "tool": "git",
-   "title": "fix(toss): 사용자 출금을 외부 현금흐름으로·시각 매핑·성과지수 낙폭 (T1 P1-2·P2-1·P2-2)",
-   "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-24T00:35",
-   "tool": "git",
-   "title": "fix(T's View): 시험지 문제를 기출 번호순으로(1,2,3…·같은 번호는 최근 시험 먼저·짝 안 쌍둥이 먼저) — 매쓰플랫 글자순(10",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T23:26",
-   "tool": "git",
-   "title": "fix(카톡 피드백): 감사 — 이미 [복사]한 학생은 기본 '오늘 받음'(그래도 다시 보내기로만) · 시작이 막혔으면 공유본 안 만듦 · 공유",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T23:20",
-   "tool": "git",
-   "title": "feat(수업 후 피드백): 카톡으로 보내기 — 학생 체크 → [보내기 전 확인] → N명에게 보내기 (11-23 원장)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T22:03",
-   "tool": "git",
-   "title": "fix(H형 보고서): 실전모의고사 표 빼기 (11-23 원장)",
-   "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-23T21:54",
-   "tool": "git",
-   "title": "fix(학부모 그래프): 감사 — 학부모 쪽 데이터에서 보정 전 값·비율 빼기 · 그날 전국 값 없는 학습지가 섞이면 전국 점 안 찍음",
-   "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T18:31",
- "active_projects": []
+ "data_at": "2026-11-24T19:04",
+ "active_projects": [
+  "cnc-scoreboard-cf"
+ ]
 }
