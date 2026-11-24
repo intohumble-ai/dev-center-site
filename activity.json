@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-24T16:04",
+     "ts": "2026-11-24T16:16",
      "tool": "claude",
      "title": "AI학원 피드백·등원 메시지 자동화"
     },
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2023,7 +2023,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-24T16:04",
+   "ts": "2026-11-24T16:16",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
    "project": "ai-academy"
@@ -2179,9 +2179,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-24T16:06",
+ "data_at": "2026-11-24T16:16",
  "active_projects": [
-  "ai-academy",
-  "cnc-scoreboard-cf"
+  "ai-academy"
  ]
 }
