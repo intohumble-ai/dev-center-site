@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T16:13",
+     "ts": "2026-11-25T16:23",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
+    },
+    {
+     "ts": "2026-11-25T16:20",
+     "tool": "git",
+     "title": "feat(원장 요청): 부탁 말투가 아니어도 원장 글이면 작성 요청으로 받기"
     },
     {
      "ts": "2026-11-25T15:40",
@@ -63,11 +68,6 @@
      "ts": "2026-11-24T16:18",
      "tool": "git",
      "title": "feat(1부·2부 한눈에): 반 칸에 등원 안내·피드백 [만들고 보내기] · 등원 임시 글 반·날짜별 칸 · 등원 탭 날짜 · 다른 반 보내는"
-    },
-    {
-     "ts": "2026-11-24T16:12",
-     "tool": "git",
-     "title": "fix(매쓰플랫 약점): 감사 — [복사] 상태인 글만 확정본(되돌리기·고쳐 저장 제외) · 시험 보고서 링크는 '알려 드린' 금지 별도 출처 "
     }
    ]
   },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,9 +2028,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T16:13",
+   "ts": "2026-11-25T16:23",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T16:20",
+   "tool": "git",
+   "title": "feat(원장 요청): 부탁 말투가 아니어도 원장 글이면 작성 요청으로 받기",
    "project": "ai-academy"
   },
   {
@@ -2130,12 +2136,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-24T15:48",
-   "tool": "git",
-   "title": "feat(반): 월수금 1부·2부 한눈에(/class-day) · 반 수업 시간 칸 · 예비중2반 설치 스크립트 · 기본 반 1부 우선 (11-",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-24T15:01",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2178,9 +2178,9 @@
    "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T16:13",
+ "data_at": "2026-11-25T16:23",
  "active_projects": [
   "ai-academy",
-  "cnc-scoreboard-cf"
+  "toss-stock-bot"
  ]
 }
