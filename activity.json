@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T16:23",
+     "ts": "2026-11-25T16:35",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
+    },
+    {
+     "ts": "2026-11-25T16:28",
+     "tool": "git",
+     "title": "feat(T's View): 유형 제한은 우리가 직접 거름 — 매쓰플랫에 limitProblemCountPerConcept 안 보냄"
     },
     {
      "ts": "2026-11-25T16:20",
@@ -63,11 +68,6 @@
      "ts": "2026-11-24T16:39",
      "tool": "git",
      "title": "fix(등원 안내): 감사 P1 — 반·날짜 바꾸면 글 비우고 그 칸 다시 읽기(덮어쓰기 없음) · 발송 칸은 같은 반·날짜 글만 · 서버 날짜"
-    },
-    {
-     "ts": "2026-11-24T16:18",
-     "tool": "git",
-     "title": "feat(1부·2부 한눈에): 반 칸에 등원 안내·피드백 [만들고 보내기] · 등원 임시 글 반·날짜별 칸 · 등원 탭 날짜 · 다른 반 보내는"
     }
    ]
   },
@@ -2028,9 +2028,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T16:23",
+   "ts": "2026-11-25T16:35",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T16:28",
+   "tool": "git",
+   "title": "feat(T's View): 유형 제한은 우리가 직접 거름 — 매쓰플랫에 limitProblemCountPerConcept 안 보냄",
    "project": "ai-academy"
   },
   {
@@ -2130,12 +2136,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-24T15:48",
-   "tool": "git",
-   "title": "feat(카톡): 등원 안내·수업 후 피드백 [만들고 보내기] — 확인 1번 후 N명에게 보내기, 기존 학생별 묶음 경로·안전장치 재사용 (11",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-24T15:01",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2178,7 +2178,7 @@
    "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T16:23",
+ "data_at": "2026-11-25T16:35",
  "active_projects": [
   "ai-academy",
   "toss-stock-bot"
