@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T16:35",
+     "ts": "2026-11-25T16:44",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
     },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,7 +2028,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T16:35",
+   "ts": "2026-11-25T16:44",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
    "project": "ai-academy"
@@ -2178,9 +2178,8 @@
    "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T16:35",
+ "data_at": "2026-11-25T16:44",
  "active_projects": [
-  "ai-academy",
-  "toss-stock-bot"
+  "ai-academy"
  ]
 }
