@@ -10,9 +10,19 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T16:44",
+     "ts": "2026-11-25T16:56",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
+    },
+    {
+     "ts": "2026-11-25T16:49",
+     "tool": "git",
+     "title": "fix(T's View): 화면 빌드 깨짐 수리 — tsview.ts 가 api(node:fs)를 값으로 가져오지 않게(로봇 확인은 오류 이름으"
+    },
+    {
+     "ts": "2026-11-25T16:48",
+     "tool": "git",
+     "title": "feat(T's View): 기출 전체 반영 — 번호당 1·2문제, 빠진 번호 자동으로 다시 받아 채우기"
     },
     {
      "ts": "2026-11-25T16:28",
@@ -58,16 +68,6 @@
      "ts": "2026-11-24T20:06",
      "tool": "git",
      "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-24T16:50",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-24T16:39",
-     "tool": "git",
-     "title": "fix(등원 안내): 감사 P1 — 반·날짜 바꾸면 글 비우고 그 칸 다시 읽기(덮어쓰기 없음) · 발송 칸은 같은 반·날짜 글만 · 서버 날짜"
     }
    ]
   },
@@ -2028,9 +2028,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T16:44",
+   "ts": "2026-11-25T16:56",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T16:49",
+   "tool": "git",
+   "title": "fix(T's View): 화면 빌드 깨짐 수리 — tsview.ts 가 api(node:fs)를 값으로 가져오지 않게(로봇 확인은 오류 이름으",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T16:48",
+   "tool": "git",
+   "title": "feat(T's View): 기출 전체 반영 — 번호당 1·2문제, 빠진 번호 자동으로 다시 받아 채우기",
    "project": "ai-academy"
   },
   {
@@ -2130,12 +2142,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-24T15:49",
-   "tool": "git",
-   "title": "feat(매쓰플랫): 학부모 피드백 '보완할 유형' → 자료 자동 범위('피드백에서 온 유형', 학생별 끄기) · 피드백·MM 약점 출처 한 줄",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-24T15:01",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2170,15 +2176,9 @@
    "tool": "git",
    "title": "test(managed): ④ 묵은 관측 회귀 테스트를 현재 시각 기준으로(뮤테이션 생존 수리)",
    "project": "toss-stock-bot"
-  },
-  {
-   "ts": "2026-11-24T02:25",
-   "tool": "git",
-   "title": "fix(managed): 재감사 후속 — ④ 묵은 관측 판정 금지(UNKNOWN), 재질문 08:50 이후, DRY 가격 7일 상한, 회귀 테스",
-   "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T16:44",
+ "data_at": "2026-11-25T16:56",
  "active_projects": [
   "ai-academy"
  ]
