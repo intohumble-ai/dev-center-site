@@ -1,14 +1,19 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 27,
-   "sessions_claude": 27,
+   "sessions": 28,
+   "sessions_claude": 28,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-25",
    "active_now": true,
    "commits": 60,
    "timeline": [
+    {
+     "ts": "2026-11-25T15:48",
+     "tool": "claude",
+     "title": "Lesson-intake 보고서 말미 지시문 반영"
+    },
     {
      "ts": "2026-11-25T15:40",
      "tool": "claude",
@@ -63,11 +68,6 @@
      "ts": "2026-11-24T16:12",
      "tool": "git",
      "title": "fix(매쓰플랫 약점): 감사 — [복사] 상태인 글만 확정본(되돌리기·고쳐 저장 제외) · 시험 보고서 링크는 '알려 드린' 금지 별도 출처 "
-    },
-    {
-     "ts": "2026-11-24T15:49",
-     "tool": "git",
-     "title": "feat(매쓰플랫): 학부모 피드백 '보완할 유형' → 자료 자동 범위('피드백에서 온 유형', 학생별 끄기) · 피드백·MM 약점 출처 한 줄"
     }
    ]
   },
@@ -2028,6 +2028,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-25T15:48",
+   "tool": "claude",
+   "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-25T15:40",
    "tool": "claude",
    "title": "AI학원 피드백·등원 메시지 자동화",
@@ -2170,15 +2176,9 @@
    "tool": "git",
    "title": "fix(managed): 재감사 후속 — ④ 묵은 관측 판정 금지(UNKNOWN), 재질문 08:50 이후, DRY 가격 7일 상한, 회귀 테스",
    "project": "toss-stock-bot"
-  },
-  {
-   "ts": "2026-11-24T02:13",
-   "tool": "git",
-   "title": "fix(toss): dq 라벨 '배정·출금일 스냅샷 없음'(봇 perf_v2 와 동일)",
-   "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-25T15:40",
+ "data_at": "2026-11-25T15:48",
  "active_projects": [
   "ai-academy"
  ]
