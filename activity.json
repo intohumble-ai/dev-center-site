@@ -218,12 +218,12 @@
    "sessions_claude": 1,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-24",
+   "last_day": "2026-11-25",
    "active_now": true,
    "commits": 15,
    "timeline": [
     {
-     "ts": "2026-11-24T19:04",
+     "ts": "2026-11-25T20:11",
      "tool": "claude",
      "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식"
     },
@@ -2028,6 +2028,12 @@
  },
  "feed": [
   {
+   "ts": "2026-11-25T20:11",
+   "tool": "claude",
+   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
+   "project": "cnc-scoreboard-cf"
+  },
+  {
    "ts": "2026-11-25T17:20",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
@@ -2125,12 +2131,6 @@
   },
   {
    "ts": "2026-11-24T19:04",
-   "tool": "claude",
-   "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
-   "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-24T19:04",
    "tool": "git",
    "title": "주간 보고: 리그 11/23 양식(인생강사상)·원본 칸 재해석 저장, 작성 원칙 v3, 한 번에 하는 절차서·전달 도구·견본",
    "project": "cnc-scoreboard-cf"
@@ -2178,7 +2178,7 @@
    "project": "sector-dca-bot"
   }
  ],
- "data_at": "2026-11-25T17:42",
+ "data_at": "2026-11-25T20:11",
  "active_projects": [
   "cnc-scoreboard-cf"
  ]
