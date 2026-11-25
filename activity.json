@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T16:03",
+     "ts": "2026-11-25T16:13",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
     },
@@ -2028,7 +2028,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T16:03",
+   "ts": "2026-11-25T16:13",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
    "project": "ai-academy"
@@ -2178,7 +2178,7 @@
    "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T16:03",
+ "data_at": "2026-11-25T16:13",
  "active_projects": [
   "ai-academy",
   "cnc-scoreboard-cf"
