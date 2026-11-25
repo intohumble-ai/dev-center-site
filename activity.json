@@ -462,20 +462,63 @@
     }
    ]
   },
+  "codex-coinbot-design": {
+   "sessions": 1,
+   "sessions_claude": 0,
+   "sessions_codex": 1,
+   "automated": 0,
+   "last_day": "2026-08-27",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-08-27T22:27",
+     "tool": "codex",
+     "title": "설계하기 수익형 자동 코인봇"
+    }
+   ]
+  },
+  "math-tutor-assistant": {
+   "sessions": 1,
+   "sessions_claude": 0,
+   "sessions_codex": 1,
+   "automated": 0,
+   "last_day": "2026-09-24",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-09-24T22:06",
+     "tool": "codex",
+     "title": "학원 업무 관리 봇 구축"
+    }
+   ]
+  },
+  "codex-remote": {
+   "sessions": 1,
+   "sessions_claude": 0,
+   "sessions_codex": 1,
+   "automated": 0,
+   "last_day": "2026-09-25",
+   "active_now": false,
+   "commits": 0,
+   "timeline": [
+    {
+     "ts": "2026-09-25T19:25",
+     "tool": "codex",
+     "title": "GPT 원격 실행 링크 만들기"
+    }
+   ]
+  },
   "toss-marketing-center": {
-   "sessions": 3,
-   "sessions_claude": 1,
+   "sessions": 2,
+   "sessions_claude": 0,
    "sessions_codex": 2,
    "automated": 1,
-   "last_day": "2026-10-26",
+   "last_day": "2026-10-15",
    "active_now": false,
    "commits": 15,
    "timeline": [
-    {
-     "ts": "2026-10-26T21:52",
-     "tool": "claude",
-     "title": "개인 생활 관련 작업"
-    },
     {
      "ts": "2026-10-15T13:29",
      "tool": "codex",
@@ -530,54 +573,11 @@
      "ts": "2026-10-10T11:02",
      "tool": "git",
      "title": "fix(ask): 물티슈 /ask peers from 33669 (human wipes), not 20353 (pet wipes)"
-    }
-   ]
-  },
-  "codex-coinbot-design": {
-   "sessions": 1,
-   "sessions_claude": 0,
-   "sessions_codex": 1,
-   "automated": 0,
-   "last_day": "2026-08-27",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
+    },
     {
-     "ts": "2026-08-27T22:27",
-     "tool": "codex",
-     "title": "설계하기 수익형 자동 코인봇"
-    }
-   ]
-  },
-  "math-tutor-assistant": {
-   "sessions": 1,
-   "sessions_claude": 0,
-   "sessions_codex": 1,
-   "automated": 0,
-   "last_day": "2026-09-24",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
-    {
-     "ts": "2026-09-24T22:06",
-     "tool": "codex",
-     "title": "학원 업무 관리 봇 구축"
-    }
-   ]
-  },
-  "codex-remote": {
-   "sessions": 1,
-   "sessions_claude": 0,
-   "sessions_codex": 1,
-   "automated": 0,
-   "last_day": "2026-09-25",
-   "active_now": false,
-   "commits": 0,
-   "timeline": [
-    {
-     "ts": "2026-09-25T19:25",
-     "tool": "codex",
-     "title": "GPT 원격 실행 링크 만들기"
+     "ts": "2026-10-10T03:44",
+     "tool": "git",
+     "title": "Restart plan 2026-10-10: one verdict post per day from verified comparisons only"
     }
    ]
   },
