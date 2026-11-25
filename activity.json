@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-25",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T17:20",
+     "ts": "2026-11-25T21:41",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
     },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,16 +2028,16 @@
  },
  "feed": [
   {
+   "ts": "2026-11-25T21:41",
+   "tool": "claude",
+   "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-25T20:11",
    "tool": "claude",
    "title": "씨앤씨 스코어보드 11월 3주차 보고서 양식",
    "project": "cnc-scoreboard-cf"
-  },
-  {
-   "ts": "2026-11-25T17:20",
-   "tool": "claude",
-   "title": "Lesson-intake 보고서 말미 지시문 반영",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-25T17:20",
@@ -2178,8 +2178,8 @@
    "project": "sector-dca-bot"
   }
  ],
- "data_at": "2026-11-25T20:11",
+ "data_at": "2026-11-25T21:41",
  "active_projects": [
-  "toss-stock-bot"
+  "ai-academy"
  ]
 }
