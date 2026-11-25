@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2178,9 +2178,8 @@
    "project": "sector-dca-bot"
   }
  ],
- "data_at": "2026-11-25T17:27",
+ "data_at": "2026-11-25T17:38",
  "active_projects": [
-  "ai-academy",
-  "toss-stock-bot"
+  "ai-academy"
  ]
 }
