@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T17:06",
+     "ts": "2026-11-25T17:17",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
+    },
+    {
+     "ts": "2026-11-25T17:12",
+     "tool": "git",
+     "title": "feat(T's View): 오늘 이미 만들었어도 빼지 않기 · 기출 전체 반영 빈 번호를 지난 기록으로 채우기"
     },
     {
      "ts": "2026-11-25T16:49",
@@ -61,11 +66,6 @@
     },
     {
      "ts": "2026-11-24T20:16",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
-    },
-    {
-     "ts": "2026-11-24T20:06",
      "tool": "git",
      "title": "개인 생활 관련 작업"
     }
@@ -219,7 +219,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2028,9 +2028,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T17:06",
+   "ts": "2026-11-25T17:17",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T17:12",
+   "tool": "git",
+   "title": "feat(T's View): 오늘 이미 만들었어도 빼지 않기 · 기출 전체 반영 빈 번호를 지난 기록으로 채우기",
    "project": "ai-academy"
   },
   {
@@ -2136,12 +2142,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-24T16:12",
-   "tool": "git",
-   "title": "fix(매쓰플랫 약점): 감사 — [복사] 상태인 글만 확정본(되돌리기·고쳐 저장 제외) · 시험 보고서 링크는 '알려 드린' 금지 별도 출처 ",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-24T15:01",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2178,9 +2178,8 @@
    "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T17:06",
+ "data_at": "2026-11-25T17:17",
  "active_projects": [
-  "ai-academy",
-  "cnc-scoreboard-cf"
+  "ai-academy"
  ]
 }
