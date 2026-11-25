@@ -10,9 +10,19 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-25T17:17",
+     "ts": "2026-11-25T17:20",
      "tool": "claude",
      "title": "Lesson-intake 보고서 말미 지시문 반영"
+    },
+    {
+     "ts": "2026-11-25T17:20",
+     "tool": "git",
+     "title": "docs(T's View 메모): 범위 밖 유형 안내 문구 — 원인 단정 않고, 효과 없는 '다시 받기' 조언 뺌(감사 P3)"
+    },
+    {
+     "ts": "2026-11-25T17:19",
+     "tool": "git",
+     "title": "fix(T's View 기출 전체 반영): 지난 기록 채우기 — 범위 안 후보가 없으면 범위 목록 밖 유형도 같은 기출 번호면 씀(메모로 알림)"
     },
     {
      "ts": "2026-11-25T17:12",
@@ -58,16 +68,6 @@
      "ts": "2026-11-25T01:19",
      "tool": "git",
      "title": "fix(지난 피드백 점검): 감사 — 문장마다 그 학생 근거와 겹침·날짜 대조(학생 바뀜 차단) · 확인 기록 없는 '확인했다' 경고 · 생성 "
-    },
-    {
-     "ts": "2026-11-25T00:53",
-     "tool": "git",
-     "title": "feat(수업 준비): 지난 피드백에서 이번에 점검할 것(AI 제안 2~3줄, 실제 나간 피드백 근거·원문 보기·캐시) · [✔ 오늘 확인함] "
-    },
-    {
-     "ts": "2026-11-24T20:16",
-     "tool": "git",
-     "title": "개인 생활 관련 작업"
     }
    ]
   },
@@ -148,7 +148,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-24",
-   "active_now": false,
+   "active_now": true,
    "commits": 15,
    "timeline": [
     {
@@ -2028,9 +2028,21 @@
  },
  "feed": [
   {
-   "ts": "2026-11-25T17:17",
+   "ts": "2026-11-25T17:20",
    "tool": "claude",
    "title": "Lesson-intake 보고서 말미 지시문 반영",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T17:20",
+   "tool": "git",
+   "title": "docs(T's View 메모): 범위 밖 유형 안내 문구 — 원인 단정 않고, 효과 없는 '다시 받기' 조언 뺌(감사 P3)",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-25T17:19",
+   "tool": "git",
+   "title": "fix(T's View 기출 전체 반영): 지난 기록 채우기 — 범위 안 후보가 없으면 범위 목록 밖 유형도 같은 기출 번호면 씀(메모로 알림)",
    "project": "ai-academy"
   },
   {
@@ -2136,12 +2148,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-24T16:18",
-   "tool": "git",
-   "title": "feat(1부·2부 한눈에): 반 칸에 등원 안내·피드백 [만들고 보내기] · 등원 임시 글 반·날짜별 칸 · 등원 탭 날짜 · 다른 반 보내는",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-24T15:01",
    "tool": "claude",
    "title": "AI학원 작업 이어하기",
@@ -2170,16 +2176,11 @@
    "tool": "git",
    "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
    "project": "sector-dca-bot"
-  },
-  {
-   "ts": "2026-11-24T02:26",
-   "tool": "git",
-   "title": "test(managed): ④ 묵은 관측 회귀 테스트를 현재 시각 기준으로(뮤테이션 생존 수리)",
-   "project": "toss-stock-bot"
   }
  ],
- "data_at": "2026-11-25T17:17",
+ "data_at": "2026-11-25T17:27",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "toss-stock-bot"
  ]
 }
