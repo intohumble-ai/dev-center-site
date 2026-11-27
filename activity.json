@@ -6,11 +6,11 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-27",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-27T21:34",
+     "ts": "2026-11-27T22:29",
      "tool": "claude",
      "title": "AI학원 학부모 피드백 톤 조정"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-27T21:34",
+   "ts": "2026-11-27T22:29",
    "tool": "claude",
    "title": "AI학원 학부모 피드백 톤 조정",
    "project": "ai-academy"
@@ -2157,6 +2157,8 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-27T22:00",
- "active_projects": []
+ "data_at": "2026-11-27T22:29",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
