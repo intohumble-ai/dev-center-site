@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-27T18:35",
+     "ts": "2026-11-27T18:44",
      "tool": "claude",
      "title": "AI학원 학부모 피드백 톤 조정"
     },
@@ -341,14 +341,19 @@
    ]
   },
   "upbit-auto-bot": {
-   "sessions": 3,
-   "sessions_claude": 3,
+   "sessions": 4,
+   "sessions_claude": 4,
    "sessions_codex": 0,
    "automated": 1,
-   "last_day": "2026-11-17",
-   "active_now": false,
+   "last_day": "2026-11-27",
+   "active_now": true,
    "commits": 7,
    "timeline": [
+    {
+     "ts": "2026-11-27T18:36",
+     "tool": "claude",
+     "title": "개인 생활 관련 작업"
+    },
     {
      "ts": "2026-11-17T22:40",
      "tool": "claude",
@@ -2013,10 +2018,16 @@
  },
  "feed": [
   {
-   "ts": "2026-11-27T18:35",
+   "ts": "2026-11-27T18:44",
    "tool": "claude",
    "title": "AI학원 학부모 피드백 톤 조정",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-27T18:36",
+   "tool": "claude",
+   "title": "개인 생활 관련 작업",
+   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-27T18:30",
@@ -2155,16 +2166,11 @@
    "tool": "git",
    "title": "merge: 11/24 A — ○○이 사장 인출(OWNER_WITHDRAWAL) 반영 벤치·손익추이·분석",
    "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-24T02:39",
-   "tool": "git",
-   "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
-   "project": "family-bot"
   }
  ],
- "data_at": "2026-11-27T18:35",
+ "data_at": "2026-11-27T18:44",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
