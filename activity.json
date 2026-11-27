@@ -10,9 +10,14 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-27T21:25",
+     "ts": "2026-11-27T21:34",
      "tool": "claude",
      "title": "AI학원 학부모 피드백 톤 조정"
+    },
+    {
+     "ts": "2026-11-27T21:33",
+     "tool": "git",
+     "title": "feat(11-27 원칙화): 《TSCODE》 줄 '학교 내신 +20 예상' 결정적 맞춤·시험 설명 규칙 · T's View 22개정+15개정 "
     },
     {
      "ts": "2026-11-27T21:17",
@@ -63,11 +68,6 @@
      "ts": "2026-11-25T16:48",
      "tool": "git",
      "title": "feat(T's View): 기출 전체 반영 — 번호당 1·2문제, 빠진 번호 자동으로 다시 받아 채우기"
-    },
-    {
-     "ts": "2026-11-25T16:28",
-     "tool": "git",
-     "title": "feat(T's View): 유형 제한은 우리가 직접 거름 — 매쓰플랫에 limitProblemCountPerConcept 안 보냄"
     }
    ]
   },
@@ -2013,9 +2013,15 @@
  },
  "feed": [
   {
-   "ts": "2026-11-27T21:25",
+   "ts": "2026-11-27T21:34",
    "tool": "claude",
    "title": "AI학원 학부모 피드백 톤 조정",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-27T21:33",
+   "tool": "git",
+   "title": "feat(11-27 원칙화): 《TSCODE》 줄 '학교 내신 +20 예상' 결정적 맞춤·시험 설명 규칙 · T's View 22개정+15개정 ",
    "project": "ai-academy"
   },
   {
@@ -2127,12 +2133,6 @@
    "project": "ai-academy"
   },
   {
-   "ts": "2026-11-24T20:16",
-   "tool": "git",
-   "title": "개인 생활 관련 작업",
-   "project": "ai-academy"
-  },
-  {
    "ts": "2026-11-24T19:27",
    "tool": "claude",
    "title": "토스증권 AI 자동 매매 봇 시작점",
@@ -2157,7 +2157,7 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-27T21:25",
+ "data_at": "2026-11-27T21:34",
  "active_projects": [
   "ai-academy"
  ]
