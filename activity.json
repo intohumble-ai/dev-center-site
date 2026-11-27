@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-27T20:22",
+     "ts": "2026-11-27T20:27",
      "tool": "claude",
      "title": "AI학원 학부모 피드백 톤 조정"
     },
@@ -346,11 +346,11 @@
    "sessions_codex": 0,
    "automated": 1,
    "last_day": "2026-11-27",
-   "active_now": false,
+   "active_now": true,
    "commits": 7,
    "timeline": [
     {
-     "ts": "2026-11-27T18:36",
+     "ts": "2026-11-27T20:25",
      "tool": "claude",
      "title": "개인 생활 관련 작업"
     },
@@ -2018,22 +2018,22 @@
  },
  "feed": [
   {
-   "ts": "2026-11-27T20:22",
+   "ts": "2026-11-27T20:27",
    "tool": "claude",
    "title": "AI학원 학부모 피드백 톤 조정",
    "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-27T20:25",
+   "tool": "claude",
+   "title": "개인 생활 관련 작업",
+   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-27T19:01",
    "tool": "git",
    "title": "feat(학부모 피드백): 정성 6 : 정량 4 — 아이 모습 중심으로, 숫자는 근거로(원장 11-27)",
    "project": "ai-academy"
-  },
-  {
-   "ts": "2026-11-27T18:36",
-   "tool": "claude",
-   "title": "개인 생활 관련 작업",
-   "project": "upbit-auto-bot"
   },
   {
    "ts": "2026-11-27T18:30",
@@ -2168,8 +2168,9 @@
    "project": "palantir-center"
   }
  ],
- "data_at": "2026-11-27T20:22",
+ "data_at": "2026-11-27T20:27",
  "active_projects": [
-  "ai-academy"
+  "ai-academy",
+  "upbit-auto-bot"
  ]
 }
