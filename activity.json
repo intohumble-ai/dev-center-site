@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-27T17:11",
+     "ts": "2026-11-27T17:20",
      "tool": "claude",
      "title": "에이학원 링크"
     },
@@ -2013,7 +2013,7 @@
  },
  "feed": [
   {
-   "ts": "2026-11-27T17:11",
+   "ts": "2026-11-27T17:20",
    "tool": "claude",
    "title": "에이학원 링크",
    "project": "ai-academy"
@@ -2163,7 +2163,7 @@
    "project": "picks-dca-bot"
   }
  ],
- "data_at": "2026-11-27T17:11",
+ "data_at": "2026-11-27T17:20",
  "active_projects": [
   "ai-academy"
  ]
