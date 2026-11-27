@@ -1,8 +1,8 @@
 {
  "projects": {
   "ai-academy": {
-   "sessions": 27,
-   "sessions_claude": 27,
+   "sessions": 28,
+   "sessions_claude": 28,
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-27",
@@ -10,7 +10,12 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-27T18:21",
+     "ts": "2026-11-27T18:35",
+     "tool": "claude",
+     "title": "AI학원 학부모 피드백 톤 조정"
+    },
+    {
+     "ts": "2026-11-27T18:30",
      "tool": "claude",
      "title": "에이학원 링크"
     },
@@ -63,11 +68,6 @@
      "ts": "2026-11-25T02:00",
      "tool": "git",
      "title": "fix(지난 피드백 점검): 근거 구절에 한글 4자 이상(날짜만인 구절 통과 막음, 3차 감사 P3-b)"
-    },
-    {
-     "ts": "2026-11-25T01:45",
-     "tool": "git",
-     "title": "fix(지난 피드백 점검): 재감사 — 문장마다 그 학생 글에서 그대로 옮긴 근거 구절(8자↑, 다른 학생 글엔 없음)만 통과 · 화면에 근거 "
     }
    ]
   },
@@ -2013,7 +2013,13 @@
  },
  "feed": [
   {
-   "ts": "2026-11-27T18:21",
+   "ts": "2026-11-27T18:35",
+   "tool": "claude",
+   "title": "AI학원 학부모 피드백 톤 조정",
+   "project": "ai-academy"
+  },
+  {
+   "ts": "2026-11-27T18:30",
    "tool": "claude",
    "title": "에이학원 링크",
    "project": "ai-academy"
@@ -2155,15 +2161,9 @@
    "tool": "git",
    "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
    "project": "family-bot"
-  },
-  {
-   "ts": "2026-11-24T02:39",
-   "tool": "git",
-   "title": "fix(1124 재감사 2차): 조회 장애 시 재조회 즉시 중단·세션 총시간 상한 60초, 검산 줄 배선 테스트, 스크립트 멱등·재개 수량 검사",
-   "project": "picks-dca-bot"
   }
  ],
- "data_at": "2026-11-27T18:21",
+ "data_at": "2026-11-27T18:35",
  "active_projects": [
   "ai-academy"
  ]
