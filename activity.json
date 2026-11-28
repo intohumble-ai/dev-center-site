@@ -10,7 +10,7 @@
    "commits": 60,
    "timeline": [
     {
-     "ts": "2026-11-28T17:18",
+     "ts": "2026-11-28T17:32",
      "tool": "claude",
      "title": "AI학원 학부모 피드백 톤 조정"
     },
@@ -407,7 +407,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-28",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2013,16 +2013,16 @@
  },
  "feed": [
   {
+   "ts": "2026-11-28T17:32",
+   "tool": "claude",
+   "title": "AI학원 학부모 피드백 톤 조정",
+   "project": "ai-academy"
+  },
+  {
    "ts": "2026-11-28T17:20",
    "tool": "claude",
    "title": "봇 함대 심박 끊김 경보",
    "project": "palantir-center"
-  },
-  {
-   "ts": "2026-11-28T17:18",
-   "tool": "claude",
-   "title": "AI학원 학부모 피드백 톤 조정",
-   "project": "ai-academy"
   },
   {
    "ts": "2026-11-28T16:28",
@@ -2157,9 +2157,8 @@
    "project": "ai-academy"
   }
  ],
- "data_at": "2026-11-28T17:20",
+ "data_at": "2026-11-28T17:32",
  "active_projects": [
-  "ai-academy",
-  "palantir-center"
+  "ai-academy"
  ]
 }
