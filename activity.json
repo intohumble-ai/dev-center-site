@@ -6,7 +6,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-28",
-   "active_now": false,
+   "active_now": true,
    "commits": 60,
    "timeline": [
     {
@@ -1277,7 +1277,7 @@
    "sessions_claude": 0,
    "sessions_codex": 0,
    "automated": 0,
-   "last_day": "2026-11-22",
+   "last_day": "2026-11-29",
    "active_now": false,
    "commits": 15,
    "timeline": [
@@ -2157,6 +2157,8 @@
    "project": "family-bot"
   }
  ],
- "data_at": "2026-11-28T19:07",
- "active_projects": []
+ "data_at": "2026-11-29T04:45",
+ "active_projects": [
+  "ai-academy"
+ ]
 }
