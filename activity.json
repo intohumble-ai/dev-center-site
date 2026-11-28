@@ -407,7 +407,7 @@
    "sessions_codex": 0,
    "automated": 0,
    "last_day": "2026-11-28",
-   "active_now": true,
+   "active_now": false,
    "commits": 15,
    "timeline": [
     {
@@ -2158,7 +2158,5 @@
   }
  ],
  "data_at": "2026-11-28T19:07",
- "active_projects": [
-  "palantir-center"
- ]
+ "active_projects": []
 }
